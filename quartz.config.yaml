@@ -94,6 +94,8 @@ plugins:
     options:
       enableSiteMap: true
       enableRSS: true
+  - source: github:quartz-community/alias-redirects
+    enabled: true
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image

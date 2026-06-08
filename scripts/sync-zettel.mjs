@@ -4,6 +4,10 @@ import YAML from "yaml"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
 const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
+const homepageSource = path.join(
+  vaultRoot,
+  "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md",
+)
 const contentRoot = path.join(process.cwd(), "content")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
 const publishMode = process.env.PUBLISH_MODE || "curated"
@@ -106,14 +110,17 @@ function excerpt(text) {
     .slice(0, 220)
 }
 
-function frontmatter(title, sourcePath, graphLinks = [], unlisted = false) {
+function frontmatter(title, sourcePath, graphLinks = [], aliases = []) {
   const lines = [
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
     "publish: true",
   ]
-  if (unlisted) lines.push("unlisted: true")
+  if (aliases.length) {
+    lines.push("aliases:")
+    for (const alias of aliases) lines.push(`  - "${alias.replaceAll('"', '\\"')}"`)
+  }
   if (graphLinks.length) {
     lines.push("graphLinks:")
     for (const link of graphLinks) lines.push(`  - "[[${link.replaceAll('"', '\\"')}]]"`)
@@ -123,14 +130,12 @@ function frontmatter(title, sourcePath, graphLinks = [], unlisted = false) {
 }
 
 function folderIndex(relDir, notes) {
-  const title = relDir ? relDir.split(path.sep).at(-1) : "Zettelkasten"
+  const title = relDir.split(path.sep).at(-1)
   return [
-    frontmatter(title, relDir || "LLM Wiki/notes/zettel", [], !relDir),
+    frontmatter(title, relDir),
     `# ${title}`,
     "",
-    relDir
-      ? "Diese Seite sammelt die Zettel aus diesem Themenbereich."
-      : "Dies ist die Quartz-Version des Zettelkastens aus `LLM Wiki/notes/zettel`.",
+    "Diese Seite sammelt die Zettel aus diesem Themenbereich.",
     "",
     "## Notizen",
     "",
@@ -143,6 +148,7 @@ await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
 
 const files = await walk(zettelRoot)
+if (!files.includes(homepageSource)) files.push(homepageSource)
 const rawNotes = []
 let skipped = 0
 for (const file of files) {
@@ -152,7 +158,7 @@ for (const file of files) {
     skipped += 1
     continue
   }
-  const rel = path.relative(zettelRoot, file)
+  const rel = file === homepageSource ? path.basename(file) : path.relative(zettelRoot, file)
   rawNotes.push({
     file,
     rel,
@@ -186,7 +192,11 @@ for (const note of rawNotes) {
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
   ]
-  await writeFile(out, frontmatter(note.title, sourcePath, graphLinks) + body.trim() + "\n")
+  const aliases = note.file === homepageSource ? ["index"] : []
+  await writeFile(
+    out,
+    frontmatter(note.title, sourcePath, graphLinks, aliases) + body.trim() + "\n",
+  )
 }
 
 const folders = new Map()
@@ -194,14 +204,6 @@ for (const note of rawNotes) {
   if (!folders.has(note.relDir)) folders.set(note.relDir, [])
   folders.get(note.relDir).push(note)
 }
-
-await writeFile(
-  path.join(contentRoot, "index.md"),
-  folderIndex(
-    "",
-    rawNotes.sort((a, b) => a.title.localeCompare(b.title, "de")),
-  ),
-)
 
 for (const [relDir, notes] of folders) {
   if (!relDir) continue
