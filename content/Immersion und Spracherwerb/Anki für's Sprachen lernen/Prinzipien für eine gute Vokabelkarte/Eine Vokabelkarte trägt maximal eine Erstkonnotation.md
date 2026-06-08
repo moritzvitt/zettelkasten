@@ -1,6 +1,7 @@
 ---
 title: "Eine Vokabelkarte trägt maximal eine Erstkonnotation"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation.md"
+publish: true
 tags:
   - zettel
 ---

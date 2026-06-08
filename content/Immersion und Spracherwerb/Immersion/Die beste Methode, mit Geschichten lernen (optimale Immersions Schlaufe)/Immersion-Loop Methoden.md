@@ -1,6 +1,7 @@
 ---
 title: "Immersion-Loop Methoden"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Cloze Notiztyp für maximale Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Kommunikation"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Kommunikation.md"
+publish: true
 tags:
   - zettel
 ---

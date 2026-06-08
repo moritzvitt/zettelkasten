@@ -1,6 +1,7 @@
 ---
 title: "Sprache als Teilnahme an einem Informationsnetzwerk"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Eine Kultur lernen.md"
+publish: true
 tags:
   - zettel
 ---

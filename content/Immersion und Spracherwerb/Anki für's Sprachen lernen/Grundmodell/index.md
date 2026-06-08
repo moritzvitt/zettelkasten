@@ -1,6 +1,7 @@
 ---
 title: "Grundmodell"
 source: "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell"
+publish: true
 tags:
   - zettel
 ---

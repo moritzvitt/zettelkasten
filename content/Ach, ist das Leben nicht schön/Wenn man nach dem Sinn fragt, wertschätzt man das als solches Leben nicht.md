@@ -1,6 +1,7 @@
 ---
 title: "Wenn man nach dem Sinn fragt, wertschätzt man das als solches Leben nicht"
 source: "LLM Wiki/notes/zettel/Ach, ist das Leben nicht schön/Wenn man nach dem Sinn fragt, wertschätzt man das als solches Leben nicht.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Kommunikationsmittel"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Kommunikationsmittel.md"
+publish: true
 tags:
   - zettel
 ---

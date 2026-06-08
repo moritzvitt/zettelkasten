@@ -1,6 +1,7 @@
 ---
 title: "Information verbindet mehr als sie abbildet"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Information verbindet mehr als sie abbildet.md"
+publish: true
 tags:
   - zettel
 ---

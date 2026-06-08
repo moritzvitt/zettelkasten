@@ -1,6 +1,7 @@
 ---
 title: "Anki und das Problem der Gewichtung von Bedeutungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der Gewichtung von Bedeutungen.md"
+publish: true
 tags:
   - zettel
 ---

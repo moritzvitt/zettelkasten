@@ -1,6 +1,7 @@
 ---
 title: "Institutionen einer Kultur"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Institutionen einer Kultur.md"
+publish: true
 tags:
   - zettel
 ---

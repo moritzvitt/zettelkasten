@@ -1,10 +1,12 @@
 import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
 import path from "node:path"
+import YAML from "yaml"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
-const zettelRoot = path.join(vaultRoot, "LLM Wiki/notes/zettel")
+const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
 const contentRoot = path.join(process.cwd(), "content")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
+const publishMode = process.env.PUBLISH_MODE || "curated"
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true })
@@ -19,6 +21,30 @@ async function walk(dir) {
 
 function stripFrontmatter(text) {
   return text.replace(/^---\n[\s\S]*?\n---\n?/, "")
+}
+
+function frontmatterData(text) {
+  const match = text.match(/^---\n([\s\S]*?)\n---\n?/)
+  if (!match) return {}
+  try {
+    return YAML.parse(match[1]) || {}
+  } catch {
+    return {}
+  }
+}
+
+function isTruthy(value) {
+  return value === true || value === "true" || value === "yes" || value === 1
+}
+
+function isFalsey(value) {
+  return value === false || value === "false" || value === "no" || value === 0
+}
+
+function shouldPublish(data) {
+  if (isTruthy(data.draft) || isFalsey(data.publish) || isFalsey(data["dg-publish"])) return false
+  if (publishMode === "explicit") return isTruthy(data.publish) || isTruthy(data["dg-publish"])
+  return true
 }
 
 function titleFrom(file, text) {
@@ -60,7 +86,10 @@ function allWikiLinks(text) {
 function excerpt(text) {
   return stripFrontmatter(text)
     .replace(/%%[\s\S]*?%%/g, "")
-    .replace(/\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g, (_, target, label) => label || cleanTitle(target))
+    .replace(
+      /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
+      (_, target, label) => label || cleanTitle(target),
+    )
     .replace(/^#+\s+/gm, "")
     .split("\n")
     .map((line) => line.trim())
@@ -94,6 +123,7 @@ function frontmatter(title, sourcePath) {
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
+    "publish: true",
     "tags:",
     "  - zettel",
     "---",
@@ -123,8 +153,14 @@ await mkdir(contentRoot, { recursive: true })
 
 const files = await walk(zettelRoot)
 const rawNotes = []
+let skipped = 0
 for (const file of files) {
   const text = await readFile(file, "utf8")
+  const data = frontmatterData(text)
+  if (!shouldPublish(data)) {
+    skipped += 1
+    continue
+  }
   const rel = path.relative(zettelRoot, file)
   rawNotes.push({
     file,
@@ -139,11 +175,15 @@ for (const file of files) {
 }
 
 const titleToTitle = new Map(rawNotes.map((note) => [cleanTitle(note.title), note.title]))
-const stemToTitle = new Map(rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), note.title]))
-const resolve = (target) => titleToTitle.get(cleanTitle(target)) || stemToTitle.get(cleanTitle(target)) || null
+const stemToTitle = new Map(
+  rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), note.title]),
+)
+const resolve = (target) =>
+  titleToTitle.get(cleanTitle(target)) || stemToTitle.get(cleanTitle(target)) || null
 
 for (const note of rawNotes) {
-  for (const name of relationNames) note.relations[name] = [...new Set(note.relations[name].map(resolve).filter(Boolean))]
+  for (const name of relationNames)
+    note.relations[name] = [...new Set(note.relations[name].map(resolve).filter(Boolean))]
   note.wikiLinks = [...new Set(note.wikiLinks.map(resolve).filter(Boolean))]
 }
 
@@ -152,7 +192,10 @@ for (const note of rawNotes) {
   await mkdir(path.dirname(out), { recursive: true })
   const body = stripFrontmatter(note.text)
   const sourcePath = path.relative(vaultRoot, note.file)
-  await writeFile(out, frontmatter(note.title, sourcePath) + body.trim() + "\n" + structureBlock(note))
+  await writeFile(
+    out,
+    frontmatter(note.title, sourcePath) + body.trim() + "\n" + structureBlock(note),
+  )
 }
 
 const folders = new Map()
@@ -163,14 +206,24 @@ for (const note of rawNotes) {
 
 await writeFile(
   path.join(contentRoot, "index.md"),
-  folderIndex("", rawNotes.sort((a, b) => a.title.localeCompare(b.title, "de"))),
+  folderIndex(
+    "",
+    rawNotes.sort((a, b) => a.title.localeCompare(b.title, "de")),
+  ),
 )
 
 for (const [relDir, notes] of folders) {
   if (!relDir) continue
   const out = path.join(contentRoot, relDir, "index.md")
   await mkdir(path.dirname(out), { recursive: true })
-  await writeFile(out, folderIndex(relDir, notes.sort((a, b) => a.title.localeCompare(b.title, "de"))))
+  await writeFile(
+    out,
+    folderIndex(
+      relDir,
+      notes.sort((a, b) => a.title.localeCompare(b.title, "de")),
+    ),
+  )
 }
 
 console.log(`Synced ${rawNotes.length} zettel notes into ${contentRoot}`)
+if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)

@@ -1,6 +1,7 @@
 ---
 title: "The LLM in my brain"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/The LLM in my brain.md"
+publish: true
 tags:
   - zettel
 ---

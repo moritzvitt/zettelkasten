@@ -17,5 +17,7 @@ try {
   await writeFile(path.join(root, "index.ts"), `${lines.join("\n")}\n`)
   console.log(`Ensured Quartz plugin index for ${plugins.length} plugins`)
 } catch (error) {
-  console.warn(`Could not ensure Quartz plugin index: ${error instanceof Error ? error.message : String(error)}`)
+  console.warn(
+    `Could not ensure Quartz plugin index: ${error instanceof Error ? error.message : String(error)}`,
+  )
 }

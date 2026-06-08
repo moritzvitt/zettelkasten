@@ -1,6 +1,7 @@
 ---
 title: "Kultur als Informationsnetzwerk"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Kultur als Informationsnetzwerk.md"
+publish: true
 tags:
   - zettel
 ---

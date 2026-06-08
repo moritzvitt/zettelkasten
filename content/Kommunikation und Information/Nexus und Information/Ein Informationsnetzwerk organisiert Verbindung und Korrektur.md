@@ -1,6 +1,7 @@
 ---
 title: "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Ein Informationsnetzwerk organisiert Verbindung und Korrektur.md"
+publish: true
 tags:
   - zettel
 ---

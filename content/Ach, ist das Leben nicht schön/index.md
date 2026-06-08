@@ -1,6 +1,7 @@
 ---
 title: "Ach, ist das Leben nicht schön"
 source: "Ach, ist das Leben nicht schön"
+publish: true
 tags:
   - zettel
 ---

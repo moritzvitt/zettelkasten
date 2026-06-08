@@ -1,6 +1,7 @@
 ---
 title: "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand."
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand..md"
+publish: true
 tags:
   - zettel
 ---

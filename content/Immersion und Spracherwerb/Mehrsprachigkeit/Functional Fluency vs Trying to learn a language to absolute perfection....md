@@ -1,6 +1,7 @@
 ---
 title: "Functional Fluency vs Trying to learn a language to absolute perfection..."
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency vs Trying to learn a language to absolute perfection....md"
+publish: true
 tags:
   - zettel
 ---

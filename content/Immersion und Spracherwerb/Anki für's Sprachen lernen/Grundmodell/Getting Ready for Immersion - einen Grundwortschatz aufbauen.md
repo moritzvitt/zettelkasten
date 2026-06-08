@@ -1,6 +1,7 @@
 ---
 title: "Getting Ready for Immersion - einen Grundwortschatz aufbauen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Getting Ready for Immersion - einen Grundwortschatz aufbauen.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Shadowing"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Shadowing.md"
+publish: true
 tags:
   - zettel
 ---

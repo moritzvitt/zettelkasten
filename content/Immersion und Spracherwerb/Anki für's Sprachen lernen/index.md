@@ -1,6 +1,7 @@
 ---
 title: "Anki für's Sprachen lernen"
 source: "Immersion und Spracherwerb/Anki für's Sprachen lernen"
+publish: true
 tags:
   - zettel
 ---

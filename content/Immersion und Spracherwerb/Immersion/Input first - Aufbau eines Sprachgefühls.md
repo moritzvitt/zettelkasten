@@ -1,6 +1,7 @@
 ---
 title: "Input first - Aufbau eines Sprachgefühls"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Input first - Aufbau eines Sprachgefühls.md"
+publish: true
 tags:
   - zettel
 ---

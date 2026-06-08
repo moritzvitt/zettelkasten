@@ -1,6 +1,7 @@
 ---
 title: "Kommunikation und Information"
 source: "Kommunikation und Information"
+publish: true
 tags:
   - zettel
 ---

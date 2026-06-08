@@ -1,6 +1,7 @@
 ---
 title: "Anki alleine wird mit wachsendem Wortschatz ineffizient"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki alleine wird mit wachsendem Wortschatz ineffizient.md"
+publish: true
 tags:
   - zettel
 ---

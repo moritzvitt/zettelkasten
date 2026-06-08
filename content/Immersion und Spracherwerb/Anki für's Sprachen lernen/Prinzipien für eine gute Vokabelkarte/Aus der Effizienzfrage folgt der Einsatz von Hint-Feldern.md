@@ -1,6 +1,7 @@
 ---
 title: "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern.md"
+publish: true
 tags:
   - zettel
 ---

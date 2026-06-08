@@ -1,6 +1,7 @@
 ---
 title: "Einsprachigkeit der Erfahrung verdichtet Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion.md"
+publish: true
 tags:
   - zettel
 ---

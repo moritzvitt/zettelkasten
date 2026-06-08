@@ -1,6 +1,7 @@
 ---
 title: "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1.md"
+publish: true
 tags:
   - zettel
 ---

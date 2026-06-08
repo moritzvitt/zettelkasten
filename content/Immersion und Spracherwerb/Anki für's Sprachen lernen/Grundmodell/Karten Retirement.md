@@ -1,6 +1,7 @@
 ---
 title: "Card Retirement"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Karten Retirement.md"
+publish: true
 tags:
   - zettel
 ---

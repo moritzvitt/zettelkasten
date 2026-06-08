@@ -1,6 +1,7 @@
 ---
 title: "Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion.md"
+publish: true
 tags:
   - zettel
 ---

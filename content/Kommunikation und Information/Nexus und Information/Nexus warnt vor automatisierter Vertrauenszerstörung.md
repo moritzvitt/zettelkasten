@@ -1,6 +1,7 @@
 ---
 title: "Nexus warnt vor automatisierter Vertrauenszerstörung"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus warnt vor automatisierter Vertrauenszerstörung.md"
+publish: true
 tags:
   - zettel
 ---

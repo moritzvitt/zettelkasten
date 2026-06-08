@@ -1,6 +1,7 @@
 ---
 title: "Scheduling Probleme durch Überschneidungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen.md"
+publish: true
 tags:
   - zettel
 ---

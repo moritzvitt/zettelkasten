@@ -1,6 +1,7 @@
 ---
 title: "Nexus und Information"
 source: "Kommunikation und Information/Nexus und Information"
+publish: true
 tags:
   - zettel
 ---

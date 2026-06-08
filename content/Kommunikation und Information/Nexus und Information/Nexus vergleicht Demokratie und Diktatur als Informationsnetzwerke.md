@@ -1,6 +1,7 @@
 ---
 title: "Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke.md"
+publish: true
 tags:
   - zettel
 ---

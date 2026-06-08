@@ -1,6 +1,7 @@
 ---
 title: "Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit.md"
+publish: true
 tags:
   - zettel
 ---

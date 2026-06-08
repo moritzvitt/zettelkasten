@@ -1,6 +1,7 @@
 ---
 title: "Nexus trennt Information von Wahrheit"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus trennt Information von Wahrheit.md"
+publish: true
 tags:
   - zettel
 ---

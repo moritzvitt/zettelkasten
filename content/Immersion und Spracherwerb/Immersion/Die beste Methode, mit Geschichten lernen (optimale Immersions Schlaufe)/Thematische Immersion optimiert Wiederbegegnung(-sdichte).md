@@ -1,6 +1,7 @@
 ---
 title: "Thematische Immersion optimiert Wiederbegegnung(-sdichte)"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte).md"
+publish: true
 tags:
   - zettel
 ---

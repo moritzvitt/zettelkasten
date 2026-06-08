@@ -1,6 +1,7 @@
 ---
 title: "Functional Fluency"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency.md"
+publish: true
 tags:
   - zettel
 ---

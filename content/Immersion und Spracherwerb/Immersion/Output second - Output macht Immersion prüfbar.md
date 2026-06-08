@@ -1,6 +1,7 @@
 ---
 title: "Output second - Output macht Immersion prüfbar"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Output second - Output macht Immersion prüfbar.md"
+publish: true
 tags:
   - zettel
 ---

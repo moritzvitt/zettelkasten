@@ -1,6 +1,7 @@
 ---
 title: "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?.md"
+publish: true
 tags:
   - zettel
 ---

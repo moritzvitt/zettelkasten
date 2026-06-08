@@ -1,6 +1,7 @@
 ---
 title: "Verstehen kommt vor Memorieren"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Verstehen kommt vor Memorieren.md"
+publish: true
 tags:
   - zettel
 ---

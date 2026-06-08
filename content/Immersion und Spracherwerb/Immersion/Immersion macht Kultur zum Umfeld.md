@@ -1,6 +1,7 @@
 ---
 title: "Immersion macht Kultur zum Umfeld"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Immersion macht Kultur zum Umfeld.md"
+publish: true
 tags:
   - zettel
 ---

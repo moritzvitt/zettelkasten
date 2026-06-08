@@ -1,6 +1,7 @@
 ---
 title: "Menschliche Sprache"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Menschliche Sprache.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Axiom Die Wunder dieser Welt"
 source: "LLM Wiki/notes/zettel/Ach, ist das Leben nicht schön/Axiom Die Wunder dieser Welt.md"
+publish: true
 tags:
   - zettel
 ---

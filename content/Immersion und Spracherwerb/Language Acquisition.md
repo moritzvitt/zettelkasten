@@ -1,6 +1,7 @@
 ---
 title: "Language Acquisition"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Language Acquisition.md"
+publish: true
 tags:
   - zettel
 ---

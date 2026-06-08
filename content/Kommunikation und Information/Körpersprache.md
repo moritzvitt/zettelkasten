@@ -1,6 +1,7 @@
 ---
 title: "Körpersprache"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Körpersprache.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Anki's Kontextdilemma"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma.md"
+publish: true
 tags:
   - zettel
 ---

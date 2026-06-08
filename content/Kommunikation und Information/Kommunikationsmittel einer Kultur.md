@@ -1,6 +1,7 @@
 ---
 title: "Kommunikationsmittel einer Kultur"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Kommunikationsmittel einer Kultur.md"
+publish: true
 tags:
   - zettel
 ---

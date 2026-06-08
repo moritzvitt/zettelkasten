@@ -1,6 +1,7 @@
 ---
 title: "kulturabhängige Kommunikationsmittel"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/kulturabhängige Kommunikationsmittel.md"
+publish: true
 tags:
   - zettel
 ---

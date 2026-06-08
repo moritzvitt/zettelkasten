@@ -1,6 +1,7 @@
 ---
 title: "SRS (Spaced Repetition), Anki"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/SRS (Spaced Repetition), Anki.md"
+publish: true
 tags:
   - zettel
 ---

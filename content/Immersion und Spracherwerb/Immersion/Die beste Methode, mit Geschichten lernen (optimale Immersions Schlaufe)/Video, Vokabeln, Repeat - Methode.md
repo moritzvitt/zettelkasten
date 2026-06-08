@@ -1,6 +1,7 @@
 ---
 title: "Video, Vokabeln, Repeat - Methode"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Video, Vokabeln, Repeat - Methode.md"
+publish: true
 tags:
   - zettel
 ---

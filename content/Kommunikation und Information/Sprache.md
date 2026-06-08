@@ -1,6 +1,7 @@
 ---
 title: "Sprache"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Sprache.md"
+publish: true
 tags:
   - zettel
 ---

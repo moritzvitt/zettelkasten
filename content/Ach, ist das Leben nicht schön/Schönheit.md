@@ -1,6 +1,7 @@
 ---
 title: "Schönheit: Über Schönheit darf man nicht (zu viel) nachdenken, wenn man will, dass sie die eigene Seele erleuchtet."
 source: "LLM Wiki/notes/zettel/Ach, ist das Leben nicht schön/Schönheit.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Nexus macht Selbstkorrektur zur Überlebensfrage"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus macht Selbstkorrektur zur Überlebensfrage.md"
+publish: true
 tags:
   - zettel
 ---

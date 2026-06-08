@@ -1,6 +1,7 @@
 ---
 title: "Wahl von geeignetem Input Material für Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Wahl von geeignetem Input Material für Immersion.md"
+publish: true
 tags:
   - zettel
 ---

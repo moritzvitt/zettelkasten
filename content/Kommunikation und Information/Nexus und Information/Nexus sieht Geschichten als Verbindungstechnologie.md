@@ -1,6 +1,7 @@
 ---
 title: "Nexus sieht Geschichten als Verbindungstechnologie"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus sieht Geschichten als Verbindungstechnologie.md"
+publish: true
 tags:
   - zettel
 ---

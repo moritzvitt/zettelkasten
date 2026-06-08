@@ -1,6 +1,7 @@
 ---
 title: "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion.md"
+publish: true
 tags:
   - zettel
 ---

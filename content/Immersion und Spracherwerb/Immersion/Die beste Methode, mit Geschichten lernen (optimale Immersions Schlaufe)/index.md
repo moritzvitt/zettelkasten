@@ -1,6 +1,7 @@
 ---
 title: "Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)"
 source: "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)"
+publish: true
 tags:
   - zettel
 ---

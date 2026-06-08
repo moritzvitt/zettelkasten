@@ -1,6 +1,7 @@
 ---
 title: "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt.md"
+publish: true
 tags:
   - zettel
 ---

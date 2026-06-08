@@ -1,6 +1,7 @@
 ---
 title: "Ein Nexus ist ein Verbindungsknoten im Informationsfluss"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Ein Nexus ist ein Verbindungsknoten im Informationsfluss.md"
+publish: true
 tags:
   - zettel
 ---

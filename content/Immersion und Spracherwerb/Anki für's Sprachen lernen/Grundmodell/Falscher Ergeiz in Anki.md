@@ -1,6 +1,7 @@
 ---
 title: "Falscher Ergeiz in Anki"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki.md"
+publish: true
 tags:
   - zettel
 ---

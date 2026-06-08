@@ -1,6 +1,7 @@
 ---
 title: "Institutionen"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Institutionen.md"
+publish: true
 tags:
   - zettel
 ---

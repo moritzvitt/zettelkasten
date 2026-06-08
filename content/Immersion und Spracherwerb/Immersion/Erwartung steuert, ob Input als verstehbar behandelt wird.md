@@ -1,6 +1,7 @@
 ---
 title: "Erwartung steuert, ob Input als verstehbar behandelt wird"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Erwartung steuert, ob Input als verstehbar behandelt wird.md"
+publish: true
 tags:
   - zettel
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Nexus und Information/Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer.md"
+publish: true
 tags:
   - zettel
 ---

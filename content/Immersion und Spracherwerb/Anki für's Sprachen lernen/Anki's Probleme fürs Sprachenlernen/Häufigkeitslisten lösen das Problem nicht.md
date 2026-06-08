@@ -1,6 +1,7 @@
 ---
 title: "Häufigkeitslisten lösen das Problem nicht"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht.md"
+publish: true
 tags:
   - zettel
 ---

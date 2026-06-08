@@ -1,6 +1,7 @@
 ---
 title: "Höflichkeitsformen"
 source: "LLM Wiki/notes/zettel/Kommunikation und Information/Höflichkeitsformen.md"
+publish: true
 tags:
   - zettel
 ---

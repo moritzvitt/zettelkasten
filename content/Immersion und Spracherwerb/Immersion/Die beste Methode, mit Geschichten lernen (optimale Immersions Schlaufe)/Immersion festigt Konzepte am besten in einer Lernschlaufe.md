@@ -1,6 +1,7 @@
 ---
 title: "Immersion festigt Konzepte am besten in einer Lernschlaufe"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion festigt Konzepte am besten in einer Lernschlaufe.md"
+publish: true
 tags:
   - zettel
 ---

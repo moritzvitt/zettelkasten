@@ -1,6 +1,7 @@
 ---
 title: "Kanji lernen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Kanji lernen.md"
+publish: true
 tags:
   - zettel
 ---
