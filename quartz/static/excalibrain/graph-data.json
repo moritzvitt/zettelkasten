@@ -1,0 +1,1361 @@
+{
+  "generatedAt": "2026-06-08T13:30:23.550Z",
+  "notes": [
+    {
+      "id": "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;",
+      "title": "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten-srs-und-lernlisten",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Spaced Repetition ist optimal geeignet, um viele Worte gleichzeitig für längere Zeit in der fruchtbaren Zone zu halten. > [!Fruchtbare Zone] > Besonders fruchtbar ist die Zeit kurz nach dem Lernen eines Wortes, wen",
+      "relations": {
+        "Prev": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand."
+        ],
+        "Next": [
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+          "Immersion festigt Konzepte am besten in einer Lernschlaufe"
+        ],
+        "Parent": [
+          "Die Rolle von SRS; Immersion vorbereiten",
+          "Immersion-Loop Methoden"
+        ],
+        "Child": [
+          "Anki ist kein Wissensspeicher",
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+          "Prinzip der minimalen Information macht Wiederholungen planbar"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Anki alleine wird mit wachsendem Wortschatz ineffizient",
+      "title": "Anki alleine wird mit wachsendem Wortschatz ineffizient",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Anki funktioniert vor allem am Anfang gut, wird aber mit wachsendem Wortschatz zunehmend ineffizient. Anfänger lernen meist häufige, konkrete und semantisch stabile Wörter, deren Bedeutung (und Verwendung) fast identisch",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Thematische Immersion optimiert Wiederbegegnung(-sdichte)",
+          "Getting Ready for Immersion - einen Grundwortschatz aufbauen"
+        ],
+        "Parent": [
+          "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;"
+        ],
+        "Child": [
+          "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz",
+          "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)",
+          "Anki's Kontextdilemma",
+          "Häufigkeitslisten lösen das Problem nicht"
+        ],
+        "Friend": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠"
+        ]
+      }
+    },
+    {
+      "id": "Anki ist kein Wissensspeicher",
+      "title": "Anki ist kein Wissensspeicher",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Anki ist in deinem Sprachlernsystem nicht der Ort, an dem Wissen lebt. Es ist ein Abrufwerkzeug, das Wörter und schwache Erinnerungsstellen so vorbereitet, dass sie im Input, also Listening und Reading, wiedererkan",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Die Rolle von SRS; Immersion vorbereiten"
+        ],
+        "Child": [],
+        "Friend": [
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+          "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört"
+        ]
+      }
+    },
+    {
+      "id": "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+      "title": "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/anki-kostet-zeit-und-aufmerksamkeit",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Claim Anki kostet nicht nur beim Erstellen von Karten Zeit. ==Jede Karte erzeugt zukünftige Review-Zeit und damit eine kleine dauerhafte Verpflichtung.== Analogie: Jede Anki-Karte ist wie ein weiterer Ball, den man zum J",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört"
+        ],
+        "Friend": [
+          "Anki ist kein Wissensspeicher",
+          "Prinzip der minimalen Information macht Wiederholungen planbar"
+        ]
+      }
+    },
+    {
+      "id": "Anki und das Problem der Gewichtung von Bedeutungen",
+      "title": "Anki und das Problem der Gewichtung von Bedeutungen",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Claim Durch Reviews, Kartenaufbau und bewusste Aufmerksamkeit bekommen manche Wörter oder Bedeutungen im Kopf mehr Gewicht, als sie im echten Sprachgebrauch eigentlich hätten. Anki kann damit die natürliche Gewichtung vo",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+          "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)"
+        ],
+        "Parent": [
+          "Anki alleine wird mit wachsendem Wortschatz ineffizient"
+        ],
+        "Child": [],
+        "Friend": [
+          "Anki's Kontextdilemma",
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen"
+        ]
+      }
+    },
+    {
+      "id": "anki und das Problem der optimalen Aufmerksamkeitsverteilung, Aufmerksamkeitsgewichtung",
+      "title": "anki und das Problem der optimalen Aufmerksamkeitsverteilung, Aufmerksamkeitsgewichtung",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/anki-und-das-problem-der-optimalen-aufmerksamkeitsverteilung-aufmerksamkeitsgewichtung",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "anki ist im forgeschrittenen Sprachlernprozess nicht optimal um Worte zu gewichten...",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Anki's Kontextdilemma",
+      "title": "Anki's Kontextdilemma",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/anki-s-kontextdilemma",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Anki hat ein Kontextproblem: Eine Karte kann nie das vollständige Gefühl eines Wortes transportieren. Selbst mit Bildern, Audio, Clozes usw. fehlt immer noch viel des eigentlichen Erlebnis-Kontexts: Emotion, Situation, d",
+      "relations": {
+        "Prev": [
+          "Anki und das Problem der Gewichtung von Bedeutungen"
+        ],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+          "Eine Vokabelkarte trägt maximal eine Erstkonnotation"
+        ]
+      }
+    },
+    {
+      "id": "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern",
+      "title": "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern: Eine gute Karte zeigt nicht sofort alles, was schon leicht ist, sondern richtet die wenigen Sekunden Aufmerksamkeit auf genau den Aspekt, der noch nicht zu",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Axiom Die Wunder dieser Welt",
+      "title": "Axiom Die Wunder dieser Welt",
+      "url": "/ach-ist-das-leben-nicht-schon/axiom-die-wunder-dieser-welt",
+      "folder": "Ach, ist das Leben nicht schön",
+      "excerpt": "Die Wunder dieser Welt Summary Die Wunder dieser Welt sind zu unglaublich und zu schön, um sie vollständig in Erklärung aufzulösen. Verstehen kann Ehrfurcht vertiefen, aber es ersetzt nicht das Staunen. In Anbetung versu",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Card Retirement",
+      "title": "Card Retirement",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/karten-retirement",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "nach einem Jahr sollten Karten durch Immersion gelernt sein. Card Retirement Karten mit einem Intervall (Zeit zwischen letzter Review und geplanter nächster Review in der Zukunft) von mehr als einem Jahr werden suspendie",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Cloze Notiztyp für maximale Immersion",
+      "title": "Cloze Notiztyp für maximale Immersion",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/cloze-notiztyp-fur-maximale-immersion",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Der Hauptvorteil von Cloze-Karten in Anki ist, dass der Kontext sichtbar bleibt. In Sprachkarten soll Cloze aber nicht dazu verführen, lange im Satz zu lesen und Bedeutungsschichten auszuleuchten. Bedeutungen auszu",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Einsprachigkeit der Erfahrung verdichtet Immersion"
+        ],
+        "Child": [],
+        "Friend": [
+          "Scheduling Probleme durch Überschneidungen",
+          "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen"
+        ]
+      }
+    },
+    {
+      "id": "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+      "title": "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur-ein-vages-gefuhl-von-wiedererkennung-in-der-immersion-auszulosen",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Das Ziel einer Sprach-Anki-Karte ist Wiedererkennung im Input, in der Immersion: das kurze Gefühl \"Ah, das kenne ich\". Mehr muss die Review nicht erreichen.[^source-notes] ^8772ee Auch Karten mit sichtbarem Kontext",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+          "Anki's Kontextdilemma"
+        ],
+        "Friend": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+          "Eine Vokabelkarte trägt maximal eine Erstkonnotation"
+        ]
+      }
+    },
+    {
+      "id": "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+      "title": "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/die-fruchtbare-zone-sprachkonzepte-im-lernbaren-zustand",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Besonders fruchtbar ist die Zeit kurz nach dem man ein Wort zum ersten Mal wahrgenommen hat. (oder eins Ausdrucks, einer Wendung, eines grammatikalischen Konzepts), wenn das Wort noch frisch ist. Das Wort ist noch ",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;",
+          "Immersion festigt Konzepte am besten in einer Lernschlaufe",
+          "Thematische Immersion optimiert Wiederbegegnung(-sdichte)"
+        ],
+        "Parent": [
+          "Die Rolle von SRS; Immersion vorbereiten"
+        ],
+        "Child": [],
+        "Friend": [
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+          "Falscher Ergeiz in Anki"
+        ]
+      }
+    },
+    {
+      "id": "Die Rolle von SRS; Immersion vorbereiten",
+      "title": "Die Rolle von SRS; Immersion vorbereiten",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/die-rolle-von-srs-immersion-vorbereiten",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Bei Vokabeln erzeugt Anki zuerst einen mentalen Wörterbucheintrag: eine Adresse im Kopf, durch die ein Wort beim nächsten Kontakt wiedererkennbar wird. Achtung: die Rede ist nur von einem Eintrag! Das heißt, Defini",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Immersion-Loop Methoden"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz",
+      "title": "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/die-wahrscheinlichkeit-einem-wort-in-der-immersion-zu-begegnen-sinkt-mit-wachsendem-wortschatz",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Je seltener die Worte sind, die man lernt, desto mehr sinkt die Wahrscheinlichkeit, einem neu gelernten Wort bald erneut natürlich zu begegnen. Der „Haken“ verliert dadurch zunehmend seine Funktion: Das Wort wird zwar kü",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Häufigkeitslisten lösen das Problem nicht"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Ein Informationsnetzwerk organisiert Verbindung und Korrektur",
+      "title": "Ein Informationsnetzwerk organisiert Verbindung und Korrektur",
+      "url": "/kommunikation-und-information/nexus-und-information/ein-informationsnetzwerk-organisiert-verbindung-und-korrektur",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim Ein Informationsnetzwerk ist ein System aus Knoten, Kanälen, Regeln und Speichern, durch das Information zirkuliert und Wirkung bekommt. Dazu gehören Menschen, Bücher, Archive, Bürokratien, Medien, Gerichte, Plattf",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Ein Nexus ist ein Verbindungsknoten im Informationsfluss",
+          "Nexus trennt Information von Wahrheit",
+          "Kultur als Informationsnetzwerk"
+        ]
+      }
+    },
+    {
+      "id": "Ein Nexus ist ein Verbindungsknoten im Informationsfluss",
+      "title": "Ein Nexus ist ein Verbindungsknoten im Informationsfluss",
+      "url": "/kommunikation-und-information/nexus-und-information/ein-nexus-ist-ein-verbindungsknoten-im-informationsfluss",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim Ein Nexus ist ein Verbindungspunkt, an dem Informationen zusammenlaufen, geordnet werden und weiterwirken. Er ist nicht bloß ein Speicher, sondern ein Knoten, der Beziehungen zwischen Menschen, Dokumenten, Institut",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Information verbindet mehr als sie abbildet",
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "Eine Sprache wird einmal tief gelernt und später reaktiviert",
+      "title": "Eine Sprache wird einmal tief gelernt und später reaktiviert",
+      "url": "/immersion-und-spracherwerb/mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-spater-reaktiviert",
+      "folder": "Immersion und Spracherwerb/Mehrsprachigkeit",
+      "excerpt": "Claim Eine Sprache muss nicht jedes Mal neu gelernt werden. Wenn sie einmal tief genug gelernt wurde, bleiben viele Muster im Gehirn bestehen: Klang, Satzrhythmus, typische Formen, Wortfelder, Routinen und kulturelle Erw",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Falscher Ergeiz in Anki"
+        ]
+      }
+    },
+    {
+      "id": "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+      "title": "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/eine-vokabelkarte-tragt-maximal-eine-erstkonnotation",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Eine Vokabelkarte sollte nicht alle Bedeutungen und Konnotationen eines Wortes tragen. Sie braucht nur eine tragfähige Erstkonnotation: genug Bedeutung, um das Wort wiederzuerkennen und in der fruchtbaren Zone zu h",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+          "Cloze Notiztyp für maximale Immersion"
+        ]
+      }
+    },
+    {
+      "id": "Einsprachigkeit der Erfahrung verdichtet Immersion",
+      "title": "Einsprachigkeit der Erfahrung verdichtet Immersion",
+      "url": "/immersion-und-spracherwerb/immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Einsprachigkeit der Erfahrung bedeutet, dass die Zielsprache nicht ständig durch Übersetzung erklärt wird. Sie ist selbst das Medium, in dem man sucht, versteht, scheitert, korrigiert, weiterliest und weiterhört.[^",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Immersion macht Kultur zum Umfeld"
+        ],
+        "Child": [],
+        "Friend": [
+          "Cloze Notiztyp für maximale Immersion"
+        ]
+      }
+    },
+    {
+      "id": "Erwartung steuert, ob Input als verstehbar behandelt wird",
+      "title": "Erwartung steuert, ob Input als verstehbar behandelt wird",
+      "url": "/immersion-und-spracherwerb/immersion/erwartung-steuert-ob-input-als-verstehbar-behandelt-wird",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Die Erwartung, eine Sprache verstehen zu können, steuert mit, ob das Gehirn Input überhaupt als verstehbar behandelt.[^source] Wer glaubt, dass Verstehen möglich ist, versucht eher mitzuhören, Lücken zu überbrücken",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Mühelose Aufmerksamkeit ist der Nordstern der Immersion",
+          "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion"
+        ]
+      }
+    },
+    {
+      "id": "Falscher Ergeiz in Anki",
+      "title": "Falscher Ergeiz in Anki",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/falscher-ergeiz-in-anki",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Anki soll nicht die ganze Sprache lernen. Im Sprachlernprozess bereitet Anki das eigentliche Lernen vor: Es erzeugt Wiedererkennung, hält Wörter in einem lernbaren Zustand und markiert schwache Abrufstellen.[^sourc",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Anki ist kein Wissensspeicher"
+        ],
+        "Friend": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+          "Eine Sprache wird einmal tief gelernt und später reaktiviert"
+        ]
+      }
+    },
+    {
+      "id": "Functional Fluency",
+      "title": "Functional Fluency",
+      "url": "/immersion-und-spracherwerb/mehrsprachigkeit/functional-fluency",
+      "folder": "Immersion und Spracherwerb/Mehrsprachigkeit",
+      "excerpt": "Functional Fluency bedeutet: nichts Unnötiges lernen; nur in den relevanten Kontexten wirklich handlungsfähig sein. Es geht nicht darum, möglichst früh jede seltene Vokabel zu beherrschen. Entscheidend ist, sich in denje",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Language Acquisition"
+        ],
+        "Parent": [],
+        "Child": [
+          "Functional Fluency vs Trying to learn a language to absolute perfection..."
+        ],
+        "Friend": [
+          "Language Acquisition",
+          "Kultur als Informationsnetzwerk"
+        ]
+      }
+    },
+    {
+      "id": "Functional Fluency vs Trying to learn a language to absolute perfection...",
+      "title": "Functional Fluency vs Trying to learn a language to absolute perfection...",
+      "url": "/immersion-und-spracherwerb/mehrsprachigkeit/functional-fluency-vs-trying-to-learn-a-language-to-absolute-perfection",
+      "folder": "Immersion und Spracherwerb/Mehrsprachigkeit",
+      "excerpt": "functional fluency is, being fluent in those areas of a language (cultural communication forms) , that you need for your life. Learning a language to perfection is a flex, but also a waste of time (if you have enough tim",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Language Acquisition",
+          "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung"
+        ]
+      }
+    },
+    {
+      "id": "Getting Ready for Immersion - einen Grundwortschatz aufbauen",
+      "title": "Getting Ready for Immersion - einen Grundwortschatz aufbauen",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/getting-ready-for-immersion-einen-grundwortschatz-aufbauen",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Claim Ein vorbereiteter Grundwortschatz macht frühe Immersion fruchtbarer: Wer die ersten 2000-3000 häufigen und grundlegenden Wörter mit Anki vorlernt, erkennt im Input genug wieder, damit Immersion nicht nur Klangkonta",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+          "Input first - Aufbau eines Sprachgefühls"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.",
+          "Input first - Aufbau eines Sprachgefühls"
+        ]
+      }
+    },
+    {
+      "id": "Häufigkeitslisten lösen das Problem nicht",
+      "title": "Häufigkeitslisten lösen das Problem nicht",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/anki-s-probleme-furs-sprachenlernen/haufigkeitslisten-losen-das-problem-nicht",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen",
+      "excerpt": "Häufigkeitslisten zeigen globale Worthäufigkeit, aber nicht die tatsächliche Relevanz im eigenen Input. Wer vor allem Filme, Anime, Nachrichten, Fachtexte oder Streams nutzt, bewegt sich jeweils in anderen Sprachlandscha",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Thematische Immersion optimiert Wiederbegegnung(-sdichte)"
+        ],
+        "Parent": [
+          "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;"
+        ],
+        "Child": [
+          "Functional Fluency"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion",
+      "title": "Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion",
+      "url": "/immersion-und-spracherwerb/immersion/hintergrundbeschallung-wird-erst-durch-aufmerksamkeit-zu-immersion",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Hintergrundbeschallung wird erst dann zu Immersion, wenn Aufmerksamkeit wiederholt zur Sprache zurückkehrt.[^source] Passives Hören ist deshalb nicht dasselbe wie reines White Noising. Bei passivem Hören driftet Au",
+      "relations": {
+        "Prev": [
+          "Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit"
+        ],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Höflichkeitsformen",
+      "title": "Höflichkeitsformen",
+      "url": "/kommunikation-und-information/hoflichkeitsformen",
+      "folder": "Kommunikation und Information",
+      "excerpt": "",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Immersion macht Kultur zum Umfeld"
+        ]
+      }
+    },
+    {
+      "id": "Immersion festigt Konzepte am besten in einer Lernschlaufe",
+      "title": "Immersion festigt Konzepte am besten in einer Lernschlaufe",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "Claim In der Immersion müssen alle Konzepte (Worte, Grammatikkonzepte, Wendungen) die sich gerade in der fruchtbaren Zone befinden, genügend Daten bekommen, um zu echtem, aktivem Wissen zu reifen. Daher ist es wichtig, d",
+      "relations": {
+        "Prev": [
+          "Immersion macht Kultur zum Umfeld"
+        ],
+        "Next": [
+          "Immersion-Loop Methoden",
+          "Anki alleine wird mit wachsendem Wortschatz ineffizient",
+          "Video, Vokabeln, Repeat - Methode"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Immersion macht Kultur zum Umfeld",
+      "title": "Immersion macht Kultur zum Umfeld",
+      "url": "/immersion-und-spracherwerb/immersion/immersion-macht-kultur-zum-umfeld",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Immersion bedeutet, eine Sprache nicht nur als Lernstoff zu behandeln, sondern als Umfeld. Man bewegt sich in einem Kommunikationsmedium, einer Kultur und Informationsnetzwerk, in dem Bedeutung, Klang, Register, ty",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+          "Getting Ready for Immersion - einen Grundwortschatz aufbauen"
+        ],
+        "Parent": [],
+        "Child": [
+          "Einsprachigkeit der Erfahrung verdichtet Immersion"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Immersion-Loop Methoden",
+      "title": "Immersion-Loop Methoden",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/immersion-loop-methoden",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "1. Videos in Obsidian speichern, angucken und nebenbei eine Liste mit schwierigen Worten aus den Videos offen haben. Im transkript die schwierigen Worte markieren 2. Die Wörter nach ihrer Häufigkeit in Anki lernen: steig",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Immersion festigt Konzepte am besten in einer Lernschlaufe"
+        ]
+      }
+    },
+    {
+      "id": "Information verbindet mehr als sie abbildet",
+      "title": "Information verbindet mehr als sie abbildet",
+      "url": "/kommunikation-und-information/nexus-und-information/information-verbindet-mehr-als-sie-abbildet",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim Für Harari ist Information nicht primär eine genaue Abbildung der Wirklichkeit. Information ist vor allem etwas, das verbindet: Menschen, Institutionen, Erinnerungen, Befehle, Mythen, Datenbanken und Maschinen. Ein",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Ein Nexus ist ein Verbindungsknoten im Informationsfluss"
+        ]
+      }
+    },
+    {
+      "id": "Input first - Aufbau eines Sprachgefühls",
+      "title": "Input first - Aufbau eines Sprachgefühls",
+      "url": "/immersion-und-spracherwerb/immersion/input-first-aufbau-eines-sprachgefuhls",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Input-first Immersion sagt nicht, dass Output unwichtig ist. Sie sagt: Output soll nicht zu früh der Hauptmotor sein, weil Produktion ohne inneres Sprachmodell leicht in Übersetzung und fehlerhafte Gewohnheiten kip",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Output second - Output macht Immersion prüfbar"
+        ],
+        "Parent": [
+          "Language Acquisition"
+        ],
+        "Child": [
+          "The LLM in my brain"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Institutionen",
+      "title": "Institutionen",
+      "url": "/kommunikation-und-information/institutionen",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Def.: Regeln und ihre Durchsetzung.",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "Institutionen einer Kultur",
+      "title": "Institutionen einer Kultur",
+      "url": "/kommunikation-und-information/institutionen-einer-kultur",
+      "folder": "Kommunikation und Information",
+      "excerpt": "soziale Rollen, typische Situationen Rituale (Höflichkeitsformen)",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Institutionen"
+        ],
+        "Child": [],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "Kanji lernen",
+      "title": "Kanji lernen",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/kanji-lernen",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen",
+      "excerpt": "Kanji lesen lernen: einfach viel Vokabeln lernen Kanji schreiben lernen: nur um eine Vokabel zu festigen. Als Fähigkeit an sich überflüssig (für meine Zwecke) bzw. benötigt zu viel Zeit. Wie soll ich das angehen? am best",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Immersion-Loop Methoden"
+        ],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Kommunikation",
+      "title": "Kommunikation",
+      "url": "/kommunikation-und-information/kommunikation",
+      "folder": "Kommunikation und Information",
+      "excerpt": "(bilateraler) Prozess der Übermittlung von Informationen. Prozess, durch den sich ein Informationsnetzwerk organisiert",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Kommunikationsmittel"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur",
+          "Information verbindet mehr als sie abbildet"
+        ]
+      }
+    },
+    {
+      "id": "Kommunikationsmittel",
+      "title": "Kommunikationsmittel",
+      "url": "/kommunikation-und-information/kommunikationsmittel",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Mittel zur Kommunikation von Information.",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Kultur als Informationsnetzwerk"
+        ],
+        "Parent": [],
+        "Child": [
+          "Sprache",
+          "kulturabhängige Kommunikationsmittel"
+        ],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Information verbindet mehr als sie abbildet"
+        ]
+      }
+    },
+    {
+      "id": "Kommunikationsmittel einer Kultur",
+      "title": "Kommunikationsmittel einer Kultur",
+      "url": "/kommunikation-und-information/kommunikationsmittel-einer-kultur",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Sprache, Körpersprache, Höflichkeitsformen (Rituale)",
+      "relations": {
+        "Prev": [
+          "Kommunikationsmittel"
+        ],
+        "Next": [
+          "Menschliche Sprache",
+          "Höflichkeitsformen",
+          "Körpersprache",
+          "Sprache als Teilnahme an einem Informationsnetzwerk"
+        ],
+        "Parent": [],
+        "Child": [
+          "Immersion macht Kultur zum Umfeld"
+        ],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Immersion macht Kultur zum Umfeld"
+        ]
+      }
+    },
+    {
+      "id": "Körpersprache",
+      "title": "Körpersprache",
+      "url": "/kommunikation-und-information/korpersprache",
+      "folder": "Kommunikation und Information",
+      "excerpt": "z.b. Verneigung im japanischen, Gestik, Mimik etc.",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Immersion macht Kultur zum Umfeld"
+        ]
+      }
+    },
+    {
+      "id": "Kultur als Informationsnetzwerk",
+      "title": "Kultur als Informationsnetzwerk",
+      "url": "/kommunikation-und-information/nexus-und-information/kultur-als-informationsnetzwerk",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim Eine Kultur ist ein Informationsnetzwerk mit festgesetzten Regeln / Konventione Kultur verbindet verschiedene Kommunikationsmittel und Institutionen, um sich selbst zu organisieren. Kommunikationsmittel: Sprache, K",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Kommunikationsmittel einer Kultur",
+          "Institutionen einer Kultur"
+        ],
+        "Parent": [
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ],
+        "Child": [],
+        "Friend": [
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "kulturabhängige Kommunikationsmittel",
+      "title": "kulturabhängige Kommunikationsmittel",
+      "url": "/kommunikation-und-information/kulturabhangige-kommunikationsmittel",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Körpersprache, Smalltalk-Themen, Rituale zur Respektsbekundung, Annäherungsrituale,",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "Language Acquisition",
+      "title": "Language Acquisition",
+      "url": "/immersion-und-spracherwerb/language-acquisition",
+      "folder": "Immersion und Spracherwerb",
+      "excerpt": "Claim Language Acquisition ist der Aufbau eines inneren Sprachsystems, das Wahrnehmung, Bedeutung und Gebrauch verbindet. Man erwirbt nicht nur einzelne Wörter oder Regeln, sondern ein System, in dem Klang, Lexis, Semant",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Immersion macht Kultur zum Umfeld",
+          "The LLM in my brain"
+        ],
+        "Parent": [
+          "Kultur als Informationsnetzwerk"
+        ],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung",
+      "title": "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung",
+      "url": "/immersion-und-spracherwerb/mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "folder": "Immersion und Spracherwerb/Mehrsprachigkeit",
+      "excerpt": "Claim Mehrsprachigkeit bedeutet nicht, alle Sprachen permanent gleich aktiv zu halten. Der eigentliche Skill ist, ein Sprachennetzwerk bei Bedarf schnell wieder hochzufahren.[^source-notes] Eine Sprache kann also \"da\" se",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Falscher Ergeiz in Anki"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Menschliche Sprache",
+      "title": "Menschliche Sprache",
+      "url": "/kommunikation-und-information/menschliche-sprache",
+      "folder": "Kommunikation und Information",
+      "excerpt": "",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Language Acquisition",
+          "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Language Acquisition",
+          "Input first - Aufbau eines Sprachgefühls"
+        ]
+      }
+    },
+    {
+      "id": "Mühelose Aufmerksamkeit ist der Nordstern der Immersion",
+      "title": "Mühelose Aufmerksamkeit ist der Nordstern der Immersion",
+      "url": "/immersion-und-spracherwerb/immersion/muhelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Die ideale Aufmerksamkeit in Immersion ist nicht angestrengtes Beobachten, sondern mühelose Beteiligung am Inhalt.[^source] Man kann sehr aufmerksam sein, ohne Aufmerksamkeit willentlich zu erzwingen: so wie bei ei",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Wahl von geeignetem Input Material für Immersion"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Nexus macht Selbstkorrektur zur Überlebensfrage",
+      "title": "Nexus macht Selbstkorrektur zur Überlebensfrage",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-macht-selbstkorrektur-zur-uberlebensfrage",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim Für *Nexus* ist Selbstkorrektur eine Überlebensfrage von Informationsnetzwerken. Weil Menschen und Institutionen fehlbar sind, braucht jedes mächtige Netzwerk Mechanismen, die Fehler sichtbar machen und Korrektur e",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus sieht Geschichten als Verbindungstechnologie",
+          "Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke"
+        ]
+      }
+    },
+    {
+      "id": "Nexus sieht Geschichten als Verbindungstechnologie",
+      "title": "Nexus sieht Geschichten als Verbindungstechnologie",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-sieht-geschichten-als-verbindungstechnologie",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim erste Informationstechnologien: Geschichten, Dokumente *Nexus* behandelt Geschichten, Mythen und gemeinsame Fiktionen als Verbindungstechnologien. Sie erlauben Fremden, sich als Teil derselben Ordnung zu verstehen ",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus trennt Information von Wahrheit",
+          "Nexus macht Selbstkorrektur zur Überlebensfrage"
+        ]
+      }
+    },
+    {
+      "id": "Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer",
+      "title": "Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-sieht-ki-als-nichtmenschlichen-netzwerkteilnehmer",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim In *Nexus* ist KI nicht nur ein schnelleres Medium. Sie wird zu einem nichtmenschlichen Teilnehmer im Informationsnetzwerk: Sie kann Inhalte erzeugen, Entscheidungen treffen, Menschen sortieren, Gespräche beeinflus",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke",
+          "Nexus warnt vor automatisierter Vertrauenszerstörung"
+        ]
+      }
+    },
+    {
+      "id": "Nexus trennt Information von Wahrheit",
+      "title": "Nexus trennt Information von Wahrheit",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-trennt-information-von-wahrheit",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim In *Nexus* ist Information nicht dasselbe wie Wahrheit. Information kann wahr, falsch, nützlich, manipulativ oder sinnstiftend sein; ihre gesellschaftliche Wirkung entsteht oft dadurch, dass sie Menschen verbindet ",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus sieht Geschichten als Verbindungstechnologie",
+          "Ein Informationsnetzwerk organisiert Verbindung und Korrektur"
+        ]
+      }
+    },
+    {
+      "id": "Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke",
+      "title": "Nexus vergleicht Demokratie und Diktatur als Informationsnetzwerke",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-vergleicht-demokratie-und-diktatur-als-informationsnetzwerke",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim *Nexus* liest Demokratie und Diktatur als verschiedene Informationsarchitekturen. Diktaturen zentralisieren Information und Entscheidung; Demokratien verteilen Information, Kritik und Korrektur auf viele Knoten. De",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus macht Selbstkorrektur zur Überlebensfrage",
+          "Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer"
+        ]
+      }
+    },
+    {
+      "id": "Nexus warnt vor automatisierter Vertrauenszerstörung",
+      "title": "Nexus warnt vor automatisierter Vertrauenszerstörung",
+      "url": "/kommunikation-und-information/nexus-und-information/nexus-warnt-vor-automatisierter-vertrauenszerstorung",
+      "folder": "Kommunikation und Information/Nexus und Information",
+      "excerpt": "Claim *Nexus* warnt, dass KI Vertrauen automatisiert zerstören kann. Wenn Texte, Bilder, Stimmen, Nachrichten, Profile und Gesprächspartner massenhaft künstlich erzeugt werden können, wird die Unterscheidung zwischen men",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Nexus sieht KI als nichtmenschlichen Netzwerkteilnehmer"
+        ]
+      }
+    },
+    {
+      "id": "Output second - Output macht Immersion prüfbar",
+      "title": "Output second - Output macht Immersion prüfbar",
+      "url": "/immersion-und-spracherwerb/immersion/output-second-output-macht-immersion-prufbar",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Output macht sichtbar, wo das innere Sprachmodell noch nicht trägt. Beim Sprechen oder Schreiben merkt man plötzlich, welche Form fehlt, welche Wortverbindung nicht abrufbar ist oder welche Struktur nur passiv beka",
+      "relations": {
+        "Prev": [
+          "Input first - Aufbau eines Sprachgefühls"
+        ],
+        "Next": [],
+        "Parent": [
+          "Language Acquisition"
+        ],
+        "Child": [],
+        "Friend": [
+          "Immersion macht Kultur zum Umfeld"
+        ]
+      }
+    },
+    {
+      "id": "Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit",
+      "title": "Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit",
+      "url": "/immersion-und-spracherwerb/immersion/passive-immersion-unterscheidet-aufmerksamkeit-und-verstandlichkeit",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Passive Immersion ist keine binäre Kategorie. Sie hängt mindestens an zwei Achsen: Wie viel Aufmerksamkeit ist noch auf der Sprache, und wie verständlich ist der Input?[^source] Die beste passive Immersion ist vers",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Prinzip der minimalen Information macht Wiederholungen planbar",
+      "title": "Prinzip der minimalen Information macht Wiederholungen planbar",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Das Minimum-Information-Prinzip macht Wiederholungen leicht und planbar. Einfache Items sind nicht nur leichter zu erinnern, sondern auch leichter zu schedulen. Wenn eine Karte mehrere Teilabrufe enthält, muss Anki",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [
+          "Prinzip der minimalen Information sorgt für klare Erinnerungspuren"
+        ],
+        "Child": [],
+        "Friend": [
+          "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt",
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠"
+        ]
+      }
+    },
+    {
+      "id": "Prinzip der minimalen Information sorgt für klare Erinnerungspuren",
+      "title": "Prinzip der minimalen Information sorgt für klare Erinnerungspuren",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-fur-klare-erinnerungspuren",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Eine Karte sollte nur einen Abruf verlangen. Das ist die praktische Kartenform des Minimum-Information-Prinzips: Die Karte isoliert einen klaren Abrufpunkt, statt mehrere Erinnerungen gleichzeitig zu bündeln. ^928869 Ein",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört",
+      "title": "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/priorisierung-entscheidet-welches-wissen-uberhaupt-in-anki-gehort",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört.[^source-notes] Anki lohnt sich vor allem für Wissen, das durch Exposition allein zu langsam, zu unsicher oder zu spät verfügbar würde. Wer tausend",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Verstehen kommt vor Memorieren",
+          "Anki ist kein Wissensspeicher",
+          "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠"
+        ]
+      }
+    },
+    {
+      "id": "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt",
+      "title": "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/redundanz-ist-erlaubt-wenn-jeder-abruf-einfach-bleibt",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Redundanz ist erlaubt, wenn jeder einzelne Abruf einfach bleibt.[^source-notes] Why It Matters Für Sprachen ist das entscheidend: passive Wiedererkennung, aktive Produktion, Hörverstehen und Nuance können getrennte",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Prinzip der minimalen Information macht Wiederholungen planbar"
+        ]
+      }
+    },
+    {
+      "id": "Scheduling Probleme durch Überschneidungen",
+      "title": "Scheduling Probleme durch Überschneidungen",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/scheduling-probleme-durch-uberschneidungen",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Interferenz ist ein Designproblem von Karten: Ähnliche Erinnerungen müssen so formuliert werden, dass sie unterscheidbar werden.[^source-notes] ^074fea Why It Matters Viele Anki-Probleme sind keine Gedächtnisschwäc",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Cloze Notiztyp für maximale Immersion",
+          "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt"
+        ]
+      }
+    },
+    {
+      "id": "Schönheit: Über Schönheit darf man nicht (zu viel) nachdenken, wenn man will, dass sie die eigene Seele erleuchtet.",
+      "title": "Schönheit: Über Schönheit darf man nicht (zu viel) nachdenken, wenn man will, dass sie die eigene Seele erleuchtet.",
+      "url": "/ach-ist-das-leben-nicht-schon/schonheit",
+      "folder": "Ach, ist das Leben nicht schön",
+      "excerpt": "Schönheit: Über Schönheit darf man nicht (zu viel) nachdenken, wenn man will, dass sie die eigene Seele erleuchtet. Wenn man Schönheit begegnet, darf man glücklich über den Moment sein und die Axiom Die Wunder dieser Wel",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Shadowing",
+      "title": "Shadowing",
+      "url": "/immersion-und-spracherwerb/immersion/shadowing",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Input first - Aufbau eines Sprachgefühls"
+        ]
+      }
+    },
+    {
+      "id": "Sprache",
+      "title": "Sprache",
+      "url": "/kommunikation-und-information/sprache",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Sprache ist ein Kommunikationsmittel",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Language Acquisition",
+          "Kultur als Informationsnetzwerk"
+        ]
+      }
+    },
+    {
+      "id": "Sprache als Teilnahme an einem Informationsnetzwerk",
+      "title": "Sprache als Teilnahme an einem Informationsnetzwerk",
+      "url": "/kommunikation-und-information/eine-kultur-lernen",
+      "folder": "Kommunikation und Information",
+      "excerpt": "Sprache als Teilnahme an einem Informationsnetzwerk Es ergibt wenig Sinn, eine Sprache isoliert von den Kommunikationsformen einer Kultur zu lernen. Wer sich souverän in einem Kulturraum bewegen möchte, muss lernen, sich",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Immersion macht Kultur zum Umfeld"
+        ],
+        "Parent": [],
+        "Child": [
+          "Functional Fluency",
+          "Menschliche Sprache",
+          "Körpersprache",
+          "Höflichkeitsformen"
+        ],
+        "Friend": [
+          "Kultur als Informationsnetzwerk",
+          "Immersion macht Kultur zum Umfeld"
+        ]
+      }
+    },
+    {
+      "id": "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1",
+      "title": "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1",
+      "url": "/immersion-und-spracherwerb/mehrsprachigkeit/sprachwissen-wird-weniger-zuganglich-nicht-einfach-geloscht-1a1",
+      "folder": "Immersion und Spracherwerb/Mehrsprachigkeit",
+      "excerpt": "Claim Ungenutztes Sprachwissen wird oft weniger zugänglich, nicht einfach gelöscht. Reaktivierung bedeutet deshalb, vorhandene Spuren wieder erreichbar und flüssig zu machen. Why It Matters Das stützt die Sprachlernstrat",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "SRS (Spaced Repetition), Anki",
+      "title": "SRS (Spaced Repetition), Anki",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/srs-spaced-repetition-anki",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "SRS (Spaced Repetition), Anki Summary Ein SRS, also ein Spaced-Repetition-System, ist ein Wiederholungssystem, das Lernstoff nicht jeden Tag komplett abfragt, sondern Karten nach wachsendem Abstand wieder vorlegt. Nach j",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "The LLM in my brain",
+      "title": "The LLM in my brain",
+      "url": "/immersion-und-spracherwerb/immersion/the-llm-in-my-brain",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "beim Sprachen lernen bildet sich in unserem Gehirn praktisch ein LLM für diese Sprache. Diese LLM wird immer weiter verfeinert durch Input und Output",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Language Acquisition",
+          "Input first - Aufbau eines Sprachgefühls"
+        ]
+      }
+    },
+    {
+      "id": "Thematische Immersion optimiert Wiederbegegnung(-sdichte)",
+      "title": "Thematische Immersion optimiert Wiederbegegnung(-sdichte)",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/thematische-immersion-optimiert-wiederbegegnung-sdichte",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "Der größte Vorteil thematischer Immersion Wiederbegegnung. Wenn man längere Zeit innerhalb: - eines Themenfeldes, - eines Genres, - einer Community, - (evtl. sogar eines Medienformats (Yt-Vokabeln) bleibt, entsteht autom",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Video, Vokabeln, Repeat - Methode",
+          "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;"
+        ],
+        "Parent": [
+          "Immersion-Loop Methoden"
+        ],
+        "Child": [
+          "Häufigkeitslisten lösen das Problem nicht"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+      "title": "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+      "url": "/immersion-und-spracherwerb/immersion/verstandlichkeit-vs-aufmerksamkeit-auswahl-der-materialien-fur-immersion",
+      "folder": "Immersion und Spracherwerb/Immersion",
+      "excerpt": "Claim Input bewegt sich in einem Spannungsfeld zwischen Verständlichkeit und Aufmerksamkeit... !Drawing 2026-05-04 14.32.38.excalidraw Language Acquisition beginnt mit verständlichem Input: Man muss genug Bedeutung erfas",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Immersion festigt Konzepte am besten in einer Lernschlaufe"
+        ],
+        "Parent": [
+          "Mühelose Aufmerksamkeit ist der Nordstern der Immersion"
+        ],
+        "Child": [
+          "Erwartung steuert, ob Input als verstehbar behandelt wird",
+          "Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit"
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Verstehen kommt vor Memorieren",
+      "title": "Verstehen kommt vor Memorieren",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/prinzipien-fur-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte",
+      "excerpt": "Claim Verstehen kommt vor Memorieren: Anki sollte erst einsetzen, wenn das Material bereits in ein grobes mentales Modell passt.[^source-notes] Das widerspricht der Wiedererkennungslogik nicht: Für Vokabelkarten reicht e",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört",
+          "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern"
+        ]
+      }
+    },
+    {
+      "id": "Video, Vokabeln, Repeat - Methode",
+      "title": "Video, Vokabeln, Repeat - Methode",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/video-vokabeln-repeat-methode",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "Das Konzept was ich entwickelt habe, und welches ich aktuell verwende. Videos mit einer \"Schwierige Vokabel\" Liste versehen. Dann wird aus dieser Vokabelliste immer ein player gebaut mit meinem aktuellen Stand. 2 große V",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Immersion festigt Konzepte am besten in einer Lernschlaufe"
+        ]
+      }
+    },
+    {
+      "id": "Videos mit Vokabellisten",
+      "title": "Videos mit Vokabellisten",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/videos-mit-vokabellisten",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "ich benutze Videos mit Vokabellisten um die Worte im lernbaren Zustand zu kuratieren.",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [
+          "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand."
+        ],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Wahl von geeignetem Input Material für Immersion",
+      "title": "Wahl von geeignetem Input Material für Immersion",
+      "url": "/immersion-und-spracherwerb/immersion/die-beste-methode-mit-geschichten-lernen-optimale-immersions-schlaufe/wahl-von-geeignetem-input-material-fur-immersion",
+      "folder": "Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)",
+      "excerpt": "Geeignetes Input Material ist also, wofür ich mich einfach interessiere. Interesse ist wirklich das einzige Kriterium wirklich. Verständnis ist auch wichtig, aber Interesse an erster Stelle (außerdem wird man sich natürl",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+          "Mühelose Aufmerksamkeit ist der Nordstern der Immersion"
+        ]
+      }
+    },
+    {
+      "id": "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?",
+      "title": "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?",
+      "url": "/immersion-und-spracherwerb/welche-fahigkeiten-sollte-man-beim-lernen-einer-sprache-priorisieren",
+      "folder": "Immersion und Spracherwerb",
+      "excerpt": "Man sollte die Fähigkeiten priorisieren, die für Bewegung in der Zielkultur am wichtigsten sind. 1. Gesprochene Alltagssprache verstehen. 2. Gesprochene Sprache selbst verwenden. 3. Gesprochene Sprache in Medien mitlesen",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Input first - Aufbau eines Sprachgefühls"
+        ],
+        "Parent": [
+          "Immersion-Loop Methoden",
+          "Kultur als Informationsnetzwerk",
+          "Functional Fluency"
+        ],
+        "Child": [],
+        "Friend": [
+          "Input first - Aufbau eines Sprachgefühls",
+          "Output second - Output macht Immersion prüfbar"
+        ]
+      }
+    },
+    {
+      "id": "Wenn man nach dem Sinn fragt, wertschätzt man das als solches Leben nicht",
+      "title": "Wenn man nach dem Sinn fragt, wertschätzt man das als solches Leben nicht",
+      "url": "/ach-ist-das-leben-nicht-schon/wenn-man-nach-dem-sinn-fragt-wertschatzt-man-das-als-solches-leben-nicht",
+      "folder": "Ach, ist das Leben nicht schön",
+      "excerpt": "Wenn man nach dem Sinn fragt, wertschätzt man das als solches Leben nicht Genauso, wie wenn man Schönheit im Leben optimiert.",
+      "relations": {
+        "Prev": [],
+        "Next": [],
+        "Parent": [],
+        "Child": [],
+        "Friend": []
+      }
+    },
+    {
+      "id": "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)",
+      "title": "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)",
+      "url": "/immersion-und-spracherwerb/anki-fur-s-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-konnen-oftmals-mit-anki-fast-ausgelernt-werden-erstkonnotation-volle-konnotation",
+      "folder": "Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell",
+      "excerpt": "Worte, deren Bedeutung fast deckungsgleich ist wie in der eigenen Muttersprache (oder einer gelernten Sprache), können leicht mit Anki gelernt werden. De facto muss nur ein neuer Code (die Aussprache) für die selbe Bedeu",
+      "relations": {
+        "Prev": [],
+        "Next": [
+          "Getting Ready for Immersion - einen Grundwortschatz aufbauen"
+        ],
+        "Parent": [],
+        "Child": [],
+        "Friend": [
+          "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+          "Verstehen kommt vor Memorieren"
+        ]
+      }
+    }
+  ]
+}

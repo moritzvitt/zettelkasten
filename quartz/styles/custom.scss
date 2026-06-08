@@ -1,3 +1,72 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+.page article {
+  line-height: 1.62;
+}
+
+.page article table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.page article table th,
+.page article table td {
+  vertical-align: top;
+}
+
+.page article table td {
+  min-width: 9rem;
+}
+
+.page article h1,
+.page article h2,
+.page article h3 {
+  letter-spacing: 0;
+}
+
+.page article h2#struktur,
+.page article h1#excalibrain {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+.page article h3 a.internal {
+  text-decoration: none;
+}
+
+.page article blockquote {
+  border-left-color: var(--tertiary);
+}
+
+.explorer {
+  font-size: 0.92rem;
+}
+
+.graph {
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.excalibrain-frame {
+  width: min(100vw, 1440px);
+  height: 78vh;
+  min-height: 620px;
+  margin-left: calc((min(100vw, 1440px) - 100%) / -2);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.18);
+  background: #0f4771;
+}
+
+.backlinks {
+  border-top: 1px solid var(--lightgray);
+  padding-top: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .page {
+    max-width: 1680px;
+  }
+}
