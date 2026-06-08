@@ -3,14 +3,14 @@ title: "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;.md"
 publish: true
 graphLinks:
-  - "[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
-  - "[[Immersion festigt Konzepte am besten in einer Lernschlaufe]]"
-  - "[[Die Rolle von SRS; Immersion vorbereiten]]"
-  - "[[Immersion-Loop Methoden]]"
-  - "[[Anki ist kein Wissensspeicher]]"
-  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
-  - "[[Prinzip der minimalen Information macht Wiederholungen planbar]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion festigt Konzepte am besten in einer Lernschlaufe]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Prinzip der minimalen Information macht Wiederholungen planbar]]"
 tags:
   - zettel
 ---

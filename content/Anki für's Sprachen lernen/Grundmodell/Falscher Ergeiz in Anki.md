@@ -3,9 +3,9 @@ title: "Falscher Ergeiz in Anki"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki.md"
 publish: true
 graphLinks:
-  - "[[Anki ist kein Wissensspeicher]]"
-  - "[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Eine Sprache wird einmal tief gelernt und später reaktiviert]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
+  - "[[Mehrsprachigkeit/Eine Sprache wird einmal tief gelernt und später reaktiviert]]"
 tags:
   - zettel
 ---

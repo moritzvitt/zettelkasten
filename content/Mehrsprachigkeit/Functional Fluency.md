@@ -4,7 +4,7 @@ source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Funct
 publish: true
 graphLinks:
   - "[[Language Acquisition]]"
-  - "[[Functional Fluency vs Trying to learn a language to absolute perfection...]]"
+  - "[[Mehrsprachigkeit/Functional Fluency vs Trying to learn a language to absolute perfection...]]"
 tags:
   - zettel
 ---

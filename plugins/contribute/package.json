@@ -1,0 +1,46 @@
+{
+  "name": "@moritzvitt/quartz-contribute",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "contribute",
+    "displayName": "Contribute",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 45,
+    "defaultOptions": {
+      "repositoryUrl": "https://github.com/moritzvitt/zettelkasten",
+      "zipUrl": "https://github.com/moritzvitt/zettelkasten/archive/refs/heads/v5.zip",
+      "markdownUrl": "https://github.com/moritzvitt/zettelkasten/tree/v5/content"
+    },
+    "components": {
+      "Contribute": {
+        "displayName": "Contribute",
+        "defaultPosition": "right",
+        "defaultPriority": 45
+      }
+    },
+    "optionSchema": {
+      "repositoryUrl": {
+        "type": "string"
+      },
+      "zipUrl": {
+        "type": "string"
+      },
+      "markdownUrl": {
+        "type": "string"
+      }
+    }
+  }
+}

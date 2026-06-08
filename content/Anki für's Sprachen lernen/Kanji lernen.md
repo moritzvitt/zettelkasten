@@ -3,7 +3,7 @@ title: "Kanji lernen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Kanji lernen.md"
 publish: true
 graphLinks:
-  - "[[Immersion-Loop Methoden]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
 tags:
   - zettel
 ---

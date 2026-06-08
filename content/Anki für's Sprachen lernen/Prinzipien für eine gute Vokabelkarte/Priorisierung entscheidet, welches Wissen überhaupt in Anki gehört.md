@@ -3,9 +3,9 @@ title: "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört.md"
 publish: true
 graphLinks:
-  - "[[Verstehen kommt vor Memorieren]]"
-  - "[[Anki ist kein Wissensspeicher]]"
-  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Verstehen kommt vor Memorieren]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
 tags:
   - zettel
 ---

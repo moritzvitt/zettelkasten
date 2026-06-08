@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: de-DE
-  baseUrl: localhost:8080
+  baseUrl: v5--moritz-zettelkasten.netlify.app
   ignorePatterns:
     - private
     - templates
@@ -117,7 +117,7 @@ plugins:
     enabled: true
     options:
       localGraph:
-        depth: 2
+        depth: 1
         scale: 0.95
         repelForce: 0.75
         centerForce: 0.22
@@ -137,6 +137,15 @@ plugins:
     layout:
       position: right
       priority: 10
+  - source: ./plugins/contribute
+    enabled: true
+    options:
+      repositoryUrl: https://github.com/moritzvitt/zettelkasten
+      zipUrl: https://github.com/moritzvitt/zettelkasten/archive/refs/heads/v5.zip
+      markdownUrl: https://github.com/moritzvitt/zettelkasten/tree/v5/content
+    layout:
+      position: right
+      priority: 45
   - source: github:quartz-community/search
     enabled: true
     layout:
@@ -156,10 +165,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
-    layout:
-      position: beforeBody
-      priority: 20
+    enabled: false
   - source: github:quartz-community/page-title
     enabled: true
     layout:
@@ -204,7 +210,7 @@ plugins:
         - source
         - tags
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5

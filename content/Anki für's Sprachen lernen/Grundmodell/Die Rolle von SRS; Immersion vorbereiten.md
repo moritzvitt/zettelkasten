@@ -3,7 +3,7 @@ title: "Die Rolle von SRS; Immersion vorbereiten"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten.md"
 publish: true
 graphLinks:
-  - "[[Immersion-Loop Methoden]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
 tags:
   - zettel
 ---

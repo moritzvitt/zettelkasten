@@ -3,9 +3,9 @@ title: "Output second - Output macht Immersion prüfbar"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Output second - Output macht Immersion prüfbar.md"
 publish: true
 graphLinks:
-  - "[[Input first - Aufbau eines Sprachgefühls]]"
+  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
   - "[[Language Acquisition]]"
-  - "[[Immersion macht Kultur zum Umfeld]]"
+  - "[[Immersion/Immersion macht Kultur zum Umfeld]]"
 tags:
   - zettel
 ---

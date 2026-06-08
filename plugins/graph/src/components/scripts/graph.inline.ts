@@ -3,19 +3,32 @@ import {
   removeAllChildren,
   getBasePath,
   getFullSlugFromUrl,
-  simplifySlug,
   resolveBasePath,
 } from "@quartz-community/utils";
+import {
+  canonicalGraphSlug,
+  normalizeGraphSlug,
+  resolveGraphSlug,
+} from "./graphSlug";
 
 (function () {
   function getSlugFromUrl() {
+    var pageSlug = document.body?.dataset?.slug;
     var slug = getFullSlugFromUrl();
     var base = getBasePath();
     if (base && slug.startsWith(base.replace(/^\//, ""))) {
       slug = slug.slice(base.replace(/^\//, "").length);
       if (slug.startsWith("/")) slug = slug.slice(1);
     }
-    return slug;
+    return canonicalGraphSlug(pageSlug, slug);
+  }
+
+  function fallbackTitle(slug) {
+    var part = String(slug || "").split("/").pop() || String(slug || "");
+    try {
+      part = decodeURIComponent(part);
+    } catch {}
+    return part.replaceAll("-", " ");
   }
 
   function loadScript(src) {
@@ -61,7 +74,7 @@ import {
     }
 
     var localStorageKey = "graph-visited";
-    var depthStorageKey = "graph-depth";
+    var depthStorageKey = "graph-depth-v2";
     var allowedDepths = [-1, 1, 2, 3, 4];
 
     function getVisited() {
@@ -111,7 +124,7 @@ import {
     }
 
     async function renderGraph(graph, fullSlug, renderGeneration) {
-      var slug = simplifySlug(fullSlug);
+      var slug = normalizeGraphSlug(fullSlug);
       if (slug === "") slug = "index";
       var visited = getVisited();
       removeAllChildren(graph);
@@ -141,7 +154,7 @@ import {
         var dataRaw = await fetchData;
         data = new Map();
         for (var key in dataRaw) {
-          data.set(simplifySlug(key), dataRaw[key]);
+          data.set(normalizeGraphSlug(key), dataRaw[key]);
         }
       } catch (err) {
         console.error("[Graph] Error loading data:", err);
@@ -154,11 +167,12 @@ import {
       var links = [];
       var allTags = [];
       var validLinks = new Set(data.keys());
+      slug = resolveGraphSlug(slug, validLinks);
 
       data.forEach(function (details, source) {
         var outgoing = details.links || [];
         for (var i = 0; i < outgoing.length; i++) {
-          var dest = simplifySlug(outgoing[i]);
+          var dest = resolveGraphSlug(outgoing[i], validLinks);
           if (validLinks.has(dest)) {
             links.push({ source: source, target: dest });
           }
@@ -169,7 +183,7 @@ import {
           for (var i = 0; i < tags.length; i++) {
             var tag = tags[i];
             if (removeTags.indexOf(tag) === -1) {
-              var tagSlug = simplifySlug("tags/" + tag);
+              var tagSlug = normalizeGraphSlug("tags/" + tag);
               if (allTags.indexOf(tagSlug) === -1) {
                 allTags.push(tagSlug);
               }
@@ -215,7 +229,7 @@ import {
       var nodeMap = new Map();
       neighbourhood.forEach(function (url) {
         var isTag = url.startsWith("tags/");
-        var text = isTag ? "#" + url.substring(5) : data.get(url)?.title || url;
+        var text = isTag ? "#" + url.substring(5) : data.get(url)?.title || fallbackTitle(url);
         var nodeTags = isTag ? [] : data.get(url)?.tags || [];
         var node = {
           id: url,
@@ -753,7 +767,7 @@ import {
 
     function handleNav(e) {
       var slug = e.detail ? e.detail.url : getSlugFromUrl();
-      addToVisited(simplifySlug(slug));
+      addToVisited(normalizeGraphSlug(slug));
 
       renderLocal();
 

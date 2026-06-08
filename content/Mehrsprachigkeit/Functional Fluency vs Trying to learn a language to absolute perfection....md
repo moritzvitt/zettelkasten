@@ -4,7 +4,7 @@ source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Funct
 publish: true
 graphLinks:
   - "[[Language Acquisition]]"
-  - "[[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]"
+  - "[[Mehrsprachigkeit/Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]"
 tags:
   - zettel
 ---

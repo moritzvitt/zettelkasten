@@ -3,10 +3,10 @@ title: "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung 
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen.md"
 publish: true
 graphLinks:
-  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
-  - "[[Anki's Kontextdilemma]]"
-  - "[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
 tags:
   - zettel
 ---

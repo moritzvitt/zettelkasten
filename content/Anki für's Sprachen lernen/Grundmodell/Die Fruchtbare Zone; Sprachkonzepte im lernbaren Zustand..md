@@ -3,12 +3,12 @@ title: "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand."
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand..md"
 publish: true
 graphLinks:
-  - "[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
-  - "[[Immersion festigt Konzepte am besten in einer Lernschlaufe]]"
-  - "[[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
-  - "[[Die Rolle von SRS; Immersion vorbereiten]]"
-  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
-  - "[[Falscher Ergeiz in Anki]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion festigt Konzepte am besten in einer Lernschlaufe]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki]]"
 tags:
   - zettel
 ---

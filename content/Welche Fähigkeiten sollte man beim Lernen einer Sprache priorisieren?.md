@@ -3,10 +3,10 @@ title: "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?.md"
 publish: true
 graphLinks:
-  - "[[Input first - Aufbau eines Sprachgefühls]]"
-  - "[[Immersion-Loop Methoden]]"
-  - "[[Functional Fluency]]"
-  - "[[Output second - Output macht Immersion prüfbar]]"
+  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
+  - "[[Mehrsprachigkeit/Functional Fluency]]"
+  - "[[Immersion/Output second - Output macht Immersion prüfbar]]"
 tags:
   - zettel
 ---

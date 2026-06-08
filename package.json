@@ -15,9 +15,11 @@
     "quartz": "./quartz/bootstrap-cli.mjs",
     "sync-zettel": "node scripts/sync-zettel.mjs",
     "configure-site-url": "node scripts/configure-site-url.mjs",
-    "dev": "npm run build:graph && node scripts/use-local-graph.mjs && npm run sync-zettel && npm run ensure-plugin-index && npx quartz build --serve",
+    "dev": "npm run build:plugins && node scripts/use-local-graph.mjs && npm run sync-zettel && npm run ensure-plugin-index && npx quartz build --serve",
     "build": "npm run sync-zettel && npm run ensure-plugin-index && npx quartz build",
+    "build:plugins": "npm run build:graph && npm run build:contribute",
     "build:graph": "npm run build --prefix plugins/graph",
+    "build:contribute": "npm run build --prefix plugins/contribute",
     "build:explicit": "npm run build",
     "publish:local": "npm run build",
     "ensure-plugin-index": "node scripts/ensure-plugin-index.mjs",
@@ -25,9 +27,10 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
+    "test:graph-links": "node scripts/check-hidden-graph-links.mjs",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "install-plugins": "npm run ensure-plugin-index",
-    "prebuild": "npm run build:graph && node scripts/use-local-graph.mjs && npm run ensure-plugin-index"
+    "prebuild": "npm run build:plugins && node scripts/use-local-graph.mjs && npm run ensure-plugin-index"
   },
   "engines": {
     "npm": ">=10.9.2",

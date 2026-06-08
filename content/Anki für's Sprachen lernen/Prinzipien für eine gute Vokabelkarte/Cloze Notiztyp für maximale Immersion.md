@@ -3,10 +3,10 @@ title: "Cloze Notiztyp für maximale Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion.md"
 publish: true
 graphLinks:
-  - "[[Einsprachigkeit der Erfahrung verdichtet Immersion]]"
-  - "[[Scheduling Probleme durch Überschneidungen]]"
-  - "[[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
-  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
 tags:
   - zettel
 ---

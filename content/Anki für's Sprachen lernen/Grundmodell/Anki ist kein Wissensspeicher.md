@@ -3,9 +3,9 @@ title: "Anki ist kein Wissensspeicher"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher.md"
 publish: true
 graphLinks:
-  - "[[Die Rolle von SRS; Immersion vorbereiten]]"
-  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
-  - "[[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
 tags:
   - zettel
 ---

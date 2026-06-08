@@ -3,8 +3,8 @@ title: "Eine Vokabelkarte trägt maximal eine Erstkonnotation"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation.md"
 publish: true
 graphLinks:
-  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
-  - "[[Cloze Notiztyp für maximale Immersion]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion]]"
 tags:
   - zettel
 ---

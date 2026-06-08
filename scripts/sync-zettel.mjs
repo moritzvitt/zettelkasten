@@ -177,12 +177,13 @@ for (const file of files) {
   })
 }
 
-const titleToTitle = new Map(rawNotes.map((note) => [cleanTitle(note.title), note.title]))
-const stemToTitle = new Map(
-  rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), note.title]),
+const graphPath = (note) => note.rel.replace(/\.md$/, "").split(path.sep).join("/")
+const titleToPath = new Map(rawNotes.map((note) => [cleanTitle(note.title), graphPath(note)]))
+const stemToPath = new Map(
+  rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), graphPath(note)]),
 )
 const resolve = (target) =>
-  titleToTitle.get(cleanTitle(target)) || stemToTitle.get(cleanTitle(target)) || null
+  titleToPath.get(cleanTitle(target)) || stemToPath.get(cleanTitle(target)) || null
 
 for (const note of rawNotes) {
   for (const name of relationNames)

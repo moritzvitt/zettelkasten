@@ -4,7 +4,7 @@ source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/The LLM in m
 publish: true
 graphLinks:
   - "[[Language Acquisition]]"
-  - "[[Input first - Aufbau eines Sprachgefühls]]"
+  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
 tags:
   - zettel
 ---

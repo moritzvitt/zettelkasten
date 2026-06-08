@@ -3,9 +3,9 @@ title: "Häufigkeitslisten lösen das Problem nicht"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht.md"
 publish: true
 graphLinks:
-  - "[[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
-  - "[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
-  - "[[Functional Fluency]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
+  - "[[Mehrsprachigkeit/Functional Fluency]]"
 tags:
   - zettel
 ---

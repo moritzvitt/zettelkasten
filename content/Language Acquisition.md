@@ -3,8 +3,8 @@ title: "Language Acquisition"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Language Acquisition.md"
 publish: true
 graphLinks:
-  - "[[Immersion macht Kultur zum Umfeld]]"
-  - "[[The LLM in my brain]]"
+  - "[[Immersion/Immersion macht Kultur zum Umfeld]]"
+  - "[[Immersion/The LLM in my brain]]"
 tags:
   - zettel
 ---

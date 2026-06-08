@@ -3,15 +3,15 @@ title: "Anki alleine wird mit wachsendem Wortschatz ineffizient"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki alleine wird mit wachsendem Wortschatz ineffizient.md"
 publish: true
 graphLinks:
-  - "[[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
-  - "[[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
-  - "[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
-  - "[[Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]]"
-  - "[[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]"
-  - "[[Anki's Kontextdilemma]]"
-  - "[[Häufigkeitslisten lösen das Problem nicht]]"
-  - "[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht]]"
+  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
+  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
 tags:
   - zettel
 ---

@@ -3,8 +3,8 @@ title: "Einsprachigkeit der Erfahrung verdichtet Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion.md"
 publish: true
 graphLinks:
-  - "[[Immersion macht Kultur zum Umfeld]]"
-  - "[[Cloze Notiztyp für maximale Immersion]]"
+  - "[[Immersion/Immersion macht Kultur zum Umfeld]]"
+  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion]]"
 tags:
   - zettel
 ---
