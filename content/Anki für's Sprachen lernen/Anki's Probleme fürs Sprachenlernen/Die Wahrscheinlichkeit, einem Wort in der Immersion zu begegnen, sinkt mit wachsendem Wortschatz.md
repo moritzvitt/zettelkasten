@@ -2,6 +2,8 @@
 title: "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz.md"
 publish: true
+graphLinks:
+  - "[[Häufigkeitslisten lösen das Problem nicht]]"
 tags:
   - zettel
 ---

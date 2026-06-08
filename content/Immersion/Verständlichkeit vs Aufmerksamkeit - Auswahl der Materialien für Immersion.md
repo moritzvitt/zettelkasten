@@ -2,6 +2,11 @@
 title: "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion.md"
 publish: true
+graphLinks:
+  - "[[Immersion festigt Konzepte am besten in einer Lernschlaufe]]"
+  - "[[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]"
+  - "[[Erwartung steuert, ob Input als verstehbar behandelt wird]]"
+  - "[[Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit]]"
 tags:
   - zettel
 ---

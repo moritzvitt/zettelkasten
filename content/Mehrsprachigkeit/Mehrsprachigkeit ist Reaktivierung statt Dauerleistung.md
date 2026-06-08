@@ -2,6 +2,8 @@
 title: "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Mehrsprachigkeit ist Reaktivierung statt Dauerleistung.md"
 publish: true
+graphLinks:
+  - "[[Falscher Ergeiz in Anki]]"
 tags:
   - zettel
 ---

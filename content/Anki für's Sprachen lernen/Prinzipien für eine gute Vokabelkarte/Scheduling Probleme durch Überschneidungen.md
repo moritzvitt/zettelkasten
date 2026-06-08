@@ -2,6 +2,9 @@
 title: "Scheduling Probleme durch Überschneidungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen.md"
 publish: true
+graphLinks:
+  - "[[Cloze Notiztyp für maximale Immersion]]"
+  - "[[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]]"
 tags:
   - zettel
 ---

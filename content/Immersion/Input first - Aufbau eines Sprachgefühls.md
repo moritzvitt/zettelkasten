@@ -2,6 +2,10 @@
 title: "Input first - Aufbau eines Sprachgefühls"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Input first - Aufbau eines Sprachgefühls.md"
 publish: true
+graphLinks:
+  - "[[Output second - Output macht Immersion prüfbar]]"
+  - "[[Language Acquisition]]"
+  - "[[The LLM in my brain]]"
 tags:
   - zettel
 ---

@@ -2,6 +2,8 @@
 title: "Mühelose Aufmerksamkeit ist der Nordstern der Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Mühelose Aufmerksamkeit ist der Nordstern der Immersion.md"
 publish: true
+graphLinks:
+  - "[[Wahl von geeignetem Input Material für Immersion]]"
 tags:
   - zettel
 ---

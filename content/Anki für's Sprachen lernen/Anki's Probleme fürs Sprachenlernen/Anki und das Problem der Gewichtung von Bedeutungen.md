@@ -2,6 +2,12 @@
 title: "Anki und das Problem der Gewichtung von Bedeutungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der Gewichtung von Bedeutungen.md"
 publish: true
+graphLinks:
+  - "[[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]"
+  - "[[Anki alleine wird mit wachsendem Wortschatz ineffizient]]"
+  - "[[Anki's Kontextdilemma]]"
+  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
 tags:
   - zettel
 ---

@@ -2,6 +2,10 @@
 title: "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation).md"
 publish: true
+graphLinks:
+  - "[[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
+  - "[[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[Verstehen kommt vor Memorieren]]"
 tags:
   - zettel
 ---

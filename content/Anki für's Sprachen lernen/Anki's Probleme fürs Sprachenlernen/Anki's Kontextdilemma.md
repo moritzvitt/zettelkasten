@@ -2,6 +2,10 @@
 title: "Anki's Kontextdilemma"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma.md"
 publish: true
+graphLinks:
+  - "[[Anki und das Problem der Gewichtung von Bedeutungen]]"
+  - "[[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
 tags:
   - zettel
 ---

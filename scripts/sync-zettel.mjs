@@ -106,17 +106,19 @@ function excerpt(text) {
     .slice(0, 220)
 }
 
-function frontmatter(title, sourcePath) {
-  return [
+function frontmatter(title, sourcePath, graphLinks = []) {
+  const lines = [
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
     "publish: true",
-    "tags:",
-    "  - zettel",
-    "---",
-    "",
-  ].join("\n")
+  ]
+  if (graphLinks.length) {
+    lines.push("graphLinks:")
+    for (const link of graphLinks) lines.push(`  - "[[${link.replaceAll('"', '\\"')}]]"`)
+  }
+  lines.push("tags:", "  - zettel", "---", "")
+  return lines.join("\n")
 }
 
 function folderIndex(relDir, notes) {
@@ -180,7 +182,10 @@ for (const note of rawNotes) {
   await mkdir(path.dirname(out), { recursive: true })
   const body = stripFrontmatter(note.text)
   const sourcePath = path.relative(vaultRoot, note.file)
-  await writeFile(out, frontmatter(note.title, sourcePath) + body.trim() + "\n")
+  const graphLinks = [
+    ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
+  ]
+  await writeFile(out, frontmatter(note.title, sourcePath, graphLinks) + body.trim() + "\n")
 }
 
 const folders = new Map()

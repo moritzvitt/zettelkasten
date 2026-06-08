@@ -2,6 +2,9 @@
 title: "The LLM in my brain"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/The LLM in my brain.md"
 publish: true
+graphLinks:
+  - "[[Language Acquisition]]"
+  - "[[Input first - Aufbau eines Sprachgefühls]]"
 tags:
   - zettel
 ---

@@ -2,6 +2,10 @@
 title: "Prinzip der minimalen Information macht Wiederholungen planbar"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Prinzip der minimalen Information macht Wiederholungen planbar.md"
 publish: true
+graphLinks:
+  - "[[Prinzip der minimalen Information sorgt für klare Erinnerungspuren]]"
+  - "[[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]]"
+  - "[[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
 tags:
   - zettel
 ---

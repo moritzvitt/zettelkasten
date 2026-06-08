@@ -2,6 +2,8 @@
 title: "Shadowing"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Shadowing.md"
 publish: true
+graphLinks:
+  - "[[Input first - Aufbau eines Sprachgefühls]]"
 tags:
   - zettel
 ---

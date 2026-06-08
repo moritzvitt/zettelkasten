@@ -2,6 +2,10 @@
 title: "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠.md"
 publish: true
+graphLinks:
+  - "[[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
+  - "[[Anki ist kein Wissensspeicher]]"
+  - "[[Prinzip der minimalen Information macht Wiederholungen planbar]]"
 tags:
   - zettel
 ---

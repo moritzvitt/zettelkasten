@@ -2,6 +2,9 @@
 title: "Erwartung steuert, ob Input als verstehbar behandelt wird"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Erwartung steuert, ob Input als verstehbar behandelt wird.md"
 publish: true
+graphLinks:
+  - "[[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]"
+  - "[[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]]"
 tags:
   - zettel
 ---

@@ -2,6 +2,9 @@
 title: "Functional Fluency"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency.md"
 publish: true
+graphLinks:
+  - "[[Language Acquisition]]"
+  - "[[Functional Fluency vs Trying to learn a language to absolute perfection...]]"
 tags:
   - zettel
 ---

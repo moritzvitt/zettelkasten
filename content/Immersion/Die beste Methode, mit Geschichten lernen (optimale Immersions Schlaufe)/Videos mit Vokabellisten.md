@@ -2,6 +2,8 @@
 title: "Videos mit Vokabellisten"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Videos mit Vokabellisten.md"
 publish: true
+graphLinks:
+  - "[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
 tags:
   - zettel
 ---

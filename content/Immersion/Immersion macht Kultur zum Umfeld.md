@@ -2,6 +2,10 @@
 title: "Immersion macht Kultur zum Umfeld"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Immersion macht Kultur zum Umfeld.md"
 publish: true
+graphLinks:
+  - "[[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]]"
+  - "[[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
+  - "[[Einsprachigkeit der Erfahrung verdichtet Immersion]]"
 tags:
   - zettel
 ---

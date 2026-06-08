@@ -2,6 +2,8 @@
 title: "Eine Sprache wird einmal tief gelernt und später reaktiviert"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Eine Sprache wird einmal tief gelernt und später reaktiviert.md"
 publish: true
+graphLinks:
+  - "[[Falscher Ergeiz in Anki]]"
 tags:
   - zettel
 ---
