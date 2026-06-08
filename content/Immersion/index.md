@@ -1,6 +1,6 @@
 ---
 title: "Immersion"
-source: "Immersion und Spracherwerb/Immersion"
+source: "Immersion"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Mehrsprachigkeit"
-source: "Immersion und Spracherwerb/Mehrsprachigkeit"
+source: "Mehrsprachigkeit"
 publish: true
 tags:
   - zettel

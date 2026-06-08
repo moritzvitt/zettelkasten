@@ -24,9 +24,17 @@ Für einen reinen Build:
 npm run build
 ```
 
+Für den aktuellen ersten Veröffentlichungsstand nur mit Spracherwerb-Notizen:
+
+```sh
+npm run build:spracherwerb
+```
+
 ## Veröffentlichen
 
 Der normale Modus veröffentlicht den kuratierten Zettelbestand aus `LLM Wiki/notes/zettel`. Einzelne Notizen bleiben draußen, wenn sie im Frontmatter eines davon setzen:
+
+Der aktuelle GitHub-Stand enthält bewusst nur den Unterordner `Immersion und Spracherwerb`.
 
 ```yaml
 draft: true

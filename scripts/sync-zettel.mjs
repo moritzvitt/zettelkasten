@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
+import { access, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
 import path from "node:path"
 import YAML from "yaml"
 
@@ -7,6 +7,13 @@ const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM W
 const contentRoot = path.join(process.cwd(), "content")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
 const publishMode = process.env.PUBLISH_MODE || "curated"
+
+try {
+  await access(zettelRoot)
+} catch {
+  console.log(`Zettel source not found at ${zettelRoot}; using existing content directory`)
+  process.exit(0)
+}
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true })

@@ -1,6 +1,6 @@
 ---
 title: "Prinzipien für eine gute Vokabelkarte"
-source: "Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte"
+source: "Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte"
 publish: true
 tags:
   - zettel

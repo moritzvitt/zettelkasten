@@ -18,6 +18,7 @@
     "dev": "npm run sync-zettel && npm run ensure-plugin-index && npx quartz build --serve",
     "build": "npm run sync-zettel && npm run ensure-plugin-index && npx quartz build",
     "build:explicit": "PUBLISH_MODE=explicit npm run build",
+    "build:spracherwerb": "ZETTEL_SOURCE_ROOT='/Users/moritzvitt/Notes/Obsidian Notes/LLM Wiki/notes/zettel/Immersion und Spracherwerb' npm run build",
     "publish:local": "npm run build",
     "ensure-plugin-index": "node scripts/ensure-plugin-index.mjs",
     "docs": "npx quartz build --serve -d docs",

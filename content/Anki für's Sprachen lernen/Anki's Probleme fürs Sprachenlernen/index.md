@@ -1,6 +1,6 @@
 ---
 title: "Anki's Probleme fürs Sprachenlernen"
-source: "Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen"
+source: "Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen"
 publish: true
 tags:
   - zettel

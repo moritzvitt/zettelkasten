@@ -47,4 +47,4 @@ Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Frie
 
 | Previous | Parents | Children | Next | Friends |
 | --- | --- | --- | --- | --- |
-| Keine Einträge | [[Kultur als Informationsnetzwerk]] | Keine Einträge | [[Immersion macht Kultur zum Umfeld]], [[The LLM in my brain]] | Keine Einträge |
+| Keine Einträge | Keine Einträge | Keine Einträge | [[Immersion macht Kultur zum Umfeld]], [[The LLM in my brain]] | Keine Einträge |

@@ -34,4 +34,4 @@ Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Frie
 
 | Previous | Parents | Children | Next | Friends |
 | --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Functional Fluency vs Trying to learn a language to absolute perfection...]] | [[Language Acquisition]] | [[Language Acquisition]], [[Kultur als Informationsnetzwerk]] |
+| Keine Einträge | Keine Einträge | [[Functional Fluency vs Trying to learn a language to absolute perfection...]] | [[Language Acquisition]] | [[Language Acquisition]] |

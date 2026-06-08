@@ -36,4 +36,4 @@ Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Frie
 
 | Previous | Parents | Children | Next | Friends |
 | --- | --- | --- | --- | --- |
-| Keine Einträge | [[Immersion-Loop Methoden]], [[Kultur als Informationsnetzwerk]], [[Functional Fluency]] | Keine Einträge | [[Input first - Aufbau eines Sprachgefühls]] | [[Input first - Aufbau eines Sprachgefühls]], [[Output second - Output macht Immersion prüfbar]] |
+| Keine Einträge | [[Immersion-Loop Methoden]], [[Functional Fluency]] | Keine Einträge | [[Input first - Aufbau eines Sprachgefühls]] | [[Input first - Aufbau eines Sprachgefühls]], [[Output second - Output macht Immersion prüfbar]] |
