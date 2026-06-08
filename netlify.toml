@@ -1,0 +1,7 @@
+[build]
+  command = "QUARTZ_BASE_URL=$DEPLOY_PRIME_URL npm run configure-site-url && npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22.16.0"
+  NPM_FLAGS = "--include=dev"
