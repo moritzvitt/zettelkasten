@@ -34,6 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install local graph dependencies
+        run: npm ci --prefix plugins/graph
+
       - name: Install Quartz plugins
         run: npx quartz plugin install
 

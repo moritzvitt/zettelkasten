@@ -6,7 +6,7 @@ const root = path.join(process.cwd(), ".quartz/plugins")
 try {
   const entries = await readdir(root, { withFileTypes: true })
   const plugins = entries
-    .filter((entry) => entry.isDirectory())
+    .filter((entry) => entry.isDirectory() || entry.isSymbolicLink())
     .map((entry) => entry.name)
     .sort()
 
