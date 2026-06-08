@@ -43,9 +43,15 @@
 }
 
 .graph {
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
-  overflow: hidden;
+  & > h3 {
+    margin-bottom: 0.35rem;
+  }
+
+  & > .graph-outer {
+    margin-top: 0;
+    border-color: color-mix(in srgb, var(--lightgray) 72%, transparent);
+    border-radius: 8px;
+  }
 }
 
 .backlinks {
