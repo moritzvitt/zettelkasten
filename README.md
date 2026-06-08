@@ -24,36 +24,21 @@ Für einen reinen Build:
 npm run build
 ```
 
-Für den aktuellen ersten Veröffentlichungsstand nur mit Spracherwerb-Notizen:
-
-```sh
-npm run build:spracherwerb
-```
-
 ## Veröffentlichen
 
-Der normale Modus veröffentlicht den kuratierten Zettelbestand aus `LLM Wiki/notes/zettel`. Einzelne Notizen bleiben draußen, wenn sie im Frontmatter eines davon setzen:
-
-Der aktuelle GitHub-Stand enthält bewusst nur den Unterordner `Immersion und Spracherwerb`.
-
-```yaml
-draft: true
-publish: false
-dg-publish: false
-```
-
-Wenn die Website später nur noch explizit markierte Notizen veröffentlichen soll, nutze:
-
-```sh
-npm run build:explicit
-```
-
-Dann werden nur Notizen mit einem dieser Frontmatter-Felder übernommen:
+Die Veröffentlichung wird direkt in Obsidian über Properties gesteuert. Eine Notiz wird nur übernommen, wenn sie im Frontmatter explizit markiert ist:
 
 ```yaml
 publish: true
+```
+
+Alternativ wird auch die Property des Obsidian-Digital-Garden-Plugins akzeptiert:
+
+```yaml
 dg-publish: true
 ```
+
+`draft: true`, `publish: false` und `dg-publish: false` schließen eine Notiz ausdrücklich aus.
 
 ## GitHub Pages
 

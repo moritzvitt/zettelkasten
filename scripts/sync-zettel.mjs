@@ -4,13 +4,13 @@ import YAML from "yaml"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
 const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
+const languageLearningRoot = path.join(zettelRoot, "Immersion und Spracherwerb")
 const homepageSource = path.join(
   vaultRoot,
   "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md",
 )
 const contentRoot = path.join(process.cwd(), "content")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
-const publishMode = process.env.PUBLISH_MODE || "curated"
 
 try {
   await access(zettelRoot)
@@ -54,8 +54,15 @@ function isFalsey(value) {
 
 function shouldPublish(data) {
   if (isTruthy(data.draft) || isFalsey(data.publish) || isFalsey(data["dg-publish"])) return false
-  if (publishMode === "explicit") return isTruthy(data.publish) || isTruthy(data["dg-publish"])
-  return true
+  return isTruthy(data.publish) || isTruthy(data["dg-publish"])
+}
+
+function outputPath(file) {
+  if (file === homepageSource) return path.basename(file)
+  if (file.startsWith(`${languageLearningRoot}${path.sep}`)) {
+    return path.relative(languageLearningRoot, file)
+  }
+  return path.relative(zettelRoot, file)
 }
 
 function titleFrom(file, text) {
@@ -148,7 +155,6 @@ await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
 
 const files = await walk(zettelRoot)
-if (!files.includes(homepageSource)) files.push(homepageSource)
 const rawNotes = []
 let skipped = 0
 for (const file of files) {
@@ -158,7 +164,7 @@ for (const file of files) {
     skipped += 1
     continue
   }
-  const rel = file === homepageSource ? path.basename(file) : path.relative(zettelRoot, file)
+  const rel = outputPath(file)
   rawNotes.push({
     file,
     rel,
