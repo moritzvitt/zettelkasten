@@ -106,13 +106,14 @@ function excerpt(text) {
     .slice(0, 220)
 }
 
-function frontmatter(title, sourcePath, graphLinks = []) {
+function frontmatter(title, sourcePath, graphLinks = [], unlisted = false) {
   const lines = [
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
     "publish: true",
   ]
+  if (unlisted) lines.push("unlisted: true")
   if (graphLinks.length) {
     lines.push("graphLinks:")
     for (const link of graphLinks) lines.push(`  - "[[${link.replaceAll('"', '\\"')}]]"`)
@@ -124,7 +125,7 @@ function frontmatter(title, sourcePath, graphLinks = []) {
 function folderIndex(relDir, notes) {
   const title = relDir ? relDir.split(path.sep).at(-1) : "Zettelkasten"
   return [
-    frontmatter(title, relDir || "LLM Wiki/notes/zettel"),
+    frontmatter(title, relDir || "LLM Wiki/notes/zettel", [], !relDir),
     `# ${title}`,
     "",
     relDir

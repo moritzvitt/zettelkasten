@@ -2,6 +2,7 @@
 title: "Zettelkasten"
 source: "LLM Wiki/notes/zettel"
 publish: true
+unlisted: true
 tags:
   - zettel
 ---
