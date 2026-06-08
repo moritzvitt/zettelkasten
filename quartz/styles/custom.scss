@@ -24,8 +24,7 @@
   letter-spacing: 0;
 }
 
-.page article h2#struktur,
-.page article h1#excalibrain {
+.page article h2#struktur {
   border-top: 1px solid var(--lightgray);
   padding-top: 1.5rem;
   margin-top: 2.5rem;
@@ -47,17 +46,6 @@
   border: 1px solid var(--lightgray);
   border-radius: 8px;
   overflow: hidden;
-}
-
-.excalibrain-frame {
-  width: min(100vw, 1440px);
-  height: 78vh;
-  min-height: 620px;
-  margin-left: calc((min(100vw, 1440px) - 100%) / -2);
-  border: 0;
-  border-radius: 8px;
-  box-shadow: 0 16px 44px rgba(0, 0, 0, 0.18);
-  background: #0f4771;
 }
 
 .backlinks {

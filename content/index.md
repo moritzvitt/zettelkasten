@@ -7,8 +7,6 @@ tags:
 
 # Zettelkasten
 
-- [[Excalibrain]]
-
 Dies ist die Quartz-Version des Zettelkastens aus `LLM Wiki/notes/zettel`.
 
 ## Notizen

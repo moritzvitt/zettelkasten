@@ -164,7 +164,6 @@ plugins:
     enabled: true
     options:
       links:
-        Excalibrain: /Excalibrain
         Zettelkasten: /
   - source: github:quartz-community/spacer
     enabled: true
