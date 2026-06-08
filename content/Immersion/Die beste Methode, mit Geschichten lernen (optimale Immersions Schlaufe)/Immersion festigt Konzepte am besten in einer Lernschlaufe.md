@@ -25,11 +25,3 @@ Next::[[Immersion-Loop Methoden]], [[Anki alleine wird mit wachsendem Wortschatz
 
 
 [^source-notes]: Source notes: Immersion Loop für Japanisch; Japanisch Lernsystem; Japanisch und Anki Backfill
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| [[Immersion macht Kultur zum Umfeld]] | Keine Einträge | Keine Einträge | [[Immersion-Loop Methoden]], [[Anki alleine wird mit wachsendem Wortschatz ineffizient]], [[Video, Vokabeln, Repeat - Methode]] | Keine Einträge |

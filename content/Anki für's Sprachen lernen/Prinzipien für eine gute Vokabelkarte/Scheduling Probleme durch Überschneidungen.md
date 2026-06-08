@@ -31,11 +31,3 @@ Friend:: [[Cloze Notiztyp für maximale Immersion]], [[Redundanz ist erlaubt, we
 
 %%
 [^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Cloze Notiztyp für maximale Immersion]], [[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]] |

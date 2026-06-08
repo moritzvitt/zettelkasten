@@ -17,11 +17,3 @@ Child::[[Immersion bestimmt natürliche Wortgewichtung]], [[Functional Fluency]]
 Parent::[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]
 
 Next::[[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]] | [[Functional Fluency]] | [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]] | Keine Einträge |

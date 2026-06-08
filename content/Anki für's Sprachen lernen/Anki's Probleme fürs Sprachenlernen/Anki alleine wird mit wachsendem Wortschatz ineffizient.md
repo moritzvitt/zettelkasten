@@ -32,11 +32,3 @@ Next:: [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[Getting 
 ## Zettel Links
 Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]] | [[Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]], [[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]], [[Anki's Kontextdilemma]], [[Häufigkeitslisten lösen das Problem nicht]] | [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]] | [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]] |

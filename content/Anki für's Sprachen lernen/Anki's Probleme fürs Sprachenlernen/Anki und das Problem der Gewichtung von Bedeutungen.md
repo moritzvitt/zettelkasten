@@ -38,11 +38,3 @@ Friend:: [[Anki's Kontextdilemma]], [[Das Ziel einer Ankikarte ist nur, ein vage
 #anki #language-learning
 
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Anki alleine wird mit wachsendem Wortschatz ineffizient]] | Keine Einträge | [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]] | [[Anki's Kontextdilemma]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]] |

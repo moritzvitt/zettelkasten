@@ -40,11 +40,3 @@ Friend::
 [^clipping-what-is-language-acquisition]: Aus dem Clipping: What is Language Acquisition?; ursprüngliche Quelle: University of Sheffield, What is Language Acquisition; daraus extrahierte Source: Sheffield What is Language Acquisition.
 
 [^input-output-immersion-sources]: Source pages: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Immersion macht Kultur zum Umfeld]], [[The LLM in my brain]] | Keine Einträge |

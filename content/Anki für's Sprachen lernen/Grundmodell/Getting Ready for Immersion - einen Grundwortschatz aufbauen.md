@@ -17,11 +17,3 @@ Next::[[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immer
 ## Zettel Links
 Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Input first - Aufbau eines Sprachgefühls]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Input first - Aufbau eines Sprachgefühls]] | [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Input first - Aufbau eines Sprachgefühls]] |

@@ -27,11 +27,3 @@ Friend:: [[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]], [[Anki kost
 
 %%
 [^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Prinzip der minimalen Information sorgt für klare Erinnerungspuren]] | Keine Einträge | Keine Einträge | [[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]] |

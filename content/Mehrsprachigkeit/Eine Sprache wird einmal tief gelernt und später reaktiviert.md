@@ -34,11 +34,3 @@ Friend:: [[Falscher Ergeiz in Anki]]
 
 %%
 [^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; First Language Attrition and Dominance Same Same or Different; Japanisch und Anki Backfill
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Falscher Ergeiz in Anki]] |

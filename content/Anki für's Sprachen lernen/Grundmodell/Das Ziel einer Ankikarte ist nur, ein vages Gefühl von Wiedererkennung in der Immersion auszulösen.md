@@ -31,11 +31,3 @@ Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine V
 
 %%
 [^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Anki bereitet fruchtbare Begegnungen vor
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Anki's Kontextdilemma]] | Keine Einträge | [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]] |

@@ -31,11 +31,3 @@ Child:: [[Anki ist kein Wissensspeicher]], [[Anki kostet Zeit⏳ und Aufmerksamk
 
 %%
 [^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Immersion Loop für Japanisch
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]] | [[Die Rolle von SRS; Immersion vorbereiten]], [[Immersion-Loop Methoden]] | [[Anki ist kein Wissensspeicher]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Prinzip der minimalen Information macht Wiederholungen planbar]] | [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Immersion festigt Konzepte am besten in einer Lernschlaufe]] | Keine Einträge |

@@ -30,11 +30,3 @@ Child:: [[Falscher Ergeiz in Anki]], [[Wie reaktiviert man eine Sprache?]]
 
 %%
 [^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Japanisch und Anki Backfill
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Falscher Ergeiz in Anki]] | Keine Einträge | Keine Einträge |

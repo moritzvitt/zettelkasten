@@ -12,11 +12,3 @@ Karten mit einem Intervall (Zeit zwischen letzter Review und geplanter nächster
 
 Nutze dieses Skrip:
 Next::[[suspend_after_one_year]][[suspend_after_one_year.ipynb]]
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge |

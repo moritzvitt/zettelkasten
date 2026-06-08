@@ -32,11 +32,3 @@ Child:: [[Häufigkeitslisten lösen das Problem nicht]],
 Parent::[[Immersion-Loop Methoden]]
 
 Next::[[Video, Vokabeln, Repeat - Methode]], [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]], [[Lernlisten]]
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Immersion-Loop Methoden]] | [[Häufigkeitslisten lösen das Problem nicht]] | [[Video, Vokabeln, Repeat - Methode]], [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]] | Keine Einträge |

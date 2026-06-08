@@ -31,11 +31,3 @@ Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine S
 
 %%
 [^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Anki als Sprachlernwerkzeug
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Anki ist kein Wissensspeicher]] | Keine Einträge | [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine Sprache wird einmal tief gelernt und später reaktiviert]] |

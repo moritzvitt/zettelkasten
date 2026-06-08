@@ -31,11 +31,3 @@ Friend::
 
 %%
 [^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Dort wird zwischen passiver Immersion, die noch auf dem Bewusstseinsschirm liegt, und Hintergrundimmersion als fast vollständigem Ignorieren unterschieden.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| [[Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit]] | Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge |

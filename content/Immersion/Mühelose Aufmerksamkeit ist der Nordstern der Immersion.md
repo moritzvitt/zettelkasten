@@ -25,11 +25,3 @@ Friend::
 
 %%
 [^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Der Zettel fasst die dort formulierte "North Star"-Idee zusammen: vollständig engagiert, bedeutungsorientiert und zugleich ohne bewusste Anstrengung.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Wahl von geeignetem Input Material für Immersion]] | Keine Einträge |

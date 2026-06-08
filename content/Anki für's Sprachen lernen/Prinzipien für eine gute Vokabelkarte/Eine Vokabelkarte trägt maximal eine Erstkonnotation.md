@@ -31,11 +31,3 @@ Friend:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennu
 
 %%
 [^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Anki ist kein Wissensspeicher
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Cloze Notiztyp für maximale Immersion]] |

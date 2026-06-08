@@ -27,11 +27,3 @@ Friend:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennu
 
 %%
 [^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Immersion Loop für Japanisch
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Die Rolle von SRS; Immersion vorbereiten]] | Keine Einträge | [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]], [[Immersion festigt Konzepte am besten in einer Lernschlaufe]], [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]] | [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Falscher Ergeiz in Anki]] |

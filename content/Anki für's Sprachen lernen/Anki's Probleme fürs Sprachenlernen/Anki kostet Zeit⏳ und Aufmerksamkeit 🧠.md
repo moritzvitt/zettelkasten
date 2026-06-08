@@ -31,11 +31,3 @@ Friend:: [[Anki ist kein Wissensspeicher]], [[Prinzip der minimalen Information 
 
 %%
 [^source-notes]: Source notes: Zeitkosten von Anki; Japanisch und Anki Backfill
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]] | Keine Einträge | [[Anki ist kein Wissensspeicher]], [[Prinzip der minimalen Information macht Wiederholungen planbar]] |

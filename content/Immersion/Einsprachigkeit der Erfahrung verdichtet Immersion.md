@@ -29,11 +29,3 @@ Friend:: [[Cloze Notiztyp für maximale Immersion]]
 
 %%
 [^source-notes]: Source notes: Immersion macht Sprache zum Umfeld
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Immersion macht Kultur zum Umfeld]] | Keine Einträge | Keine Einträge | [[Cloze Notiztyp für maximale Immersion]] |

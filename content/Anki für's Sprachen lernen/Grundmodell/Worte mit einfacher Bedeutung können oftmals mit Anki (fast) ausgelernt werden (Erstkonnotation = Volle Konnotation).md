@@ -17,11 +17,3 @@ Allerdings weicht die "Farbe" von Ausdrücken auch hier oft minimal ab (aber so 
 Friend:: [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Verstehen kommt vor Memorieren]]
 Next:: [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]] | [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Verstehen kommt vor Memorieren]] |

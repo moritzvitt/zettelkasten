@@ -31,11 +31,3 @@ Friend::
 
 %%
 [^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Der Zettel verdichtet die dort beschriebene Vier-Felder-Unterscheidung aus Aufmerksamkeit vs. Ignorieren und verständlich vs. unverständlich.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Hintergrundbeschallung wird erst durch Aufmerksamkeit zu Immersion]] | Keine Einträge |

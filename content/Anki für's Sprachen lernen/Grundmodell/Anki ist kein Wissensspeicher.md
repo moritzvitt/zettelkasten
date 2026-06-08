@@ -31,11 +31,3 @@ Friend:: [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Priorisierung entsch
 
 %%
 [^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Immersion Loop für Japanisch; Effective Learning Twenty Rules of Formulating Knowledge; Japanisch und Anki Backfill
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Die Rolle von SRS; Immersion vorbereiten]] | Keine Einträge | Keine Einträge | [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]] |

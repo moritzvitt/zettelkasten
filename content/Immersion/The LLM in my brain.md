@@ -11,11 +11,3 @@ beim Sprachen lernen bildet sich in unserem Gehirn praktisch ein LLM für diese 
 ## Zettel Links
 Friend:: [[Language Acquisition]], [[Input first - Aufbau eines Sprachgefühls]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Language Acquisition]], [[Input first - Aufbau eines Sprachgefühls]] |

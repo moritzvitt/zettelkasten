@@ -34,11 +34,3 @@ Friend::
 
 %%
 [^source-notes]: Source notes: was ist eine Sprache; Immersion Loop für Japanisch; Immersion heißt Bewegung im Informationsnetzwerk
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | [[Einsprachigkeit der Erfahrung verdichtet Immersion]] | [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]] | Keine Einträge |

@@ -23,11 +23,3 @@ Also: you need to accept a level of insecurity when speaking / learning a langua
 ## Zettel Links
 Friend:: [[Language Acquisition]], [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Language Acquisition]], [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]] |

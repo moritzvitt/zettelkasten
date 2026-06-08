@@ -31,11 +31,3 @@ Ist die Wahrscheinlichkeit überhaupt hoch genug, einem neu gelernten Wort bald 
 Wenn nicht, hält Anki oft nur eine künstliche Erinnerung aufrecht — statt echte sprachliche Acquisition zu unterstützen.
 
 Next::[[Häufigkeitslisten lösen das Problem nicht]]
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | [[Häufigkeitslisten lösen das Problem nicht]] | Keine Einträge |

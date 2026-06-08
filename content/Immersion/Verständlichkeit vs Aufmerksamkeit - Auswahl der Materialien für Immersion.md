@@ -40,11 +40,3 @@ Friend::
 [^clipping-what-is-language-acquisition]: Aus dem Clipping: What is Language Acquisition?; ursprüngliche Quelle: University of Sheffield, What is Language Acquisition; daraus extrahierte Source: Sheffield What is Language Acquisition.
 
 [^input-output-immersion-sources]: Source pages: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]] | [[Erwartung steuert, ob Input als verstehbar behandelt wird]], [[Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit]] | [[Immersion festigt Konzepte am besten in einer Lernschlaufe]] | Keine Einträge |

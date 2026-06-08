@@ -29,11 +29,3 @@ Friend:: [[Immersion macht Kultur zum Umfeld]]
 
 %%
 [^source-notes]: Source notes: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| [[Input first - Aufbau eines Sprachgefühls]] | [[Language Acquisition]] | Keine Einträge | Keine Einträge | [[Immersion macht Kultur zum Umfeld]] |

@@ -30,11 +30,3 @@ Child:: [[The LLM in my brain]]
 
 %%
 [^source-notes]: Source notes: Matt vs Japan und Refold zu Immersion; Input Output und Interaction in der Sprachakquisition
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Language Acquisition]] | [[The LLM in my brain]] | [[Output second - Output macht Immersion prüfbar]] | Keine Einträge |

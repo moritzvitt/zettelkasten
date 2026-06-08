@@ -106,25 +106,6 @@ function excerpt(text) {
     .slice(0, 220)
 }
 
-function listLinks(ids, fallback = "Keine Einträge") {
-  if (!ids.length) return fallback
-  return ids.map((id) => `[[${id}]]`).join(", ")
-}
-
-function structureBlock(note) {
-  return [
-    "",
-    "## Struktur",
-    "",
-    "Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.",
-    "",
-    "| Previous | Parents | Children | Next | Friends |",
-    "| --- | --- | --- | --- | --- |",
-    `| ${listLinks(note.relations.Prev)} | ${listLinks(note.relations.Parent)} | ${listLinks(note.relations.Child)} | ${listLinks(note.relations.Next)} | ${listLinks(note.relations.Friend)} |`,
-    "",
-  ].join("\n")
-}
-
 function frontmatter(title, sourcePath) {
   return [
     "---",
@@ -199,10 +180,7 @@ for (const note of rawNotes) {
   await mkdir(path.dirname(out), { recursive: true })
   const body = stripFrontmatter(note.text)
   const sourcePath = path.relative(vaultRoot, note.file)
-  await writeFile(
-    out,
-    frontmatter(note.title, sourcePath) + body.trim() + "\n" + structureBlock(note),
-  )
+  await writeFile(out, frontmatter(note.title, sourcePath) + body.trim() + "\n")
 }
 
 const folders = new Map()

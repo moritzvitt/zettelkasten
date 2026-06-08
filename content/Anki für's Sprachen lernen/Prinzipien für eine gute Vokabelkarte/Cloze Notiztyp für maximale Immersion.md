@@ -39,11 +39,3 @@ Friend:: [[Scheduling Probleme durch Überschneidungen]], [[Eine Vokabelkarte tr
 
 %%
 [^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | [[Einsprachigkeit der Erfahrung verdichtet Immersion]] | Keine Einträge | Keine Einträge | [[Scheduling Probleme durch Überschneidungen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]] |

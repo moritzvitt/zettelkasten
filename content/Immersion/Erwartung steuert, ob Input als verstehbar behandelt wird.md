@@ -31,11 +31,3 @@ Friend:: [[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]], [[Verstä
 
 %%
 [^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Der Zettel verdichtet die Diskussion über Selbstvertrauen, psychologische Orientierung zur Sprache und individuelle Unterschiede beim Mitschneiden von Input.
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]], [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]] |

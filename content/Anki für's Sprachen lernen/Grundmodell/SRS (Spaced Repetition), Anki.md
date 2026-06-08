@@ -42,11 +42,3 @@ Friend::
 [^anki-background]: Offizielle Quelle: Anki Manual, "Background", Abschnitte zu Spaced Repetition und dem wachsenden Abstand zwischen Reviews: https://docs.ankiweb.net/background.html
 
 [^anki-algorithm]: Offizielle Quelle: Anki FAQs, "What spaced repetition algorithm does Anki use?", sowie Anki Manual, "Deck Options", Abschnitt FSRS: https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html und https://docs.ankiweb.net/deck-options#fsrs
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge |

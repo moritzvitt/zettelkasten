@@ -33,11 +33,3 @@ Der Kontext soll Bedeutung unterstützen, nicht selbst zum Erinnerungsobjekt wer
 ## Zettel Links
 Friend:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
 %%
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| [[Anki und das Problem der Gewichtung von Bedeutungen]] | Keine Einträge | Keine Einträge | Keine Einträge | [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]] |

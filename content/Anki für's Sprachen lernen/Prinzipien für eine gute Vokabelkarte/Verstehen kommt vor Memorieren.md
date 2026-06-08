@@ -29,11 +29,3 @@ Friend:: [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]
 
 %%
 [^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
-
-## Struktur
-
-Diese Ansicht wird beim Quartz-Sync aus den `Prev`/`Next`/`Parent`/`Child`/`Friend`-Feldern der Zettel erzeugt.
-
-| Previous | Parents | Children | Next | Friends |
-| --- | --- | --- | --- | --- |
-| Keine Einträge | Keine Einträge | Keine Einträge | Keine Einträge | [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]], [[Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]] |
