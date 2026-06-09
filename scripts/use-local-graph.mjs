@@ -2,7 +2,7 @@ import { lstat, mkdir, readlink, rm, symlink } from "node:fs/promises"
 import path from "node:path"
 
 const projectRoot = process.cwd()
-const localPlugins = ["graph", "contribute"]
+const localPlugins = ["graph", "contribute", "structured-brain"]
 
 for (const name of localPlugins) {
   const source = path.join(projectRoot, "plugins", name)

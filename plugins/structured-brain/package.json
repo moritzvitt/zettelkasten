@@ -1,0 +1,46 @@
+{
+  "name": "@moritz/structured-brain",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "peerDependencies": {
+    "preact": "^10.0.0"
+  },
+  "quartz": {
+    "name": "structured-brain",
+    "displayName": "Structured Brain",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 55,
+    "defaultEnabled": true,
+    "defaultOptions": {
+      "defaultDepth": 2,
+      "height": 520,
+      "showSiblings": false
+    },
+    "components": {
+      "StructuredBrain": {
+        "displayName": "Structured Brain",
+        "defaultPosition": "beforeBody",
+        "defaultPriority": 20
+      }
+    },
+    "optionSchema": {
+      "defaultDepth": {
+        "type": "number"
+      },
+      "height": {
+        "type": "number"
+      },
+      "showSiblings": {
+        "type": "boolean"
+      }
+    }
+  }
+}

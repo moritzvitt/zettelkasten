@@ -1,0 +1,2341 @@
+{
+  "relationTypes": [
+    "parent",
+    "child",
+    "prev",
+    "next",
+    "friend",
+    "sibling"
+  ],
+  "nodes": {
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "title": "Anki alleine wird mit wachsendem Wortschatz ineffizient",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki alleine wird mit wachsendem Wortschatz ineffizient.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "title": "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "title": "Anki und das Problem der Gewichtung von Bedeutungen",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der Gewichtung von Bedeutungen.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-optimalen-aufmerksamkeitsverteilung": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-optimalen-aufmerksamkeitsverteilung",
+      "title": "Anki und das Problem der optimalen Aufmerksamkeitsverteilung",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der optimalen Aufmerksamkeitsverteilung.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-optimalen-aufmerksamkeitsverteilung",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "title": "Anki's Kontextdilemma",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz",
+      "title": "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht": {
+      "slug": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "title": "Häufigkeitslisten lösen das Problem nicht",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht.md",
+      "url": "/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "title": "2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "title": "Anki ist kein Wissensspeicher",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "title": "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "title": "Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "title": "Die Rolle von SRS; Immersion vorbereiten",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "title": "Falscher Ehrgeiz in Anki",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Falscher Ehrgeiz in Anki.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "title": "Getting Ready for Immersion - einen Grundwortschatz aufbauen",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Getting Ready for Immersion - einen Grundwortschatz aufbauen.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/karten-retirement": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/karten-retirement",
+      "title": "Card Retirement",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Karten Retirement.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/karten-retirement",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "title": "SRS (Spaced Repetition), Anki",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/SRS (Spaced Repetition), Anki.md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)": {
+      "slug": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "title": "Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation).md",
+      "url": "/anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/kanji-lernen": {
+      "slug": "anki-für's-sprachen-lernen/kanji-lernen",
+      "title": "Kanji lernen",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Kanji lernen.md",
+      "url": "/anki-für's-sprachen-lernen/kanji-lernen",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "title": "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "title": "Cloze Notiztyp für maximale Immersion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "title": "Eine Vokabelkarte trägt maximal eine Erstkonnotation",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "title": "Prinzip der minimalen Information macht Wiederholungen planbar",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Prinzip der minimalen Information macht Wiederholungen planbar.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren",
+      "title": "Prinzip der minimalen Information sorgt für klare Erinnerungspuren",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Prinzip der minimalen Information sorgt für klare Erinnerungspuren.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "title": "Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "title": "Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "title": "Scheduling Probleme durch Überschneidungen",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren": {
+      "slug": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "title": "Verstehen kommt vor Memorieren",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Verstehen kommt vor Memorieren.md",
+      "url": "/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "title": "Immersion festigt Konzepte am besten in einer Lernschlaufe",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion festigt Konzepte am besten in einer Lernschlaufe.md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "title": "Immersion-Loop Methoden",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden.md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "title": "Thematische Immersion optimiert Wiederbegegnung(-sdichte)",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte).md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "title": "Video, Vokabeln, Repeat - Methode",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Video, Vokabeln, Repeat - Methode.md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/videos-mit-vokabellisten": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/videos-mit-vokabellisten",
+      "title": "Videos mit Vokabellisten",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Videos mit Vokabellisten.md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/videos-mit-vokabellisten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion": {
+      "slug": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion",
+      "title": "Wahl von geeignetem Input Material für Immersion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Wahl von geeignetem Input Material für Immersion.md",
+      "url": "/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion": {
+      "slug": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "title": "Einsprachigkeit der Erfahrung verdichtet Immersion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion.md",
+      "url": "/immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/immersion-macht-kultur-zum-umfeld": {
+      "slug": "immersion/immersion-macht-kultur-zum-umfeld",
+      "title": "Immersion macht Kultur zum Umfeld",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Immersion macht Kultur zum Umfeld.md",
+      "url": "/immersion/immersion-macht-kultur-zum-umfeld",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/input-first---aufbau-eines-sprachgefühls": {
+      "slug": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "title": "Input first - Aufbau eines Sprachgefühls",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Input first - Aufbau eines Sprachgefühls.md",
+      "url": "/immersion/input-first---aufbau-eines-sprachgefühls",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion": {
+      "slug": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "title": "Mühelose Aufmerksamkeit ist der Nordstern der Immersion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Mühelose Aufmerksamkeit ist der Nordstern der Immersion.md",
+      "url": "/immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/output-second---output-macht-immersion-prüfbar": {
+      "slug": "immersion/output-second---output-macht-immersion-prüfbar",
+      "title": "Output second - Output macht Immersion prüfbar",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Output second - Output macht Immersion prüfbar.md",
+      "url": "/immersion/output-second---output-macht-immersion-prüfbar",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/shadowing": {
+      "slug": "immersion/shadowing",
+      "title": "Shadowing",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Shadowing.md",
+      "url": "/immersion/shadowing",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/the-llm-in-my-brain": {
+      "slug": "immersion/the-llm-in-my-brain",
+      "title": "The LLM in my brain",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/The LLM in my brain.md",
+      "url": "/immersion/the-llm-in-my-brain",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion": {
+      "slug": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "title": "Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion.md",
+      "url": "/immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "language-acquisition": {
+      "slug": "language-acquisition",
+      "title": "Language Acquisition",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Language Acquisition.md",
+      "url": "/language-acquisition",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert": {
+      "slug": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "title": "Eine Sprache wird einmal tief gelernt und später reaktiviert",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Eine Sprache wird einmal tief gelernt und später reaktiviert.md",
+      "url": "/mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion": {
+      "slug": "mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion",
+      "title": "Functional Fluency statt absoluter Perfektion",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency statt absoluter Perfektion.md",
+      "url": "/mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "mehrsprachigkeit/functional-fluency": {
+      "slug": "mehrsprachigkeit/functional-fluency",
+      "title": "Functional Fluency",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency.md",
+      "url": "/mehrsprachigkeit/functional-fluency",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung": {
+      "slug": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "title": "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Mehrsprachigkeit ist Reaktivierung statt Dauerleistung.md",
+      "url": "/mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht": {
+      "slug": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "title": "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Sprachwissen wird weniger zugänglich, nicht einfach gelöscht.md",
+      "url": "/mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "welche-fähigkeiten-sollte-man-beim-lernen-einer-sprache-priorisieren?": {
+      "slug": "welche-fähigkeiten-sollte-man-beim-lernen-einer-sprache-priorisieren?",
+      "title": "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?",
+      "source": "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?.md",
+      "url": "/welche-fähigkeiten-sollte-man-beim-lernen-einer-sprache-priorisieren?",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/adverse-selection": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/adverse-selection",
+      "title": "Adverse Selection",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Adverse Selection.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/adverse-selection",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/anreizprobleme": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/anreizprobleme",
+      "title": "Anreizprobleme",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Anreizprobleme.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/anreizprobleme",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/asymmetrische-information": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/asymmetrische-information",
+      "title": "Asymmetrische Information",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Asymmetrische Information.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/asymmetrische-information",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard-unter-begrenzter-haftung": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard-unter-begrenzter-haftung",
+      "title": "Moral Hazard unter begrenzter Haftung",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Moral Hazard unter begrenzter Haftung.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard-unter-begrenzter-haftung",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard",
+      "title": "Moral Hazard",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Moral Hazard.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/moral-hazard",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/privatisierung-von-gewinnen,-während-die-externalitäten-von-der-gesellschaft-getragen-werden": {
+      "slug": "nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/privatisierung-von-gewinnen,-während-die-externalitäten-von-der-gesellschaft-getragen-werden",
+      "title": "Privatisierung von Gewinnen, während die Externalitäten von der Gesellschaft getragen werden",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Anreizprobleme und Informationsasymmetrie/Privatisierung von Gewinnen, während die Externalitäten von der Gesellschaft getragen werden.md",
+      "url": "/nachhaltige-verfassung/anreizprobleme-und-informationsasymmetrie/privatisierung-von-gewinnen,-während-die-externalitäten-von-der-gesellschaft-getragen-werden",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/axiom---die-würde-des-lebens-ist-unantastbar": {
+      "slug": "nachhaltige-verfassung/axiom---die-würde-des-lebens-ist-unantastbar",
+      "title": "Axiom - Die Würde des Lebens ist unantastbar",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Axiom - Die Würde des Lebens ist unantastbar.md",
+      "url": "/nachhaltige-verfassung/axiom---die-würde-des-lebens-ist-unantastbar",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/holding-(dänemark)": {
+      "slug": "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/holding-(dänemark)",
+      "title": "Holding (Dänemark)",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Gegenentwürfe zur Aktiengesellschaft/Holding (Dänemark).md",
+      "url": "/nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/holding-(dänemark)",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/purpose-gmbh": {
+      "slug": "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/purpose-gmbh",
+      "title": "Purpose GmbH",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Gegenentwürfe zur Aktiengesellschaft/Purpose GmbH.md",
+      "url": "/nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/purpose-gmbh",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/unternehmensstiftung": {
+      "slug": "nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/unternehmensstiftung",
+      "title": "Unternehmensstiftung",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Gegenentwürfe zur Aktiengesellschaft/Unternehmensstiftung.md",
+      "url": "/nachhaltige-verfassung/gegenentwürfe-zur-aktiengesellschaft/unternehmensstiftung",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/als-eigentümer-habe-ich-ein-recht-an-den-durch-mein-eigentum-generierten-profiten": {
+      "slug": "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/als-eigentümer-habe-ich-ein-recht-an-den-durch-mein-eigentum-generierten-profiten",
+      "title": "Als Eigentümer habe ich ein Recht an den durch mein Eigentum generierten Profiten",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Ungleichheit, Vermögen, Besitz/Als Eigentümer habe ich ein Recht an den durch mein Eigentum generierten Profiten.md",
+      "url": "/nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/als-eigentümer-habe-ich-ein-recht-an-den-durch-mein-eigentum-generierten-profiten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/extreme-vermögenskonzentration-ist-auch-eigentumskonzentration": {
+      "slug": "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/extreme-vermögenskonzentration-ist-auch-eigentumskonzentration",
+      "title": "Extreme Vermögenskonzentration ist auch Eigentumskonzentration",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Ungleichheit, Vermögen, Besitz/Extreme Vermögenskonzentration ist auch Eigentumskonzentration.md",
+      "url": "/nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/extreme-vermögenskonzentration-ist-auch-eigentumskonzentration",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/machtkonzentration-(durch-vermögenskonzentration)-in-einzelnen-wenigen-menschen-hebelt-die-demokratie-aus": {
+      "slug": "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/machtkonzentration-(durch-vermögenskonzentration)-in-einzelnen-wenigen-menschen-hebelt-die-demokratie-aus",
+      "title": "Machtkonzentration (durch Vermögenskonzentration) in einzelnen wenigen Menschen hebelt die Demokratie aus",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Ungleichheit, Vermögen, Besitz/Machtkonzentration (durch Vermögenskonzentration) in einzelnen wenigen Menschen hebelt die Demokratie aus.md",
+      "url": "/nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/machtkonzentration-(durch-vermögenskonzentration)-in-einzelnen-wenigen-menschen-hebelt-die-demokratie-aus",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/steuer---unfairness": {
+      "slug": "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/steuer---unfairness",
+      "title": "Steuer - Unfairness",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Ungleichheit, Vermögen, Besitz/Steuer - Unfairness.md",
+      "url": "/nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/steuer---unfairness",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/wohnen-ist-ein-grundrecht": {
+      "slug": "nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/wohnen-ist-ein-grundrecht",
+      "title": "Wohnen ist ein Grundrecht",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Ungleichheit, Vermögen, Besitz/Wohnen ist ein Grundrecht.md",
+      "url": "/nachhaltige-verfassung/ungleichheit,-vermögen,-besitz/wohnen-ist-ein-grundrecht",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/was-ist-nachhaltigkeit?/das-verständnis-für-natur-und-nachhaltigkeit-ist-im-menschen-enthalten": {
+      "slug": "nachhaltige-verfassung/was-ist-nachhaltigkeit?/das-verständnis-für-natur-und-nachhaltigkeit-ist-im-menschen-enthalten",
+      "title": "Das Verständnis für Natur und Nachhaltigkeit ist im Menschen enthalten",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Was ist Nachhaltigkeit?/Das Verständnis für Natur und Nachhaltigkeit ist im Menschen enthalten.md",
+      "url": "/nachhaltige-verfassung/was-ist-nachhaltigkeit?/das-verständnis-für-natur-und-nachhaltigkeit-ist-im-menschen-enthalten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/was-ist-nachhaltigkeit?/nachhaltigkeit": {
+      "slug": "nachhaltige-verfassung/was-ist-nachhaltigkeit?/nachhaltigkeit",
+      "title": "Nachhaltigkeit",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Was ist Nachhaltigkeit?/Nachhaltigkeit.md",
+      "url": "/nachhaltige-verfassung/was-ist-nachhaltigkeit?/nachhaltigkeit",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "nachhaltige-verfassung/was-ist-nachhaltigkeit?/wir-haben-externalitäten-auf-unsere-umwelt,-unsere-umwelt-hat-externalitäten-auf-uns": {
+      "slug": "nachhaltige-verfassung/was-ist-nachhaltigkeit?/wir-haben-externalitäten-auf-unsere-umwelt,-unsere-umwelt-hat-externalitäten-auf-uns",
+      "title": "Wir haben Externalitäten auf unsere Umwelt, unsere Umwelt hat Externalitäten auf uns",
+      "source": "LLM Wiki/notes/zettel/Nachhaltige Verfassung/Was ist Nachhaltigkeit?/Wir haben Externalitäten auf unsere Umwelt, unsere Umwelt hat Externalitäten auf uns.md",
+      "url": "/nachhaltige-verfassung/was-ist-nachhaltigkeit?/wir-haben-externalitäten-auf-unsere-umwelt,-unsere-umwelt-hat-externalitäten-auf-uns",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "willkommen-in-meinem-zettelkasten!": {
+      "slug": "willkommen-in-meinem-zettelkasten!",
+      "title": "Willkommen in meinem Zettelkasten!",
+      "source": "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md",
+      "url": "/willkommen-in-meinem-zettelkasten!",
+      "tags": [
+        "zettel"
+      ]
+    }
+  },
+  "edges": [
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "mehrsprachigkeit/functional-fluency",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "prev",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "next",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "prev",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "immersion/output-second---output-macht-immersion-prüfbar",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "language-acquisition",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "immersion/the-llm-in-my-brain",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "immersion/the-llm-in-my-brain",
+      "to": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion",
+      "to": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "language-acquisition",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/output-second---output-macht-immersion-prüfbar",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/output-second---output-macht-immersion-prüfbar",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "to": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "to": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "language-acquisition",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/the-llm-in-my-brain",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/the-llm-in-my-brain",
+      "to": "language-acquisition",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency",
+      "to": "language-acquisition",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "language-acquisition",
+      "to": "mehrsprachigkeit/functional-fluency",
+      "type": "prev",
+      "explicit": false
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency",
+      "to": "mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion",
+      "to": "mehrsprachigkeit/functional-fluency",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "type": "parent",
+      "explicit": false
+    },
+    {
+      "from": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "to": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "to": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "to": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "to": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "type": "friend",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "immersion/output-second---output-macht-immersion-prüfbar",
+      "type": "sibling",
+      "explicit": false
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "type": "sibling",
+      "explicit": false
+    }
+  ],
+  "explicitEdges": [
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "mehrsprachigkeit/functional-fluency",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "prev",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "to": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki",
+      "to": "anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "prev",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)",
+      "to": "anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "to": "anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/immersion-macht-kultur-zum-umfeld",
+      "to": "immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "immersion/output-second---output-macht-immersion-prüfbar",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "language-acquisition",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "to": "immersion/the-llm-in-my-brain",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "immersion/input-first---aufbau-eines-sprachgefühls",
+      "type": "prev",
+      "explicit": true
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "language-acquisition",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "immersion/output-second---output-macht-immersion-prüfbar",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "to": "immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion",
+      "to": "immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/immersion-macht-kultur-zum-umfeld",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "language-acquisition",
+      "to": "immersion/the-llm-in-my-brain",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency",
+      "to": "language-acquisition",
+      "type": "next",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/functional-fluency",
+      "to": "mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "to": "anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki",
+      "type": "child",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "to": "mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert",
+      "type": "friend",
+      "explicit": true
+    },
+    {
+      "from": "mehrsprachigkeit/sprachwissen-wird-weniger-zugänglich,-nicht-einfach-gelöscht",
+      "to": "mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung",
+      "type": "friend",
+      "explicit": true
+    }
+  ]
+}

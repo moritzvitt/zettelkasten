@@ -10,7 +10,15 @@ const homepageSource = path.join(
   "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md",
 )
 const contentRoot = path.join(process.cwd(), "content")
+const staticRoot = path.join(process.cwd(), "quartz/static")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
+const relationTypes = {
+  Prev: "prev",
+  Next: "next",
+  Parent: "parent",
+  Child: "child",
+  Friend: "friend",
+}
 
 try {
   await access(zettelRoot)
@@ -90,7 +98,7 @@ function wikiLinks(text) {
 function relations(text) {
   const rels = Object.fromEntries(relationNames.map((name) => [name, []]))
   for (const name of relationNames) {
-    const rx = new RegExp(`${name}::([^\\n%]*)`, "gi")
+    const rx = new RegExp(`^\\s*${name}::([^\\n]*)`, "gim")
     for (const match of text.matchAll(rx)) rels[name].push(...wikiLinks(match[1]))
     rels[name] = [...new Set(rels[name].filter(Boolean))]
   }
@@ -151,6 +159,90 @@ function folderIndex(relDir, notes) {
   ].join("\n")
 }
 
+function slugSegment(value) {
+  return value.trim().toLocaleLowerCase("de").replace(/\s+/g, "-")
+}
+
+function slugPath(value) {
+  return value
+    .replace(/\.md$/, "")
+    .split(path.sep)
+    .filter(Boolean)
+    .map(slugSegment)
+    .join("/")
+}
+
+function addBrainEdge(edges, edgeKeys, from, to, type, explicit = true) {
+  if (!from || !to || from === to) return
+  const key = `${from}\u0000${to}\u0000${type}`
+  if (edgeKeys.has(key)) return
+  edgeKeys.add(key)
+  edges.push({ from, to, type, explicit })
+}
+
+function mirrorType(type) {
+  if (type === "parent") return "child"
+  if (type === "child") return "parent"
+  if (type === "prev") return "next"
+  if (type === "next") return "prev"
+  return type
+}
+
+function buildBrainIndex(notes) {
+  const nodes = {}
+  const explicitEdges = []
+  const allEdges = []
+  const explicitKeys = new Set()
+  const allKeys = new Set()
+
+  for (const note of notes) {
+    const slug = graphPath(note)
+    nodes[slug] = {
+      slug,
+      title: note.title,
+      source: path.relative(vaultRoot, note.file),
+      url: `/${slug}`,
+      tags: ["zettel"],
+    }
+  }
+
+  for (const note of notes) {
+    const from = graphPath(note)
+    for (const name of relationNames) {
+      const type = relationTypes[name]
+      for (const to of note.relations[name]) {
+        addBrainEdge(explicitEdges, explicitKeys, from, to, type, true)
+        addBrainEdge(allEdges, allKeys, from, to, type, true)
+        addBrainEdge(allEdges, allKeys, to, from, mirrorType(type), false)
+      }
+    }
+  }
+
+  const childrenByParent = new Map()
+  for (const edge of allEdges) {
+    if (edge.type !== "child") continue
+    if (!childrenByParent.has(edge.from)) childrenByParent.set(edge.from, new Set())
+    childrenByParent.get(edge.from).add(edge.to)
+  }
+
+  for (const siblings of childrenByParent.values()) {
+    const values = [...siblings]
+    for (let i = 0; i < values.length; i++) {
+      for (let j = i + 1; j < values.length; j++) {
+        addBrainEdge(allEdges, allKeys, values[i], values[j], "sibling", false)
+        addBrainEdge(allEdges, allKeys, values[j], values[i], "sibling", false)
+      }
+    }
+  }
+
+  return {
+    relationTypes: ["parent", "child", "prev", "next", "friend", "sibling"],
+    nodes,
+    edges: allEdges,
+    explicitEdges,
+  }
+}
+
 await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
 
@@ -177,7 +269,7 @@ for (const file of files) {
   })
 }
 
-const graphPath = (note) => note.rel.replace(/\.md$/, "").split(path.sep).join("/")
+const graphPath = (note) => slugPath(note.rel)
 const titleToPath = new Map(rawNotes.map((note) => [cleanTitle(note.title), graphPath(note)]))
 const stemToPath = new Map(
   rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), graphPath(note)]),
@@ -224,6 +316,12 @@ for (const [relDir, notes] of folders) {
     ),
   )
 }
+
+await mkdir(staticRoot, { recursive: true })
+await writeFile(
+  path.join(staticRoot, "brain-index.json"),
+  `${JSON.stringify(buildBrainIndex(rawNotes), null, 2)}\n`,
+)
 
 console.log(`Synced ${rawNotes.length} zettel notes into ${contentRoot}`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
