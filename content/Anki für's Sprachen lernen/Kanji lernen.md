@@ -2,11 +2,11 @@
 title: "Kanji lernen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Kanji lernen.md"
 publish: true
-graphLinks:
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
 tags:
   - zettel
 ---
+## Claim
+
 Kanji lesen lernen: einfach viel Vokabeln lernen
 Kanji schreiben lernen: nur um eine Vokabel zu festigen. Als Fähigkeit an sich überflüssig (für meine Zwecke) bzw. benötigt zu viel Zeit.
 
@@ -19,9 +19,19 @@ Ich muss die Schriftzeichen anders lernen als japanische Schüler. Wenn ich sie 
 
 Muss ich überhaupt üben, mit der Hand die Schriftzeichen zu schreiben?
 
-Parent::[[Immersion-Loop Methoden]]
+## Why It Matters
+
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
 
 %%
-## Zettel Links
-Friend:: [[Japanisch Lesen lernen]], [[Japanisch Input]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning #anki
 %%

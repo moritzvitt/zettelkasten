@@ -3,11 +3,13 @@ title: "Functional Fluency"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency.md"
 publish: true
 graphLinks:
-  - "[[Language Acquisition]]"
-  - "[[Mehrsprachigkeit/Functional Fluency vs Trying to learn a language to absolute perfection...]]"
+  - "[[language-acquisition]]"
+  - "[[mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion]]"
 tags:
   - zettel
 ---
+## Claim
+
 Functional Fluency bedeutet: nichts Unnötiges lernen; nur in den relevanten Kontexten wirklich handlungsfähig sein.
 
 Es geht nicht darum, möglichst früh jede seltene Vokabel zu beherrschen. Entscheidend ist, sich in denjenigen Ausschnitten eines kulturellen Informationsnetzwerks sicher zu bewegen, in denen man tatsächlich lebt, arbeitet, lernt oder Beziehungen führt.
@@ -18,15 +20,21 @@ Gleichzeitig entwickelt man durch umfassenden Sprachkontakt eine allgemeine Spra
 
 Man kennt dann nicht bereits alle Fachbegriffe der Raumfahrt, aber man besitzt die sprachliche und kulturelle Grundlage, um sie bei Bedarf effizient zu erwerben.
 
-%%
-## Links
-Next::[[Language Acquisition]], 
-Child::[[Functional Fluency vs Trying to learn a language to absolute perfection...]]
-%%
-
 [^clipping-what-is-language-acquisition]: Aus dem Clipping: What is Language Acquisition?; ursprüngliche Quelle: University of Sheffield, What is Language Acquisition; daraus extrahierte Source: Sheffield What is Language Acquisition.
 
+## Why It Matters
+
+Dieser Zettel ordnet, wie Sprachen über Zeit zugänglich bleiben oder reaktiviert werden können, ohne jede Fähigkeit dauerhaft auf Höchstleistung halten zu müssen.
+
 %%
-## Zettel Links
-Friend:: [[Language Acquisition]], [[Kultur als Informationsnetzwerk]]
+## Links
+
+Prev::
+Next:: [[Language Acquisition]]
+Parent::
+Child:: [[Functional Fluency statt absoluter Perfektion]]
+Friend::
+
+## Tags
+#language-learning
 %%

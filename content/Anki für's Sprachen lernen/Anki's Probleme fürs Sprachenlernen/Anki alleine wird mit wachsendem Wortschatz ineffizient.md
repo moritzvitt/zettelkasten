@@ -3,18 +3,20 @@ title: "Anki alleine wird mit wachsendem Wortschatz ineffizient"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki alleine wird mit wachsendem Wortschatz ineffizient.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/die-wahrscheinlichkeit,-einem-wort-in-der-immersion-zu-begegnen,-sinkt-mit-wachsendem-wortschatz]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten]]"
+  - "[[immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠]]"
 tags:
   - zettel
 ---
+## Claim
+
 Anki funktioniert vor allem am Anfang gut, wird aber mit wachsendem Wortschatz zunehmend ineffizient.
 
 Anfänger lernen meist häufige, konkrete und semantisch stabile Wörter, deren Bedeutung (und Verwendung) fast identisch ist wie in der eigenen Muttersprache. 
@@ -27,18 +29,19 @@ Mit wachsendem Wortschatz werden neue Wörter:
 
 Anki hält dann oft nur eine [[Anki's Kontextdilemma|künstliche Erinnerung an die Karte]] aufrecht — statt echte sprachliche Acquisition zu unterstützen.
 
+## Why It Matters
 
-%%x
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
 
-Child::[[Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]]
+%%
+## Links
 
-Child::[[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]],  [[Anki's Kontextdilemma]], [[Häufigkeitslisten lösen das Problem nicht]]
+Prev::
+Next::
+Parent::
+Child::
+Friend:: [[Anki's Kontextdilemma|künstliche Erinnerung an die Karte]], [[Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz]], [[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]], [[Anki's Kontextdilemma]], [[Häufigkeitslisten lösen das Problem nicht]], [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]], [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[einem Wort in der Immersion zu begegnen]], [[sinkt mit wachsendem Wortschatz]], [[SRS und Lernlisten]]
 
-Parent::[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]
-
-Next:: [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
-
-
-## Zettel Links
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
+## Tags
+#language-learning #anki
 %%

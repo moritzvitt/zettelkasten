@@ -3,9 +3,9 @@ title: "Output second - Output macht Immersion prüfbar"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Output second - Output macht Immersion prüfbar.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
-  - "[[Language Acquisition]]"
-  - "[[Immersion/Immersion macht Kultur zum Umfeld]]"
+  - "[[immersion/input-first---aufbau-eines-sprachgefühls]]"
+  - "[[language-acquisition]]"
+  - "[[immersion/immersion-macht-kultur-zum-umfeld]]"
 tags:
   - zettel
 ---
@@ -19,6 +19,8 @@ Darum ist Output nicht bloß Prüfung nach dem Lernen. Output ist selbst ein Ler
 
 In einer Immersionsroutine sollte Output nicht die Input-Zeit auffressen, aber er sollte regelmäßig genug vorkommen, um blinde Stellen aufzudecken. Gute Immersion hört also nicht beim Verstehen auf; sie prüft, ob das Verstandene schon beweglich geworden ist.
 
+[^source-notes]: Source notes: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion
+
 %%
 ## Links
 
@@ -30,6 +32,4 @@ Friend:: [[Immersion macht Kultur zum Umfeld]]
 
 ## Tags
 #language-learning #immersion
-
 %%
-[^source-notes]: Source notes: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion

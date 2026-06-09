@@ -1,11 +1,11 @@
 ---
-title: "Falscher Ergeiz in Anki"
-source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki.md"
+title: "Falscher Ehrgeiz in Anki"
+source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Falscher Ehrgeiz in Anki.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Mehrsprachigkeit/Eine Sprache wird einmal tief gelernt und später reaktiviert]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand]]"
+  - "[[mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert]]"
 tags:
   - zettel
 ---
@@ -21,6 +21,8 @@ Provokant gesagt: Anki lernt keine Sprache. Es bereitet nur das eigentliche Lern
 
 Diese Grenze schützt vor falschem Ehrgeiz. Anki ist ein Werkzeug für Zugriff und Vorbereitung, kein Ersatz für Immersion, Sprechen, Lesen, Hören oder ein echtes Wissenssystem.
 
+[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Anki als Sprachlernwerkzeug
+
 %%
 ## Links
 
@@ -28,10 +30,8 @@ Prev::
 Next::
 Parent::
 Child:: [[Anki ist kein Wissensspeicher]]
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine Sprache wird einmal tief gelernt und später reaktiviert]]
+Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Eine Sprache wird einmal tief gelernt und später reaktiviert]]
 
 ## Tags
 #anki #language-learning
-
 %%
-[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Anki als Sprachlernwerkzeug

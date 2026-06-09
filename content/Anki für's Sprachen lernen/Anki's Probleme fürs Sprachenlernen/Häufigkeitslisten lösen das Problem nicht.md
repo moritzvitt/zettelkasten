@@ -3,12 +3,14 @@ title: "Häufigkeitslisten lösen das Problem nicht"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]"
-  - "[[Mehrsprachigkeit/Functional Fluency]]"
+  - "[[mehrsprachigkeit/functional-fluency]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten]]"
+  - "[[immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)]]"
 tags:
   - zettel
 ---
+## Claim
+
 Häufigkeitslisten zeigen globale Worthäufigkeit, aber nicht die tatsächliche Relevanz im eigenen Input.
 
 Wer vor allem Filme, Anime, Nachrichten, Fachtexte oder Streams nutzt, bewegt sich jeweils in anderen Sprachlandschaften. Ein allgemein häufiges Wort kann dort selten sein; ein statistisch seltener Ausdruck kann im eigenen Medienumfeld ständig wiederkehren.
@@ -16,8 +18,20 @@ Wer vor allem Filme, Anime, Nachrichten, Fachtexte oder Streams nutzt, bewegt si
 Für Sprachakquisition zählt deshalb nicht nur Frequenz im Korpus, sondern Wiederbegegnung in bedeutsamen Kontexten. Gerade längere Immersion in einem Genre, Thema, Interessengebiet oder Medienformat erzeugt lokale Wiederholungsdichte, Nuancen und stabile semantische Verknüpfungen.
 
 Häufigkeitslisten können Orientierung geben, lösen aber nicht die Frage, welche Wörter für die eigene Immersion gerade wirklich lernenswert sind.
-Child::[[Immersion bestimmt natürliche Wortgewichtung]], [[Functional Fluency]]
 
-Parent::[[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten;]]
+## Why It Matters
 
-Next::[[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]]
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
+
+%%
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend:: [[Immersion bestimmt natürliche Wortgewichtung]], [[Functional Fluency]], [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[SRS und Lernlisten]]
+
+## Tags
+#language-learning #anki
+%%

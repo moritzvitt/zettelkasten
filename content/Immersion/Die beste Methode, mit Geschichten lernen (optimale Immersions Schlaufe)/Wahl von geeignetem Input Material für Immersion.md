@@ -2,17 +2,28 @@
 title: "Wahl von geeignetem Input Material für Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Wahl von geeignetem Input Material für Immersion.md"
 publish: true
-graphLinks:
-  - "[[Immersion/Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]]"
-  - "[[Immersion/Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]"
 tags:
   - zettel
 ---
+## Claim
+
 Geeignetes Input Material ist also, wofür ich mich einfach interessiere. 
 Interesse ist wirklich das einzige Kriterium wirklich.
 Verständnis ist auch wichtig, aber Interesse an erster Stelle (außerdem wird man sich natürlicherweise weniger für Dinge interessieren die man überhaupt nicht versteht.)
 
+## Why It Matters
+
+Dieser Zettel hilft, Immersion nicht als blosse Menge an Input zu verstehen, sondern als gestaltbare Lernumgebung mit Aufmerksamkeit, Wiederbegegnung und wachsender Verstehbarkeit.
+
 %%
-## Zettel Links
-Friend:: [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning
 %%

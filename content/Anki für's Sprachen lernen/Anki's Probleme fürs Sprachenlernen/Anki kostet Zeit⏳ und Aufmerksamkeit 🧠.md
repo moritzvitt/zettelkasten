@@ -3,9 +3,9 @@ title: "Anki kostet Zeit⏳ und Aufmerksamkeit 🧠"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Prinzip der minimalen Information macht Wiederholungen planbar]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar]]"
 tags:
   - zettel
 ---
@@ -21,6 +21,8 @@ Deshalb muss Anki-Wissen laufend kuratiert werden: Karten suspendieren, löschen
 
 Ohne Kuration wächst die Sammlung schneller als die echte Lernkapazität. Dann wird Anki zum Zeitverbraucher, statt den Kontakt mit echtem Input vorzubereiten. Gute Anki-Pflege schützt nicht nur Review-Zeit, sondern auch Motivation und Immersionszeit.
 
+[^source-notes]: Source notes: Zeitkosten von Anki; Japanisch und Anki Backfill
+
 %%
 ## Links
 
@@ -32,6 +34,4 @@ Friend:: [[Anki ist kein Wissensspeicher]], [[Prinzip der minimalen Information 
 
 ## Tags
 #anki #open-question
-
 %%
-[^source-notes]: Source notes: Zeitkosten von Anki; Japanisch und Anki Backfill

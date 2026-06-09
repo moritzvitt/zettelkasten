@@ -1,13 +1,12 @@
 ---
-title: "Functional Fluency vs Trying to learn a language to absolute perfection..."
-source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency vs Trying to learn a language to absolute perfection....md"
+title: "Functional Fluency statt absoluter Perfektion"
+source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Functional Fluency statt absoluter Perfektion.md"
 publish: true
-graphLinks:
-  - "[[Language Acquisition]]"
-  - "[[Mehrsprachigkeit/Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]"
 tags:
   - zettel
 ---
+## Claim
+
 functional fluency is, being fluent in those areas of a language (cultural communication forms) , that you need for your life. 
 
 Learning a language to perfection is a flex, but also a waste of time (if you have enough time or it's a hobby than obviously, go for it). 
@@ -22,7 +21,19 @@ Das heißt, man kann eine Sprache sehr viel weiter als Functional Fluency lernen
 
 Also: you need to accept a level of insecurity when speaking / learning a language. (MattvsJapan could use that tipp). You don't need to learn a language to perfection. What does that mean anyways? learning a language to perfection... You could study a language until you speak it better than some native speakers, but you still wouldn't speak perfectly.
 
+## Why It Matters
+
+Dieser Zettel ordnet, wie Sprachen über Zeit zugänglich bleiben oder reaktiviert werden können, ohne jede Fähigkeit dauerhaft auf Höchstleistung halten zu müssen.
+
 %%
-## Zettel Links
-Friend:: [[Language Acquisition]], [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning
 %%

@@ -3,7 +3,7 @@ title: "Eine Sprache wird einmal tief gelernt und später reaktiviert"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Eine Sprache wird einmal tief gelernt und später reaktiviert.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki]]"
 tags:
   - zettel
 ---
@@ -21,6 +21,8 @@ Das macht Sprachlernen weniger zerbrechlich. Das Ziel ist nicht, jede Sprache da
 
 Für Anki ist das eine wichtige Grenze: Spaced Repetition kann Zugriffspfade offenhalten, ersetzt aber nicht die Reaktivierung durch echten Sprachkontakt.
 
+[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; First Language Attrition and Dominance Same Same or Different; Japanisch und Anki Backfill
+
 %%
 ## Links
 
@@ -28,11 +30,8 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Falscher Ergeiz in Anki]]
+Friend:: [[Falscher Ehrgeiz in Anki]]
 
 ## Tags
 #language-learning
-
-
 %%
-[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; First Language Attrition and Dominance Same Same or Different; Japanisch und Anki Backfill

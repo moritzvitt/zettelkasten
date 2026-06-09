@@ -2,11 +2,11 @@
 title: "Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz.md"
 publish: true
-graphLinks:
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Häufigkeitslisten lösen das Problem nicht]]"
 tags:
   - zettel
 ---
+## Claim
+
 Je seltener die Worte sind, die man lernt, desto mehr sinkt die Wahrscheinlichkeit, einem neu gelernten Wort bald erneut natürlich zu begegnen.
 
 Der „Haken“ verliert dadurch zunehmend seine Funktion:  
@@ -32,4 +32,19 @@ Ist die Wahrscheinlichkeit überhaupt hoch genug, einem neu gelernten Wort bald 
 
 Wenn nicht, hält Anki oft nur eine künstliche Erinnerung aufrecht — statt echte sprachliche Acquisition zu unterstützen.
 
-Next::[[Häufigkeitslisten lösen das Problem nicht]]
+## Why It Matters
+
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
+
+%%
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning #anki
+%%

@@ -3,10 +3,10 @@ title: "Cloze Notiztyp für maximale Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen]]"
 tags:
   - zettel
 ---
@@ -30,6 +30,8 @@ Der Satz bleibt Hilfsmittel, nicht Hauptaufgabe. Wenn es Synonyme gibt oder der 
 
 Cloze ist für Sprachen besonders nützlich, weil der Kontext sichtbar bleiben kann. Das maximiert die Zeit in der Zielsprache und stützt die [[Einsprachigkeit der Erfahrung verdichtet Immersion|Immersion]]: Man lernt das Wort nicht isoliert, sondern direkt in einem Satz, der Klang, Register und typische Umgebung mitträgt.
 
+[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
+
 %%
 ## Links
 
@@ -41,6 +43,4 @@ Friend:: [[Scheduling Probleme durch Überschneidungen]], [[Eine Vokabelkarte tr
 
 ## Tags
 #anki
-
 %%
-[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition

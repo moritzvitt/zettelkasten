@@ -2,6 +2,9 @@
 title: "Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern.md"
 publish: true
+graphLinks:
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar]]"
 tags:
   - zettel
 ---
@@ -22,12 +25,8 @@ Prev::
 Next::
 Parent::
 Child::
-Friend::
-
-- [[Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]]
-- [[Prinzip der minimalen Information macht Wiederholungen planbar]]
+Friend:: [[Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]], [[Prinzip der minimalen Information macht Wiederholungen planbar]]
 
 ## Tags
 #anki
-
 %%

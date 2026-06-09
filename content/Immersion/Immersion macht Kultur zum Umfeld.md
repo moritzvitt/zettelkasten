@@ -3,9 +3,9 @@ title: "Immersion macht Kultur zum Umfeld"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Immersion macht Kultur zum Umfeld.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Getting Ready for Immersion - einen Grundwortschatz aufbauen]]"
-  - "[[Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion]]"
+  - "[[immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen]]"
+  - "[[immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion]]"
 tags:
   - zettel
 ---
@@ -23,18 +23,17 @@ Dabei lernt man die Kultur immer mit. Eine Sprache ist nicht nur ein Vokabelbest
 
 So entsteht Sprachgefühl nicht nur aus Regeln und Vokabeln, sondern aus wiederholter Orientierung in echten Bedeutungszusammenhängen. Fortschritt entsteht nicht nur durch einzelne neue Wörter, sondern durch effizientere Orientierung im ganzen Kommunikationsraum.
 
+[^source-notes]: Source notes: was ist eine Sprache; Immersion Loop für Japanisch; Immersion heißt Bewegung im Informationsnetzwerk
+
 %%
 ## Links
 
 Prev::
-Next::[[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
+Next:: [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
 Parent::
 Child:: [[Einsprachigkeit der Erfahrung verdichtet Immersion]], [[Aktive Immersion gibt passivem Hören Momentum]]
 Friend::
 
 ## Tags
 #language-learning #immersion
-
-
 %%
-[^source-notes]: Source notes: was ist eine Sprache; Immersion Loop für Japanisch; Immersion heißt Bewegung im Informationsnetzwerk

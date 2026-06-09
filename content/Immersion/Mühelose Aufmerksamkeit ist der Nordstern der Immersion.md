@@ -3,7 +3,7 @@ title: "Mühelose Aufmerksamkeit ist der Nordstern der Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Mühelose Aufmerksamkeit ist der Nordstern der Immersion.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Wahl von geeignetem Input Material für Immersion]]"
+  - "[[immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion]]"
 tags:
   - zettel
 ---
@@ -13,17 +13,21 @@ Die ideale Aufmerksamkeit in Immersion ist nicht angestrengtes Beobachten, sonde
 
 Man kann sehr aufmerksam sein, ohne Aufmerksamkeit willentlich zu erzwingen: so wie bei einer Serie, die einen vollständig hineinzieht. Dann folgt man Bedeutung, Handlung, Stimmen und Situationen, ohne dauernd Grammatik oder Wörter als Lernstoff zu isolieren.
 
+[^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Der Zettel fasst die dort formulierte "North Star"-Idee zusammen: vollständig engagiert, bedeutungsorientiert und zugleich ohne bewusste Anstrengung.
+
+## Why It Matters
+
+Dieser Zettel hilft, Immersion nicht als blosse Menge an Input zu verstehen, sondern als gestaltbare Lernumgebung mit Aufmerksamkeit, Wiederbegegnung und wachsender Verstehbarkeit.
+
 %%
 ## Links
 
 Prev:: [[Aktive Immersion gibt passivem Hören Momentum]]
-Next::[[Wahl von geeignetem Input Material für Immersion]]
+Next:: [[Wahl von geeignetem Input Material für Immersion]]
 Parent::
 Child::
 Friend::
 
 ## Tags
 #language-learning #immersion #attention
-
 %%
-[^source]: Aus dem Clipping "Passive listening is overrated AND underrated", Matt vs the World, veröffentlicht 2026-02-12. Der Zettel fasst die dort formulierte "North Star"-Idee zusammen: vollständig engagiert, bedeutungsorientiert und zugleich ohne bewusste Anstrengung.

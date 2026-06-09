@@ -3,8 +3,8 @@ title: "Einsprachigkeit der Erfahrung verdichtet Immersion"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Einsprachigkeit der Erfahrung verdichtet Immersion.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Immersion macht Kultur zum Umfeld]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion]]"
+  - "[[immersion/immersion-macht-kultur-zum-umfeld]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion]]"
 tags:
   - zettel
 ---
@@ -18,6 +18,8 @@ Das macht Immersion dichter: Die Sprache wird nicht nur Lerngegenstand, sondern 
 
 Wer jede Begegnung sofort übersetzt, bleibt oft außerhalb des Zielsprachennetzwerks stehen. Einsprachigkeit zwingt sanft dazu, Bedeutungen, Register, Klang und typische Formulierungen direkt im Zielmedium zu organisieren.
 
+[^source-notes]: Source notes: Immersion macht Sprache zum Umfeld
+
 %%
 ## Links
 
@@ -29,6 +31,4 @@ Friend:: [[Cloze Notiztyp für maximale Immersion]]
 
 ## Tags
 #language-learning #immersion
-
 %%
-[^source-notes]: Source notes: Immersion macht Sprache zum Umfeld

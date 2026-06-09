@@ -3,9 +3,9 @@ title: "Anki ist kein Wissensspeicher"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Anki ist kein Wissensspeicher.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört]]"
 tags:
   - zettel
 ---
@@ -21,6 +21,8 @@ Das verhindert, dass Kartenpflege mit Lernen verwechselt wird. Die eigentliche S
 
 Die Karte ist gelungen, wenn sie spätere Begegnungen mit dem Wort fruchtbarer macht: Man erkennt schneller, versteht Nuancen leichter und kann die Bedeutung durch wiederholten Input ausbauen.
 
+[^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Immersion Loop für Japanisch; Effective Learning Twenty Rules of Formulating Knowledge; Japanisch und Anki Backfill
+
 %%
 ## Links
 
@@ -32,6 +34,4 @@ Friend:: [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Priorisierung entsch
 
 ## Tags
 #anki
-
 %%
-[^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Immersion Loop für Japanisch; Effective Learning Twenty Rules of Formulating Knowledge; Japanisch und Anki Backfill

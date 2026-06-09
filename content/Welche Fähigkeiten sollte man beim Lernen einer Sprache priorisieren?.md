@@ -2,14 +2,11 @@
 title: "Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?.md"
 publish: true
-graphLinks:
-  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
-  - "[[Mehrsprachigkeit/Functional Fluency]]"
-  - "[[Immersion/Output second - Output macht Immersion prüfbar]]"
 tags:
   - zettel
 ---
+## Claim
+
 Man sollte die Fähigkeiten priorisieren, die für Bewegung in der Zielkultur am wichtigsten sind.
 
 1. Gesprochene Alltagssprache verstehen.
@@ -25,12 +22,19 @@ Sehr geringe Priorität:
 
 Handschrift ist bei Sprachen mit Schriftzeichen ein Spezialfall. Für Japanisch oder Chinesisch muss man Zeichen nicht perfekt von Hand produzieren können, um sich kulturell sehr gut zu bewegen. Etwas Handschrift kann helfen, Zeichen besser zu behalten; vollständige produktive Beherrschung aller Zeichen wäre aber zu zeitaufwendig. Der Hauptnutzen liegt hier im Gedächtnisstützen, nicht im Perfektionieren.
 
-Prev::[[2026-05-07 Motivation fürs Japanisch Lernen]]
-Next::[[Input first - Aufbau eines Sprachgefühls]], [[Input Output und Interaction in der Sprachakquisition]]
+## Why It Matters
 
-Parent::[[Immersion-Loop Methoden]], [[Kultur als Informationsnetzwerk]], [[Functional Fluency]]
+Dieser Zettel macht einen einzelnen Gedanken anschlussfähig, damit er im Zettelkasten geprüft, verlinkt und weiterentwickelt werden kann.
 
 %%
-## Zettel Links
-Friend:: [[Input first - Aufbau eines Sprachgefühls]], [[Output second - Output macht Immersion prüfbar]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning
 %%

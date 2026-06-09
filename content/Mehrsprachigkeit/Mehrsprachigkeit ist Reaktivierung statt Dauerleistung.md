@@ -3,7 +3,7 @@ title: "Mehrsprachigkeit ist Reaktivierung statt Dauerleistung"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Mehrsprachigkeit ist Reaktivierung statt Dauerleistung.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Grundmodell/Falscher Ergeiz in Anki]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki]]"
 tags:
   - zettel
 ---
@@ -19,16 +19,17 @@ Das verschiebt die Lernstrategie von permanenter Pflege zu Reaktivierungsfähigk
 
 Damit wird Japanischlernen Teil derselben Logik: Nicht jede Komponente muss immer maximal trainiert werden, aber das System muss zuverlässig wieder Zugriff herstellen.
 
+[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Japanisch und Anki Backfill
+
 %%
 ## Links
 
 Prev::
 Next::
-Child:: [[Falscher Ergeiz in Anki]], [[Wie reaktiviert man eine Sprache?]]
+Parent::
+Child:: [[Falscher Ehrgeiz in Anki]], [[Wie reaktiviert man eine Sprache?]]
+Friend::
 
 ## Tags
 #language-learning
-
-
 %%
-[^source-notes]: Source notes: Mehrsprachigkeit als Reaktivierung; Japanisch und Anki Backfill

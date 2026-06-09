@@ -4,7 +4,6 @@ import type {
   QuartzComponentProps,
 } from "@quartz-community/types";
 import { classNames } from "../util/lang";
-import { i18n } from "../i18n";
 import style from "./styles/graph.scss";
 // @ts-expect-error - inline script imported as string by esbuild loader
 import script from "./scripts/graph.inline.ts";
@@ -64,15 +63,14 @@ const defaultOptions: GraphOptions = {
 };
 
 export default ((userOpts?: Partial<GraphOptions>) => {
-  const Graph: QuartzComponent = ({ displayClass, cfg }: QuartzComponentProps) => {
+  const Graph: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph };
     const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph };
-    const depthOptions = [1, 2, 3, 4, -1];
+    const depthOptions = [1, 2];
 
     return (
       <div class={classNames(displayClass, "graph")}>
         <div class="graph-header">
-          <h3>{i18n(cfg.locale ?? "en-US").components.graph.title}</h3>
           <div class="graph-depth-control" role="group" aria-label="Graph-Tiefe">
             <span>Tiefe</span>
             {depthOptions.map((depth) => (
@@ -81,9 +79,9 @@ export default ((userOpts?: Partial<GraphOptions>) => {
                 class={localGraph.depth === depth ? "active" : undefined}
                 data-depth={depth}
                 aria-pressed={localGraph.depth === depth}
-                title={depth === -1 ? "Alle verbundenen Zettel anzeigen" : `Tiefe ${depth}`}
+                title={`Tiefe ${depth}`}
               >
-                {depth === -1 ? "Alle" : depth}
+                {depth}
               </button>
             ))}
           </div>

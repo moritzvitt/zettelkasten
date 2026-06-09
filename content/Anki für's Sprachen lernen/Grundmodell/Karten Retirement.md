@@ -5,10 +5,28 @@ publish: true
 tags:
   - zettel
 ---
+## Claim
+
 nach einem Jahr sollten Karten durch Immersion gelernt sein. 
 
 # Card Retirement
 Karten mit einem Intervall (Zeit zwischen letzter Review und geplanter nächster Review in der Zukunft) von mehr als einem Jahr werden suspendiert 
 
 Nutze dieses Skrip:
-Next::[[suspend_after_one_year]][[suspend_after_one_year.ipynb]]
+
+## Why It Matters
+
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
+
+%%
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning #anki
+%%

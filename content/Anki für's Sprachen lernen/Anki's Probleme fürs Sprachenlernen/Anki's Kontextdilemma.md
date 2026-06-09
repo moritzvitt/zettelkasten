@@ -3,12 +3,14 @@ title: "Anki's Kontextdilemma"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der Gewichtung von Bedeutungen]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation]]"
 tags:
   - zettel
 ---
+## Claim
+
 Anki hat ein Kontextproblem:
 
 Eine Karte kann nie das vollständige Gefühl eines Wortes transportieren.  
@@ -18,7 +20,7 @@ Dadurch entstehen drei Probleme:
 
 - Reviews werden langsam und überladen.
 - Man beginnt, nicht nur das Wort zu erinnern, sondern den spezifischen Erstkontext, um die Antwort herzuleiten.
-- die Konnotation des Wortes verändert sich (für einen)%%Prev::[[Anki und das Problem der Gewichtung von Bedeutungen]]%%
+- die Konnotation des Wortes verändert sich (für einen)
 
 Aber genau das ist ineffizient:  
 
@@ -33,7 +35,19 @@ anstatt ein echtes Sprachgefühl für das Wort aufzubauen.
 
 Der Kontext soll Bedeutung unterstützen, nicht selbst zum Erinnerungsobjekt werden.
 
+## Why It Matters
+
+Dieser Zettel klärt einen Baustein des Anki-Systems: Welche Aufgabe eine Karte erfüllen soll, wann Anki nützt und wo Immersion die eigentliche Bedeutungsarbeit übernehmen muss.
+
 %%
-## Zettel Links
-Friend:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend:: [[Anki und das Problem der Gewichtung von Bedeutungen]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
+
+## Tags
+#language-learning #anki
 %%

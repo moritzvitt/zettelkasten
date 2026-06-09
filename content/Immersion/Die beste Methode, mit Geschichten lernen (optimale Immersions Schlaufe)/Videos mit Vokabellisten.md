@@ -2,11 +2,26 @@
 title: "Videos mit Vokabellisten"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Videos mit Vokabellisten.md"
 publish: true
-graphLinks:
-  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
 tags:
   - zettel
 ---
-ich benutze Videos mit Vokabellisten um die Worte im lernbaren Zustand zu kuratieren. 
+## Claim
 
-Child::[[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]
+ich benutze Videos mit Vokabellisten um die Worte im lernbaren Zustand zu kuratieren.
+
+## Why It Matters
+
+Dieser Zettel hilft, Immersion nicht als blosse Menge an Input zu verstehen, sondern als gestaltbare Lernumgebung mit Aufmerksamkeit, Wiederbegegnung und wachsender Verstehbarkeit.
+
+%%
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning
+%%

@@ -3,7 +3,9 @@ title: "Die Rolle von SRS; Immersion vorbereiten"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Die Rolle von SRS; Immersion vorbereiten.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Die beste Methode, mit Geschichten lernen (optimale Immersions Schlaufe)/Immersion-Loop Methoden]]"
+  - "[[immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher]]"
 tags:
   - zettel
 ---
@@ -11,7 +13,7 @@ tags:
 
 Bei Vokabeln erzeugt Anki zuerst einen mentalen Wörterbucheintrag: eine Adresse im Kopf, durch die ein Wort beim nächsten Kontakt wiedererkennbar wird.
 
-Achtung: die Rede ist nur von einem Eintrag! Das heißt, Definitionen, Beispielsätze, Synonyme etc. sind noch nicht vorhanden und müssen durch Immersion gefüllt werden. 
+Achtung: die Rede ist nur von einem Eintrag! Das heißt, Definitionen, Beispielsätze, Synonyme etc. sind noch nicht vorhanden und müssen durch Immersion gefüllt werden.
 
 ## Why It Matters
 
@@ -21,15 +23,11 @@ Das eigentliche Lernen des Wortes passiert danach im Input. Jede Begegnung in Re
 ## Links
 
 Prev::
-Next::[[Immersion-Loop Methoden]]
+Next:: [[Immersion-Loop Methoden]]
 Parent::
 Child::
-Friend::
-[[url-l2ioo0sz]]
-- [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]
-- [[Anki ist kein Wissensspeicher]]
+Friend:: [[url-l2ioo0sz]], [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Anki ist kein Wissensspeicher]]
 
 ## Tags
-#anki #language-learning #language-acquisition 
-
+#anki #language-learning #language-acquisition
 %%

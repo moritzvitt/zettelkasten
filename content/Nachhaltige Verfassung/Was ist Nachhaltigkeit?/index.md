@@ -12,6 +12,6 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[das Verständnis für die Natur und Nachhaltigkeit ist im Menschen enthalten.]] - das Verständnis für die Natur und Nachhaltigkeit ist im Menschen enthalten. Das macht sich die purposeGmbH zu nutze: sie entfesselt diese positiven Kräfte.
-- [[Nachhaltigkeit]] - Nachhaltigkeit bedeutet, einen Lebensstil zu leben, der mit der von der Sonne gelieferten Energie theoretisch bis in alle Ewigkeit fortgeführt werden könnte (bis die Sonne erlischt). Es bedeutet, mit dem Planeten, der Um
-- [[Wir haben Externalitäten auf unsere Umwelt, unsere Umwelt hat Externalitäten auf uns.]] - Unser Handeln, unser Da-sein allein, hat einen Einfluss auf unsere Umwelt. Je mehr Energie der einzelne Mensch nun verbraucht (und je schmutziger die Energieformen sind) - desto größer
+- [[Das Verständnis für Natur und Nachhaltigkeit ist im Menschen enthalten]] - Claim Das Verständnis für Natur und Nachhaltigkeit muss nicht vollständig von aussen aufgezwungen werden; es kann an vorhandene menschliche Schutz-, Fürsorge- und Sinnmotive anschliessen. Institutionen wie Verantwortungs
+- [[Nachhaltigkeit]] - Claim Nachhaltigkeit bedeutet, so zu leben und zu wirtschaften, dass die Grundlagen dieses Lebens nicht verbraucht werden. Eine nachhaltige Lebensweise dürfte dem Planeten nicht dauerhaft mehr entnehmen, als sich regener
+- [[Wir haben Externalitäten auf unsere Umwelt, unsere Umwelt hat Externalitäten auf uns]] - Claim Unser Handeln wirkt auf die Umwelt, aber die Umwelt wirkt auch auf uns zurück. Externalitäten sind deshalb kein Randproblem, sondern die Grundform menschlicher Einbettung: Energieverbrauch, Verschmutzung, Klimafolg

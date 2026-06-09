@@ -1,7 +1,10 @@
 ---
-title: "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1"
-source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Sprachwissen wird weniger zugänglich, nicht einfach gelöscht 1a1.md"
+title: "Sprachwissen wird weniger zugänglich, nicht einfach gelöscht"
+source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Mehrsprachigkeit/Sprachwissen wird weniger zugänglich, nicht einfach gelöscht.md"
 publish: true
+graphLinks:
+  - "[[mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert]]"
+  - "[[mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung]]"
 tags:
   - zettel
 ---
@@ -20,12 +23,8 @@ Prev::
 Next::
 Parent::
 Child::
-Friend::
-
-- [[Eine Sprache wird einmal tief gelernt und später reaktiviert]]
-- [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
+Friend:: [[Eine Sprache wird einmal tief gelernt und später reaktiviert]], [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
 
 ## Tags
 #language-learning
-
 %%

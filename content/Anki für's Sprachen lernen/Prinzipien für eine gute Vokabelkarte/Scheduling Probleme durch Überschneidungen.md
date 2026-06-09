@@ -3,8 +3,8 @@ title: "Scheduling Probleme durch Überschneidungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Scheduling Probleme durch Überschneidungen.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Cloze Notiztyp für maximale Immersion]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt]]"
 tags:
   - zettel
 ---
@@ -20,6 +20,8 @@ Das Scheduling-Problem entsteht oft genau hier: Wenn man mehrere Wörter mit äh
 
 Die bessere Kartenreaktion ist nicht härter zu wiederholen, sondern den Suchraum zu verkleinern: Kontextlabel, Kontrastbeispiel, typische Kollokation oder eine eigene Vergleichskarte. So bekommt der Scheduler wieder eine saubere Erinnerungseinheit.
 
+[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
+
 %%
 ## Links
 
@@ -31,6 +33,4 @@ Friend:: [[Cloze Notiztyp für maximale Immersion]], [[Redundanz ist erlaubt, we
 
 ## Tags
 #anki
-
 %%
-[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition

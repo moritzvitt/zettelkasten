@@ -2,12 +2,14 @@
 title: "SRS (Spaced Repetition), Anki"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/SRS (Spaced Repetition), Anki.md"
 publish: true
+graphLinks:
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten]]"
 tags:
   - zettel
 ---
-# SRS (Spaced Repetition), Anki
-
-## Summary
+## Claim
 
 Ein SRS, also ein Spaced-Repetition-System, ist ein Wiederholungssystem, das Lernstoff nicht jeden Tag komplett abfragt, sondern Karten nach wachsendem Abstand wieder vorlegt. Nach jeder Antwort bewertet man, wie gut man sich erinnert hat; daraus berechnet das System, wann die Karte wieder fällig wird.[^anki-background]
 
@@ -22,6 +24,10 @@ Für Sprachlernen heißt das: Anki soll nicht die Sprache selbst frisch halten u
 
 Wenn man Anki als Timing-System versteht, wird klarer, warum Karten klein und eindeutig sein müssen. Eine Karte soll einen Abrufpunkt trainieren, nicht eine ganze Bedeutungslage ersetzen. Gute SRS-Karten machen spätere Immersion fruchtbarer, weil ein Wort beim Lesen oder Hören nicht mehr völlig fremd ist.
 
+[^anki-background]: Offizielle Quelle: Anki Manual, "Background", Abschnitte zu Spaced Repetition und dem wachsenden Abstand zwischen Reviews: https://docs.ankiweb.net/background.html
+
+[^anki-algorithm]: Offizielle Quelle: Anki FAQs, "What spaced repetition algorithm does Anki use?", sowie Anki Manual, "Deck Options", Abschnitt FSRS: https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html und https://docs.ankiweb.net/deck-options#fsrs
+
 %%
 ## Links
 
@@ -29,16 +35,8 @@ Prev::
 Next::
 Parent::
 Child::
-Friend::
-
-- [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]
-- [[Anki ist kein Wissensspeicher]]
-- [[Die Rolle von SRS; Immersion vorbereiten]]
+Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Anki ist kein Wissensspeicher]], [[Die Rolle von SRS; Immersion vorbereiten]]
 
 ## Tags
-#anki
-
+#anki #fsrs
 %%
-[^anki-background]: Offizielle Quelle: Anki Manual, "Background", Abschnitte zu Spaced Repetition und dem wachsenden Abstand zwischen Reviews: https://docs.ankiweb.net/background.html
-
-[^anki-algorithm]: Offizielle Quelle: Anki FAQs, "What spaced repetition algorithm does Anki use?", sowie Anki Manual, "Deck Options", Abschnitt FSRS: https://faqs.ankiweb.net/what-spaced-repetition-algorithm.html und https://docs.ankiweb.net/deck-options#fsrs

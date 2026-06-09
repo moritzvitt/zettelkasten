@@ -3,10 +3,10 @@ title: "Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung 
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation]]"
 tags:
   - zettel
 ---
@@ -22,6 +22,8 @@ Wenn man lange auf einer Karte verweilt, Konnotationen durchdenkt oder versucht,
 
 Diese Grenze schützt vor Anki-Perfektionismus. Eine Karte ist gut genug, wenn sie das Wort beim nächsten Input-Kontakt wiedererkennbar macht. Alles, was darüber hinausgeht, gehört eher in Immersion, Beispiele und spätere echte Begegnungen. ^9e98fa
 
+[^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Anki bereitet fruchtbare Begegnungen vor
+
 %%
 ## Links
 
@@ -29,10 +31,8 @@ Prev::
 Next::
 Parent::
 Child:: [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Anki's Kontextdilemma]]
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand.]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
+Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
 
 ## Tags
 #anki #open-question
-
 %%
-[^source-notes]: Source notes: Anki als Sprachlernwerkzeug; Anki bereitet fruchtbare Begegnungen vor

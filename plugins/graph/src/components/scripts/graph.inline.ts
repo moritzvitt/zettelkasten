@@ -75,7 +75,7 @@ import {
 
     var localStorageKey = "graph-visited";
     var depthStorageKey = "graph-depth-v2";
-    var allowedDepths = [-1, 1, 2, 3, 4];
+    var allowedDepths = [1, 2];
 
     function getVisited() {
       return new Set(JSON.parse(localStorage.getItem(localStorageKey) || "[]"));

@@ -2,14 +2,26 @@
 title: "Shadowing"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Shadowing.md"
 publish: true
-graphLinks:
-  - "[[Immersion/Input first - Aufbau eines Sprachgefühls]]"
 tags:
   - zettel
 ---
-Parent::[[Immersionsmethoden für Sprachlernen]]
+## Claim
+
+Shadowing
+
+## Why It Matters
+
+Dieser Zettel hilft, Immersion nicht als blosse Menge an Input zu verstehen, sondern als gestaltbare Lernumgebung mit Aufmerksamkeit, Wiederbegegnung und wachsender Verstehbarkeit.
 
 %%
-## Zettel Links
-Friend:: [[Aktive Immersion gibt passivem Hören Momentum]], [[Input first - Aufbau eines Sprachgefühls]]
+## Links
+
+Prev::
+Next::
+Parent::
+Child::
+Friend::
+
+## Tags
+#language-learning
 %%

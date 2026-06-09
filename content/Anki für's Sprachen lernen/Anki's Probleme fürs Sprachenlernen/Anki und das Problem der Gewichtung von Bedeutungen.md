@@ -3,11 +3,11 @@ title: "Anki und das Problem der Gewichtung von Bedeutungen"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki und das Problem der Gewichtung von Bedeutungen.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Eine Vokabelkarte trägt maximal eine Erstkonnotation]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki alleine wird mit wachsendem Wortschatz ineffizient]]"
-  - "[[Anki für's Sprachen lernen/Anki's Probleme fürs Sprachenlernen/Anki's Kontextdilemma]]"
-  - "[[Anki für's Sprachen lernen/Grundmodell/Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient]]"
+  - "[[anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma]]"
+  - "[[anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen]]"
 tags:
   - zettel
 ---
@@ -42,5 +42,4 @@ Friend:: [[Anki's Kontextdilemma]], [[Das Ziel einer Ankikarte ist nur, ein vage
 
 ## Tags
 #anki #language-learning
-
 %%

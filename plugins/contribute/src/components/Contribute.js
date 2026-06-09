@@ -161,6 +161,9 @@ export default function Contribute(userOpts = {}) {
 .contribute-panel {
   border: 1px solid var(--lightgray);
   border-radius: 8px;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  overscroll-behavior: contain;
   padding: 0.9rem;
   background: color-mix(in srgb, var(--light) 94%, var(--secondary));
 }
@@ -213,6 +216,7 @@ export default function Contribute(userOpts = {}) {
 }
 
 .contribute-field textarea {
+  min-height: 6rem;
   resize: vertical;
 }
 

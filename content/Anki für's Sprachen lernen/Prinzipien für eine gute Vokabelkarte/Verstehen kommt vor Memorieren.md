@@ -3,8 +3,8 @@ title: "Verstehen kommt vor Memorieren"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Verstehen kommt vor Memorieren.md"
 publish: true
 graphLinks:
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]"
-  - "[[Anki für's Sprachen lernen/Prinzipien für eine gute Vokabelkarte/Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört]]"
+  - "[[anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern]]"
 tags:
   - zettel
 ---
@@ -18,6 +18,8 @@ Das widerspricht der Wiedererkennungslogik nicht: Für Vokabelkarten reicht eine
 
 Sonst wiederholt man Zeichenketten statt Wissen. Gerade beim Sprachenlernen müssen Wörter, Grammatik und Nuancen zuerst genug Kontext haben, damit Karten echte Abrufstellen trainieren.
 
+[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
+
 %%
 ## Links
 
@@ -29,6 +31,4 @@ Friend:: [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]
 
 ## Tags
 #anki
-
 %%
-[^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition

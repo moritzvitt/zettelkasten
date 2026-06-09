@@ -3,9 +3,9 @@ title: "Input first - Aufbau eines Sprachgefühls"
 source: "LLM Wiki/notes/zettel/Immersion und Spracherwerb/Immersion/Input first - Aufbau eines Sprachgefühls.md"
 publish: true
 graphLinks:
-  - "[[Immersion/Output second - Output macht Immersion prüfbar]]"
-  - "[[Language Acquisition]]"
-  - "[[Immersion/The LLM in my brain]]"
+  - "[[immersion/output-second---output-macht-immersion-prüfbar]]"
+  - "[[language-acquisition]]"
+  - "[[immersion/the-llm-in-my-brain]]"
 tags:
   - zettel
 ---
@@ -21,6 +21,8 @@ Output wird danach fruchtbarer: Man produziert nicht aus leerem Regelwissen hera
 
 So wird der Streit "Input oder Output?" zu einer Frage der Reihenfolge. Input baut das Material und das Sprachgefühl auf; Output kommt später als Aktivierung, Test und Automatisierung dazu.
 
+[^source-notes]: Source notes: Matt vs Japan und Refold zu Immersion; Input Output und Interaction in der Sprachakquisition
+
 %%
 ## Links
 
@@ -28,9 +30,8 @@ Prev::
 Next:: [[Output second - Output macht Immersion prüfbar]]
 Parent:: [[Language Acquisition]]
 Child:: [[The LLM in my brain]]
+Friend::
 
 ## Tags
 #language-learning #immersion
-
 %%
-[^source-notes]: Source notes: Matt vs Japan und Refold zu Immersion; Input Output und Interaction in der Sprachakquisition
