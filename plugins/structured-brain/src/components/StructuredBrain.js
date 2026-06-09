@@ -2,6 +2,7 @@ import { h } from "preact"
 
 const defaultOptions = {
   height: 620,
+  minHeight: 260,
   compactThreshold: 5,
 }
 
@@ -12,8 +13,6 @@ function classNames(...classes) {
 const script = `
 (() => {
   const friendsStorageKey = "structured-brain-show-friends-v1"
-  const inferredStorageKey = "structured-brain-show-inferred-v1"
-  const compactStorageKey = "structured-brain-compact-v1"
   const relationLabels = {
     parent: "Parent",
     child: "Child",
@@ -89,10 +88,25 @@ const script = `
     while (el.firstChild) el.removeChild(el.firstChild)
   }
 
+  function isModalCanvas(container) {
+    return Boolean(container.closest(".structured-brain-modal"))
+  }
+
   function wrapLabel(text, maxLine = 30, maxLines = 2) {
-    const words = String(text || "").replace(/\\s+/g, " ").trim().split(" ")
+    const original = String(text || "").replace(/\\s+/g, " ").trim()
+    const words = original
+      .split(" ")
+      .flatMap((word) => {
+        if (word.length <= maxLine) return [word]
+        const chunks = []
+        for (let index = 0; index < word.length; index += maxLine) {
+          chunks.push(word.slice(index, index + maxLine))
+        }
+        return chunks
+      })
     const lines = []
     let current = ""
+    let consumed = 0
     for (const word of words) {
       const next = current ? current + " " + word : word
       if (next.length <= maxLine) {
@@ -101,12 +115,13 @@ const script = `
         if (current) lines.push(current)
         current = word
       }
+      consumed += word.length
       if (lines.length === maxLines) break
     }
     if (lines.length < maxLines && current) lines.push(current)
-    const original = String(text || "")
-    const joined = lines.join(" ")
-    if (joined.length < original.length && lines.length) {
+    const visibleLength = lines.join("").replace(/\\.{3}$/, "").length
+    const originalLength = original.replace(/\\s/g, "").length
+    if ((visibleLength < originalLength || consumed < originalLength) && lines.length) {
       lines[lines.length - 1] = lines[lines.length - 1].replace(/\\.{3}$/, "")
       if (lines[lines.length - 1].length > maxLine - 3) {
         lines[lines.length - 1] = lines[lines.length - 1].slice(0, maxLine - 3)
@@ -121,10 +136,12 @@ const script = `
     return stored === null ? defaultValue : stored === "true"
   }
 
-  function compactLabel(text, wordLimit = 4) {
+  function compactLabel(text, wordLimit = 4, characterLimit = 20) {
     const words = String(text || "").replace(/\\s+/g, " ").trim().split(" ")
-    if (words.length <= wordLimit) return words.join(" ")
-    return words.slice(0, wordLimit).join(" ") + "..."
+    const candidate = words.slice(0, wordLimit).join(" ")
+    const truncated = words.length > wordLimit || candidate.length > characterLimit
+    if (!truncated) return candidate
+    return candidate.slice(0, characterLimit).trimEnd().replace(/[.,;:!?-]+$/, "") + "..."
   }
 
   function relationVisible(edge, showFriends, showInferred) {
@@ -133,23 +150,80 @@ const script = `
     return relationClasses.has(edge.type)
   }
 
-  function collectVisible(center, index, showFriends, showInferred) {
+  function collectSequenceSide(center, type, relationships, valid, blocked) {
+    const seen = new Set()
+    const depths = new Map()
+    const queue = [{ slug: center, depth: 0 }]
+
+    while (queue.length) {
+      const current = queue.shift()
+      const targets = [
+        ...new Set(
+          relationships
+            .filter((edge) => edge.from === current.slug && edge.type === type && valid.has(edge.to))
+            .map((edge) => edge.to),
+        ),
+      ].sort()
+
+      for (const target of targets) {
+        if (target === center || blocked.has(target) || seen.has(target)) continue
+        seen.add(target)
+        depths.set(target, current.depth + 1)
+        queue.push({ slug: target, depth: current.depth + 1 })
+      }
+    }
+
+    return {
+      slugs: [...seen].sort((a, b) => depths.get(a) - depths.get(b) || a.localeCompare(b)),
+      depths,
+    }
+  }
+
+  function collectSequence(center, relationships, valid) {
+    const prev = collectSequenceSide(center, "prev", relationships, valid, new Set())
+    const next = collectSequenceSide(center, "next", relationships, valid, new Set(prev.slugs))
+
+    return {
+      prev: prev.slugs,
+      next: next.slugs,
+      prevDepths: prev.depths,
+      nextDepths: next.depths,
+    }
+  }
+
+  function collectVisible(center, index, showFriends, showInferred, expandSequence = false) {
     const valid = new Set(Object.keys(index.nodes || {}))
     const relationships = (index.relationships || []).filter((edge) =>
       relationVisible(edge, showFriends, showInferred),
     )
     const visible = new Set([center])
     const centerRelationships = relationships.filter((edge) => edge.from === center)
+    const sequence = expandSequence
+      ? collectSequence(center, relationships, valid)
+      : { prev: [], next: [] }
 
     for (const edge of centerRelationships) {
       if (!valid.has(edge.to)) continue
       visible.add(edge.to)
     }
+    for (const slug of sequence.prev) visible.add(slug)
+    for (const slug of sequence.next) visible.add(slug)
 
-    const visibleRelationships = relationships.filter(
-      (edge) => visible.has(edge.from) && visible.has(edge.to),
-    )
-    return { visible, centerRelationships, relationships: visibleRelationships }
+    const sequenceSide = (slug) => {
+      if (sequence.prev.includes(slug)) return "prev"
+      if (sequence.next.includes(slug)) return "next"
+      return null
+    }
+    const visibleRelationships = relationships.filter((edge) => {
+      if (!visible.has(edge.from) || !visible.has(edge.to)) return false
+      if (expandSequence && (edge.type === "prev" || edge.type === "next")) {
+        const fromSide = sequenceSide(edge.from)
+        const toSide = sequenceSide(edge.to)
+        if (fromSide && toSide && fromSide !== toSide) return false
+      }
+      return true
+    })
+    return { visible, centerRelationships, relationships: visibleRelationships, sequence }
   }
 
   function nodeGeometry(slug, center, index, compact) {
@@ -251,6 +325,50 @@ const script = `
     }
   }
 
+  function sequenceColumns(slugs, depths) {
+    const columns = new Map()
+    for (const slug of slugs) {
+      const depth = depths.get(slug) || 1
+      if (!columns.has(depth)) columns.set(depth, [])
+      columns.get(depth).push(slug)
+    }
+    return [...columns.entries()]
+      .sort((a, b) => a[0] - b[0])
+      .map(([, values]) => values.sort())
+  }
+
+  function placeSequenceSide(positions, slugs, depths, geometries, centerGeometry, side, gap) {
+    let edge = side === "left" ? -centerGeometry.width / 2 : centerGeometry.width / 2
+    const role = side === "left" ? "prev" : "next"
+
+    for (const column of sequenceColumns(slugs, depths)) {
+      const size = groupSize(column, geometries, "vertical", gap)
+      const x = side === "left"
+        ? edge - gap - size.width / 2
+        : edge + gap + size.width / 2
+      placeVertical(positions, column, geometries, x, role, gap)
+      edge = side === "left" ? x - size.width / 2 : x + size.width / 2
+    }
+  }
+
+  function sideBoundary(positions, geometries, groupHeight, side) {
+    const groupTop = -groupHeight / 2
+    const groupBottom = groupHeight / 2
+    let boundary = 0
+
+    for (const [slug, pos] of positions) {
+      const geometry = geometries.get(slug)
+      const top = pos.y - geometry.height / 2
+      const bottom = pos.y + geometry.height / 2
+      if (bottom <= groupTop || top >= groupBottom) continue
+
+      const edge = pos.x + (side === "right" ? geometry.width / 2 : -geometry.width / 2)
+      boundary = side === "right" ? Math.max(boundary, edge) : Math.min(boundary, edge)
+    }
+
+    return boundary
+  }
+
   function layoutNodes(
     center,
     visible,
@@ -259,6 +377,7 @@ const script = `
     minimumWidth,
     minimumHeight,
     compact,
+    sequence,
   ) {
     const positions = new Map([[center, { x: 0, y: 0, role: "center" }]])
     const grouped = centeredRelationships(center, centerRelationships)
@@ -266,8 +385,10 @@ const script = `
     const groups = {}
 
     for (const type of relationTypes) {
+      const sequenceSlugs = new Set([...(sequence?.prev || []), ...(sequence?.next || [])])
       groups[type] = (grouped[type] || []).filter((slug) => {
         if (!visible.has(slug) || claimed.has(slug)) return false
+        if (sequenceSlugs.has(slug)) return false
         claimed.add(slug)
         return true
       })
@@ -275,12 +396,32 @@ const script = `
 
     const centerGeometry = geometries.get(center)
     const nodeGap = compact ? 22 : 34
+    const sequenceGap = compact ? 28 : 42
     const parentSize = groupSize(groups.parent, geometries, "horizontal", nodeGap)
     const childSize = groupSize(groups.child, geometries, "horizontal", nodeGap)
     const friendSize = groupSize(groups.friend, geometries, "horizontal", nodeGap)
     const prevSize = groupSize(groups.prev, geometries, "vertical", nodeGap)
     const nextSize = groupSize(groups.next, geometries, "vertical", nodeGap)
-    const verticalGap = compact ? 72 : 100
+    const verticalGap = compact ? 56 : 100
+
+    placeSequenceSide(
+      positions,
+      sequence?.prev || [],
+      sequence?.prevDepths || new Map(),
+      geometries,
+      centerGeometry,
+      "left",
+      sequenceGap,
+    )
+    placeSequenceSide(
+      positions,
+      sequence?.next || [],
+      sequence?.nextDepths || new Map(),
+      geometries,
+      centerGeometry,
+      "right",
+      sequenceGap,
+    )
 
     if (groups.parent.length) {
       placeHorizontal(
@@ -316,34 +457,31 @@ const script = `
       )
     }
 
-    const horizontalHalfWidth = Math.max(
-      centerGeometry.width / 2,
-      parentSize.width / 2,
-      childSize.width / 2,
-      friendSize.width / 2,
-    )
+    const sideGap = compact ? 44 : 64
     if (groups.prev.length) {
+      const leftBoundary = sideBoundary(positions, geometries, prevSize.height, "left")
       placeVertical(
         positions,
         groups.prev,
         geometries,
-        -(horizontalHalfWidth + verticalGap + prevSize.width / 2),
+        leftBoundary - sideGap - prevSize.width / 2,
         "prev",
         nodeGap,
       )
     }
     if (groups.next.length) {
+      const rightBoundary = sideBoundary(positions, geometries, nextSize.height, "right")
       placeVertical(
         positions,
         groups.next,
         geometries,
-        horizontalHalfWidth + verticalGap + nextSize.width / 2,
+        rightBoundary + sideGap + nextSize.width / 2,
         "next",
         nodeGap,
       )
     }
 
-    const margin = 44
+    const margin = compact ? 28 : 44
     let minX = Infinity
     let minY = Infinity
     let maxX = -Infinity
@@ -420,6 +558,7 @@ const script = `
   function installPanZoom(svg, viewport, width, height) {
     const state = { x: 0, y: 0, k: 1 }
     let drag = null
+    svg.classList.add("is-pan-enabled")
 
     function apply() {
       viewport.setAttribute("transform", "translate(" + state.x + " " + state.y + ") scale(" + state.k + ")")
@@ -485,15 +624,20 @@ const script = `
     }
 
     const showFriends = storedToggle(friendsStorageKey)
-    const showInferred = storedToggle(inferredStorageKey)
-    const compactEnabled = storedToggle(compactStorageKey, true)
+    const showInferred = true
+    const compactEnabled = true
     const minimumWidth = Math.max(container.clientWidth || 320, 320)
-    const minimumHeight = Math.max(Number(config.height || 300), 260)
-    const { visible, centerRelationships, relationships } = collectVisible(
+    const requestedHeight = Number(config.height || 0)
+    const minimumHeight = isModalCanvas(container)
+      ? Math.max(requestedHeight || 760, 420)
+      : Math.max(Number(config.minHeight || 260), 180)
+    const expandSequence = config.expandSequence === true
+    const { visible, centerRelationships, relationships, sequence } = collectVisible(
       center,
       index,
       showFriends,
       showInferred,
+      expandSequence,
     )
     const compact = compactEnabled && visible.size - 1 >= Number(config.compactThreshold || 5)
     const geometries = new Map()
@@ -508,8 +652,12 @@ const script = `
       minimumWidth,
       minimumHeight,
       compact,
+      sequence,
     )
     const { positions, width, height } = layout
+    if (!isModalCanvas(container)) {
+      container.style.height = Math.ceil(height) + "px"
+    }
     for (const [slug, pos] of positions) {
       geometries.set(slug, { ...geometries.get(slug), ...pos })
     }
@@ -581,6 +729,38 @@ const script = `
       tooltip.setAttribute("visibility", "hidden")
     }
 
+    function showNodeTooltip(event) {
+      const target = event.target
+      const group =
+        target && typeof target.closest === "function"
+          ? target.closest(".structured-brain-node")
+          : null
+      if (!group) return
+      const geometry = geometries.get(group.dataset.slug)
+      if (geometry) showTooltip(geometry)
+    }
+
+    function hideNodeTooltip(event) {
+      const target = event.target
+      const group =
+        target && typeof target.closest === "function"
+          ? target.closest(".structured-brain-node")
+          : null
+      if (!group) return
+      const relatedTarget = event.relatedTarget
+      const nextGroup =
+        relatedTarget && typeof relatedTarget.closest === "function"
+          ? relatedTarget.closest(".structured-brain-node")
+          : null
+      if (nextGroup === group) return
+      hideTooltip()
+    }
+
+    viewport.addEventListener("pointerover", showNodeTooltip)
+    viewport.addEventListener("mousemove", showNodeTooltip)
+    viewport.addEventListener("pointerout", hideNodeTooltip)
+    viewport.addEventListener("mouseleave", hideTooltip)
+
     for (const relationship of displayRelationships(relationships, center)) {
       if (!positions.has(relationship.from) || !positions.has(relationship.to)) continue
       const from = geometries.get(relationship.from)
@@ -622,7 +802,11 @@ const script = `
         tabindex: "0",
         role: "link",
         "aria-label": title,
+        "data-slug": slug,
       })
+      const nativeTitle = svgEl("title")
+      nativeTitle.textContent = title
+      group.appendChild(nativeTitle)
       group.appendChild(
         svgEl("rect", {
           x: pos.x - textWidth / 2,
@@ -662,8 +846,6 @@ const script = `
       group.addEventListener("click", () => {
         window.location.href = pageUrl(slug)
       })
-      group.addEventListener("pointerenter", () => showTooltip(geometry))
-      group.addEventListener("pointerleave", hideTooltip)
       group.addEventListener("focus", () => showTooltip(geometry))
       group.addEventListener("blur", hideTooltip)
       group.addEventListener("keydown", (event) => {
@@ -676,7 +858,9 @@ const script = `
     }
     viewport.appendChild(tooltip)
 
-    installPanZoom(svg, viewport, width, height)
+    if (isModalCanvas(container)) {
+      installPanZoom(svg, viewport, width, height)
+    }
     container.appendChild(svg)
   }
 
@@ -719,11 +903,11 @@ const script = `
 
     const current = normalizeSlug(document.body?.dataset?.slug || currentPath())
     for (const panel of panels) {
-      const canvas = panel.querySelector(".structured-brain-canvas")
-      if (!canvas) continue
-      const config = JSON.parse(canvas.dataset.cfg || "{}")
       updateButtons(panel)
-      draw(canvas, index, current, config)
+      for (const canvas of panel.querySelectorAll(".structured-brain-canvas")) {
+        const config = JSON.parse(canvas.dataset.cfg || "{}")
+        draw(canvas, index, current, config)
+      }
     }
   }
 
@@ -774,28 +958,6 @@ export default function StructuredBrain(userOpts = {}) {
       h(
         "div",
         { class: "structured-brain-header" },
-        h("h3", null, "Strukturansicht"),
-        h(
-          "button",
-          { class: "structured-brain-fullscreen", type: "button", title: "Gross oeffnen" },
-          "[]",
-        ),
-      ),
-      h(
-        "div",
-        { class: "structured-brain-controls" },
-        h(
-          "button",
-          {
-            class: "structured-brain-filter",
-            type: "button",
-            "data-storage-key": "structured-brain-compact-v1",
-            "data-default-active": "true",
-            "aria-pressed": "true",
-            title: "Lange Titel bei vielen Beziehungen kuerzen",
-          },
-          "Kompakt",
-        ),
         h(
           "button",
           {
@@ -809,18 +971,30 @@ export default function StructuredBrain(userOpts = {}) {
         h(
           "button",
           {
-            class: "structured-brain-filter",
+            class: "structured-brain-fullscreen",
             type: "button",
-            "data-storage-key": "structured-brain-show-inferred-v1",
-            "aria-pressed": "false",
+            title: "Sequenzansicht gross oeffnen",
+            "aria-label": "Sequenzansicht gross oeffnen",
           },
-          "Inferred",
+          h(
+            "svg",
+            {
+              "aria-hidden": "true",
+              class: "structured-brain-fullscreen-icon",
+              viewBox: "0 0 24 24",
+            },
+            h("path", {
+              d: "M5 9V5h4M15 5h4v4M19 15v4h-4M9 19H5v-4",
+            }),
+            h("path", {
+              d: "M9 5 5 9M15 5l4 4M19 15l-4 4M5 15l4 4",
+            }),
+          ),
         ),
       ),
       h("div", {
         class: "structured-brain-canvas",
         "data-cfg": JSON.stringify(options),
-        style: `height: ${Number(options.height || 620)}px`,
       }),
       h(
         "div",
@@ -836,7 +1010,7 @@ export default function StructuredBrain(userOpts = {}) {
           ),
           h("div", {
             class: "structured-brain-canvas",
-            "data-cfg": JSON.stringify({ ...options, height: 760 }),
+            "data-cfg": JSON.stringify({ ...options, height: 760, expandSequence: true }),
             style: "height: 76vh",
           }),
         ),
@@ -855,13 +1029,9 @@ export default function StructuredBrain(userOpts = {}) {
 .structured-brain-header {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  padding: 0.65rem 0.75rem 0.35rem;
-}
-
-.structured-brain-header h3 {
-  font-size: 1rem;
-  margin: 0;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  padding: 0.28rem 0.5rem 0.2rem;
 }
 
 .structured-brain-fullscreen,
@@ -881,16 +1051,9 @@ export default function StructuredBrain(userOpts = {}) {
   background: var(--lightgray);
 }
 
-.structured-brain-controls {
-  align-items: center;
-  display: flex;
-  gap: 0.4rem;
-  padding: 0 0.75rem 0.45rem;
-}
-
 .structured-brain-filter {
-  font-size: 0.75rem;
-  padding: 0.18rem 0.5rem;
+  font-size: 0.72rem;
+  padding: 0.12rem 0.42rem;
 }
 
 .structured-brain-filter.active {
@@ -900,19 +1063,41 @@ export default function StructuredBrain(userOpts = {}) {
   font-weight: 700;
 }
 
+.structured-brain-fullscreen {
+  align-items: center;
+  display: inline-flex;
+  padding: 0.14rem;
+}
+
+.structured-brain-fullscreen-icon {
+  fill: none;
+  height: 1.05rem;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.8;
+  width: 1.05rem;
+}
+
 .structured-brain-canvas {
-  border-top: 1px solid var(--lightgray);
   color: var(--gray);
-  min-height: 420px;
+  min-height: 180px;
   overflow: hidden;
 }
 
+.structured-brain-modal .structured-brain-canvas {
+  min-height: 420px;
+}
+
 .structured-brain-svg {
-  cursor: grab;
   display: block;
   height: 100%;
-  touch-action: none;
   width: 100%;
+}
+
+.structured-brain-svg.is-pan-enabled {
+  cursor: grab;
+  touch-action: none;
 }
 
 .structured-brain-svg.is-panning {
