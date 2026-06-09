@@ -305,26 +305,52 @@ for (const file of files) {
 }
 
 const graphPath = (note) => slugPath(note.rel)
-const titleToPath = new Map(rawNotes.map((note) => [cleanTitle(note.title), graphPath(note)]))
-const stemToPath = new Map(
-  rawNotes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), graphPath(note)]),
+const translationRoot = path.join("Translations", "English")
+const languageGroup = (note) =>
+  note.rel === `${translationRoot}.md` || note.rel.startsWith(`${translationRoot}${path.sep}`)
+    ? "en"
+    : "default"
+const notesByLanguage = new Map()
+for (const note of rawNotes) {
+  const group = languageGroup(note)
+  if (!notesByLanguage.has(group)) notesByLanguage.set(group, [])
+  notesByLanguage.get(group).push(note)
+}
+const lookupByLanguage = new Map(
+  [...notesByLanguage].map(([group, notes]) => [
+    group,
+    {
+      titleToPath: new Map(notes.map((note) => [cleanTitle(note.title), graphPath(note)])),
+      stemToPath: new Map(
+        notes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), graphPath(note)]),
+      ),
+    },
+  ]),
 )
-const resolve = (target) =>
-  titleToPath.get(cleanTitle(target)) || stemToPath.get(cleanTitle(target)) || null
+const resolve = (note, target) => {
+  const lookup = lookupByLanguage.get(languageGroup(note))
+  return (
+    lookup?.titleToPath.get(cleanTitle(target)) ||
+    lookup?.stemToPath.get(cleanTitle(target)) ||
+    null
+  )
+}
 
 for (const note of rawNotes) {
   const unresolved = []
   for (const name of relationNames) {
     const resolved = []
     for (const target of note.relations[name]) {
-      const slug = resolve(target)
+      const slug = resolve(note, target)
       if (slug) resolved.push(slug)
       else unresolved.push({ type: relationTypes[name], target })
     }
     note.relations[name] = [...new Set(resolved)]
   }
   note.unresolvedRelationships = unresolved
-  note.wikiLinks = [...new Set(note.wikiLinks.map(resolve).filter(Boolean))]
+  note.wikiLinks = [
+    ...new Set(note.wikiLinks.map((target) => resolve(note, target)).filter(Boolean)),
+  ]
 }
 
 for (const note of rawNotes) {
@@ -351,6 +377,7 @@ for (const note of rawNotes) {
 for (const [relDir, notes] of folders) {
   if (!relDir) continue
   const out = path.join(contentRoot, relDir, "index.md")
+  if (rawNotes.some((note) => note.rel === path.join(relDir, "index.md"))) continue
   await mkdir(path.dirname(out), { recursive: true })
   await writeFile(
     out,

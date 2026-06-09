@@ -1,0 +1,19 @@
+---
+title: "Prioritization Decides Which Knowledge Belongs in Anki"
+source: "LLM Wiki/notes/zettel/Translations/English/Language Learning/Prioritization Decides Which Knowledge Belongs in Anki.md"
+publish: true
+tags:
+  - zettel
+---
+## Claim
+
+Prioritization decides which knowledge belongs in Anki at all. Not everything interesting deserves permanent review time.
+
+## Why It Matters
+
+Every card competes for limited attention. Good selection protects time for high-value vocabulary, weak retrieval points, and immersion.
+
+%%
+## Tags
+#anki #prioritization #translation
+%%
