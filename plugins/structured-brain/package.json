@@ -20,9 +20,7 @@
     "defaultOrder": 55,
     "defaultEnabled": true,
     "defaultOptions": {
-      "defaultDepth": 2,
-      "height": 520,
-      "showSiblings": false
+      "height": 620
     },
     "components": {
       "StructuredBrain": {
@@ -32,14 +30,8 @@
       }
     },
     "optionSchema": {
-      "defaultDepth": {
-        "type": "number"
-      },
       "height": {
         "type": "number"
-      },
-      "showSiblings": {
-        "type": "boolean"
       }
     }
   }

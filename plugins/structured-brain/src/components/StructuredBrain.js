@@ -1,9 +1,7 @@
 import { h } from "preact"
 
 const defaultOptions = {
-  defaultDepth: 2,
-  height: 520,
-  showSiblings: false,
+  height: 620,
 }
 
 function classNames(...classes) {
@@ -12,7 +10,8 @@ function classNames(...classes) {
 
 const script = `
 (() => {
-  const depthStorageKey = "structured-brain-depth-v3"
+  const friendsStorageKey = "structured-brain-show-friends-v1"
+  const inferredStorageKey = "structured-brain-show-inferred-v1"
   const relationLabels = {
     parent: "Parent",
     child: "Child",
@@ -81,61 +80,136 @@ const script = `
     while (el.firstChild) el.removeChild(el.firstChild)
   }
 
-  function truncate(text, max = 42) {
-    const value = String(text || "")
-    return value.length > max ? value.slice(0, max - 3) + "..." : value
+  function wrapLabel(text, maxLine = 30, maxLines = 2) {
+    const words = String(text || "").replace(/\\s+/g, " ").trim().split(" ")
+    const lines = []
+    let current = ""
+    for (const word of words) {
+      const next = current ? current + " " + word : word
+      if (next.length <= maxLine) {
+        current = next
+      } else {
+        if (current) lines.push(current)
+        current = word
+      }
+      if (lines.length === maxLines) break
+    }
+    if (lines.length < maxLines && current) lines.push(current)
+    const original = String(text || "")
+    const joined = lines.join(" ")
+    if (joined.length < original.length && lines.length) {
+      lines[lines.length - 1] = lines[lines.length - 1].replace(/\\.{3}$/, "")
+      if (lines[lines.length - 1].length > maxLine - 3) {
+        lines[lines.length - 1] = lines[lines.length - 1].slice(0, maxLine - 3)
+      }
+      lines[lines.length - 1] += "..."
+    }
+    return lines.length ? lines : [original]
   }
 
-  function pickDepth(config) {
-    const saved = Number(localStorage.getItem(depthStorageKey))
-    if ([1, 2, 3].includes(saved)) return saved
-    return Number(config.defaultDepth || 2)
+  function storedToggle(key) {
+    return localStorage.getItem(key) === "true"
   }
 
-  function pickSiblings(config) {
-    return config.showSiblings === true
+  function relationVisible(edge, showFriends, showInferred) {
+    if (edge.type === "friend" && !showFriends) return false
+    if (edge.type === "sibling" && !showInferred) return false
+    if (!edge.explicit && !showInferred) return false
+    return ["parent", "child", "prev", "next", "friend", "sibling"].includes(edge.type)
   }
 
-  function outgoingByNode(edges, includeSiblings) {
+  function outgoingByNode(edges) {
     const map = new Map()
     for (const edge of edges) {
-      if (!includeSiblings && edge.type === "sibling") continue
       if (!map.has(edge.from)) map.set(edge.from, [])
       map.get(edge.from).push(edge)
     }
     return map
   }
 
-  function collectVisible(center, index, depth, includeSiblings) {
+  function collectVisible(center, index, showFriends, showInferred) {
     const valid = new Set(Object.keys(index.nodes || {}))
-    const outgoing = outgoingByNode(index.edges || [], includeSiblings)
+    const filteredEdges = (index.edges || []).filter((edge) =>
+      relationVisible(edge, showFriends, showInferred),
+    )
+    const outgoing = outgoingByNode(filteredEdges)
     const visible = new Set([center])
     const levels = new Map([[center, 0]])
-    let frontier = [center]
-
-    for (let level = 0; level < depth && frontier.length; level++) {
-      const next = []
-      for (const slug of frontier) {
-        for (const edge of outgoing.get(slug) || []) {
-          if (!valid.has(edge.to)) continue
-          if (!visible.has(edge.to)) {
-            visible.add(edge.to)
-            levels.set(edge.to, level + 1)
-            next.push(edge.to)
-          }
-        }
+    const centerEdges = outgoing.get(center) || []
+    for (const edge of centerEdges) {
+      if (!valid.has(edge.to)) continue
+      if (!visible.has(edge.to)) {
+        visible.add(edge.to)
+        levels.set(edge.to, 1)
       }
-      frontier = next
     }
 
-    const edges = (index.edges || []).filter(
-      (edge) =>
-        visible.has(edge.from) &&
-        visible.has(edge.to) &&
-        (includeSiblings || edge.type !== "sibling"),
+    const siblingLinks = centerEdges.filter((edge) => edge.type === "sibling" && edge.via)
+    for (const edge of siblingLinks) {
+      if (!valid.has(edge.via)) continue
+      visible.add(edge.via)
+      if (!levels.has(edge.via)) levels.set(edge.via, 1)
+    }
+
+    const siblingSupportPairs = new Set(
+      siblingLinks.map((edge) => [edge.via, edge.to].sort().join("\\u0000")),
     )
+    const edges = filteredEdges.filter((edge) => {
+      if (!visible.has(edge.from) || !visible.has(edge.to)) return false
+      if (edge.from === center || edge.to === center) return true
+      return siblingSupportPairs.has([edge.from, edge.to].sort().join("\\u0000"))
+    })
 
     return { visible, levels, edges, outgoing }
+  }
+
+  function nodeGeometry(slug, center, index) {
+    const data = index.nodes[slug]
+    const title = data?.title || slug
+    const lines = wrapLabel(title, slug === center ? 38 : 30, 2)
+    const longest = lines.reduce((max, line) => Math.max(max, line.length), 0)
+    const width = Math.max(
+      104,
+      Math.min(slug === center ? 360 : 300, longest * (slug === center ? 8.8 : 7.2) + 28),
+    )
+    const lineHeight = slug === center ? 16 : 14
+    const height = Math.max(slug === center ? 38 : 30, lines.length * lineHeight + 14)
+    return { title, lines, width, height, lineHeight }
+  }
+
+  function portFor(node, relationType, otherNode, inverse = false) {
+    let side
+    if (relationType === "parent") side = "top"
+    else if (relationType === "child") side = "bottom"
+    else if (relationType === "prev") side = "left"
+    else if (relationType === "next") side = "right"
+    else side = otherNode.x < node.x ? "left" : "right"
+
+    if (inverse) {
+      side = { top: "bottom", bottom: "top", left: "right", right: "left" }[side]
+    }
+
+    if (side === "top") return { x: node.x, y: node.y - node.height / 2, side }
+    if (side === "bottom") return { x: node.x, y: node.y + node.height / 2, side }
+    if (side === "left") return { x: node.x - node.width / 2, y: node.y, side }
+    return { x: node.x + node.width / 2, y: node.y, side }
+  }
+
+  function portPosition(node, side) {
+    if (side === "top") return { x: node.x, y: node.y - node.height / 2 }
+    if (side === "bottom") return { x: node.x, y: node.y + node.height / 2 }
+    if (side === "left") return { x: node.x - node.width / 2, y: node.y }
+    return { x: node.x + node.width / 2, y: node.y }
+  }
+
+  function portRelationClass(side, role) {
+    if (role === "center") {
+      return { top: "parent", bottom: "child", left: "prev", right: "next" }[side]
+    }
+    if (["parent", "child", "prev", "next", "friend", "sibling"].includes(role)) {
+      return role
+    }
+    return ""
   }
 
   function centeredEdges(center, edges) {
@@ -152,8 +226,18 @@ const script = `
   function spread(items, y, minX, maxX) {
     const result = new Map()
     if (!items.length) return result
-    const step = (maxX - minX) / (items.length + 1)
-    items.forEach((slug, index) => result.set(slug, { x: minX + step * (index + 1), y }))
+    const available = maxX - minX
+    const columns = Math.max(1, Math.min(items.length, Math.floor(available / 230)))
+    const rows = Math.ceil(items.length / columns)
+    const rowGap = 58
+    const colGap = columns === 1 ? 0 : available / (columns - 1)
+    items.forEach((slug, index) => {
+      const column = index % columns
+      const row = Math.floor(index / columns)
+      const x = columns === 1 ? (minX + maxX) / 2 : minX + column * colGap
+      const offsetY = (row - (rows - 1) / 2) * rowGap
+      result.set(slug, { x, y: y + offsetY })
+    })
     return result
   }
 
@@ -166,23 +250,12 @@ const script = `
       }
     }
 
-    placeGroup("parent", height * 0.18, width * 0.18, width * 0.82)
-    placeGroup("child", height * 0.82, width * 0.18, width * 0.82)
-    placeGroup("prev", height * 0.5, width * 0.04, width * 0.28)
-    placeGroup("next", height * 0.5, width * 0.72, width * 0.96)
-    placeGroup("friend", height * 0.66, width * 0.14, width * 0.86)
-    placeGroup("sibling", height * 0.34, width * 0.14, width * 0.86)
-
-    const outer = [...visible].filter((slug) => !positions.has(slug))
-    const radius = Math.min(width, height) * 0.42
-    outer.forEach((slug, index) => {
-      const angle = -Math.PI / 2 + (2 * Math.PI * index) / Math.max(outer.length, 1)
-      positions.set(slug, {
-        x: width / 2 + Math.cos(angle) * radius,
-        y: height / 2 + Math.sin(angle) * radius,
-        role: "outer",
-      })
-    })
+    placeGroup("parent", height * 0.16, width * 0.2, width * 0.8)
+    placeGroup("child", height * 0.88, width * 0.2, width * 0.8)
+    placeGroup("prev", height * 0.5, width * 0.04, width * 0.26)
+    placeGroup("next", height * 0.5, width * 0.74, width * 0.96)
+    placeGroup("friend", height * 0.76, width * 0.16, width * 0.84)
+    placeGroup("sibling", height * 0.32, width * 0.16, width * 0.84)
 
     return positions
   }
@@ -200,7 +273,7 @@ const script = `
   function displayEdges(edges, center) {
     const byPair = new Map()
     for (const edge of edges) {
-      if (edge.type === "sibling" && edge.from !== center && edge.to !== center) continue
+      if (edge.type === "sibling") continue
       const key = [edge.from, edge.to].sort().join("\\u0000")
       const current = byPair.get(key)
       if (!current) {
@@ -283,12 +356,26 @@ const script = `
       return
     }
 
-    const depth = pickDepth(config)
-    const includeSiblings = pickSiblings(config)
+    const showFriends = storedToggle(friendsStorageKey)
+    const showInferred = storedToggle(inferredStorageKey)
     const width = Math.max(container.clientWidth || 320, 320)
     const height = Math.max(Number(config.height || 300), 260)
-    const { visible, levels, edges } = collectVisible(center, index, depth, includeSiblings)
+    const { visible, levels, edges } = collectVisible(center, index, showFriends, showInferred)
     const positions = layoutNodes(center, index, visible, edges, levels, width, height)
+    const geometries = new Map()
+    for (const slug of visible) {
+      const pos = positions.get(slug)
+      if (!pos) continue
+      const geometry = nodeGeometry(slug, center, index)
+      const margin = 10
+      const clamped = {
+        ...pos,
+        x: Math.max(geometry.width / 2 + margin, Math.min(width - geometry.width / 2 - margin, pos.x)),
+        y: Math.max(geometry.height / 2 + margin, Math.min(height - geometry.height / 2 - margin, pos.y)),
+      }
+      positions.set(slug, clamped)
+      geometries.set(slug, { ...clamped, ...geometry })
+    }
     const svg = svgEl("svg", {
       viewBox: "0 0 " + width + " " + height,
       class: "structured-brain-svg",
@@ -319,35 +406,43 @@ const script = `
       if (drawn.has(key)) continue
       drawn.add(key)
       const best = edge.from === center ? edge : bestEdgeBetween(edges, edge.from, edge.to) || edge
-      const from = positions.get(best.from)
-      const to = positions.get(best.to)
+      const from = geometries.get(best.from)
+      const to = geometries.get(best.to)
+      const fromPort = portFor(from, best.type, to)
+      const toPort = portFor(to, best.type, from, true)
       const line = svgEl("line", {
-        x1: from.x,
-        y1: from.y,
-        x2: to.x,
-        y2: to.y,
+        x1: fromPort.x,
+        y1: fromPort.y,
+        x2: toPort.x,
+        y2: toPort.y,
         class: "structured-brain-edge " + best.type + (best.explicit ? " explicit" : " inferred"),
+        "data-from": best.from,
+        "data-to": best.to,
+        "data-direction": best.direction || "from",
+        "data-relation": best.type,
       })
       if (["parent", "child", "prev", "next"].includes(best.type)) {
-        line.setAttribute("marker-end", "url(#brain-arrow)")
+        if (best.direction === "to" || best.direction === "both") {
+          line.setAttribute("marker-start", "url(#brain-arrow)")
+        }
+        if (!best.direction || best.direction === "from" || best.direction === "both") {
+          line.setAttribute("marker-end", "url(#brain-arrow)")
+        }
       }
       viewport.appendChild(line)
     }
 
     for (const slug of visible) {
       const pos = positions.get(slug)
-      const data = index.nodes[slug]
-      if (!pos || !data) continue
-      const title = data.title || slug
-      const label = truncate(title, slug === center ? 50 : 34)
+      const geometry = geometries.get(slug)
+      if (!pos || !geometry) continue
+      const { title, lines, width: textWidth, height: textHeight, lineHeight } = geometry
       const group = svgEl("g", {
         class: "structured-brain-node " + (pos.role || "outer") + (slug === center ? " active" : ""),
         tabindex: "0",
         role: "link",
         "aria-label": title,
       })
-      const textWidth = Math.max(88, Math.min(270, label.length * (slug === center ? 9 : 7.5) + 26))
-      const textHeight = slug === center ? 34 : 28
       group.appendChild(
         svgEl("rect", {
           x: pos.x - textWidth / 2,
@@ -360,11 +455,30 @@ const script = `
       )
       const text = svgEl("text", {
         x: pos.x,
-        y: pos.y + (slug === center ? 5 : 4),
+        y: pos.y - ((lines.length - 1) * lineHeight) / 2 + (slug === center ? 5 : 4),
         "text-anchor": "middle",
       })
-      text.textContent = label
+      for (const [index, line] of lines.entries()) {
+        const tspan = svgEl("tspan", {
+          x: pos.x,
+          dy: index === 0 ? 0 : lineHeight,
+        })
+        tspan.textContent = line
+        text.appendChild(tspan)
+      }
       group.appendChild(text)
+      for (const side of ["top", "right", "bottom", "left"]) {
+        const port = portPosition(geometry, side)
+        group.appendChild(
+          svgEl("circle", {
+            cx: port.x,
+            cy: port.y,
+            r: slug === center ? 4 : 3.5,
+            class: "structured-brain-port " + side + " " + portRelationClass(side, pos.role),
+            "aria-hidden": "true",
+          }),
+        )
+      }
       group.addEventListener("click", () => {
         window.location.href = pageUrl(slug)
       })
@@ -392,9 +506,9 @@ const script = `
     return indexPromise
   }
 
-  function updateButtons(root, depth, siblings) {
-    for (const button of root.querySelectorAll(".structured-brain-depth button")) {
-      const active = Number(button.dataset.depth) === depth
+  function updateButtons(root) {
+    for (const button of root.querySelectorAll(".structured-brain-filter")) {
+      const active = storedToggle(button.dataset.storageKey)
       button.classList.toggle("active", active)
       button.setAttribute("aria-pressed", String(active))
     }
@@ -420,7 +534,7 @@ const script = `
       const canvas = panel.querySelector(".structured-brain-canvas")
       if (!canvas) continue
       const config = JSON.parse(canvas.dataset.cfg || "{}")
-      updateButtons(panel, pickDepth(config), pickSiblings(config))
+      updateButtons(panel)
       draw(canvas, index, current, config)
     }
   }
@@ -437,9 +551,10 @@ const script = `
       if (close && modal) close.onclick = () => {
         modal.classList.remove("active")
       }
-      for (const button of panel.querySelectorAll(".structured-brain-depth button")) {
+      for (const button of panel.querySelectorAll(".structured-brain-filter")) {
         button.onclick = () => {
-          localStorage.setItem(depthStorageKey, String(button.dataset.depth))
+          const key = button.dataset.storageKey
+          localStorage.setItem(key, String(!storedToggle(key)))
           renderAll()
         }
       }
@@ -462,7 +577,6 @@ const script = `
 
 export default function StructuredBrain(userOpts = {}) {
   const options = { ...defaultOptions, ...userOpts }
-  const depthOptions = [1, 2, 3]
 
   const Component = ({ displayClass }) =>
     h(
@@ -482,27 +596,30 @@ export default function StructuredBrain(userOpts = {}) {
         "div",
         { class: "structured-brain-controls" },
         h(
-          "div",
-          { class: "structured-brain-depth", role: "group", "aria-label": "Struktur-Tiefe" },
-          h("span", null, "Tiefe"),
-          ...depthOptions.map((depth) =>
-            h(
-              "button",
-              {
-                type: "button",
-                "data-depth": depth,
-                class: options.defaultDepth === depth ? "active" : undefined,
-                "aria-pressed": options.defaultDepth === depth ? "true" : "false",
-              },
-              String(depth),
-            ),
-          ),
+          "button",
+          {
+            class: "structured-brain-filter",
+            type: "button",
+            "data-storage-key": "structured-brain-show-friends-v1",
+            "aria-pressed": "false",
+          },
+          "Friends",
+        ),
+        h(
+          "button",
+          {
+            class: "structured-brain-filter",
+            type: "button",
+            "data-storage-key": "structured-brain-show-inferred-v1",
+            "aria-pressed": "false",
+          },
+          "Inferred",
         ),
       ),
       h("div", {
         class: "structured-brain-canvas",
         "data-cfg": JSON.stringify(options),
-        style: `height: ${Number(options.height || 520)}px`,
+        style: `height: ${Number(options.height || 620)}px`,
       }),
       h(
         "div",
@@ -548,7 +665,7 @@ export default function StructuredBrain(userOpts = {}) {
 
 .structured-brain-fullscreen,
 .structured-brain-close,
-.structured-brain-depth button {
+.structured-brain-filter {
   border: 1px solid transparent;
   border-radius: 5px;
   background: transparent;
@@ -559,33 +676,23 @@ export default function StructuredBrain(userOpts = {}) {
 
 .structured-brain-fullscreen:hover,
 .structured-brain-close:hover,
-.structured-brain-depth button:hover {
+.structured-brain-filter:hover {
   background: var(--lightgray);
 }
 
 .structured-brain-controls {
   align-items: center;
   display: flex;
-  gap: 0.7rem;
-  justify-content: space-between;
+  gap: 0.4rem;
   padding: 0 0.75rem 0.45rem;
 }
 
-.structured-brain-depth {
-  align-items: center;
-  color: var(--gray);
-  display: flex;
+.structured-brain-filter {
   font-size: 0.75rem;
-  gap: 0.25rem;
+  padding: 0.18rem 0.5rem;
 }
 
-.structured-brain-depth button {
-  height: 1.45rem;
-  min-width: 1.45rem;
-  padding: 0 0.3rem;
-}
-
-.structured-brain-depth button.active {
+.structured-brain-filter.active {
   background: var(--highlight);
   border-color: var(--secondary);
   color: var(--secondary);
@@ -612,18 +719,20 @@ export default function StructuredBrain(userOpts = {}) {
 }
 
 .structured-brain-edge {
-  stroke: color-mix(in srgb, var(--gray) 55%, transparent);
-  stroke-width: 1.2;
+  opacity: 0.7;
+  stroke: color-mix(in srgb, var(--gray) 42%, transparent);
+  stroke-linecap: round;
+  stroke-width: 0.8;
 }
 
 .structured-brain-edge.parent,
 .structured-brain-edge.child {
-  stroke: var(--secondary);
+  stroke: color-mix(in srgb, var(--secondary) 72%, transparent);
 }
 
 .structured-brain-edge.prev,
 .structured-brain-edge.next {
-  stroke: var(--tertiary);
+  stroke: color-mix(in srgb, var(--tertiary) 72%, transparent);
 }
 
 .structured-brain-edge.friend {
@@ -635,11 +744,11 @@ export default function StructuredBrain(userOpts = {}) {
 }
 
 .structured-brain-edge.inferred {
-  opacity: 0.55;
+  opacity: 0.3;
 }
 
 .structured-brain-arrow {
-  fill: var(--gray);
+  fill: color-mix(in srgb, var(--gray) 62%, transparent);
 }
 
 .structured-brain-node {
@@ -650,25 +759,29 @@ export default function StructuredBrain(userOpts = {}) {
 .structured-brain-node rect {
   fill: color-mix(in srgb, var(--light) 88%, white);
   stroke: var(--lightgray);
-  stroke-width: 1.2;
+  stroke-width: 1.25;
 }
 
 .structured-brain-node text {
   fill: var(--dark);
   font-family: var(--bodyFont);
-  font-size: 12px;
+  font-size: 11.5px;
   font-weight: 700;
   pointer-events: none;
 }
 
 .structured-brain-node.active rect {
-  fill: color-mix(in srgb, var(--secondary) 18%, var(--light));
+  fill: color-mix(in srgb, var(--secondary) 16%, var(--light));
   stroke: var(--secondary);
-  stroke-width: 2;
+  stroke-width: 2.2;
 }
 
 .structured-brain-node.active text {
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.structured-brain-node.outer rect {
+  fill: color-mix(in srgb, var(--light) 94%, white);
 }
 
 .structured-brain-node.parent rect,
@@ -682,6 +795,28 @@ export default function StructuredBrain(userOpts = {}) {
 }
 
 .structured-brain-node.friend rect {
+  stroke: color-mix(in srgb, var(--secondary) 55%, var(--tertiary));
+}
+
+.structured-brain-port {
+  fill: color-mix(in srgb, var(--light) 84%, white);
+  pointer-events: none;
+  stroke: color-mix(in srgb, var(--gray) 68%, transparent);
+  stroke-width: 1.1;
+}
+
+.structured-brain-port.parent,
+.structured-brain-port.child {
+  stroke: color-mix(in srgb, var(--secondary) 78%, transparent);
+}
+
+.structured-brain-port.prev,
+.structured-brain-port.next {
+  stroke: color-mix(in srgb, var(--tertiary) 78%, transparent);
+}
+
+.structured-brain-port.friend,
+.structured-brain-port.sibling {
   stroke: color-mix(in srgb, var(--secondary) 55%, var(--tertiary));
 }
 

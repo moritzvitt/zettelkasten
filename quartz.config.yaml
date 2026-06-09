@@ -140,9 +140,7 @@ plugins:
   - source: ./plugins/structured-brain
     enabled: true
     options:
-      defaultDepth: 2
-      height: 520
-      showSiblings: false
+      height: 620
     layout:
       position: beforeBody
       priority: 20

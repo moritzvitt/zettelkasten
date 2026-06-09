@@ -172,12 +172,35 @@ function slugPath(value) {
     .join("/")
 }
 
-function addBrainEdge(edges, edgeKeys, from, to, type, explicit = true) {
+function mergeDirection(current, incoming) {
+  if (!current) return incoming
+  if (!incoming || current === incoming) return current
+  return "both"
+}
+
+function addBrainEdge(
+  edges,
+  edgeMap,
+  from,
+  to,
+  type,
+  explicit = true,
+  direction = "from",
+  via,
+) {
   if (!from || !to || from === to) return
   const key = `${from}\u0000${to}\u0000${type}`
-  if (edgeKeys.has(key)) return
-  edgeKeys.add(key)
-  edges.push({ from, to, type, explicit })
+  const existing = edgeMap.get(key)
+  if (existing) {
+    existing.explicit ||= explicit
+    existing.direction = mergeDirection(existing.direction, direction)
+    if (!existing.via && via) existing.via = via
+    return
+  }
+  const edge = { from, to, type, explicit, direction }
+  if (via) edge.via = via
+  edgeMap.set(key, edge)
+  edges.push(edge)
 }
 
 function mirrorType(type) {
@@ -192,8 +215,8 @@ function buildBrainIndex(notes) {
   const nodes = {}
   const explicitEdges = []
   const allEdges = []
-  const explicitKeys = new Set()
-  const allKeys = new Set()
+  const explicitEdgesByKey = new Map()
+  const allEdgesByKey = new Map()
 
   for (const note of notes) {
     const slug = graphPath(note)
@@ -211,9 +234,9 @@ function buildBrainIndex(notes) {
     for (const name of relationNames) {
       const type = relationTypes[name]
       for (const to of note.relations[name]) {
-        addBrainEdge(explicitEdges, explicitKeys, from, to, type, true)
-        addBrainEdge(allEdges, allKeys, from, to, type, true)
-        addBrainEdge(allEdges, allKeys, to, from, mirrorType(type), false)
+        addBrainEdge(explicitEdges, explicitEdgesByKey, from, to, type, true, "from")
+        addBrainEdge(allEdges, allEdgesByKey, from, to, type, true, "from")
+        addBrainEdge(allEdges, allEdgesByKey, to, from, mirrorType(type), false, "to")
       }
     }
   }
@@ -225,12 +248,30 @@ function buildBrainIndex(notes) {
     childrenByParent.get(edge.from).add(edge.to)
   }
 
-  for (const siblings of childrenByParent.values()) {
+  for (const [parent, siblings] of childrenByParent.entries()) {
     const values = [...siblings]
     for (let i = 0; i < values.length; i++) {
       for (let j = i + 1; j < values.length; j++) {
-        addBrainEdge(allEdges, allKeys, values[i], values[j], "sibling", false)
-        addBrainEdge(allEdges, allKeys, values[j], values[i], "sibling", false)
+        addBrainEdge(
+          allEdges,
+          allEdgesByKey,
+          values[i],
+          values[j],
+          "sibling",
+          false,
+          "none",
+          parent,
+        )
+        addBrainEdge(
+          allEdges,
+          allEdgesByKey,
+          values[j],
+          values[i],
+          "sibling",
+          false,
+          "none",
+          parent,
+        )
       }
     }
   }
