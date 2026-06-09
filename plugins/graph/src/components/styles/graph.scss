@@ -3,7 +3,9 @@
     align-items: center;
     display: flex;
     gap: 0.5rem;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-bottom: 0.45rem;
+    min-height: 1.7rem;
 
     & > h3 {
       font-size: 1rem;
@@ -15,12 +17,12 @@
     align-items: center;
     display: flex;
     flex: 0 0 auto;
-    gap: 2px;
+    gap: 0.35rem;
 
     & > span {
       color: var(--gray);
-      font-size: 0.72rem;
-      margin-right: 0.2rem;
+      font-size: 0.68rem;
+      letter-spacing: 0.02em;
     }
 
     & > button {
@@ -33,20 +35,26 @@
       display: inline-flex;
       font: inherit;
       font-size: 0.7rem;
-      height: 1.45rem;
+      height: 1.35rem;
       justify-content: center;
-      min-width: 1.45rem;
-      padding: 0 0.28rem;
+      min-width: 1.35rem;
+      padding: 0 0.34rem;
 
       &:hover {
         background: var(--lightgray);
       }
 
       &.active {
-        background: var(--highlight);
+        background: transparent;
+        border-color: color-mix(in srgb, var(--secondary) 45%, var(--lightgray));
+        color: var(--darkgray);
+        font-weight: 500;
+      }
+
+      &.active:hover {
+        background: color-mix(in srgb, var(--highlight) 35%, transparent);
         border-color: var(--secondary);
         color: var(--secondary);
-        font-weight: 600;
       }
     }
   }
