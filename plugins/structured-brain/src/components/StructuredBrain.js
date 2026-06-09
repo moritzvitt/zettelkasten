@@ -2,6 +2,7 @@ import { h } from "preact"
 
 const defaultOptions = {
   height: 620,
+  compactThreshold: 5,
 }
 
 function classNames(...classes) {
@@ -12,15 +13,23 @@ const script = `
 (() => {
   const friendsStorageKey = "structured-brain-show-friends-v1"
   const inferredStorageKey = "structured-brain-show-inferred-v1"
+  const compactStorageKey = "structured-brain-compact-v1"
   const relationLabels = {
     parent: "Parent",
     child: "Child",
     prev: "Prev",
     next: "Next",
     friend: "Friend",
-    sibling: "Sibling",
   }
-  const relationClasses = new Set(["parent", "child", "prev", "next", "friend", "sibling"])
+  const relationTypes = ["parent", "child", "prev", "next", "friend"]
+  const relationClasses = new Set(relationTypes)
+  const inverseTypes = {
+    parent: "child",
+    child: "parent",
+    prev: "next",
+    next: "prev",
+    friend: "friend",
+  }
 
   function trimSlashes(value) {
     return String(value || "").replace(/^\\/+|\\/+$/g, "")
@@ -107,73 +116,56 @@ const script = `
     return lines.length ? lines : [original]
   }
 
-  function storedToggle(key) {
-    return localStorage.getItem(key) === "true"
+  function storedToggle(key, defaultValue = false) {
+    const stored = localStorage.getItem(key)
+    return stored === null ? defaultValue : stored === "true"
+  }
+
+  function compactLabel(text, wordLimit = 4) {
+    const words = String(text || "").replace(/\\s+/g, " ").trim().split(" ")
+    if (words.length <= wordLimit) return words.join(" ")
+    return words.slice(0, wordLimit).join(" ") + "..."
   }
 
   function relationVisible(edge, showFriends, showInferred) {
     if (edge.type === "friend" && !showFriends) return false
-    if (edge.type === "sibling" && !showInferred) return false
     if (!edge.explicit && !showInferred) return false
-    return ["parent", "child", "prev", "next", "friend", "sibling"].includes(edge.type)
-  }
-
-  function outgoingByNode(edges) {
-    const map = new Map()
-    for (const edge of edges) {
-      if (!map.has(edge.from)) map.set(edge.from, [])
-      map.get(edge.from).push(edge)
-    }
-    return map
+    return relationClasses.has(edge.type)
   }
 
   function collectVisible(center, index, showFriends, showInferred) {
     const valid = new Set(Object.keys(index.nodes || {}))
-    const filteredEdges = (index.edges || []).filter((edge) =>
+    const relationships = (index.relationships || []).filter((edge) =>
       relationVisible(edge, showFriends, showInferred),
     )
-    const outgoing = outgoingByNode(filteredEdges)
     const visible = new Set([center])
-    const levels = new Map([[center, 0]])
-    const centerEdges = outgoing.get(center) || []
-    for (const edge of centerEdges) {
+    const centerRelationships = relationships.filter((edge) => edge.from === center)
+
+    for (const edge of centerRelationships) {
       if (!valid.has(edge.to)) continue
-      if (!visible.has(edge.to)) {
-        visible.add(edge.to)
-        levels.set(edge.to, 1)
-      }
+      visible.add(edge.to)
     }
 
-    const siblingLinks = centerEdges.filter((edge) => edge.type === "sibling" && edge.via)
-    for (const edge of siblingLinks) {
-      if (!valid.has(edge.via)) continue
-      visible.add(edge.via)
-      if (!levels.has(edge.via)) levels.set(edge.via, 1)
-    }
-
-    const siblingSupportPairs = new Set(
-      siblingLinks.map((edge) => [edge.via, edge.to].sort().join("\\u0000")),
+    const visibleRelationships = relationships.filter(
+      (edge) => visible.has(edge.from) && visible.has(edge.to),
     )
-    const edges = filteredEdges.filter((edge) => {
-      if (!visible.has(edge.from) || !visible.has(edge.to)) return false
-      if (edge.from === center || edge.to === center) return true
-      return siblingSupportPairs.has([edge.from, edge.to].sort().join("\\u0000"))
-    })
-
-    return { visible, levels, edges, outgoing }
+    return { visible, centerRelationships, relationships: visibleRelationships }
   }
 
-  function nodeGeometry(slug, center, index) {
+  function nodeGeometry(slug, center, index, compact) {
     const data = index.nodes[slug]
     const title = data?.title || slug
-    const lines = wrapLabel(title, slug === center ? 38 : 30, 2)
+    const isCenter = slug === center
+    const lines = compact && !isCenter
+      ? [compactLabel(title)]
+      : wrapLabel(title, isCenter ? 38 : 30, 2)
     const longest = lines.reduce((max, line) => Math.max(max, line.length), 0)
     const width = Math.max(
-      104,
-      Math.min(slug === center ? 360 : 300, longest * (slug === center ? 8.8 : 7.2) + 28),
+      compact && !isCenter ? 82 : 104,
+      Math.min(isCenter ? 360 : compact ? 176 : 300, longest * (isCenter ? 8.8 : 7.2) + 28),
     )
-    const lineHeight = slug === center ? 16 : 14
-    const height = Math.max(slug === center ? 38 : 30, lines.length * lineHeight + 14)
+    const lineHeight = isCenter ? 16 : 14
+    const height = Math.max(isCenter ? 38 : compact ? 28 : 30, lines.length * lineHeight + 14)
     return { title, lines, width, height, lineHeight }
   }
 
@@ -206,16 +198,16 @@ const script = `
     if (role === "center") {
       return { top: "parent", bottom: "child", left: "prev", right: "next" }[side]
     }
-    if (["parent", "child", "prev", "next", "friend", "sibling"].includes(role)) {
+    if (relationClasses.has(role)) {
       return role
     }
     return ""
   }
 
-  function centeredEdges(center, edges) {
+  function centeredRelationships(center, relationships) {
     const result = {}
     for (const type of relationClasses) result[type] = []
-    for (const edge of edges) {
+    for (const edge of relationships) {
       if (edge.from !== center || !relationClasses.has(edge.type)) continue
       result[edge.type].push(edge.to)
     }
@@ -223,70 +215,206 @@ const script = `
     return result
   }
 
-  function spread(items, y, minX, maxX) {
-    const result = new Map()
-    if (!items.length) return result
-    const available = maxX - minX
-    const columns = Math.max(1, Math.min(items.length, Math.floor(available / 230)))
-    const rows = Math.ceil(items.length / columns)
-    const rowGap = 58
-    const colGap = columns === 1 ? 0 : available / (columns - 1)
-    items.forEach((slug, index) => {
-      const column = index % columns
-      const row = Math.floor(index / columns)
-      const x = columns === 1 ? (minX + maxX) / 2 : minX + column * colGap
-      const offsetY = (row - (rows - 1) / 2) * rowGap
-      result.set(slug, { x, y: y + offsetY })
-    })
-    return result
-  }
-
-  function layoutNodes(center, index, visible, edges, levels, width, height) {
-    const positions = new Map([[center, { x: width / 2, y: height / 2, role: "center" }]])
-    const grouped = centeredEdges(center, edges)
-    const placeGroup = (type, y, minX, maxX) => {
-      for (const [slug, pos] of spread(grouped[type] || [], y, minX, maxX)) {
-        if (!positions.has(slug)) positions.set(slug, { ...pos, role: type })
+  function groupSize(slugs, geometries, direction, gap = 34) {
+    if (!slugs.length) return { width: 0, height: 0 }
+    if (direction === "horizontal") {
+      return {
+        width: slugs.reduce((sum, slug) => sum + geometries.get(slug).width, 0) +
+          gap * (slugs.length - 1),
+        height: Math.max(...slugs.map((slug) => geometries.get(slug).height)),
       }
     }
+    return {
+      width: Math.max(...slugs.map((slug) => geometries.get(slug).width)),
+      height: slugs.reduce((sum, slug) => sum + geometries.get(slug).height, 0) +
+        gap * (slugs.length - 1),
+    }
+  }
 
-    placeGroup("parent", height * 0.16, width * 0.2, width * 0.8)
-    placeGroup("child", height * 0.88, width * 0.2, width * 0.8)
-    placeGroup("prev", height * 0.5, width * 0.04, width * 0.26)
-    placeGroup("next", height * 0.5, width * 0.74, width * 0.96)
-    placeGroup("friend", height * 0.76, width * 0.16, width * 0.84)
-    placeGroup("sibling", height * 0.32, width * 0.16, width * 0.84)
+  function placeHorizontal(positions, slugs, geometries, y, role, gap = 34) {
+    const size = groupSize(slugs, geometries, "horizontal", gap)
+    let x = -size.width / 2
+    for (const slug of slugs) {
+      const geometry = geometries.get(slug)
+      positions.set(slug, { x: x + geometry.width / 2, y, role })
+      x += geometry.width + gap
+    }
+  }
 
-    return positions
+  function placeVertical(positions, slugs, geometries, x, role, gap = 34) {
+    const size = groupSize(slugs, geometries, "vertical", gap)
+    let y = -size.height / 2
+    for (const slug of slugs) {
+      const geometry = geometries.get(slug)
+      positions.set(slug, { x, y: y + geometry.height / 2, role })
+      y += geometry.height + gap
+    }
+  }
+
+  function layoutNodes(
+    center,
+    visible,
+    centerRelationships,
+    geometries,
+    minimumWidth,
+    minimumHeight,
+    compact,
+  ) {
+    const positions = new Map([[center, { x: 0, y: 0, role: "center" }]])
+    const grouped = centeredRelationships(center, centerRelationships)
+    const claimed = new Set([center])
+    const groups = {}
+
+    for (const type of relationTypes) {
+      groups[type] = (grouped[type] || []).filter((slug) => {
+        if (!visible.has(slug) || claimed.has(slug)) return false
+        claimed.add(slug)
+        return true
+      })
+    }
+
+    const centerGeometry = geometries.get(center)
+    const nodeGap = compact ? 22 : 34
+    const parentSize = groupSize(groups.parent, geometries, "horizontal", nodeGap)
+    const childSize = groupSize(groups.child, geometries, "horizontal", nodeGap)
+    const friendSize = groupSize(groups.friend, geometries, "horizontal", nodeGap)
+    const prevSize = groupSize(groups.prev, geometries, "vertical", nodeGap)
+    const nextSize = groupSize(groups.next, geometries, "vertical", nodeGap)
+    const verticalGap = compact ? 72 : 100
+
+    if (groups.parent.length) {
+      placeHorizontal(
+        positions,
+        groups.parent,
+        geometries,
+        -(centerGeometry.height / 2 + verticalGap + parentSize.height / 2),
+        "parent",
+        nodeGap,
+      )
+    }
+    if (groups.child.length) {
+      placeHorizontal(
+        positions,
+        groups.child,
+        geometries,
+        centerGeometry.height / 2 + verticalGap + childSize.height / 2,
+        "child",
+        nodeGap,
+      )
+    }
+    if (groups.friend.length) {
+      const childBottom = groups.child.length
+        ? centerGeometry.height / 2 + verticalGap + childSize.height
+        : centerGeometry.height / 2
+      placeHorizontal(
+        positions,
+        groups.friend,
+        geometries,
+        childBottom + verticalGap + friendSize.height / 2,
+        "friend",
+        nodeGap,
+      )
+    }
+
+    const horizontalHalfWidth = Math.max(
+      centerGeometry.width / 2,
+      parentSize.width / 2,
+      childSize.width / 2,
+      friendSize.width / 2,
+    )
+    if (groups.prev.length) {
+      placeVertical(
+        positions,
+        groups.prev,
+        geometries,
+        -(horizontalHalfWidth + verticalGap + prevSize.width / 2),
+        "prev",
+        nodeGap,
+      )
+    }
+    if (groups.next.length) {
+      placeVertical(
+        positions,
+        groups.next,
+        geometries,
+        horizontalHalfWidth + verticalGap + nextSize.width / 2,
+        "next",
+        nodeGap,
+      )
+    }
+
+    const margin = 44
+    let minX = Infinity
+    let minY = Infinity
+    let maxX = -Infinity
+    let maxY = -Infinity
+    for (const [slug, pos] of positions) {
+      const geometry = geometries.get(slug)
+      minX = Math.min(minX, pos.x - geometry.width / 2)
+      maxX = Math.max(maxX, pos.x + geometry.width / 2)
+      minY = Math.min(minY, pos.y - geometry.height / 2)
+      maxY = Math.max(maxY, pos.y + geometry.height / 2)
+    }
+
+    const contentWidth = maxX - minX + margin * 2
+    const contentHeight = maxY - minY + margin * 2
+    const width = Math.max(minimumWidth, contentWidth)
+    const height = Math.max(minimumHeight, contentHeight)
+    const offsetX = (width - (maxX - minX)) / 2 - minX
+    const offsetY = (height - (maxY - minY)) / 2 - minY
+    for (const [slug, pos] of positions) {
+      positions.set(slug, { ...pos, x: pos.x + offsetX, y: pos.y + offsetY })
+    }
+
+    return { positions, width, height }
+  }
+
+  function relationFamily(type) {
+    if (type === "parent" || type === "child") return "hierarchy"
+    if (type === "prev" || type === "next") return "sequence"
+    return type
   }
 
   function relationPriority(edge) {
-    return ["parent", "child", "prev", "next", "friend", "sibling"].indexOf(edge.type)
+    return relationTypes.indexOf(edge.type)
   }
 
-  function bestEdgeBetween(edges, from, to) {
-    return edges
-      .filter((edge) => edge.from === from && edge.to === to)
-      .sort((a, b) => relationPriority(a) - relationPriority(b))[0]
-  }
-
-  function displayEdges(edges, center) {
-    const byPair = new Map()
-    for (const edge of edges) {
-      if (edge.type === "sibling") continue
-      const key = [edge.from, edge.to].sort().join("\\u0000")
-      const current = byPair.get(key)
-      if (!current) {
-        byPair.set(key, edge)
-        continue
-      }
-      const edgeTouchesCenter = edge.from === center || edge.to === center
-      const currentTouchesCenter = current.from === center || current.to === center
-      if (edge.from === center && current.from !== center) byPair.set(key, edge)
-      else if (edgeTouchesCenter && !currentTouchesCenter) byPair.set(key, edge)
-      else if (relationPriority(edge) < relationPriority(current)) byPair.set(key, edge)
+  function displayRelationships(relationships, center) {
+    const byPairAndFamily = new Map()
+    for (const relationship of relationships) {
+      const pair = [relationship.from, relationship.to].sort().join("\\u0000")
+      const key = pair + "\\u0000" + relationFamily(relationship.type)
+      if (!byPairAndFamily.has(key)) byPairAndFamily.set(key, [])
+      byPairAndFamily.get(key).push(relationship)
     }
-    return [...byPair.values()]
+
+    return [...byPairAndFamily.values()].map((candidates) => {
+      const sorted = [...candidates].sort((a, b) => {
+        const aFromCenter = a.from === center ? 0 : 1
+        const bFromCenter = b.from === center ? 0 : 1
+        if (aFromCenter !== bFromCenter) return aFromCenter - bFromCenter
+        if (a.explicit !== b.explicit) return a.explicit ? -1 : 1
+        return relationPriority(a) - relationPriority(b)
+      })
+      const relationship = sorted[0]
+      const reverse = candidates.find(
+        (candidate) =>
+          candidate.from === relationship.to &&
+          candidate.to === relationship.from &&
+          candidate.type === inverseTypes[relationship.type],
+      )
+      return {
+        ...relationship,
+        direction:
+          relationship.explicit && reverse?.explicit
+            ? "both"
+            : relationship.explicit
+              ? "from"
+              : reverse?.explicit
+                ? "to"
+                : "none",
+      }
+    })
   }
 
   function installPanZoom(svg, viewport, width, height) {
@@ -358,23 +486,32 @@ const script = `
 
     const showFriends = storedToggle(friendsStorageKey)
     const showInferred = storedToggle(inferredStorageKey)
-    const width = Math.max(container.clientWidth || 320, 320)
-    const height = Math.max(Number(config.height || 300), 260)
-    const { visible, levels, edges } = collectVisible(center, index, showFriends, showInferred)
-    const positions = layoutNodes(center, index, visible, edges, levels, width, height)
+    const compactEnabled = storedToggle(compactStorageKey, true)
+    const minimumWidth = Math.max(container.clientWidth || 320, 320)
+    const minimumHeight = Math.max(Number(config.height || 300), 260)
+    const { visible, centerRelationships, relationships } = collectVisible(
+      center,
+      index,
+      showFriends,
+      showInferred,
+    )
+    const compact = compactEnabled && visible.size - 1 >= Number(config.compactThreshold || 5)
     const geometries = new Map()
     for (const slug of visible) {
-      const pos = positions.get(slug)
-      if (!pos) continue
-      const geometry = nodeGeometry(slug, center, index)
-      const margin = 10
-      const clamped = {
-        ...pos,
-        x: Math.max(geometry.width / 2 + margin, Math.min(width - geometry.width / 2 - margin, pos.x)),
-        y: Math.max(geometry.height / 2 + margin, Math.min(height - geometry.height / 2 - margin, pos.y)),
-      }
-      positions.set(slug, clamped)
-      geometries.set(slug, { ...clamped, ...geometry })
+      geometries.set(slug, nodeGeometry(slug, center, index, compact))
+    }
+    const layout = layoutNodes(
+      center,
+      visible,
+      centerRelationships,
+      geometries,
+      minimumWidth,
+      minimumHeight,
+      compact,
+    )
+    const { positions, width, height } = layout
+    for (const [slug, pos] of positions) {
+      geometries.set(slug, { ...geometries.get(slug), ...pos })
     }
     const svg = svgEl("svg", {
       viewBox: "0 0 " + width + " " + height,
@@ -399,33 +536,76 @@ const script = `
     const viewport = svgEl("g", { class: "structured-brain-viewport" })
     svg.appendChild(viewport)
 
-    const drawn = new Set()
-    for (const edge of displayEdges(edges, center)) {
-      if (!positions.has(edge.from) || !positions.has(edge.to)) continue
-      const key = [edge.from, edge.to].sort().join("\\u0000")
-      if (drawn.has(key)) continue
-      drawn.add(key)
-      const best = edge.from === center ? edge : bestEdgeBetween(edges, edge.from, edge.to) || edge
-      const from = geometries.get(best.from)
-      const to = geometries.get(best.to)
-      const fromPort = portFor(from, best.type, to)
-      const toPort = portFor(to, best.type, from, true)
+    const tooltip = svgEl("g", {
+      class: "structured-brain-tooltip",
+      visibility: "hidden",
+      "aria-hidden": "true",
+    })
+    const tooltipRect = svgEl("rect", { rx: 5, ry: 5 })
+    const tooltipText = svgEl("text", { "text-anchor": "middle" })
+    tooltip.appendChild(tooltipRect)
+    tooltip.appendChild(tooltipText)
+
+    function showTooltip(geometry) {
+      if (!compact) return
+      const lines = wrapLabel(geometry.title, 42, 4)
+      const lineHeight = 15
+      const tooltipWidth = Math.min(
+        330,
+        Math.max(150, Math.max(...lines.map((line) => line.length)) * 7.1 + 24),
+      )
+      const tooltipHeight = lines.length * lineHeight + 18
+      const x = Math.max(
+        tooltipWidth / 2 + 8,
+        Math.min(width - tooltipWidth / 2 - 8, geometry.x),
+      )
+      const above = geometry.y - geometry.height / 2 - tooltipHeight - 12
+      const y = above >= 8 ? above : geometry.y + geometry.height / 2 + 12
+
+      clear(tooltipText)
+      tooltipRect.setAttribute("x", String(x - tooltipWidth / 2))
+      tooltipRect.setAttribute("y", String(y))
+      tooltipRect.setAttribute("width", String(tooltipWidth))
+      tooltipRect.setAttribute("height", String(tooltipHeight))
+      tooltipText.setAttribute("x", String(x))
+      tooltipText.setAttribute("y", String(y + 15))
+      for (const [index, line] of lines.entries()) {
+        const tspan = svgEl("tspan", { x, dy: index === 0 ? 0 : lineHeight })
+        tspan.textContent = line
+        tooltipText.appendChild(tspan)
+      }
+      tooltip.setAttribute("visibility", "visible")
+    }
+
+    function hideTooltip() {
+      tooltip.setAttribute("visibility", "hidden")
+    }
+
+    for (const relationship of displayRelationships(relationships, center)) {
+      if (!positions.has(relationship.from) || !positions.has(relationship.to)) continue
+      const from = geometries.get(relationship.from)
+      const to = geometries.get(relationship.to)
+      const fromPort = portFor(from, relationship.type, to)
+      const toPort = portFor(to, relationship.type, from, true)
       const line = svgEl("line", {
         x1: fromPort.x,
         y1: fromPort.y,
         x2: toPort.x,
         y2: toPort.y,
-        class: "structured-brain-edge " + best.type + (best.explicit ? " explicit" : " inferred"),
-        "data-from": best.from,
-        "data-to": best.to,
-        "data-direction": best.direction || "from",
-        "data-relation": best.type,
+        class:
+          "structured-brain-edge " +
+          relationship.type +
+          (relationship.explicit ? " explicit" : " inferred"),
+        "data-from": relationship.from,
+        "data-to": relationship.to,
+        "data-direction": relationship.direction,
+        "data-relation": relationship.type,
       })
-      if (["parent", "child", "prev", "next"].includes(best.type)) {
-        if (best.direction === "to" || best.direction === "both") {
+      if (["parent", "child", "prev", "next"].includes(relationship.type)) {
+        if (relationship.direction === "to" || relationship.direction === "both") {
           line.setAttribute("marker-start", "url(#brain-arrow)")
         }
-        if (!best.direction || best.direction === "from" || best.direction === "both") {
+        if (relationship.direction === "from" || relationship.direction === "both") {
           line.setAttribute("marker-end", "url(#brain-arrow)")
         }
       }
@@ -482,6 +662,10 @@ const script = `
       group.addEventListener("click", () => {
         window.location.href = pageUrl(slug)
       })
+      group.addEventListener("pointerenter", () => showTooltip(geometry))
+      group.addEventListener("pointerleave", hideTooltip)
+      group.addEventListener("focus", () => showTooltip(geometry))
+      group.addEventListener("blur", hideTooltip)
       group.addEventListener("keydown", (event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault()
@@ -490,6 +674,7 @@ const script = `
       })
       viewport.appendChild(group)
     }
+    viewport.appendChild(tooltip)
 
     installPanZoom(svg, viewport, width, height)
     container.appendChild(svg)
@@ -508,7 +693,10 @@ const script = `
 
   function updateButtons(root) {
     for (const button of root.querySelectorAll(".structured-brain-filter")) {
-      const active = storedToggle(button.dataset.storageKey)
+      const active = storedToggle(
+        button.dataset.storageKey,
+        button.dataset.defaultActive === "true",
+      )
       button.classList.toggle("active", active)
       button.setAttribute("aria-pressed", String(active))
     }
@@ -554,7 +742,8 @@ const script = `
       for (const button of panel.querySelectorAll(".structured-brain-filter")) {
         button.onclick = () => {
           const key = button.dataset.storageKey
-          localStorage.setItem(key, String(!storedToggle(key)))
+          const defaultValue = button.dataset.defaultActive === "true"
+          localStorage.setItem(key, String(!storedToggle(key, defaultValue)))
           renderAll()
         }
       }
@@ -595,6 +784,18 @@ export default function StructuredBrain(userOpts = {}) {
       h(
         "div",
         { class: "structured-brain-controls" },
+        h(
+          "button",
+          {
+            class: "structured-brain-filter",
+            type: "button",
+            "data-storage-key": "structured-brain-compact-v1",
+            "data-default-active": "true",
+            "aria-pressed": "true",
+            title: "Lange Titel bei vielen Beziehungen kuerzen",
+          },
+          "Kompakt",
+        ),
         h(
           "button",
           {
@@ -749,6 +950,23 @@ export default function StructuredBrain(userOpts = {}) {
 
 .structured-brain-arrow {
   fill: color-mix(in srgb, var(--gray) 62%, transparent);
+}
+
+.structured-brain-tooltip {
+  pointer-events: none;
+}
+
+.structured-brain-tooltip rect {
+  fill: color-mix(in srgb, var(--dark) 92%, transparent);
+  stroke: color-mix(in srgb, var(--light) 28%, transparent);
+  stroke-width: 0.8;
+}
+
+.structured-brain-tooltip text {
+  fill: var(--light);
+  font-family: var(--bodyFont);
+  font-size: 11.5px;
+  font-weight: 600;
 }
 
 .structured-brain-node {

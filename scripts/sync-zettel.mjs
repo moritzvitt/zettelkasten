@@ -1,6 +1,12 @@
 import { access, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
 import path from "node:path"
 import YAML from "yaml"
+import {
+  parseLinksSection,
+  relationshipNames,
+  relationshipTypes,
+  withInverseRelationships,
+} from "./relationship-parser.mjs"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
 const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
@@ -11,14 +17,8 @@ const homepageSource = path.join(
 )
 const contentRoot = path.join(process.cwd(), "content")
 const staticRoot = path.join(process.cwd(), "quartz/static")
-const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
-const relationTypes = {
-  Prev: "prev",
-  Next: "next",
-  Parent: "parent",
-  Child: "child",
-  Friend: "friend",
-}
+const relationNames = relationshipNames
+const relationTypes = relationshipTypes
 
 try {
   await access(zettelRoot)
@@ -95,16 +95,6 @@ function wikiLinks(text) {
   return result
 }
 
-function relations(text) {
-  const rels = Object.fromEntries(relationNames.map((name) => [name, []]))
-  for (const name of relationNames) {
-    const rx = new RegExp(`^\\s*${name}::([^\\n]*)`, "gim")
-    for (const match of text.matchAll(rx)) rels[name].push(...wikiLinks(match[1]))
-    rels[name] = [...new Set(rels[name].filter(Boolean))]
-  }
-  return rels
-}
-
 function allWikiLinks(text) {
   return [...new Set(wikiLinks(text))]
 }
@@ -123,6 +113,7 @@ function excerpt(text) {
     .filter((line) => !relationNames.some((name) => line.startsWith(`${name}::`)))
     .join(" ")
     .slice(0, 220)
+    .trimEnd()
 }
 
 function frontmatter(title, sourcePath, graphLinks = [], aliases = []) {
@@ -279,6 +270,7 @@ function buildBrainIndex(notes) {
   return {
     relationTypes: ["parent", "child", "prev", "next", "friend", "sibling"],
     nodes,
+    relationships: withInverseRelationships(explicitEdges),
     edges: allEdges,
     explicitEdges,
   }
@@ -298,13 +290,15 @@ for (const file of files) {
     continue
   }
   const rel = outputPath(file)
+  const parsedRelationships = parseLinksSection(text)
   rawNotes.push({
     file,
     rel,
     relDir: path.dirname(rel) === "." ? "" : path.dirname(rel),
     title: titleFrom(file, text),
     text,
-    relations: relations(text),
+    relations: parsedRelationships.byType,
+    relationships: parsedRelationships.relationships,
     wikiLinks: allWikiLinks(text),
     excerpt: excerpt(text),
   })
@@ -319,8 +313,17 @@ const resolve = (target) =>
   titleToPath.get(cleanTitle(target)) || stemToPath.get(cleanTitle(target)) || null
 
 for (const note of rawNotes) {
-  for (const name of relationNames)
-    note.relations[name] = [...new Set(note.relations[name].map(resolve).filter(Boolean))]
+  const unresolved = []
+  for (const name of relationNames) {
+    const resolved = []
+    for (const target of note.relations[name]) {
+      const slug = resolve(target)
+      if (slug) resolved.push(slug)
+      else unresolved.push({ type: relationTypes[name], target })
+    }
+    note.relations[name] = [...new Set(resolved)]
+  }
+  note.unresolvedRelationships = unresolved
   note.wikiLinks = [...new Set(note.wikiLinks.map(resolve).filter(Boolean))]
 }
 
@@ -366,3 +369,17 @@ await writeFile(
 
 console.log(`Synced ${rawNotes.length} zettel notes into ${contentRoot}`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
+const unresolvedRelationships = rawNotes.flatMap((note) =>
+  note.unresolvedRelationships.map((relationship) => ({
+    source: note.title,
+    ...relationship,
+  })),
+)
+if (unresolvedRelationships.length) {
+  console.warn(`Skipped ${unresolvedRelationships.length} unresolved relationships`)
+  for (const relationship of unresolvedRelationships) {
+    console.warn(
+      `- ${relationship.source} --${relationship.type}--> ${relationship.target}`,
+    )
+  }
+}
