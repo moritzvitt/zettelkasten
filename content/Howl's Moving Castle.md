@@ -1,6 +1,15 @@
 ---
 title: "Howl's Moving Castle"
 source: "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004) [BluRay] [1080p] [YTS.AM]/Howl's Moving Castle.md"
+mx-uid: howls-moving-castle-2004
+media: "[[Howl's.Moving.Castle.2004.1080p.BluRay.x264-YTS.AM.mp4]]"
+captions:
+  - "[[Howl's Moving Castle.ja.srt#lang=ja&label=Migaku Japanese]]"
+  - "[[Howl's Moving Castle.de.srt#lang=de&label=Migaku German]]"
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[mx-img-howls-moving-castle-2004-pt1h54m36_80s.jpg]]"
 publish: true
 tags:
   - zettel

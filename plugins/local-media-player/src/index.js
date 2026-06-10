@@ -160,6 +160,26 @@ export function resolveMedia(filePath, mediaValue, mediaRoot, route) {
   return resolveMediaFile(filePath, mediaValue, mediaRoot, route)
 }
 
+function sourceFilePath(generatedFilePath, sourceValue, mediaRoot) {
+  if (typeof sourceValue !== "string" || !sourceValue.trim()) return generatedFilePath
+
+  const normalizedSource = sourceValue.replaceAll("\\", "/").replace(/^\/+/, "")
+  let normalizedMediaRoot
+  try {
+    normalizedMediaRoot = fs.realpathSync(mediaRoot).replaceAll("\\", "/")
+  } catch {
+    return generatedFilePath
+  }
+
+  const marker = "/Digital Garden/"
+  const markerIndex = normalizedMediaRoot.indexOf(marker)
+  if (markerIndex === -1) return generatedFilePath
+
+  const vaultRoot = normalizedMediaRoot.slice(0, markerIndex)
+  const sourcePath = path.join(vaultRoot, normalizedSource)
+  return fs.existsSync(sourcePath) ? sourcePath : generatedFilePath
+}
+
 function classNames(node) {
   const value = node.properties?.className ?? node.properties?.class
   if (Array.isArray(value)) return value.map(String)
@@ -450,7 +470,11 @@ export default function LocalMediaPlayer(userOptions = {}) {
         () => {
           return (tree, file) => {
             const media = resolveMedia(
-              file.data.filePath,
+              sourceFilePath(
+                file.data.filePath,
+                file.data.frontmatter?.source,
+                options.mediaRoot,
+              ),
               file.data.frontmatter?.media,
               options.mediaRoot,
               options.route,
@@ -507,7 +531,11 @@ export default function LocalMediaPlayer(userOptions = {}) {
 
       for (const [, file] of content) {
         const media = resolveMedia(
-          file.data.filePath,
+          sourceFilePath(
+            file.data.filePath,
+            file.data.frontmatter?.source,
+            options.mediaRoot,
+          ),
           file.data.frontmatter?.media,
           options.mediaRoot,
           options.route,

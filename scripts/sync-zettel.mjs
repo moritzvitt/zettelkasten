@@ -134,11 +134,34 @@ function excerpt(text) {
     .trimEnd()
 }
 
-function frontmatter(title, sourcePath, graphLinks = [], aliases = []) {
+const passthroughFrontmatterKeys = [
+  "mx-uid",
+  "media",
+  "captions",
+  "language",
+  "offset",
+  "source_offset_applied",
+  "cover",
+]
+
+function yamlField(key, value) {
+  return YAML.stringify({ [key]: value }).trimEnd().split("\n")
+}
+
+function passthroughFrontmatter(data) {
+  return Object.fromEntries(
+    passthroughFrontmatterKeys
+      .filter((key) => data[key] !== undefined)
+      .map((key) => [key, data[key]]),
+  )
+}
+
+function frontmatter(title, sourcePath, graphLinks = [], aliases = [], extraData = {}) {
   const lines = [
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
+    ...Object.entries(extraData).flatMap(([key, value]) => yamlField(key, value)),
     "publish: true",
   ]
   if (aliases.length) {
@@ -319,6 +342,7 @@ for (const file of files) {
     relationships: parsedRelationships.relationships,
     wikiLinks: allWikiLinks(text),
     excerpt: excerpt(text),
+    frontmatter: data,
   })
 }
 
@@ -382,7 +406,13 @@ for (const note of rawNotes) {
   const aliases = note.file === homepageSource ? ["index"] : []
   await writeFile(
     out,
-    frontmatter(note.title, sourcePath, graphLinks, aliases) + body.trim() + "\n",
+    frontmatter(
+      note.title,
+      sourcePath,
+      graphLinks,
+      aliases,
+      passthroughFrontmatter(note.frontmatter),
+    ) + body.trim() + "\n",
   )
 }
 
