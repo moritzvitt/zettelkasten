@@ -1,14 +1,24 @@
-import { readdir, writeFile } from "node:fs/promises"
+import { access, readdir, writeFile } from "node:fs/promises"
 import path from "node:path"
 
 const root = path.join(process.cwd(), ".quartz/plugins")
 
 try {
   const entries = await readdir(root, { withFileTypes: true })
-  const plugins = entries
+  const pluginDirs = entries
     .filter((entry) => entry.isDirectory() || entry.isSymbolicLink())
     .map((entry) => entry.name)
     .sort()
+
+  const plugins = []
+  for (const name of pluginDirs) {
+    try {
+      await access(path.join(root, name, "dist/index.js"))
+      plugins.push(name)
+    } catch {
+      // Some installed Quartz tools, such as tui, are not build plugins.
+    }
+  }
 
   const lines = ["// Generated fallback plugin index for local Quartz build."]
   for (const name of plugins) {

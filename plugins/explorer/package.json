@@ -1,0 +1,28 @@
+{
+  "name": "@moritzvitt/quartz-explorer",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "explorer",
+    "displayName": "Explorer",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultOrder": 50,
+    "defaultEnabled": true,
+    "components": {
+      "Explorer": {
+        "displayName": "Explorer",
+        "defaultPosition": "left",
+        "defaultPriority": 50
+      }
+    }
+  }
+}

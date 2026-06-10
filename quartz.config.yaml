@@ -66,6 +66,9 @@ plugins:
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
+  - source: ./plugins/discord-spoilers
+    enabled: true
+    order: 45
   - source: github:quartz-community/table-of-contents
     enabled: false
     order: 50
@@ -77,6 +80,12 @@ plugins:
     options:
       markdownLinkResolution: shortest
     order: 60
+  - source: ./plugins/local-media-player
+    enabled: true
+    options:
+      mediaRoot: /Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media
+      route: /local-media
+    order: 65
   - source: github:quartz-community/description
     enabled: true
     order: 70
@@ -108,8 +117,20 @@ plugins:
     enabled: true
   - source: github:quartz-community/tag-page
     enabled: true
-  - source: github:quartz-community/explorer
+  - source: ./plugins/explorer
     enabled: true
+    options:
+      title: Explorer
+      rootFolder: digital-garden
+      folderClickBehavior: link
+      folderDefaultState: collapsed
+      useSavedState: true
+      filterFn: |
+        (node) => {
+          if (node.slugSegment === "tags") return false
+          if (!node.slugSegments?.length) return true
+          return node.slugSegments[0] === "digital-garden"
+        }
     layout:
       position: left
       priority: 50

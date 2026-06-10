@@ -1,0 +1,27 @@
+{
+  "name": "@moritzvitt/quartz-local-media-player",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "quartz": {
+    "name": "local-media-player",
+    "displayName": "Local Media Player",
+    "category": ["transformer", "emitter"],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 65,
+    "defaultOptions": {
+      "mediaRoot": "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
+      "route": "/local-media"
+    }
+  }
+}

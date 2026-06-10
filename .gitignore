@@ -2,6 +2,7 @@
 .gitignore
 node_modules
 public
+content/Digital Garden/
 prof
 tsconfig.tsbuildinfo
 .obsidian

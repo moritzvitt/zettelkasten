@@ -2,7 +2,14 @@ import { lstat, mkdir, readlink, rm, symlink } from "node:fs/promises"
 import path from "node:path"
 
 const projectRoot = process.cwd()
-const localPlugins = ["graph", "contribute", "structured-brain"]
+const localPlugins = [
+  "explorer",
+  "graph",
+  "contribute",
+  "structured-brain",
+  "local-media-player",
+  "discord-spoilers",
+]
 
 for (const name of localPlugins) {
   const source = path.join(projectRoot, "plugins", name)

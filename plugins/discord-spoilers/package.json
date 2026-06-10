@@ -1,0 +1,25 @@
+{
+  "name": "@moritzvitt/quartz-discord-spoilers",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "quartz": {
+    "name": "discord-spoilers",
+    "displayName": "Discord Spoilers",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 45,
+    "defaultOptions": {}
+  }
+}
