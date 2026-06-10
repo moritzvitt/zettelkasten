@@ -121,15 +121,13 @@ plugins:
     enabled: true
     options:
       title: Explorer
-      rootFolder: digital-garden
       folderClickBehavior: link
       folderDefaultState: collapsed
       useSavedState: true
       filterFn: |
         (node) => {
           if (node.slugSegment === "tags") return false
-          if (!node.slugSegments?.length) return true
-          return node.slugSegments[0] === "digital-garden"
+          return true
         }
     layout:
       position: left

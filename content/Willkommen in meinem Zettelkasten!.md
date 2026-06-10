@@ -1,6 +1,6 @@
 ---
 title: "Willkommen in meinem Zettelkasten!"
-source: "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md"
+source: "Digital Garden/Zettelkasten/zettel/Willkommen in meinem Zettelkasten!.md"
 publish: true
 aliases:
   - "index"

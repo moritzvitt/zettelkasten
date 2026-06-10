@@ -9,11 +9,13 @@ import {
 } from "./relationship-parser.mjs"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
-const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
-const languageLearningRoot = path.join(zettelRoot, "Immersion und Spracherwerb")
+const digitalGardenRoot =
+  process.env.ZETTEL_SOURCE_ROOT ||
+  process.env.DIGITAL_GARDEN_ROOT ||
+  path.join(vaultRoot, "Digital Garden")
 const homepageSource = path.join(
   vaultRoot,
-  "LLM Wiki/notes/zettel/Willkommen in meinem Zettelkasten!.md",
+  "Digital Garden/Zettelkasten/zettel/Willkommen in meinem Zettelkasten!.md",
 )
 const contentRoot = path.join(process.cwd(), "content")
 const staticRoot = path.join(process.cwd(), "quartz/static")
@@ -21,9 +23,9 @@ const relationNames = relationshipNames
 const relationTypes = relationshipTypes
 
 try {
-  await access(zettelRoot)
+  await access(digitalGardenRoot)
 } catch {
-  console.log(`Zettel source not found at ${zettelRoot}; using existing content directory`)
+  console.log(`Digital Garden source not found at ${digitalGardenRoot}; using existing content directory`)
   process.exit(0)
 }
 
@@ -65,12 +67,26 @@ function shouldPublish(data) {
   return isTruthy(data.publish) || isTruthy(data["dg-publish"])
 }
 
-function outputPath(file) {
-  if (file === homepageSource) return path.basename(file)
-  if (file.startsWith(`${languageLearningRoot}${path.sep}`)) {
-    return path.relative(languageLearningRoot, file)
+function customOutputPath(file, data) {
+  const customPath = data["custom-path"]
+  if (typeof customPath !== "string" || !customPath.trim()) return null
+
+  const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
+  const target = normalized.endsWith(".md")
+    ? normalized
+    : path.posix.join(normalized, path.basename(file))
+  const safeTarget = path.posix.normalize(target)
+  if (safeTarget === "." || safeTarget.startsWith("../") || safeTarget === "..") {
+    throw new Error(`Invalid custom-path for ${file}: ${customPath}`)
   }
-  return path.relative(zettelRoot, file)
+  return safeTarget
+}
+
+function outputPath(file, data) {
+  const customPath = customOutputPath(file, data)
+  if (customPath) return customPath
+  if (file === homepageSource) return path.basename(file)
+  return path.relative(digitalGardenRoot, file)
 }
 
 function titleFrom(file, text) {
@@ -82,6 +98,8 @@ function cleanTitle(value) {
   return value
     .replace(/^LLM Wiki\/workspace\/bin\//, "")
     .replace(/^LLM Wiki\/notes\/zettel\//, "")
+    .replace(/^Digital Garden\/Zettelkasten\/zettel\//, "")
+    .replace(/^Digital Garden\//, "")
     .replace(/\.md$/, "")
     .split("/")
     .pop()
@@ -279,7 +297,7 @@ function buildBrainIndex(notes) {
 await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
 
-const files = await walk(zettelRoot)
+const files = await walk(digitalGardenRoot)
 const rawNotes = []
 let skipped = 0
 for (const file of files) {
@@ -289,7 +307,7 @@ for (const file of files) {
     skipped += 1
     continue
   }
-  const rel = outputPath(file)
+  const rel = outputPath(file, data)
   const parsedRelationships = parseLinksSection(text)
   rawNotes.push({
     file,
@@ -305,11 +323,11 @@ for (const file of files) {
 }
 
 const graphPath = (note) => slugPath(note.rel)
-const translationRoot = path.join("Translations", "English")
-const languageGroup = (note) =>
-  note.rel === `${translationRoot}.md` || note.rel.startsWith(`${translationRoot}${path.sep}`)
-    ? "en"
-    : "default"
+const languageGroup = (note) => {
+  const segments = note.rel.split(path.sep)
+  const translationIndex = segments.findIndex((segment) => segment === "Translations")
+  return segments[translationIndex + 1] === "English" ? "en" : "default"
+}
 const notesByLanguage = new Map()
 for (const note of rawNotes) {
   const group = languageGroup(note)
@@ -394,7 +412,7 @@ await writeFile(
   `${JSON.stringify(buildBrainIndex(rawNotes), null, 2)}\n`,
 )
 
-console.log(`Synced ${rawNotes.length} zettel notes into ${contentRoot}`)
+console.log(`Synced ${rawNotes.length} published Digital Garden notes into ${contentRoot}`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
 const unresolvedRelationships = rawNotes.flatMap((note) =>
   note.unresolvedRelationships.map((relationship) => ({

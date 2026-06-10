@@ -3,7 +3,10 @@ import path from "node:path"
 import YAML from "yaml"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
-const zettelRoot = process.env.ZETTEL_SOURCE_ROOT || path.join(vaultRoot, "LLM Wiki/notes/zettel")
+const digitalGardenRoot =
+  process.env.ZETTEL_SOURCE_ROOT ||
+  process.env.DIGITAL_GARDEN_ROOT ||
+  path.join(vaultRoot, "Digital Garden")
 const contentIndexPath = path.join(process.cwd(), "public/static/contentIndex.json")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
 
@@ -27,8 +30,33 @@ function published(data) {
   return data.publish === true || data["dg-publish"] === true
 }
 
+function customOutputPath(file, data) {
+  const customPath = data["custom-path"]
+  if (typeof customPath !== "string" || !customPath.trim()) return null
+
+  const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
+  const target = normalized.endsWith(".md")
+    ? normalized
+    : path.posix.join(normalized, path.basename(file))
+  const safeTarget = path.posix.normalize(target)
+  if (safeTarget === "." || safeTarget.startsWith("../") || safeTarget === "..") {
+    throw new Error(`Invalid custom-path for ${file}: ${customPath}`)
+  }
+  return safeTarget
+}
+
+function outputPath(file, data) {
+  return customOutputPath(file, data) || path.relative(digitalGardenRoot, file)
+}
+
 function cleanTitle(value) {
-  return value.replace(/\.md$/, "").split("/").pop().trim()
+  return value
+    .replace(/^Digital Garden\/Zettelkasten\/zettel\//, "")
+    .replace(/^Digital Garden\//, "")
+    .replace(/\.md$/, "")
+    .split("/")
+    .pop()
+    .trim()
 }
 
 function title(file, text) {
@@ -47,23 +75,66 @@ function hiddenRelations(text) {
   return [...new Set(targets)]
 }
 
+function slugSegment(value) {
+  return value.trim().toLocaleLowerCase("de").replace(/\s+/g, "-")
+}
+
+function slugPath(value) {
+  return value
+    .replace(/\.md$/, "")
+    .split(path.sep)
+    .filter(Boolean)
+    .map(slugSegment)
+    .join("/")
+}
+
+function languageGroup(note) {
+  const segments = note.rel.split(path.sep)
+  const translationIndex = segments.findIndex((segment) => segment === "Translations")
+  return segments[translationIndex + 1] === "English" ? "en" : "default"
+}
+
 const sourceNotes = []
-for (const file of await walk(zettelRoot)) {
+for (const file of await walk(digitalGardenRoot)) {
   const text = await readFile(file, "utf8")
-  if (!published(frontmatter(text))) continue
-  sourceNotes.push({ title: title(file, text), relations: hiddenRelations(text) })
+  const data = frontmatter(text)
+  if (!published(data)) continue
+  const rel = outputPath(file, data)
+  sourceNotes.push({ rel, slug: slugPath(rel), title: title(file, text), relations: hiddenRelations(text) })
 }
 
 const index = JSON.parse(await readFile(contentIndexPath, "utf8"))
-const slugByTitle = new Map(Object.entries(index).map(([slug, note]) => [cleanTitle(note.title), slug]))
+const notesByLanguage = new Map()
+for (const note of sourceNotes) {
+  const group = languageGroup(note)
+  if (!notesByLanguage.has(group)) notesByLanguage.set(group, [])
+  notesByLanguage.get(group).push(note)
+}
+const lookupByLanguage = new Map(
+  [...notesByLanguage].map(([group, notes]) => [
+    group,
+    {
+      titleToPath: new Map(notes.map((note) => [cleanTitle(note.title), note.slug])),
+      stemToPath: new Map(
+        notes.map((note) => [cleanTitle(path.basename(note.rel, ".md")), note.slug]),
+      ),
+    },
+  ]),
+)
+const resolve = (note, target) => {
+  const lookup = lookupByLanguage.get(languageGroup(note))
+  return (
+    lookup?.titleToPath.get(cleanTitle(target)) ||
+    lookup?.stemToPath.get(cleanTitle(target)) ||
+    null
+  )
+}
 const missing = []
 
 for (const note of sourceNotes) {
-  const sourceSlug = slugByTitle.get(cleanTitle(note.title))
-  if (!sourceSlug) continue
-  const graphLinks = new Set(index[sourceSlug]?.links || [])
+  const graphLinks = new Set(index[note.slug]?.links || [])
   for (const target of note.relations) {
-    const targetSlug = slugByTitle.get(cleanTitle(target))
+    const targetSlug = resolve(note, target)
     if (targetSlug && !graphLinks.has(targetSlug)) {
       missing.push(`${note.title} -> ${target}`)
     }
