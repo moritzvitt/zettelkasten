@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Mühelose Aufmerksamkeit ist der Nordstern der Immersion
+
 ## Claim
 
 Die ideale Aufmerksamkeit in Immersion ist nicht angestrengtes Beobachten, sondern mühelose Beteiligung am Inhalt.[^source]
@@ -23,7 +25,7 @@ Dieser Zettel hilft, Immersion nicht als blosse Menge an Input zu verstehen, son
 ## Links
 
 Prev:: [[Aktive Immersion gibt passivem Hören Momentum]]
-Next:: [[Wahl von geeignetem Input Material für Immersion]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/wahl-von-geeignetem-input-material-für-immersion|Wahl von geeignetem Input Material für Immersion]]
 Parent::
 Child::
 Friend::

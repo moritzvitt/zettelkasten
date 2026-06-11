@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Extreme Vermögenskonzentration ist auch Eigentumskonzentration
+
 ## Claim
 
 Extreme Vermögenskonzentration ist auch Eigentumskonzentration: Wenige Menschen verfügen dann nicht nur über Geld, sondern über dauerhafte Ansprüche auf Wohnraum, Unternehmen, Boden, Infrastruktur und politische Einflusskanäle.

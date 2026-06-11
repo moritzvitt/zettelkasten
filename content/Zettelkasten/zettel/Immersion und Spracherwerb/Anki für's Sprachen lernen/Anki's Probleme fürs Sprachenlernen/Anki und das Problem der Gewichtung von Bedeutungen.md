@@ -11,6 +11,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Anki und das Problem der Gewichtung von Bedeutungen
+
 ## Claim
 
 Durch Reviews, Kartenaufbau und bewusste Aufmerksamkeit bekommen manche Wörter oder Bedeutungen im Kopf mehr Gewicht, als sie im echten Sprachgebrauch eigentlich hätten.
@@ -35,10 +37,10 @@ Für eng definierte Begriffe funktioniert Anki besser, weil ihre Bedeutung stabi
 ## Links
 
 Prev::
-Next:: [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]
-Parent:: [[Anki alleine wird mit wachsendem Wortschatz ineffizient]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation|Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/worte-mit-einfacher-bedeutung-können-oftmals-mit-anki-(fast)-ausgelernt-werden-(erstkonnotation-=-volle-konnotation)|Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-alleine-wird-mit-wachsendem-wortschatz-ineffizient|Anki alleine wird mit wachsendem Wortschatz ineffizient]]
 Child::
-Friend:: [[Anki's Kontextdilemma]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma|Anki's Kontextdilemma]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen|Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
 
 ## Tags
 #anki #language-learning

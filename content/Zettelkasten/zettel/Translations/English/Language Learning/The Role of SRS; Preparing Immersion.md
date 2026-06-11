@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# The Role of SRS; Preparing Immersion
+
 ## Claim
 
 With vocabulary, Anki first creates a mental dictionary entry: an address in the mind that makes a word recognizable the next time you encounter it.
@@ -21,7 +23,7 @@ The actual learning of the word happens afterwards in input. Every encounter in 
 ## Links
 
 Prev::
-Next:: [[Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists]]
+Next:: [[zettelkasten/zettel/translations/english/language-learning/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists|Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists]]
 Parent::
 Child::
 Friend::

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Moral Hazard Under Limited Liability
+
 ## Claim
 
 Moral hazard under limited liability arises when owners retain a company's upside while part of the extreme downside risk falls on creditors, victims, employees, or the public.

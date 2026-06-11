@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Anki's Kontextdilemma
+
 ## Claim
 
 Anki hat ein Kontextproblem:
@@ -46,7 +48,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Anki und das Problem der Gewichtung von Bedeutungen]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-und-das-problem-der-gewichtung-von-bedeutungen|Anki und das Problem der Gewichtung von Bedeutungen]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen|Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation|Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
 
 ## Tags
 #language-learning #anki

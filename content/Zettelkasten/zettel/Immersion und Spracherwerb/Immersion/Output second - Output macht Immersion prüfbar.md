@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Output second - Output macht Immersion prüfbar
+
 ## Claim
 
 Output macht sichtbar, wo das innere Sprachmodell noch nicht trägt. Beim Sprechen oder Schreiben merkt man plötzlich, welche Form fehlt, welche Wortverbindung nicht abrufbar ist oder welche Struktur nur passiv bekannt war.[^source-notes]
@@ -24,11 +26,11 @@ In einer Immersionsroutine sollte Output nicht die Input-Zeit auffressen, aber e
 %%
 ## Links
 
-Prev:: [[Input first - Aufbau eines Sprachgefühls]]
+Prev:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/input-first---aufbau-eines-sprachgefühls|Input first - Aufbau eines Sprachgefühls]]
 Next::
-Parent:: [[Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Language Acquisition]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/language-acquisition|Language Acquisition]]
 Child::
-Friend:: [[Immersion macht Kultur zum Umfeld]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/immersion-macht-kultur-zum-umfeld|Immersion macht Kultur zum Umfeld]]
 
 ## Tags
 #language-learning #immersion

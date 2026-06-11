@@ -9,6 +9,7 @@ const localPlugins = [
   "structured-brain",
   "local-media-player",
   "discord-spoilers",
+  "svg-viewer",
 ]
 
 for (const name of localPlugins) {

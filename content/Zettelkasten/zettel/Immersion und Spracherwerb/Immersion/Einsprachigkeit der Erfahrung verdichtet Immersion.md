@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Einsprachigkeit der Erfahrung verdichtet Immersion
+
 ## Claim
 
 Einsprachigkeit der Erfahrung bedeutet, dass die Zielsprache nicht ständig durch Übersetzung erklärt wird. Sie ist selbst das Medium, in dem man sucht, versteht, scheitert, korrigiert, weiterliest und weiterhört.[^source-notes]
@@ -25,9 +27,9 @@ Wer jede Begegnung sofort übersetzt, bleibt oft außerhalb des Zielsprachennetz
 
 Prev::
 Next::
-Parent:: [[Immersion macht Kultur zum Umfeld]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/immersion-macht-kultur-zum-umfeld|Immersion macht Kultur zum Umfeld]]
 Child::
-Friend:: [[Cloze Notiztyp für maximale Immersion]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion|Cloze Notiztyp für maximale Immersion]]
 
 ## Tags
 #language-learning #immersion

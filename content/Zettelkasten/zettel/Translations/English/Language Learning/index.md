@@ -1,10 +1,12 @@
 ---
-title: "English Language-Learning Notes"
+title: "index"
 source: "Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/index.md"
 publish: true
 tags:
   - zettel
 ---
+# index
+
 # English Language-Learning Notes
 
 This folder contains English translations of all published notes from the German language-learning part of the zettelkasten.
@@ -13,21 +15,21 @@ The German originals remain the source of truth. Each translation records its or
 
 ## Entry Points
 
-- [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Language Acquisition]]
+- [[zettelkasten/zettel/translations/english/language-learning/language-acquisition|Language Acquisition]]
 - [[Which Skills Should You Prioritize When Learning a Language?]]
-- [[Immersion Turns Culture Into the Environment]]
-- [[Effortless Attention Is the North Star of Immersion]]
-- [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Functional Fluency]]
-- [[Multilingualism Is Reactivation, Not Constant Performance]]
-- [[The Role of SRS; Preparing Immersion]]
-- [[Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists]]
-- [[Anki Is Not a Knowledge Store]]
-- [[The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion]]
-- [[Immersion Consolidates Concepts Best in a Learning Loop]]
-- [[Thematic Immersion Optimizes Re-Encounter Density]]
-- [[Input First - Building a Feel for the Language]]
-- [[Output Second - Output Makes Immersion Testable]]
-- [[A Language Is Learned Deeply Once and Reactivated Later]]
+- [[zettelkasten/zettel/translations/english/language-learning/immersion-turns-culture-into-the-environment|Immersion Turns Culture Into the Environment]]
+- [[zettelkasten/zettel/translations/english/language-learning/effortless-attention-is-the-north-star-of-immersion|Effortless Attention Is the North Star of Immersion]]
+- [[zettelkasten/zettel/translations/english/language-learning/functional-fluency|Functional Fluency]]
+- [[zettelkasten/zettel/translations/english/language-learning/multilingualism-is-reactivation,-not-constant-performance|Multilingualism Is Reactivation, Not Constant Performance]]
+- [[zettelkasten/zettel/translations/english/language-learning/the-role-of-srs;-preparing-immersion|The Role of SRS; Preparing Immersion]]
+- [[zettelkasten/zettel/translations/english/language-learning/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists|Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists]]
+- [[zettelkasten/zettel/translations/english/language-learning/anki-is-not-a-knowledge-store|Anki Is Not a Knowledge Store]]
+- [[zettelkasten/zettel/translations/english/language-learning/the-goal-of-an-anki-card-is-only-a-vague-feeling-of-recognition-in-immersion|The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion]]
+- [[zettelkasten/zettel/translations/english/language-learning/immersion-consolidates-concepts-best-in-a-learning-loop|Immersion Consolidates Concepts Best in a Learning Loop]]
+- [[zettelkasten/zettel/translations/english/language-learning/thematic-immersion-optimizes-re-encounter-density|Thematic Immersion Optimizes Re-Encounter Density]]
+- [[zettelkasten/zettel/translations/english/language-learning/input-first---building-a-feel-for-the-language|Input First - Building a Feel for the Language]]
+- [[zettelkasten/zettel/translations/english/language-learning/output-second---output-makes-immersion-testable|Output Second - Output Makes Immersion Testable]]
+- [[zettelkasten/zettel/translations/english/language-learning/a-language-is-learned-deeply-once-and-reactivated-later|A Language Is Learned Deeply Once and Reactivated Later]]
 
 ## Translation Notes
 

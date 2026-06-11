@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Sprachwissen wird weniger zugänglich, nicht einfach gelöscht
+
 ## Claim
 
 Ungenutztes Sprachwissen wird oft weniger zugänglich, nicht einfach gelöscht. Reaktivierung bedeutet deshalb, vorhandene Spuren wieder erreichbar und flüssig zu machen.
@@ -23,7 +25,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Eine Sprache wird einmal tief gelernt und später reaktiviert]], [[Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert|Eine Sprache wird einmal tief gelernt und später reaktiviert]], [[zettelkasten/zettel/immersion-und-spracherwerb/mehrsprachigkeit/mehrsprachigkeit-ist-reaktivierung-statt-dauerleistung|Mehrsprachigkeit ist Reaktivierung statt Dauerleistung]]
 
 ## Tags
 #language-learning

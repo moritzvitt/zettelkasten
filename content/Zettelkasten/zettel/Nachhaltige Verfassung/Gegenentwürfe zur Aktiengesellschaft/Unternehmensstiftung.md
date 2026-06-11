@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Unternehmensstiftung
+
 ## Claim
 
 Eine Unternehmensstiftung trennt den Unternehmenszweck teilweise von kurzfristigen Entnahmeinteressen einzelner Eigentümer.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Worte mit einfacher Bedeutung können oftmals mit Anki (fast) ausgelernt werden (Erstkonnotation = Volle Konnotation)
+
 ## Claim
 
 Worte, deren Bedeutung fast deckungsgleich ist wie in der eigenen Muttersprache (oder einer gelernten Sprache), können leicht mit Anki gelernt werden. 

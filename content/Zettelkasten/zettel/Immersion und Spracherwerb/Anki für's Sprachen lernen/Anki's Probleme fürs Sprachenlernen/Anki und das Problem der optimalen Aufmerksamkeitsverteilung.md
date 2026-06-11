@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki und das Problem der optimalen Aufmerksamkeitsverteilung
+
 ## Claim
 
 anki ist im fortgeschrittenen Sprachlernprozess nicht optimal um Worte zu gewichten...

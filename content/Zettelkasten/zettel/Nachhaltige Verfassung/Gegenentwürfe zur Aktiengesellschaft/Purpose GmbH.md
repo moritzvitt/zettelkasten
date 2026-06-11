@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Purpose GmbH
+
 ## Claim
 
 Die Purpose GmbH versucht, Unternehmenseigentum so zu gestalten, dass Kontrolle und Verantwortung erhalten bleiben, aber die freie Entnahme des Unternehmensvermögens begrenzt wird.

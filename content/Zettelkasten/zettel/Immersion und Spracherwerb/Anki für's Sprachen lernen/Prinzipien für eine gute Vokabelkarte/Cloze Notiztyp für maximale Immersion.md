@@ -10,6 +10,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Cloze Notiztyp für maximale Immersion
+
 ## Claim
 
 Der Hauptvorteil von Cloze-Karten in Anki ist, dass der Kontext sichtbar bleibt.
@@ -28,7 +30,7 @@ Der Satz bleibt Hilfsmittel, nicht Hauptaufgabe. Wenn es Synonyme gibt oder der 
 
 ## Why It Matters
 
-Cloze ist für Sprachen besonders nützlich, weil der Kontext sichtbar bleiben kann. Das maximiert die Zeit in der Zielsprache und stützt die [[Einsprachigkeit der Erfahrung verdichtet Immersion|Immersion]]: Man lernt das Wort nicht isoliert, sondern direkt in einem Satz, der Klang, Register und typische Umgebung mitträgt.
+Cloze ist für Sprachen besonders nützlich, weil der Kontext sichtbar bleiben kann. Das maximiert die Zeit in der Zielsprache und stützt die [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion|Immersion]]: Man lernt das Wort nicht isoliert, sondern direkt in einem Satz, der Klang, Register und typische Umgebung mitträgt.
 
 [^source-notes]: Source notes: Effective Learning Twenty Rules of Formulating Knowledge; Wissensformulierung für Spaced Repetition
 
@@ -37,9 +39,9 @@ Cloze ist für Sprachen besonders nützlich, weil der Kontext sichtbar bleiben k
 
 Prev::
 Next::
-Parent:: [[Einsprachigkeit der Erfahrung verdichtet Immersion]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion|Einsprachigkeit der Erfahrung verdichtet Immersion]]
 Child::
-Friend:: [[Scheduling Probleme durch Überschneidungen]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/scheduling-probleme-durch-überschneidungen|Scheduling Probleme durch Überschneidungen]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation|Eine Vokabelkarte trägt maximal eine Erstkonnotation]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen|Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]]
 
 ## Tags
 #anki

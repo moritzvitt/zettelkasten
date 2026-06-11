@@ -8,9 +8,11 @@ graphLinks:
 tags:
   - zettel
 ---
+# Eine Vokabelkarte trägt maximal eine Erstkonnotation
+
 ## Claim
 
-Eine Vokabelkarte sollte nicht alle Bedeutungen und Konnotationen eines Wortes tragen. Sie braucht nur eine tragfähige Erstkonnotation: genug Bedeutung, um das Wort wiederzuerkennen und in der [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand|fruchtbaren Zone]] zu halten.[^source-notes] ^906565
+Eine Vokabelkarte sollte nicht alle Bedeutungen und Konnotationen eines Wortes tragen. Sie braucht nur eine tragfähige Erstkonnotation: genug Bedeutung, um das Wort wiederzuerkennen und in der [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|fruchtbaren Zone]] zu halten.[^source-notes] ^906565
 
 Für klare Wörter kann diese Erstkonnotation schon sehr nahe an der produktiven Bedeutung liegen. Bei nuancenreichen Wörtern ist sie nur ein Startpunkt; Register, typische Kollokationen und feine Bedeutungsränder entstehen später durch Input (und Output).
 
@@ -29,7 +31,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Cloze Notiztyp für maximale Immersion]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen|Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion|Cloze Notiztyp für maximale Immersion]]
 
 ## Tags
 #anki

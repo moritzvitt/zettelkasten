@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Wir haben Externalitäten auf unsere Umwelt, unsere Umwelt hat Externalitäten auf uns
+
 ## Claim
 
 Unser Handeln wirkt auf die Umwelt, aber die Umwelt wirkt auch auf uns zurück.

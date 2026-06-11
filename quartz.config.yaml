@@ -86,6 +86,9 @@ plugins:
       mediaRoot: /Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media
       route: /local-media
     order: 65
+  - source: ./plugins/svg-viewer
+    enabled: true
+    order: 67
   - source: github:quartz-community/description
     enabled: true
     order: 70
@@ -164,7 +167,7 @@ plugins:
       position: afterBody
       priority: 20
   - source: ./plugins/contribute
-    enabled: true
+    enabled: false
     options:
       repositoryUrl: https://github.com/moritzvitt/zettelkasten
       zipUrl: https://github.com/moritzvitt/zettelkasten/archive/refs/heads/v5.zip

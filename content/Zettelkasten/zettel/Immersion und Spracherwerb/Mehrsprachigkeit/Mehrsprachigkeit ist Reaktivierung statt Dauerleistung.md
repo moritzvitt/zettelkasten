@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Mehrsprachigkeit ist Reaktivierung statt Dauerleistung
+
 ## Claim
 
 Mehrsprachigkeit bedeutet nicht, alle Sprachen permanent gleich aktiv zu halten. Der eigentliche Skill ist, ein Sprachennetzwerk bei Bedarf schnell wieder hochzufahren.[^source-notes]
@@ -27,7 +29,7 @@ Damit wird Japanischlernen Teil derselben Logik: Nicht jede Komponente muss imme
 Prev::
 Next::
 Parent::
-Child:: [[Falscher Ehrgeiz in Anki]], [[Wie reaktiviert man eine Sprache?]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki|Falscher Ehrgeiz in Anki]], [[Wie reaktiviert man eine Sprache?]]
 Friend::
 
 ## Tags

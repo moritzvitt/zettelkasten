@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Sustainability
+
 ## Claim
 
 Sustainability means living and conducting economic activity in a way that does not consume the foundations of that life.

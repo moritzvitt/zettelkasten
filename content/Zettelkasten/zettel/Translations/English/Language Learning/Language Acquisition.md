@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Language Acquisition
+
 ## Claim
 
 Language acquisition is the construction of an inner language system that connects perception, meaning, and use. You do not acquire only individual words or rules, but a system in which sound, lexis, semantics, grammar, and pragmatics become available together in real situations.[^clipping-what-is-language-acquisition]
@@ -34,7 +36,7 @@ Immersion is powerful because it carries these layers at the same time: a real s
 ## Links
 
 Prev::
-Next:: [[Immersion Turns Culture Into the Environment]], [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/The LLM in My Brain]]
+Next:: [[zettelkasten/zettel/translations/english/language-learning/immersion-turns-culture-into-the-environment|Immersion Turns Culture Into the Environment]], [[zettelkasten/zettel/translations/english/language-learning/the-llm-in-my-brain|The LLM in My Brain]]
 Parent::
 Child::
 Friend::

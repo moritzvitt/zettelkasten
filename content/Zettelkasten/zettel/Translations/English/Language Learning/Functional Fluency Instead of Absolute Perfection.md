@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Functional Fluency Instead of Absolute Perfection
+
 ## Claim
 
 Functional fluency means being fluent in the areas of a language, or cultural forms of communication, that you need for your life.

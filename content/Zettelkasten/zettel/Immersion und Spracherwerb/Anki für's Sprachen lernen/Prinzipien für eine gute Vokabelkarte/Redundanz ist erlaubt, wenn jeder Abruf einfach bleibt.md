@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt
+
 ## Claim
 
 Redundanz ist erlaubt, wenn jeder einzelne Abruf einfach bleibt.[^source-notes]
@@ -24,7 +26,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Prinzip der minimalen Information macht Wiederholungen planbar]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar|Prinzip der minimalen Information macht Wiederholungen planbar]]
 
 ## Tags
 #anki #language-learning

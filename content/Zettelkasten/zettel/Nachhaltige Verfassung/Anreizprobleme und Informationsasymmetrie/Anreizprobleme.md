@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anreizprobleme
+
 ## Claim
 
 Anreizprobleme entstehen, wenn eine Institution Verhalten belohnt, das sie eigentlich vermeiden müsste.

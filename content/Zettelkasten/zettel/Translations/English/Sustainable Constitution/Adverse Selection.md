@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Adverse Selection
+
 ## Claim
 
 Adverse selection describes a situation in which bad risks enter a system more frequently because good risks are harder to distinguish.

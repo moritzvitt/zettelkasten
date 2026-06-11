@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Als Eigentümer habe ich ein Recht an den durch mein Eigentum generierten Profiten
+
 ## Claim
 
 Die Aussage, Eigentümer hätten ein Recht auf die durch ihr Eigentum generierten Profite, wirkt nur selbstverständlich, solange Eigentum auch die damit verbundenen Risiken trägt.

@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists
+
 ## Claim
 
 Spaced repetition is ideally suited for keeping many words in the fertile zone for a longer time.
@@ -26,11 +28,11 @@ Anki does not mean that words are perfectly learned. It prepares the ground so l
 %%
 ## Links
 
-Prev:: [[The Role of SRS; Preparing Immersion]]
+Prev:: [[zettelkasten/zettel/translations/english/language-learning/the-role-of-srs;-preparing-immersion|The Role of SRS; Preparing Immersion]]
 Next::
 Parent::
 Child::
-Friend:: [[Immersion Turns Culture Into the Environment]]
+Friend:: [[zettelkasten/zettel/translations/english/language-learning/immersion-turns-culture-into-the-environment|Immersion Turns Culture Into the Environment]]
 
 ## Tags
 #anki #immersion #translation

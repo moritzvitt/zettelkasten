@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion
+
 ## Claim
 
 The goal of a language-learning Anki card is recognition in input, in immersion: the brief feeling, "Ah, I know this." The review need not achieve more.[^source-notes] ^8772ee

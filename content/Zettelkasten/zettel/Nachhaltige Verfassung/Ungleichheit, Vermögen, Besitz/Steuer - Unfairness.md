@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Steuer - Unfairness
+
 ## Claim
 
 Steuerliche Unfairness entsteht nicht nur durch hohe oder niedrige Steuersätze, sondern durch ungleiche Ausweichmöglichkeiten.

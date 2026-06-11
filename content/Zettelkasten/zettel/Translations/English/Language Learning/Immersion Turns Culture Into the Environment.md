@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Immersion Turns Culture Into the Environment
+
 ## Claim
 
 Immersion means treating a language not merely as study material, but as an environment. You move inside a medium of communication, a culture, and an information network in which meaning, sound, register, typical situations, and world knowledge appear together.[^source-notes]
@@ -28,11 +30,11 @@ A feel for the language does not grow only from rules and vocabulary. It grows f
 %%
 ## Links
 
-Prev:: [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Language Acquisition]]
-Next:: [[Comprehensibility vs Attention - Choosing Materials for Immersion]]
+Prev:: [[zettelkasten/zettel/translations/english/language-learning/language-acquisition|Language Acquisition]]
+Next:: [[zettelkasten/zettel/translations/english/language-learning/comprehensibility-vs-attention---choosing-materials-for-immersion|Comprehensibility vs Attention - Choosing Materials for Immersion]]
 Parent::
 Child::
-Friend:: [[Effortless Attention Is the North Star of Immersion]]
+Friend:: [[zettelkasten/zettel/translations/english/language-learning/effortless-attention-is-the-north-star-of-immersion|Effortless Attention Is the North Star of Immersion]]
 
 ## Tags
 #language-learning #immersion #translation

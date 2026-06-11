@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Prioritization Decides Which Knowledge Belongs in Anki
+
 ## Claim
 
 Prioritization decides which knowledge belongs in Anki at all. Not everything interesting deserves permanent review time.

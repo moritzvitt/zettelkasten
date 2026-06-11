@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# SRS (Spaced Repetition), Anki
+
 ## Claim
 
 Ein SRS, also ein Spaced-Repetition-System, ist ein Wiederholungssystem, das Lernstoff nicht jeden Tag komplett abfragt, sondern Karten nach wachsendem Abstand wieder vorlegt. Nach jeder Antwort bewertet man, wie gut man sich erinnert hat; daraus berechnet das System, wann die Karte wieder fällig wird.[^anki-background]
@@ -35,7 +37,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Anki ist kein Wissensspeicher]], [[Die Rolle von SRS; Immersion vorbereiten]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten|Die Rolle von SRS; Immersion vorbereiten]]
 
 ## Tags
 #anki #fsrs

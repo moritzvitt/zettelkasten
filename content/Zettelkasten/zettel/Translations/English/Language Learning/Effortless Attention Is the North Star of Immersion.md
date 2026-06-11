@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Effortless Attention Is the North Star of Immersion
+
 ## Claim
 
 The ideal form of attention in immersion is not strained observation, but effortless involvement in the content.[^source]
@@ -24,7 +26,7 @@ This note helps frame immersion not as a mere quantity of input, but as a design
 
 Prev::
 Next::
-Parent:: [[Immersion Turns Culture Into the Environment]]
+Parent:: [[zettelkasten/zettel/translations/english/language-learning/immersion-turns-culture-into-the-environment|Immersion Turns Culture Into the Environment]]
 Child::
 Friend::
 

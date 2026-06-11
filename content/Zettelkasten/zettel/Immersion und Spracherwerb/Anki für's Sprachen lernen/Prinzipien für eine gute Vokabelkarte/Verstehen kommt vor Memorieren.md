@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Verstehen kommt vor Memorieren
+
 ## Claim
 
 Verstehen kommt vor Memorieren: Anki sollte erst einsetzen, wenn das Material bereits in ein grobes mentales Modell passt.[^source-notes]
@@ -27,7 +29,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]], [[Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört|Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/aus-der-effizienzfrage-folgt-der-einsatz-von-hint-feldern|Aus der Effizienzfrage folgt der Einsatz von Hint-Feldern]]
 
 ## Tags
 #anki

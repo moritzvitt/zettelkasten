@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Welche Fähigkeiten sollte man beim Lernen einer Sprache priorisieren?
+
 ## Claim
 
 Man sollte die Fähigkeiten priorisieren, die für Bewegung in der Zielkultur am wichtigsten sind.

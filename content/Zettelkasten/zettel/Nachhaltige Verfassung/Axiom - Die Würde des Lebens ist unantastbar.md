@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Axiom - Die Würde des Lebens ist unantastbar
+
 ## Claim
 
 ##

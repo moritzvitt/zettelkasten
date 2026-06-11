@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Prinzip der minimalen Information macht Wiederholungen planbar
+
 ## Claim
 
 Das Minimum-Information-Prinzip macht Wiederholungen leicht und planbar. 
@@ -25,9 +27,9 @@ Darum kann eine Sammlung mit mehr, aber kleineren Karten effizienter sein als ei
 
 Prev::
 Next::
-Parent:: [[Prinzip der minimalen Information sorgt für klare Erinnerungspuren]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-sorgt-für-klare-erinnerungspuren|Prinzip der minimalen Information sorgt für klare Erinnerungspuren]]
 Child::
-Friend:: [[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt|Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠|Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
 
 ## Tags
 #anki

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki and the Problem of Optimal Attention Allocation
+
 ## Claim
 
 In advanced language learning, Anki is not an optimal way to weight words.

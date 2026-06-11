@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Video, Vokabeln, Repeat - Methode
+
 ## Claim
 
 Das Konzept was ich entwickelt habe, und welches ich aktuell verwende. 

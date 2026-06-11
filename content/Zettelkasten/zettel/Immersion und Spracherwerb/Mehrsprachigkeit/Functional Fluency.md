@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Functional Fluency
+
 ## Claim
 
 Functional Fluency bedeutet: nichts Unnötiges lernen; nur in den relevanten Kontexten wirklich handlungsfähig sein.
@@ -30,9 +32,9 @@ Dieser Zettel ordnet, wie Sprachen über Zeit zugänglich bleiben oder reaktivie
 ## Links
 
 Prev::
-Next:: [[Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Language Acquisition]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/language-acquisition|Language Acquisition]]
 Parent::
-Child:: [[Functional Fluency statt absoluter Perfektion]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/mehrsprachigkeit/functional-fluency-statt-absoluter-perfektion|Functional Fluency statt absoluter Perfektion]]
 Friend::
 
 ## Tags

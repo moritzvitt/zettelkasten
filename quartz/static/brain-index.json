@@ -154,7 +154,7 @@
     },
     "zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/karten-retirement": {
       "slug": "zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/karten-retirement",
-      "title": "Card Retirement",
+      "title": "Karten Retirement",
       "source": "Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Karten Retirement.md",
       "url": "/zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/karten-retirement",
       "tags": [
@@ -1054,7 +1054,7 @@
     },
     "zettelkasten/zettel/translations/english/language-learning/index": {
       "slug": "zettelkasten/zettel/translations/english/language-learning/index",
-      "title": "English Language-Learning Notes",
+      "title": "index",
       "source": "Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/index.md",
       "url": "/zettelkasten/zettel/translations/english/language-learning/index",
       "tags": [
@@ -1225,7 +1225,7 @@
     },
     "zettelkasten/zettel/translations/english/sustainable-constitution/index": {
       "slug": "zettelkasten/zettel/translations/english/sustainable-constitution/index",
-      "title": "Sustainable Constitution",
+      "title": "index",
       "source": "Digital Garden/Zettelkasten/zettel/Translations/English/Sustainable Constitution/index.md",
       "url": "/zettelkasten/zettel/translations/english/sustainable-constitution/index",
       "tags": [
@@ -1241,11 +1241,11 @@
         "zettel"
       ]
     },
-    "willkommen-in-meinem-zettelkasten!": {
-      "slug": "willkommen-in-meinem-zettelkasten!",
+    "zettelkasten/zettel/willkommen-in-meinem-zettelkasten!": {
+      "slug": "zettelkasten/zettel/willkommen-in-meinem-zettelkasten!",
       "title": "Willkommen in meinem Zettelkasten!",
       "source": "Digital Garden/Zettelkasten/zettel/Willkommen in meinem Zettelkasten!.md",
-      "url": "/willkommen-in-meinem-zettelkasten!",
+      "url": "/zettelkasten/zettel/willkommen-in-meinem-zettelkasten!",
       "tags": [
         "zettel"
       ]
@@ -1268,11 +1268,20 @@
         "zettel"
       ]
     },
-    "root/2026-06-07-vermögenssteuer-und-liquiditätsprobleme": {
-      "slug": "root/2026-06-07-vermögenssteuer-und-liquiditätsprobleme",
-      "title": "2026-06-07 Vermögenssteuer und Liquiditätsprobleme",
-      "source": "Digital Garden/journal/June - 2026/2026-06-07 Vermögenssteuer und Liquiditätsprobleme.md",
-      "url": "/root/2026-06-07-vermögenssteuer-und-liquiditätsprobleme",
+    "language-learning.excalidraw": {
+      "slug": "language-learning.excalidraw",
+      "title": "Excalidraw Data",
+      "source": "Digital Garden/media-lib/Excalidraw/Language Learning.excalidraw.md",
+      "url": "/language-learning.excalidraw",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/excalidraw/untitled": {
+      "slug": "media-lib/excalidraw/untitled",
+      "title": "Untitled",
+      "source": "Digital Garden/media-lib/Excalidraw/Untitled.md",
+      "url": "/media-lib/excalidraw/untitled",
       "tags": [
         "zettel"
       ]
@@ -1286,11 +1295,29 @@
         "zettel"
       ]
     },
+    "ocean-waves": {
+      "slug": "ocean-waves",
+      "title": "Ocean Waves",
+      "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
+      "url": "/ocean-waves",
+      "tags": [
+        "zettel"
+      ]
+    },
     "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
       "slug": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
       "url": "/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "japanese/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
+      "slug": "japanese/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+      "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
+      "url": "/japanese/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
       "tags": [
         "zettel"
       ]
@@ -1327,6 +1354,15 @@
       "title": "Sprache gleich Kommunikation? in  Schülerlexikon",
       "source": "Digital Garden/media-lib/web-clippings/Sprache gleich Kommunikation? in  Schülerlexikon.md",
       "url": "/media-lib/web-clippings/sprache-gleich-kommunikation?-in-schülerlexikon",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "purpose-&-philosophy": {
+      "slug": "purpose-&-philosophy",
+      "title": "purpose & philosophy",
+      "source": "Digital Garden/purpose & philosophy.md",
+      "url": "/purpose-&-philosophy",
       "tags": [
         "zettel"
       ]

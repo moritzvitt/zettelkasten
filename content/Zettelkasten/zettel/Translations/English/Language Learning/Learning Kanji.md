@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Learning Kanji
+
 ## Claim
 
 Kanji should be learned as a support for recognizing and acquiring Japanese words, not as an isolated end in itself.

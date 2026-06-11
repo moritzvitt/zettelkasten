@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Functional Fluency
+
 ## Claim
 
 Functional fluency means: learn nothing unnecessary; become truly capable only in the contexts that matter.
@@ -30,10 +32,10 @@ This note clarifies how languages can remain accessible or be reactivated over t
 ## Links
 
 Prev::
-Next:: [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Language Acquisition]]
+Next:: [[zettelkasten/zettel/translations/english/language-learning/language-acquisition|Language Acquisition]]
 Parent::
 Child::
-Friend:: [[Multilingualism Is Reactivation, Not Constant Performance]]
+Friend:: [[zettelkasten/zettel/translations/english/language-learning/multilingualism-is-reactivation,-not-constant-performance|Multilingualism Is Reactivation, Not Constant Performance]]
 
 ## Tags
 #language-learning #translation

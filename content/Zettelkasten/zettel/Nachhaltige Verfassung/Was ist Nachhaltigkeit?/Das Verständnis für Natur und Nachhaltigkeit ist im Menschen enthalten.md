@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Das Verständnis für Natur und Nachhaltigkeit ist im Menschen enthalten
+
 ## Claim
 
 Das Verständnis für Natur und Nachhaltigkeit muss nicht vollständig von aussen aufgezwungen werden; es kann an vorhandene menschliche Schutz-, Fürsorge- und Sinnmotive anschliessen.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Minimum Information Principle Creates Clear Memory Traces
+
 ## Claim
 
 The minimum information principle creates clearer memory traces because one prompt activates one specific answer instead of several competing retrieval paths.

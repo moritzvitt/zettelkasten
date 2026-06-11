@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Moral Hazard
+
 ## Claim
 
 Moral hazard arises when someone decides about a risk but does not personally bear its full consequences.

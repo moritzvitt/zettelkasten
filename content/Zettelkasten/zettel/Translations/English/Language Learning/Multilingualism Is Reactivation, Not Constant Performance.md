@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Multilingualism Is Reactivation, Not Constant Performance
+
 ## Claim
 
 Multilingualism does not mean keeping all languages equally active at all times. The real skill is being able to bring a language network back online quickly when needed.[^source-notes]
@@ -26,7 +28,7 @@ That also makes learning Japanese part of the same logic. Not every component ha
 
 Prev::
 Next::
-Parent:: [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Functional Fluency]]
+Parent:: [[zettelkasten/zettel/translations/english/language-learning/functional-fluency|Functional Fluency]]
 Child::
 Friend::
 

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The LLM in my brain
+
 ## Claim
 
 beim Sprachen lernen bildet sich in unserem Gehirn praktisch ein LLM für diese Sprache. Diese LLM wird immer weiter verfeinert durch Input und Output

@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Die Rolle von SRS; Immersion vorbereiten
+
 ## Claim
 
 Bei Vokabeln erzeugt Anki zuerst einen mentalen Wörterbucheintrag: eine Adresse im Kopf, durch die ein Wort beim nächsten Kontakt wiedererkennbar wird.
@@ -23,10 +25,10 @@ Das eigentliche Lernen des Wortes passiert danach im Input. Jede Begegnung in Re
 ## Links
 
 Prev::
-Next:: [[Immersion-Loop Methoden]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden|Immersion-Loop Methoden]]
 Parent::
 Child::
-Friend:: [[url-l2ioo0sz]], [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Anki ist kein Wissensspeicher]]
+Friend:: [[url-l2ioo0sz]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]]
 
 ## Tags
 #anki #language-learning #language-acquisition

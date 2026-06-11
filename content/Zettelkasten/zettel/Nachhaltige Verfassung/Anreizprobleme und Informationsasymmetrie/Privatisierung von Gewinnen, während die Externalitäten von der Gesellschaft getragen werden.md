@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Privatisierung von Gewinnen, während die Externalitäten von der Gesellschaft getragen werden
+
 ## Claim
 
 Ein zentrales Nachhaltigkeitsproblem entsteht, wenn Gewinne privat vereinnahmt werden, während ökologische, soziale oder finanzielle Folgekosten bei der Gesellschaft landen.

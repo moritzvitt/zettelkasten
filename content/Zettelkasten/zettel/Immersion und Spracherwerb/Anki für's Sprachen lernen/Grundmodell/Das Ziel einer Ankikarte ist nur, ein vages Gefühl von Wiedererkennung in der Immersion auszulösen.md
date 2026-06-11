@@ -10,6 +10,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen
+
 ## Claim
 
 Das Ziel einer Sprach-Anki-Karte ist Wiedererkennung im Input, in der Immersion: das kurze Gefühl "Ah, das kenne ich". Mehr muss die Review nicht erreichen.[^source-notes] ^8772ee
@@ -30,8 +32,8 @@ Diese Grenze schützt vor Anki-Perfektionismus. Eine Karte ist gut genug, wenn s
 Prev::
 Next::
 Parent::
-Child:: [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Anki's Kontextdilemma]]
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠|Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki's-kontextdilemma|Anki's Kontextdilemma]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/eine-vokabelkarte-trägt-maximal-eine-erstkonnotation|Eine Vokabelkarte trägt maximal eine Erstkonnotation]]
 
 ## Tags
 #anki #open-question

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Getting Ready for Immersion - einen Grundwortschatz aufbauen
+
 ## Claim
 
 Ein vorbereiteter Grundwortschatz macht frühe Immersion fruchtbarer: Wer die ersten 2000-3000 häufigen und grundlegenden Wörter mit Anki vorlernt, erkennt im Input genug wieder, damit Immersion nicht nur Klangkontakt bleibt, sondern echte Begegnungen in der fruchtbaren Zone erzeugt.

@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Language Acquisition
+
 ## Claim
 
 Language Acquisition ist der Aufbau eines inneren Sprachsystems, das Wahrnehmung, Bedeutung und Gebrauch verbindet. Man erwirbt nicht nur einzelne Wörter oder Regeln, sondern ein System, in dem Klang, Lexis, Semantik, Grammatik und Pragmatik in echten Situationen zusammen verfügbar werden.[^clipping-what-is-language-acquisition]
@@ -33,8 +35,8 @@ Immersion ist deshalb so wirksam, weil sie diese Ebenen gleichzeitig trägt: Ein
 %%
 ## Links
 
-Prev::
-Next:: [[Immersion macht Kultur zum Umfeld]], [[Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Immersion/The LLM in my brain]]
+Prev::[[test]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/immersion-macht-kultur-zum-umfeld|Immersion macht Kultur zum Umfeld]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/the-llm-in-my-brain|The LLM in my brain]]
 Parent:: [[Kultur als Informationsnetzwerk]]
 Child::
 Friend::

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Die Wahrscheinlichkeit, einem Wort in der Immersion zu begegnen, sinkt mit wachsendem Wortschatz
+
 ## Claim
 
 Je seltener die Worte sind, die man lernt, desto mehr sinkt die Wahrscheinlichkeit, einem neu gelernten Wort bald erneut natürlich zu begegnen.

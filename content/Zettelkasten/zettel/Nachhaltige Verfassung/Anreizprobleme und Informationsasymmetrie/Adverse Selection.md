@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Adverse Selection
+
 ## Claim
 
 Adverse Selection beschreibt eine Situation, in der schlechte Risiken häufiger in ein System hineinkommen, weil gute Risiken schlechter unterscheidbar sind.

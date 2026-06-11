@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Prinzip der minimalen Information sorgt für klare Erinnerungspuren
+
 ## Claim
 
 Eine Karte sollte nur einen Abruf verlangen. Das ist die praktische Kartenform des Minimum-Information-Prinzips: Die Karte isoliert einen klaren Abrufpunkt, statt mehrere Erinnerungen gleichzeitig zu bündeln. ^928869

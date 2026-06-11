@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Immersion-Loop Methoden
+
 ## Claim
 
 1. Videos in Obsidian speichern, angucken und nebenbei eine Liste mit schwierigen Worten aus den Videos offen haben. Im transkript die schwierigen Worte markieren

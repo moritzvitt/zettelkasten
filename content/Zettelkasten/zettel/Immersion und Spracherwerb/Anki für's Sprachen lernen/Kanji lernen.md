@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Kanji lernen
+
 ## Claim
 
 Kanji lesen lernen: einfach viel Vokabeln lernen

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Redundancy Is Allowed When Every Retrieval Remains Simple
+
 ## Claim
 
 Redundancy is allowed when every retrieval remains simple. Two cards may overlap if each tests a distinct, easy access path.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Holding (Dänemark)
+
 ## Claim
 
 Eine dänische Holding-Struktur kann Eigentum so ordnen, dass ein Unternehmen nicht einfach als frei liquidierbares Privatvermögen behandelt wird.

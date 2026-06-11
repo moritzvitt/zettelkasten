@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Which Skills Should You Prioritize When Learning a Language
+
 ## Claim
 
 You should prioritize the skills that matter most for moving inside the target culture.
@@ -33,7 +35,7 @@ This note turns one thought into something the zettelkasten can test, link, and 
 
 Prev::
 Next::
-Parent:: [[Digital Garden/Zettelkasten/zettel/Translations/English/Language Learning/Language Acquisition]]
+Parent:: [[zettelkasten/zettel/translations/english/language-learning/language-acquisition|Language Acquisition]]
 Child::
 Friend::
 

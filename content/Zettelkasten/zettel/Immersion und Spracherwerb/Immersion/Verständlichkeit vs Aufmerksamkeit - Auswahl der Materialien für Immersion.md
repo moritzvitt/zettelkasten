@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion
+
 ## Claim
 
 Input bewegt sich in einem Spannungsfeld zwischen Verständlichkeit und Aufmerksamkeit...
@@ -35,8 +37,8 @@ Daraus leitet sich eine einfache Formel für geeignetes Input Material ab:
 ## Links
 
 Prev::
-Next:: [[Immersion festigt Konzepte am besten in einer Lernschlaufe]]
-Parent:: [[Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe|Immersion festigt Konzepte am besten in einer Lernschlaufe]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/mühelose-aufmerksamkeit-ist-der-nordstern-der-immersion|Mühelose Aufmerksamkeit ist der Nordstern der Immersion]]
 Child:: [[Erwartung steuert, ob Input als verstehbar behandelt wird]], [[Passive Immersion unterscheidet Aufmerksamkeit und Verständlichkeit]]
 Friend::
 

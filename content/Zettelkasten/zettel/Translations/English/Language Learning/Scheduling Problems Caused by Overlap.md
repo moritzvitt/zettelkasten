@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Scheduling Problems Caused by Overlap
+
 ## Claim
 
 Overlapping cards can create scheduling problems when several prompts depend on the same memory but differ in difficulty or wording.

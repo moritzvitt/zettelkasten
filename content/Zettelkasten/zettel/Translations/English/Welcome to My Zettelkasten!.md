@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Welcome to My Zettelkasten!
+
 Hello, I'm Moritz.
 
 Somehow, you have found your way into my zettelkasten!

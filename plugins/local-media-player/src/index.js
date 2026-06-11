@@ -11,8 +11,11 @@ const defaultOptions = {
 
 function wikilinkTarget(value) {
   if (typeof value !== "string") return null
-  const match = value.match(/^\[\[([^#|\]]+)/)
-  return match?.[1]?.trim() || null
+  const match = value.match(/^\[\[([\s\S]*?)\]\]$/)
+  if (!match) return null
+
+  const target = match[1].split(/[|#]/, 1)[0].trim()
+  return target || null
 }
 
 function frontmatter(src) {
@@ -36,7 +39,7 @@ export function rewriteMediaTimestampLinks(src) {
   if (!mediaLinkTarget) return src
 
   return src.replace(
-    /\[\[([^#|\]]+)#t=([0-9]+(?:\.[0-9]+)?)(?:\|([^\]]+))?\]\]/g,
+    /\[\[([^\n]*?)#t=([0-9]+(?:\.[0-9]+)?)(?:\|([^\]\n]+))?\]\]/g,
     (full, linkTarget, seconds, alias) => {
       if (!sameMediaTarget(linkTarget.trim(), mediaLinkTarget)) return full
       const label = alias?.trim() || seconds

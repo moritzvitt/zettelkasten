@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Tax Unfairness
+
 ## Claim
 
 Tax unfairness arises not only from high or low tax rates, but from unequal opportunities for avoidance.

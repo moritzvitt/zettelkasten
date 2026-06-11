@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Scheduling Probleme durch Überschneidungen
+
 ## Claim
 
 Interferenz ist ein Designproblem von Karten: Ähnliche Erinnerungen müssen so formuliert werden, dass sie unterscheidbar werden.[^source-notes] ^074fea
@@ -29,7 +31,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Cloze Notiztyp für maximale Immersion]], [[Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/cloze-notiztyp-für-maximale-immersion|Cloze Notiztyp für maximale Immersion]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/redundanz-ist-erlaubt,-wenn-jeder-abruf-einfach-bleibt|Redundanz ist erlaubt, wenn jeder Abruf einfach bleibt]]
 
 ## Tags
 #anki

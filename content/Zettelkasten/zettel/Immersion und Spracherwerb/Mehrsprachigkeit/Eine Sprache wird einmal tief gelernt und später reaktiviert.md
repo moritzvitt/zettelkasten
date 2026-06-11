@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Eine Sprache wird einmal tief gelernt und später reaktiviert
+
 ## Claim
 
 Eine Sprache muss nicht jedes Mal neu gelernt werden. Wenn sie einmal tief genug gelernt wurde, bleiben viele Muster im Gehirn bestehen: Klang, Satzrhythmus, typische Formen, Wortfelder, Routinen und kulturelle Erwartungen.[^source-notes]
@@ -30,7 +32,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Falscher Ehrgeiz in Anki]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/falscher-ehrgeiz-in-anki|Falscher Ehrgeiz in Anki]]
 
 ## Tags
 #language-learning

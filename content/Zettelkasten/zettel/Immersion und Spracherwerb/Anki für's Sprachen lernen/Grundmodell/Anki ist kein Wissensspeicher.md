@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Anki ist kein Wissensspeicher
+
 ## Claim
 
 Anki ist in deinem Sprachlernsystem nicht der Ort, an dem Wissen lebt. Es ist ein Abrufwerkzeug, das Wörter und schwache Erinnerungsstellen so vorbereitet, dass sie im Input, also Listening und Reading, wiedererkannt werden können.[^source-notes]
@@ -28,9 +30,9 @@ Die Karte ist gelungen, wenn sie spätere Begegnungen mit dem Wort fruchtbarer m
 
 Prev::
 Next::
-Parent:: [[Die Rolle von SRS; Immersion vorbereiten]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten|Die Rolle von SRS; Immersion vorbereiten]]
 Child::
-Friend:: [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠|Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört|Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]
 
 ## Tags
 #anki

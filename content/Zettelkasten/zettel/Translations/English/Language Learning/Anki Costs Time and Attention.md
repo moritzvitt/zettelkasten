@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki Costs Time and Attention
+
 ## Claim
 
 Anki costs time not only when cards are created. ==Every card creates future review time and therefore a small, lasting obligation.==

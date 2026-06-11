@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Wohnen ist ein Grundrecht
+
 ## Claim
 
 Wohnen ist ein Grundrecht, weil ein Mensch ohne verlässlichen Wohnraum kaum frei, sicher und politisch handlungsfähig sein kann.

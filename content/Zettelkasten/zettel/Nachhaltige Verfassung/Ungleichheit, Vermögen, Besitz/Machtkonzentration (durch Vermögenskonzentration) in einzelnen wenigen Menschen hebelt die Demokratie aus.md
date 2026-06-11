@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Machtkonzentration (durch Vermögenskonzentration) in einzelnen wenigen Menschen hebelt die Demokratie aus
+
 ## Claim
 
 Extreme Vermögenskonzentration wird politisch gefährlich, sobald sie sich in dauerhafte Machtkonzentration übersetzt.

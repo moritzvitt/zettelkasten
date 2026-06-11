@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Concentrating Power Through Wealth Concentration Undermines Democracy
+
 ## Claim
 
 Extreme wealth concentration becomes politically dangerous as soon as it translates into lasting concentrations of power.

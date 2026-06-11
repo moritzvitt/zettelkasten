@@ -5,13 +5,15 @@ publish: true
 tags:
   - zettel
 ---
+# Anki Alone Becomes Inefficient as Vocabulary Grows
+
 ## Claim
 
 Anki works especially well at the beginning, but becomes increasingly inefficient as vocabulary grows.
 
 Beginners mostly learn frequent, concrete, semantically stable words whose meanings and uses are nearly identical to those in their native language. Later words are rarer, more context-dependent, and semantically more complex: they are more abstract, have several meanings, or differ by nuance and register.
 
-Anki may then preserve only an [[Anki's Context Dilemma|artificial memory of the card]] instead of supporting real language acquisition.
+Anki may then preserve only an [[zettelkasten/zettel/translations/english/language-learning/anki's-context-dilemma|artificial memory of the card]] instead of supporting real language acquisition.
 
 ## Why It Matters
 

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Moral Hazard unter begrenzter Haftung
+
 ## Claim
 
 Moral Hazard unter begrenzter Haftung entsteht, wenn Eigentümer die Aufwärtsseite eines Unternehmens behalten, während ein Teil der extremen Abwärtsrisiken auf Gläubiger, Opfer, Beschäftigte oder die Allgemeinheit fällt.

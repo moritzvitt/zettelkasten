@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Chance of Encountering a Word in Immersion Falls as Vocabulary Grows
+
 ## Claim
 
 The rarer the words being learned, the lower the chance of naturally encountering a newly learned word again soon.

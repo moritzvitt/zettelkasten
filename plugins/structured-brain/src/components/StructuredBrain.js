@@ -150,6 +150,17 @@ const script = `
     return relationClasses.has(edge.type)
   }
 
+  function hasRelationships(index, center) {
+    const valid = new Set(Object.keys(index.nodes || {}))
+    if (!valid.has(center)) return false
+    return (index.relationships || []).some(
+      (edge) =>
+        edge.from === center &&
+        valid.has(edge.to) &&
+        relationClasses.has(edge.type),
+    )
+  }
+
   function collectSequenceSide(center, type, relationships, valid, blocked) {
     const seen = new Set()
     const depths = new Map()
@@ -903,6 +914,11 @@ const script = `
 
     const current = normalizeSlug(document.body?.dataset?.slug || currentPath())
     for (const panel of panels) {
+      const validSlugs = new Set(Object.keys(index.nodes || {}))
+      const center = resolveSlug(current, validSlugs)
+      panel.hidden = !hasRelationships(index, center)
+      if (panel.hidden) continue
+
       updateButtons(panel)
       for (const canvas of panel.querySelectorAll(".structured-brain-canvas")) {
         const config = JSON.parse(canvas.dataset.cfg || "{}")

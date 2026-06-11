@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Anki kostet Zeit⏳ und Aufmerksamkeit 🧠
+
 ## Claim
 
 Anki kostet nicht nur beim Erstellen von Karten Zeit. ==Jede Karte erzeugt zukünftige Review-Zeit und damit eine kleine dauerhafte Verpflichtung.==
@@ -29,8 +31,8 @@ Ohne Kuration wächst die Sammlung schneller als die echte Lernkapazität. Dann 
 Prev::
 Next::
 Parent::
-Child:: [[Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]
-Friend:: [[Anki ist kein Wissensspeicher]], [[Prinzip der minimalen Information macht Wiederholungen planbar]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/priorisierung-entscheidet,-welches-wissen-überhaupt-in-anki-gehört|Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar|Prinzip der minimalen Information macht Wiederholungen planbar]]
 
 ## Tags
 #anki #open-question

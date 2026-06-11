@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Falscher Ehrgeiz in Anki
+
 ## Claim
 
 Anki soll nicht die ganze Sprache lernen. Im Sprachlernprozess bereitet Anki das eigentliche Lernen vor: Es erzeugt Wiedererkennung, hält Wörter in einem lernbaren Zustand und markiert schwache Abrufstellen.[^source-notes]
@@ -29,8 +31,8 @@ Diese Grenze schützt vor falschem Ehrgeiz. Anki ist ein Werkzeug für Zugriff u
 Prev::
 Next::
 Parent::
-Child:: [[Anki ist kein Wissensspeicher]]
-Friend:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[Eine Sprache wird einmal tief gelernt und später reaktiviert]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]], [[zettelkasten/zettel/immersion-und-spracherwerb/mehrsprachigkeit/eine-sprache-wird-einmal-tief-gelernt-und-später-reaktiviert|Eine Sprache wird einmal tief gelernt und später reaktiviert]]
 
 ## Tags
 #anki #language-learning

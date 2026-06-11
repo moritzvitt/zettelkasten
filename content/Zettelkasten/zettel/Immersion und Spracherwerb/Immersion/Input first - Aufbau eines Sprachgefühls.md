@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Input first - Aufbau eines Sprachgefühls
+
 ## Claim
 
 Input-first Immersion sagt nicht, dass Output unwichtig ist. Sie sagt: Output soll nicht zu früh der Hauptmotor sein, weil Produktion ohne inneres Sprachmodell leicht in Übersetzung und fehlerhafte Gewohnheiten kippt.[^source-notes]
@@ -27,9 +29,9 @@ So wird der Streit "Input oder Output?" zu einer Frage der Reihenfolge. Input ba
 ## Links
 
 Prev::
-Next:: [[Output second - Output macht Immersion prüfbar]]
-Parent:: [[Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Language Acquisition]]
-Child:: [[Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Immersion/The LLM in my brain]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/output-second---output-macht-immersion-prüfbar|Output second - Output macht Immersion prüfbar]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/language-acquisition|Language Acquisition]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/the-llm-in-my-brain|The LLM in my brain]]
 Friend::
 
 ## Tags

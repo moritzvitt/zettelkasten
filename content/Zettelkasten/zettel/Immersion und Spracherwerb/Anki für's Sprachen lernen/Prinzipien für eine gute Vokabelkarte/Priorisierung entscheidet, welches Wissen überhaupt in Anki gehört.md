@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört
+
 ## Claim
 
 Priorisierung entscheidet, welches Wissen überhaupt in Anki gehört.[^source-notes]
@@ -28,7 +30,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Verstehen kommt vor Memorieren]], [[Anki ist kein Wissensspeicher]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/verstehen-kommt-vor-memorieren|Verstehen kommt vor Memorieren]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠|Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]]
 
 ## Tags
 #anki

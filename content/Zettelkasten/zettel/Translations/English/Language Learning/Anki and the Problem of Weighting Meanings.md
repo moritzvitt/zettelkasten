@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki and the Problem of Weighting Meanings
+
 ## Claim
 
 Reviews, card design, and conscious attention can give some words or meanings more mental weight than they have in real language use. Anki can thereby distort the language's natural weighting, which would normally emerge from how often words are encountered.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki's Context Dilemma
+
 ## Claim
 
 Anki has a context problem. A card can never convey the complete feel of a word. Even with images, audio, and cloze deletions, much of the lived context is missing: emotion, situation, and the minutes before and after.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Immersion Consolidates Concepts Best in a Learning Loop
+
 ## Claim
 
 Immersion consolidates concepts best in a learning loop that lets the same material return through several modes.

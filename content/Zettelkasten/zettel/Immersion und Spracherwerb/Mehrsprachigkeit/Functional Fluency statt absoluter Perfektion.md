@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Functional Fluency statt absoluter Perfektion
+
 ## Claim
 
 functional fluency is, being fluent in those areas of a language (cultural communication forms) , that you need for your life. 

@@ -1,0 +1,24 @@
+{
+  "name": "@moritzvitt/quartz-svg-viewer",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "quartz": {
+    "name": "svg-viewer",
+    "displayName": "SVG Viewer",
+    "category": "transformer",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 67,
+    "defaultOptions": {}
+  }
+}

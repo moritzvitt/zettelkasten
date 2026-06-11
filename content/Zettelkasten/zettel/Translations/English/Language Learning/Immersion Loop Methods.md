@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Immersion Loop Methods
+
 ## Claim
 
 Immersion-loop methods deliberately bring vocabulary and structures back across connected activities: watching, reading, listening again, reviewing a learning list, retelling, shadowing, or using the material in conversation.

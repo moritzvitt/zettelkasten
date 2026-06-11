@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Monolingual Nature of Experience Deepens Immersion
+
 ## Claim
 
 Immersion becomes denser when the target language is not constantly routed through translation, but serves as the medium of understanding itself.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Moral Hazard
+
 ## Claim
 
 Moral Hazard entsteht, wenn jemand über ein Risiko entscheidet, aber die Folgen nicht vollständig selbst trägt.

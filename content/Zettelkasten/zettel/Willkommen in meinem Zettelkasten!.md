@@ -7,7 +7,7 @@ aliases:
 tags:
   - zettel
 ---
-Hallo, ich bin Moritz 🙋🏻‍♂️.
+# Willkommen in meinem Zettelkasten!
 
 Irgendwie hast du es in meinen Zettelkasten geschafft!
 
@@ -15,17 +15,10 @@ Hier findest du meine Gedanken zu Sprache, Lernen, Anki, Immersion, Kommunikatio
 
 Ich freue mich sehr, wenn du mitarbeitest. Ein Zettelkasten wird besser, wenn andere Menschen Begriffe schärfen, Gegenbeispiele finden, Quellen ergänzen oder einfach sagen: "Hier verstehe ich den Gedanken anders."
 
-## Ohne GitHub mitmachen
-
-Auf jeder Zettelseite gibt es den Bereich "Mitmachen". Dort kannst du direkt eine Verbesserung vorschlagen oder einen eigenen Zettel einreichen. Das braucht kein GitHub-Konto und kein Markdown-Wissen.
-
-Die Einreichungen werden nicht automatisch veröffentlicht. Sie landen erst als Vorschlag bei mir, damit keine Spam-, Urheberrechts- oder Sicherheitsprobleme entstehen.
-
 ## Lokal mit Obsidian arbeiten
 
 Wenn du den Zettelkasten selbst erkunden oder bearbeiten willst, kannst du die Markdown-Dateien lokal öffnen:
 
-- [GitHub-Repository klonen](https://github.com/moritzvitt/zettelkasten)
 - [Repository als ZIP herunterladen](https://github.com/moritzvitt/zettelkasten/archive/refs/heads/v5.zip)
 - [Markdown-Ordner ansehen](https://github.com/moritzvitt/zettelkasten/tree/v5/content)
 

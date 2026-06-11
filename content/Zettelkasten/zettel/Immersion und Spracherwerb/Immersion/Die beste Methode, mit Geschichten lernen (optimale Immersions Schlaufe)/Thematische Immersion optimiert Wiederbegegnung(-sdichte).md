@@ -10,6 +10,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Thematische Immersion optimiert Wiederbegegnung(-sdichte)
+
 ## Claim
 
 Der größte Vorteil thematischer Immersion Wiederbegegnung.
@@ -45,7 +47,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Häufigkeitslisten lösen das Problem nicht]], [[Immersion-Loop Methoden]], [[Video, Vokabeln, Repeat - Methode]], [[2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[Lernlisten]], [[Vokabeln]], [[Repeat - Methode]], [[SRS und Lernlisten]]
+Friend:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/häufigkeitslisten-lösen-das-problem-nicht|Häufigkeitslisten lösen das Problem nicht]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden|Immersion-Loop Methoden]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/video,-vokabeln,-repeat---methode|Video, Vokabeln, Repeat - Methode]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten|2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[Lernlisten]], [[Vokabeln]], [[Repeat - Methode]], [[SRS und Lernlisten]]
 
 ## Tags
 #language-learning

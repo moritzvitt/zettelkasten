@@ -1,10 +1,12 @@
 ---
-title: "Card Retirement"
+title: "Karten Retirement"
 source: "Digital Garden/Zettelkasten/zettel/Immersion und Spracherwerb/Anki für's Sprachen lernen/Grundmodell/Karten Retirement.md"
 publish: true
 tags:
   - zettel
 ---
+# Karten Retirement
+
 ## Claim
 
 nach einem Jahr sollten Karten durch Immersion gelernt sein. 

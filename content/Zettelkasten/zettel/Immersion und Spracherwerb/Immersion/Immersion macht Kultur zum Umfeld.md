@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Immersion macht Kultur zum Umfeld
+
 ## Claim
 
 Immersion bedeutet, eine Sprache nicht nur als Lernstoff zu behandeln, sondern als Umfeld. Man bewegt sich in einem Kommunikationsmedium, einer Kultur und Informationsnetzwerk, in dem Bedeutung, Klang, Register, typische Situationen und Weltwissen gemeinsam auftreten.[^source-notes]
@@ -29,9 +31,9 @@ So entsteht Sprachgefühl nicht nur aus Regeln und Vokabeln, sondern aus wiederh
 ## Links
 
 Prev::
-Next:: [[Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/verständlichkeit-vs-aufmerksamkeit---auswahl-der-materialien-für-immersion|Verständlichkeit vs Aufmerksamkeit - Auswahl der Materialien für Immersion]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/getting-ready-for-immersion---einen-grundwortschatz-aufbauen|Getting Ready for Immersion - einen Grundwortschatz aufbauen]]
 Parent::
-Child:: [[Einsprachigkeit der Erfahrung verdichtet Immersion]], 
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/einsprachigkeit-der-erfahrung-verdichtet-immersion|Einsprachigkeit der Erfahrung verdichtet Immersion]], 
 Friend::
 
 ## Tags

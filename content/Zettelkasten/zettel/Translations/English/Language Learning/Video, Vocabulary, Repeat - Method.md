@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Video, Vocabulary, Repeat - Method
+
 ## Claim
 
 The "video, vocabulary, repeat" method turns one piece of media into a short immersion loop: watch for meaning, collect useful vocabulary, and revisit the video while those words are still fresh.

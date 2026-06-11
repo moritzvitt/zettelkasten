@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Frequency Lists Do Not Solve the Problem
+
 ## Claim
 
 Frequency lists show global word frequency, not actual relevance within your own input.

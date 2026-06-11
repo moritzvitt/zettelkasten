@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Holding Company (Denmark)
+
 ## Claim
 
 A Danish holding-company structure can organize ownership so that a company is not simply treated as freely liquidatable private property.

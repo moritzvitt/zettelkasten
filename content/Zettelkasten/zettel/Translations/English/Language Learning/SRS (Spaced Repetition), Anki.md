@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# SRS (Spaced Repetition), Anki
+
 ## Claim
 
 Spaced repetition schedules reviews near the point at which a memory would otherwise become inaccessible. Anki is a practical implementation of this principle.

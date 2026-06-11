@@ -1,19 +1,21 @@
 ---
-title: "Sustainable Constitution"
+title: "index"
 source: "Digital Garden/Zettelkasten/zettel/Translations/English/Sustainable Constitution/index.md"
 publish: true
 tags:
   - zettel
 ---
+# index
+
 # Sustainable Constitution
 
 English translations of the published notes on sustainability, ownership, incentives, externalities, and institutional alternatives.
 
 ## Entry Points
 
-- [[Sustainability]]
-- [[We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us]]
-- [[Incentive Problems]]
-- [[Moral Hazard Under Limited Liability]]
-- [[Extreme Wealth Concentration Is Also Ownership Concentration]]
-- [[Digital Garden/Zettelkasten/zettel/Translations/English/Sustainable Constitution/Purpose GmbH]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/sustainability|Sustainability]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/we-create-externalities-for-our-environment,-and-our-environment-creates-externalities-for-us|We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/incentive-problems|Incentive Problems]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/moral-hazard-under-limited-liability|Moral Hazard Under Limited Liability]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/extreme-wealth-concentration-is-also-ownership-concentration|Extreme Wealth Concentration Is Also Ownership Concentration]]
+- [[zettelkasten/zettel/translations/english/sustainable-constitution/purpose-gmbh|Purpose GmbH]]

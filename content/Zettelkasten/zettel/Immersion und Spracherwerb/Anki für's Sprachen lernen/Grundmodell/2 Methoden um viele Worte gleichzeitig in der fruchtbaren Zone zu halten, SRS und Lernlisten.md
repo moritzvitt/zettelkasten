@@ -14,6 +14,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# 2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten
+
 ## Claim
 
 Spaced Repetition ist optimal geeignet, um viele Worte gleichzeitig für längere Zeit in der fruchtbaren Zone zu halten.
@@ -32,10 +34,10 @@ Anki bedeutet nicht, dass Wörter perfekt gelernt werden. Es bereitet den Boden,
 %%
 ## Links
 
-Prev:: [[Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]]
-Next:: [[Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[Immersion festigt Konzepte am besten in einer Lernschlaufe]]
-Parent:: [[Die Rolle von SRS; Immersion vorbereiten]], [[Immersion-Loop Methoden]]
-Child:: [[Anki ist kein Wissensspeicher]], [[Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[Prinzip der minimalen Information macht Wiederholungen planbar]]
+Prev:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-fruchtbare-zone;-sprachkonzepte-im-lernbaren-zustand|Die Fruchtbare Zone; Sprachkonzepte im lernbaren Zustand]]
+Next:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/das-ziel-einer-ankikarte-ist-nur,-ein-vages-gefühl-von-wiedererkennung-in-der-immersion-auszulösen|Das Ziel einer Ankikarte ist nur, ein vages Gefühl von Wiedererkennung in der Immersion auszulösen]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-festigt-konzepte-am-besten-in-einer-lernschlaufe|Immersion festigt Konzepte am besten in einer Lernschlaufe]]
+Parent:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/die-rolle-von-srs;-immersion-vorbereiten|Die Rolle von SRS; Immersion vorbereiten]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/immersion-loop-methoden|Immersion-Loop Methoden]]
+Child:: [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/anki-ist-kein-wissensspeicher|Anki ist kein Wissensspeicher]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/anki's-probleme-fürs-sprachenlernen/anki-kostet-zeit⏳-und-aufmerksamkeit-🧠|Anki kostet Zeit⏳ und Aufmerksamkeit 🧠]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/prinzipien-für-eine-gute-vokabelkarte/prinzip-der-minimalen-information-macht-wiederholungen-planbar|Prinzip der minimalen Information macht Wiederholungen planbar]]
 Friend::
 
 ## Tags

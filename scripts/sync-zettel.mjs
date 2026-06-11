@@ -1,4 +1,4 @@
-import { access, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
+import { access, copyFile, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
 import path from "node:path"
 import YAML from "yaml"
 import {
@@ -29,13 +29,13 @@ try {
   process.exit(0)
 }
 
-async function walk(dir) {
+async function walkFiles(dir) {
   const entries = await readdir(dir, { withFileTypes: true })
   const files = []
   for (const entry of entries) {
     const full = path.join(dir, entry.name)
-    if (entry.isDirectory()) files.push(...(await walk(full)))
-    if (entry.isFile() && entry.name.endsWith(".md")) files.push(full)
+    if (entry.isDirectory()) files.push(...(await walkFiles(full)))
+    if (entry.isFile()) files.push(full)
   }
   return files
 }
@@ -85,7 +85,6 @@ function customOutputPath(file, data) {
 function outputPath(file, data) {
   const customPath = customOutputPath(file, data)
   if (customPath) return customPath
-  if (file === homepageSource) return path.basename(file)
   return path.relative(digitalGardenRoot, file)
 }
 
@@ -106,6 +105,14 @@ function cleanTitle(value) {
     .trim()
 }
 
+function cleanTargetPath(value) {
+  return value
+    .replace(/^LLM Wiki\/workspace\/bin\//, "")
+    .replace(/^LLM Wiki\/notes\/zettel\//, "")
+    .replace(/^Digital Garden\//, "")
+    .replace(/\.md$/, "")
+}
+
 function wikiLinks(text) {
   const result = []
   const rx = /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g
@@ -115,6 +122,20 @@ function wikiLinks(text) {
 
 function allWikiLinks(text) {
   return [...new Set(wikiLinks(text))]
+}
+
+const embeddableAssetExtensions = new Set([".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"])
+
+function embeddedAssets(text) {
+  const result = []
+  const rx = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g
+  for (const match of text.matchAll(rx)) {
+    const target = match[1].trim()
+    if (embeddableAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
+      result.push(target)
+    }
+  }
+  return [...new Set(result)]
 }
 
 function excerpt(text) {
@@ -132,6 +153,18 @@ function excerpt(text) {
     .join(" ")
     .slice(0, 220)
     .trimEnd()
+}
+
+function rewriteWikiLinks(text, note, resolve) {
+  return text.replace(
+    /(!?)\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
+    (match, embed, target, anchor = "", label) => {
+      if (embed) return match
+      const slug = resolve(note, target)
+      if (!slug) return match
+      return `[[${slug}${anchor}|${label || cleanTitle(target)}]]`
+    },
+  )
 }
 
 const passthroughFrontmatterKeys = [
@@ -320,7 +353,16 @@ function buildBrainIndex(notes) {
 await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
 
-const files = await walk(digitalGardenRoot)
+const sourceFiles = await walkFiles(digitalGardenRoot)
+const files = sourceFiles.filter((file) => file.endsWith(".md"))
+const assetsByName = new Map()
+for (const file of sourceFiles) {
+  const ext = path.extname(file).toLocaleLowerCase("de")
+  if (!embeddableAssetExtensions.has(ext)) continue
+  const name = path.basename(file)
+  if (!assetsByName.has(name)) assetsByName.set(name, file)
+}
+
 const rawNotes = []
 let skipped = 0
 for (const file of files) {
@@ -341,6 +383,7 @@ for (const file of files) {
     relations: parsedRelationships.byType,
     relationships: parsedRelationships.relationships,
     wikiLinks: allWikiLinks(text),
+    embeddedAssets: embeddedAssets(text),
     excerpt: excerpt(text),
     frontmatter: data,
   })
@@ -369,7 +412,13 @@ const lookupByLanguage = new Map(
     },
   ]),
 )
+const slugSet = new Set(rawNotes.map((note) => graphPath(note)))
 const resolve = (note, target) => {
+  if (target.includes("/")) {
+    const explicitSlug = slugPath(cleanTargetPath(target))
+    if (slugSet.has(explicitSlug)) return explicitSlug
+  }
+
   const lookup = lookupByLanguage.get(languageGroup(note))
   return (
     lookup?.titleToPath.get(cleanTitle(target)) ||
@@ -398,7 +447,7 @@ for (const note of rawNotes) {
 for (const note of rawNotes) {
   const out = path.join(contentRoot, note.rel)
   await mkdir(path.dirname(out), { recursive: true })
-  const body = stripFrontmatter(note.text)
+  const body = rewriteWikiLinks(stripFrontmatter(note.text), note, resolve)
   const sourcePath = path.relative(vaultRoot, note.file)
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
@@ -414,6 +463,19 @@ for (const note of rawNotes) {
       passthroughFrontmatter(note.frontmatter),
     ) + body.trim() + "\n",
   )
+}
+
+for (const note of rawNotes) {
+  for (const target of note.embeddedAssets) {
+    const source = assetsByName.get(path.basename(target))
+    if (!source) {
+      console.warn(`Missing embedded asset ${target} referenced by ${path.relative(vaultRoot, note.file)}`)
+      continue
+    }
+    const destination = path.join(contentRoot, note.relDir, path.basename(target))
+    await mkdir(path.dirname(destination), { recursive: true })
+    await copyFile(source, destination)
+  }
 }
 
 const folders = new Map()

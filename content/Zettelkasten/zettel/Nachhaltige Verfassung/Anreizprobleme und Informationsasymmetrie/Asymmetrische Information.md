@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Asymmetrische Information
+
 ## Claim
 
 Asymmetrische Information entsteht, wenn eine Seite einer Beziehung relevante Dinge weiss, die die andere Seite nicht sehen oder nicht sinnvoll prüfen kann.

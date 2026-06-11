@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Input First - Building a Feel for the Language
+
 ## Claim
 
 Input-first immersion does not claim that output is unimportant. It claims that output should not become the main engine too early, because production without an internal language model easily turns into translation and faulty habits.[^source-notes]

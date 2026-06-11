@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Nachhaltigkeit
+
 ## Claim
 
 Nachhaltigkeit bedeutet, so zu leben und zu wirtschaften, dass die Grundlagen dieses Lebens nicht verbraucht werden.
