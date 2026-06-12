@@ -133,7 +133,19 @@ plugins:
       filterFn: |
         (node) => {
           if (node.slugSegment === "tags") return false
-          return true
+
+          const currentSlug = document.body?.dataset?.slug ?? ""
+          const focusedFolder = ["japanese", "zettelkasten"].find(
+            (folder) => currentSlug === `${folder}/index` || currentSlug.startsWith(`${folder}/`),
+          )
+
+          if (!focusedFolder) return true
+
+          return (
+            node.slugSegment === focusedFolder ||
+            node.slug === `${focusedFolder}/index` ||
+            node.slugSegments?.[0] === focusedFolder
+          )
         }
     layout:
       position: left
@@ -162,6 +174,7 @@ plugins:
     layout:
       position: right
       priority: 10
+      condition: not-japanese
   - source: ./plugins/structured-brain
     enabled: true
     options:
