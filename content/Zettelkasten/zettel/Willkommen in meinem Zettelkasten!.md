@@ -2,8 +2,6 @@
 title: "Willkommen in meinem Zettelkasten!"
 source: "Digital Garden/Zettelkasten/zettel/Willkommen in meinem Zettelkasten!.md"
 publish: true
-aliases:
-  - "index"
 tags:
   - zettel
 ---

@@ -1,0 +1,264 @@
+(function () {
+  function initPixelHomepage() {
+    const teapot = document.querySelector(".teapot-button");
+    const zettel = document.querySelector("[aria-label='Zettelhaufen']");
+    const objects = document.querySelectorAll(".object-button");
+    const teapotSprite = document.querySelector(".teapot-sprite");
+    const zettelSprite = document.querySelector(".zettel-sprite");
+
+    if (!teapot || !zettel || !teapotSprite || !zettelSprite) {
+      return;
+    }
+
+    if (teapot.dataset.pixelReady === "true" && zettel.dataset.pixelReady === "true") {
+      return;
+    }
+
+    teapot.dataset.pixelReady = "true";
+    zettel.dataset.pixelReady = "true";
+
+    const teapotContext = teapotSprite.getContext("2d");
+    const teapotSheet = new Image();
+    const zettelContext = zettelSprite.getContext("2d");
+    const zettelSheet = new Image();
+    const teapotFrameWidth = 44;
+    const teapotFrameHeight = 45;
+    const zettelFrameWidth = 84;
+    const zettelFrameHeight = 81;
+    const frameDuration = 90;
+    const teapotEscapeStep = 150;
+    let teapotFrameCount = 1;
+    let zettelFrameCount = 1;
+    let teapotFrameTimer;
+    let teapotWalkTimer;
+    let zettelFrameTimer;
+    let zettelHoverPlayed = false;
+    let teapotClickCount = 0;
+    let teapotWalkX = 0;
+    let teapotFacing = 1;
+    let teapotState = "idle";
+    let teapotBusy = false;
+
+    function showTeapotFrame(frame) {
+      teapotContext.clearRect(0, 0, teapotFrameWidth, teapotFrameHeight);
+      teapotContext.drawImage(
+        teapotSheet,
+        frame * teapotFrameWidth,
+        0,
+        teapotFrameWidth,
+        teapotFrameHeight,
+        0,
+        0,
+        teapotFrameWidth,
+        teapotFrameHeight
+      );
+    }
+
+    function showZettelFrame(frame) {
+      zettelContext.clearRect(0, 0, zettelFrameWidth, zettelFrameHeight);
+      zettelContext.drawImage(
+        zettelSheet,
+        frame * zettelFrameWidth,
+        0,
+        zettelFrameWidth,
+        zettelFrameHeight,
+        0,
+        0,
+        zettelFrameWidth,
+        zettelFrameHeight
+      );
+    }
+
+    function playTeapotAnimation() {
+      if (!teapotSheet.complete || teapotFrameCount < 2) {
+        return;
+      }
+
+      clearInterval(teapotFrameTimer);
+
+      let frame = 1;
+      showTeapotFrame(frame);
+      teapotFrameTimer = window.setInterval(() => {
+        frame += 1;
+        showTeapotFrame(frame);
+
+        if (frame === teapotFrameCount - 1) {
+          clearInterval(teapotFrameTimer);
+        }
+      }, frameDuration);
+    }
+
+    function updateTeapotTransform() {
+      teapotSprite.style.transform = `translateX(${teapotWalkX}px) scaleX(${teapotFacing})`;
+    }
+
+    function waitForTeapot(ms) {
+      return new Promise((resolve) => {
+        teapotWalkTimer = window.setTimeout(resolve, ms);
+      });
+    }
+
+    function getTeapotMoveFrames() {
+      const frames = [];
+      const firstHoldFrame = Math.max(0, teapotFrameCount - 3);
+
+      for (let frame = 0; frame < firstHoldFrame; frame += 1) {
+        frames.push(frame);
+      }
+
+      return frames;
+    }
+
+    function getTeapotHoldFrames() {
+      return [
+        teapotFrameCount - 3,
+        teapotFrameCount - 2,
+        teapotFrameCount - 1
+      ].filter((frame) => frame >= 0);
+    }
+
+    async function runTeapotStep(direction, distance) {
+      clearInterval(teapotFrameTimer);
+      clearTimeout(teapotWalkTimer);
+      teapotFacing = direction;
+
+      const moveFrames = getTeapotMoveFrames();
+      if (moveFrames.length === 0) {
+        return;
+      }
+
+      const distancePerFrame = distance / moveFrames.length;
+
+      for (const frame of moveFrames) {
+        teapotWalkX += direction * distancePerFrame;
+        showTeapotFrame(frame);
+        updateTeapotTransform();
+        await waitForTeapot(frameDuration);
+      }
+
+      for (const frame of getTeapotHoldFrames()) {
+        showTeapotFrame(frame);
+        updateTeapotTransform();
+        await waitForTeapot(frameDuration);
+      }
+
+      showTeapotFrame(0);
+    }
+
+    async function evadeTeapot(event) {
+      if (teapotState !== "settled" || teapotBusy) {
+        return;
+      }
+
+      teapotBusy = true;
+      const spriteBox = teapotSprite.getBoundingClientRect();
+      const cursorX = event.clientX ?? spriteBox.left + spriteBox.width / 2;
+      const centerX = spriteBox.left + spriteBox.width / 2;
+      const direction = cursorX < centerX ? 1 : -1;
+
+      await runTeapotStep(direction, teapotEscapeStep);
+      teapotBusy = false;
+    }
+
+    function handleTeapotClick(event) {
+      if (teapotBusy) {
+        return;
+      }
+
+      if (teapotState === "settled") {
+        evadeTeapot(event);
+        return;
+      }
+
+      teapotClickCount += 1;
+
+      if (teapotClickCount >= 2) {
+        teapot.classList.add("is-walking-away");
+        teapotState = "settled";
+        evadeTeapot(event);
+        return;
+      }
+
+      playTeapotAnimation();
+    }
+
+    function playZettelAnimation() {
+      if (!zettelSheet.complete || zettelFrameCount < 2) {
+        return;
+      }
+
+      clearInterval(zettelFrameTimer);
+
+      let frame = 1;
+      showZettelFrame(frame);
+      zettelFrameTimer = window.setInterval(() => {
+        frame += 1;
+        showZettelFrame(frame);
+
+        if (frame === zettelFrameCount - 1) {
+          clearInterval(zettelFrameTimer);
+        }
+      }, frameDuration);
+    }
+
+    function resetZettelAnimation() {
+      clearInterval(zettelFrameTimer);
+      showZettelFrame(0);
+    }
+
+    function playZettelAnimationOnFirstHover() {
+      if (zettelHoverPlayed) {
+        return;
+      }
+
+      zettelHoverPlayed = true;
+      playZettelAnimation();
+    }
+
+    function selectObject(event) {
+      objects.forEach((object) => object.classList.remove("is-selected"));
+      event.currentTarget.classList.add("is-selected");
+    }
+
+    teapot.addEventListener("click", handleTeapotClick);
+    teapot.addEventListener("mouseenter", evadeTeapot);
+    teapotSprite.addEventListener("mouseenter", evadeTeapot);
+    zettel.addEventListener("mouseenter", playZettelAnimationOnFirstHover);
+    zettel.addEventListener("mouseleave", resetZettelAnimation);
+    zettel.addEventListener("click", playZettelAnimation);
+    objects.forEach((object) => object.addEventListener("click", selectObject));
+    teapotSheet.addEventListener("load", () => {
+      teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth);
+      showTeapotFrame(0);
+    });
+    zettelSheet.addEventListener("load", () => {
+      zettelFrameCount = Math.floor(zettelSheet.naturalWidth / zettelFrameWidth);
+      showZettelFrame(0);
+    });
+    teapotSheet.src = "/pixel/teekanne.png";
+    zettelSheet.src = "/pixel/zettelhaufen.png";
+
+    if (typeof window.addCleanup === "function") {
+      window.addCleanup(() => {
+        clearInterval(teapotFrameTimer);
+        clearTimeout(teapotWalkTimer);
+        clearInterval(zettelFrameTimer);
+      });
+    }
+  }
+
+  window.initPixelHomepage = initPixelHomepage;
+
+  if (!window.__pixelHomepageRuntimeInstalled) {
+    window.__pixelHomepageRuntimeInstalled = true;
+    document.addEventListener("nav", initPixelHomepage);
+
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initPixelHomepage, { once: true });
+    } else {
+      initPixelHomepage();
+    }
+  } else {
+    initPixelHomepage();
+  }
+})();

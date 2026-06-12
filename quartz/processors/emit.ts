@@ -75,8 +75,12 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   // (e.g. sitemap, RSS, contentIndex.json used by the explorer sidebar).
   const contentWithVirtual =
     ctx.virtualPages.length > 0 ? [...content, ...ctx.virtualPages] : content
+  const finalEmitters = cfg.plugins.emitters.filter((e) => e.name === "PixelHomepage")
   const otherEmitters = cfg.plugins.emitters.filter(
-    (e) => e.name !== "PageTypeDispatcher" && e.name !== "ComponentResources",
+    (e) =>
+      e.name !== "PageTypeDispatcher" &&
+      e.name !== "ComponentResources" &&
+      !finalEmitters.includes(e),
   )
   let emitErrors = 0
   const counts = await Promise.all(
@@ -89,6 +93,10 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
     ),
   )
   emittedFiles += counts.reduce((sum, c) => sum + c, 0)
+
+  for (const emitter of finalEmitters) {
+    emittedFiles += await runEmitter(emitter, ctx, contentWithVirtual, staticResources, log)
+  }
 
   if (emitErrors > 0) {
     console.warn(

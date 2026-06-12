@@ -108,6 +108,9 @@ plugins:
       enableRSS: true
   - source: github:quartz-community/alias-redirects
     enabled: true
+  - source: ./plugins/pixel-homepage
+    enabled: true
+    order: 999
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image

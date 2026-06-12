@@ -321,8 +321,13 @@ async function rebuild(changes: ChangeEvent[], clientRefresh: () => void, buildD
     // Phase 2: Run all other emitters with content extended by virtual pages
     const contentWithVirtual =
       ctx.virtualPages.length > 0 ? [...processedFiles, ...ctx.virtualPages] : processedFiles
-    for (const emitter of cfg.plugins.emitters) {
-      if (emitter.name === "PageTypeDispatcher") continue
+    const finalEmitters = cfg.plugins.emitters.filter((emitter) => emitter.name === "PixelHomepage")
+    const otherEmitters = cfg.plugins.emitters.filter(
+      (emitter) =>
+        emitter.name !== "PageTypeDispatcher" &&
+        !finalEmitters.includes(emitter),
+    )
+    for (const emitter of [...otherEmitters, ...finalEmitters]) {
       // Try to use partialEmit if available, otherwise assume the output is static
       const emitFn = emitter.partialEmit ?? emitter.emit
       const emitted = await emitFn(ctx, contentWithVirtual, staticResources, changeEvents)

@@ -1,4 +1,6 @@
 import { createHash } from "crypto"
+import fs from "fs"
+import path from "path"
 import { FullSlug, joinSegments } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 
@@ -347,6 +349,10 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       const stylesheet = `@layer quartz-base {\n${quartzBase}\n}\n${customStyles}`
 
       const prescript = await joinScripts(componentResources.beforeDOMLoaded)
+      const pixelHomepageScript = path.join(process.cwd(), "pixel art website", "homepage.js")
+      if (fs.existsSync(pixelHomepageScript)) {
+        componentResources.afterDOMLoaded.push(fs.readFileSync(pixelHomepageScript, "utf8"))
+      }
 
       let postscript: string
       if (!useHashing) {

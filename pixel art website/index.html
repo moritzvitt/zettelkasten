@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moritz' Garden</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page-background: #ffffff;
+        --headline-color: #2f1b14;
+        --focus-color: #7f3b18;
+        --frame-color: #2f1b14;
+        background: var(--page-background);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        display: grid;
+        align-items: center;
+        min-height: 100vh;
+        overflow: auto;
+        background: var(--page-background);
+      }
+
+      .scene {
+        width: min(96vw, 1000px);
+        margin-left: clamp(20px, 7vw, 96px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: clamp(18px, 5vmin, 40px);
+      }
+
+      .headline {
+        margin: 0;
+        color: var(--headline-color);
+        font-family: "Courier New", Courier, monospace;
+        font-size: clamp(1.5rem, 7vmin, 4rem);
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .object-button {
+        place-items: center;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+      }
+
+      .teapot-card {
+        position: relative;
+        width: min(44vmin, 280px);
+        aspect-ratio: 1;
+      }
+
+      .teapot-button {
+        width: 100%;
+        height: 100%;
+        display: grid;
+      }
+
+      .item-row {
+        width: min(92vw, 960px);
+        display: grid;
+        grid-template-columns: minmax(96px, 150px) minmax(360px, 768px);
+        align-items: end;
+        justify-items: center;
+        gap: clamp(14px, 4vw, 40px);
+      }
+
+      .item-button {
+        width: min(24vmin, 150px);
+        aspect-ratio: 1;
+        display: grid;
+      }
+
+      .zettel-button {
+        width: 100%;
+        aspect-ratio: 84 / 81;
+      }
+
+      .zettel-button .item-stage {
+        aspect-ratio: 84 / 81;
+      }
+
+      .zettel-card {
+        position: relative;
+        width: min(72vw, 768px);
+        aspect-ratio: 84 / 81;
+      }
+
+      .object-button:focus-visible {
+        outline: 3px solid var(--focus-color);
+        outline-offset: 16px;
+      }
+
+      .teapot-stage,
+      .item-stage {
+        position: relative;
+        width: 100%;
+        aspect-ratio: 1;
+        display: grid;
+        place-items: center;
+      }
+
+      .teapot-stage::after,
+      .item-stage::after {
+        position: absolute;
+        inset: 0;
+        z-index: 3;
+        border: 1px solid var(--frame-color);
+        content: "";
+        pointer-events: none;
+      }
+
+      .study-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 5;
+        display: grid;
+        place-items: center;
+        width: 38px;
+        height: 38px;
+        background: #fff8e6;
+        color: var(--headline-color);
+        font-family: "Courier New", Courier, monospace;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0;
+        text-decoration: none;
+      }
+
+      .study-link::after {
+        position: absolute;
+        inset: 0;
+        border-top: 1px solid var(--frame-color);
+        border-right: 1px solid var(--frame-color);
+        border-left: 1px solid var(--frame-color);
+        border-bottom: 1px solid var(--frame-color);
+        content: "";
+        pointer-events: none;
+      }
+
+      .study-link:hover,
+      .study-link:focus-visible {
+        background: #ffe6aa;
+        outline: none;
+      }
+
+      .item-art {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        user-select: none;
+        -webkit-user-drag: none;
+      }
+
+      .item-sprite {
+        display: block;
+        width: 100%;
+        height: 100%;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+
+      .teapot-sprite {
+        display: block;
+        width: auto;
+        height: 100%;
+        aspect-ratio: 44 / 45;
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+        position: relative;
+        z-index: 1;
+        transform-origin: center;
+        will-change: transform;
+        cursor: pointer;
+      }
+
+      .object-button.is-selected:not(.is-walking-away):not(.teapot-button) {
+        transform: translateY(-4px);
+      }
+
+      @media (max-width: 640px) {
+        .scene {
+          width: 100%;
+          margin-left: 0;
+          padding: 0 18px;
+        }
+
+        .teapot-card {
+          width: min(62vmin, 250px);
+        }
+
+        .item-row {
+          width: 100%;
+          grid-template-columns: minmax(74px, 110px) minmax(180px, 1fr);
+          gap: 10px;
+        }
+
+        .item-button {
+          width: min(28vmin, 110px);
+        }
+
+        .zettel-button {
+          width: 100%;
+        }
+
+        .zettel-card {
+          width: min(72vw, 460px);
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <main class="scene">
+      <h1 class="headline">drink some tea!</h1>
+
+      <div class="teapot-card">
+        <button class="object-button teapot-button" type="button" aria-label="Teekanne">
+          <span class="teapot-stage" aria-hidden="true">
+            <canvas class="teapot-sprite" width="44" height="45"></canvas>
+          </span>
+        </button>
+        <a class="study-link" href="/japanese/" aria-label="Japanisch lernen">JP</a>
+      </div>
+
+      <div class="item-row" aria-label="Auswahl">
+        <a class="object-button item-button" href="/welcome-in-my-digital-garden!.html" aria-label="Digital Garden">
+          <span class="item-stage" aria-hidden="true">
+            <img class="item-art" src="/pixel/newspaper.png" alt="">
+          </span>
+        </a>
+
+        <div class="zettel-card">
+          <button class="object-button item-button zettel-button" type="button" aria-label="Zettelhaufen">
+            <span class="item-stage" aria-hidden="true">
+              <canvas class="item-sprite zettel-sprite" width="84" height="81"></canvas>
+            </span>
+          </button>
+          <a class="study-link" href="/zettelkasten/" aria-label="Zettelkasten öffnen">ZK</a>
+        </div>
+      </div>
+    </main>
+
+    <script src="/pixel/homepage.js" defer></script>
+  </body>
+</html>

@@ -452,14 +452,13 @@ for (const note of rawNotes) {
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
   ]
-  const aliases = note.file === homepageSource ? ["index"] : []
   await writeFile(
     out,
     frontmatter(
       note.title,
       sourcePath,
       graphLinks,
-      aliases,
+      [],
       passthroughFrontmatter(note.frontmatter),
     ) + body.trim() + "\n",
   )
