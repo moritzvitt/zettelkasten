@@ -1286,11 +1286,11 @@
         "zettel"
       ]
     },
-    "japanese/howl's-moving-castle": {
-      "slug": "japanese/howl's-moving-castle",
-      "title": "Howl's Moving Castle",
-      "source": "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004) [BluRay] [1080p] [YTS.AM]/Howl's Moving Castle.md",
-      "url": "/japanese/howl's-moving-castle",
+    "japanese/jp-movie-004": {
+      "slug": "japanese/jp-movie-004",
+      "title": "jp-movie-004",
+      "source": "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004)/jp-movie-004.md",
+      "url": "/japanese/jp-movie-004",
       "tags": [
         "zettel"
       ]
@@ -1300,6 +1300,15 @@
       "title": "Ocean Waves",
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
       "url": "/japanese/海が聞こえる",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "japanese/only-yesterday": {
+      "slug": "japanese/only-yesterday",
+      "title": "Only Yesterday",
+      "source": "Digital Garden/media-lib/Media/Japanese/movies/Only Yesterday (1991)/Only Yesterday.md",
+      "url": "/japanese/only-yesterday",
       "tags": [
         "zettel"
       ]

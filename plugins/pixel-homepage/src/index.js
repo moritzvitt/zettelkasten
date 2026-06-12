@@ -1,7 +1,16 @@
 import { copyFile, mkdir, readFile, rm, writeFile } from "node:fs/promises"
 import path from "node:path"
 
-const assets = ["homepage.js", "newspaper.png", "sakura_cup.png", "teekanne.png", "zettelhaufen.png"]
+const assets = [
+  "homepage.js",
+  "koi10.png",
+  "koi-water-sound.m4a",
+  "newspaper.png",
+  "sakura_cup.png",
+  "teekanne.png",
+  "teapot-hop-sound.mp3",
+  "zettelhaufen.png",
+]
 
 async function installPixelHomepage(ctx) {
   const root = process.cwd()

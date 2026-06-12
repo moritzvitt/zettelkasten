@@ -1,46 +1,154 @@
-(function () {
+;(function () {
   function initPixelHomepage() {
-    const teapot = document.querySelector(".teapot-button");
-    const zettel = document.querySelector("[aria-label='Zettelhaufen']");
-    const objects = document.querySelectorAll(".object-button");
-    const teapotSprite = document.querySelector(".teapot-sprite");
-    const zettelSprite = document.querySelector(".zettel-sprite");
+    const teapot = document.querySelector(".teapot-button")
+    const zettel = document.querySelector("[aria-label='Zettelhaufen']")
+    const objects = document.querySelectorAll(".object-button")
+    const teapotSprite = document.querySelector(".teapot-sprite")
+    const zettelSprite = document.querySelector(".zettel-sprite")
+    const garden = document.querySelector(".garden-button")
+    const waterTurbulence = document.querySelector("#garden-water-turbulence")
+    const waterDisplacement = document.querySelector("#garden-water-displacement")
 
     if (!teapot || !zettel || !teapotSprite || !zettelSprite) {
-      return;
+      return
     }
 
     if (teapot.dataset.pixelReady === "true" && zettel.dataset.pixelReady === "true") {
-      return;
+      return
     }
 
-    teapot.dataset.pixelReady = "true";
-    zettel.dataset.pixelReady = "true";
+    teapot.dataset.pixelReady = "true"
+    zettel.dataset.pixelReady = "true"
 
-    const teapotContext = teapotSprite.getContext("2d");
-    const teapotSheet = new Image();
-    const zettelContext = zettelSprite.getContext("2d");
-    const zettelSheet = new Image();
-    const teapotFrameWidth = 44;
-    const teapotFrameHeight = 45;
-    const zettelFrameWidth = 84;
-    const zettelFrameHeight = 81;
-    const frameDuration = 90;
-    const teapotEscapeStep = 150;
-    let teapotFrameCount = 1;
-    let zettelFrameCount = 1;
-    let teapotFrameTimer;
-    let teapotWalkTimer;
-    let zettelFrameTimer;
-    let zettelHoverPlayed = false;
-    let teapotClickCount = 0;
-    let teapotWalkX = 0;
-    let teapotFacing = 1;
-    let teapotState = "idle";
-    let teapotBusy = false;
+    const teapotContext = teapotSprite.getContext("2d")
+    const teapotSheet = new Image()
+    const zettelContext = zettelSprite.getContext("2d")
+    const zettelSheet = new Image()
+    const teapotFrameWidth = 44
+    const teapotFrameHeight = 45
+    const zettelFrameWidth = 84
+    const zettelFrameHeight = 81
+    const frameDuration = 90
+    const teapotEscapeStep = 150
+    let teapotFrameCount = 1
+    let zettelFrameCount = 1
+    let teapotFrameTimer
+    let teapotWalkTimer
+    let zettelFrameTimer
+    let zettelHoverPlayed = false
+    let teapotClickCount = 0
+    let teapotWalkX = 0
+    let teapotFacing = 1
+    let teapotState = "idle"
+    let teapotBusy = false
+    let teapotMoveSound
+    let waterAnimationFrame
+    let waterSound
+
+    function getTeapotMoveSound() {
+      if (!teapotMoveSound) {
+        teapotMoveSound = new Audio("/pixel/teapot-hop-sound.mp3")
+        teapotMoveSound.loop = true
+        teapotMoveSound.preload = "auto"
+        teapotMoveSound.volume = 0.42
+      }
+
+      return teapotMoveSound
+    }
+
+    function startTeapotMoveSound() {
+      const sound = getTeapotMoveSound()
+      sound.currentTime = 0
+      sound.play().catch(() => {})
+    }
+
+    function stopTeapotMoveSound() {
+      if (!teapotMoveSound) {
+        return
+      }
+
+      teapotMoveSound.pause()
+      teapotMoveSound.currentTime = 0
+    }
+
+    function getWaterSound() {
+      if (!waterSound) {
+        waterSound = new Audio("/pixel/koi-water-sound.m4a")
+        waterSound.loop = true
+        waterSound.preload = "auto"
+        waterSound.volume = 0.32
+      }
+
+      return waterSound
+    }
+
+    function setWaterFrame(time) {
+      if (!waterTurbulence || !waterDisplacement) {
+        return
+      }
+
+      const pulse = (Math.sin(time / 1450) + 1) / 2
+      const ripple = (Math.sin(time / 880) + 1) / 2
+      const xFrequency = 0.018 + pulse * 0.018
+      const yFrequency = 0.045 + ripple * 0.025
+      const displacement = 8 + pulse * 5
+
+      waterTurbulence.setAttribute(
+        "baseFrequency",
+        `${xFrequency.toFixed(3)} ${yFrequency.toFixed(3)}`,
+      )
+      waterDisplacement.setAttribute("scale", displacement.toFixed(2))
+    }
+
+    function animateWater(time) {
+      setWaterFrame(time)
+      waterAnimationFrame = window.requestAnimationFrame(animateWater)
+    }
+
+    function startWaterEffect() {
+      if (!garden) {
+        return
+      }
+
+      garden.classList.add("is-water-active")
+
+      if (!waterAnimationFrame) {
+        waterAnimationFrame = window.requestAnimationFrame(animateWater)
+      }
+
+      getWaterSound()
+        .play()
+        .catch(() => {})
+    }
+
+    function stopWaterEffect() {
+      if (!garden) {
+        return
+      }
+
+      garden.classList.remove("is-water-active")
+
+      if (waterAnimationFrame) {
+        window.cancelAnimationFrame(waterAnimationFrame)
+        waterAnimationFrame = undefined
+      }
+
+      if (waterTurbulence) {
+        waterTurbulence.setAttribute("baseFrequency", "0.018 0.045")
+      }
+
+      if (waterDisplacement) {
+        waterDisplacement.setAttribute("scale", "0")
+      }
+
+      if (waterSound) {
+        waterSound.pause()
+        waterSound.currentTime = 0
+      }
+    }
 
     function showTeapotFrame(frame) {
-      teapotContext.clearRect(0, 0, teapotFrameWidth, teapotFrameHeight);
+      teapotContext.clearRect(0, 0, teapotFrameWidth, teapotFrameHeight)
       teapotContext.drawImage(
         teapotSheet,
         frame * teapotFrameWidth,
@@ -50,12 +158,12 @@
         0,
         0,
         teapotFrameWidth,
-        teapotFrameHeight
-      );
+        teapotFrameHeight,
+      )
     }
 
     function showZettelFrame(frame) {
-      zettelContext.clearRect(0, 0, zettelFrameWidth, zettelFrameHeight);
+      zettelContext.clearRect(0, 0, zettelFrameWidth, zettelFrameHeight)
       zettelContext.drawImage(
         zettelSheet,
         frame * zettelFrameWidth,
@@ -65,200 +173,216 @@
         0,
         0,
         zettelFrameWidth,
-        zettelFrameHeight
-      );
+        zettelFrameHeight,
+      )
     }
 
     function playTeapotAnimation() {
       if (!teapotSheet.complete || teapotFrameCount < 2) {
-        return;
+        return
       }
 
-      clearInterval(teapotFrameTimer);
+      clearInterval(teapotFrameTimer)
 
-      let frame = 1;
-      showTeapotFrame(frame);
+      let frame = 1
+      showTeapotFrame(frame)
       teapotFrameTimer = window.setInterval(() => {
-        frame += 1;
-        showTeapotFrame(frame);
+        frame += 1
+        showTeapotFrame(frame)
 
         if (frame === teapotFrameCount - 1) {
-          clearInterval(teapotFrameTimer);
+          clearInterval(teapotFrameTimer)
         }
-      }, frameDuration);
+      }, frameDuration)
     }
 
     function updateTeapotTransform() {
-      teapotSprite.style.transform = `translateX(${teapotWalkX}px) scaleX(${teapotFacing})`;
+      teapotSprite.style.transform = `translateX(${teapotWalkX}px) scaleX(${teapotFacing})`
     }
 
     function waitForTeapot(ms) {
       return new Promise((resolve) => {
-        teapotWalkTimer = window.setTimeout(resolve, ms);
-      });
+        teapotWalkTimer = window.setTimeout(resolve, ms)
+      })
     }
 
     function getTeapotMoveFrames() {
-      const frames = [];
-      const firstHoldFrame = Math.max(0, teapotFrameCount - 3);
+      const frames = []
+      const firstHoldFrame = Math.max(0, teapotFrameCount - 3)
 
       for (let frame = 0; frame < firstHoldFrame; frame += 1) {
-        frames.push(frame);
+        frames.push(frame)
       }
 
-      return frames;
+      return frames
     }
 
     function getTeapotHoldFrames() {
-      return [
-        teapotFrameCount - 3,
-        teapotFrameCount - 2,
-        teapotFrameCount - 1
-      ].filter((frame) => frame >= 0);
+      return [teapotFrameCount - 3, teapotFrameCount - 2, teapotFrameCount - 1].filter(
+        (frame) => frame >= 0,
+      )
     }
 
     async function runTeapotStep(direction, distance) {
-      clearInterval(teapotFrameTimer);
-      clearTimeout(teapotWalkTimer);
-      teapotFacing = direction;
+      clearInterval(teapotFrameTimer)
+      clearTimeout(teapotWalkTimer)
+      teapotFacing = direction
 
-      const moveFrames = getTeapotMoveFrames();
+      const moveFrames = getTeapotMoveFrames()
       if (moveFrames.length === 0) {
-        return;
+        return
       }
 
-      const distancePerFrame = distance / moveFrames.length;
+      const distancePerFrame = distance / moveFrames.length
+      startTeapotMoveSound()
 
-      for (const frame of moveFrames) {
-        teapotWalkX += direction * distancePerFrame;
-        showTeapotFrame(frame);
-        updateTeapotTransform();
-        await waitForTeapot(frameDuration);
+      try {
+        for (const frame of moveFrames) {
+          teapotWalkX += direction * distancePerFrame
+          showTeapotFrame(frame)
+          updateTeapotTransform()
+          await waitForTeapot(frameDuration)
+        }
+
+        for (const frame of getTeapotHoldFrames()) {
+          showTeapotFrame(frame)
+          updateTeapotTransform()
+          await waitForTeapot(frameDuration)
+        }
+      } finally {
+        stopTeapotMoveSound()
       }
 
-      for (const frame of getTeapotHoldFrames()) {
-        showTeapotFrame(frame);
-        updateTeapotTransform();
-        await waitForTeapot(frameDuration);
-      }
-
-      showTeapotFrame(0);
+      showTeapotFrame(0)
     }
 
     async function evadeTeapot(event) {
       if (teapotState !== "settled" || teapotBusy) {
-        return;
+        return
       }
 
-      teapotBusy = true;
-      const spriteBox = teapotSprite.getBoundingClientRect();
-      const cursorX = event.clientX ?? spriteBox.left + spriteBox.width / 2;
-      const centerX = spriteBox.left + spriteBox.width / 2;
-      const direction = cursorX < centerX ? 1 : -1;
+      teapotBusy = true
+      const spriteBox = teapotSprite.getBoundingClientRect()
+      const cursorX = event.clientX ?? spriteBox.left + spriteBox.width / 2
+      const centerX = spriteBox.left + spriteBox.width / 2
+      const direction = cursorX < centerX ? 1 : -1
 
-      await runTeapotStep(direction, teapotEscapeStep);
-      teapotBusy = false;
+      await runTeapotStep(direction, teapotEscapeStep)
+      teapotBusy = false
     }
 
     function handleTeapotClick(event) {
       if (teapotBusy) {
-        return;
+        return
       }
 
       if (teapotState === "settled") {
-        evadeTeapot(event);
-        return;
+        evadeTeapot(event)
+        return
       }
 
-      teapotClickCount += 1;
+      teapotClickCount += 1
 
       if (teapotClickCount >= 2) {
-        teapot.classList.add("is-walking-away");
-        teapotState = "settled";
-        evadeTeapot(event);
-        return;
+        teapot.classList.add("is-walking-away")
+        teapotState = "settled"
+        evadeTeapot(event)
+        return
       }
 
-      playTeapotAnimation();
+      playTeapotAnimation()
     }
 
     function playZettelAnimation() {
       if (!zettelSheet.complete || zettelFrameCount < 2) {
-        return;
+        return
       }
 
-      clearInterval(zettelFrameTimer);
+      clearInterval(zettelFrameTimer)
 
-      let frame = 1;
-      showZettelFrame(frame);
+      let frame = 1
+      showZettelFrame(frame)
       zettelFrameTimer = window.setInterval(() => {
-        frame += 1;
-        showZettelFrame(frame);
+        frame += 1
+        showZettelFrame(frame)
 
         if (frame === zettelFrameCount - 1) {
-          clearInterval(zettelFrameTimer);
+          clearInterval(zettelFrameTimer)
         }
-      }, frameDuration);
+      }, frameDuration)
     }
 
     function resetZettelAnimation() {
-      clearInterval(zettelFrameTimer);
-      showZettelFrame(0);
+      clearInterval(zettelFrameTimer)
+      showZettelFrame(0)
     }
 
     function playZettelAnimationOnFirstHover() {
       if (zettelHoverPlayed) {
-        return;
+        return
       }
 
-      zettelHoverPlayed = true;
-      playZettelAnimation();
+      zettelHoverPlayed = true
+      playZettelAnimation()
     }
 
     function selectObject(event) {
-      objects.forEach((object) => object.classList.remove("is-selected"));
-      event.currentTarget.classList.add("is-selected");
+      objects.forEach((object) => object.classList.remove("is-selected"))
+      event.currentTarget.classList.add("is-selected")
     }
 
-    teapot.addEventListener("click", handleTeapotClick);
-    teapot.addEventListener("mouseenter", evadeTeapot);
-    teapotSprite.addEventListener("mouseenter", evadeTeapot);
-    zettel.addEventListener("mouseenter", playZettelAnimationOnFirstHover);
-    zettel.addEventListener("mouseleave", resetZettelAnimation);
-    zettel.addEventListener("click", playZettelAnimation);
-    objects.forEach((object) => object.addEventListener("click", selectObject));
+    teapot.addEventListener("click", handleTeapotClick)
+    teapot.addEventListener("mouseenter", evadeTeapot)
+    teapotSprite.addEventListener("mouseenter", evadeTeapot)
+    zettel.addEventListener("mouseenter", playZettelAnimationOnFirstHover)
+    zettel.addEventListener("mouseleave", resetZettelAnimation)
+    zettel.addEventListener("click", playZettelAnimation)
+    if (garden) {
+      garden.addEventListener("pointerenter", startWaterEffect)
+      garden.addEventListener("pointerleave", stopWaterEffect)
+      garden.addEventListener("mouseenter", startWaterEffect)
+      garden.addEventListener("mouseleave", stopWaterEffect)
+      garden.addEventListener("focus", startWaterEffect)
+      garden.addEventListener("blur", stopWaterEffect)
+      garden.addEventListener("pointerdown", () => {
+        getWaterSound().load()
+      })
+    }
+    objects.forEach((object) => object.addEventListener("click", selectObject))
     teapotSheet.addEventListener("load", () => {
-      teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth);
-      showTeapotFrame(0);
-    });
+      teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth)
+      showTeapotFrame(0)
+    })
     zettelSheet.addEventListener("load", () => {
-      zettelFrameCount = Math.floor(zettelSheet.naturalWidth / zettelFrameWidth);
-      showZettelFrame(0);
-    });
-    teapotSheet.src = "/pixel/teekanne.png";
-    zettelSheet.src = "/pixel/zettelhaufen.png";
+      zettelFrameCount = Math.floor(zettelSheet.naturalWidth / zettelFrameWidth)
+      showZettelFrame(0)
+    })
+    teapotSheet.src = "/pixel/teekanne.png"
+    zettelSheet.src = "/pixel/zettelhaufen.png"
 
     if (typeof window.addCleanup === "function") {
       window.addCleanup(() => {
-        clearInterval(teapotFrameTimer);
-        clearTimeout(teapotWalkTimer);
-        clearInterval(zettelFrameTimer);
-      });
+        clearInterval(teapotFrameTimer)
+        clearTimeout(teapotWalkTimer)
+        clearInterval(zettelFrameTimer)
+        stopTeapotMoveSound()
+        stopWaterEffect()
+      })
     }
   }
 
-  window.initPixelHomepage = initPixelHomepage;
+  window.initPixelHomepage = initPixelHomepage
 
   if (!window.__pixelHomepageRuntimeInstalled) {
-    window.__pixelHomepageRuntimeInstalled = true;
-    document.addEventListener("nav", initPixelHomepage);
+    window.__pixelHomepageRuntimeInstalled = true
+    document.addEventListener("nav", initPixelHomepage)
 
     if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", initPixelHomepage, { once: true });
+      document.addEventListener("DOMContentLoaded", initPixelHomepage, { once: true })
     } else {
-      initPixelHomepage();
+      initPixelHomepage()
     }
   } else {
-    initPixelHomepage();
+    initPixelHomepage()
   }
-})();
+})()

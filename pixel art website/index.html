@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="de">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Moritz' Garden</title>
     <style>
       :root {
@@ -27,7 +27,7 @@
 
       body {
         display: grid;
-        align-items: center;
+        place-items: center;
         min-height: 100vh;
         overflow: auto;
         background: var(--page-background);
@@ -35,7 +35,8 @@
 
       .scene {
         width: min(96vw, 1000px);
-        margin-left: clamp(20px, 7vw, 96px);
+        margin: 0 auto;
+        padding: clamp(18px, 4vmin, 40px) 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -76,11 +77,10 @@
       }
 
       .item-row {
-        width: min(92vw, 960px);
-        display: grid;
-        grid-template-columns: minmax(96px, 150px) minmax(360px, 768px);
-        align-items: end;
-        justify-items: center;
+        width: min(92vw, 768px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         gap: clamp(14px, 4vw, 40px);
       }
 
@@ -90,19 +90,61 @@
         display: grid;
       }
 
+      .garden-button {
+        width: min(44vmin, 280px);
+        overflow: hidden;
+      }
+
+      .garden-stage {
+        background: #071a25;
+      }
+
+      .garden-stage .item-art,
+      .garden-water {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      .garden-stage .item-art {
+        z-index: 1;
+        object-fit: cover;
+      }
+
+      .garden-water {
+        z-index: 2;
+        background:
+          radial-gradient(circle at 42% 46%, rgba(255, 255, 255, 0.22), transparent 5%),
+          linear-gradient(125deg, rgba(255, 255, 255, 0.16), transparent 38%),
+          url("/pixel/koi10.png") center / cover no-repeat;
+        filter: url("#garden-water-filter");
+        mix-blend-mode: screen;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 180ms ease;
+      }
+
+      .garden-button.is-water-active .garden-water,
+      .garden-button:hover .garden-water,
+      .garden-button:focus-visible .garden-water {
+        opacity: 0.46;
+      }
+
       .zettel-button {
         width: 100%;
-        aspect-ratio: 84 / 81;
+        height: 100%;
+        aspect-ratio: 1;
       }
 
       .zettel-button .item-stage {
-        aspect-ratio: 84 / 81;
+        aspect-ratio: 1;
       }
 
       .zettel-card {
         position: relative;
-        width: min(72vw, 768px);
-        aspect-ratio: 84 / 81;
+        width: min(44vmin, 280px);
+        aspect-ratio: 1;
       }
 
       .object-button:focus-visible {
@@ -182,6 +224,12 @@
         image-rendering: crisp-edges;
       }
 
+      .zettel-sprite {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 84 / 81;
+      }
+
       .teapot-sprite {
         display: block;
         width: auto;
@@ -207,13 +255,14 @@
           padding: 0 18px;
         }
 
-        .teapot-card {
+        .teapot-card,
+        .garden-button,
+        .zettel-card {
           width: min(62vmin, 250px);
         }
 
         .item-row {
           width: 100%;
-          grid-template-columns: minmax(74px, 110px) minmax(180px, 1fr);
           gap: 10px;
         }
 
@@ -221,18 +270,33 @@
           width: min(28vmin, 110px);
         }
 
+        .garden-button {
+          width: min(62vmin, 250px);
+        }
+
         .zettel-button {
           width: 100%;
         }
-
-        .zettel-card {
-          width: min(72vw, 460px);
-        }
       }
-
     </style>
   </head>
   <body>
+    <svg class="water-filter-source" width="0" height="0" aria-hidden="true" focusable="false">
+      <filter id="garden-water-filter" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence
+          id="garden-water-turbulence"
+          type="fractalNoise"
+          numOctaves="3"
+          seed="8"
+          baseFrequency="0.018 0.045"
+        ></feTurbulence>
+        <feDisplacementMap
+          id="garden-water-displacement"
+          scale="0"
+          in="SourceGraphic"
+        ></feDisplacementMap>
+      </filter>
+    </svg>
     <main class="scene">
       <h1 class="headline">drink some tea!</h1>
 
@@ -246,14 +310,23 @@
       </div>
 
       <div class="item-row" aria-label="Auswahl">
-        <a class="object-button item-button" href="/welcome-in-my-digital-garden!.html" aria-label="Digital Garden">
-          <span class="item-stage" aria-hidden="true">
-            <img class="item-art" src="/pixel/newspaper.png" alt="">
+        <a
+          class="object-button item-button garden-button"
+          href="/welcome-in-my-digital-garden!.html"
+          aria-label="Digital Garden"
+        >
+          <span class="item-stage garden-stage" aria-hidden="true">
+            <img class="item-art" src="/pixel/koi10.png" alt="" />
+            <span class="garden-water"></span>
           </span>
         </a>
 
         <div class="zettel-card">
-          <button class="object-button item-button zettel-button" type="button" aria-label="Zettelhaufen">
+          <button
+            class="object-button item-button zettel-button"
+            type="button"
+            aria-label="Zettelhaufen"
+          >
             <span class="item-stage" aria-hidden="true">
               <canvas class="item-sprite zettel-sprite" width="84" height="81"></canvas>
             </span>

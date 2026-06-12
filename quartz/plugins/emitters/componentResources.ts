@@ -491,7 +491,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
 
       ctx.extractedInlineResources = extractedInlineResources
 
-      const cssHash = useHashing ? hashContent(cssContent) : null
+      const cssHash = hashContent(cssContent)
       const prescriptHash = useHashing ? hashContent(prescript) : null
       const postscriptHash = useHashing ? hashContent(postscript) : null
 
