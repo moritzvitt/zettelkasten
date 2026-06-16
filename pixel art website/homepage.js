@@ -4,6 +4,7 @@
     const zettel = document.querySelector("[aria-label='Zettelhaufen']")
     const objects = document.querySelectorAll(".object-button")
     const teapotSprite = document.querySelector(".teapot-sprite")
+    const teacup = document.querySelector(".teacup-button")
     const zettelSprite = document.querySelector(".zettel-sprite")
     const garden = document.querySelector(".garden-button")
     const waterTurbulence = document.querySelector("#garden-water-turbulence")
@@ -272,6 +273,14 @@
       teapotSprite.style.transform = `translateX(${teapotWalkX}px) scaleX(${teapotFacing})`
     }
 
+    function showTeacup() {
+      teacup?.classList.add("is-visible")
+    }
+
+    function hideTeacup() {
+      teacup?.classList.remove("is-visible")
+    }
+
     function waitForTeapot(ms) {
       return new Promise((resolve) => {
         teapotWalkTimer = window.setTimeout(resolve, ms)
@@ -328,6 +337,34 @@
       showTeapotFrame(0)
     }
 
+    async function returnTeapot() {
+      if (teapotBusy || teapotWalkX === 0) {
+        return
+      }
+
+      teapotBusy = true
+      teapotState = "returning"
+      hideTeacup()
+
+      try {
+        while (Math.abs(teapotWalkX) > 1) {
+          const distance = Math.min(teapotEscapeStep, Math.abs(teapotWalkX))
+          const direction = teapotWalkX > 0 ? -1 : 1
+          await runTeapotStep(direction, distance)
+        }
+
+        teapotWalkX = 0
+        teapotFacing = 1
+        updateTeapotTransform()
+        showTeapotFrame(0)
+        teapot.classList.remove("is-walking-away")
+        teapotClickCount = 0
+        teapotState = "idle"
+      } finally {
+        teapotBusy = false
+      }
+    }
+
     async function evadeTeapot(event) {
       if (teapotState !== "settled" || teapotBusy) {
         return
@@ -339,6 +376,7 @@
       const centerX = spriteBox.left + spriteBox.width / 2
       const direction = cursorX < centerX ? 1 : -1
 
+      showTeacup()
       await runTeapotStep(direction, teapotEscapeStep)
       teapotBusy = false
     }
@@ -408,6 +446,7 @@
     teapot.addEventListener("click", handleTeapotClick)
     teapot.addEventListener("mouseenter", evadeTeapot)
     teapotSprite.addEventListener("mouseenter", evadeTeapot)
+    teacup?.addEventListener("click", returnTeapot)
     zettel.addEventListener("mouseenter", playZettelAnimationOnFirstHover)
     zettel.addEventListener("mouseleave", resetZettelAnimation)
     zettel.addEventListener("click", playZettelAnimation)

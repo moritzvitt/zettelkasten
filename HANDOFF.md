@@ -1,180 +1,63 @@
-# Handoff: Structured Brain for Quartz
+# Handoff
 
-## Goal
+## Current state
 
-Build an Excalibrain-like structured 2D graph for the Quartz Zettelkasten site without replacing Quartz's existing force-directed graph.
-
-The structured view should make typed note relationships visually explicit:
-
-- `Parent` above
-- `Child` below
-- `Prev` left
-- `Next` right
-- `Friend` lateral/below
-- inferred inverse relationships
-- optional sibling relationships
-
-## Repository
-
-- Project: `/Users/moritzvitt/src/zettelkasten-website`
+- Repository: `/Users/moritzvitt/src/zettelkasten-website`
 - Branch: `v5`
-- Last commit: `d8c2467 Add structured brain graph view`
-- Local site: `http://localhost:8091`
-- A static server is currently listening on port `8091`.
+- Last requested action completed: image reveal experiment was reverted, then the working tree was committed into coherent commits.
+- Latest completed verification: `npm run build` passed before the commits below.
 
-## Implemented
+## Recent commits
 
-### Structured Brain plugin
+- `cf390a0` Update published garden content
+- `eea7f37` Improve pixel homepage touch interactions
+- `f5069e7` Document website functions and plugins
 
-New local Quartz plugin:
+## Build notes
 
-`plugins/structured-brain/`
+`npm run build` completed successfully before the commits.
 
-Important files:
+Known warning during sync/build:
 
-- `plugins/structured-brain/src/components/StructuredBrain.js`
-- `plugins/structured-brain/package.json`
-- `plugins/structured-brain/scripts/build.mjs`
+- `Missing embedded asset 09C75808-C38F-411A-895F-9C2F30723E1D_4_5005_c.jpeg referenced by Digital Garden/Tea Garden/Things I made, I am proud of.md`
 
-The component:
+That warning did not fail the build.
 
-- renders in Quartz's `beforeBody` position in the main column
-- uses a deterministic SVG layout rather than a force simulation
-- has depth controls for levels 1, 2, and 3
-- defaults to depth 2
-- supports mouse-wheel zoom
-- supports click-and-drag panning on empty canvas space
-- supports node navigation by click or keyboard
-- has a fullscreen/modal view
-- keeps the existing light canvas color
+## Important context
 
-### Typed relationship index
+- The attempted "click last image to reveal the next image" behavior for `Things I made, I am proud of` was fully reverted.
+- There should be no remaining `image-reveal` plugin/config/script changes from that experiment.
+- A docs file was added at `docs/website-functions-and-plugins.md` to describe site functions and plugin purposes.
+- The content update commit added the `Things I made, I am proud of` page and many referenced image assets.
+- The pixel homepage commit improved touch/audio interactions in `pixel art website/homepage.js`.
 
-`scripts/sync-zettel.mjs` now generates:
+## Current uncommitted changes
 
-`quartz/static/brain-index.json`
+After the commits, the working tree became dirty again. At handoff creation time, `git status --short` showed:
 
-The index contains:
+- Modified generated/synced content, including `content/Welcome in my Digital Garden!.md`, `content/japanese/index.md`, and several Zettelkasten/Japanese notes.
+- Many deletions under `content/Zettelkasten/zettel/Translations/English/Language Learning/`.
+- Many deletions under `content/Zettelkasten/zettel/Translations/English/Sustainable Constitution/`.
+- New replacement folders under:
+  - `content/Zettelkasten/zettel/Translations/English/Immersion and Language Acquisition/`
+  - `content/Zettelkasten/zettel/Translations/English/Sustainable Constitution/Alternatives to the Stock Corporation/`
+  - `content/Zettelkasten/zettel/Translations/English/Sustainable Constitution/Incentive Problems and Information Asymmetry/`
+  - `content/Zettelkasten/zettel/Translations/English/Sustainable Constitution/Inequality, Wealth, Ownership/`
+  - `content/Zettelkasten/zettel/Translations/English/Sustainable Constitution/What Is Sustainability?/`
+- Modified pixel homepage files:
+  - `pixel art website/homepage.js`
+  - `pixel art website/index.html`
+  - `plugins/pixel-homepage/src/index.js`
+- Modified `quartz/static/brain-index.json`.
+- New untracked image/source files:
+  - `teatasse.png`
+  - `teekanne-original-Recovered-Sheet.aseprite`
 
-- published note nodes
-- explicit typed edges
-- inferred inverse edges
-- inferred sibling edges
+These current uncommitted changes were not inspected deeply or committed as part of this handoff.
 
-Supported relationship fields:
+## Suggested next steps
 
-- `Parent::`
-- `Child::`
-- `Prev::`
-- `Next::`
-- `Friend::`
-
-The relationship parser deliberately reads fields inside Obsidian `%%` comment blocks.
-
-### Quartz integration
-
-Changed:
-
-- `package.json`
-- `scripts/use-local-graph.mjs`
-- `quartz.config.yaml`
-
-The build pipeline builds and symlinks `structured-brain`.
-
-The Quartz table of contents and backlinks components are disabled.
-
-## Current uncommitted work
-
-After commit `d8c2467`, readability improvements were made but have not yet been committed:
-
-- graph height increased from 520px to 620px
-- node titles wrap to two lines
-- node dimensions adapt to title length
-- groups wrap vertically when horizontal space is insufficient
-- second-level nodes are placed near their first-level anchor instead of on one large ring
-- friends were moved farther below the center
-- inferred edges are visually quieter
-- overlap checks on the tested page report no node overlaps
-
-Files currently modified for this work:
-
-- `plugins/structured-brain/src/components/StructuredBrain.js`
-- `plugins/structured-brain/package.json`
-- `quartz.config.yaml`
-
-There are many unrelated generated/content changes in the working tree. Do not stage them accidentally.
-
-## Verification
-
-Successful command:
-
-```sh
-npm run build
-```
-
-The current structured-brain browser script passes:
-
-```sh
-node --check public/static/scripts/script-1-*.js
-```
-
-Verified page:
-
-`http://localhost:8091/anki-f%C3%BCr's-sprachen-lernen/anki's-probleme-f%C3%BCrs-sprachenlernen/anki-kostet-zeit%E2%8F%B3-und-aufmerksamkeit-%F0%9F%A7%A0`
-
-On that page:
-
-- SVG renders
-- 7 nodes render at depth 2
-- 11 edges render
-- labels use one or two lines
-- automated bounding-box inspection found no node overlaps
-
-## Next requested feature
-
-Add four Excalibrain-style relationship ports to every node:
-
-- top port
-- left port
-- right port
-- bottom port
-
-Edges should terminate at the appropriate port rather than at the center of the node.
-
-Recommended mapping:
-
-- `parent`: top
-- `child`: bottom
-- `prev`: left
-- `next`: right
-- `friend`: choose left/right based on the target's relative position
-- `sibling`: choose the nearest lateral port
-
-Implementation approach:
-
-1. Store the final node width and height alongside each node position.
-2. Add a `portFor(node, relationType, otherNode)` helper.
-3. Draw edges from source port to target inverse port.
-4. Render four small SVG circles after each node rectangle.
-5. Give ports relation-specific classes for subtle highlighting.
-6. Keep the ports visible but restrained on the light canvas.
-
-## Design reference
-
-The user supplied an Obsidian Excalibrain screenshot showing:
-
-- compact rectangular nodes
-- a clear highlighted center node
-- four small connection points around each node
-- lines attached to those ports
-- substantial spacing between hierarchy levels
-
-Do not change the canvas to the dark blue Obsidian color; the user explicitly asked to keep the current light canvas.
-
-## Cautions
-
-- Quartz is static; the graph index is generated at build time.
-- `quartz/static/brain-index.json` must remain tracked or otherwise copied into `public/static`, because deployments may not have access to the local Obsidian vault.
-- The site uses SPA navigation. Rebind/render on `nav` and `render` events.
-- Old browser console logs may contain stale `brain-index.json` errors from earlier builds; fresh tabs currently render correctly.
-- Preserve unrelated content changes in the dirty working tree.
+1. Run `git status --short` and inspect the new uncommitted changes.
+2. Decide whether the current content-folder changes are expected output from `npm run sync-zettel`.
+3. If they are expected, run `npm run build` again and commit them in a new content-sync commit.
+4. Review the pixel homepage changes separately before committing, since they appear to be a distinct feature/update from the content sync.

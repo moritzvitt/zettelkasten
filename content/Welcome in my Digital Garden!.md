@@ -15,9 +15,9 @@ The garden contains:
 - material for studying [[japanese/]],
 - [[Digital Garden/Zettelkasten/|Zettelkasten]] (with main focus areas on [[Language Learning.excalidraw.svg]] and [[Sustainability]])
 
-If you want to get into the theory of language learning, [[zettelkasten/zettel/translations/english/language-learning/language-acquisition|Language Acquisition]] is a good place to start. 
+If you want to get into the theory of language learning, [[zettelkasten/zettel/immersion-und-spracherwerb/language-acquisition|Language Acquisition]] is a good place to start. 
 
-If you want to use Anki more effectively (for studying a language), have a look at [[zettelkasten/zettel/translations/english/language-learning/srs-(spaced-repetition),-anki|SRS (Spaced Repetition), Anki]] 
+If you want to use Anki more effectively (for studying a language), have a look at [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/srs-(spaced-repetition),-anki|SRS (Spaced Repetition), Anki]] 
 
 One final note: the markdown files in this zettelkasten are public in https://github.com/moritzvitt/zettelkasten/tree/v5/content/Zettelkasten/zettel
 

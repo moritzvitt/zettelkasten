@@ -12,6 +12,8 @@ const assets = [
   "zettelhaufen.png",
 ]
 
+const rootAssets = ["teatasse.png"]
+
 async function installPixelHomepage(ctx) {
   const root = process.cwd()
   const sourceDir = path.join(root, "pixel art website")
@@ -27,12 +29,22 @@ async function installPixelHomepage(ctx) {
     emitted.push(dest)
   }
 
+  for (const asset of rootAssets) {
+    const dest = path.join(pixelDir, asset)
+    await copyFile(path.join(root, asset), dest)
+    emitted.push(dest)
+  }
+
   const html = await readFile(path.join(sourceDir, "index.html"), "utf8")
   const indexPath = path.join(outputDir, "index.html")
   await writeFile(indexPath, html)
   emitted.push(indexPath)
 
   for (const asset of assets) {
+    await rm(path.join(outputDir, asset), { force: true })
+  }
+
+  for (const asset of rootAssets) {
     await rm(path.join(outputDir, asset), { force: true })
   }
 

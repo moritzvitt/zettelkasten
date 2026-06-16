@@ -32,7 +32,7 @@ Prev::
 Next::
 Parent::
 Child::
-Friend:: [[Immersion bestimmt natürliche Wortgewichtung]], [[zettelkasten/zettel/translations/english/language-learning/functional-fluency|Functional Fluency]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten|2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)|Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[SRS und Lernlisten]]
+Friend:: [[Immersion bestimmt natürliche Wortgewichtung]], [[zettelkasten/zettel/immersion-und-spracherwerb/mehrsprachigkeit/functional-fluency|Functional Fluency]], [[zettelkasten/zettel/immersion-und-spracherwerb/anki-für's-sprachen-lernen/grundmodell/2-methoden-um-viele-worte-gleichzeitig-in-der-fruchtbaren-zone-zu-halten,-srs-und-lernlisten|2 Methoden um viele Worte gleichzeitig in der fruchtbaren Zone zu halten, SRS und Lernlisten]], [[zettelkasten/zettel/immersion-und-spracherwerb/immersion/die-beste-methode,-mit-geschichten-lernen-(optimale-immersions-schlaufe)/thematische-immersion-optimiert-wiederbegegnung(-sdichte)|Thematische Immersion optimiert Wiederbegegnung(-sdichte)]], [[SRS und Lernlisten]]
 
 ## Tags
 #language-learning #anki
