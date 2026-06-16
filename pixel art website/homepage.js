@@ -42,8 +42,12 @@
     let teapotState = "idle"
     let teapotBusy = false
     let teapotMoveSound
+    let teapotTapSound
     let waterAnimationFrame
     let waterSound
+    let gardenTapTimer
+    let gardenTapArmed = false
+    let gardenTouchClickUntil = 0
 
     function getTeapotMoveSound() {
       if (!teapotMoveSound) {
@@ -69,6 +73,23 @@
 
       teapotMoveSound.pause()
       teapotMoveSound.currentTime = 0
+    }
+
+    function getTeapotTapSound() {
+      if (!teapotTapSound) {
+        teapotTapSound = new Audio("/pixel/teapot-hop-sound.mp3")
+        teapotTapSound.loop = false
+        teapotTapSound.preload = "auto"
+        teapotTapSound.volume = 0.34
+      }
+
+      return teapotTapSound
+    }
+
+    function playTeapotTapSound() {
+      const sound = getTeapotTapSound()
+      sound.currentTime = 0
+      sound.play().catch(() => {})
     }
 
     function getWaterSound() {
@@ -147,6 +168,56 @@
       }
     }
 
+    function prepareAudio() {
+      getTeapotMoveSound().load()
+      getTeapotTapSound().load()
+      getWaterSound().load()
+    }
+
+    function playGardenTouchPreview() {
+      startWaterEffect()
+      window.clearTimeout(gardenTapTimer)
+      gardenTapTimer = window.setTimeout(() => {
+        gardenTapArmed = false
+        stopWaterEffect()
+      }, 1800)
+    }
+
+    function openGardenLink() {
+      if (!garden?.href) {
+        return
+      }
+
+      window.location.href = garden.href
+    }
+
+    function handleGardenPointerDown(event) {
+      prepareAudio()
+
+      if (event.pointerType !== "touch" && event.pointerType !== "pen") {
+        return
+      }
+
+      event.preventDefault()
+      gardenTouchClickUntil = Date.now() + 700
+
+      if (gardenTapArmed) {
+        window.clearTimeout(gardenTapTimer)
+        gardenTapArmed = false
+        openGardenLink()
+        return
+      }
+
+      gardenTapArmed = true
+      playGardenTouchPreview()
+    }
+
+    function handleGardenClick(event) {
+      if (gardenTapArmed || Date.now() < gardenTouchClickUntil) {
+        event.preventDefault()
+      }
+    }
+
     function showTeapotFrame(frame) {
       teapotContext.clearRect(0, 0, teapotFrameWidth, teapotFrameHeight)
       teapotContext.drawImage(
@@ -183,6 +254,7 @@
       }
 
       clearInterval(teapotFrameTimer)
+      playTeapotTapSound()
 
       let frame = 1
       showTeapotFrame(frame)
@@ -276,6 +348,8 @@
         return
       }
 
+      prepareAudio()
+
       if (teapotState === "settled") {
         evadeTeapot(event)
         return
@@ -344,9 +418,8 @@
       garden.addEventListener("mouseleave", stopWaterEffect)
       garden.addEventListener("focus", startWaterEffect)
       garden.addEventListener("blur", stopWaterEffect)
-      garden.addEventListener("pointerdown", () => {
-        getWaterSound().load()
-      })
+      garden.addEventListener("pointerdown", handleGardenPointerDown)
+      garden.addEventListener("click", handleGardenClick)
     }
     objects.forEach((object) => object.addEventListener("click", selectObject))
     teapotSheet.addEventListener("load", () => {
@@ -365,6 +438,7 @@
         clearInterval(teapotFrameTimer)
         clearTimeout(teapotWalkTimer)
         clearInterval(zettelFrameTimer)
+        window.clearTimeout(gardenTapTimer)
         stopTeapotMoveSound()
         stopWaterEffect()
       })
