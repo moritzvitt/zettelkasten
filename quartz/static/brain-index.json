@@ -11,8 +11,17 @@
     "messi-is-art": {
       "slug": "messi-is-art",
       "title": "Messi is Art",
-      "source": "Digital Garden/Messi is Art.md",
+      "source": "Digital Garden/Tea Garden/Messi is Art.md",
       "url": "/messi-is-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "things-i-made,-i-am-proud-of": {
+      "slug": "things-i-made,-i-am-proud-of",
+      "title": "Things I made, I am proud of",
+      "source": "Digital Garden/Tea Garden/Things I made, I am proud of.md",
+      "url": "/things-i-made,-i-am-proud-of",
       "tags": [
         "zettel"
       ]
@@ -1250,11 +1259,11 @@
         "zettel"
       ]
     },
-    "2026-05-31-neuer-japanisch-lernplan": {
-      "slug": "2026-05-31-neuer-japanisch-lernplan",
+    "japanese/2026-05-31-neuer-japanisch-lernplan": {
+      "slug": "japanese/2026-05-31-neuer-japanisch-lernplan",
       "title": "Japanisch Lernplan",
       "source": "Digital Garden/journal/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md",
-      "url": "/2026-05-31-neuer-japanisch-lernplan",
+      "url": "/japanese/2026-05-31-neuer-japanisch-lernplan",
       "tags": [
         "zettel"
       ]
@@ -1273,15 +1282,6 @@
       "title": "Excalidraw Data",
       "source": "Digital Garden/media-lib/Excalidraw/Language Learning.excalidraw.md",
       "url": "/language-learning.excalidraw",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "media-lib/excalidraw/untitled": {
-      "slug": "media-lib/excalidraw/untitled",
-      "title": "Untitled",
-      "source": "Digital Garden/media-lib/Excalidraw/Untitled.md",
-      "url": "/media-lib/excalidraw/untitled",
       "tags": [
         "zettel"
       ]
@@ -1313,11 +1313,11 @@
         "zettel"
       ]
     },
-    "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
-      "slug": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+    "japanese/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
+      "slug": "japanese/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
-      "url": "/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "url": "/japanese/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "tags": [
         "zettel"
       ]
