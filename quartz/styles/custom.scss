@@ -326,7 +326,7 @@ body[data-slug^="zettelkasten/"] {
   }
 }
 
-body[data-slug="japanese/index"] {
+body[data-slug^="japanese/"] {
   --tea-paper: #fff8e6;
   --tea-paper-soft: #fffdf4;
   --tea-ink: #2f1b14;
@@ -334,6 +334,31 @@ body[data-slug="japanese/index"] {
   --tea-shadow: rgba(47, 27, 20, 0.18);
   --tea-highlight: #ffe6aa;
 
+  .page {
+    max-width: min(100vw, 1040px);
+  }
+
+  .page > #quartz-body {
+    grid-template:
+      "grid-header"
+      "grid-center"
+      "grid-footer" / minmax(0, 1fr);
+    padding: 0 clamp(1rem, 4vw, 2.5rem);
+  }
+
+  .page > #quartz-body .left.sidebar,
+  .page > #quartz-body .right.sidebar {
+    display: none;
+  }
+
+  .page > #quartz-body .center,
+  .page > #quartz-body footer {
+    max-width: 100%;
+    min-width: 0;
+  }
+}
+
+body[data-slug="japanese/index"] {
   .page-header {
     border-bottom: 2px solid var(--tea-rule);
     padding-bottom: 0.7rem;
@@ -386,25 +411,6 @@ body[data-slug="japanese/index"] {
     line-height: 1.5;
   }
 
-  article h2#notizen + ul > li::before,
-  .page-listing .section::before {
-    position: absolute;
-    top: -2px;
-    right: -2px;
-    display: grid;
-    place-items: center;
-    min-width: 2.2rem;
-    height: 2.2rem;
-    border-left: 2px solid var(--tea-rule);
-    border-bottom: 2px solid var(--tea-rule);
-    background: var(--tea-paper-soft);
-    color: var(--tea-ink);
-    font-family: "Courier New", Courier, monospace;
-    font-size: 0.74rem;
-    font-weight: 700;
-    content: "JP";
-  }
-
   article h2#notizen + ul > li > a:first-child,
   .page-listing .section h3 a {
     display: inline;
@@ -425,7 +431,7 @@ body[data-slug="japanese/index"] {
   }
 
   .page-listing {
-    margin-top: 1.8rem;
+    display: none;
   }
 
   .page-listing > p {
@@ -445,7 +451,7 @@ body[data-slug="japanese/index"] {
   }
 
   .page-listing .section {
-    padding: 0.9rem 3.2rem 0.95rem 1rem;
+    padding: 0.9rem 1rem 0.95rem;
   }
 
   .page-listing .section h3 {
@@ -494,10 +500,6 @@ body[data-slug="japanese/index"] {
     article h2#notizen + ul > li,
     .page-listing .section {
       box-shadow: 3px 3px 0 var(--tea-shadow);
-    }
-
-    .page-listing .section {
-      padding-right: 2.85rem;
     }
   }
 }
