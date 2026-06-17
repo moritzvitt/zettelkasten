@@ -5,12 +5,13 @@
     const objects = document.querySelectorAll(".object-button")
     const teapotSprite = document.querySelector(".teapot-sprite")
     const teacup = document.querySelector(".teacup-button")
+    const teacupSprite = document.querySelector(".teacup-sprite")
     const zettelSprite = document.querySelector(".zettel-sprite")
     const garden = document.querySelector(".garden-button")
     const waterTurbulence = document.querySelector("#garden-water-turbulence")
     const waterDisplacement = document.querySelector("#garden-water-displacement")
 
-    if (!teapot || !zettel || !teapotSprite || !zettelSprite) {
+    if (!teapot || !zettel || !teapotSprite || !teacupSprite || !zettelSprite) {
       return
     }
 
@@ -23,19 +24,26 @@
 
     const teapotContext = teapotSprite.getContext("2d")
     const teapotSheet = new Image()
+    const teacupContext = teacupSprite.getContext("2d")
+    const teacupSheet = new Image()
     const zettelContext = zettelSprite.getContext("2d")
     const zettelSheet = new Image()
     const teapotFrameWidth = 44
     const teapotFrameHeight = 45
+    const teacupFrameWidth = 32
+    const teacupFrameHeight = 32
     const zettelFrameWidth = 84
     const zettelFrameHeight = 81
     const frameDuration = 90
     const teapotEscapeStep = 150
     let teapotFrameCount = 1
+    let teacupFrameCount = 1
     let zettelFrameCount = 1
     let teapotFrameTimer
     let teapotWalkTimer
+    let teacupFrameTimer
     let zettelFrameTimer
+    let teacupAnimating = false
     let zettelHoverPlayed = false
     let teapotClickCount = 0
     let teapotWalkX = 0
@@ -249,6 +257,46 @@
       )
     }
 
+    function showTeacupFrame(frame) {
+      teacupContext.clearRect(0, 0, teacupFrameWidth, teacupFrameHeight)
+      teacupContext.drawImage(
+        teacupSheet,
+        frame * teacupFrameWidth,
+        0,
+        teacupFrameWidth,
+        teacupFrameHeight,
+        0,
+        0,
+        teacupFrameWidth,
+        teacupFrameHeight,
+      )
+    }
+
+    function playTeacupAnimation() {
+      if (!teacupSheet.complete || teacupFrameCount < 2 || teacupAnimating) {
+        return Promise.resolve()
+      }
+
+      clearInterval(teacupFrameTimer)
+      teacupAnimating = true
+
+      return new Promise((resolve) => {
+        let frame = 1
+        showTeacupFrame(frame)
+        teacupFrameTimer = window.setInterval(() => {
+          frame += 1
+          showTeacupFrame(frame)
+
+          if (frame === teacupFrameCount - 1) {
+            clearInterval(teacupFrameTimer)
+            teacupAnimating = false
+            showTeacupFrame(0)
+            resolve()
+          }
+        }, frameDuration)
+      })
+    }
+
     function playTeapotAnimation() {
       if (!teapotSheet.complete || teapotFrameCount < 2) {
         return
@@ -365,6 +413,15 @@
       }
     }
 
+    async function handleTeacupClick() {
+      if (teapotBusy) {
+        return
+      }
+
+      await playTeacupAnimation()
+      returnTeapot()
+    }
+
     async function evadeTeapot(event) {
       if (teapotState !== "settled" || teapotBusy) {
         return
@@ -446,7 +503,7 @@
     teapot.addEventListener("click", handleTeapotClick)
     teapot.addEventListener("mouseenter", evadeTeapot)
     teapotSprite.addEventListener("mouseenter", evadeTeapot)
-    teacup?.addEventListener("click", returnTeapot)
+    teacup?.addEventListener("click", handleTeacupClick)
     zettel.addEventListener("mouseenter", playZettelAnimationOnFirstHover)
     zettel.addEventListener("mouseleave", resetZettelAnimation)
     zettel.addEventListener("click", playZettelAnimation)
@@ -465,17 +522,23 @@
       teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth)
       showTeapotFrame(0)
     })
+    teacupSheet.addEventListener("load", () => {
+      teacupFrameCount = Math.floor(teacupSheet.naturalWidth / teacupFrameWidth)
+      showTeacupFrame(0)
+    })
     zettelSheet.addEventListener("load", () => {
       zettelFrameCount = Math.floor(zettelSheet.naturalWidth / zettelFrameWidth)
       showZettelFrame(0)
     })
     teapotSheet.src = "/pixel/teekanne.png"
+    teacupSheet.src = "/pixel/teatasse-sprite.png?v=20260617-2"
     zettelSheet.src = "/pixel/zettelhaufen.png"
 
     if (typeof window.addCleanup === "function") {
       window.addCleanup(() => {
         clearInterval(teapotFrameTimer)
         clearTimeout(teapotWalkTimer)
+        clearInterval(teacupFrameTimer)
         clearInterval(zettelFrameTimer)
         window.clearTimeout(gardenTapTimer)
         stopTeapotMoveSound()

@@ -7,6 +7,7 @@ const assets = [
   "koi-water-sound.m4a",
   "newspaper.png",
   "sakura_cup.png",
+  "teatasse-sprite.png",
   "teekanne.png",
   "teapot-hop-sound.mp3",
   "zettelhaufen.png",

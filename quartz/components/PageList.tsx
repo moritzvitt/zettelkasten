@@ -56,9 +56,22 @@ type Props = {
   sort?: SortFn
 } & QuartzComponentProps
 
+function previewText(page: QuartzPluginData): string | undefined {
+  const rawPreview = page.frontmatter?.description ?? page.description ?? page.content
+  const preview = rawPreview?.replace(/\s+/g, " ").trim()
+
+  if (!preview) {
+    return undefined
+  }
+
+  return preview.length > 220 ? `${preview.slice(0, 217).trimEnd()}...` : preview
+}
+
 export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort }: Props) => {
   const sorter = sort ?? byDateAndAlphabeticalFolderFirst()
   let list = allFiles.sort(sorter)
+  const showPreviews = fileData.slug === "japanese/index"
+
   if (limit) {
     list = list.slice(0, limit)
   }
@@ -82,6 +95,9 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit, sort
                     {title}
                   </a>
                 </h3>
+                {showPreviews && previewText(page) && (
+                  <p class="section-preview">{previewText(page)}</p>
+                )}
               </div>
               <ul class="tags">
                 {tags.map((tag) => (
@@ -110,5 +126,9 @@ PageList.css = `
 
 .section > .tags {
   margin: 0;
+}
+
+.section-preview {
+  margin: 0.45rem 0 0;
 }
 `

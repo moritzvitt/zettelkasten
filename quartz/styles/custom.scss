@@ -325,3 +325,179 @@ body[data-slug^="zettelkasten/"] {
     }
   }
 }
+
+body[data-slug="japanese/index"] {
+  --tea-paper: #fff8e6;
+  --tea-paper-soft: #fffdf4;
+  --tea-ink: #2f1b14;
+  --tea-rule: #2f1b14;
+  --tea-shadow: rgba(47, 27, 20, 0.18);
+  --tea-highlight: #ffe6aa;
+
+  .page-header {
+    border-bottom: 2px solid var(--tea-rule);
+    padding-bottom: 0.7rem;
+  }
+
+  .article-title,
+  article h1,
+  article h2,
+  .page-listing > p {
+    color: var(--tea-ink);
+    font-family: "Courier New", Courier, monospace;
+    letter-spacing: 0;
+  }
+
+  article h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  article h2#notizen {
+    border-bottom: 2px solid var(--tea-rule);
+    margin-top: 2rem;
+    padding-bottom: 0.35rem;
+    text-transform: uppercase;
+  }
+
+  article h2#notizen + ul {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 1rem 0 2rem;
+    padding: 0;
+  }
+
+  article h2#notizen + ul > li,
+  .page-listing .section {
+    position: relative;
+    border: 2px solid var(--tea-rule);
+    border-radius: 0;
+    background:
+      linear-gradient(135deg, rgba(255, 230, 170, 0.5), transparent 38%),
+      var(--tea-paper);
+    box-shadow: 5px 5px 0 var(--tea-shadow);
+    color: var(--tea-ink);
+  }
+
+  article h2#notizen + ul > li {
+    padding: 0.9rem 1rem;
+    line-height: 1.5;
+  }
+
+  article h2#notizen + ul > li::before,
+  .page-listing .section::before {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    display: grid;
+    place-items: center;
+    min-width: 2.2rem;
+    height: 2.2rem;
+    border-left: 2px solid var(--tea-rule);
+    border-bottom: 2px solid var(--tea-rule);
+    background: var(--tea-paper-soft);
+    color: var(--tea-ink);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.74rem;
+    font-weight: 700;
+    content: "JP";
+  }
+
+  article h2#notizen + ul > li > a:first-child,
+  .page-listing .section h3 a {
+    display: inline;
+    background: transparent;
+    color: var(--tea-ink);
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 700;
+    line-height: 1.25;
+    text-decoration: none;
+  }
+
+  article h2#notizen + ul > li > a:first-child:hover,
+  .page-listing .section h3 a:hover {
+    color: var(--tea-ink);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.18em;
+  }
+
+  .page-listing {
+    margin-top: 1.8rem;
+  }
+
+  .page-listing > p {
+    margin-bottom: 0.85rem;
+  }
+
+  .page-listing .section-ul {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .page-listing .section-li {
+    margin: 0;
+  }
+
+  .page-listing .section {
+    padding: 0.9rem 3.2rem 0.95rem 1rem;
+  }
+
+  .page-listing .section h3 {
+    margin: 0;
+  }
+
+  .page-listing .section .meta {
+    color: color-mix(in srgb, var(--tea-ink) 72%, transparent);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.76rem;
+    margin: 0 0 0.35rem;
+  }
+
+  .page-listing .section-preview {
+    color: color-mix(in srgb, var(--tea-ink) 82%, transparent);
+    font-size: 0.92rem;
+    line-height: 1.48;
+    margin: 0.55rem 0 0;
+  }
+
+  .page-listing .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.75rem;
+    padding: 0;
+  }
+
+  .page-listing .tags li {
+    list-style: none;
+    margin: 0;
+  }
+
+  .page-listing .tag-link {
+    border: 1px solid color-mix(in srgb, var(--tea-rule) 55%, transparent);
+    border-radius: 0;
+    background: var(--tea-paper-soft);
+    color: var(--tea-ink);
+    font-family: "Courier New", Courier, monospace;
+    font-size: 0.72rem;
+    line-height: 1.25;
+    padding: 0.08rem 0.32rem;
+  }
+
+  @media all and ($mobile) {
+    article h2#notizen + ul > li,
+    .page-listing .section {
+      box-shadow: 3px 3px 0 var(--tea-shadow);
+    }
+
+    .page-listing .section {
+      padding-right: 2.85rem;
+    }
+  }
+}
