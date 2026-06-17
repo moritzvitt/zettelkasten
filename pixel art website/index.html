@@ -181,26 +181,24 @@
         background:
           radial-gradient(circle at 42% 46%, rgba(255, 255, 255, 0.22), transparent 5%),
           linear-gradient(125deg, rgba(255, 255, 255, 0.16), transparent 38%),
-          url("/pixel/koi10.png") center 45% / 104% auto no-repeat;
+          url("/pixel/koi10.png") center / cover no-repeat;
         filter: url("#garden-water-filter");
         mix-blend-mode: screen;
         opacity: 0;
         pointer-events: none;
-        transform: translateY(-4%) scale(1.03);
-        transform-origin: center;
         transition: opacity 180ms ease;
       }
 
       .garden-button.is-water-active .garden-water,
       .garden-button:hover .garden-water,
       .garden-button:focus-visible .garden-water {
-        opacity: 0.9;
+        opacity: 1;
       }
 
       .garden-button.is-water-active .item-art,
       .garden-button:hover .item-art,
       .garden-button:focus-visible .item-art {
-        opacity: 0.16;
+        opacity: 0;
       }
 
       .zettel-button {
@@ -367,7 +365,7 @@
   </head>
   <body>
     <svg class="water-filter-source" width="0" height="0" aria-hidden="true" focusable="false">
-      <filter id="garden-water-filter" x="-14%" y="-28%" width="128%" height="148%">
+      <filter id="garden-water-filter" x="-10%" y="-10%" width="120%" height="120%">
         <feTurbulence
           id="garden-water-turbulence"
           type="fractalNoise"
