@@ -182,6 +182,11 @@ plugins:
     layout:
       position: afterBody
       priority: 20
+  - source: ./plugins/vocap-trainer
+    enabled: true
+    layout:
+      position: afterBody
+      priority: 30
   - source: ./plugins/contribute
     enabled: false
     options:
@@ -254,6 +259,7 @@ plugins:
       includedProperties:
         - source
         - tags
+        - vocab-trainer
       excludedProperties: []
       hidePropertiesView: true
       delimiters: ---

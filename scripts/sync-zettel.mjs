@@ -175,6 +175,7 @@ const passthroughFrontmatterKeys = [
   "offset",
   "source_offset_applied",
   "cover",
+  "vocab-trainer",
 ]
 
 function yamlField(key, value) {
@@ -182,11 +183,20 @@ function yamlField(key, value) {
 }
 
 function passthroughFrontmatter(data) {
-  return Object.fromEntries(
+  const passthrough = Object.fromEntries(
     passthroughFrontmatterKeys
       .filter((key) => data[key] !== undefined)
       .map((key) => [key, data[key]]),
   )
+
+  if (
+    passthrough["vocab-trainer"] === undefined &&
+    String(data.plugin ?? "").trim().toLocaleLowerCase("de") === "vocab-trainer"
+  ) {
+    passthrough["vocab-trainer"] = true
+  }
+
+  return passthrough
 }
 
 function frontmatter(title, sourcePath, graphLinks = [], aliases = [], extraData = {}) {

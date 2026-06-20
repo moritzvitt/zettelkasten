@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[Willkommen in meinem Zettelkasten!]] - Willkommen in meinem Zettelkasten! Irgendwie hast du es in meinen Zettelkasten geschafft! Hier findest du meine Gedanken zu Sprache, Lernen, Anki, Immersion, Kommunikation und ein paar angrenzenden Themen. Die Zettel sin
+- [[Welcome to My Zettelkasten!]] - Hello, I'm Moritz. Somehow, you have found your way into my zettelkasten! Here you will find my thoughts on language, learning, Anki, immersion, communication, and a few adjacent topics. The notes are not meant to form a

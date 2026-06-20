@@ -1,0 +1,33 @@
+{
+  "name": "@moritzvitt/quartz-vocap-trainer",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "peerDependencies": {
+    "preact": "^10.0.0"
+  },
+  "quartz": {
+    "name": "vocap-trainer",
+    "displayName": "Vocap Trainer",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 30,
+    "components": {
+      "VocapTrainer": {
+        "displayName": "Vocap Trainer",
+        "defaultPosition": "afterBody",
+        "defaultPriority": 30
+      }
+    }
+  }
+}

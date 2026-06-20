@@ -1,0 +1,363 @@
+---
+title: "Howl's Moving Castle"
+source: "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004)/Howl's Moving Castle.md"
+mx-uid: howls-moving-castle-2004
+media: "[[Howl's Moving Castle (2004).mp4]]"
+captions:
+  - "[[Howl's Moving Castle.ja.srt#lang=ja&label=Migaku Japanese]]"
+  - "[[Howl's Moving Castle.de.srt#lang=de&label=Migaku German]]"
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[mx-img-howls-moving-castle-2004-pt1h54m36_80s.jpg]]"
+vocab-trainer: true
+publish: true
+tags:
+  - zettel
+---
+## Lernliste
+- [[Howl's Moving Castle (2004).mp4#t=106.4|1:46]] ==これ仕上げちゃう== - „ich mache das noch fertig“; ちゃう als beiläufiges Abschließen.❗️
+- [[Howl's Moving Castle (2004).mp4#t=292|4:52]] ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesicht
+- [[Howl's Moving Castle (2004).mp4#t=322|5:22]] ==ジェザーリ== - Cesari/Name des Ladens
+- [[Howl's Moving Castle (2004).mp4#t=350|5:50]] ==巻き込む==（||まきこむ||） - hineinziehen, verwickeln
+- [[Howl's Moving Castle (2004).mp4#t=408|6:48]] ==引きつける==（||ひきつける||） - anziehen; hier: ablenken/auf sich ziehen
+- [[Howl's Moving Castle (2004).mp4#t=466.438|7:46]] ==魔法使い==（||まほうつかい||） - Zauberer, Magier
+- [[Howl's Moving Castle (2004).mp4#t=489|8:09]] ==うろつく== - herumstreifen, umherirren
+- [[Howl's Moving Castle (2004).mp4#t=489.964|8:09]] ==荒地の魔女までうろついてるって言うよ== - „man sagt, sogar die Hexe aus der Einöde streift dort herum“.
+- [[Howl's Moving Castle (2004).mp4#t=495|8:15]] ==マドレーヌ== - Madeleine, kleines Gebäck
+- [[Howl's Moving Castle (2004).mp4#t=626.32|10:26]] ==しがない== - unbedeutend, armselig, schlicht
+- [[Howl's Moving Castle (2004).mp4#t=629|10:29]] ==引き取る==（||ひきとる||） - sich zurückziehen; abholen/übernehmen
+- [[Howl's Moving Castle (2004).mp4#t=629|10:29]] ==引き取り==（||ひきとり||） - Rückzug, Abholung/Übernahme; hier in お引き取りください = bitte verlassen Sie den Laden
+- [[Howl's Moving Castle (2004).mp4#t=637|10:37]] ==荒れ地==（||あれち||） - Ödland, Brachland
+- [[Howl's Moving Castle (2004).mp4#t=637|10:37]] ==張り合う==（||はりあう||） - konkurrieren, sich messen
+- [[Howl's Moving Castle (2004).mp4#t=641.795|10:41]] ==度胸==（||どきょう||） - Mut, Schneid
+- [[Howl's Moving Castle (2004).mp4#t=642.005|10:42]] ==張り合おうなんていい度胸ね== - „ganz schön mutig, sich mit ihr messen zu wollen“; ironisch-bedrohlich.
+- [[Howl's Moving Castle (2004).mp4#t=726.92|12:06]] ==慌てる==（||あわてる||） - in Panik geraten, sich beeilen
+- [[Howl's Moving Castle (2004).mp4#t=726.92|12:06]] ==慌てるとろくなことないよ== - „wenn man in Panik gerät, kommt nichts Gutes dabei heraus“.
+- [[Howl's Moving Castle (2004).mp4#t=751|12:31]] ==ばあさん== - alte Frau, Oma
+- [[Howl's Moving Castle (2004).mp4#t=790|13:10]] ==いちいち== - jedes Mal, einzeln, jedes einzelne Mal
+- [[Howl's Moving Castle (2004).mp4#t=835.900|13:55]] ==年寄り==（||としより||） - alter Mensch, ältere Person
+- [[Howl's Moving Castle (2004).mp4#t=865.1|14:25]] ==親切だけはいただくよ== - „deine Freundlichkeit nehme ich an“;いただく höflich/ironisch.
+- [[Howl's Moving Castle (2004).mp4#t=918.64|15:18]] ==杖==（||つえ||） - Stock
+- [[Howl's Moving Castle (2004).mp4#t=953.52|15:53]] ==カカシ== - Vogelscheuche
+- [[Howl's Moving Castle (2004).mp4#t=980|16:20]] ==マシ== - besser, vorzuziehen
+- [[Howl's Moving Castle (2004).mp4#t=997|16:37]] ==ついてくる== - folgen
+- [[Howl's Moving Castle (2004).mp4#t=1010|16:50]] ==魔女とか呪いとか魔法を託しちゃう== - „Hexen, Flüche, Magie, sowas schiebt man mir zu“; 託す/ちゃう.
+- [[Howl's Moving Castle (2004).mp4#t=1010|16:50]] ==託す==（||たくす||） - anvertrauen, übertragen, jemandem etwas überlassen
+- [[Howl's Moving Castle (2004).mp4#t=1056|17:36]] ==悪知恵==（||わるぢえ||） - böse List, Schlauheit zu schlechten Zwecken
+- [[Howl's Moving Castle (2004).mp4#t=1096|18:16]] ==山小屋==（||やまごや||） - Berghütte, Berghaus
+- [[Howl's Moving Castle (2004).mp4#t=1108|18:28]] ==荒野==（||こうや||） - Wildnis, öde Ebene
+- [[Howl's Moving Castle (2004).mp4#t=1108|18:28]] ==かかし== - Vogelscheuche
+- [[Howl's Moving Castle (2004).mp4#t=1219|20:19]] ==招待状==（||しょうたいじょう||） - Einladungsschreiben
+- [[Howl's Moving Castle (2004).mp4#t=1260|21:00]] ==ぼろ== - Lumpen, Fetzen
+- [[Howl's Moving Castle (2004).mp4#t=1276|21:16]] ==こんがらがる== - sich verheddern, durcheinander geraten
+- [[Howl's Moving Castle (2004).mp4#t=1276.64|21:16]] ==こんがらがった呪いだね== - „das ist ein völlig verhedderter Fluch“.❗️
+- [[Howl's Moving Castle (2004).mp4#t=1302.08|21:42]] ==火の悪魔==（||ひのあくま||） - Feuerdämon
+- [[Howl's Moving Castle (2004).mp4#t=1304.91|21:44]] ==火の悪魔カルシファーって言うんだ== - „ich heiße Calcifer, der Feuerdämon“.❗️
+- [[Howl's Moving Castle (2004).mp4#t=1311|21:51]] ==縛り付ける==（||しばりつける||） - festbinden, fesseln
+- [[Howl's Moving Castle (2004).mp4#t=1316.4|21:56]] ==悪魔と取引をするってわけね== - „also soll ich mit einem Dämon einen Handel schließen?“.
+- [[Howl's Moving Castle (2004).mp4#t=1317.3|21:57]] ==取引==（||とりひき||） - Handel, Geschäft, Deal
+- [[Howl's Moving Castle (2004).mp4#t=1330|22:10]] ==縛る==（||しばる||） - binden, fesseln
+- [[Howl's Moving Castle (2004).mp4#t=1330|22:10]] ==こき使う==（||こきつかう||） - hart schuften lassen, ausnutzen
+- [[Howl's Moving Castle (2004).mp4#t=1330.8|22:10]] ==契約に縛られて== - „an einen Vertrag gebunden sein“.
+- [[Howl's Moving Castle (2004).mp4#t=1334.360|22:14]] ==オイラ== - ich; raues, kindlich-maskulines Selbstpronomen von Calcifer — この城だって、オイラが動かしてるんだぜ
+- [[Howl's Moving Castle (2004).mp4#t=1334.360|22:14]] ==動かしてる==（||うごかしてる||） - in Bewegung halten, antreiben — この城だって、オイラが動かしてるんだぜ
+- [[Howl's Moving Castle (2004).mp4#t=1340|22:20]] ==見破る==（||みやぶる||） - durchschauen, entlarven
+- [[Howl's Moving Castle (2004).mp4#t=1343.3|22:23]] ==契約の秘密を見破ってくれたら== - „wenn du das Geheimnis des Vertrags durchschaust“.
+- [[Howl's Moving Castle (2004).mp4#t=1425.726|23:45]] ==港町==（||みなとまち||） - Hafenstadt
+- [[Howl's Moving Castle (2004).mp4#t=1447|24:07]] ==皿==（||さら||） - Teller
+- [[Howl's Moving Castle (2004).mp4#t=1458.378|24:18]] ==魔法師==（||まほうし||） - Magier; formeller/altertümlicher als 魔法使い
+- [[Howl's Moving Castle (2004).mp4#t=1460.412|24:20]] ==国家==（||こっか||） - Staat, Nation
+- [[Howl's Moving Castle (2004).mp4#t=1461.034|24:21]] ==協力==（||きょうりょく||） - Zusammenarbeit, Kooperation
+- [[Howl's Moving Castle (2004).mp4#t=1462|24:22]] ==出頭==（||しゅっとう||） - Erscheinen, Vorladung
+- [[Howl's Moving Castle (2004).mp4#t=1462.47|24:22]] ==お示し==（||おしめし||） - Erlass, Anweisung; höflich/formell
+- [[Howl's Moving Castle (2004).mp4#t=1462.851|24:22]] ==皆国家に協力せよとのお示しです== - „alle sollen dem Staat dienen“; formell-autoritäre Amtsform.
+- [[Howl's Moving Castle (2004).mp4#t=1493|24:53]] ==待たれよ==（||またれよ||） - wartet, haltet ein
+- [[Howl's Moving Castle (2004).mp4#t=1501|25:01]] ==まじない== - Zauberspruch, Beschwörung
+- [[Howl's Moving Castle (2004).mp4#t=1534|25:34]] ==粉==（||こな||） - Pulver, Mehl
+- [[Howl's Moving Castle (2004).mp4#t=1547.63|25:47]] ==変装==（||へんそう||） - Verkleidung, Tarnung
+- [[Howl's Moving Castle (2004).mp4#t=1548.811|25:48]] ==その変装やめた方がいいよ== - „du solltest diese Verkleidung lassen“.
+- [[Howl's Moving Castle (2004).mp4#t=1555.311|25:55]] ==扉==（||とびら||） - Tür, Portal
+- [[Howl's Moving Castle (2004).mp4#t=1567.661|26:07]] ==国王陛下==（||こくおうへいか||） - Seine Majestät der König
+- [[Howl's Moving Castle (2004).mp4#t=1595|26:35]] ==引っ込む==（||ひっこむ||） - sich zurückziehen, hineingehen
+- [[Howl's Moving Castle (2004).mp4#t=1603|26:43]] ==うろうろ== - ziellos umherirren, herumlaufen
+- [[Howl's Moving Castle (2004).mp4#t=1678|27:58]] ==言うことを聞く==（||いうことをきく||） - gehorchen
+- [[Howl's Moving Castle (2004).mp4#t=1684|28:04]] ==あらあら== - Oh je, Ach herrje
+- [[Howl's Moving Castle (2004).mp4#t=1696|28:16]] ==指図==（||さしず||） - Anweisung, Befehl
+- [[Howl's Moving Castle (2004).mp4#t=1702|28:22]] ==ばらす== - verraten, enthüllen
+- [[Howl's Moving Castle (2004).mp4#t=1726|28:46]] ==ポット== - Kanne, Teekanne
+- [[Howl's Moving Castle (2004).mp4#t=1855|30:55]] ==汚れる==（||よごれる||） - schmutzig werden
+- [[Howl's Moving Castle (2004).mp4#t=1906|31:46]] ==焼き付く==（||やきつく||） - sich einbrennen, sich einprägen
+- [[Howl's Moving Castle (2004).mp4#t=1921|32:01]] ==捉える==（||とらえる||） - fangen, erfassen
+- [[Howl's Moving Castle (2004).mp4#t=1921.641|32:01]] ==汝流れ星を捉えし者== - „du, der du den fallenden Stern gefangen hast“; altertümlich/literarisch.
+- [[Howl's Moving Castle (2004).mp4#t=1921.641|32:01]] ==汝==（||なんじ||） - du; altertümlich
+- [[Howl's Moving Castle (2004).mp4#t=1928|32:08]] ==台無し==（||だいな||） - Ruiniert, Verderben
+- [[Howl's Moving Castle (2004).mp4#t=1945.921|32:25]] ==焼け焦げ==（||やけこげ||） - Brandfleck, Angebranntes
+- [[Howl's Moving Castle (2004).mp4#t=1969.441|32:49]] ==手下==（||てした||） - Gefolgsmann, Handlanger
+- [[Howl's Moving Castle (2004).mp4#t=1987|33:07]] ==ただじゃおかない== - nicht ungestraft davonkommen lassen
+- [[Howl's Moving Castle (2004).mp4#t=1995.961|33:15]] ==吐き出す==（||はきだす||） - ausspucken, herauswürgen
+- [[Howl's Moving Castle (2004).mp4#t=2013|33:33]] ==暴れる==（||あばれる||） - toben, randalieren, wüten
+- [[Howl's Moving Castle (2004).mp4#t=2038.961|33:58]] ==灰をかく==（||はいをかく||） - Asche zusammenkratzen / Asche schüren
+- [[Howl's Moving Castle (2004).mp4#t=2096|34:56]] ==大概==（||たいがい||） - im Rahmen, genug; meistens
+- [[Howl's Moving Castle (2004).mp4#t=2117|35:17]] ==掃除係==（||そうじがかり||） - fürs Putzen zuständige Person
+- [[Howl's Moving Castle (2004).mp4#t=2250|37:30]] ==挟まる==（||はさまる||） - eingeklemmt werden, feststecken
+- [[Howl's Moving Castle (2004).mp4#t=2278|37:58]] ==好く==（||すく||） - mögen, gernhaben
+- [[Howl's Moving Castle (2004).mp4#t=2486.713|41:26]] ==あんまり飛ぶと戻れなくなるぜ== - „wenn du zu viel fliegst, kannst du nicht mehr zurück“.
+- [[Howl's Moving Castle (2004).mp4#t=2525.865|42:05]] ==火薬==（||かやく||） - Schießpulver, Sprengstoff
+- [[Howl's Moving Castle (2004).mp4#t=2531|42:11]] ==同業者==（||どうぎょうしゃ||） - Berufskollege, Branchenkollege
+- [[Howl's Moving Castle (2004).mp4#t=2548|42:28]] ==呼び出す==（||よびだす||） - herbeirufen, vorladen
+- [[Howl's Moving Castle (2004).mp4#t=2625|43:45]] ==芋==（||いも||） - Kartoffel, Knolle
+- [[Howl's Moving Castle (2004).mp4#t=2674|44:34]] ==どんなに== - wie sehr, egal wie
+- [[Howl's Moving Castle (2004).mp4#t=2699|44:59]] ==おばけ== - Geist, Gespenst
+- [[Howl's Moving Castle (2004).mp4#t=2827|47:07]] ==染め直す==（||そめなおす||） - neu färben, umfärben
+- [[Howl's Moving Castle (2004).mp4#t=2905|48:25]] ==果て==（||は||） - Ende, Abschluss
+- [[Howl's Moving Castle (2004).mp4#t=2911|48:31]] ==癇癪==（||かんしゃく||） - Wutanfall, Jähzorn
+- [[Howl's Moving Castle (2004).mp4#t=3018.882|50:18]] ==臆病者==（||おくびょうもの||） - Feigling
+- [[Howl's Moving Castle (2004).mp4#t=3037.042|50:37]] ==近づいたんだ それで逃げ出した== - „sie kam ihm zu nahe, deshalb floh er“.
+- [[Howl's Moving Castle (2004).mp4#t=3100|51:40]] ==マダム== - Dame, Frau
+- [[Howl's Moving Castle (2004).mp4#t=3100|51:40]] ==マダムサリマン== - Madame Suliman, Frau Suliman
+- [[Howl's Moving Castle (2004).mp4#t=3147.242|52:27]] ==化ける==（||ばける||） - sich verwandeln, sich tarnen — カラスに化けてる
+- [[Howl's Moving Castle (2004).mp4#t=3167|52:47]] ==ひと飛び==（||ひととび||） - ein kurzer Flug/Sprung
+- [[Howl's Moving Castle (2004).mp4#t=3227|53:47]] ==いい知らせ==（||いいしらせ||） - gute Nachricht
+- [[Howl's Moving Castle (2004).mp4#t=3238|53:58]] ==よりによって== - ausgerechnet, gerade
+- [[Howl's Moving Castle (2004).mp4#t=3260|54:20]] ==震え上がる==（||ふるえあがる||） - vor Angst zittern, erschauern
+- [[Howl's Moving Castle (2004).mp4#t=3332|55:32]] ==魔法陣==（||まほうじん||） - magischer Kreis
+- [[Howl's Moving Castle (2004).mp4#t=3504|58:24]] ==まね== - Nachahmen, Imitation
+- [[Howl's Moving Castle (2004).mp4#t=3676|1:01:16]] ==身代わり==（||みがわり||） - Stellvertreter, Ersatzopfer
+- [[Howl's Moving Castle (2004).mp4#t=3767|1:02:47]] ==奪い取る==（||うばいとる||） - entreißen, rauben
+- [[Howl's Moving Castle (2004).mp4#t=3779|1:02:59]] ==招く==（||まねく||） - einladen, herbeiführen
+- [[Howl's Moving Castle (2004).mp4#t=3783|1:03:03]] ==連れ込む==（||つれこむ||） - hineinbringen, mitnehmen
+- [[Howl's Moving Castle (2004).mp4#t=3784|1:03:04]] ==罠==（||わな||） - Falle, List
+- [[Howl's Moving Castle (2004).mp4#t=3825.922|1:03:45]] ==王==（||おう||） - König
+- [[Howl's Moving Castle (2004).mp4#t=3835|1:03:55]] ==掃除部屋==（||そうじべや||） - Putzraum, Abstellkammer
+- [[Howl's Moving Castle (2004).mp4#t=3836|1:03:56]] ==恐れ入る==（||おそれいる||） - sich entschuldigen; dankbar/verlegen sein
+- [[Howl's Moving Castle (2004).mp4#t=3858.901|1:04:18]] ==王宮==（||おうきゅう||） - Königspalast
+- [[Howl's Moving Castle (2004).mp4#t=3870.006|1:04:30]] ==能弁==（||のうべん||） - beredt, wortgewandt
+- [[Howl's Moving Castle (2004).mp4#t=3872|1:04:32]] ==決戦==（||けっせん||） - Entscheidungsschlacht, entscheidender Kampf
+- [[Howl's Moving Castle (2004).mp4#t=3876|1:04:36]] ==叩きのめす==（||たたきのめす||） - zusammenschlagen, vernichtend schlagen
+- [[Howl's Moving Castle (2004).mp4#t=3879|1:04:39]] ==影武者==（||かげむしゃ||） - Doppelgänger, Stellvertreter
+- [[Howl's Moving Castle (2004).mp4#t=4023|1:07:03]] ==回し者==（||まわしもの||） - Spion, Agent
+- [[Howl's Moving Castle (2004).mp4#t=4091|1:08:11]] ==引き離す==（||ひきはなす||） - trennen, auseinanderziehen
+- [[Howl's Moving Castle (2004).mp4#t=4180|1:09:40]] ==なれなれしい== - aufdringlich, zudringlich
+- [[Howl's Moving Castle (2004).mp4#t=4191|1:09:51]] ==思想==（||しそう||） - Gedanke, Ideologie, Denken
+- [[Howl's Moving Castle (2004).mp4#t=4464|1:14:24]] ==暴く==（||あばく||） - aufdecken, enthüllen
+- [[Howl's Moving Castle (2004).mp4#t=4477|1:14:37]] ==魔王==（||まおう||） - Dämonenkönig, dunkler Fürst — ハウルが魔王になるってこと？
+- [[Howl's Moving Castle (2004).mp4#t=4495.135|1:14:55]] ==脅す==（||おどす||） - bedrohen, einschüchtern — 消すって脅したら？
+- [[Howl's Moving Castle (2004).mp4#t=4521.515|1:15:21]] ==勇気を出す==（||ゆうきをだす||） - Mut fassen, sich überwinden
+- [[Howl's Moving Castle (2004).mp4#t=4575.155|1:16:15]] ==ガラクタ== - Gerümpel, Schrott, Kram
+- [[Howl's Moving Castle (2004).mp4#t=4575.155|1:16:15]] ==寄せ集め==（||よせあつめ||） - zusammengewürfelte Sammlung, Sammelsurium
+- [[Howl's Moving Castle (2004).mp4#t=4597|1:16:37]] ==じっと== - starr, still
+- [[Howl's Moving Castle (2004).mp4#t=4618.235|1:16:58]] ==丸ごと==（||まるごと||） - vollständig, am Stück, mitsamt allem
+- [[Howl's Moving Castle (2004).mp4#t=4618.235|1:16:58]] ==飛び込む==（||とびこむ||） - hineinspringen, sich hineinstürzen
+- [[Howl's Moving Castle (2004).mp4#t=4629.15|1:17:09]] ==ややこしい== - kompliziert, verworren
+- [[Howl's Moving Castle (2004).mp4#t=4633.155|1:17:13]] ==我が家族はややこしいものばかりだな== - „meine Familie besteht nur aus komplizierten Leuten“.
+- [[Howl's Moving Castle (2004).mp4#t=4655|1:17:35]] ==暖炉==（||だんろ||） - Kamin, Feuerstelle
+- [[Howl's Moving Castle (2004).mp4#t=4672.027|1:17:52]] ==上出来==（||じょうでき||） - sehr gut gelungen, hervorragende Arbeit
+- [[Howl's Moving Castle (2004).mp4#t=4687.027|1:18:07]] ==そっと== - vorsichtig, leise, behutsam
+- [[Howl's Moving Castle (2004).mp4#t=4743.667|1:19:03]] ==師匠==（||ししょう||） - Meister, Lehrmeister
+- [[Howl's Moving Castle (2004).mp4#t=4797.347|1:19:57]] ==着替え==（||きがえ||） - Wechselkleidung; Umziehen
+- [[Howl's Moving Castle (2004).mp4#t=4812.947|1:20:12]] ==出口==（||でぐち||） - Ausgang
+- [[Howl's Moving Castle (2004).mp4#t=4855.339|1:20:55]] ==ちょっぴり== - ein kleines bisschen, ein wenig
+- [[Howl's Moving Castle (2004).mp4#t=4900.639|1:21:40]] ==涙が出てきちゃった==（||なみだがでてきちゃった||） - „mir kommen die Tränen“; てきちゃった als unwillkürliche Veränderung.
+- [[Howl's Moving Castle (2004).mp4#t=4913|1:21:53]] ==ちっちゃな== - klein, winzig
+- [[Howl's Moving Castle (2004).mp4#t=4920.859|1:22:00]] ==隠れ家==（||かくれが||） - Versteck, Rückzugsort
+- [[Howl's Moving Castle (2004).mp4#t=4932.439|1:22:12]] ==こっそり== - heimlich, unauffällig
+- [[Howl's Moving Castle (2004).mp4#t=4932.439|1:22:12]] ==小屋==（||こや||） - Hütte, kleines Haus
+- [[Howl's Moving Castle (2004).mp4#t=4953.099|1:22:33]] ==怪物==（||かいぶつ||） - Monster, Ungeheuer
+- [[Howl's Moving Castle (2004).mp4#t=4961.059|1:22:41]] ==安心して暮らせる==（||あんしんしてくらせる||） - in Ruhe/Sicherheit leben können
+- [[Howl's Moving Castle (2004).mp4#t=4964.479|1:22:44]] ==摘む==（||つむ||） - pflücken
+- [[Howl's Moving Castle (2004).mp4#t=4966|1:22:46]] ==花屋==（||はなや||） - Blumenladen, Floristgeschäft
+- [[Howl's Moving Castle (2004).mp4#t=4978|1:22:58]] ==ないし== - weder noch, und nicht
+- [[Howl's Moving Castle (2004).mp4#t=4986.559|1:23:06]] ==年寄りのいいとこは無くすものが少ないことね== - „das Gute am Altsein ist, dass man wenig zu verlieren hat“.
+- [[Howl's Moving Castle (2004).mp4#t=5009.683|1:23:29]] ==軍艦==（||ぐんかん||） - Kriegsschiff
+- [[Howl's Moving Castle (2004).mp4#t=5028.543|1:23:48]] ==人殺し==（||ひとごろし||） - Mörder; Mord
+- [[Howl's Moving Castle (2004).mp4#t=5056|1:24:16]] ==いじる== - herumfummeln, anfassen, verändern
+- [[Howl's Moving Castle (2004).mp4#t=5066|1:24:26]] ==おっとっと== - Hoppla, Ups
+- [[Howl's Moving Castle (2004).mp4#t=5078.443|1:24:38]] ==下っ端==（||したっぱ||） - unterster Handlanger, kleiner Untergebener
+- [[Howl's Moving Castle (2004).mp4#t=5144.003|1:25:44]] ==ため息==（||ためいき||） - Seufzer
+- [[Howl's Moving Castle (2004).mp4#t=5154.443|1:25:54]] ==図星==（||ずぼし||） - ins Schwarze getroffen; wunder Punkt
+- [[Howl's Moving Castle (2004).mp4#t=5170.363|1:26:10]] ==仕方のないもの==（||しかたのないもの||） - etwas, bei dem man nichts machen kann; unvermeidliche Sache❗️
+- [[Howl's Moving Castle (2004).mp4#t=5176.203|1:26:16]] ==呆れる==（||あきれる||） - fassungslos sein, die Nase voll haben
+- [[Howl's Moving Castle (2004).mp4#t=5185.636|1:26:25]] ==空襲==（||くうしゅう||） - Luftangriff
+- [[Howl's Moving Castle (2004).mp4#t=5186.731|1:26:26]] ==空襲警報==（||くうしゅうけいほう||） - Fliegeralarm, Luftangriffswarnung
+- [[Howl's Moving Castle (2004).mp4#t=5195.163|1:26:35]] ==手先==（||てさき||） - Handlanger, Agent; wörtlich auch Fingerspitzen
+- [[Howl's Moving Castle (2004).mp4#t=5198.163|1:26:38]] ==探し回る==（||さがしまわる||） - überall suchen, herumstöbern nach
+- [[Howl's Moving Castle (2004).mp4#t=5283.023|1:28:03]] ==再婚==（||さいこん||） - Wiederheirat
+- [[Howl's Moving Castle (2004).mp4#t=5321.263|1:28:41]] ==のぞき虫==（||のぞきむし||） - Spionagekäfer, Lauscher; wörtlich „Guck-Käfer“
+- [[Howl's Moving Castle (2004).mp4#t=5345.263|1:29:05]] ==言われた通りにした==（||いわれたとおりにした||） - „ich habe getan, was mir gesagt wurde“.
+- [[Howl's Moving Castle (2004).mp4#t=5355.883|1:29:15]] ==街中空っぽになっちゃう==（||まちじゅうからっぽになっちゃう||） - „die ganze Stadt wird leer sein“.
+- [[Howl's Moving Castle (2004).mp4#t=5371.903|1:29:31]] ==仲直り==（||なかなおり||） - Versöhnung, sich wieder vertragen
+- [[Howl's Moving Castle (2004).mp4#t=5401.483|1:30:01]] ==渡さない==（||わたさない||） - nicht herausgeben, nicht überlassen — サリマンなんかにハウル渡さないよ
+- [[Howl's Moving Castle (2004).mp4#t=5497.483|1:31:37]] ==火事を消す==（||かじをけす||） - ein Feuer löschen
+- [[Howl's Moving Castle (2004).mp4#t=5596.283|1:33:16]] ==食わせる==（||くわせる||） - fressen lassen, jemandem etwas zu essen geben; rauer als 食べさせる
+- [[Howl's Moving Castle (2004).mp4#t=5629.643|1:33:49]] ==次の空襲==（||つぎのくうしゅう||） - nächster Luftangriff
+- [[Howl's Moving Castle (2004).mp4#t=5632|1:33:52]] ==防げる==（||ふせげる||） - abwehren können, verhindern können
+- [[Howl's Moving Castle (2004).mp4#t=5639.563|1:33:59]] ==ようやく== - endlich, nach langer Zeit
+- [[Howl's Moving Castle (2004).mp4#t=5777.364|1:36:17]] ==弱虫==（||よわむし||） - Feigling, Schwächling; hier wahrscheinlich ASR-unsauber als ヨアムシ
+- [[Howl's Moving Castle (2004).mp4#t=5788.464|1:36:28]] ==ボロボロ== - zerfetzt, völlig kaputt, heruntergekommen
+- [[Howl's Moving Castle (2004).mp4#t=5884.504|1:38:04]] ==雨漏れ==（||あまもれ||） - undichtes Dach, hereinregnendes Wasser
+- [[Howl's Moving Castle (2004).mp4#t=5889.004|1:38:09]] ==濡れる==（||ぬれる||） - nass werden
+- [[Howl's Moving Castle (2004).mp4#t=5894.264|1:38:14]] ==湿る==（||しめる||） - feucht werden, feucht sein
+- [[Howl's Moving Castle (2004).mp4#t=5927.664|1:38:47]] ==煙突==（||えんとつ||） - Schornstein
+- [[Howl's Moving Castle (2004).mp4#t=5933.904|1:38:53]] ==一流は場所を選ばない==（||いちりゅうはばしょをえらばない||） - „Erstklassige wählen ihren Ort nicht“; schmeichelnde Ermunterung.
+- [[Howl's Moving Castle (2004).mp4#t=6046.804|1:40:46]] ==囲まれる==（||かこまれる||） - umzingelt sein, eingeschlossen werden
+- [[Howl's Moving Castle (2004).mp4#t=6485.624|1:48:05]] ==涙が止まらない==（||なみだがとまらない||） - die Tränen hören nicht auf❗️
+- [[Howl's Moving Castle (2004).mp4#t=6521.404|1:48:41]] ==グズ== - Trödler, Trottel, jemand, der zu langsam ist
+- [[Howl's Moving Castle (2004).mp4#t=6622.190|1:50:22]] ==大事にする==（||だいじにする||） - sorgsam behandeln, wertschätzen❗️
+- [[Howl's Moving Castle (2004).mp4#t=6651.390|1:50:51]] ==クタクタ== - völlig erschöpft, fix und fertig
+- [[Howl's Moving Castle (2004).mp4#t=6668.010|1:51:08]] ==小鳥みたいに動いてる==（||ことりみたいにうごいてる||） - „es bewegt sich wie ein kleiner Vogel“; zarte Beschreibung des Herzens.
+- [[Howl's Moving Castle (2004).mp4#t=6672.010|1:51:12]] ==まんま== - genauso wie vorher; unverändert, in kindlicher/umgangssprachlicher Form.
+- [[Howl's Moving Castle (2004).mp4#t=6678.010|1:51:18]] ==取り戻す==（||とりもどす||） - zurückerlangen, wiederbekommen
+- [[Howl's Moving Castle (2004).mp4#t=6741.010|1:52:21]] ==棒==（||ぼう||） - Stock, Stab
+- [[Howl's Moving Castle (2004).mp4#t=6760.005|1:52:40]] ==王子==（||おうじ||） - Prinz
+- [[Howl's Moving Castle (2004).mp4#t=6760.670|1:52:40]] ==カブ頭==（||かぶあたま||） - Rübenkopf; hier Scarecrows Fluchgestalt
+- [[Howl's Moving Castle (2004).mp4#t=6763.310|1:52:43]] ==愛する者==（||あいするもの||） - geliebte Person; jemand, der liebt/geliebt wird
+- [[Howl's Moving Castle (2004).mp4#t=6778.710|1:52:58]] ==体が石みたいだ==（||からだがいしみたいだ||） - „mein Körper ist wie Stein“.❗️
+- [[Howl's Moving Castle (2004).mp4#t=6782|1:53:02]] ==髪の毛==（||かみのけ||） - Haare, Haarsträhne
+- [[Howl's Moving Castle (2004).mp4#t=6784|1:53:04]] ==染まる==（||そまる||） - sich färben, gefärbt werden
+- [[Howl's Moving Castle (2004).mp4#t=6784.990|1:53:04]] ==星の光に染まってる==（||ほしのひかりにそまってる||） - „vom Sternenlicht gefärbt/getönt sein“.
+- [[Howl's Moving Castle (2004).mp4#t=6804.735|1:53:24]] ==心変わり==（||こころがわり||） - Sinneswandel, Meinungs-/Gefühlswechsel
+- [[Howl's Moving Castle (2004).mp4#t=6804.735|1:53:24]] ==人の世の常==（||ひとのよのつね||） - der normale Lauf der Menschenwelt; menschliche Gewohnheit
+- [[Howl's Moving Castle (2004).mp4#t=6828.435|1:53:48]] ==ハッピーエンドってわけね== - „also ein Happy End, ja?“; ってわけ als erklärende Schlussfolgerung.
+- [[Howl's Moving Castle (2004).mp4#t=6830.395|1:53:50]] ==浮気者==（||うわきもの||） - untreue Person, Fremdgänger
+- [[Howl's Moving Castle (2004).mp4#t=6840.855|1:54:00]] ==総理大臣==（||そうりだいじん||） - Premierminister
+- [[Howl's Moving Castle (2004).mp4#t=6842.682|1:54:02]] ==参謀長==（||さんぼうちょう||） - Stabschef
+- [[Howl's Moving Castle (2004).mp4#t=6844|1:54:04]] ==馬鹿げる==（||ばかげる||） - absurd sein, albern sein
+- [[Howl's Moving Castle (2004).mp4#t=6844.875|1:54:04]] ==馬鹿げた==（||ばかげた||） - absurd, lächerlich, töricht
+- [[Howl's Moving Castle (2004).mp4#t=6859.135|1:54:19]] ==雨も降りそうだしさ== - „außerdem sieht es nach Regen aus“; そうだし als beiläufiger Zusatzgrund.
+- [[Howl's Moving Castle (2004).mp4#t=6905.875|1:55:05]] ==限りない==（||かぎりない||） - grenzenlos, endlos
+- [[Howl's Moving Castle (2004).mp4#t=6947.875|1:55:47]] ==せせらぎ== - Murmeln/Plätschern eines Bachs
+## Kenn ich schon mehr oder weniger
+- [[Howl's Moving Castle (2004).mp4#t=90|1:30]] ==店==（||みせ||） - Laden
+- [[Howl's Moving Castle (2004).mp4#t=103|1:43]] ==行く==（||いく||） - gehen
+- [[Howl's Moving Castle (2004).mp4#t=103.66|1:43]] ==ソフィーさんも行けばいいのに== - „du solltest doch auch gehen“; ばいいのに als Vorschlag mit Bedauern.
+- [[Howl's Moving Castle (2004).mp4#t=106|1:46]] ==仕上げる==（||しあげる||） - fertigstellen, vollenden
+- [[Howl's Moving Castle (2004).mp4#t=113|1:53]] ==待つ==（||まつ||） - warten
+- [[Howl's Moving Castle (2004).mp4#t=116|1:56]] ==城==（||しろ||） - Schloss, Burg
+- [[Howl's Moving Castle (2004).mp4#t=123|2:03]] ==街==（||まち||） - Stadt
+- [[Howl's Moving Castle (2004).mp4#t=134|2:14]] ==隠れる==（||かくれる||） - sich verstecken
+- [[Howl's Moving Castle (2004).mp4#t=134.84|2:14]] ==隠れただけでしょ== - „sie hat sich doch nur versteckt“; だけでしょ als korrigierende Einordnung.
+- [[Howl's Moving Castle (2004).mp4#t=136.04|2:16]] ==軍隊==（||ぐんたい||） - Armee, Militär
+- [[Howl's Moving Castle (2004).mp4#t=138.54|2:18]] ==南町==（||みなみまち||） - Südviertel/Südstadt
+- [[Howl's Moving Castle (2004).mp4#t=140|2:20]] ==心臓==（||しんぞう||） - Herz
+- [[Howl's Moving Castle (2004).mp4#t=142.49|2:22]] ==心臓取られちゃったんだってね== - „ihr wurde angeblich das Herz genommen“; んだってね als Gerücht.
+- [[Howl's Moving Castle (2004).mp4#t=465|7:45]] ==使う==（||つかう||） - benutzen
+- [[Howl's Moving Castle (2004).mp4#t=479|7:59]] ==食べられる==（||たべられる||） - gegessen werden; Passiv/Potential
+- [[Howl's Moving Castle (2004).mp4#t=480.954|8:00]] ==心臓食べられちゃってるよ== - „dein Herz wird gegessen werden“; passivisch/umgangssprachlich dramatisiert.
+- [[Howl's Moving Castle (2004).mp4#t=489|8:09]] ==来る==（||くる||） - kommen
+- [[Howl's Moving Castle (2004).mp4#t=489|8:09]] ==魔女==（||まじょ||） - Hexe
+- [[Howl's Moving Castle (2004).mp4#t=489.964|8:09]] ==荒地==（||あれち||） - Einöde, Ödland
+- [[Howl's Moving Castle (2004).mp4#t=527.644|8:47]] ==帽子屋==（||ぼうしや||） - Hutladen, Hutmacher🍙
+- [[Howl's Moving Castle (2004).mp4#t=615.975|10:15]] ==安っぽい==（||やすっぽい||） - billig wirkend, schäbig
+- [[Howl's Moving Castle (2004).mp4#t=643|10:43]] ==呪い==（||のろい||） - Fluch
+- [[Howl's Moving Castle (2004).mp4#t=643.396|10:43]] ==その呪いは人には話せないからね== - „über diesen Fluch kannst du niemandem sprechen“.
+- [[Howl's Moving Castle (2004).mp4#t=705.536|11:45]] ==落ち着かなきゃ==（||おちつかなきゃ||） - ich muss mich beruhigen / ruhig bleiben
+- [[Howl's Moving Castle (2004).mp4#t=752.8|12:32]] ==奥様==（||おくさま||） - gnädige Frau,
+- [[Howl's Moving Castle (2004).mp4#t=761|12:41]] ==お帰り==（||おかえり||） - willkommen zurück
+- [[Howl's Moving Castle (2004).mp4#t=865.1|14:25]] ==親切==（||しんせつ||） - Freundlichkeit, freundlich
+- [[Howl's Moving Castle (2004).mp4#t=1007|16:47]] ==魔法==（||まほう||） - Magie, Zauber
+- [[Howl's Moving Castle (2004).mp4#t=1067.360|17:47]] ==体が動かない==（||からだがうごかない||） - der Körper lässt sich nicht bewegen / man kommt körperlich nicht mit
+- [[Howl's Moving Castle (2004).mp4#t=1137|18:57]] ==家==（||いえ||） - Haus
+- [[Howl's Moving Castle (2004).mp4#t=1138.936|18:58]] ==お城==（||おしろ||） - Schloss; höflich/kindlich
+- [[Howl's Moving Castle (2004).mp4#t=1301|21:41]] ==火==（||ひ||） - Feuer
+- [[Howl's Moving Castle (2004).mp4#t=1309.147|21:49]] ==解ける==（||とける||） - sich lösen; Fluch löst sich
+- [[Howl's Moving Castle (2004).mp4#t=1319|21:59]] ==約束==（||やくそく||） - Versprechen, Abmachung
+- [[Howl's Moving Castle (2004).mp4#t=1330|22:10]] ==契約==（||けいやく||） - Vertrag, Pakt🍙
+- [[Howl's Moving Castle (2004).mp4#t=1342.73|22:22]] ==秘密==（||ひみつ||） - Geheimnis
+- [[Howl's Moving Castle (2004).mp4#t=1422|23:42]] ==誰==（||だれ||） - wer
+- [[Howl's Moving Castle (2004).mp4#t=1456.674|24:16]] ==戦争==（||せんそう||） - Krieg
+- [[Howl's Moving Castle (2004).mp4#t=1468|24:28]] ==嫌==（||いや||） - unangenehm, nein
+- [[Howl's Moving Castle (2004).mp4#t=1553|25:53]] ==開ける==（||あける||） - öffnen
+- [[Howl's Moving Castle (2004).mp4#t=1685.143|28:05]] ==帽子==（||ぼうし||） - Hut
+- [[Howl's Moving Castle (2004).mp4#t=1771|29:31]] ==新しい==（||あたらしい||） - neu
+- [[Howl's Moving Castle (2004).mp4#t=1773.888|29:33]] ==掃除婦==（||そうじふ||） - Putzfrau🍙
+- [[Howl's Moving Castle (2004).mp4#t=1774.351|29:34]] ==この城の新しい掃除婦さん== - „die neue Putzfrau dieses Schlosses“.
+- [[Howl's Moving Castle (2004).mp4#t=1774.401|29:34]] ==貸しなさい==（||かしなさい||） - gib her / leih es mir; imperativisch
+- [[Howl's Moving Castle (2004).mp4#t=1813.921|30:13]] ==掃除婦って誰が決めたの==（||そうじふってだれがきめたの||） - „wer hat entschieden, dass ich Putzfrau bin?“
+- [[Howl's Moving Castle (2004).mp4#t=1813.921|30:13]] ==掃除==（||そうじ||） - Putzen, Reinigung
+- [[Howl's Moving Castle (2004).mp4#t=1922.181|32:02]] ==流れ星==（||ながれぼし||） - Sternschnuppe
+- [[Howl's Moving Castle (2004).mp4#t=2037|33:57]] ==早く==（||はやく||） - schnell, früh
+- [[Howl's Moving Castle (2004).mp4#t=2037.961|33:57]] ==危ない==（||あぶない||） - gefährlich, Vorsicht
+- [[Howl's Moving Castle (2004).mp4#t=2243.161|37:23]] ==星の海==（||ほしのうみ||） - Sternenmeer
+- [[Howl's Moving Castle (2004).mp4#t=2252|37:32]] ==手を貸す==（||てをかす||） - helfen, Hand anlegen
+- [[Howl's Moving Castle (2004).mp4#t=2252|37:32]] ==手==（||て||） - Hand
+- [[Howl's Moving Castle (2004).mp4#t=2330|38:50]] ==洗濯物==（||せんたくもの||） - Wäsche
+- [[Howl's Moving Castle (2004).mp4#t=2486|41:26]] ==戻る==（||もどる||） - zurückkehren
+- [[Howl's Moving Castle (2004).mp4#t=2506.866|41:46]] ==戻れなくなる==（||もどれなくなる||） - nicht mehr zurückkehren können
+- [[Howl's Moving Castle (2004).mp4#t=2517.145|41:57]] ==ひどい== - schlimm, grausam
+- [[Howl's Moving Castle (2004).mp4#t=3014|50:14]] ==見かける==（||みかける||） - sehen, bemerken
+- [[Howl's Moving Castle (2004).mp4#t=3037|50:37]] ==逃げ出す==（||にげだす||） - fliehen, davonlaufen
+- [[Howl's Moving Castle (2004).mp4#t=3037|50:37]] ==近づく==（||ちかづく||） - sich nähern
+- [[Howl's Moving Castle (2004).mp4#t=3040.653|50:40]] ==恐ろしい==（||おそろしい||） - furchterregend, schrecklich
+- [[Howl's Moving Castle (2004).mp4#t=3100|51:40]] ==諦める==（||あきらめる||） - aufgeben, verzichten
+- [[Howl's Moving Castle (2004).mp4#t=3263|54:23]] ==おかげで== - dank, wegen; oft ironisch
+- [[Howl's Moving Castle (2004).mp4#t=3441|57:21]] ==ずっと待つ==（||ずっとまつ||） - die ganze Zeit warten
+- [[Howl's Moving Castle (2004).mp4#t=3447.212|57:27]] ==この日が来るのをずっと待ってたんだ== - „ich habe die ganze Zeit auf diesen Tag gewartet“.
+- [[Howl's Moving Castle (2004).mp4#t=3448.482|57:28]] ==手を貸すほど==（||てをかすほど||） - so sehr, dass man hilft
+- [[Howl's Moving Castle (2004).mp4#t=3483|58:03]] ==ご案内する==（||ごあんないする||） - führen, geleiten; höflich
+- [[Howl's Moving Castle (2004).mp4#t=3483|58:03]] ==案内==（||あんない||） - Führung, Anleitung
+- [[Howl's Moving Castle (2004).mp4#t=3666.962|1:01:06]] ==使い犬==（||つかいいぬ||） - Dienerhund, Botenhund
+- [[Howl's Moving Castle (2004).mp4#t=3861|1:04:21]] ==敵==（||てき||） - Feind
+- [[Howl's Moving Castle (2004).mp4#t=4044|1:07:24]] ==飛ぶ==（||とぶ||） - fliegen
+- [[Howl's Moving Castle (2004).mp4#t=4050|1:07:30]] ==教える==（||おしえる||） - lehren, mitteilen
+- [[Howl's Moving Castle (2004).mp4#t=4050.042|1:07:30]] ==方向==（||ほうこう||） - Richtung
+- [[Howl's Moving Castle (2004).mp4#t=4050.042|1:07:30]] ==方向は指輪が教えてくれる== - „der Ring zeigt dir die Richtung“.
+- [[Howl's Moving Castle (2004).mp4#t=4050.648|1:07:30]] ==指輪==（||ゆびわ||） - Ring🍙
+- [[Howl's Moving Castle (2004).mp4#t=4486.955|1:14:46]] ==渡す==（||わたす||） - übergeben, aushändigen — 大切なものをあなたに渡した
+- [[Howl's Moving Castle (2004).mp4#t=4491|1:14:51]] ==喋る==（||しゃべる||） - sprechen, plaudern
+- [[Howl's Moving Castle (2004).mp4#t=4633|1:17:13]] ==家族==（||かぞく||） - Familie
+- [[Howl's Moving Castle (2004).mp4#t=4640|1:17:20]] ==引っ越し==（||ひっこし||） - Umzug
+- [[Howl's Moving Castle (2004).mp4#t=4640|1:17:20]] ==引っ越しだ== - „wir ziehen um“; knappes Alltagskommando.
+- [[Howl's Moving Castle (2004).mp4#t=4650.505|1:17:30]] ==魔力==（||まりょく||） - magische Kraft, Zauberkraft
+- [[Howl's Moving Castle (2004).mp4#t=4738.977|1:18:58]] ==終わり==（||おわり||） - Ende, abgeschlossen
+- [[Howl's Moving Castle (2004).mp4#t=4804|1:20:04]] ==庭==（||にわ||） - Garten
+- [[Howl's Moving Castle (2004).mp4#t=4804.447|1:20:04]] ==中庭==（||なかにわ||） - Innenhof🍙
+- [[Howl's Moving Castle (2004).mp4#t=4847.112|1:20:47]] ==秘密の庭==（||ひみつのにわ||） - geheimer Garten
+- [[Howl's Moving Castle (2004).mp4#t=5037|1:23:57]] ==くっつける== - ankleben, befestigen
+- [[Howl's Moving Castle (2004).mp4#t=5141.503|1:25:41]] ==恋==（||こい||） - Liebe, Verliebtheit
+- [[Howl's Moving Castle (2004).mp4#t=5283.023|1:28:03]] ==お金持ち==（||おかねもち||） - reiche Person, wohlhabend
+- [[Howl's Moving Castle (2004).mp4#t=5295.729|1:28:15]] ==暮らし==（||くらし||） - Leben, Lebensweise
+- [[Howl's Moving Castle (2004).mp4#t=5389|1:29:49]] ==そう、家族よ== - „ja, wir sind Familie“.
+- [[Howl's Moving Castle (2004).mp4#t=5422.963|1:30:22]] ==信じる==（||しんじる||） - glauben, vertrauen
+- [[Howl's Moving Castle (2004).mp4#t=5438.043|1:30:38]] ==窓==（||まど||） - Fenster
+- [[Howl's Moving Castle (2004).mp4#t=5584.883|1:33:04]] ==しっかりしろ== - „reiß dich zusammen“, „halt durch“
+- [[Howl's Moving Castle (2004).mp4#t=5611.663|1:33:31]] ==珍しい==（||めずらしい||） - ungewöhnlich, selten
+- [[Howl's Moving Castle (2004).mp4#t=5632|1:33:52]] ==防ぐ==（||ふせぐ||） - abwehren, verhindern🍙
+- [[Howl's Moving Castle (2004).mp4#t=5637.423|1:33:57]] ==十分逃げた==（||じゅうぶんにげた||） - „ich bin genug davongelaufen“.
+- [[Howl's Moving Castle (2004).mp4#t=5770.431|1:36:10]] ==無茶==（||むちゃ||） - Unsinn, Übermut, Unvernunft
+- [[Howl's Moving Castle (2004).mp4#t=5770.595|1:36:10]] ==無茶だよ== - „das ist völlig verrückt/unmöglich“.
+- [[Howl's Moving Castle (2004).mp4#t=5810.264|1:36:50]] ==崩れる==（||くずれる||） - einstürzen, zerfallen
+- [[Howl's Moving Castle (2004).mp4#t=6022|1:40:22]] ==目==（||め||） - Auge
+- [[Howl's Moving Castle (2004).mp4#t=6197.804|1:43:17]] ==居場所==（||いばしょ||） - Aufenthaltsort, Ort, an dem jemand ist
+- [[Howl's Moving Castle (2004).mp4#t=6340.524|1:45:40]] ==子供時代==（||こどもじだい||） - Kindheit
+- [[Howl's Moving Castle (2004).mp4#t=6447|1:47:27]] ==未来==（||みらい||） - Zukunft
+- [[Howl's Moving Castle (2004).mp4#t=6447.284|1:47:27]] ==未来で待ってて== - „warte in der Zukunft auf mich“.
+- [[Howl's Moving Castle (2004).mp4#t=6530.864|1:48:50]] ==連れて行く==（||つれていく||） - jemanden mitnehmen, hinführen
+- [[Howl's Moving Castle (2004).mp4#t=6694.010|1:51:34]] ==自由==（||じゆう||） - Freiheit, frei
+- [[Howl's Moving Castle (2004).mp4#t=6758|1:52:38]] ==隣の国==（||となりのくに||） - Nachbarland
+- [[Howl's Moving Castle (2004).mp4#t=6766.510|1:52:46]] ==その通り==（||そのとおり||） - genau so, richtig
+- [[Howl's Moving Castle (2004).mp4#t=6775.210|1:52:55]] ==騒ぎ==（||さわぎ||） - Aufruhr, Tumult, Lärm
+- [[Howl's Moving Castle (2004).mp4#t=6801.735|1:53:21]] ==伺う==（||うかがう||） - hingehen/besuchen; höfliche Form von 行く/聞く
+- [[Howl's Moving Castle (2004).mp4#t=6844.875|1:54:04]] ==終わらせる==（||おわらせる||） - beenden, zu Ende bringen; kausativ zu 終わる
+- [[Howl's Moving Castle (2004).mp4#t=6891.875|1:54:51]] ==決して==（||けっして||） - keinesfalls, niemals
+- [[Howl's Moving Castle (2004).mp4#t=6891.875|1:54:51]] ==決して終わらない世界の約束== - „das niemals endende Versprechen der Welt“; poetischer Titelsong-Ausdruck.
+- [[Howl's Moving Castle (2004).mp4#t=6918.875|1:55:18]] ==優しさ==（||やさしさ||） - Freundlichkeit, Sanftheit
+- [[Howl's Moving Castle (2004).mp4#t=6934|1:55:34]] ==思い出==（||おもいで||） - Erinnerung
+- [[Howl's Moving Castle (2004).mp4#t=6947|1:55:47]] ==空==（||そら||） - Himmel
+- [[Howl's Moving Castle (2004).mp4#t=6947|1:55:47]] ==香り==（||かおり||） - Duft
+- [[Howl's Moving Castle (2004).mp4#t=6947|1:55:47]] ==色==（||いろ||） - Farbe
+
+### Kann ich schon (fast) perfekt
+%%
+## Links
+Prev::
+Next:: [[Howl's Moving Castle.ja.srt|Transcript]]
+Friend::
+%%
+
+## Tags
+#japanese #transcript #media
+
+## Lernschnitt-Übersicht
+
+- [[Lernschnitte|Alle Lernschnitte]]

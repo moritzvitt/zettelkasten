@@ -28,14 +28,16 @@
     const teacupSheet = new Image()
     const zettelContext = zettelSprite.getContext("2d")
     const zettelSheet = new Image()
-    const teapotFrameWidth = 44
-    const teapotFrameHeight = 45
+    let teapotFrameWidth = 44
+    let teapotFrameHeight = 45
     const teacupFrameWidth = 32
     const teacupFrameHeight = 32
     const zettelFrameWidth = 84
     const zettelFrameHeight = 81
     const frameDuration = 90
     const teapotEscapeStep = 150
+    const teapotAnimationsEnabled = false
+    const teacupAnimationsEnabled = false
     let teapotFrameCount = 1
     let teacupFrameCount = 1
     let zettelFrameCount = 1
@@ -229,6 +231,12 @@
 
     function showTeapotFrame(frame) {
       teapotContext.clearRect(0, 0, teapotFrameWidth, teapotFrameHeight)
+
+      if (!teapotAnimationsEnabled) {
+        teapotContext.drawImage(teapotSheet, 0, 0)
+        return
+      }
+
       teapotContext.drawImage(
         teapotSheet,
         frame * teapotFrameWidth,
@@ -273,6 +281,11 @@
     }
 
     function playTeacupAnimation() {
+      if (!teacupAnimationsEnabled) {
+        showTeacupFrame(0)
+        return Promise.resolve()
+      }
+
       if (!teacupSheet.complete || teacupFrameCount < 2 || teacupAnimating) {
         return Promise.resolve()
       }
@@ -298,6 +311,11 @@
     }
 
     function playTeapotAnimation() {
+      if (!teapotAnimationsEnabled) {
+        showTeapotFrame(0)
+        return
+      }
+
       if (!teapotSheet.complete || teapotFrameCount < 2) {
         return
       }
@@ -387,6 +405,10 @@
 
     async function returnTeapot() {
       if (teapotBusy || teapotWalkX === 0) {
+        hideTeacup()
+        teapotClickCount = 0
+        teapotState = "idle"
+        teapot.classList.remove("is-walking-away")
         return
       }
 
@@ -519,7 +541,17 @@
     }
     objects.forEach((object) => object.addEventListener("click", selectObject))
     teapotSheet.addEventListener("load", () => {
-      teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth)
+      if (!teapotAnimationsEnabled) {
+        teapotFrameWidth = teapotSheet.naturalWidth
+        teapotFrameHeight = teapotSheet.naturalHeight
+        teapotSprite.width = teapotFrameWidth
+        teapotSprite.height = teapotFrameHeight
+        teapotSprite.style.aspectRatio = `${teapotFrameWidth} / ${teapotFrameHeight}`
+        teapotFrameCount = 1
+      } else {
+        teapotFrameCount = Math.floor(teapotSheet.naturalWidth / teapotFrameWidth)
+      }
+
       showTeapotFrame(0)
     })
     teacupSheet.addEventListener("load", () => {

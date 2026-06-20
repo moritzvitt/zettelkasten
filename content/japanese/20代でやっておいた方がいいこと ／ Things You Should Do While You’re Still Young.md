@@ -8,6 +8,7 @@ captions:
   - "[[szlCSg0qlV0.migaku.de.srt#lang=de&label=Migaku+German]]"
   - "[[szlCSg0qlV0.ja.vtt#lang=ja&label=Japanese+%28auto-generated%29]]"
 cover: https://i.ytimg.com/vi_webp/szlCSg0qlV0/maxresdefault.webp
+vocab-trainer: true
 publish: true
 tags:
   - zettel
@@ -56,13 +57,13 @@ YUYU spricht darüber, was man in den Zwanzigern tun sollte, solange die innere 
 - [10:02](https://www.youtube.com/watch?v=szlCSg0qlV0&t=602) やっておいて==||良かったな||==（||よかったな||） — gut, dass ich das damals gemacht habe❗️
 - [10:18](https://www.youtube.com/watch?v=szlCSg0qlV0&t=618.852) ==慰め==（||なぐさめ||） — Trost
 - [10:20](https://www.youtube.com/watch?v=szlCSg0qlV0&t=620.605) 自分への==||慰めの意味も込めて||==（||なぐさめのいみもこめて||） — auch als Trost an mich selbst gemeint
-- [10:38](https://www.youtube.com/watch?v=szlCSg0qlV0&t=638.125) 勇気に==||つながればいい||==（||ゆうきにつながればいい||） — wenn es zu etwas Mut führt, wäre das gut
+- [10:38](https://www.youtube.com/watch?v=szlCSg0qlV0&t=638.125) 勇気に==||つながればいい||== — wenn es zu etwas Mut führt, wäre das gut
 - [10:48](https://www.youtube.com/watch?v=szlCSg0qlV0&t=648.168) ==同世代==（||どうせだい||） — gleiche Generation
 - [11:05](https://www.youtube.com/watch?v=szlCSg0qlV0&t=665.335) ==||適度な貧乏||==（||てきどなびんぼう||） — ein angemessenes Maß an Armut; als Lebenserfahrung
 - [11:05](https://www.youtube.com/watch?v=szlCSg0qlV0&t=665.335) ==適度==（||てきど||） — angemessen, maßvoll
 - [11:33](https://www.youtube.com/watch?v=szlCSg0qlV0&t=693.947) ==給料日==（||きゅうりょうび||） — Zahltag
 - [11:37](https://www.youtube.com/watch?v=szlCSg0qlV0&t=697.015) ==全財産==（||ぜんざいさん||） — gesamtes Vermögen
-- [11:47](https://www.youtube.com/watch?v=szlCSg0qlV0&t=707.34) 全財産が==||1400円しかない||==（||せんよんひゃくえんしかない||） — mein gesamtes Vermögen beträgt nur 1400 Yen
+- [11:47](https://www.youtube.com/watch?v=szlCSg0qlV0&t=707.34) 全財産が==||1400円しかない||== — mein gesamtes Vermögen beträgt nur 1400 Yen
 - [11:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=710.692) ==状況==（||じょうきょう||） — Situation
 - [12:34](https://www.youtube.com/watch?v=szlCSg0qlV0&t=754.277) まあ==||なんとかなるでしょ||== — wird schon irgendwie gehen
 - [12:58](https://www.youtube.com/watch?v=szlCSg0qlV0&t=778.43) 当たり前っちゃ==||当たり前||==（||あたりまえ||） — wenn man es so sagt, ist es eigentlich normal
@@ -73,9 +74,9 @@ YUYU spricht darüber, was man in den Zwanzigern tun sollte, solange die innere 
 - [14:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=883) ==||掛けがえのない||==（||かけがえのない||）いい経験 — eine unersetzliche wertvolle Erfahrung
 - [14:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=883) ==掛けがえのない==（||かけがえのない||） — unersetzlich
 - [14:54](https://www.youtube.com/watch?v=szlCSg0qlV0&t=894.393) 1人暮らし==||もしくは||==ルームシェア — alleine wohnen oder alternativ eine WG
-- [15:16](https://www.youtube.com/watch?v=szlCSg0qlV0&t=916.922) こんなにも==||やらなきゃいけないタスクがある||== — es gibt so viele Aufgaben, die man erledigen muss
+- [15:16](https://www.youtube.com/watch?v=szlCSg0qlV0&t=916.922) こんなにも==||やらなきゃいけないタスクがある||==（||やらなきゃいけないタスクがある||） — es gibt so viele Aufgaben, die man erledigen muss
 - [15:46](https://www.youtube.com/watch?v=szlCSg0qlV0&t=946.635) ==だらしない== — schlampig, nachlässig
-- [15:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=950) ==||甘ったれてんじゃねえよ||==（||あまったれてんじゃねえよ||） — stell dich nicht so verwöhnt an; rau/umgangssprachlich
+- [15:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=950) ==||甘ったれてんじゃねえよ||== — stell dich nicht so verwöhnt an; rau/umgangssprachlich
 - [16:24](https://www.youtube.com/watch?v=szlCSg0qlV0&t=984.387) ==自由==（||じゆう||） — Freiheit❗️
 - [16:36](https://www.youtube.com/watch?v=szlCSg0qlV0&t=996.327) 自由って==||楽じゃない||==（||らくじゃない||） — Freiheit ist nicht bequem / nicht einfach
 - [17:09](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1029) 楽なつまらなさを==||取る||==（||とる||） — die bequeme Langeweile wählen
@@ -133,7 +134,7 @@ YUYU spricht darüber, was man in den Zwanzigern tun sollte, solange die innere 
 - [2:08](https://www.youtube.com/watch?v=szlCSg0qlV0&t=128) ==大学生==（||だいがくせい||） — Student
 - [2:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=135) ==社会人==（||しゃかいじん||） — Berufstätiger/Erwachsener in der Arbeitswelt
 - [2:23](https://www.youtube.com/watch?v=szlCSg0qlV0&t=143) ==給料==（||きゅうりょう||） — Gehalt
-- [2:55](https://www.youtube.com/watch?v=szlCSg0qlV0&t=175) ==||心の炎が消えてしまった||== — die innere Flamme ist erloschen; starke Metapher für verlorene Leidenschaft
+- [2:55](https://www.youtube.com/watch?v=szlCSg0qlV0&t=175) ==||心の炎が消えてしまった||==（||こころのほのおがきえてしまった||） — die innere Flamme ist erloschen; starke Metapher für verlorene Leidenschaft
 - [4:48](https://www.youtube.com/watch?v=szlCSg0qlV0&t=288) ==仲間==（||なかま||） — Kamerad, Gruppe
 - [5:14](https://www.youtube.com/watch?v=szlCSg0qlV0&t=314) ==貧乏==（||びんぼう||） — Armut, arm sein
 - [5:30](https://www.youtube.com/watch?v=szlCSg0qlV0&t=330) ==羨ましい==（||うらやましい||） — neidisch, bewundernd
@@ -162,16 +163,14 @@ YUYU spricht darüber, was man in den Zwanzigern tun sollte, solange die innere 
 - [23:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1430) ==周り==（||まわり||） — Umgebung
 - [24:23](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1463) ==失敗==（||しっぱい||） — Fehler, Scheitern
 - [28:37](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1717) ==走る==（||はしる||） — laufen
+
 %%
 ## Links
 Prev::
 Next:: [[szlCSg0qlV0.migaku.ja.srt|Transcript]]
 Friend::
+
 %%
 
 ## Tags
 #transcript #media #japanese #youtube
-
-## Lernschnitt-Übersicht
-
-- [[Lernschnitte|Alle Lernschnitte]]

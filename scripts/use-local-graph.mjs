@@ -7,6 +7,7 @@ const localPlugins = [
   "graph",
   "contribute",
   "structured-brain",
+  "vocap-trainer",
   "local-media-player",
   "discord-spoilers",
   "svg-viewer",
