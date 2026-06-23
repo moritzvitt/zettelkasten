@@ -13,7 +13,10 @@ const digitalGardenRoot =
   process.env.ZETTEL_SOURCE_ROOT ||
   process.env.DIGITAL_GARDEN_ROOT ||
   path.join(vaultRoot, "Digital Garden")
-const homepageSource = path.join(digitalGardenRoot, "Welcome in my Digital Garden!.md")
+const homepageSources = [
+  path.join(digitalGardenRoot, "Welcome in my Digital Garden!.md"),
+  path.join(digitalGardenRoot, "Tea Garden", "Welcome in my Digital Garden!.md"),
+]
 const contentRoot = path.join(process.cwd(), "content")
 const staticRoot = path.join(process.cwd(), "quartz/static")
 const excalidrawStaticRoot = path.join(staticRoot, "excalidraw")
@@ -71,7 +74,7 @@ function customOutputPath(file, data) {
 
   const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
   if (!normalized) {
-    return path.resolve(file) === path.resolve(homepageSource) ? "index.md" : path.basename(file)
+    return isHomepageSource(file) ? "index.md" : path.basename(file)
   }
 
   const target = normalized.endsWith(".md")
@@ -85,10 +88,14 @@ function customOutputPath(file, data) {
 }
 
 function outputPath(file, data) {
-  if (path.resolve(file) === path.resolve(homepageSource)) return "index.md"
+  if (isHomepageSource(file)) return "index.md"
   const customPath = customOutputPath(file, data)
   if (customPath) return customPath
   return path.relative(digitalGardenRoot, file)
+}
+
+function isHomepageSource(file) {
+  return homepageSources.some((source) => path.resolve(file) === path.resolve(source))
 }
 
 function titleFrom(file, text) {

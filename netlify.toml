@@ -1,7 +1,8 @@
 [build]
-  command = "npx quartz plugin install --from-config && npm ci --prefix plugins/graph && npm ci --include=dev --prefix plugins/obsidian-plugin-excalidraw && QUARTZ_BASE_URL=$DEPLOY_PRIME_URL npm run configure-site-url && npm run build"
+  command = "npx quartz plugin install --from-config && npm ci --prefix plugins/graph && npm ci --include=dev --prefix plugins/obsidian-plugin-excalidraw && QUARTZ_BASE_URL=$URL npm run configure-site-url && npm run build"
   publish = "public"
 
 [build.environment]
   NODE_VERSION = "22.16.0"
   NPM_FLAGS = "--include=dev"
+  NODE_OPTIONS = "--max-old-space-size=8192"

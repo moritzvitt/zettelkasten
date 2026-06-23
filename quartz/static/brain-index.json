@@ -8,11 +8,11 @@
     "sibling"
   ],
   "nodes": {
-    "tea-garden/welcome-in-my-digital-garden!": {
-      "slug": "tea-garden/welcome-in-my-digital-garden!",
+    "index": {
+      "slug": "index",
       "title": "Welcome in my Digital Garden!",
       "source": "Digital Garden/Tea Garden/Welcome in my Digital Garden!.md",
-      "url": "/tea-garden/welcome-in-my-digital-garden!",
+      "url": "/index",
       "tags": [
         "zettel"
       ]
