@@ -68,29 +68,8 @@ function shouldPublish(data) {
   return isTruthy(data.publish) || isTruthy(data["dg-publish"])
 }
 
-function customOutputPath(file, data) {
-  const customPath = data["custom-path"]
-  if (typeof customPath !== "string" || !customPath.trim()) return null
-
-  const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
-  if (!normalized) {
-    return isHomepageSource(file) ? "index.md" : path.basename(file)
-  }
-
-  const target = normalized.endsWith(".md")
-    ? normalized
-    : path.posix.join(normalized, path.basename(file))
-  const safeTarget = path.posix.normalize(target)
-  if (safeTarget === "." || safeTarget.startsWith("../") || safeTarget === "..") {
-    throw new Error(`Invalid custom-path for ${file}: ${customPath}`)
-  }
-  return safeTarget
-}
-
-function outputPath(file, data) {
+function outputPath(file) {
   if (isHomepageSource(file)) return "index.md"
-  const customPath = customOutputPath(file, data)
-  if (customPath) return customPath
   return path.relative(digitalGardenRoot, file)
 }
 
@@ -401,7 +380,7 @@ for (const file of files) {
     skipped += 1
     continue
   }
-  const rel = outputPath(file, data)
+  const rel = outputPath(file)
   const parsedRelationships = parseLinksSection(text)
   rawNotes.push({
     file,

@@ -7,6 +7,10 @@ const digitalGardenRoot =
   process.env.ZETTEL_SOURCE_ROOT ||
   process.env.DIGITAL_GARDEN_ROOT ||
   path.join(vaultRoot, "Digital Garden")
+const homepageSources = [
+  path.join(digitalGardenRoot, "Welcome in my Digital Garden!.md"),
+  path.join(digitalGardenRoot, "Tea Garden", "Welcome in my Digital Garden!.md"),
+]
 const contentIndexPath = path.join(process.cwd(), "public/static/contentIndex.json")
 const relationNames = ["Prev", "Next", "Parent", "Child", "Friend"]
 
@@ -30,23 +34,13 @@ function published(data) {
   return data.publish === true || data["dg-publish"] === true
 }
 
-function customOutputPath(file, data) {
-  const customPath = data["custom-path"]
-  if (typeof customPath !== "string" || !customPath.trim()) return null
-
-  const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
-  const target = normalized.endsWith(".md")
-    ? normalized
-    : path.posix.join(normalized, path.basename(file))
-  const safeTarget = path.posix.normalize(target)
-  if (safeTarget === "." || safeTarget.startsWith("../") || safeTarget === "..") {
-    throw new Error(`Invalid custom-path for ${file}: ${customPath}`)
-  }
-  return safeTarget
+function outputPath(file) {
+  if (isHomepageSource(file)) return "index.md"
+  return path.relative(digitalGardenRoot, file)
 }
 
-function outputPath(file, data) {
-  return customOutputPath(file, data) || path.relative(digitalGardenRoot, file)
+function isHomepageSource(file) {
+  return homepageSources.some((source) => path.resolve(file) === path.resolve(source))
 }
 
 function cleanTitle(value) {
@@ -99,7 +93,7 @@ for (const file of await walk(digitalGardenRoot)) {
   const text = await readFile(file, "utf8")
   const data = frontmatter(text)
   if (!published(data)) continue
-  const rel = outputPath(file, data)
+  const rel = outputPath(file)
   sourceNotes.push({ rel, slug: slugPath(rel), title: title(file, text), relations: hiddenRelations(text) })
 }
 

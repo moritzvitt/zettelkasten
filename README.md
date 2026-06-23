@@ -12,8 +12,8 @@ Der Build schreibt die Website nach `public/`; dieser Ordner wird nicht committe
 
 Die veröffentlichte Obsidian-Notiz `Welcome in my Digital Garden!.md` wird als
 reguläre Quartz-Startseite nach `content/index.md` synchronisiert. Das gilt
-auch, wenn sie unter `Tea Garden/Welcome in my Digital Garden!.md` liegt. Andere
-Notizen mit `custom-path: /` bleiben als benannte Dateien im Content-Root.
+auch, wenn sie unter `Tea Garden/Welcome in my Digital Garden!.md` liegt.
+`custom-path`-Properties werden beim Sync ignoriert.
 
 ## Lokaler Workflow
 
