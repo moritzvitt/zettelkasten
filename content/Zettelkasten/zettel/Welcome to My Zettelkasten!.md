@@ -9,26 +9,24 @@ Hello, I'm Moritz.
 
 Somehow, you have found your way into my zettelkasten!
 
-Here you will find my thoughts on language, learning, Anki, immersion, communication, and a few adjacent topics. The notes are not meant to form a finished book, but a working network: individual thoughts that correct, extend, and sometimes contradict one another.
+If you want to get into the theory of language learning, [[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition|Language Acquisition]] is a good place to start.
 
-I would be very happy if you contributed. A zettelkasten improves when other people sharpen concepts, find counterexamples, add sources, or simply say, "I understand this thought differently."
+If you want to use Anki more effectively, especially for studying a language, have a look at [[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki|SRS (Spaced Repetition), Anki]].
 
-## Contributing Without GitHub
+One final note: the markdown files in this Zettelkasten are public on GitHub:  
+[github.com/moritzvitt/zettelkasten](https://github.com/moritzvitt/zettelkasten/tree/v5/content/Zettelkasten/zettel)
 
-Every note page has a "Contribute" section. There, you can directly suggest an improvement or submit a note of your own. You do not need a GitHub account or any knowledge of Markdown.
+My dream is to collaborate on these notes with others, in an open-source kind of way.  
+So feel free to download the folder from GitHub, change things, add thoughts, disagree, improve, and create a pull request.
 
-Submissions are not published automatically. They first reach me as suggestions so that spam, copyright, and security issues can be avoided.
+## **How to Interact with the Zettelkasten**
 
-## Working Locally With Obsidian
+The Zettelkasten provides ready-made building blocks: small, atomic ideas that are already fully articulated.
 
-If you want to explore or edit the zettelkasten yourself, you can open the Markdown files locally:
+However, the real value of these ideas lies in the connections between them.
 
-- [Clone the GitHub repository](https://github.com/moritzvitt/zettelkasten)
-- [Download the repository as a ZIP file](https://github.com/moritzvitt/zettelkasten/archive/refs/heads/v5.zip)
-- [View the Markdown folder](https://github.com/moritzvitt/zettelkasten/tree/v5/content)
+The notes follow my own structure of thought. To truly engage with a topic, it is therefore not enough to read individual notes. You need to internalize the structure itself. You need to have arranged the notes on your own at least once.
 
-The best way to open the downloaded folder is in [Obsidian](https://obsidian.md/). You can optionally install the "Excalibrain" plugin if you want to edit the relationships between Parent, Child, Prev, Next, and Friend visually.
+Perhaps one day I will write a plugin that allows visitors to create their own Excalidraw mind map directly on the website.
 
-## Sending Changes Back
-
-Technically inclined contributors can return changes to the repository through a pull request. For small comments, the form on the website is usually easier. For larger revisions, new notes, or structural proposals, a pull request is ideal.
+In my view, these conceptual building blocks provide the perfect foundation for that.

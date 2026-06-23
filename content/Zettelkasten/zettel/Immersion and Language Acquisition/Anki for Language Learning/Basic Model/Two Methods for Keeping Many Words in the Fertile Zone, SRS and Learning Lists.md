@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists
+
 ## Claim
 
 Spaced repetition is ideally suited for keeping many words in the fertile zone for a longer time.

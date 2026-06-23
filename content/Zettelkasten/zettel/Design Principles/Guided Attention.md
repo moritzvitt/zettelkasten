@@ -8,3 +8,4 @@ tags:
 # Guided Attention
 
 Visual hierarchy.
+Information hierarchy

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# An Understanding of Nature and Sustainability Is Present Within Us
+
 ## Claim
 
 An understanding of nature and sustainability does not have to be imposed entirely from outside; it can connect with existing human motives of protection, care, and meaning.

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Cloze Note Type for Maximum Immersion
+
 ## Claim
 
 A cloze note can isolate a small retrieval target inside natural language while keeping the learner close to material encountered in immersion.

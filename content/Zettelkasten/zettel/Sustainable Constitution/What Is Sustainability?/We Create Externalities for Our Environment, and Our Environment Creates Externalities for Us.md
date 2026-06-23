@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us
+
 ## Claim
 
 Our actions affect the environment, but the environment also acts back upon us.

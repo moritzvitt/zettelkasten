@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki Is Not a Knowledge Store
+
 ## Claim
 
 In your language-learning system, Anki is not where knowledge lives. It is a retrieval tool that prepares words and weak memory points so they can be recognized in input: listening and reading.[^source-notes]

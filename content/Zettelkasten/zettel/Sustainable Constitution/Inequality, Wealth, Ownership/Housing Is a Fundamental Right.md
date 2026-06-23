@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Housing Is a Fundamental Right
+
 ## Claim
 
 Housing is a fundamental right because without reliable housing, a person can hardly be free, secure, or politically capable of acting.

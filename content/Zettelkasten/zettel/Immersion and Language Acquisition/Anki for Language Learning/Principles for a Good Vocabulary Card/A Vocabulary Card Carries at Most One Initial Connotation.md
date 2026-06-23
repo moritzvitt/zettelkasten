@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# A Vocabulary Card Carries at Most One Initial Connotation
+
 ## Claim
 
 A vocabulary card should carry at most one initial connotation: enough meaning to make the word recognizable, but not an attempt to encode its complete semantic range.

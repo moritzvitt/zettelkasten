@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Misplaced Ambition in Anki
+
 ## Claim
 
 Anki should not learn the entire language. It prepares the actual learning by creating recognition, keeping words in a learnable state, and marking weak retrieval points.[^source-notes]

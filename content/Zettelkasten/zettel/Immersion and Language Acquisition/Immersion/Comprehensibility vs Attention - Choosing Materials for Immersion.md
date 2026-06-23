@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Comprehensibility vs Attention - Choosing Materials for Immersion
+
 ## Claim
 
 Input lies in a field of tension between comprehensibility and attention.

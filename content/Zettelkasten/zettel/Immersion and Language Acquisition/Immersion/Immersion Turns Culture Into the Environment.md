@@ -9,6 +9,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Immersion Turns Culture Into the Environment
+
 ## Claim
 
 Immersion means treating a language not merely as study material, but as an environment. You move inside a medium of communication, a culture, and an information network in which meaning, sound, register, typical situations, and world knowledge appear together.[^source-notes]

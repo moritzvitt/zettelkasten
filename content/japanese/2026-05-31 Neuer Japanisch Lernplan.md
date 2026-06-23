@@ -1,6 +1,6 @@
 ---
 title: "Japanisch Lernplan"
-source: "Digital Garden/journal/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md"
+source: "Digital Garden/journal/2026/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md"
 publish: true
 tags:
   - zettel

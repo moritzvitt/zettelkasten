@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Functional Fluency
+
 ## Claim
 
 Functional fluency means: learn nothing unnecessary; become truly capable only in the contexts that matter.

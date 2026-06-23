@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Incentive Problems
+
 ## Claim
 
 Incentive problems arise when an institution rewards behavior that it should actually discourage.

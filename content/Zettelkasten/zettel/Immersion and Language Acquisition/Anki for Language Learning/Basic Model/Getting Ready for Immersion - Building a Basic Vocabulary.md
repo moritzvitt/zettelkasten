@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Getting Ready for Immersion - Building a Basic Vocabulary
+
 ## Claim
 
 At the beginning, Anki helps build enough basic vocabulary for immersion to become possible and increasingly comprehensible.

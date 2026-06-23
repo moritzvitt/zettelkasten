@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Card Retirement
+
 ## Claim
 
 Cards should retire once immersion can reliably carry the word or concept without continued scheduled support.

@@ -1,10 +1,12 @@
 ---
-title: "The Fertile Zone; Language Concepts in a Learnable State"
+title: "The Fertile Zone; Language Concepts in a Learnable State (short-term memory - medium-term - long-term memory)"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md"
 publish: true
 tags:
   - zettel
 ---
+# The Fertile Zone; Language Concepts in a Learnable State (short-term memory - medium-term - long-term memory)
+
 ## Claim
 
 The period shortly after first noticing a word, expression, phrase, or grammatical concept is especially fertile, while it is still fresh. It has not yet been "learned" in the proper sense; only a mental entry exists that makes it recognizable and keeps it in a **learnable state**.[^source-notes] Immersion can then fill that entry with nuance, sound, register, collocations, and real situations. ^db20d0

@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Asymmetric Information
+
 ## Claim
 
 Asymmetric information arises when one side of a relationship knows relevant things that the other side cannot see or meaningfully verify.

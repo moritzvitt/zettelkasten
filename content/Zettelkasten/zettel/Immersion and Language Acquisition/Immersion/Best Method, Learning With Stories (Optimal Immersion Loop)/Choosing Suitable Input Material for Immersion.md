@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Choosing Suitable Input Material for Immersion
+
 ## Claim
 
 Suitable immersion material is interesting enough to hold attention and difficult enough to create learning without making meaning collapse.

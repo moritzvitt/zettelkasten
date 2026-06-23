@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The LLM in My Brain
+
 ## Claim
 
 When we learn a language, our brain effectively builds an LLM for that language. This LLM is refined continuously through input and output.

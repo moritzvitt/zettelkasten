@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Language Knowledge Becomes Less Accessible, Not Simply Erased
+
 ## Claim
 
 Unused language knowledge often becomes less accessible rather than simply being erased. Reactivation therefore means making existing traces reachable and fluent again.

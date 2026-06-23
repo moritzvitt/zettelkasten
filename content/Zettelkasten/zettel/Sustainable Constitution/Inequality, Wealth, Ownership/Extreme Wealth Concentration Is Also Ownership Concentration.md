@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Extreme Wealth Concentration Is Also Ownership Concentration
+
 ## Claim
 
 Extreme wealth concentration is also ownership concentration: a small number of people then control not only money, but enduring claims on housing, companies, land, infrastructure, and channels of political influence.

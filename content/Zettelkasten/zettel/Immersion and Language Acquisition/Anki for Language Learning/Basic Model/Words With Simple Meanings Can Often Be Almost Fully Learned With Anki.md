@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Words With Simple Meanings Can Often Be Almost Fully Learned With Anki
+
 ## Claim
 
 Words with simple, stable meanings can often be learned almost completely through Anki because their initial connotation is already close to their full connotation.

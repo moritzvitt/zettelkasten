@@ -8,6 +8,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Language Acquisition
+
 ## Claim
 
 Language acquisition is the construction of an inner language system that connects perception, meaning, and use. You do not acquire only individual words or rules, but a system in which sound, lexis, semantics, grammar, and pragmatics become available together in real situations.[^clipping-what-is-language-acquisition]

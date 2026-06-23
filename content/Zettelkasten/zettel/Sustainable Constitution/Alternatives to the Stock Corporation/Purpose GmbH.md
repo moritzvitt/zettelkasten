@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Purpose GmbH
+
 ## Claim
 
 The Purpose GmbH attempts to structure company ownership so that control and responsibility are preserved while the free extraction of company assets is limited.

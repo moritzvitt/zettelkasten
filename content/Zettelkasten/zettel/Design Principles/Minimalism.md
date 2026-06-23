@@ -8,3 +8,4 @@ tags:
 # Minimalism
 
 Minimize unnecessary, distracting noise.
+We don't need more noise, there is already so much information floating around.

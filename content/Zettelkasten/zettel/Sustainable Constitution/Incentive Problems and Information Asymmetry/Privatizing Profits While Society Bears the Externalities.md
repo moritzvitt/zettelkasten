@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Privatizing Profits While Society Bears the Externalities
+
 ## Claim
 
 A central sustainability problem arises when profits are captured privately while ecological, social, or financial follow-up costs fall on society.

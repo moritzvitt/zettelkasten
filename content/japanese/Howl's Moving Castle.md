@@ -16,7 +16,6 @@ tags:
   - zettel
 ---
 ## Lernliste
-- [[Howl's Moving Castle (2004).mp4#t=106.4|1:46]] ==これ仕上げちゃう== - „ich mache das noch fertig“; ちゃう als beiläufiges Abschließen.❗️
 - [[Howl's Moving Castle (2004).mp4#t=292|4:52]] ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesicht
 - [[Howl's Moving Castle (2004).mp4#t=322|5:22]] ==ジェザーリ== - Cesari/Name des Ladens
 - [[Howl's Moving Castle (2004).mp4#t=350|5:50]] ==巻き込む==（||まきこむ||） - hineinziehen, verwickeln
@@ -51,9 +50,7 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=1219|20:19]] ==招待状==（||しょうたいじょう||） - Einladungsschreiben
 - [[Howl's Moving Castle (2004).mp4#t=1260|21:00]] ==ぼろ== - Lumpen, Fetzen
 - [[Howl's Moving Castle (2004).mp4#t=1276|21:16]] ==こんがらがる== - sich verheddern, durcheinander geraten
-- [[Howl's Moving Castle (2004).mp4#t=1276.64|21:16]] ==こんがらがった呪いだね== - „das ist ein völlig verhedderter Fluch“.❗️
 - [[Howl's Moving Castle (2004).mp4#t=1302.08|21:42]] ==火の悪魔==（||ひのあくま||） - Feuerdämon
-- [[Howl's Moving Castle (2004).mp4#t=1304.91|21:44]] ==火の悪魔カルシファーって言うんだ== - „ich heiße Calcifer, der Feuerdämon“.❗️
 - [[Howl's Moving Castle (2004).mp4#t=1311|21:51]] ==縛り付ける==（||しばりつける||） - festbinden, fesseln
 - [[Howl's Moving Castle (2004).mp4#t=1316.4|21:56]] ==悪魔と取引をするってわけね== - „also soll ich mit einem Dämon einen Handel schließen?“.
 - [[Howl's Moving Castle (2004).mp4#t=1317.3|21:57]] ==取引==（||とりひき||） - Handel, Geschäft, Deal
@@ -176,7 +173,6 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=5078.443|1:24:38]] ==下っ端==（||したっぱ||） - unterster Handlanger, kleiner Untergebener
 - [[Howl's Moving Castle (2004).mp4#t=5144.003|1:25:44]] ==ため息==（||ためいき||） - Seufzer
 - [[Howl's Moving Castle (2004).mp4#t=5154.443|1:25:54]] ==図星==（||ずぼし||） - ins Schwarze getroffen; wunder Punkt
-- [[Howl's Moving Castle (2004).mp4#t=5170.363|1:26:10]] ==仕方のないもの==（||しかたのないもの||） - etwas, bei dem man nichts machen kann; unvermeidliche Sache❗️
 - [[Howl's Moving Castle (2004).mp4#t=5176.203|1:26:16]] ==呆れる==（||あきれる||） - fassungslos sein, die Nase voll haben
 - [[Howl's Moving Castle (2004).mp4#t=5185.636|1:26:25]] ==空襲==（||くうしゅう||） - Luftangriff
 - [[Howl's Moving Castle (2004).mp4#t=5186.731|1:26:26]] ==空襲警報==（||くうしゅうけいほう||） - Fliegeralarm, Luftangriffswarnung
@@ -201,9 +197,7 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=5927.664|1:38:47]] ==煙突==（||えんとつ||） - Schornstein
 - [[Howl's Moving Castle (2004).mp4#t=5933.904|1:38:53]] ==一流は場所を選ばない==（||いちりゅうはばしょをえらばない||） - „Erstklassige wählen ihren Ort nicht“; schmeichelnde Ermunterung.
 - [[Howl's Moving Castle (2004).mp4#t=6046.804|1:40:46]] ==囲まれる==（||かこまれる||） - umzingelt sein, eingeschlossen werden
-- [[Howl's Moving Castle (2004).mp4#t=6485.624|1:48:05]] ==涙が止まらない==（||なみだがとまらない||） - die Tränen hören nicht auf❗️
 - [[Howl's Moving Castle (2004).mp4#t=6521.404|1:48:41]] ==グズ== - Trödler, Trottel, jemand, der zu langsam ist
-- [[Howl's Moving Castle (2004).mp4#t=6622.190|1:50:22]] ==大事にする==（||だいじにする||） - sorgsam behandeln, wertschätzen❗️
 - [[Howl's Moving Castle (2004).mp4#t=6651.390|1:50:51]] ==クタクタ== - völlig erschöpft, fix und fertig
 - [[Howl's Moving Castle (2004).mp4#t=6668.010|1:51:08]] ==小鳥みたいに動いてる==（||ことりみたいにうごいてる||） - „es bewegt sich wie ein kleiner Vogel“; zarte Beschreibung des Herzens.
 - [[Howl's Moving Castle (2004).mp4#t=6672.010|1:51:12]] ==まんま== - genauso wie vorher; unverändert, in kindlicher/umgangssprachlicher Form.
@@ -212,7 +206,6 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=6760.005|1:52:40]] ==王子==（||おうじ||） - Prinz
 - [[Howl's Moving Castle (2004).mp4#t=6760.670|1:52:40]] ==カブ頭==（||かぶあたま||） - Rübenkopf; hier Scarecrows Fluchgestalt
 - [[Howl's Moving Castle (2004).mp4#t=6763.310|1:52:43]] ==愛する者==（||あいするもの||） - geliebte Person; jemand, der liebt/geliebt wird
-- [[Howl's Moving Castle (2004).mp4#t=6778.710|1:52:58]] ==体が石みたいだ==（||からだがいしみたいだ||） - „mein Körper ist wie Stein“.❗️
 - [[Howl's Moving Castle (2004).mp4#t=6782|1:53:02]] ==髪の毛==（||かみのけ||） - Haare, Haarsträhne
 - [[Howl's Moving Castle (2004).mp4#t=6784|1:53:04]] ==染まる==（||そまる||） - sich färben, gefärbt werden
 - [[Howl's Moving Castle (2004).mp4#t=6784.990|1:53:04]] ==星の光に染まってる==（||ほしのひかりにそまってる||） - „vom Sternenlicht gefärbt/getönt sein“.
@@ -228,6 +221,13 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=6905.875|1:55:05]] ==限りない==（||かぎりない||） - grenzenlos, endlos
 - [[Howl's Moving Castle (2004).mp4#t=6947.875|1:55:47]] ==せせらぎ== - Murmeln/Plätschern eines Bachs
 ## Kenn ich schon mehr oder weniger
+- [[Howl's Moving Castle (2004).mp4#t=106.4|1:46]] ==これ仕上げちゃう== - „ich mache das noch fertig“; ちゃう als beiläufiges Abschließen.
+- [[Howl's Moving Castle (2004).mp4#t=1276.64|21:16]] ==こんがらがった呪いだね== - „das ist ein völlig verhedderter Fluch“.
+- [[Howl's Moving Castle (2004).mp4#t=1304.91|21:44]] ==火の悪魔カルシファーって言うんだ== - „ich heiße Calcifer, der Feuerdämon“.
+- [[Howl's Moving Castle (2004).mp4#t=5170.363|1:26:10]] ==仕方のないもの==（||しかたのないもの||） - etwas, bei dem man nichts machen kann; unvermeidliche Sache
+- [[Howl's Moving Castle (2004).mp4#t=6485.624|1:48:05]] ==涙が止まらない==（||なみだがとまらない||） - die Tränen hören nicht auf
+- [[Howl's Moving Castle (2004).mp4#t=6622.190|1:50:22]] ==大事にする==（||だいじにする||） - sorgsam behandeln, wertschätzen
+- [[Howl's Moving Castle (2004).mp4#t=6778.710|1:52:58]] ==体が石みたいだ==（||からだがいしみたいだ||） - „mein Körper ist wie Stein“.
 - [[Howl's Moving Castle (2004).mp4#t=90|1:30]] ==店==（||みせ||） - Laden
 - [[Howl's Moving Castle (2004).mp4#t=103|1:43]] ==行く==（||いく||） - gehen
 - [[Howl's Moving Castle (2004).mp4#t=103.66|1:43]] ==ソフィーさんも行けばいいのに== - „du solltest doch auch gehen“; ばいいのに als Vorschlag mit Bedauern.
@@ -348,6 +348,8 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=6947|1:55:47]] ==色==（||いろ||） - Farbe
 
 ### Kann ich schon (fast) perfekt
+
+
 %%
 ## Links
 Prev::

@@ -8,38 +8,47 @@
     "sibling"
   ],
   "nodes": {
-    "purpose": {
-      "slug": "purpose",
-      "title": "Sinn / Purpose",
-      "source": "Digital Garden/Purpose.md",
-      "url": "/purpose",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "messi-is-art": {
-      "slug": "messi-is-art",
-      "title": "Messi is Art",
-      "source": "Digital Garden/Tea Garden/Messi is Art.md",
-      "url": "/messi-is-art",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "things-i-made,-i-am-proud-of": {
-      "slug": "things-i-made,-i-am-proud-of",
-      "title": "Things I made, I am proud of",
-      "source": "Digital Garden/Tea Garden/Things I made, I am proud of.md",
-      "url": "/things-i-made,-i-am-proud-of",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "welcome-in-my-digital-garden!": {
-      "slug": "welcome-in-my-digital-garden!",
+    "tea-garden/welcome-in-my-digital-garden!": {
+      "slug": "tea-garden/welcome-in-my-digital-garden!",
       "title": "Welcome in my Digital Garden!",
-      "source": "Digital Garden/Welcome in my Digital Garden!.md",
-      "url": "/welcome-in-my-digital-garden!",
+      "source": "Digital Garden/Tea Garden/Welcome in my Digital Garden!.md",
+      "url": "/tea-garden/welcome-in-my-digital-garden!",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/digital-garden-website-versions-log": {
+      "slug": "tea-garden/foundation/digital-garden-website-versions-log",
+      "title": "Digital Garden Website Versions log",
+      "source": "Digital Garden/Tea Garden/foundation/Digital Garden Website Versions log.md",
+      "url": "/tea-garden/foundation/digital-garden-website-versions-log",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/purpose": {
+      "slug": "tea-garden/foundation/purpose",
+      "title": "Sinn / Purpose",
+      "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
+      "url": "/tea-garden/foundation/purpose",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/messi-is-art": {
+      "slug": "tea-garden/personal/messi-is-art",
+      "title": "Messi is Art",
+      "source": "Digital Garden/Tea Garden/personal/Messi is Art.md",
+      "url": "/tea-garden/personal/messi-is-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/things-i-made,-i-am-proud-of": {
+      "slug": "tea-garden/personal/things-i-made,-i-am-proud-of",
+      "title": "Things I made, I am proud of",
+      "source": "Digital Garden/Tea Garden/personal/Things I made, I am proud of.md",
+      "url": "/tea-garden/personal/things-i-made,-i-am-proud-of",
       "tags": [
         "zettel"
       ]
@@ -118,7 +127,7 @@
     },
     "zettelkasten/zettel/communication-and-information/learning-a-culture": {
       "slug": "zettelkasten/zettel/communication-and-information/learning-a-culture",
-      "title": "Learning a Culture",
+      "title": "Language as Participation in an Information Network",
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Learning a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/learning-a-culture",
       "tags": [
@@ -361,7 +370,7 @@
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state",
-      "title": "The Fertile Zone; Language Concepts in a Learnable State",
+      "title": "The Fertile Zone; Language Concepts in a Learnable State (short-term memory - medium-term - long-term memory)",
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state",
       "tags": [
@@ -629,6 +638,15 @@
         "zettel"
       ]
     },
+    "language-learning.excalidraw": {
+      "slug": "language-learning.excalidraw",
+      "title": "Language Learning",
+      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Learning.excalidraw.md",
+      "url": "/language-learning.excalidraw",
+      "tags": [
+        "zettel"
+      ]
+    },
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later",
       "title": "A Language Is Learned Deeply Once and Reactivated Later",
@@ -683,11 +701,11 @@
         "zettel"
       ]
     },
-    "zettelkasten/zettel/immersion-and-language-acquisition/index": {
-      "slug": "zettelkasten/zettel/immersion-and-language-acquisition/index",
-      "title": "Language-Learning Notes",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/index.md",
-      "url": "/zettelkasten/zettel/immersion-and-language-acquisition/index",
+    "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai": {
+      "slug": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "title": "Why a language is still a valuable skill in the age of AI",
+      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Why You Should Learn a Language in the Age of AI.md",
+      "url": "/zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "tags": [
         "zettel"
       ]
@@ -902,7 +920,7 @@
     "japanese/2026-05-31-neuer-japanisch-lernplan": {
       "slug": "japanese/2026-05-31-neuer-japanisch-lernplan",
       "title": "Japanisch Lernplan",
-      "source": "Digital Garden/journal/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md",
+      "source": "Digital Garden/journal/2026/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md",
       "url": "/japanese/2026-05-31-neuer-japanisch-lernplan",
       "tags": [
         "zettel"
@@ -944,6 +962,15 @@
         "zettel"
       ]
     },
+    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】": {
+      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "title": "正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
+      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "tags": [
+        "zettel"
+      ]
+    },
     "japanese/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
       "slug": "japanese/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
       "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
@@ -953,20 +980,11 @@
         "zettel"
       ]
     },
-    "media-lib/web-clippings/effective-learning-twenty-rules-of-formulating-knowledge": {
-      "slug": "media-lib/web-clippings/effective-learning-twenty-rules-of-formulating-knowledge",
-      "title": "Effective learning Twenty rules of formulating knowledge",
-      "source": "Digital Garden/media-lib/web-clippings/Effective learning Twenty rules of formulating knowledge.md",
-      "url": "/media-lib/web-clippings/effective-learning-twenty-rules-of-formulating-knowledge",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "media-lib/web-clippings/eigentum-und-besitz": {
-      "slug": "media-lib/web-clippings/eigentum-und-besitz",
-      "title": "Eigentum und Besitz",
-      "source": "Digital Garden/media-lib/web-clippings/Eigentum und Besitz.md",
-      "url": "/media-lib/web-clippings/eigentum-und-besitz",
+    "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)": {
+      "slug": "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+      "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
+      "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
       "tags": [
         "zettel"
       ]
@@ -976,15 +994,6 @@
       "title": "Minimum information principle",
       "source": "Digital Garden/media-lib/web-clippings/Minimum information principle.md",
       "url": "/media-lib/web-clippings/minimum-information-principle",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "media-lib/web-clippings/sprache-gleich-kommunikation?-in-schülerlexikon": {
-      "slug": "media-lib/web-clippings/sprache-gleich-kommunikation?-in-schülerlexikon",
-      "title": "Sprache gleich Kommunikation? in  Schülerlexikon",
-      "source": "Digital Garden/media-lib/web-clippings/Sprache gleich Kommunikation? in  Schülerlexikon.md",
-      "url": "/media-lib/web-clippings/sprache-gleich-kommunikation?-in-schülerlexikon",
       "tags": [
         "zettel"
       ]
@@ -1300,6 +1309,18 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
+      "type": "child",
+      "explicit": false
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
+      "type": "parent",
+      "explicit": true
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "type": "child",
       "explicit": false
     }
@@ -1668,6 +1689,36 @@
       "type": "child",
       "explicit": false,
       "direction": "to"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
+      "type": "parent",
+      "explicit": true,
+      "direction": "from"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "type": "child",
+      "explicit": false,
+      "direction": "to"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "type": "sibling",
+      "explicit": false,
+      "direction": "none",
+      "via": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
+      "type": "sibling",
+      "explicit": false,
+      "direction": "none",
+      "via": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition"
     }
   ],
   "explicitEdges": [
@@ -1925,6 +1976,13 @@
     },
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
+      "type": "parent",
+      "explicit": true,
+      "direction": "from"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "type": "parent",
       "explicit": true,

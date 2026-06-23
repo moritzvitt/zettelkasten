@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Thematic Immersion Optimizes Re-Encounter Density
+
 ## Claim
 
 Thematic immersion optimizes the density of re-encounters. When several pieces of input share a genre, subject, setting, or format, relevant vocabulary and patterns recur more often than they would in randomly mixed input.

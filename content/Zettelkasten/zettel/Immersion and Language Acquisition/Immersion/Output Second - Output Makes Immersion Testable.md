@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Output Second - Output Makes Immersion Testable
+
 ## Claim
 
 Output reveals where the internal language model still fails. While speaking or writing, learners suddenly notice which form is missing, which collocation cannot be retrieved, or which structure was known only passively.[^source-notes]

@@ -85,7 +85,7 @@ function decodeSvgDataUrl(value) {
   }
 }
 
-function inlineEmbeddedSvgs(svg) {
+function inlineEmbeddedSvgs(svg, linkIndex) {
   for (const image of [...svg.querySelectorAll("image")]) {
     const source = decodeSvgDataUrl(image.getAttribute("href") || image.getAttribute("xlink:href"))
     if (!source) continue
@@ -94,6 +94,7 @@ function inlineEmbeddedSvgs(svg) {
     const embedded = parsed.documentElement
     if (embedded.localName !== "svg" || parsed.querySelector("parsererror")) continue
     sanitizeSvg(embedded)
+    rewriteSvgLinks(embedded, linkIndex)
 
     const replacement = document.createElementNS("http://www.w3.org/2000/svg", "svg")
     for (const name of ["x", "y", "width", "height", "preserveAspectRatio", "transform"]) {
@@ -190,7 +191,8 @@ async function setupSvgViewer(object) {
     ["minus", "−", "Verkleinern"],
     ["reset", "1:1", "Ansicht zurücksetzen"],
     ["plus", "+", "Vergrößern"],
-    ["fullscreen", "⛶", "Vollbild umschalten"],
+    ["fullscreen", "⛶", "Canvas groß anzeigen"],
+    ["close", "×", "Große Ansicht schließen"],
   ]
 
   for (const [action, label, title] of controls) {
@@ -223,8 +225,9 @@ async function setupSvgViewer(object) {
     }
 
     sanitizeSvg(svg)
-    inlineEmbeddedSvgs(svg)
-    rewriteSvgLinks(svg, await getSvgLinkIndex())
+    const linkIndex = await getSvgLinkIndex()
+    inlineEmbeddedSvgs(svg, linkIndex)
+    rewriteSvgLinks(svg, linkIndex)
     inlineLinkedUses(svg)
 
     svg = window.document.importNode(svg, true)
@@ -257,6 +260,7 @@ async function setupSvgViewer(object) {
   let startY = 0
   let originX = 0
   let originY = 0
+  let moved = false
 
   const applyViewBox = () => {
     svg.setAttribute(
@@ -300,6 +304,13 @@ async function setupSvgViewer(object) {
     applyViewBox()
   }
 
+  const setExpanded = (expanded) => {
+    viewer.classList.toggle("is-expanded", expanded)
+    document.documentElement.classList.toggle("svg-viewer-expanded", expanded)
+    viewer.setAttribute("aria-label", expanded ? "Großer interaktiver SVG-Viewer" : "Interaktiver SVG-Viewer")
+    if (expanded) viewer.focus({ preventScroll: true })
+  }
+
   toolbar.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-svg-viewer-action]")
     if (!button) return
@@ -312,10 +323,8 @@ async function setupSvgViewer(object) {
     if (action === "minus") zoomAt(1 / 1.3, centerX, centerY)
     if (action === "plus") zoomAt(1.3, centerX, centerY)
     if (action === "reset") reset()
-    if (action === "fullscreen") {
-      if (window.document.fullscreenElement === viewer) window.document.exitFullscreen()
-      else viewer.requestFullscreen?.()
-    }
+    if (action === "fullscreen") setExpanded(!viewer.classList.contains("is-expanded"))
+    if (action === "close") setExpanded(false)
   })
 
   stage.addEventListener(
@@ -329,18 +338,23 @@ async function setupSvgViewer(object) {
 
   stage.addEventListener("click", (event) => {
     const link = event.target.closest("a[href]")
-    if (!link) return
-    event.preventDefault()
+    if (link) {
+      event.preventDefault()
 
-    const href = link.getAttribute("href")
-    if (!href) return
-    const openInNewTab =
-      link.getAttribute("target") === "_blank" ||
-      event.metaKey ||
-      event.ctrlKey ||
-      event.shiftKey
-    if (openInNewTab) window.open(href, "_blank", "noopener,noreferrer")
-    else window.location.href = href
+      const href = link.getAttribute("href")
+      if (!href) return
+      const openInNewTab =
+        link.getAttribute("target") === "_blank" ||
+        event.metaKey ||
+        event.ctrlKey ||
+        event.shiftKey
+      if (openInNewTab) window.open(href, "_blank", "noopener,noreferrer")
+      else window.location.href = href
+      return
+    }
+
+    if (moved || viewer.classList.contains("is-expanded")) return
+    setExpanded(true)
   })
 
   stage.addEventListener("pointerdown", (event) => {
@@ -352,12 +366,14 @@ async function setupSvgViewer(object) {
     startY = event.clientY
     originX = viewBox.x
     originY = viewBox.y
+    moved = false
     stage.setPointerCapture(pointerId)
     viewer.classList.add("is-dragging")
   })
 
   stage.addEventListener("pointermove", (event) => {
     if (!dragging || event.pointerId !== pointerId) return
+    if (Math.hypot(event.clientX - startX, event.clientY - startY) > 4) moved = true
     const rect = stage.getBoundingClientRect()
     const unitsPerPixel = Math.max(viewBox.width / rect.width, viewBox.height / rect.height)
     viewBox.x = originX - (event.clientX - startX) * unitsPerPixel
@@ -375,6 +391,12 @@ async function setupSvgViewer(object) {
   stage.addEventListener("pointerup", stopDragging)
   stage.addEventListener("pointercancel", stopDragging)
   stage.addEventListener("dblclick", reset)
+  viewer.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && viewer.classList.contains("is-expanded")) {
+      event.preventDefault()
+      setExpanded(false)
+    }
+  })
   viewer.classList.remove("is-loading")
   applyViewBox()
 }
@@ -413,6 +435,11 @@ const viewerStyle = `
   box-shadow: 0 0.25rem 1rem color-mix(in srgb, var(--dark) 8%, transparent);
 }
 
+html.svg-viewer-expanded,
+html.svg-viewer-expanded body {
+  overflow: hidden;
+}
+
 .svg-viewer:focus-visible {
   outline: 2px solid var(--secondary);
   outline-offset: 2px;
@@ -429,6 +456,20 @@ const viewerStyle = `
 
 .svg-viewer.is-dragging .svg-viewer-stage {
   cursor: grabbing;
+}
+
+.svg-viewer:not(.is-expanded) .svg-viewer-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: color-mix(in srgb, var(--secondary) 8%, transparent);
+  transition: opacity 160ms ease;
+}
+
+.svg-viewer:not(.is-expanded) .svg-viewer-stage:hover::after {
+  opacity: 1;
 }
 
 .svg-viewer object[type="image/svg+xml"],
@@ -513,6 +554,10 @@ const viewerStyle = `
   outline: none;
 }
 
+.svg-viewer:not(.is-expanded) [data-svg-viewer-action="close"] {
+  display: none;
+}
+
 .svg-viewer-hint {
   position: absolute;
   z-index: 2;
@@ -533,12 +578,30 @@ const viewerStyle = `
   opacity: 0;
 }
 
-.svg-viewer:fullscreen {
-  width: 100vw;
-  height: 100vh;
+.svg-viewer.is-expanded {
+  position: fixed;
+  z-index: 9999;
+  inset: 0;
+  width: auto;
+  height: auto;
+  min-height: 0;
   max-width: none;
+  margin: 0;
   border: 0;
   border-radius: 0;
+  background: var(--light);
+  box-shadow: none;
+}
+
+.svg-viewer.is-expanded .svg-viewer-toolbar {
+  top: 1rem;
+  right: 1rem;
+}
+
+.svg-viewer.is-expanded .svg-viewer-hint {
+  left: 1rem;
+  bottom: 1rem;
+  opacity: 1;
 }
 
 @media (max-width: 600px) {

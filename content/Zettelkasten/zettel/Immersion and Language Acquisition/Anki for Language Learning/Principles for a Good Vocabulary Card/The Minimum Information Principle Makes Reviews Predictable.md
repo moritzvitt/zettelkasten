@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Minimum Information Principle Makes Reviews Predictable
+
 ## Claim
 
 The minimum information principle makes reviews predictable because each card asks for one small, clearly bounded retrieval.

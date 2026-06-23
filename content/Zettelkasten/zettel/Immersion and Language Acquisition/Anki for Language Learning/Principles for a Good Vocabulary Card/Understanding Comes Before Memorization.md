@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Understanding Comes Before Memorization
+
 ## Claim
 
 Understanding comes before memorization. Spaced repetition should begin only after a rough mental model of the material exists.

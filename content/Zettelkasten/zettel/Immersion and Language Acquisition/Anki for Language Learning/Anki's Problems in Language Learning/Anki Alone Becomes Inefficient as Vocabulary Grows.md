@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Anki Alone Becomes Inefficient as Vocabulary Grows
+
 ## Claim
 
 Anki works especially well at the beginning, but becomes increasingly inefficient as vocabulary grows.

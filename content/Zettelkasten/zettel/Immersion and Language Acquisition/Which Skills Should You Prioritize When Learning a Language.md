@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Which Skills Should You Prioritize When Learning a Language
+
 ## Claim
 
 You should prioritize the skills that matter most for moving inside the target culture.

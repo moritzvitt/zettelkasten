@@ -5,10 +5,14 @@ Dieses Projekt veröffentlicht ausgewählte Zettel aus dem Obsidian-Vault als Qu
 Die Quelle ist standardmäßig:
 
 ```txt
-/Users/moritzvitt/Notes/Obsidian Notes/LLM Wiki/notes/zettel
+/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden
 ```
 
 Der Build schreibt die Website nach `public/`; dieser Ordner wird nicht committed.
+
+Die veröffentlichte Obsidian-Notiz `Welcome in my Digital Garden!.md` wird als
+reguläre Quartz-Startseite nach `content/index.md` synchronisiert. Andere
+Notizen mit `custom-path: /` bleiben als benannte Dateien im Content-Root.
 
 ## Lokaler Workflow
 

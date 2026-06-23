@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Axiom - The Dignity of Life Is Inviolable
+
 ## Claim
 
 ##

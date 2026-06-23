@@ -12,5 +12,5 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[Guided Attention]] - Guided Attention Visual hierarchy.
-- [[Minimalism]] - Minimalism Minimize unnecessary, distracting noise.
+- [[Guided Attention]] - Guided Attention Visual hierarchy. Information hierarchy
+- [[Minimalism]] - Minimalism Minimize unnecessary, distracting noise. We don't need more noise, there is already so much information floating around.

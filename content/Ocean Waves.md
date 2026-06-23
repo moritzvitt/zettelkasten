@@ -19,6 +19,8 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 
 ## Lernliste
 
+- [[Ocean Waves (1993).mp4#t=2725.869|45:25]] ==連れてく==（||つれてく||） - mitnehmen, hinbringen.
+- [[Ocean Waves (1993).mp4#t=3091.467|51:31]] ==迷惑==（||めいわく||） - Ärger, Belästigung, Umstände.👌
 - [[Ocean Waves (1993).mp4#t=189.204|3:09]] ==バイト先==（||バイトさき||） - Arbeitsplatz/Nebenjob-Ort.
 - [[Ocean Waves (1993).mp4#t=208.536|3:28]] ==早番==（||はやばん||） - Frühschicht.
 - [[Ocean Waves (1993).mp4#t=211.724|3:31]] ==講習==（||こうしゅう||） - Kurs, Lehrveranstaltung, Schulung.
@@ -69,7 +71,6 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 - [[Ocean Waves (1993).mp4#t=1057.104|17:37]] ==家庭の事情==（||かていのじじょう||） - familiäre Umstände.
 - [[Ocean Waves (1993).mp4#t=1077.964|17:57]] ==親の都合で子どもはムゴいもんじゃ== - „Kinder haben es hart, wenn die Eltern nach ihren Umständen entscheiden“; 都合 als fremdbestimmender Grund.
 - [[Ocean Waves (1993).mp4#t=1077.964|17:57]] ==ムゴい==（||むごい||） - grausam, hart, erbarmungslos.
-- [[Ocean Waves (1993).mp4#t=1078.447|17:58]] ==都合==（||つごう||） - Umstände, Terminlage, Bequemlichkeit.❗️
 - [[Ocean Waves (1993).mp4#t=1167.988|19:27]] ==別に電話するばぁのこともないけんど== - „eigentlich ist es nichts, wofür man extra anrufen müsste“; 別に + こともない. Das ist Tosa/Kochi-Dialekt: ばぁ entspricht hier etwa ほど/くらい („so sehr/so viel“), けんど ist die regionale Form von けれど/けど.
 - [[Ocean Waves (1993).mp4#t=1179.828|19:39]] ==下宿==（||げしゅく||） - Untermiete/Pension; auswärts wohnen
 - [[Ocean Waves (1993).mp4#t=1189.036|19:49]] ==見舞い==（||みまい||） - Krankenbesuch👍
@@ -82,7 +83,6 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 - [[Ocean Waves (1993).mp4#t=1421.936|23:41]] ==馴染む==（||なじむ||） - sich gewöhnen, vertraut werden
 - [[Ocean Waves (1993).mp4#t=1425|23:45]] ==聞き返す==（||ききかえす||） - noch einmal nachfragen
 - [[Ocean Waves (1993).mp4#t=1465.081|24:25]] ==お小遣い==（||おこづかい||） - Taschengeld
-- [[Ocean Waves (1993).mp4#t=1543.632|25:43]] ==取引==（||とりひき||） - Geschäft, Deal❗️
 - [[Ocean Waves (1993).mp4#t=1554.521|25:54]] ==すぐってわけにはいかないと思うの== - „ich glaube, sofort wird es nicht gehen“; わけにはいかない für praktische Unmöglichkeit.
 - [[Ocean Waves (1993).mp4#t=1613.661|26:53]] ==借金==（||しゃっきん||） - Schulden, geliehenes Geld
 - [[Ocean Waves (1993).mp4#t=1688.405|28:08]] ==翌日==（||よくじつ||） - am nächsten Tag.
@@ -122,7 +122,6 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 - [[Ocean Waves (1993).mp4#t=3543.755|59:03]] ==殴って悪かった==（||なぐってわるかった||） - „sorry, dass ich dich geschlagen habe“
 - [[Ocean Waves (1993).mp4#t=3589.215|59:49]] ==あの時、俺が怒ったがは…== - „der Grund, warum ich damals wütend wurde, war…“; がは markiert im Dialekt die nominalisierte Ursache.
 - [[Ocean Waves (1993).mp4#t=3606.235|1:00:06]] ==好きやった==（||すきやった||） - mochte/liebte; regionale Vergangenheitsform.
-- [[Ocean Waves (1993).mp4#t=3704.264|1:01:44]] ==突然告白した==（||とつぜんこくはくした||） - plötzlich seine Liebe gestanden❗️
 - [[Ocean Waves (1993).mp4#t=3796.184|1:03:16]] ==なっちょる== - ist geworden/ist so; regionale Form von なっている.
 - [[Ocean Waves (1993).mp4#t=3810.382|1:03:30]] ==同窓会来いやねえ== - „komm doch zum Klassentreffen“; direkte, vertraute Aufforderung.
 - [[Ocean Waves (1993).mp4#t=3832.713|1:03:52]] ==内緒で==（||ないしょで||） - heimlich, ohne es zu sagen
@@ -130,6 +129,9 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 
 ## Kenn ich schon mehr oder weniger
 
+- [[Ocean Waves (1993).mp4#t=1078.447|17:58]] ==都合==（||つごう||） - Umstände, Terminlage, Bequemlichkeit.
+- [[Ocean Waves (1993).mp4#t=1543.632|25:43]] ==取引==（||とりひき||） - Geschäft, Deal
+- [[Ocean Waves (1993).mp4#t=3704.264|1:01:44]] ==突然告白した==（||とつぜんこくはくした||） - plötzlich seine Liebe gestanden
 - [[Ocean Waves (1993).mp4#t=172.48|2:52]] ==一昨年==（||おととし||） - vorletztes Jahr.
 - [[Ocean Waves (1993).mp4#t=216.536|3:36]] ==手伝えません==（||てつだえません||） - „kann nicht helfen“; höfliche negative Potentialform von 手伝う, im Satz 午後は手伝えませんき.
 - [[Ocean Waves (1993).mp4#t=293.132|4:53]] ==二学期==（||にがっき||） - zweites Trimester/Halbjahr.
@@ -168,12 +170,10 @@ Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und 
 - [[Ocean Waves (1993).mp4#t=2379.346|39:39]] ==壁紙==（||かべがみ||） - Tapete
 - [[Ocean Waves (1993).mp4#t=2412.166|40:12]] ==別れる==（||わかれる||） - sich trennen, auseinandergehen.
 - [[Ocean Waves (1993).mp4#t=2534.286|42:14]] ==会いに来る==（||あいにくる||） - kommen, um jemanden zu sehen.
-- [[Ocean Waves (1993).mp4#t=2725.869|45:25]] ==連れてく==（||つれてく||） - mitnehmen, hinbringen.❗️
 - [[Ocean Waves (1993).mp4#t=2943.963|49:03]] ==噂になる==（||うわさになる||） - zum Gerücht/Stadtgespräch werden
 - [[Ocean Waves (1993).mp4#t=3000.403|50:00]] ==武藤のこと…好きやき== - „weil ich Muto mag“; のこと + 好き als beziehungsbezogene Formulierung.
 - [[Ocean Waves (1993).mp4#t=3036.363|50:36]] ==成績落ちた==（||せいせきおちた||） - die Noten sind schlechter geworden
 - [[Ocean Waves (1993).mp4#t=3083.274|51:23]] ==一泊==（||いっぱく||） - eine Übernachtung.
-- [[Ocean Waves (1993).mp4#t=3091.467|51:31]] ==迷惑==（||めいわく||） - Ärger, Belästigung, Umstände.❗️👌
 - [[Ocean Waves (1993).mp4#t=3097.696|51:37]] ==最低==（||さいてい||） - das Letzte, mies, unterste Schublade.
 - [[Ocean Waves (1993).mp4#t=3314.291|55:14]] ==あんたなんか最低よ== - „jemand wie du ist das Letzte“; なんか wertet die Person ab.
 - [[Ocean Waves (1993).mp4#t=3346.931|55:46]] ==泣きよった==（||なきよった||） - war am Weinen; regionale Verlaufsform.

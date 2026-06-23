@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Videos With Vocabulary Lists
+
 ## Claim
 
 Videos with vocabulary lists connect study items to the exact medium in which they occurred.

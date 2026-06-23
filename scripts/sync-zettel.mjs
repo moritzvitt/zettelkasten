@@ -13,12 +13,10 @@ const digitalGardenRoot =
   process.env.ZETTEL_SOURCE_ROOT ||
   process.env.DIGITAL_GARDEN_ROOT ||
   path.join(vaultRoot, "Digital Garden")
-const homepageSource = path.join(
-  vaultRoot,
-  "Digital Garden/Zettelkasten/zettel/Willkommen in meinem Zettelkasten!.md",
-)
+const homepageSource = path.join(digitalGardenRoot, "Welcome in my Digital Garden!.md")
 const contentRoot = path.join(process.cwd(), "content")
 const staticRoot = path.join(process.cwd(), "quartz/static")
+const excalidrawStaticRoot = path.join(staticRoot, "excalidraw")
 const relationNames = relationshipNames
 const relationTypes = relationshipTypes
 
@@ -72,6 +70,10 @@ function customOutputPath(file, data) {
   if (typeof customPath !== "string" || !customPath.trim()) return null
 
   const normalized = customPath.trim().replaceAll("\\", "/").replace(/^\/+/, "")
+  if (!normalized) {
+    return path.resolve(file) === path.resolve(homepageSource) ? "index.md" : path.basename(file)
+  }
+
   const target = normalized.endsWith(".md")
     ? normalized
     : path.posix.join(normalized, path.basename(file))
@@ -83,12 +85,18 @@ function customOutputPath(file, data) {
 }
 
 function outputPath(file, data) {
+  if (path.resolve(file) === path.resolve(homepageSource)) return "index.md"
   const customPath = customOutputPath(file, data)
   if (customPath) return customPath
   return path.relative(digitalGardenRoot, file)
 }
 
 function titleFrom(file, text) {
+  const data = frontmatterData(text)
+  if (data["excalidraw-plugin"]) {
+    return path.basename(file, ".md").replace(/\.excalidraw(?:\s+\d+)?$/i, "").trim()
+  }
+
   const h1 = text.match(/^#\s+(.+)$/m)
   return (h1?.[1] || path.basename(file, ".md")).trim()
 }
@@ -99,6 +107,8 @@ function cleanTitle(value) {
     .replace(/^LLM Wiki\/notes\/zettel\//, "")
     .replace(/^Digital Garden\/Zettelkasten\/zettel\//, "")
     .replace(/^Digital Garden\//, "")
+    .replace(/\.excalidraw\.svg$/i, "")
+    .replace(/\.excalidraw\.md$/i, "")
     .replace(/\.md$/, "")
     .split("/")
     .pop()
@@ -362,6 +372,8 @@ function buildBrainIndex(notes) {
 
 await rm(contentRoot, { recursive: true, force: true })
 await mkdir(contentRoot, { recursive: true })
+await rm(excalidrawStaticRoot, { recursive: true, force: true })
+await mkdir(excalidrawStaticRoot, { recursive: true })
 
 const sourceFiles = await walkFiles(digitalGardenRoot)
 const files = sourceFiles.filter((file) => file.endsWith(".md"))
@@ -457,21 +469,39 @@ for (const note of rawNotes) {
 for (const note of rawNotes) {
   const out = path.join(contentRoot, note.rel)
   await mkdir(path.dirname(out), { recursive: true })
+  const isExcalidraw = Boolean(note.frontmatter["excalidraw-plugin"])
   const body = rewriteWikiLinks(stripFrontmatter(note.text), note, resolve)
   const sourcePath = path.relative(vaultRoot, note.file)
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
   ]
-  await writeFile(
-    out,
-    frontmatter(
-      note.title,
-      sourcePath,
-      graphLinks,
-      [],
-      passthroughFrontmatter(note.frontmatter),
-    ) + body.trim() + "\n",
-  )
+  const output = isExcalidraw
+    ? note.text.trimEnd() + "\n"
+    : frontmatter(
+        note.title,
+        sourcePath,
+        graphLinks,
+        [],
+        passthroughFrontmatter(note.frontmatter),
+      ) +
+      body.trim() +
+      "\n"
+  await writeFile(out, output)
+
+  if (isExcalidraw) {
+    const exportBase = note.file.replace(/\.md$/i, "")
+    for (const mode of ["light", "dark"]) {
+      const source = `${exportBase}.${mode}.svg`
+      try {
+        await access(source)
+      } catch {
+        continue
+      }
+      const destination = path.join(excalidrawStaticRoot, note.relDir, path.basename(source))
+      await mkdir(path.dirname(destination), { recursive: true })
+      await copyFile(source, destination)
+    }
+  }
 }
 
 for (const note of rawNotes) {

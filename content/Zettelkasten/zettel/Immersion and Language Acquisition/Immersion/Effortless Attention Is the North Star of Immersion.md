@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# Effortless Attention Is the North Star of Immersion
+
 ## Claim
 
 The ideal form of attention in immersion is not strained observation, but effortless involvement in the content.[^source]

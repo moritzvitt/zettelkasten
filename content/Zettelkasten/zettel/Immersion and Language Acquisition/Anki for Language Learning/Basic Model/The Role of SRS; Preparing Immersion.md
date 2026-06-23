@@ -7,6 +7,8 @@ graphLinks:
 tags:
   - zettel
 ---
+# The Role of SRS; Preparing Immersion
+
 ## Claim
 
 With vocabulary, Anki first creates a mental dictionary entry: an address in the mind that makes a word recognizable the next time you encounter it.

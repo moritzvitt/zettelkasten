@@ -6,7 +6,7 @@ title: Website-Funktionen und Plugin-Zwecke
 
 Diese Datei beschreibt die aktuelle Website so, dass sie bei verlorenem Code konzeptionell nachgebaut werden kann. Sie erklärt nicht jede Codezeile, sondern den Zweck, die Eingaben, die Ausgaben und die wichtigsten Aufgaben der einzelnen Funktionen, Skripte und Plugins.
 
-Stand: 2026-06-14. Grundlage sind `README.md`, `package.json`, `quartz.config.yaml`, `scripts/`, `quartz/plugins/loader/` und `plugins/`.
+Stand: 2026-06-21. Grundlage sind `README.md`, `package.json`, `quartz.config.yaml`, `scripts/`, `quartz/plugins/loader/` und `plugins/`.
 
 ## Gesamtzweck
 
@@ -40,7 +40,6 @@ Die zentrale Idee ist:
 - `.quartz/plugins/`: installierte oder per Symlink eingebundene Quartz-Plugins.
 - `quartz/`: Quartz-Core, Loader, Komponenten, Page Types, Styles und Build-Pipeline.
 - `quartz/static/brain-index.json`: statischer Strukturindex fuer Structured-Brain- und SVG-Link-Auflösung.
-- `pixel art website/`: Quelle der eigenen Pixel-Homepage.
 
 ## Build- und Betriebsskripte
 
@@ -476,13 +475,25 @@ Konfiguration:
 
 ### `obsidian-plugin-excalidraw`
 
-Zweck: Macht Excalidraw-Zeichnungen interaktiv beziehungsweise webtauglich.
+Zweck: Macht Excalidraw-Zeichnungen interaktiv beziehungsweise webtauglich. Das
+Projekt verwendet einen lokalen Fork unter `plugins/obsidian-plugin-excalidraw`.
+Er ergänzt die Community-Version um Unterstützung für Obsidian-Notizen, die in
+Excalidraw als Bild statt als Embeddable eingefügt wurden: Die Zuordnung aus
+`## Embedded Files` wird auf veröffentlichte Quartz-Seiten aufgelöst und deren
+Inhalt beim Build als statisches SVG-Vorschaubild exportiert. Diese Vorschau
+wird an der Position und Größe des ursprünglichen Bildelements als echtes
+SVG-`image` gerendert. Ein normaler Klick öffnet den Zettel; per Rechtsklick
+steht zusätzlich „Zum Zettel springen“ zur Verfügung. Nicht veröffentlichte
+Referenzen erhalten eine entsprechend beschriftete, weiterhin verlinkte
+Fallback-Vorschau.
 
 Konfiguration:
 
 - Interaktion aktiv,
 - Dark Mode automatisch,
 - Export-Padding 20.
+
+Tests: `npm test --prefix plugins/obsidian-plugin-excalidraw`.
 
 ## Deaktivierte, aber konfigurierte Plugins
 
@@ -688,29 +699,6 @@ Nachbau:
 - Linkindex aus `brain-index.json` aufbauen.
 - Viewer-Container, Toolbar und ViewBox-basierte Pan/Zoom-Logik erzeugen.
 
-### `plugins/pixel-homepage`
-
-Typ: Emitter.
-
-Zweck: Überschreibt die Quartz-Startseite mit einer eigenen Pixel-Art-Homepage.
-
-Eingaben:
-
-- `pixel art website/index.html`
-- Assets aus `pixel art website/`, darunter `homepage.js`, Bilder und Sounds.
-
-Aufgaben:
-
-- kopiert Assets nach `public/pixel/`,
-- schreibt `public/index.html` aus der Pixel-Homepage-Quelle,
-- entfernt veraltete Kopien der Assets aus dem Output-Root.
-
-Nachbau:
-
-- Emitter schreiben, der am Ende des Builds die Homepage-Datei ersetzt.
-- Alle benötigten Assets deterministisch in einen Unterordner kopieren.
-- HTML muss Pfade passend zu `/pixel/...` referenzieren.
-
 ### `plugins/explorer`
 
 Typ: Component, aktuell nur als gebautes Paket vorhanden.
@@ -730,20 +718,15 @@ Nachbau:
 - Ordner ein-/ausklappbar machen.
 - Als Quartz-Komponente exportieren.
 
-## Pixel-Art-Homepage
+## Homepage
 
-Die Pixel-Homepage ist eine Sonderfunktion außerhalb der normalen Quartz-Artikelwelt.
-
-Zweck:
-
-- Die Root-URL `/` soll nicht nur eine normale Markdown-Indexseite sein, sondern eine eigene visuelle Startseite.
-- Die eigentlichen Quartz-Inhalte bleiben über ihre generierten Pfade erreichbar.
-
-Technische Umsetzung:
-
-- Das Plugin `pixel-homepage` kopiert Dateien aus `pixel art website/` nach `public/pixel/`.
-- Danach ersetzt es `public/index.html`.
-- Sounds wie `koi-water-sound.m4a` und `teapot-hop-sound.mp3` werden mitkopiert.
+Die Root-URL `/` ist eine reguläre Quartz-Inhaltsseite. Die veröffentlichte
+Obsidian-Notiz `Digital Garden/Welcome in my Digital Garden!.md` setzt
+`custom-path: /`. Der Sync erkennt diese festgelegte Homepage-Quelldatei und
+schreibt sie nach `content/index.md`; andere Notizen mit demselben Custom-Pfad
+bleiben als benannte Dateien im Content-Root. Quartz rendert die Homepage nach
+`public/index.html`. Es gibt keinen separaten Homepage-Emitter und keine
+Pixel-Art-Assets mehr.
 
 ## Strukturindex `brain-index.json`
 
@@ -807,7 +790,6 @@ Wenn die Website von null nachgebaut werden müsste, wäre die kleinste funktion
    - `svg-viewer` für interaktive SVGs,
    - `discord-spoilers` für Spoiler,
    - `contribute` für Netlify-Formulare,
-   - `pixel-homepage` für die Startseite,
    - `graph`/`explorer` für Navigation.
 8. `npm run build` so verkabeln, dass Sync, Plugin-Build und Quartz-Build zuverlässig in dieser Reihenfolge laufen.
 

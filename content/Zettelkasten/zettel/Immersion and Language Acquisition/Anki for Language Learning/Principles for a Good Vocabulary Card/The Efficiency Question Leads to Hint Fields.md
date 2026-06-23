@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# The Efficiency Question Leads to Hint Fields
+
 ## Claim
 
 The need for efficient reviews leads to hint fields: information that is available when needed without overloading every retrieval attempt.

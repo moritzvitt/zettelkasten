@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# Enterprise Foundation
+
 ## Claim
 
 An enterprise foundation partially separates a company's purpose from the short-term extraction interests of individual owners.

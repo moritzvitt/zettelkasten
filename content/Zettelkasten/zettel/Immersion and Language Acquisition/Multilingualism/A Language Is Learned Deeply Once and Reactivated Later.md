@@ -5,6 +5,8 @@ publish: true
 tags:
   - zettel
 ---
+# A Language Is Learned Deeply Once and Reactivated Later
+
 ## Claim
 
 A language does not have to be learned from scratch every time. Once learned deeply enough, many patterns remain in the brain: sound, sentence rhythm, typical forms, semantic fields, routines, and cultural expectations.[^source-notes]

@@ -11,6 +11,7 @@ const localPlugins = [
   "local-media-player",
   "discord-spoilers",
   "svg-viewer",
+  "obsidian-plugin-excalidraw",
 ]
 
 for (const name of localPlugins) {
