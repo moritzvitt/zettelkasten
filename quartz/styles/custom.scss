@@ -1,5 +1,68 @@
 @use "./variables.scss" as *;
 
+@font-face {
+  font-family: "Handfont";
+  src: url("/static/fonts/handfont.ttf") format("truetype");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+}
+
+:root {
+  --bodyFont: "Handfont", "Noto Serif", serif;
+  --font-text: var(--bodyFont);
+  --font-interface: var(--bodyFont);
+  font-size: 18px;
+}
+
+body {
+  font-weight: 300;
+  font-synthesis-weight: none;
+}
+
+article a,
+article strong {
+  font-weight: 300;
+}
+
+:root[saved-theme="dark"] article a.internal {
+  background-color: rgba(102, 255, 209, 0.12);
+  color: #d8fff7;
+
+  &:hover {
+    background-color: rgba(217, 255, 102, 0.16);
+    color: #f0ffc8;
+  }
+}
+
+:root[saved-theme="dark"] .text-highlight {
+  background-color: rgba(217, 255, 102, 0.14);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+thead {
+  color: color-mix(in srgb, var(--darkgray) 82%, var(--dark));
+  font-weight: 300;
+  text-shadow:
+    0.012em 0 0 color-mix(in srgb, currentColor 28%, transparent),
+    -0.01em 0.008em 0 color-mix(in srgb, currentColor 18%, transparent),
+    0 0.014em 0 color-mix(in srgb, currentColor 16%, transparent),
+    0 0 0.055em color-mix(in srgb, currentColor 14%, transparent);
+}
+
+article p,
+article li {
+  font-size: 1.4rem;
+  line-height: 1.65;
+  word-spacing: 0.2em;
+}
+
+
 .page-title {
   width: min(100%, 20rem);
   flex-shrink: 0;
@@ -52,6 +115,30 @@ filter:
     max-height: none;
     margin-left: auto;
   }
+}
+
+.graph > .graph-outer,
+.graph > .graph-outer > .graph-container,
+.graph > .graph-outer canvas,
+.graph > .graph-outer svg {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  outline: 0 !important;
+}
+
+.graph > .graph-outer {
+  overflow: visible;
+}
+
+.page > #quartz-body .left.sidebar .flex-component:has(.darkmode, .readermode) {
+  position: relative;
+  z-index: 2;
+}
+
+:root[reader-mode="on"] .page-title {
+  opacity: 0;
+  pointer-events: none;
 }
 
 .tea-kettle-easter-egg {
