@@ -74,10 +74,18 @@ function slugSegment(value) {
 }
 
 function slugPath(value) {
-  return value
+  const segments = value
     .replace(/\.md$/, "")
     .split(path.sep)
     .filter(Boolean)
+
+  const last = segments.at(-1)
+  const parent = segments.at(-2)
+  if (segments.length > 1 && last === parent && last !== "index") {
+    segments[segments.length - 1] = "index"
+  }
+
+  return segments
     .map(slugSegment)
     .join("/")
 }

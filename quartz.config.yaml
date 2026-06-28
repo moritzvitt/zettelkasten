@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Moritz' Garden
+  pageTitle: Moritz' Tea Garden
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -12,20 +12,20 @@ configuration:
     - templates
     - .obsidian
   theme:
-    fontOrigin: local
-    cdnCaching: false
+    fontOrigin: googleFonts
+    cdnCaching: true
     typography:
-      header: Schibsted Grotesk
-      body: Source Sans Pro
-      code: IBM Plex Mono
+      header: Noto Serif
+      body: Noto Serif
+      code: JetBrains Mono
     colors:
       lightMode:
-        light: "#f7f7f3"
+        light: "#ffffff"
         lightgray: "#deded6"
         gray: "#a8aaa0"
-        darkgray: "#343a36"
+        darkgray: "#000000"
         dark: "#1f1f1e"
-        secondary: "#1f6f61"
+        secondary: "#0b9c12"
         tertiary: "#8b5e34"
         highlight: rgba(31, 111, 97, 0.12)
         textHighlight: "#fff2a8"
@@ -109,7 +109,7 @@ plugins:
   - source: github:quartz-community/alias-redirects
     enabled: false
   - source: github:quartz-community/favicon
-    enabled: true
+    enabled: false
   - source: github:quartz-community/og-image
     enabled: false
   - source: github:quartz-community/canvas-page
@@ -117,9 +117,9 @@ plugins:
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: true
+    enabled: false
   - source: github:quartz-community/tag-page
-    enabled: true
+    enabled: false
   - source: ./plugins/explorer
     enabled: false
     options:
@@ -148,7 +148,7 @@ plugins:
       position: left
       priority: 50
   - source: ./plugins/graph
-    enabled: false
+    enabled: true
     options:
       localGraph:
         depth: 1
@@ -160,6 +160,7 @@ plugins:
         opacityScale: 0.85
         showTags: false
       globalGraph:
+        enabled: false
         depth: -1
         scale: 0.85
         repelForce: 0.65
@@ -173,14 +174,14 @@ plugins:
       priority: 10
       condition: not-japanese
   - source: ./plugins/structured-brain
-    enabled: true
+    enabled: false
     options:
       height: 620
     layout:
       position: afterBody
       priority: 20
   - source: ./plugins/vocap-trainer
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 30
@@ -211,18 +212,18 @@ plugins:
   - source: github:quartz-community/content-meta
     enabled: false
   - source: github:quartz-community/page-title
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 10
   - source: github:quartz-community/darkmode
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 35
@@ -251,16 +252,17 @@ plugins:
     options:
       includeAll: false
       includedProperties:
-        - source
-        - tags
-        - vocab-trainer
+        - next
+        - previous
+        - parents
+        - children
       excludedProperties: []
-      hidePropertiesView: true
+      hidePropertiesView: false
       delimiters: ---
       language: yaml
     order: 5
     layout:
-      position: beforeBody
+      position: afterBody
       priority: 15
       display: all
   - source: ./plugins/obsidian-plugin-excalidraw

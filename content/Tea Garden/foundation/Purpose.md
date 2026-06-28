@@ -34,7 +34,7 @@ Jeder Weg durch den Garten schafft neue gedankliche Pfade.
 
 🌳
 
-𐃘 Daher ist  der Garten nach den Prinzipien des [[zettelkasten/zettel/design-principles/minimalism|Minimalismus]] gestaltet: Er soll Klarheit fördern und Ablenkung reduzieren. (folgt aus "Suche nach Wahrheit" und "freies Denken". [[Digital Garden Architecture]])
+𐃘 Daher ist  der Garten nach den Prinzipien des [[zettelkasten/zettel/design-principles/minimalism|Minimalismus]] gestaltet: Er soll Klarheit fördern und Ablenkung reduzieren. (folgt aus "Suche nach Wahrheit" und "freies Denken". [[Digital Garden Architecture & Design]])
 
 ## Gemeinschaft
 

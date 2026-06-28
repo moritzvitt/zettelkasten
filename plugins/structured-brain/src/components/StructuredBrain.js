@@ -1035,11 +1035,12 @@ export default function StructuredBrain(userOpts = {}) {
 
   Component.css = `
 .structured-brain {
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
+  border: 1px solid var(--gray);
+  border-radius: 0px;
   margin: 0.8rem 0 1.4rem;
   overflow: hidden;
-  background: color-mix(in srgb, var(--light) 96%, var(--secondary));
+  background-color: transparent;
+  transition: background-color 0.5s ease;
 }
 
 .structured-brain-header {

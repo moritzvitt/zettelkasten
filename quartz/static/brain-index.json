@@ -8,6 +8,15 @@
     "sibling"
   ],
   "nodes": {
+    "tea-garden/japanese/japanese-topics": {
+      "slug": "tea-garden/japanese/japanese-topics",
+      "title": "Japanese Topics",
+      "source": "Digital Garden/Tea Garden/Japanese/Japanese Topics.md",
+      "url": "/tea-garden/japanese/japanese-topics",
+      "tags": [
+        "zettel"
+      ]
+    },
     "index": {
       "slug": "index",
       "title": "Welcome in my Digital Garden!",
@@ -35,6 +44,15 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/about-me": {
+      "slug": "tea-garden/personal/about-me",
+      "title": "About me",
+      "source": "Digital Garden/Tea Garden/personal/About me.md",
+      "url": "/tea-garden/personal/about-me",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/messi-is-art": {
       "slug": "tea-garden/personal/messi-is-art",
       "title": "Messi is Art",
@@ -44,11 +62,11 @@
         "zettel"
       ]
     },
-    "tea-garden/personal/things-i-made,-i-am-proud-of": {
-      "slug": "tea-garden/personal/things-i-made,-i-am-proud-of",
+    "tea-garden/personal/things-i-made/things-i-made,-i-am-proud-of": {
+      "slug": "tea-garden/personal/things-i-made/things-i-made,-i-am-proud-of",
       "title": "Things I made, I am proud of",
-      "source": "Digital Garden/Tea Garden/personal/Things I made, I am proud of.md",
-      "url": "/tea-garden/personal/things-i-made,-i-am-proud-of",
+      "source": "Digital Garden/Tea Garden/personal/Things I made/Things I made, I am proud of.md",
+      "url": "/tea-garden/personal/things-i-made/things-i-made,-i-am-proud-of",
       "tags": [
         "zettel"
       ]
@@ -953,38 +971,38 @@
         "zettel"
       ]
     },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {
+      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
       "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
       "tags": [
         "zettel"
       ]
     },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index": {
+      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index",
       "title": "正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index",
       "tags": [
         "zettel"
       ]
     },
-    "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
-      "slug": "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+    "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index": {
+      "slug": "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index",
       "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
-      "url": "/media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+      "url": "/media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index",
       "tags": [
         "zettel"
       ]
     },
-    "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)": {
-      "slug": "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+    "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index": {
+      "slug": "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
       "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
-      "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+      "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
       "tags": [
         "zettel"
       ]

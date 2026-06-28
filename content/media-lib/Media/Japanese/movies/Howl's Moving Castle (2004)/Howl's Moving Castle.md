@@ -33,7 +33,7 @@ tags:
 - [[Howl's Moving Castle (2004).mp4#t=642.005|10:42]] ==張り合おうなんていい度胸ね== - „ganz schön mutig, sich mit ihr messen zu wollen“; ironisch-bedrohlich.
 - [[Howl's Moving Castle (2004).mp4#t=726.92|12:06]] ==慌てる==（||あわてる||） - in Panik geraten, sich beeilen
 - [[Howl's Moving Castle (2004).mp4#t=726.92|12:06]] ==慌てるとろくなことないよ== - „wenn man in Panik gerät, kommt nichts Gutes dabei heraus“.
-- [[Howl's Moving Castle (2004).mp4#t=751|12:31]] ==ばあさん== - alte Frau, Oma
+- [[Howl's Moving Castle (2004).mp4#t=751|12:31]] ==ばあさん== - alte Frau, Oma❗️
 - [[Howl's Moving Castle (2004).mp4#t=790|13:10]] ==いちいち== - jedes Mal, einzeln, jedes einzelne Mal
 - [[Howl's Moving Castle (2004).mp4#t=835.900|13:55]] ==年寄り==（||としより||） - alter Mensch, ältere Person
 - [[Howl's Moving Castle (2004).mp4#t=865.1|14:25]] ==親切だけはいただくよ== - „deine Freundlichkeit nehme ich an“;いただく höflich/ironisch.

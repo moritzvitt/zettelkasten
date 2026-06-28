@@ -66,26 +66,9 @@ export default ((userOpts?: Partial<GraphOptions>) => {
   const Graph: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
     const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph };
     const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph };
-    const depthOptions = [1, 2];
 
     return (
       <div class={classNames(displayClass, "graph")}>
-        <div class="graph-header">
-          <div class="graph-depth-control" role="group" aria-label="Graph-Tiefe">
-            <span>Tiefe</span>
-            {depthOptions.map((depth) => (
-              <button
-                type="button"
-                class={localGraph.depth === depth ? "active" : undefined}
-                data-depth={depth}
-                aria-pressed={localGraph.depth === depth}
-                title={`Tiefe ${depth}`}
-              >
-                {depth}
-              </button>
-            ))}
-          </div>
-        </div>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button class="global-graph-icon" aria-label="Global Graph">

@@ -1,6 +1,7 @@
 ---
 title: "Thematic Immersion Optimizes Re-Encounter Density"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Thematic Immersion Optimizes Re-Encounter Density.md"
+next: null
 publish: true
 tags:
   - zettel
@@ -18,6 +19,5 @@ The repetition remains contextual rather than mechanical. The same expression ap
 Thematic focus makes rarer vocabulary more learnable and reduces the amount of artificial repetition Anki must provide.
 
 %%
-## Tags
-#language-learning #immersion #translation
+Prev::[[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows|Anki Alone Becomes Inefficient as Vocabulary Grows]]
 %%

@@ -13,13 +13,11 @@ publish: true
 tags:
   - zettel
 ---
-## Kurznotiz
-YUYU spricht darüber, was man in den Zwanzigern tun sollte, solange die innere Begeisterung noch stark ist: ein bisschen Armut erleben, alleine wohnen oder in einer WG leben, allein reisen, aus eigenem Interesse lernen und viele Fehler machen. Der stärkste rote Faden ist 心の炎: Dinge, die man später theoretisch kaufen oder nachholen könnte, fühlen sich anders an, wenn die Leidenschaft dafür schon verschwunden ist.
-
+![](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011)
 ## Lernliste
 
-- [0:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011) 若いうちに ||やっておいた方がいいこと|| — Dinge, die man lieber tun sollte, solange man jung ist; sehr nützliches Vておく + 方がいい
-- [0:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=43.348) すごく||考えさせられた|| — das hat mich wirklich zum Nachdenken gebracht
+- [0:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011) 若いうちに ||やっておいた方がいいこと|| — Dinge, die man lieber tun sollte, solange man jung ist; sehr nützliches Vておく + 方がいい❗️
+- [0:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=43.348) すごく||考えさせられた|| — das hat mich wirklich zum Nachdenken gebracht❗️
 - [0:46](https://www.youtube.com/watch?v=szlCSg0qlV0&t=46.807) 気持ちが==||大きく動いた||== — innerlich stark bewegt werden
 - [1:08](https://www.youtube.com/watch?v=szlCSg0qlV0&t=68.02) ==||はたまた||==1時間になるかもしれない — oder womöglich sogar; leicht scherzhafter Zusatz
 - [1:47](https://www.youtube.com/watch?v=szlCSg0qlV0&t=107.52) ==望遠鏡==（||ぼうえんきょう||） — Teleskop

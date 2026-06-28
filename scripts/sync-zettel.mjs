@@ -164,6 +164,10 @@ function rewriteWikiLinks(text, note, resolve) {
 }
 
 const passthroughFrontmatterKeys = [
+  "next",
+  "previous",
+  "parents",
+  "children",
   "mx-uid",
   "media",
   "captions",
@@ -235,10 +239,18 @@ function slugSegment(value) {
 }
 
 function slugPath(value) {
-  return value
+  const segments = value
     .replace(/\.md$/, "")
     .split(path.sep)
     .filter(Boolean)
+
+  const last = segments.at(-1)
+  const parent = segments.at(-2)
+  if (segments.length > 1 && last === parent && last !== "index") {
+    segments[segments.length - 1] = "index"
+  }
+
+  return segments
     .map(slugSegment)
     .join("/")
 }
@@ -512,7 +524,8 @@ for (const note of rawNotes) {
 for (const [relDir, notes] of folders) {
   if (!relDir) continue
   const out = path.join(contentRoot, relDir, "index.md")
-  if (rawNotes.some((note) => note.rel === path.join(relDir, "index.md"))) continue
+  const folderLandingSlug = slugPath(path.join(relDir, "index.md"))
+  if (rawNotes.some((note) => graphPath(note) === folderLandingSlug)) continue
   await mkdir(path.dirname(out), { recursive: true })
   await writeFile(
     out,
