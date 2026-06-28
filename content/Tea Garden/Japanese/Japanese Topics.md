@@ -21,6 +21,6 @@ Anime:
 Wild take on relationships: 
 - [[How much do Japanese Girls Cheat?]]
 - https://www.youtube.com/watch?v=p6ctFk0M9hc
-- [[Being a Porn Director in Japan (Interview)]] (Yeah, I watched that. Actually, I enjoyed watching that. What made me click is one question, what made me stay was an interesting interview on a side of Japan, that you usually don't see. Once you put the stereotypes aside, you find that )
+- [[Being a Porn Director in Japan (Interview)]] (Yeah, I watched that. Despite the title, it was actually quite an interesting, serious interview. Learned some  )
 
 Videos with shared vocab:

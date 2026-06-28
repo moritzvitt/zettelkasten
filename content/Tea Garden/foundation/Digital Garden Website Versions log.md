@@ -100,5 +100,8 @@ Die Graph-Ansicht, ohne Rand ist auch interessant:
 Neues Farbschema. Von Codex anhand des Neon Scheins ausgewählt. 
 
 ![[Pasted image 20260628193716.png|342]]
+
 Überschriften mit leichtem Ink-bleeding:
-![[Pasted image 20260628193657.png]]
+![[Pasted image 20260628193657.png|300]]
+Meine Teekanne würde genau zu dem jetzigen Farbschema passen:
+![[Pasted image 20260628195035.png|256]]
