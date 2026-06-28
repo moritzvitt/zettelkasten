@@ -117,7 +117,7 @@ plugins:
   - source: github:quartz-community/content-page
     enabled: true
   - source: github:quartz-community/folder-page
-    enabled: false
+    enabled: true
   - source: github:quartz-community/tag-page
     enabled: false
   - source: ./plugins/explorer
@@ -195,7 +195,7 @@ plugins:
       position: right
       priority: 45
   - source: github:quartz-community/search
-    enabled: false
+    enabled: true
     layout:
       position: left
       priority: 20
