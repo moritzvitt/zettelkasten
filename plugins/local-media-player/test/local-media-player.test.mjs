@@ -58,3 +58,82 @@ test("injects a player for a bracketed Howl media filename", () => {
     fs.rmSync(mediaRoot, { recursive: true, force: true })
   }
 })
+
+test("does not copy local media by default", async () => {
+  const mediaRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-player-"))
+  const output = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-output-"))
+  const noteDir = path.join(mediaRoot, "Japanese")
+  const mediaName = "sample.mp4"
+  fs.mkdirSync(noteDir, { recursive: true })
+  const notePath = path.join(noteDir, "Sample.md")
+  const mediaPath = path.join(noteDir, mediaName)
+  fs.writeFileSync(notePath, "")
+  fs.writeFileSync(mediaPath, "video")
+
+  try {
+    const plugin = LocalMediaPlayer({ mediaRoot })
+    const emitted = []
+    for await (const file of plugin.emit(
+      { argv: { output } },
+      [
+        [
+          "sample",
+          {
+            data: {
+              filePath: notePath,
+              frontmatter: { media: `[[${mediaName}]]` },
+            },
+          },
+        ],
+      ],
+    )) {
+      emitted.push(file)
+    }
+
+    assert.deepEqual(emitted, [])
+    assert.equal(fs.existsSync(path.join(output, "local-media", "Japanese", mediaName)), false)
+  } finally {
+    fs.rmSync(mediaRoot, { recursive: true, force: true })
+    fs.rmSync(output, { recursive: true, force: true })
+  }
+})
+
+test("copies local media when explicitly enabled", async () => {
+  const mediaRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-player-"))
+  const output = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-output-"))
+  const noteDir = path.join(mediaRoot, "Japanese")
+  const mediaName = "sample.mp4"
+  fs.mkdirSync(noteDir, { recursive: true })
+  const notePath = path.join(noteDir, "Sample.md")
+  const mediaPath = path.join(noteDir, mediaName)
+  fs.writeFileSync(notePath, "")
+  fs.writeFileSync(mediaPath, "video")
+
+  try {
+    const plugin = LocalMediaPlayer({ mediaRoot, copyMedia: true })
+    const emitted = []
+    for await (const file of plugin.emit(
+      { argv: { output } },
+      [
+        [
+          "sample",
+          {
+            data: {
+              filePath: notePath,
+              frontmatter: { media: `[[${mediaName}]]` },
+            },
+          },
+        ],
+      ],
+    )) {
+      emitted.push(file)
+    }
+
+    const copiedPath = path.join(output, "local-media", "Japanese", mediaName)
+    assert.deepEqual(emitted, [copiedPath])
+    assert.equal(fs.readFileSync(copiedPath, "utf8"), "video")
+  } finally {
+    fs.rmSync(mediaRoot, { recursive: true, force: true })
+    fs.rmSync(output, { recursive: true, force: true })
+  }
+})

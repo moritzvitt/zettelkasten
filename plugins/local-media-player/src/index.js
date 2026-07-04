@@ -7,6 +7,7 @@ const markerOrigin = "https://local-media.invalid"
 const defaultOptions = {
   mediaRoot: "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
   route: "/local-media",
+  copyMedia: false,
 }
 
 function wikilinkTarget(value) {
@@ -530,6 +531,8 @@ export default function LocalMediaPlayer(userOptions = {}) {
       ]
     },
     async *emit(ctx, content) {
+      if (!options.copyMedia) return
+
       const copied = new Set()
 
       for (const [, file] of content) {

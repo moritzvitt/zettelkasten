@@ -22,7 +22,8 @@
     "defaultOrder": 65,
     "defaultOptions": {
       "mediaRoot": "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
-      "route": "/local-media"
+      "route": "/local-media",
+      "copyMedia": false
     }
   }
 }

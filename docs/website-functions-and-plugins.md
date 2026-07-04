@@ -627,7 +627,7 @@ Markdown-/HTML-Funktionen:
 - schreibt Zeitmarkenlinks wie `[[Video#t=123|Label]]` in echte Links um,
 - markiert Zeitmarkenlinks mit `data-media-time`,
 - fügt automatisch einen `<video>`-Player oder YouTube-`<iframe>` ein, falls kein Player existiert,
-- kopiert lokale Mediendateien in den Output unter `/local-media/...`,
+- verweist lokale Mediendateien unter `/local-media/...`; das Kopieren in den Output ist nur mit `copyMedia: true` aktiv,
 - verhindert Quartz-Router-Interferenz durch `data-router-ignore`.
 
 Browser-Funktionen:
