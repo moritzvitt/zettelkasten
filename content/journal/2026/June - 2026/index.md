@@ -1,6 +1,6 @@
 ---
 title: "June - 2026"
-source: "journal/June - 2026"
+source: "journal/2026/June - 2026"
 publish: true
 tags:
   - zettel

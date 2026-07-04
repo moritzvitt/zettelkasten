@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[Japanese Topics]] - Here are notes for studying japanese with videos. The current topics are "Everyday Language" and "Ghibli Movies". current vocabulary bubble: Alltagssprache: - 20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Yo
+- [[Japanese Topics]] - Here are notes for studying japanese with videos. The current topics are "Everyday Language" and "Ghibli Movies". current vocabulary bubble: Everyday Language: - 20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still

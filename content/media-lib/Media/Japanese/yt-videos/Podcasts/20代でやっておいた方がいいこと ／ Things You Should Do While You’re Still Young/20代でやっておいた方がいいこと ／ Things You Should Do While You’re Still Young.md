@@ -16,8 +16,6 @@ tags:
 ![](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011)
 ## Lernliste
 
-- [0:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011) 若いうちに ||やっておいた方がいいこと|| — Dinge, die man lieber tun sollte, solange man jung ist; sehr nützliches Vておく + 方がいい❗️
-- [0:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=43.348) すごく||考えさせられた|| — das hat mich wirklich zum Nachdenken gebracht❗️
 - [0:46](https://www.youtube.com/watch?v=szlCSg0qlV0&t=46.807) 気持ちが==||大きく動いた||== — innerlich stark bewegt werden
 - [1:08](https://www.youtube.com/watch?v=szlCSg0qlV0&t=68.02) ==||はたまた||==1時間になるかもしれない — oder womöglich sogar; leicht scherzhafter Zusatz
 - [1:47](https://www.youtube.com/watch?v=szlCSg0qlV0&t=107.52) ==望遠鏡==（||ぼうえんきょう||） — Teleskop
@@ -39,7 +37,6 @@ tags:
 - [6:53](https://www.youtube.com/watch?v=szlCSg0qlV0&t=413) ==灯る==（||ともる||） — angehen, aufleuchten
 - [7:01](https://www.youtube.com/watch?v=szlCSg0qlV0&t=421.612) ==釣り==（||つり||） — Angeln
 - [7:16](https://www.youtube.com/watch?v=szlCSg0qlV0&t=436.364) 好きを==||覗いてみる||==（||のぞいてみる||） — in die eigenen Vorlieben hineinblicken
-- [8:09](https://www.youtube.com/watch?v=szlCSg0qlV0&t=489.155) ==近場==（||ちかば||） — nahegelegener Ort❗️
 - [8:21](https://www.youtube.com/watch?v=szlCSg0qlV0&t=501.457) 思い出を==||作っておきたい||== — Erinnerungen im Voraus/für später schaffen wollen
 - [9:23](https://www.youtube.com/watch?v=szlCSg0qlV0&t=563.618) 誰が何と言おうと==||行くんだ||== — egal, was andere sagen, ich gehe dorthin
 - [10:18](https://www.youtube.com/watch?v=szlCSg0qlV0&t=618.852) ==慰め==（||なぐさめ||） — Trost
@@ -47,7 +44,6 @@ tags:
 - [10:38](https://www.youtube.com/watch?v=szlCSg0qlV0&t=638.125) 勇気に==||つながればいい||== — wenn es zu etwas Mut führt, wäre das gut
 - [10:48](https://www.youtube.com/watch?v=szlCSg0qlV0&t=648.168) ==同世代==（||どうせだい||） — gleiche Generation
 - [11:05](https://www.youtube.com/watch?v=szlCSg0qlV0&t=665.335) ==||適度な貧乏||==（||てきどなびんぼう||） — ein angemessenes Maß an Armut; als Lebenserfahrung
-- [11:05](https://www.youtube.com/watch?v=szlCSg0qlV0&t=665.335) ==適度==（||てきど||） — angemessen, maßvoll❗️
 - [11:33](https://www.youtube.com/watch?v=szlCSg0qlV0&t=693.947) ==給料日==（||きゅうりょうび||） — Zahltag
 - [11:37](https://www.youtube.com/watch?v=szlCSg0qlV0&t=697.015) ==全財産==（||ぜんざいさん||） — gesamtes Vermögen
 - [11:47](https://www.youtube.com/watch?v=szlCSg0qlV0&t=707.34) 全財産が==||1400円しかない||== — mein gesamtes Vermögen beträgt nur 1400 Yen
@@ -72,14 +68,12 @@ tags:
 - [18:20](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1100.793) 旅行とか観光じゃなくて==||旅||==— nicht Urlaub/Tourismus, sondern Reise/Abenteuer
 - [18:27](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1107.643) ==冒険==（||ぼうけん||） — Abenteuer
 - [18:57](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1137) 自分の人生を==||生きていく感覚を味わう||==（||いきていくかんかくをあじわう||） — das Gefühl erleben, das eigene Leben selbst zu führen
-- [18:58](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1138.132) ==国内旅行==（||こくないりょこう||） — Inlandsreise❗️
 - [19:42](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1182.558) 嫌でも==||自分と向き合う||==（||じぶんとむきあう||） — ob man will oder nicht, sich mit sich selbst auseinandersetzen
 - [19:42](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1182.748) 誰かの人生と==||向き合う||==（||むきあう||）ことは多い — man beschäftigt sich oft mit dem Leben anderer
 - [21:04](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1264.113) 勉強って聞くと==||アレルギーやば||== — bei dem Wort Lernen bekommt man fast eine Allergie; salopp
 - [21:25](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1285) 興味が==||湧く||==（||わく||） — Interesse kommt auf
 - [21:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1310) 知識が==||身につく||==（||みにつく||） — Wissen bleibt hängen / wird Teil von einem
 - [22:04](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1324.754) ==メンテナンス== — Wartung
-- [22:51](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1371) ==味わう==（||あじわう||） — erleben, auskosten❗️
 - [22:51](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1371) ==移動中==（||いどうちゅう||） — während der Bewegung/Reise
 - [22:51](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1371) ==行動に移す==（||こうどうにうつす||） — in die Tat umsetzen
 - [22:52](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1372.38) ちゃんと==||アクションに起こす||==（||アクションにおこす||）癖 — die Gewohnheit, Interesse in Handlung umzusetzen
@@ -101,10 +95,8 @@ tags:
 - [26:54](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1614.644) 30代って==||リレーのアンカー||==なんですよ — die Dreißiger sind wie der Schlussläufer einer Staffel
 - [26:55](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1615.006) ==アンカー== — Schlussläufer
 - [26:58](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1618.463) ==バトン== — Staffelstab
-- [27:14](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1634.302) ==体力==（||たいりょく||） — körperliche Kraft/Ausdauer❗️
 - [27:24](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1644.808) 20代が==||人生のゴールじゃなくて||==（||じんせいのゴールじゃなくて||） — die Zwanziger sind nicht das Ziel des Lebens
 - [27:37](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1657) ==走りきる==（||はしりきる||） — bis zum Ende laufen
-- [28:03](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1683.958) ==やる気==（||やるき||） — Motivation❗️
 - [28:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1695) 転んでもいいけど==||最後まで走りきる||==（||さいごまではしりきる||） — hinfallen ist okay, aber bis zum Ende laufen
 - [29:07](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1747) 30代の自分に==||やる気をつけてあげる||==（||やるきをつけてあげる||） — dem zukünftigen Ich Motivation geben
 
@@ -161,14 +153,11 @@ tags:
 - [23:50](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1430) ==周り==（||まわり||） — Umgebung
 - [24:23](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1463) ==失敗==（||しっぱい||） — Fehler, Scheitern
 - [28:37](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1717) ==走る==（||はしる||） — laufen
-
-%%
-## Links
-Prev::
-Next:: [[szlCSg0qlV0.migaku.ja.srt|Transcript]]
-Friend::
-
-%%
-
-## Tags
-#transcript #media #japanese #youtube
+- [0:15](https://www.youtube.com/watch?v=szlCSg0qlV0&t=15.011) 若いうちに ||やっておいた方がいいこと|| — Dinge, die man lieber tun sollte, solange man jung ist; sehr nützliches Vておく + 方がいい
+- [0:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=43.348) すごく||考えさせられた|| — das hat mich wirklich zum Nachdenken gebracht
+- [8:09](https://www.youtube.com/watch?v=szlCSg0qlV0&t=489.155) ==近場==（||ちかば||） — nahegelegener Ort
+- [11:05](https://www.youtube.com/watch?v=szlCSg0qlV0&t=665.335) ==適度==（||てきど||） — angemessen, maßvoll
+- [18:58](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1138.132) ==国内旅行==（||こくないりょこう||） — Inlandsreise
+- [22:51](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1371) ==味わう==（||あじわう||） — erleben, auskosten
+- [27:14](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1634.302) ==体力==（||たいりょく||） — körperliche Kraft/Ausdauer
+- [28:03](https://www.youtube.com/watch?v=szlCSg0qlV0&t=1683.958) ==やる気==（||やるき||） — Motivation

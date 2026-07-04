@@ -7,6 +7,10 @@ tags:
 ---
 # Sinn / Purpose
 
+
+In brief: Sustainability, Truth, Community, just being a human. 
+The many versions this Garden went through: [[tea-garden/foundation/digital-garden-website-versions-log|Digital Garden Website Versions log]]
+
 ## Nachhaltigkeit
 
 Das Leben schützen.

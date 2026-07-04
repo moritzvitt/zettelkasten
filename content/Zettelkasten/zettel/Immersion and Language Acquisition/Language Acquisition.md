@@ -1,10 +1,11 @@
 ---
 title: "Language Acquisition"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md"
+next:
+  - "[[Immersion Turns Culture Into the Environment]]"
+  - "[[Digital Garden/Zettelkasten/zettel/Immersion and Language
+    Acquisition/Immersion/The LLM in My Brain|The LLM in My Brain]]"
 publish: true
-graphLinks:
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment]]"
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm-in-my-brain]]"
 tags:
   - zettel
 ---
@@ -31,16 +32,3 @@ Immersion is powerful because it carries these layers at the same time: a real s
 [^clipping-what-is-language-acquisition]: From the clipping: What is Language Acquisition?; original source: University of Sheffield, What is Language Acquisition; extracted source page: Sheffield What is Language Acquisition.
 
 [^input-output-immersion-sources]: Source pages: Input Output und Interaction in der Sprachakquisition; Matt vs Japan und Refold zu Immersion.
-
-%%
-## Links
-
-Prev::
-Next:: [[zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment|Immersion Turns Culture Into the Environment]], [[zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm-in-my-brain|The LLM in My Brain]]
-Parent::
-Child::
-Friend::
-
-## Tags
-#language-acquisition #immersion #open-question #translation
-%%

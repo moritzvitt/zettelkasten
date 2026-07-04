@@ -8,7 +8,7 @@ tags:
 First ideas for a fun interactive landing page with easter eggs.
 "Art Gallery" style. 
 
-![[Pasted image 20260622130600.png|185]]![[Pasted image 20260622130624.png|84]]![[Pasted image 20260622130727.png|182]]
+![[Pasted image 20260622130600.png|185]] ![[Pasted image 20260622130624.png|84]] ![[Pasted image 20260622130727.png|182]]
 
 
 The collection of japanese media notes. Looks like notes in a folder. Or sticky notes.
@@ -21,12 +21,10 @@ What I like about this, is that the graph view itself is a very "modern" obsidia
 
 ![[Pasted image 20260622130815.png|179]]
 
-
 The Zettel page should look like a newspaper (not sure about that).
 I could potentially make it look like a modern newspaper. Web based. White background, Font with Serifs for the Headings. Thin horizontal rule. 
 
 ![[Pasted image 20260622130840.png|228]]
-
 
 Raw Html with default styles. Looks good doesn't it? 
 The focus is on the text, and it is easy to read. Links are also very visible. 
@@ -35,24 +33,21 @@ I even like the default font!
 --> this would align with keeping things simple, lightweight. Focus on the content (minimalism).
 The font also looks nice! (old but clean. Modern Old)
 
-
-
 ![[Screenshot 2026-06-23 at 17.06.29.png|292]]
+
 ![[Pasted image 20260628142807.png|175]]
 
 ![[Pasted image 20260628144947.png|267]]
 
 Another Idea (a bit generic):
 
-![[Pasted image 20260625125941.png|226]]
-
+![[Pasted image 20260625125941.png|153]]
 
 or very Obsidian-like: 
 ![[Pasted image 20260625130307.png|322]]
 
-
 Minimalistisches Html. Leserlich. 
-![[Pasted image 20260627150907.png|287]]
+![[Pasted image 20260627150907.png|241]]
 
 Mir gefällt der Seitentitel als SVG Schriftzug. 
 Das hat so etwas von echten handschriftlichen Notizen (gerade die Mischung aus normaler Schrift, dem Graphen rechts und dem Schriftzug macht es irgendwie.) Coole wäre, auch die Icons noch handschriftlich zu gestalten. 
@@ -78,7 +73,7 @@ Maybe I should try a thinner font for the default font?
 
 
 Mir gefällt bei diesem gezeichneten Baum, dass man im PNG noch die unterschiedliche Intensität der Tinte sieht! Im SVG geht der Effekt allerdings verloren. 
-![[baum.png|271]]![[baum.svg|293]]
+![[baum.png|271]] ![[Pasted image 20260629005720.png]]
 
 Also, das sieht jetzt richtig cool aus. Insbesondere die schwarzen Punkte sehen sogar so aus wie zufällige Tintenflecken (das war nicht so beabsichtigt aber es ist ein cooler Effekt)
 ![[Pasted image 20260628182103.png|352]]
@@ -91,17 +86,20 @@ etwas hellere Schriftart, damit es "handschriftlicher aussieht"
 ![[Pasted image 20260628191534.png|329]]
 
 Die Graph-Ansicht, ohne Rand ist auch interessant:
-![[Pasted image 20260628192229.png|322]]
+![[Pasted image 20260628192229.png|286]]
 
-![[Pasted image 20260628192631.png|304]]
+![[Pasted image 20260628192631.png|281]]
 
 Überschriften sind dünner. Es sieht ein bisschen mehr aus wie eine Zeitung, wo die einzelnen Absätze per Hand geschrieben wurden. 
 
 Neues Farbschema. Von Codex anhand des Neon Scheins ausgewählt. 
 
-![[Pasted image 20260628193716.png|342]]
+![[Pasted image 20260628193716.png|316]]
 
-Überschriften mit leichtem Ink-bleeding:
-![[Pasted image 20260628193657.png|300]]
+Überschriften mit leichtem Ink-bleeding. Überschrift ist allerdings zu Grün für meinen Geschmack.
+![[Pasted image 20260628193657.png|257]]
+
 Meine Teekanne würde genau zu dem jetzigen Farbschema passen:
 ![[Pasted image 20260628195035.png|256]]
+Vielleicht kann ich den ink bleed Effekt noch verbessern:
+https://andyjakubowski.com/tutorial/ink-bleed-effect-with-svg-filters

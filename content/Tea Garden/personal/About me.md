@@ -7,7 +7,7 @@ tags:
 ---
 My name is Moritz. 
 
-I love tea. Especially green tea. My favourites so far are: Ali Shan Oolong tea, Morimoto Sencha, Asagiri Sencha, Bilouchun Long Leaf Green tea
+I love tea. Especially green tea. My favourites so far are: Ali Shan Oolong tea, Morimoto Sencha, Asagiri Sencha, Bilouchun Long Leaf Green tea.
 
 I love learning languages and connecting with people. 
 
