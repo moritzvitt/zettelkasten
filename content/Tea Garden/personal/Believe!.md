@@ -6,5 +6,5 @@ tags:
   - zettel
 ---
 The next day, the next hour, the next minute will always be better than everything before! 
-I believe in that! 
+Believe in that! 
 Stay excited for what is to come.

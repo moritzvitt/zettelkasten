@@ -13,5 +13,6 @@ I love learning languages and connecting with people.
 
 I love football ("soccer"). [[tea-garden/personal/messi-is-art|🐐🇦🇷]] (I am a 1,76 tall No. 10)
 
-This is a collection of [[tea-garden/personal/things-i-made/things-i-made,-i-am-proud-of|Things I made, I am proud of]].
+This is a collection of [[Things I made I am proud of]]
+This is a collection of [[tea-garden/personal/things-i-made/drawings|Drawings]].
 Here is some [[pixel art]] I made.

@@ -1,6 +1,6 @@
 ---
-title: "Things I made, I am proud of"
-source: "Digital Garden/Tea Garden/personal/Things I made/Things I made, I am proud of.md"
+title: "Drawings"
+source: "Digital Garden/Tea Garden/personal/Things I made/Drawings.md"
 publish: true
 tags:
   - zettel
