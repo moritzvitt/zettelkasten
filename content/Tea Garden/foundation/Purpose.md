@@ -1,74 +1,72 @@
 ---
-title: "Sinn / Purpose"
+title: "**Purpose**"
 source: "Digital Garden/Tea Garden/foundation/Purpose.md"
 publish: true
 tags:
   - zettel
 ---
-# Sinn / Purpose
+# **Purpose**
 
+In brief: Sustainability, Truth, Community, and simply being human.
 
-In brief: Sustainability, Truth, Community, just being a human. 
-The many versions this Garden went through: [[tea-garden/foundation/digital-garden-website-versions-log|Digital Garden Website Versions log]]
+The many iterations this Garden has gone through: [[tea-garden/foundation/digital-garden-website-versions-log|Digital Garden Website Versions log]]
 
-## Nachhaltigkeit
+## **Sustainability**
 
-Das Leben schützen.
+Protect life.
 
-Ein erfülltes Leben mit Sinn ist ein nachhaltiges Leben.  
-Die Suche nach Sinn schützt davor, ein zerstörerisches, nicht nachhaltiges Leben zu führen.
+A meaningful life is a sustainable life.  
+The search for meaning helps prevent us from living in destructive, unsustainable ways.
 
-## Suche nach Wahrheit
+## **The Search for Truth**
 
-Angenommen, es gibt eine objektive Wahrheit:  
-Dann ist der Zettelkasten ein Werkzeug, um ihr näherzukommen.
+Assuming there is an objective truth, the Zettelkasten is a tool for moving closer to it.
 
-Nicht durch endgültige Antworten, sondern durch das Sammeln, Verbinden und Prüfen von Gedanken.
+Not by arriving at final answers, but by collecting, connecting, and testing ideas.
 
-### Freies Denken
+### **Free Thinking**
 
-Denken ist nicht linear.  
-Der Kopf folgt seiner eigenen Logik.
+Thinking is not linear.  
+The mind follows its own logic.
 
-Jeder Weg durch den Garten schafft neue gedankliche Pfade.
+Every journey through the Garden creates new paths of thought.
 
-> The garden is the web as topology. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
->
-> _(The Garden and the Stream)_
+The garden is the web as topology. Every walk through the garden creates new paths, new meanings, and when we add things to the garden we add them in a way that allows many future, unpredicted relationships.
+
+_(The Garden and the Stream)_
 
 🌳
 
-𐃘 Daher ist  der Garten nach den Prinzipien des [[zettelkasten/zettel/design-principles/minimalism|Minimalismus]] gestaltet: Er soll Klarheit fördern und Ablenkung reduzieren. (folgt aus "Suche nach Wahrheit" und "freies Denken". [[Digital Garden Architecture & Design]])
+𐃘 Therefore, the Garden is designed according to the principles of [[zettelkasten/zettel/design-principles/minimalism|Minimalism]]: it should promote clarity and reduce distraction. This follows naturally from the search for truth and the idea of free thinking. ([[Digital Garden Architecture & Design]])
 
-## Gemeinschaft
+## **Community**
 
-Gemeinschaft der Menschen und aller Lebewesen.
+A community of people and all living beings.
 
-Der Garten soll einen Raum bieten, in dem sich Menschen gerne aufhalten.  
-Einen virtuellen Ort, der nicht kalt oder ausbeuterisch ist, sondern menschlich.
+The Garden should provide a space where people enjoy spending time.  
+A virtual place that is not cold or exploitative, but human.
 
-Er soll Gemeinschaft unterstützen:
+It should support community by helping people:
 
-- Sprachen lernen
-- sich organisieren
-- Gedanken teilen
-- einander helfen
-- zusammen verstehen
+- learn languages
+- organize themselves
+- share ideas
+- help one another
+- understand things together
 
-## Menschlichkeit
+## **Humanity**
 
-Was bedeutet Menschlichkeit?
+What does it mean to be human?
 
-Vielleicht: die Eigenschaften anzunehmen, die uns über Millionen von Jahren geformt haben.  
-Unsere Neugier, Verletzlichkeit, Widersprüchlichkeit, Fürsorge, unser Bedürfnis nach Sinn und Verbindung.
+Perhaps it means embracing the qualities that have shaped us over millions of years: our curiosity, vulnerability, contradictions, compassion, and our need for meaning and connection.
 
-Der Zweck dieses Gartens ist es, einen menschlichen Raum im Internet zu schaffen.  
-Einen Ort, der sich angenehm anfühlt.  
+The purpose of this Garden is to create a human space on the internet.  
+A place that feels welcoming and comfortable.
 
-## Für mich
+## **For Me**
 
-- Japanisch lernen
-- den Zettelkasten pflegen
-- Wahrheit suchen
-- Sinn finden
-- mit anderen in Verbindung bleiben
+- Learn Japanese
+- Maintain my Zettelkasten
+- Search for truth
+- Find meaning
+- Stay connected with others

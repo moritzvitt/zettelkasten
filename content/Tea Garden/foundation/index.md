@@ -12,5 +12,5 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
+- [[**Purpose**]] - **Purpose** In brief: Sustainability, Truth, Community, and simply being human. The many iterations this Garden has gone through: Digital Garden Website Versions log **Sustainability** Protect life. A meaningful life is
 - [[Digital Garden Website Versions log]] - First ideas for a fun interactive landing page with easter eggs. "Art Gallery" style. !185 !84 !182 The collection of japanese media notes. Looks like notes in a folder. Or sticky notes. !162 Graph view with ink bleeding
-- [[Sinn / Purpose]] - Sinn / Purpose In brief: Sustainability, Truth, Community, just being a human. The many versions this Garden went through: Digital Garden Website Versions log Nachhaltigkeit Das Leben schützen. Ein erfülltes Leben mit Si

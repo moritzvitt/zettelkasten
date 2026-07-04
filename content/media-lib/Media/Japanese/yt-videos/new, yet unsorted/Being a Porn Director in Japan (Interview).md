@@ -1,6 +1,6 @@
 ---
 title: "Being a Porn Director in Japan (Interview)"
-source: "Digital Garden/media-lib/Media/Japanese/Being a Porn Director in Japan (Interview).md"
+source: "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/Being a Porn Director in Japan (Interview).md"
 mx-uid: t4t08d6nfvvbe5wzfned0hrl
 media: https://www.youtube.com/watch?v=CxI1B6NXrc4
 captions:

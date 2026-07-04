@@ -23,7 +23,7 @@ Anime:
 - [[The Wind Rises]]
 
 Relationships and Love in Japan: 
-- [[日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships]]
-- [[media-lib/media/japanese/yt-videos/how-much-do-japanese-girls-cheat?|How much do Japanese Girls Cheat?]] 
-- [[media-lib/media/japanese/what-japanese-girls-find-attractive|What Japanese Girls Find Attractive]]
-- [[media-lib/media/japanese/being-a-porn-director-in-japan-(interview)|Being a Porn Director in Japan (Interview)]] (Yeah, I watched that. Despite the title, it's a serious interview with a very serious lady!)
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships|日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships]]
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?|How much do Japanese Girls Cheat?]] 
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive|What Japanese Girls Find Attractive]]
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)|Being a Porn Director in Japan (Interview)]] (Yeah, I watched that. Despite the title, it's a serious interview with a very serious lady!)

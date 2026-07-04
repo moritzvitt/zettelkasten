@@ -37,7 +37,7 @@
     },
     "tea-garden/foundation/purpose": {
       "slug": "tea-garden/foundation/purpose",
-      "title": "Sinn / Purpose",
+      "title": "**Purpose**",
       "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
       "url": "/tea-garden/foundation/purpose",
       "tags": [
@@ -971,24 +971,6 @@
         "zettel"
       ]
     },
-    "media-lib/media/japanese/being-a-porn-director-in-japan-(interview)": {
-      "slug": "media-lib/media/japanese/being-a-porn-director-in-japan-(interview)",
-      "title": "Being a Porn Director in Japan (Interview)",
-      "source": "Digital Garden/media-lib/Media/Japanese/Being a Porn Director in Japan (Interview).md",
-      "url": "/media-lib/media/japanese/being-a-porn-director-in-japan-(interview)",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "media-lib/media/japanese/what-japanese-girls-find-attractive": {
-      "slug": "media-lib/media/japanese/what-japanese-girls-find-attractive",
-      "title": "What Japanese Girls Find Attractive",
-      "source": "Digital Garden/media-lib/Media/Japanese/What Japanese Girls Find Attractive.md",
-      "url": "/media-lib/media/japanese/what-japanese-girls-find-attractive",
-      "tags": [
-        "zettel"
-      ]
-    },
     "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle": {
       "slug": "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle",
       "title": "Howl's Moving Castle",
@@ -1003,15 +985,6 @@
       "title": "Ocean Waves",
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
       "url": "/media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/how-much-do-japanese-girls-cheat?": {
-      "slug": "media-lib/media/japanese/yt-videos/how-much-do-japanese-girls-cheat?",
-      "title": "How much do Japanese Girls Cheat?",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/How much do Japanese Girls Cheat?.md",
-      "url": "/media-lib/media/japanese/yt-videos/how-much-do-japanese-girls-cheat?",
       "tags": [
         "zettel"
       ]
@@ -1066,6 +1039,42 @@
       "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
       "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)": {
+      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)",
+      "title": "Being a Porn Director in Japan (Interview)",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/Being a Porn Director in Japan (Interview).md",
+      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?": {
+      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?",
+      "title": "How much do Japanese Girls Cheat?",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/How much do Japanese Girls Cheat?.md",
+      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive": {
+      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive",
+      "title": "What Japanese Girls Find Attractive",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/What Japanese Girls Find Attractive.md",
+      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
+      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
+      "title": "日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
+      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
       "tags": [
         "zettel"
       ]

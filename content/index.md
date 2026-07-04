@@ -13,9 +13,7 @@ Hey, I am Moritz! 😃🙋🏻‍♂️
 This is my digital tea garden.  
 You are very welcome to look around, follow whatever path seems interesting, or just hang out for a while.  
 
-Have a tea, while you stay! <span class="tea-kettle-easter-egg" role="button" tabindex="0" aria-label="Show glowing tree garden">🫖</span>  <sup><sub>*← click me*</sub></sup>
-
-This is the [[purpose|purpose]] behind this place.
+Have a tea, while you read! <span class="tea-kettle-easter-egg" role="button" tabindex="0" aria-label="Show glowing tree garden">🫖</span>  <sup><sub>*← click me*</sub></sup>
 
 I learn languages in a [[zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density|"thematic" immersion]] approach, centered around topics. That way, it's easier to acquire vocabulary, since you are more likely to encounter the same or similar words, if you stay in a thematic bubble. Current topic: [[Relationships]], [[tea-garden/japanese/japanese-topics|Japanese Topics]]
 
@@ -23,5 +21,7 @@ My [[Digital Garden/Zettelkasten/zettel/|Zettelkasten]], with main focus areas o
 
 I got the whole idea for this "Digital Garden" from [[[jzhao.xyz/posts/networked-thought](https://jzhao.xyz/posts/networked-thought)|Jacky Zhao]]. Saying "inspired by" would be an understatement.
 
+The [[purpose|purpose]] behind this place.
+What makes us human. 
 [[tea-garden/personal/about-me|About me]].
 [[tea-garden/personal/believe!|Believe!]]

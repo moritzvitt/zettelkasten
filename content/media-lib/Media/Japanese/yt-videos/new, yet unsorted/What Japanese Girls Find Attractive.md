@@ -1,6 +1,6 @@
 ---
 title: "What Japanese Girls Find Attractive"
-source: "Digital Garden/media-lib/Media/Japanese/What Japanese Girls Find Attractive.md"
+source: "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/What Japanese Girls Find Attractive.md"
 mx-uid: m63ofh8udx2ts354h917xpqy
 media: https://www.youtube.com/watch?v=p6ctFk0M9hc
 captions:
