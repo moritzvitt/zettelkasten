@@ -21,7 +21,8 @@ My [[Digital Garden/Zettelkasten/zettel/|Zettelkasten]], with main focus areas o
 
 I got the whole idea for this "Digital Garden" from [[[jzhao.xyz/posts/networked-thought](https://jzhao.xyz/posts/networked-thought)|Jacky Zhao]]. Saying "inspired by" would be an understatement.
 
-The [[purpose|purpose]] behind this place.
-What makes us human. 
-[[tea-garden/personal/about-me|About me]].
-[[tea-garden/personal/believe!|Believe!]]
+The [[purpose|purpose]] behind this place.   
+What makes us human.   
+[[tea-garden/personal/about-me|About me]].   
+[[tea-garden/personal/believe!|Believe!]].      
+[[tea-garden/2026-07-05-einfach-mal-geistig-abschalten.|2026-07-05 Einfach mal geistig abschalten.]]

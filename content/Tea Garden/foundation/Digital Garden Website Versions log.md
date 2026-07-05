@@ -73,7 +73,7 @@ Maybe I should try a thinner font for the default font?
 
 
 Mir gefällt bei diesem gezeichneten Baum, dass man im PNG noch die unterschiedliche Intensität der Tinte sieht! Im SVG geht der Effekt allerdings verloren. 
-![[baum.png|271]] ![[Pasted image 20260629005720.png]]
+![[baum.png|271]] ![[Pasted image 20260629005720.png|234]]
 
 Also, das sieht jetzt richtig cool aus. Insbesondere die schwarzen Punkte sehen sogar so aus wie zufällige Tintenflecken (das war nicht so beabsichtigt aber es ist ein cooler Effekt)
 ![[Pasted image 20260628182103.png|352]]
@@ -88,7 +88,7 @@ etwas hellere Schriftart, damit es "handschriftlicher aussieht"
 Die Graph-Ansicht, ohne Rand ist auch interessant:
 ![[Pasted image 20260628192229.png|286]]
 
-![[Pasted image 20260628192631.png|281]]
+![[Pasted image 20260628192631.png|294]]
 
 Überschriften sind dünner. Es sieht ein bisschen mehr aus wie eine Zeitung, wo die einzelnen Absätze per Hand geschrieben wurden. 
 
