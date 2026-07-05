@@ -58,3 +58,45 @@ Schuh ham wir nie
 Michael Olise:
 
 Olympique de Marseille:
+
+
+
+**Kilian camembappé**
+
+Camembappé
+FC Camembert 
+Camembert 
+
+
+Brie,   
+
+Les Tübingeurs
+
+FC Panzerhalle
+
+  
+FC Panzer’alle
+
+FC Panzer’allè
+
+
+Mbappé au lait (FC)
+
+Klein mit Pappe
+
+N’ klein Mbappé au lait sil wu plä
+
+  
+
+  
+
+Champagner FC
+
+Schampagner FC
+
+Schampanjer FC
+
+Schammpanjer
+
+
+moritz: bring mal ein bisschen Ordnung in all diese Vorschläge (ohne etwas zu löschen!)

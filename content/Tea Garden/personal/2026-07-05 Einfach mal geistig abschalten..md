@@ -1,6 +1,6 @@
 ---
 title: "2026-07-05 Einfach mal geistig abschalten."
-source: "Digital Garden/Tea Garden/2026-07-05 Einfach mal geistig abschalten..md"
+source: "Digital Garden/Tea Garden/personal/2026-07-05 Einfach mal geistig abschalten..md"
 publish: true
 tags:
   - zettel

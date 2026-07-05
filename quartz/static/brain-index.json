@@ -8,15 +8,6 @@
     "sibling"
   ],
   "nodes": {
-    "tea-garden/2026-07-05-einfach-mal-geistig-abschalten.": {
-      "slug": "tea-garden/2026-07-05-einfach-mal-geistig-abschalten.",
-      "title": "2026-07-05 Einfach mal geistig abschalten.",
-      "source": "Digital Garden/Tea Garden/2026-07-05 Einfach mal geistig abschalten..md",
-      "url": "/tea-garden/2026-07-05-einfach-mal-geistig-abschalten.",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/japanese/japanese-topics": {
       "slug": "tea-garden/japanese/japanese-topics",
       "title": "Japanese Topics",
@@ -49,6 +40,15 @@
       "title": "**Purpose**",
       "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
       "url": "/tea-garden/foundation/purpose",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.": {
+      "slug": "tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.",
+      "title": "2026-07-05 Einfach mal geistig abschalten.",
+      "source": "Digital Garden/Tea Garden/personal/2026-07-05 Einfach mal geistig abschalten..md",
+      "url": "/tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.",
       "tags": [
         "zettel"
       ]
@@ -976,6 +976,15 @@
       "title": "bis Mitte August Zeit in Tübingen",
       "source": "Digital Garden/journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md",
       "url": "/journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "journal/2026-07-05-wo-bewerben?": {
+      "slug": "journal/2026-07-05-wo-bewerben?",
+      "title": "2026-07-05 wo bewerben?",
+      "source": "Digital Garden/journal/2026-07-05 wo bewerben?.md",
+      "url": "/journal/2026-07-05-wo-bewerben?",
       "tags": [
         "zettel"
       ]

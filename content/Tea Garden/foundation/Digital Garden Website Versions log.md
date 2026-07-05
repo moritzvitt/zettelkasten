@@ -88,7 +88,7 @@ etwas hellere Schriftart, damit es "handschriftlicher aussieht"
 Die Graph-Ansicht, ohne Rand ist auch interessant:
 ![[Pasted image 20260628192229.png|286]]
 
-![[Pasted image 20260628192631.png|294]]
+![[Pasted image 20260628192631.png|169]]
 
 Überschriften sind dünner. Es sieht ein bisschen mehr aus wie eine Zeitung, wo die einzelnen Absätze per Hand geschrieben wurden. 
 
@@ -103,3 +103,7 @@ Meine Teekanne würde genau zu dem jetzigen Farbschema passen:
 ![[Pasted image 20260628195035.png|256]]
 Vielleicht kann ich den ink bleed Effekt noch verbessern:
 https://andyjakubowski.com/tutorial/ink-bleed-effect-with-svg-filters
+
+moritz: Bitte drehe die Reihenfolge der Einträge um, sodass dieser Eintrag von 05.07.2026 ganz oben ist (aktuellere Einträge zuerst.) Die anderen Einträge haben zwar kein Datum, aber dreh deren Reihenfolge einfach exakt um. 
+
+Stand 05.07.2026![[Pasted image 20260705212748.png]]
