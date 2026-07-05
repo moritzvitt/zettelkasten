@@ -27,4 +27,4 @@ What makes us human.
 [[tea-garden/personal/believe!|Believe!]].      
 [[tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.|Relax your mind]].   
 
-[[Organisational stuff, Future plans.]]
+[[tea-garden/personal/organisational-stuff,-future-plans.|Organisational stuff, Future plans.]]
