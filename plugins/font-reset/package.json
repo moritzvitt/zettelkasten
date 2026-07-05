@@ -1,0 +1,30 @@
+{
+  "name": "@moritzvitt/quartz-font-reset",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "exports": {
+    ".": "./dist/index.js",
+    "./components": "./dist/components/index.js"
+  },
+  "quartz": {
+    "name": "font-reset",
+    "displayName": "Font Reset",
+    "category": "component",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 36,
+    "components": {
+      "FontReset": {
+        "displayName": "Font Reset",
+        "defaultPosition": "left",
+        "defaultPriority": 36
+      }
+    }
+  }
+}

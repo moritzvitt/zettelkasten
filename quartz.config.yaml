@@ -228,6 +228,12 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+  - source: ./plugins/font-reset
+    enabled: true
+    layout:
+      position: left
+      priority: 36
+      group: toolbar
   - source: github:quartz-community/breadcrumbs
     enabled: false
     layout:

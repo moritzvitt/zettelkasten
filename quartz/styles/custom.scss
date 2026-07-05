@@ -15,14 +15,33 @@
   font-size: 18px;
 }
 
+:root[standard-font="on"] {
+  --bodyFont: "Noto Serif", serif;
+  --font-text: var(--bodyFont);
+  --font-interface: var(--bodyFont);
+}
+
 body {
   font-weight: 300;
   font-synthesis-weight: none;
 }
 
+:root[standard-font="on"] body {
+  font-weight: 400;
+  font-synthesis-weight: auto;
+}
+
 article a,
 article strong {
   font-weight: 300;
+}
+
+:root[standard-font="on"] article a {
+  font-weight: inherit;
+}
+
+:root[standard-font="on"] article strong {
+  font-weight: 600;
 }
 
 :root[saved-theme="dark"] article a.internal {
@@ -55,6 +74,17 @@ thead {
     0 0 0.055em color-mix(in srgb, currentColor 14%, transparent);
 }
 
+:root[standard-font="on"] h1,
+:root[standard-font="on"] h2,
+:root[standard-font="on"] h3,
+:root[standard-font="on"] h4,
+:root[standard-font="on"] h5,
+:root[standard-font="on"] h6,
+:root[standard-font="on"] thead {
+  font-weight: 700;
+  text-shadow: none;
+}
+
 article p,
 article li {
   font-size: 1.4rem;
@@ -62,6 +92,12 @@ article li {
   word-spacing: 0.2em;
 }
 
+:root[standard-font="on"] article p,
+:root[standard-font="on"] article li {
+  font-size: 1rem;
+  line-height: 1.5;
+  word-spacing: normal;
+}
 
 .page-title {
   width: min(100%, 20rem);
