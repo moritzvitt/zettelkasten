@@ -2,8 +2,6 @@
 title: "Which Skills Should You Prioritize When Learning a Language"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md"
 publish: true
-graphLinks:
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition]]"
 tags:
   - zettel
 ---
@@ -29,16 +27,3 @@ Handwriting is a special case for languages with character-based writing systems
 ## Why It Matters
 
 This note turns one thought into something the zettelkasten can test, link, and develop further.
-
-%%
-## Links
-
-Prev::
-Next::
-Parent:: [[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition|Language Acquisition]]
-Child::
-Friend::
-
-## Tags
-#language-learning #translation
-%%

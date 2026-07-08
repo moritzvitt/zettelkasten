@@ -98,15 +98,6 @@
         "zettel"
       ]
     },
-    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
-      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
-      "title": "Why should you learn a language, and what is it even that you are learning?",
-      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
-      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
-      "tags": [
-        "zettel"
-      ]
-    },
     "zettelkasten/welcome-to-my-zettelkasten!": {
       "slug": "zettelkasten/welcome-to-my-zettelkasten!",
       "title": "Welcome to My Zettelkasten!",
@@ -1136,42 +1127,6 @@
   },
   "relationships": [
     {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
-      "type": "friend",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
-      "type": "friend",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
-      "type": "friend",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false
-    },
-    {
       "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information",
       "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents",
       "type": "friend",
@@ -1420,18 +1375,6 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
-      "type": "child",
-      "explicit": false
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "type": "parent",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
       "type": "child",
       "explicit": false
     },
@@ -1450,48 +1393,6 @@
   ],
   "edges": [
     {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
-      "to": "zettelkasten/zettel/communication-and-information/institutions",
-      "type": "friend",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
       "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information",
       "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents",
       "type": "friend",
@@ -1786,20 +1687,6 @@
       "direction": "to"
     },
     {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "type": "parent",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "type": "child",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "type": "parent",
@@ -1812,46 +1699,9 @@
       "type": "child",
       "explicit": false,
       "direction": "to"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
-      "type": "sibling",
-      "explicit": false,
-      "direction": "none",
-      "via": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "type": "sibling",
-      "explicit": false,
-      "direction": "none",
-      "via": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition"
     }
   ],
   "explicitEdges": [
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/communication-and-information/institutions",
-      "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
     {
       "from": "zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information",
       "to": "zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents",
@@ -2065,13 +1915,6 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "type": "parent",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "type": "parent",
       "explicit": true,
       "direction": "from"
