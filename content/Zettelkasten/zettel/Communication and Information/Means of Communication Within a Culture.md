@@ -9,7 +9,7 @@ tags:
 
 ## Claim
 
-The means of communication within a culture include language, body language, and forms of politeness as ritualized practices.
+The means of communication within a culture include language, body language, and forms of politeness as ritualized practices. ^4c9749
 
 ## Why It Matters
 

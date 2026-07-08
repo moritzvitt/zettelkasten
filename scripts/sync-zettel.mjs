@@ -26,7 +26,9 @@ const relationTypes = relationshipTypes
 try {
   await access(digitalGardenRoot)
 } catch {
-  console.log(`Digital Garden source not found at ${digitalGardenRoot}; using existing content directory`)
+  console.log(
+    `Digital Garden source not found at ${digitalGardenRoot}; using existing content directory`,
+  )
   process.exit(0)
 }
 
@@ -80,7 +82,10 @@ function isHomepageSource(file) {
 function titleFrom(file, text) {
   const data = frontmatterData(text)
   if (data["excalidraw-plugin"]) {
-    return path.basename(file, ".md").replace(/\.excalidraw(?:\s+\d+)?$/i, "").trim()
+    return path
+      .basename(file, ".md")
+      .replace(/\.excalidraw(?:\s+\d+)?$/i, "")
+      .trim()
   }
 
   const h1 = text.match(/^#\s+(.+)$/m)
@@ -155,10 +160,12 @@ function rewriteWikiLinks(text, note, resolve) {
   return text.replace(
     /(!?)\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
     (match, embed, target, anchor = "", label) => {
-      if (embed) return match
+      if (embed && embeddableAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
+        return match
+      }
       const slug = resolve(note, target)
       if (!slug) return match
-      return `[[${slug}${anchor}|${label || cleanTitle(target)}]]`
+      return `${embed}[[${slug}${anchor}|${label || cleanTitle(target)}]]`
     },
   )
 }
@@ -179,7 +186,9 @@ const passthroughFrontmatterKeys = [
 ]
 
 function yamlField(key, value) {
-  return YAML.stringify({ [key]: value }).trimEnd().split("\n")
+  return YAML.stringify({ [key]: value })
+    .trimEnd()
+    .split("\n")
 }
 
 function passthroughFrontmatter(data) {
@@ -191,7 +200,9 @@ function passthroughFrontmatter(data) {
 
   if (
     passthrough["vocab-trainer"] === undefined &&
-    String(data.plugin ?? "").trim().toLocaleLowerCase("de") === "vocab-trainer"
+    String(data.plugin ?? "")
+      .trim()
+      .toLocaleLowerCase("de") === "vocab-trainer"
   ) {
     passthrough["vocab-trainer"] = true
   }
@@ -239,10 +250,7 @@ function slugSegment(value) {
 }
 
 function slugPath(value) {
-  const segments = value
-    .replace(/\.md$/, "")
-    .split(path.sep)
-    .filter(Boolean)
+  const segments = value.replace(/\.md$/, "").split(path.sep).filter(Boolean)
 
   const last = segments.at(-1)
   const parent = segments.at(-2)
@@ -250,9 +258,7 @@ function slugPath(value) {
     segments[segments.length - 1] = "index"
   }
 
-  return segments
-    .map(slugSegment)
-    .join("/")
+  return segments.map(slugSegment).join("/")
 }
 
 function mergeDirection(current, incoming) {
@@ -261,16 +267,7 @@ function mergeDirection(current, incoming) {
   return "both"
 }
 
-function addBrainEdge(
-  edges,
-  edgeMap,
-  from,
-  to,
-  type,
-  explicit = true,
-  direction = "from",
-  via,
-) {
+function addBrainEdge(edges, edgeMap, from, to, type, explicit = true, direction = "from", via) {
   if (!from || !to || from === to) return
   const key = `${from}\u0000${to}\u0000${type}`
   const existing = edgeMap.get(key)
@@ -506,7 +503,9 @@ for (const note of rawNotes) {
   for (const target of note.embeddedAssets) {
     const source = assetsByName.get(path.basename(target))
     if (!source) {
-      console.warn(`Missing embedded asset ${target} referenced by ${path.relative(vaultRoot, note.file)}`)
+      console.warn(
+        `Missing embedded asset ${target} referenced by ${path.relative(vaultRoot, note.file)}`,
+      )
       continue
     }
     const destination = path.join(contentRoot, note.relDir, path.basename(target))
@@ -553,8 +552,6 @@ const unresolvedRelationships = rawNotes.flatMap((note) =>
 if (unresolvedRelationships.length) {
   console.warn(`Skipped ${unresolvedRelationships.length} unresolved relationships`)
   for (const relationship of unresolvedRelationships) {
-    console.warn(
-      `- ${relationship.source} --${relationship.type}--> ${relationship.target}`,
-    )
+    console.warn(`- ${relationship.source} --${relationship.type}--> ${relationship.target}`)
   }
 }

@@ -1,0 +1,634 @@
+---
+title: "The Wind Rises"
+source: "Digital Garden/media-lib/Media/Japanese/movies/The Wind Rises (2013)/The Wind Rises.md"
+mx-uid: the-wind-rises-2013
+media: "[[The Wind Rises (2013).mp4]]"
+captions:
+  - "[[The Wind Rises.ja.srt#lang=ja&label=OpenSubtitles Japanese]]"
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[mx-img-the-wind-rises-2013-pt8m51_30s.jpg]]"
+publish: true
+tags:
+  - zettel
+---
+## Lernliste
+
+- [[The Wind Rises (2013).mp4#t=366.240|6:06]] ==御八つ==（||おやつ||） - Zwischenmahlzeit, Snack — いつものところにおやつがあります
+- [[The Wind Rises (2013).mp4#t=423.96|7:03]] ==赤チン==（||あかチン||） - rotes Desinfektionsmittel
+- [[The Wind Rises (2013).mp4#t=423.960|7:03]] ==塗る==（||ぬる||） - auftragen, einstreichen; hier: Medizin auf die Schürfwunde tun — 赤チンを塗りましょ、塗って差し上げます
+- [[The Wind Rises (2013).mp4#t=543.435|9:03]] ==伯爵==（||はくしゃく||） - Graf; hier: „Graf Caproni“
+- [[The Wind Rises (2013).mp4#t=552.463|9:12]] ==王国==（||おうこく||） - Königreich
+- [[The Wind Rises (2013).mp4#t=575.280|9:35]] ==じき== - bald, in Kürze; hier: „der Krieg wird bald vorbei sein“ — だが戦争はじき終わる
+- [[The Wind Rises (2013).mp4#t=586.280|9:46]] ==下りる==（||おりる||） - aussteigen, hinuntergehen — 降りたまえ 日本の少年
+- [[The Wind Rises (2013).mp4#t=597.62|9:57]] ==豪華==（||ごうか||） - prächtig, luxuriös
+- [[The Wind Rises (2013).mp4#t=631.32|10:31]] ==桁==（||けた||） - Träger/Balken; auch Ziffernstelle.
+- [[The Wind Rises (2013).mp4#t=677.080|11:17]] 壮大: großartig
+- [[The Wind Rises (2013).mp4#t=685.162|11:25]] ==大西洋==（||たいせいよう||） - Atlantik
+- [[The Wind Rises (2013).mp4#t=686.478|11:26]] ==横断==（||おうだん||） - Überquerung
+- [[The Wind Rises (2013).mp4#t=691.520|11:31]] ==近眼==（||きんがん||） - Kurzsichtigkeit; die lokale SRT schreibt hier fehlerhaft `金岩`, gemeint ist `近眼` — 近眼でも飛行機の設計はできますか
+- [[The Wind Rises (2013).mp4#t=699.392|11:39]] ==操縦==（||そうじゅう||） - Steuerung, Pilotieren
+- [[The Wind Rises (2013).mp4#t=724.556|12:04]] ==手立て==（||てだて||） - Mittel, Weg, Maßnahme
+- [[The Wind Rises (2013).mp4#t=1038.245|17:18]] ==汽車==（||きしゃ||） - Dampfzug/Zug
+- [[The Wind Rises (2013).mp4#t=1041.745|17:21]] ==機関車==（||きかんしゃ||） - Lokomotive
+- [[The Wind Rises (2013).mp4#t=1187|19:47]] ==枯れる==（||かれる||） - austrocknen, verdorren
+- [[The Wind Rises (2013).mp4#t=1195.765|19:55]] ==広小路==（||ひろこうじ||） - breite Straße/Allee, Ortsname — 広小路の方は火が来ていません
+- [[The Wind Rises (2013).mp4#t=1333.305|22:13]] ==航空研究所==（||こうくうけんきゅうじょ||） - Luftfahrtforschungsinstitut.
+- [[The Wind Rises (2013).mp4#t=1356.295|22:36]] ==壊滅==（||かいめつ||） - Zerstörung, Vernichtung
+- [[The Wind Rises (2013).mp4#t=1525.29|25:25]] ==旧式==（||きゅうしき||） - veraltet, altes Modell
+- [[The Wind Rises (2013).mp4#t=1547.23|25:47]] ==マンネリズム== - eingefahrene Routine, geistige Erstarrung; hier abwertend zu Lehrbuch-/Vorlesungsdenken.
+- [[The Wind Rises (2013).mp4#t=1549.73|25:49]] ==講義==（||こうぎ||） - Vorlesung
+- [[The Wind Rises (2013).mp4#t=1552.899|25:52]] ==ジュラルミン== - Duraluminium
+- [[The Wind Rises (2013).mp4#t=1575.410|26:15]] ==熱心==（||ねっしん||） - eifrig, engagiert — 二郎さんずいぶん熱心ですね
+- [[The Wind Rises (2013).mp4#t=1599.062|26:39]] ==翼==（||つばさ||） - Flügel.
+- [[The Wind Rises (2013).mp4#t=1599.51|26:39]] ==翼断面==（||つばさだんめん||） - Flügelprofil, Flügelquerschnitt
+- [[The Wind Rises (2013).mp4#t=1599.546|26:39]] ==断面==（||だんめん||） - Querschnitt, Profil.
+- [[The Wind Rises (2013).mp4#t=1599.83|26:39]] ==企画==（||きかく||） - Plan, Entwurf, Projektplanung.
+- [[The Wind Rises (2013).mp4#t=1701.810|28:21]] ==白状==（||はくじょう||） - Geständnis; hier wohl ASR-unsicher — ニーニーは白状物です全然帰ってこないんだからああ こんなに遅くなっちゃった
+- [[The Wind Rises (2013).mp4#t=1712.950|28:32]] ==一銭蒸気==（||いっせんじょうき||） - historischer kleiner Dampfer/Flussverkehr auf dem Sumida; nicht „sich beeilen“, sondern eher: „nehmen wir den Ein-Sen-Dampfer“ — 一銭蒸気で行こう
+- [[The Wind Rises (2013).mp4#t=1712.950|28:32]] ==蒸気==（||じょうき||） - Dampf; hier Teil von 一銭蒸気
+- [[The Wind Rises (2013).mp4#t=1734.653|28:54]] ==路地==（||ろじ||） - Gasse, Seitengasse.
+- [[The Wind Rises (2013).mp4#t=1763.243|29:23]] ==復興==（||ふっこう||） - Wiederaufbau, Erholung.
+- [[The Wind Rises (2013).mp4#t=1861.750|31:01]] ==工程==（||こうてい||） - Arbeitsablauf, Prozess — 工程。
+- [[The Wind Rises (2013).mp4#t=1897.789|31:37]] ==野宿==（||のじゅく||） - im Freien übernachten.
+- [[The Wind Rises (2013).mp4#t=1917.570|31:57]] ==景気==（||けいき||） - Konjunktur, Wirtschaftslage — 世の中不景気だ
+- [[The Wind Rises (2013).mp4#t=1919.07|31:59]] ==不景気==（||ふけいき||） - Wirtschaftsflaute, schlechte Konjunktur.
+- [[The Wind Rises (2013).mp4#t=1950.29|32:30]] ==追い込み==（||おいこみ||） - Endspurt, Schlussphase
+- [[The Wind Rises (2013).mp4#t=1950.290|32:30]] ==貰う==（||もらう||） - bekommen — 追い込みだ すぐ本番に入ってもらう
+- [[The Wind Rises (2013).mp4#t=1951.64|32:31]] ==本番==（||ほんばん||） - Ernstfall, eigentliche Aufführung/Produktion.
+- [[The Wind Rises (2013).mp4#t=1953|32:33]] ==揃える==（||そろえる||） - zusammentragen, bereitstellen
+- [[The Wind Rises (2013).mp4#t=1954.855|32:34]] ==金物==（||かなもの||） - Metallbeschlag, Metallteil.
+- [[The Wind Rises (2013).mp4#t=1957.390|32:37]] ==工作==（||こうさく||） - Herstellung, Bastel-/Werkstattarbeit — すぐ作図してもらう 工作部が手が空きそうだ
+- [[The Wind Rises (2013).mp4#t=1957.712|32:37]] ==作図==（||さくず||） - technisches Zeichnen
+- [[The Wind Rises (2013).mp4#t=1958.925|32:38]] ==工作部==（||こうさくぶ||） - Werkstatt-/Fertigungsabteilung
+- [[The Wind Rises (2013).mp4#t=1981.17|33:01]] ==わざわざ== - extra, eigens, mit besonderem Aufwand.
+- [[The Wind Rises (2013).mp4#t=1981.879|33:01]] ==輸入==（||ゆにゅう||） - Import
+- [[The Wind Rises (2013).mp4#t=1987.11|33:07]] ==諸君==（||しょくん||） - meine Herren/ihr alle; formelle Anrede.
+- [[The Wind Rises (2013).mp4#t=1987.110|33:07]] ==新人==（||しんじん||） - Neuling — 諸君 新人を紹介する
+- [[The Wind Rises (2013).mp4#t=1991.292|33:11]] ==英才==（||えいさい||） - begabter Mensch, Elite-Talent.
+- [[The Wind Rises (2013).mp4#t=1998.150|33:18]] ==掛かる==（||かかる||） - sich an etwas machen; beginnen — 仕事にかかりたまえ
+- [[The Wind Rises (2013).mp4#t=2103.21|35:03]] ==組み立て工場==（||くみたてこうじょう||） - Montagewerk, Zusammenbauhalle
+- [[The Wind Rises (2013).mp4#t=2112.13|35:12]] ==取付金具==（||とりつけかなぐ||） - Befestigungsbeschlag, Montagehalterung.
+- [[The Wind Rises (2013).mp4#t=2112.130|35:12]] ==金具==（||かなぐ||） - Metallbeschlag, Halterung — 取付金具は乱暴だ
+- [[The Wind Rises (2013).mp4#t=2113.497|35:13]] ==乱暴==（||らんぼう||） - grob, rücksichtslos
+- [[The Wind Rises (2013).mp4#t=2133.75|35:33]] ==新米==（||しんまい||） - Neuling, Anfänger
+- [[The Wind Rises (2013).mp4#t=2139.99|35:39]] ==しごき== - hartes Training, Schikane, Drill.
+- [[The Wind Rises (2013).mp4#t=2153.23|35:53]] ==堅実==（||けんじつ||） - solide, zuverlässig, bodenständig.
+- [[The Wind Rises (2013).mp4#t=2187.710|36:27]] ==取り付ける==（||とりつける||） - anbringen, montieren — 早草の取り付け金具です
+- [[The Wind Rises (2013).mp4#t=2194.877|36:34]] ==剛性==（||ごうせい||） - Steifigkeit, strukturelle Festigkeit.
+- [[The Wind Rises (2013).mp4#t=2196.97|36:36]] ==板バネ==（||いたバネ||） - Blattfeder.
+- [[The Wind Rises (2013).mp4#t=2197.71|36:37]] ==圧力==（||あつりょく||） - Druck.
+- [[The Wind Rises (2013).mp4#t=2199.043|36:39]] ==伸縮==（||しんしゅく||） - Ausdehnung und Zusammenziehen, elastische Bewegung.
+- [[The Wind Rises (2013).mp4#t=2200.643|36:40]] ==吸収==（||きゅうしゅう||） - Absorption, Aufnahme, Abfangen.
+- [[The Wind Rises (2013).mp4#t=2200.910|36:40]] ==骨格==（||こっかく||） - Skelett, Gerüst — ワイヤーは地中の中を通して胴体骨格に固定します
+- [[The Wind Rises (2013).mp4#t=2200.910|36:40]] ==胴体==（||どうたい||） - Rumpf, Körper — ワイヤーは地中の中を通して胴体骨格に固定します
+- [[The Wind Rises (2013).mp4#t=2200.910|36:40]] ==地中==（||ちちゅう||） - unter der Erde; im Inneren — ワイヤーは地中の中を通して胴体骨格に固定します
+- [[The Wind Rises (2013).mp4#t=2203.565|36:43]] ==胴体骨格==（||どうたいこっかく||） - Rumpfgerüst, Körperstruktur eines Flugzeugs.
+- [[The Wind Rises (2013).mp4#t=2204.236|36:44]] ==固定==（||こてい||） - Fixierung, Befestigung.
+- [[The Wind Rises (2013).mp4#t=2205.575|36:45]] ==主翼==（||しゅよく||） - Hauptflügel, Tragfläche.
+- [[The Wind Rises (2013).mp4#t=2206.232|36:46]] ==骨組み==（||ほねぐみ||） - Gerüst, Rahmenstruktur.
+- [[The Wind Rises (2013).mp4#t=2207.733|36:47]] ==改変==（||かいへん||） - Veränderung, Umbau, Modifikation.
+- [[The Wind Rises (2013).mp4#t=2209.950|36:49]] ==計算==（||けいさん||） - Berechnung — それにまだ計算もしていません
+- [[The Wind Rises (2013).mp4#t=2249.077|37:29]] ==飛行場==（||ひこうじょう||） - Flugplatz.
+- [[The Wind Rises (2013).mp4#t=2251.17|37:31]] ==時速==（||じそく||） - Stundenkilometer, Geschwindigkeit pro Stunde.
+- [[The Wind Rises (2013).mp4#t=2253.310|37:33]] ==更新==（||こうしん||） - Erneuerung; hier wohl ASR-unsicher — 恐るべき更新制だよ
+- [[The Wind Rises (2013).mp4#t=2325.675|38:45]] ==計測==（||けいそく||） - Messung, Vermessung.
+- [[The Wind Rises (2013).mp4#t=2354.675|39:14]] ==本庁==（||ほんちょう||） - Hauptamt/Hauptbehörde; vermutlich Migaku-Transkription, im technischen Kontext hier unsicher.
+- [[The Wind Rises (2013).mp4#t=2356.61|39:16]] ==高度==（||こうど||） - Höhe, Flughöhe.
+- [[The Wind Rises (2013).mp4#t=2365.675|39:25]] ==纏める==（||まとめる||） - zusammenfassen, bündeln — おめでとう さすが三菱 まとめ方がうまい
+- [[The Wind Rises (2013).mp4#t=2384.675|39:44]] ==動力効果==（||どうりょくこうか||） - Leistungseffekt/Antriebseffekt.
+- [[The Wind Rises (2013).mp4#t=2384.675|39:44]] ==効果==（||こうか||） - Wirkung, Effekt — 動力効果です
+- [[The Wind Rises (2013).mp4#t=2384.675|39:44]] ==動力==（||どうりょく||） - Antriebskraft — 動力効果です
+- [[The Wind Rises (2013).mp4#t=2389.995|39:49]] ==挑む==（||いどむ||） - sich einer Herausforderung stellen, es mit etwas aufnehmen — 時速400キロに挑みます
+- [[The Wind Rises (2013).mp4#t=2446.675|40:46]] ==分解==（||ぶんかい||） - Zerlegung, Zerfall — 君は空中分解の原因が取り付け金具だと思うか
+- [[The Wind Rises (2013).mp4#t=2447.146|40:47]] ==空中分解==（||くうちゅうぶんかい||） - Zerbrechen in der Luft.
+- [[The Wind Rises (2013).mp4#t=2457.29|40:57]] ==感銘==（||かんめい||） - tiefer Eindruck, Ergriffenheit.
+- [[The Wind Rises (2013).mp4#t=2459.478|40:59]] ==果てしない==（||はてしない||） - endlos, grenzenlos.
+- [[The Wind Rises (2013).mp4#t=2465.052|41:05]] ==陸軍==（||りくぐん||） - Heer, Armee.
+- [[The Wind Rises (2013).mp4#t=2472.153|41:12]] ==一回きり==（||いっかいきり||） - ein einziges Mal, einmalige Chance.
+- [[The Wind Rises (2013).mp4#t=2476.8|41:16]] ==爆撃機==（||ばくげきき||） - Bomber.
+- [[The Wind Rises (2013).mp4#t=2478.755|41:18]] ==小型機==（||こがたき||） - Kleinflugzeug.
+- [[The Wind Rises (2013).mp4#t=2480.165|41:20]] ==当分==（||とうぶん||） - für eine Weile, vorerst.
+- [[The Wind Rises (2013).mp4#t=2604.235|43:24]] ==開発中止==（||かいはつちゅうし||） - Entwicklungsstopp.
+- [[The Wind Rises (2013).mp4#t=2604.235|43:24]] ==開発==（||かいはつ||） - Entwicklung — 開発中止だって
+- [[The Wind Rises (2013).mp4#t=2620.065|43:40]] ==偽善==（||ぎぜん||） - Heuchelei.
+- [[The Wind Rises (2013).mp4#t=2623.175|43:43]] ==にっこり== - lächelnd, mit einem Lächeln.
+- [[The Wind Rises (2013).mp4#t=2632.49|43:52]] ==腹を減らす==（||はらをへらす||） - hungrig sein.
+- [[The Wind Rises (2013).mp4#t=2635.475|43:55]] ==横丁==（||よこちょう||） - Seitengasse/kleines Viertel; hier passt es als dicht bewohntes Gassenviertel: `この横丁だけでも何十人もいる`.
+- [[The Wind Rises (2013).mp4#t=2650.692|44:10]] ==技術導入==（||ぎじゅつどうにゅう||） - Technologieeinführung, Technologietransfer.
+- [[The Wind Rises (2013).mp4#t=2651.095|44:11]] ==金額==（||きんがく||） - Geldbetrag — ユンカー社にどれだけ金を払うか知ってるか日本中の子供に天丼とシベリアを毎日食わせてもお釣りが来る金額だそれでも俺は与えられたチャンスを...
+- [[The Wind Rises (2013).mp4#t=2673.155|44:33]] ==矛盾==（||むじゅん||） - Widerspruch.
+- [[The Wind Rises (2013).mp4#t=2680.015|44:40]] ==本腰を据えて仕事をする== - „sich ernsthaft an die Arbeit machen“; 本腰を据える = wirklich ernst machen.
+- [[The Wind Rises (2013).mp4#t=2680.015|44:40]] ==本腰==（||ほんごし||） - Ernsthaftigkeit; in 本腰を据える.
+- [[The Wind Rises (2013).mp4#t=2680.015|44:40]] ==据える==（||すえる||） - setzen, fest verankern — 本腰を据えて仕事をするために初体を持つ
+- [[The Wind Rises (2013).mp4#t=2723.695|45:23]] ==立ち入る==（||たちいる||） - eintreten, betreten — ハルバル訪ねてきたのに工場は立ち入り禁止だとよ
+- [[The Wind Rises (2013).mp4#t=2723.7|45:23]] ==はるばる== - von weit her, extra den langen Weg.
+- [[The Wind Rises (2013).mp4#t=2727.203|45:27]] ==立ち入り禁止==（||たちいりきんし||） - Zutritt verboten.
+- [[The Wind Rises (2013).mp4#t=2761.629|46:01]] ==極秘==（||ごくひ||） - streng geheim.
+- [[The Wind Rises (2013).mp4#t=2773.155|46:13]] ==見事==（||みごと||） - prächtig, beeindruckend — 見事だな
+- [[The Wind Rises (2013).mp4#t=2774.855|46:14]] ==展望==（||てんぼう||） - Aussicht, Ausblick — 翼に展望室がある
+- [[The Wind Rises (2013).mp4#t=2775.807|46:15]] ==展望室==（||てんぼうしつ||） - Aussichtsraum, Beobachtungsraum.
+- [[The Wind Rises (2013).mp4#t=2780.555|46:20]] ==金属工作==（||きんぞくこうさく||） - Metallbearbeitung.
+- [[The Wind Rises (2013).mp4#t=2834.675|47:14]] ==技術==（||ぎじゅつ||） - Technik, Technologie.
+- [[The Wind Rises (2013).mp4#t=2836.961|47:16]] ==財産==（||ざいさん||） - Vermögen, Besitz, wertvolles Gut.
+- [[The Wind Rises (2013).mp4#t=2840.715|47:20]] ==格納==（||かくのう||） - Einlagerung, Unterbringung — 本城もういいよこの工場を訪れた我々がこの格納庫に入ったのは
+- [[The Wind Rises (2013).mp4#t=2846.838|47:26]] ==格納庫==（||かくのうこ||） - Hangar.
+- [[The Wind Rises (2013).mp4#t=2849.76|47:29]] ==基づく==（||もとづく||） - auf etwas beruhen, basieren.
+- [[The Wind Rises (2013).mp4#t=2850.665|47:30]] ==正当==（||せいとう||） - rechtmäßig, legitim.
+- [[The Wind Rises (2013).mp4#t=2853.426|47:33]] ==上司==（||じょうし||） - Vorgesetzter.
+- [[The Wind Rises (2013).mp4#t=2854.455|47:34]] ==近付く==（||ちかづく||） - sich nähern — この機体へ近づくな、という指示をしていない。
+- [[The Wind Rises (2013).mp4#t=2854.888|47:34]] ==機体==（||きたい||） - Flugzeugkörper, Maschine.
+- [[The Wind Rises (2013).mp4#t=2857.055|47:37]] ==指示==（||しじ||） - Anweisung.
+- [[The Wind Rises (2013).mp4#t=2859.334|47:39]] ==任務==（||にんむ||） - Aufgabe, Dienstpflicht, Mission.
+- [[The Wind Rises (2013).mp4#t=2859.823|47:39]] ==忠実==（||ちゅうじつ||） - treu, gewissenhaft.
+- [[The Wind Rises (2013).mp4#t=2862.205|47:42]] ==対等==（||たいとう||） - gleichberechtigt, auf Augenhöhe.
+- [[The Wind Rises (2013).mp4#t=2865.147|47:45]] ==侮辱==（||ぶじょく||） - Beleidigung, Demütigung.
+- [[The Wind Rises (2013).mp4#t=2889.575|48:09]] ==博士==（||はかせ||） - Doktor, Gelehrter — ユンカース博士だ
+- [[The Wind Rises (2013).mp4#t=2914.524|48:34]] ==振動==（||しんどう||） - Vibration, Erschütterung.
+- [[The Wind Rises (2013).mp4#t=2931.235|48:51]] ==通路==（||つうろ||） - Gang, Durchgang.
+- [[The Wind Rises (2013).mp4#t=2945.315|49:05]] ==空転==（||くうてん||） - Leerlauf, Durchdrehen — 空転ターク
+- [[The Wind Rises (2013).mp4#t=2948.535|49:08]] ==見学==（||けんがく||） - Besichtigung — ユンカーサーカゼに見学の許可を取ってあります
+- [[The Wind Rises (2013).mp4#t=2951.215|49:11]] ==仕事場==（||しごとば||） - Arbeitsplatz, Werkstatt — あなたの仕事場を見せてください
+- [[The Wind Rises (2013).mp4#t=2953.415|49:13]] ==持ち場==（||もちば||） - zugewiesener Posten/Arbeitsplatz.
+- [[The Wind Rises (2013).mp4#t=2954.18|49:14]] ==機関士==（||きかんし||） - Maschinist, Ingenieur im Maschinenraum.
+- [[The Wind Rises (2013).mp4#t=2970.495|49:30]] ==工業==（||こうぎょう||） - Industrie, Technik — ドイツ工業技術の結晶だ
+- [[The Wind Rises (2013).mp4#t=2971.781|49:31]] ==工業技術==（||こうぎょうぎじゅつ||） - Industrietechnik.
+- [[The Wind Rises (2013).mp4#t=2973.162|49:33]] ==結晶==（||けっしょう||） - Kristall; Ergebnis/Konzentration von etwas.
+- [[The Wind Rises (2013).mp4#t=3042.009|50:42]] ==暖炉==（||だんろ||） - Kamin.
+- [[The Wind Rises (2013).mp4#t=3044.260|50:44]] ==発生==（||はっせい||） - Entstehung, Auftreten — これも輪火発生かな
+- [[The Wind Rises (2013).mp4#t=3052.898|50:52]] ==基礎==（||きそ||） - Grundlage, Fundament.
+- [[The Wind Rises (2013).mp4#t=3054.520|50:54]] ==火燵==（||こたつ||） - Kotatsu, Wärmetisch — 俺はこたつと銭湯でいいんだ
+- [[The Wind Rises (2013).mp4#t=3055.971|50:55]] ==銭湯==（||せんとう||） - öffentliches Badehaus.
+- [[The Wind Rises (2013).mp4#t=3057.180|50:57]] ==くっ付ける==（||くっつける||） - zusammenfügen, befestigen — 飛行機とこたつをくっつけようと言うんだ
+- [[The Wind Rises (2013).mp4#t=3065.199|51:05]] ==巨人機==（||きょじんき||） - Riesenflugzeug.
+- [[The Wind Rises (2013).mp4#t=3076.56|51:16]] ==対抗==（||たいこう||） - Widerstand, Konkurrenz, Gegenhalten.
+- [[The Wind Rises (2013).mp4#t=3088.700|51:28]] ==煮える==（||にえる||） - kochen, gar werden — 脳みそが煮えちまいそうだ
+- [[The Wind Rises (2013).mp4#t=3091.980|51:31]] ==追い掛ける==（||おいかける||） - verfolgen, hinterherjagen — 俺たちは20年先のカメを追いかけるアキレスだ
+- [[The Wind Rises (2013).mp4#t=3107.168|51:47]] ==追いつく==（||おいつく||） - einholen, aufholen.
+- [[The Wind Rises (2013).mp4#t=3117.78|51:57]] ==追い越す==（||おいこす||） - überholen.
+- [[The Wind Rises (2013).mp4#t=3136.58|52:16]] ==蓄音機==（||ちくおんき||） - Grammophon.
+- [[The Wind Rises (2013).mp4#t=3250.860|54:10]] ==本社==（||ほんしゃ||） - Hauptsitz — 本社から電信が入った
+- [[The Wind Rises (2013).mp4#t=3257.099|54:17]] ==帰国==（||きこく||） - Rückkehr ins Heimatland.
+- [[The Wind Rises (2013).mp4#t=3260.147|54:20]] ==残留==（||ざんりゅう||） - Zurückbleiben, Verbleib.
+- [[The Wind Rises (2013).mp4#t=3262.24|54:22]] ==西回り==（||にしまわり||） - westliche Route.
+- [[The Wind Rises (2013).mp4#t=3302.996|55:02]] ==引退飛行==（||いんたいひこう||） - Abschiedsflug.
+- [[The Wind Rises (2013).mp4#t=3307.940|55:07]] ==思い切り==（||おもいきり||） - mit voller Kraft; nach Herzenslust — 思い切り飛べ
+- [[The Wind Rises (2013).mp4#t=3360|56:00]] ==村中==（||むらなか||） - das ganze Dorf.
+- [[The Wind Rises (2013).mp4#t=3362.047|56:02]] ==当局==（||とうきょく||） - Behörden.
+- [[The Wind Rises (2013).mp4#t=3363.560|56:03]] ==納品==（||のうひん||） - Lieferung, Auslieferung — 何しろ納品前の爆撃機だからな
+- [[The Wind Rises (2013).mp4#t=3364.471|56:04]] ==納品前==（||のうひんまえ||） - vor der Auslieferung.
+- [[The Wind Rises (2013).mp4#t=3374.36|56:14]] ==壮大==（||そうだい||） - großartig, monumental.
+- [[The Wind Rises (2013).mp4#t=3375.740|56:15]] ==建築==（||けんちく||） - Architektur, Bau — 古代ローマの建築物のようです
+- [[The Wind Rises (2013).mp4#t=3377.638|56:17]] ==建築物==（||けんちくぶつ||） - Bauwerk, Gebäude.
+- [[The Wind Rises (2013).mp4#t=3379.220|56:19]] ==付け込む==（||つけこむ||） - ausnutzen, sich zunutze machen — まあ当局のハッタリ好きにつけ込んだんだ
+- [[The Wind Rises (2013).mp4#t=3388.999|56:28]] ==未熟==（||みじゅく||） - unreif, unausgereift.
+- [[The Wind Rises (2013).mp4#t=3392.28|56:32]] ==設計で大切なのはセンスだ== - „beim Entwerfen ist Sinn/Gespür wichtig“; 大切なのは〜だ als Definitionsstruktur.
+- [[The Wind Rises (2013).mp4#t=3395.391|56:35]] ==センス== - Sinn, Gespür, Geschmack.
+- [[The Wind Rises (2013).mp4#t=3397.967|56:37]] ==先駆ける==（||さきがける||） - vorangehen, Pionier sein.
+- [[The Wind Rises (2013).mp4#t=3428.176|57:08]] ==首が飛ぶ==（||くびがとぶ||） - der Kopf fliegt ab; bildlich: gefährlich/konsequent.
+- [[The Wind Rises (2013).mp4#t=3446.46|57:26]] ==空を飛びたいという人類の夢は呪われた夢でもある== - „der Menschheitstraum vom Fliegen ist auch ein verfluchter Traum“; という zur Einbettung eines Traums/Ideals.
+- [[The Wind Rises (2013).mp4#t=3452.14|57:32]] ==殺戮==（||さつりく||） - Massaker, Abschlachten.
+- [[The Wind Rises (2013).mp4#t=3452.74|57:32]] ==破壊==（||はかい||） - Zerstörung.
+- [[The Wind Rises (2013).mp4#t=3454.34|57:34]] ==宿命==（||しゅくめい||） - Schicksal, unausweichliche Bestimmung.
+- [[The Wind Rises (2013).mp4#t=3513.787|58:33]] ==引退==（||いんたい||） - Rücktritt, Ruhestand.
+- [[The Wind Rises (2013).mp4#t=3515.6|58:35]] ==創造的人生の持ち時間は10年だ== - „die verfügbare Zeit eines schöpferischen Lebens beträgt zehn Jahre“; sehr dichter, merkbarer Satz.
+- [[The Wind Rises (2013).mp4#t=3515.6|58:35]] ==創造的==（||そうぞうてき||） - schöpferisch, kreativ.
+- [[The Wind Rises (2013).mp4#t=3515.600|58:35]] ==創造==（||そうぞう||） - Schöpfung, Erschaffung — 創造的人生の持ち時間は10年だ
+- [[The Wind Rises (2013).mp4#t=3517.509|58:37]] ==持ち時間==（||もちじかん||） - verfügbare Zeit, Zeitkontingent.
+- [[The Wind Rises (2013).mp4#t=3519.1|58:39]] ==芸術家==（||げいじゅつか||） - Künstler.
+- [[The Wind Rises (2013).mp4#t=3519.100|58:39]] ==芸術==（||げいじゅつ||） - Kunst — 芸術家も設計家も同じだ
+- [[The Wind Rises (2013).mp4#t=3522.72|58:42]] ==君の10年を力を尽くして生きなさい== - „lebe deine zehn Jahre mit aller Kraft“; 力を尽くす als starke Lebens-/Arbeitswendung.
+- [[The Wind Rises (2013).mp4#t=3522.72|58:42]] ==力を尽くす==（||ちからをつくす||） - alles geben, sich mit aller Kraft einsetzen.
+- [[The Wind Rises (2013).mp4#t=3522.720|58:42]] ==尽くす==（||つくす||） - alles geben, ausschöpfen — 君の10年を力を尽くして生きなさい
+- [[The Wind Rises (2013).mp4#t=3547.656|59:07]] ==打ち合わせ==（||うちあわせ||） - Besprechung, Abstimmung.
+- [[The Wind Rises (2013).mp4#t=3547.940|59:07]] ==伸ばす==（||のばす||） - strecken, verlängern — 伸ばせ
+- [[The Wind Rises (2013).mp4#t=3564.72|59:24]] ==過大==（||かだい||） - übermäßig, überzogen.
+- [[The Wind Rises (2013).mp4#t=3565.73|59:25]] ==要求==（||ようきゅう||） - Forderung, Anforderung.
+- [[The Wind Rises (2013).mp4#t=3573.18|59:33]] ==入社==（||にゅうしゃ||） - Firmeneintritt.
+- [[The Wind Rises (2013).mp4#t=3580.500|59:40]] ==昭和==（||しょうわ||） - Showa-Zeit — 海軍昭和7年試作
+- [[The Wind Rises (2013).mp4#t=3580.500|59:40]] ==海軍==（||かいぐん||） - Marine — 海軍昭和7年試作
+- [[The Wind Rises (2013).mp4#t=3582.11|59:42]] ==試作==（||しさく||） - Prototyp, Versuchsbau.
+- [[The Wind Rises (2013).mp4#t=3582.16|59:42]] ==艦上戦闘機==（||かんじょうせんとうき||） - Trägerkampfflugzeug.
+- [[The Wind Rises (2013).mp4#t=3582.160|59:42]] ==艦上==（||かんじょう||） - an Bord eines Kriegsschiffs/Trägers — 艦上戦闘機だ
+- [[The Wind Rises (2013).mp4#t=3594.720|59:54]] ==頂く==（||いただく||） - erhalten; bescheiden für bekommen — どうかなやらせていただきますよしスタッフに本庄をもらえませんかやめとけ同期はライバルだ
+- [[The Wind Rises (2013).mp4#t=3609.044|1:00:09]] ==同期==（||どうき||） - Kollege desselben Jahrgangs.
+- [[The Wind Rises (2013).mp4#t=3611.07|1:00:11]] ==ライバル== - Rivale.
+- [[The Wind Rises (2013).mp4#t=3612.113|1:00:12]] ==友情==（||ゆうじょう||） - Freundschaft.
+- [[The Wind Rises (2013).mp4#t=3617.75|1:00:17]] ==勘定==（||かんじょう||） - Rechnung, Zahlung.
+- [[The Wind Rises (2013).mp4#t=3680.680|1:01:20]] ==母艦==（||ぼかん||） - Mutterschiff, Flugzeugträger — これが航空母艦だ
+- [[The Wind Rises (2013).mp4#t=3681.895|1:01:21]] ==航空母艦==（||こうくうぼかん||） - Flugzeugträger.
+- [[The Wind Rises (2013).mp4#t=3682.300|1:01:22]] ==着替え==（||きがえ||） - Kleidung zum Wechseln — 着替えを用意しました
+- [[The Wind Rises (2013).mp4#t=3976.158|1:06:16]] ==失敬==（||しっけい||） - Entschuldigung; Unhöflichkeit.
+- [[The Wind Rises (2013).mp4#t=3981.401|1:06:21]] ==借り物==（||かりもの||） - geliehener Gegenstand.
+- [[The Wind Rises (2013).mp4#t=4159.885|1:09:19]] ==捕まえる==（||つかまえる||） - fangen, festhalten — どうしたんだいほらパラソルを捕まえてくれた人ああ釣れはいないのかな
+- [[The Wind Rises (2013).mp4#t=4271.285|1:11:11]] ==震災==（||しんさい||） - Erdbebenkatastrophe.
+- [[The Wind Rises (2013).mp4#t=4313.105|1:11:53]] ==居所==（||いどころ||） - Aufenthaltsort, Adresse.
+- [[The Wind Rises (2013).mp4#t=4326.025|1:12:06]] ==王子==（||おうじ||） - Prinz — 王子さん
+- [[The Wind Rises (2013).mp4#t=4346.685|1:12:26]] ==濡れる==（||ぬれる||） - nass werden — 手が濡れちゃいましたね このまま記念にとっておきます
+- [[The Wind Rises (2013).mp4#t=4350.076|1:12:30]] ==記念==（||きねん||） - Andenken, Erinnerung.
+- [[The Wind Rises (2013).mp4#t=4358.385|1:12:38]] ==御覧==（||ごらん||） - Anschauen; höflich für sehen — あっ乾いていますほらご覧になって虹なんかすっかり忘れていました
+- [[The Wind Rises (2013).mp4#t=4376.565|1:12:56]] ==生きているって素敵ですね== - „es ist schön, am Leben zu sein“; って als Zitier-/Thematisierungsmarker.
+- [[The Wind Rises (2013).mp4#t=4409.045|1:13:29]] ==厄介==（||やっかい||） - Mühe, Belastung; Hilfe in Anspruch nehmen.
+- [[The Wind Rises (2013).mp4#t=4523.523|1:15:23]] ==政権==（||せいけん||） - Regierung, Regime.
+- [[The Wind Rises (2013).mp4#t=4525.565|1:15:25]] ==ならず者==（||ならずもの||） - Schurke, gesetzloser Kerl.
+- [[The Wind Rises (2013).mp4#t=4538.365|1:15:38]] ==如何==（||いかが||） - wie; wie wäre es — いかがですか 日本のタバコですが
+- [[The Wind Rises (2013).mp4#t=4563.59|1:16:03]] ==国際連盟==（||こくさいれんめい||） - Völkerbund.
+- [[The Wind Rises (2013).mp4#t=4570.07|1:16:10]] ==日本破裂する== - „Japan wird platzen/zerbrechen“; knappes politisches Bild.
+- [[The Wind Rises (2013).mp4#t=4571.22|1:16:11]] ==破裂==（||はれつ||） - Platzen, Zerreißen.
+- [[The Wind Rises (2013).mp4#t=4587.090|1:16:27]] ==会食==（||かいしょく||） - gemeinsames Essen — 今夜の会食はキャンセルさせてください
+- [[The Wind Rises (2013).mp4#t=4719.07|1:18:39]] ==震わせる==（||ふるわせる||） - erzittern lassen.
+- [[The Wind Rises (2013).mp4#t=4719.070|1:18:39]] ==通り抜ける==（||とおりぬける||） - hindurchgehen, durchwehen — けれど木の葉を震わせて風は通り抜けてゆく
+- [[The Wind Rises (2013).mp4#t=4720.023|1:18:40]] ==木の葉==（||このは||） - Baumblatt, Laub.
+- [[The Wind Rises (2013).mp4#t=4731.870|1:18:51]] ==届く==（||とどく||） - ankommen, erreichen — あなたのもとへ届きませ
+- [[The Wind Rises (2013).mp4#t=4981.670|1:23:01]] ==殆ど==（||ほとんど||） - fast, beinahe — ほとんどあいねんまい
+- [[The Wind Rises (2013).mp4#t=4998.110|1:23:18]] ==御陰==（||おかげ||） - dank; durch Hilfe von — おかげさまでよくなりました
+- [[The Wind Rises (2013).mp4#t=5059.99|1:24:19]] ==結核==（||けっかく||） - Tuberkulose.
+- [[The Wind Rises (2013).mp4#t=5067.13|1:24:27]] ==受け止める==（||うけやめる||） - auffangen; annehmen.
+- [[The Wind Rises (2013).mp4#t=5088.8|1:24:48]] ==青年==（||せいねん||） - junger Mann.
+- [[The Wind Rises (2013).mp4#t=5141.990|1:25:41]] ==実験==（||じっけん||） - Experiment, Test — 実験機みたいなものだからな
+- [[The Wind Rises (2013).mp4#t=5147.090|1:25:47]] ==飛ばす==（||とばす||） - fliegen lassen, starten — 飛ばしてみないと何ともわからんよ
+- [[The Wind Rises (2013).mp4#t=5177.063|1:26:17]] ==ひとまたぎ== - ein einziger großer Schritt/Sprung.
+- [[The Wind Rises (2013).mp4#t=5177.690|1:26:17]] ==家鴨==（||あひる||） - Ente — 僕のブリキのアヒルだった
+- [[The Wind Rises (2013).mp4#t=5185.77|1:26:25]] ==点検口==（||てんけんこう||） - Inspektionsöffnung; das finale `う` in `こう` kann in schneller Aussprache kaum hörbar sein.
+- [[The Wind Rises (2013).mp4#t=5185.770|1:26:25]] ==点検==（||てんけん||） - Inspektion, Kontrolle — 点検口の蓋にサラコネジを使うんだ
+- [[The Wind Rises (2013).mp4#t=5187.151|1:26:27]] ==蓋==（||ふた||） - Deckel, Klappe.
+- [[The Wind Rises (2013).mp4#t=5190.950|1:26:30]] ==抵抗==（||ていこう||） - Widerstand — 空気抵抗が減る
+- [[The Wind Rises (2013).mp4#t=5192.690|1:26:32]] ==燃料==（||ねんりょう||） - Treibstoff — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- [[The Wind Rises (2013).mp4#t=5192.690|1:26:32]] ==注入==（||ちゅうにゅう||） - Einfüllung, Einspritzung — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- [[The Wind Rises (2013).mp4#t=5192.690|1:26:32]] ==片方==（||かたほう||） - eine Seite, eine Hälfte — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- [[The Wind Rises (2013).mp4#t=5193.285|1:26:33]] ==注入口==（||ちゅうにゅうぐち||） - Einfüllöffnung.
+- [[The Wind Rises (2013).mp4#t=5196.481|1:26:36]] ==作業==（||さぎょう||） - Arbeit, Arbeitsvorgang.
+- [[The Wind Rises (2013).mp4#t=5208.81|1:26:48]] ==コロンブスの卵==（||ころんぶすのたまご||） - Ei des Kolumbus; simple geniale Lösung.
+- [[The Wind Rises (2013).mp4#t=5215.310|1:26:55]] ==図面==（||ずめん||） - Zeichnung, Plan — この図面はもらっとく
+- [[The Wind Rises (2013).mp4#t=5237.31|1:27:17]] ==特高==（||とくこう||） - Tokko; geheime politische Polizei.
+- [[The Wind Rises (2013).mp4#t=5244.89|1:27:24]] ==思想犯==（||しそうはん||） - politischer Straftäter/Gedankenverbrecher.
+- [[The Wind Rises (2013).mp4#t=5244.890|1:27:24]] ==思想==（||しそう||） - Gedanke, Ideologie — 思想犯専門の秘密警察だ
+- [[The Wind Rises (2013).mp4#t=5247.719|1:27:27]] ==秘密警察==（||ひみつけいさつ||） - Geheimpolizei.
+- [[The Wind Rises (2013).mp4#t=5250.205|1:27:30]] ==出張==（||しゅっちょう||） - Dienstreise.
+- [[The Wind Rises (2013).mp4#t=5263.310|1:27:43]] ==引き上げる==（||ひきあげる||） - abziehen, hochziehen — 引き上げたと見せかけがあってその手に乗るか
+- [[The Wind Rises (2013).mp4#t=5264.397|1:27:44]] ==見せかけ==（||みせかけ||） - Schein, Täuschung.
+- [[The Wind Rises (2013).mp4#t=5272.310|1:27:52]] ==友人==（||ゆうじん||） - Freund — 俺の友人が何人も特攻にやられてる
+- [[The Wind Rises (2013).mp4#t=5318.855|1:28:38]] ==押し出し==（||おしだし||） - Herausdrücken, Extrusion — ジュラルミンの押し出し材とは贅沢なものだ
+- [[The Wind Rises (2013).mp4#t=5321.391|1:28:41]] ==贅沢==（||ぜいたく||） - Luxus, verschwenderisch.
+- [[The Wind Rises (2013).mp4#t=5338.495|1:28:58]] ==用心==（||ようじん||） - Vorsicht.
+- [[The Wind Rises (2013).mp4#t=5341.34|1:29:01]] ==姿を隠す==（||すがたをかくす||） - sich verstecken, untertauchen.
+- [[The Wind Rises (2013).mp4#t=5347.246|1:29:07]] ==下宿==（||げしゅく||） - Pension/Unterkunft; Untermiete.
+- [[The Wind Rises (2013).mp4#t=5353.122|1:29:13]] ==極めて==（||きわめて||） - äußerst, extrem.
+- [[The Wind Rises (2013).mp4#t=5354.255|1:29:14]] ==指針==（||ししん||） - Richtlinie, Kompassnadel — 特攻は平気で指針をあげるぞ
+- [[The Wind Rises (2013).mp4#t=5356.855|1:29:16]] ==婚約者==（||こんやくしゃ||） - Verlobte/r.
+- [[The Wind Rises (2013).mp4#t=5358.915|1:29:18]] ==冒涜==（||ぼうとく||） - Blasphemie, Entweihung.
+- [[The Wind Rises (2013).mp4#t=5359.515|1:29:19]] ==近代国家==（||きんだいこっか||） - moderner Staat.
+- [[The Wind Rises (2013).mp4#t=5359.515|1:29:19]] ==国家==（||こっか||） - Staat, Nation — 近代国家にあるまじきことだ
+- [[The Wind Rises (2013).mp4#t=5359.515|1:29:19]] ==近代==（||きんだい||） - Moderne — 近代国家にあるまじきことだ
+- [[The Wind Rises (2013).mp4#t=5370.695|1:29:30]] ==笑い事==（||わらいこと||） - etwas zum Lachen; Bagatelle.
+- [[The Wind Rises (2013).mp4#t=5373.76|1:29:33]] ==張り付く==（||はりつく||） - sich festkleben; dicht dranbleiben/überwachen.
+- [[The Wind Rises (2013).mp4#t=5386.655|1:29:46]] ==今は仕事に専念しろ== - „konzentrier dich jetzt auf die Arbeit“; 専念する als Fokuswort.
+- [[The Wind Rises (2013).mp4#t=5388.341|1:29:48]] ==専念==（||せんねん||） - Konzentration/Hingabe an eine Sache.
+- [[The Wind Rises (2013).mp4#t=5396.495|1:29:56]] ==唐突==（||とうとつ||） - plötzlich, unvermittelt.
+- [[The Wind Rises (2013).mp4#t=5405.15|1:30:05]] ==脱出==（||だっしゅつ||） - Flucht, Entkommen.
+- [[The Wind Rises (2013).mp4#t=5410.718|1:30:10]] ==祈る==（||いのる||） - beten, hoffen.
+- [[The Wind Rises (2013).mp4#t=5443.064|1:30:43]] ==電報==（||でんぽう||） - Telegramm.
+- [[The Wind Rises (2013).mp4#t=5445.135|1:30:45]] ==管理==（||かんり||） - Verwaltung, Management — アパートの管理人が心配して持ってきてくれたんだ
+- [[The Wind Rises (2013).mp4#t=5445.93|1:30:45]] ==管理人==（||かんりにん||） - Hausverwalter.
+- [[The Wind Rises (2013).mp4#t=5484.975|1:31:24]] ==一刻==（||いっこく||） - ein Augenblick; sehr kurze Zeit — はい 一刻も早く行かなければなりません
+- [[The Wind Rises (2013).mp4#t=5485.283|1:31:25]] ==一刻も早く==（||いっこくもはやく||） - so schnell wie irgend möglich.
+- [[The Wind Rises (2013).mp4#t=5488.975|1:31:28]] ==実機==（||じっき||） - reales/echtes Fluggerät; hier ASR-unsicher — 昼のバスが実機とおります
+- [[The Wind Rises (2013).mp4#t=5490.975|1:31:30]] ==休校==（||きゅうこう||） - Schulschließung; hier ASR-unsicher — それなら一時の休校に間に合います
+- [[The Wind Rises (2013).mp4#t=5495.799|1:31:35]] ==支度==（||したく||） - Vorbereitung, Herrichten.
+- [[The Wind Rises (2013).mp4#t=5655.259|1:34:15]] ==玄関==（||げんかん||） - Eingang, Haustürbereich.
+- [[The Wind Rises (2013).mp4#t=5676.34|1:34:36]] ==付き添う==（||つきそう||） - begleiten, beistehen.
+- [[The Wind Rises (2013).mp4#t=5703.075|1:35:03]] ==勧める==（||すすめる||） - empfehlen, nahelegen — 私お医者様のおすすめの抗原病院に参ります
+- [[The Wind Rises (2013).mp4#t=5710.286|1:35:10]] ==一人きり==（||ひとりきり||） - ganz allein.
+- [[The Wind Rises (2013).mp4#t=5724.592|1:35:24]] ==お待ちかね==（||おまちかね||） - sehnsüchtig erwartet.
+- [[The Wind Rises (2013).mp4#t=5738.375|1:35:38]] ==剣道==（||けんどう||） - Kendo; hier ASR-unsicher — 海軍の剣道のおかげは
+- [[The Wind Rises (2013).mp4#t=5753.27|1:35:53]] ==取りやめる==（||とりやめる||） - absagen, fallenlassen.
+- [[The Wind Rises (2013).mp4#t=5753.275|1:35:53]] ==取り止める==（||とりやめる||） - absagen, aufgeben — でこの案は取りやめた
+- [[The Wind Rises (2013).mp4#t=5761.715|1:36:01]] ==自主==（||じしゅ||） - Eigeninitiative, freiwillig — 課長自主的研究会だそうです
+- [[The Wind Rises (2013).mp4#t=5762.335|1:36:02]] ==自主的==（||じしゅてき||） - freiwillig, eigenständig.
+- [[The Wind Rises (2013).mp4#t=5765.593|1:36:05]] ==最新==（||さいしん||） - neueste, aktuellste.
+- [[The Wind Rises (2013).mp4#t=5768.707|1:36:08]] ==結集==（||けっしゅう||） - Bündelung, Zusammenführung.
+- [[The Wind Rises (2013).mp4#t=5771.915|1:36:11]] ==引っ込み足==（||ひっこみあし||） - eingezogenes Fahrwerk/Bein; technische Formulierung.
+- [[The Wind Rises (2013).mp4#t=5771.915|1:36:11]] ==引っ込み==（||ひっこみ||） - Rückzug; Einziehen — 引っ込み足ですね
+- [[The Wind Rises (2013).mp4#t=5783.871|1:36:23]] ==時代遅れ==（||じだいおくれ||） - veraltet, nicht mehr zeitgemäß.
+- [[The Wind Rises (2013).mp4#t=5785.015|1:36:25]] ==翼面==（||よくめん||） - Flügelfläche — 翼面火事は120キロ平米
+- [[The Wind Rises (2013).mp4#t=5785.015|1:36:25]] ==平米==（||へいべい||） - Quadratmeter — 翼面火事は120キロ平米
+- [[The Wind Rises (2013).mp4#t=5788.095|1:36:28]] ==有害==（||ゆうがい||） - schädlich.
+- [[The Wind Rises (2013).mp4#t=5788.095|1:36:28]] ==削る==（||けずる||） - abschleifen, reduzieren — 有害な抵抗を削り最新の技術を大胆に取り入れる
+- [[The Wind Rises (2013).mp4#t=5791.455|1:36:31]] ==大胆==（||だいたん||） - kühn, mutig.
+- [[The Wind Rises (2013).mp4#t=5792.845|1:36:32]] ==取り入れる==（||とりいれる||） - aufnehmen, einführen, übernehmen.
+- [[The Wind Rises (2013).mp4#t=5826.135|1:37:06]] ==機会==（||きかい||） - Gelegenheit — それでこのアンは次の機会に譲ることにした
+- [[The Wind Rises (2013).mp4#t=5833.083|1:37:13]] ==譲る==（||ゆずる||） - überlassen, abtreten.
+- [[The Wind Rises (2013).mp4#t=5842.191|1:37:22]] ==非力==（||ひりき||） - kraftlos, leistungsschwach.
+- [[The Wind Rises (2013).mp4#t=5843.398|1:37:23]] ==丈夫==（||じょうぶ||） - robust, stabil.
+- [[The Wind Rises (2013).mp4#t=5846.215|1:37:26]] ==削れる==（||けずれる||） - abgeschliffen/reduziert werden — 削れるだけ削り
+- [[The Wind Rises (2013).mp4#t=5848.512|1:37:28]] ==滑らか==（||なめらか||） - glatt, geschmeidig.
+- [[The Wind Rises (2013).mp4#t=5850.023|1:37:30]] ==空気抵抗==（||くうきていこう||） - Luftwiderstand.
+- [[The Wind Rises (2013).mp4#t=5859.695|1:37:39]] ==工作家==（||こうさくいえ||） - Werkstatt-/Fertigungsfachmann.
+- [[The Wind Rises (2013).mp4#t=5871.713|1:37:51]] ==平滑==（||へいかつ||） - glatt, eben.
+- [[The Wind Rises (2013).mp4#t=5873.459|1:37:53]] ==強度==（||きょうど||） - Festigkeit, Stärke.
+- [[The Wind Rises (2013).mp4#t=5874.207|1:37:54]] ==保つ==（||たもつ||） - bewahren, aufrechterhalten.
+- [[The Wind Rises (2013).mp4#t=5874.955|1:37:54]] ==可能==（||かのう||） - möglich — 技術的に不可能ではありません
+- [[The Wind Rises (2013).mp4#t=5876.53|1:37:56]] ==試みる==（||こころみる||） - versuchen, erproben.
+- [[The Wind Rises (2013).mp4#t=5876.535|1:37:56]] ==全面==（||ぜんめん||） - ganze Fläche; vollständig — 何のことだ鎮湯病です鎮湯病はすでに世界中で試みられているそれを全面的に使おうと思うんだはいはいはいはい
+- [[The Wind Rises (2013).mp4#t=5884.13|1:38:04]] ==全面的==（||ぜんめんてき||） - vollständig, umfassend.
+- [[The Wind Rises (2013).mp4#t=5907.455|1:38:27]] ==郵便==（||ゆうびん||） - Post — さとみさん郵便です
+- [[The Wind Rises (2013).mp4#t=6002.255|1:40:02]] ==休養==（||きゅうよう||） - Erholung, Ruhepause.
+- [[The Wind Rises (2013).mp4#t=6102.395|1:41:42]] ==一目==（||いちもく||） - ein Blick; einmal sehen.
+- [[The Wind Rises (2013).mp4#t=6129.34|1:42:09]] ==伺う==（||うかがう||） - besuchen/fragen; höflich.
+- [[The Wind Rises (2013).mp4#t=6135.52|1:42:15]] ==離れ==（||はなれ||） - separates Nebengebäude, Annex.
+- [[The Wind Rises (2013).mp4#t=6151.62|1:42:31]] ==恋しさ==（||こいしさ||） - Sehnsucht/Liebesverlangen.
+- [[The Wind Rises (2013).mp4#t=6151.62|1:42:31]] ==抜け出す==（||ぬけだす||） - hinausschleichen, entkommen.
+- [[The Wind Rises (2013).mp4#t=6151.620|1:42:31]] ==健気==（||けなげ||） - tapfer, rührend — 恋しさに山を抜け出してくるなんてけなげだわ
+- [[The Wind Rises (2013).mp4#t=6191.863|1:43:11]] ==愛情==（||あいじょう||） - Liebe, Zuneigung.
+- [[The Wind Rises (2013).mp4#t=6197.72|1:43:17]] ==覚悟==（||かくご||） - Entschluss, Bereitschaft, gefasst sein.
+- [[The Wind Rises (2013).mp4#t=6202.9|1:43:22]] ==盛大==（||せいだい||） - großartig, feierlich, prunkvoll.
+- [[The Wind Rises (2013).mp4#t=6253.700|1:44:13]] ==投げ捨てる==（||なげすてる||） - wegwerfen — しっちんまんぽうなげすてて
+- [[The Wind Rises (2013).mp4#t=6261.764|1:44:21]] ==乙女==（||おとめ||） - Jungfrau, Mädchen; poetisch.
+- [[The Wind Rises (2013).mp4#t=6264.636|1:44:24]] ==雨露==（||あめつゆ||） - Regen und Tau; Witterung.
+- [[The Wind Rises (2013).mp4#t=6267.508|1:44:27]] ==鈍感==（||どんかん||） - gefühllos, unsensibel.
+- [[The Wind Rises (2013).mp4#t=6268.165|1:44:28]] ==愚物==（||ぐぶつ||） - Dummkopf, Narr.
+- [[The Wind Rises (2013).mp4#t=6273.47|1:44:33]] ==契り==（||ちぎり||） - Gelöbnis, Bund; poetisch.
+- [[The Wind Rises (2013).mp4#t=6342.458|1:45:42]] ==思いやり==（||おもいやり||） - Rücksichtnahme, Mitgefühl.
+- [[The Wind Rises (2013).mp4#t=6345.06|1:45:45]] ==御恩==（||ごおん||） - Gnade/Wohltat, empfangene Güte.
+- [[The Wind Rises (2013).mp4#t=6345.888|1:45:45]] ==生涯==（||しょうがい||） - Lebenszeit, ganzes Leben.
+- [[The Wind Rises (2013).mp4#t=6351.17|1:45:51]] ==好く==（||すく||） - mögen, liebgewinnen.
+- [[The Wind Rises (2013).mp4#t=6380.17|1:46:20]] ==揺れる==（||ゆれる||） - schaukeln, schwanken.
+- [[The Wind Rises (2013).mp4#t=6463.82|1:47:43]] ==独りぼっち==（||ひとりぼっち||） - mutterseelenallein.
+- [[The Wind Rises (2013).mp4#t=6476.106|1:47:56]] ==化粧==（||けしょう||） - Make-up, Schminke.
+- [[The Wind Rises (2013).mp4#t=6483.536|1:48:03]] ==可哀想==（||かわいそう||） - bemitleidenswert, arm dran — このままじゃかわいそう
+- [[The Wind Rises (2013).mp4#t=6496.036|1:48:16]] ==一日一日をとても大切に生きているんだよ== - „sie lebt jeden einzelnen Tag sehr kostbar“; 一日一日 als emotionale Wiederholung.
+- [[The Wind Rises (2013).mp4#t=6496.036|1:48:16]] ==一日一日==（||いちにちいちにち||） - Tag für Tag, jeden einzelnen Tag.
+- [[The Wind Rises (2013).mp4#t=6536.16|1:48:56]] ==詰まる==（||つまる||） - voll sein, gefüllt sein.
+- [[The Wind Rises (2013).mp4#t=6546.136|1:49:06]] ==根巻き==（||ねまき||） - Schlafkleidung/Unterkleid; hier Kleidungskontext — それにねお母様が私に肌着と根巻きを縫ってくださったの
+- [[The Wind Rises (2013).mp4#t=6548.536|1:49:08]] ==肌着==（||はだぎ||） - Unterwäsche, Unterhemd.
+- [[The Wind Rises (2013).mp4#t=6554.28|1:49:14]] ==眩しい==（||まぶしい||） - blendend, grell.
+- [[The Wind Rises (2013).mp4#t=6566.956|1:49:26]] ==工夫==（||くふう||） - Einfallsreichtum, Tüftelei.
+- [[The Wind Rises (2013).mp4#t=6592.536|1:49:52]] ==片手==（||かたて||） - eine Hand — 片手で計算尺を扱うコンクールがあったら
+- [[The Wind Rises (2013).mp4#t=6593.192|1:49:53]] ==計算尺==（||けいさんじゃく||） - Rechenschieber.
+- [[The Wind Rises (2013).mp4#t=6593.977|1:49:53]] ==扱う==（||あつかう||） - handhaben, bedienen.
+- [[The Wind Rises (2013).mp4#t=6667.34|1:51:07]] ==思い切る==（||おもいきる||） - sich überwinden, entschlossen handeln.
+- [[The Wind Rises (2013).mp4#t=6679.564|1:51:19]] ==不慣れ==（||ふなれ||） - ungeübt, unerfahren.
+- [[The Wind Rises (2013).mp4#t=6693.464|1:51:33]] ==浸透==（||しんとう||） - Durchdringung; hier technischer Begriff/ASR-unsicher — ジロウ 浸透病 俺にも使わせろ
+- [[The Wind Rises (2013).mp4#t=6702.92|1:51:42]] ==弄る==（||ろうる||） - herumfummeln, verändern.
+- [[The Wind Rises (2013).mp4#t=6708.684|1:51:48]] ==達磨==（||だるま||） - Daruma; in 火だるま: Feuerball — ほとんどが燃料タンクだ 2、3発で火だるまだよ
+- [[The Wind Rises (2013).mp4#t=6709.978|1:51:49]] ==燃料タンク==（||ねんりょうたんく||） - Treibstofftank.
+- [[The Wind Rises (2013).mp4#t=6712.337|1:51:52]] ==火だるま==（||ひだるま||） - Feuerball; völlig in Flammen.
+- [[The Wind Rises (2013).mp4#t=6712.824|1:51:52]] ==防弾==（||ぼうだん||） - kugelsicher, beschusssicher — もっとも 防弾タンクなんぞ 研究したこともないからな
+- [[The Wind Rises (2013).mp4#t=6713.51|1:51:53]] ==防弾タンク==（||ぼうだんたんく||） - beschusssicherer Tank.
+- [[The Wind Rises (2013).mp4#t=6716.084|1:51:56]] ==正面==（||まとも||） - frontal, direkt — 海軍は日本で初めてまともに飛ぶ飛行機ができたと 右頂点だ
+- [[The Wind Rises (2013).mp4#t=6716.084|1:51:56]] ==頂点==（||ちょうてん||） - Scheitelpunkt, Spitze — 海軍は日本で初めてまともに飛ぶ飛行機ができたと 右頂点だ
+- [[The Wind Rises (2013).mp4#t=6720.56|1:52:00]] ==ぶら下げる==（||ぶらさげる||） - herabhängen lassen.
+- [[The Wind Rises (2013).mp4#t=6720.56|1:52:00]] ==剥き出し==（||むきだし||） - bloßgelegt, ungeschützt.
+- [[The Wind Rises (2013).mp4#t=6724.284|1:52:04]] ==銃座==（||じゅうざ||） - Geschützstand.
+- [[The Wind Rises (2013).mp4#t=6750.564|1:52:30]] ==商人==（||しょうにん||） - Händler — 俺たちは武器商人じゃない
+- [[The Wind Rises (2013).mp4#t=6750.564|1:52:30]] ==武器==（||ぶき||） - Waffe — 俺たちは武器商人じゃない
+- [[The Wind Rises (2013).mp4#t=6751.564|1:52:31]] ==武器商人==（||ぶきしょうにん||） - Waffenhändler.
+- [[The Wind Rises (2013).mp4#t=6803.918|1:53:23]] ==泊まり込み==（||とまりこみ||） - Übernachten am Arbeitsplatz; längerer Arbeitseinsatz.
+- [[The Wind Rises (2013).mp4#t=6919.12|1:55:19]] ==散らかす==（||ちらかす||） - unordentlich machen, verstreuen.
+- [[The Wind Rises (2013).mp4#t=7000.12|1:56:40]] ==呼び戻す==（||よびもどす||） - zurückrufen, zurückholen.
+- [[The Wind Rises (2013).mp4#t=7068.4|1:57:48]] ==速力==（||そくりょく||） - Geschwindigkeit.
+- [[The Wind Rises (2013).mp4#t=7070.8|1:57:50]] ==やり直す==（||やりなおす||） - noch einmal machen, neu berechnen.
+- [[The Wind Rises (2013).mp4#t=7070.800|1:57:50]] ==遣り直す==（||やりなおす||） - neu machen, wiederholen — すみません計算をやり直しています
+- [[The Wind Rises (2013).mp4#t=7215.835|2:00:15]] ==草原==（||そうげん||） - Grasland, Wiese.
+- [[The Wind Rises (2013).mp4#t=7232.73|2:00:32]] ==滅ぼす==（||ほろぼす||） - zerstören, zugrunde richten.
+- [[The Wind Rises (2013).mp4#t=7393.374|2:03:13]] ==坂道==（||さかみち||） - Steigung, Hangweg — 白い坂道が 空まで続いていた
+- [[The Wind Rises (2013).mp4#t=7405.489|2:03:25]] ==陽炎==（||かげろう||） - Hitzeflimmern — ゆらゆら陽炎があの子を包む
+## Kenn ich schon mehr oder weniger
+
+- [[The Wind Rises (2013).mp4#t=309.32|5:09]] ==辞書==（||じしょ||） - Wörterbuch.🍙
+- [[The Wind Rises (2013).mp4#t=358.18|5:58]] ==勇ましい==（||いさましい||） - tapfer, kühn🍙
+- [[The Wind Rises (2013).mp4#t=420|7:00]] ==すりむく== - sich aufschürfen
+- [[The Wind Rises (2013).mp4#t=423.960|7:03]] ==差し上げる==（||さしあげる||） - geben/tun für jemanden; bescheidene höfliche Form — 塗って差し上げます = „ich trage es Ihnen/dir auf“
+- [[The Wind Rises (2013).mp4#t=537.459|8:57]] ==くっ付く==（||くっつく||） - zusammenkleben, sich verbinden.
+- [[The Wind Rises (2013).mp4#t=550.420|9:10]] ==此の世==（||このよ||） - diese Welt, Diesseits — この世は夢🍙
+- [[The Wind Rises (2013).mp4#t=553.92|9:13]] ==光栄==（||こうえい||） - Ehre, Auszeichnung🍙
+- [[The Wind Rises (2013).mp4#t=558.920|9:18]] ==半分==（||はんぶん||） - Hälfte — あの半分も戻ってこまい 敵の町を焼きに行くのだ
+- [[The Wind Rises (2013).mp4#t=675.080|11:15]] ==美しかろう==（||うつくしかろう||） - „schön, nicht wahr?“; klassische/gehobene Vermutungsform von 美しい — どうかね 美しかろう
+- [[The Wind Rises (2013).mp4#t=723.767|12:03]] ==商売==（||しょうばい||） - Geschäft, Handel🍙
+- [[The Wind Rises (2013).mp4#t=728.7|12:08]] ==設計家==（||せっけいか||） - Konstrukteur, Designer, Ingenieur im Entwurf.🍙
+- [[The Wind Rises (2013).mp4#t=731.484|12:11]] ==与える==（||あたえる||） - geben, verleihen, zufügen.🍙
+- [[The Wind Rises (2013).mp4#t=763.285|12:43]] ==素敵==（||すてき||） - wunderbar, schön — そう素敵な夢ですね
+- [[The Wind Rises (2013).mp4#t=769.465|12:49]] ==僕は美しい飛行機を作りたい== - „ich möchte schöne Flugzeuge bauen“; Wunschform mit 作りたい.
+- [[The Wind Rises (2013).mp4#t=804.995|13:24]] ==湿気==（||しっけ||） - Feuchtigkeit🍙
+- [[The Wind Rises (2013).mp4#t=1034.345|17:14]] ==骨==（||ほね||） - Knochen; Struktur/Gerüst.
+- [[The Wind Rises (2013).mp4#t=1034.35|17:14]] ==折れる==（||おれる||） - brechen, geknickt werden.
+- [[The Wind Rises (2013).mp4#t=1038.925|17:18]] ==爆発==（||ばくはつ||） - Explosion🍙
+- [[The Wind Rises (2013).mp4#t=1183.723|19:43]] ==新品==（||しんぴん||） - nagelneu, neue Ware🍙
+- [[The Wind Rises (2013).mp4#t=1187.725|19:47]] ==井戸==（||いど||） - Brunnen🍙
+- [[The Wind Rises (2013).mp4#t=1336.805|22:16]] ==深川==（||ふかがわ||） - Fukagawa; Stadtteil in Tokyo🍙
+- [[The Wind Rises (2013).mp4#t=1337.972|22:17]] ==火の海==（||ひのうみ||） - Flammenmeer
+- [[The Wind Rises (2013).mp4#t=1338.305|22:18]] ==持ち出す==（||もちだす||） - heraustragen, mitnehmen — 持ち出せるだけ持ち出したんだが
+- [[The Wind Rises (2013).mp4#t=1352.305|22:32]] ==映る==（||うつる||） - sich spiegeln, sichtbar sein火が映るぞ 東京壊滅だ
+- [[The Wind Rises (2013).mp4#t=1566.602|26:06]] ==曲線==（||きょくせん||） - Kurve, geschwungene Linie🍙
+- [[The Wind Rises (2013).mp4#t=1594.670|26:34]] ==発見==（||はっけん||） - Entdeckung — 本庄我発見せりだ
+- [[The Wind Rises (2013).mp4#t=1610.61|26:50]] ==預かる==（||あずかる||） - in Verwahrung nehmen, betreuen.
+- [[The Wind Rises (2013).mp4#t=1610.79|26:50]] ==留守==（||るす||） - Abwesenheit; nicht zu Hause sein.
+- [[The Wind Rises (2013).mp4#t=1725.07|28:45]] ==訪ねる==（||たずねる||） - besuchen, aufsuchen.
+- [[The Wind Rises (2013).mp4#t=1727.81|28:47]] ==収まる==（||おさまる||） - sich beruhigen, abklingen; sich einfügen.🍙
+- [[The Wind Rises (2013).mp4#t=1783.47|29:43]] ==学ぶ==（||まなぶ||） - lernen, studieren.
+- [[The Wind Rises (2013).mp4#t=1785.527|29:45]] ==医学==（||いがく||） - Medizin.
+- [[The Wind Rises (2013).mp4#t=1788.89|29:48]] ==通う==（||かよう||） - pendeln, regelmäßig hingehen.
+- [[The Wind Rises (2013).mp4#t=1895.218|31:35]] ==連中==（||れんちゅう||） - Leute, Bande, Truppe; oft abwertend.
+- [[The Wind Rises (2013).mp4#t=1914.57|31:54]] ==噂==（||うわさ||） - Gerücht.🍙
+- [[The Wind Rises (2013).mp4#t=1984.870|33:04]] ==帽子==（||ぼうし||） - Hut, Mütze — データはこれ 帽子はそこ🍙
+- [[The Wind Rises (2013).mp4#t=1994.630|33:14]] ==挨拶==（||あいさつ||） - Begrüßung, Vorstellung — 挨拶🍙
+- [[The Wind Rises (2013).mp4#t=1998.15|33:18]] ==たまえ== - alte/formelle Aufforderungsendung.
+- [[The Wind Rises (2013).mp4#t=2105|35:05]] ==覗く==（||のぞく||） - hineinschauen, spähen🍙
+- [[The Wind Rises (2013).mp4#t=2121.570|35:21]] ==申し訳==（||もうしわけ||） - Entschuldigung; Schuld/Bedauern — 申し訳ありませんね
+- [[The Wind Rises (2013).mp4#t=2168.383|36:08]] ==遅刻==（||ちこく||） - Verspätung🍙
+- [[The Wind Rises (2013).mp4#t=2195.597|36:35]] ==高める==（||たかめる||） - erhöhen, verstärken.
+- [[The Wind Rises (2013).mp4#t=2211.93|36:51]] ==無駄==（||むだ||） - Verschwendung, nutzlos.
+- [[The Wind Rises (2013).mp4#t=2253.31|37:33]] ==恐るべき==（||おそるべき||） - furchterregend; erstaunlich, enorm.
+- [[The Wind Rises (2013).mp4#t=2446.675|40:46]] ==空中==（||くうちゅう||） - in der Luft — 君は空中分解の原因が取り付け金具だと思うか
+- [[The Wind Rises (2013).mp4#t=2455.675|40:55]] ==受ける==（||うける||） - empfangen, erleiden, bekommen — 今日自分は深い感銘を受けました
+- [[The Wind Rises (2013).mp4#t=2468.338|41:08]] ==内定==（||ないてい||） - inoffizielle Entscheidung/Zusage.
+- [[The Wind Rises (2013).mp4#t=2471.287|41:11]] ==ひっくり返す==（||ひっくりかえす||） - umdrehen, umkehren
+- [[The Wind Rises (2013).mp4#t=2481.575|41:21]] ==ドイツを見に行くチャンスだ== - „das ist eine Chance, Deutschland zu sehen“; チャンスだ als klare Gelegenheit.
+- [[The Wind Rises (2013).mp4#t=2604.235|43:24]] ==中止==（||ちゅうし||） - Abbruch, Einstellung — 開発中止だって
+- [[The Wind Rises (2013).mp4#t=2632.495|43:52]] ==減らす==（||へらす||） - verringern, reduzieren — 腹を減らしてる子供なら
+- [[The Wind Rises (2013).mp4#t=2657.985|44:17]] ==お釣り==（||おつり||） - Wechselgeld; etwas bleibt übrig.
+- [[The Wind Rises (2013).mp4#t=2664.875|44:24]] ==決まる==（||きまる||） - entschieden/festgelegt werden — 今日決まった
+- [[The Wind Rises (2013).mp4#t=2723.695|45:23]] ==禁止==（||きんし||） - Verbot — ハルバル訪ねてきたのに工場は立ち入り禁止だとよ
+- [[The Wind Rises (2013).mp4#t=2729.26|45:29]] ==隣==（||となり||） - Nachbar, nebenan.
+- [[The Wind Rises (2013).mp4#t=2848.675|47:28]] ==契約==（||けいやく||） - Vertrag — 契約に基づく正当な行為である。🍙
+- [[The Wind Rises (2013).mp4#t=2895.64|48:15]] ==許可==（||きょか||） - Erlaubnis, Genehmigung.🍙
+- [[The Wind Rises (2013).mp4#t=2904.3|48:24]] ==乗れる==（||のれる||） - mitfahren/einsteigen können.
+- [[The Wind Rises (2013).mp4#t=3071.48|51:11]] ==繋がる==（||つながる||） - verbunden sein, zusammenhängen.
+- [[The Wind Rises (2013).mp4#t=3252.73|54:12]] ==電信==（||でんしん||） - Telegramm/Telegrafie.
+- [[The Wind Rises (2013).mp4#t=3267.5|54:27]] ==一人旅==（||ひとりたび||） - Alleinreise.
+- [[The Wind Rises (2013).mp4#t=3296.460|54:56]] ==吹く==（||ふく||） - wehen, blasen — まだ風は吹いているかね
+- [[The Wind Rises (2013).mp4#t=3304.305|55:04]] ==招待==（||しょうたい||） - Einladung.
+- [[The Wind Rises (2013).mp4#t=3375.740|56:15]] ==古代==（||こだい||） - Antike, Altertum — 古代ローマの建築物のようです
+- [[The Wind Rises (2013).mp4#t=3704.940|1:01:44]] ==似合う==（||にあう||） - passen, gut stehen — いや似合いますな
+- [[The Wind Rises (2013).mp4#t=4255.665|1:10:55]] ==申す==（||もうす||） - sagen; bescheidene Form — 今泉にお礼を申しましたの
+- [[The Wind Rises (2013).mp4#t=4326.86|1:12:06]] ==白馬==（||はくば||） - weißes Pferd.
+- [[The Wind Rises (2013).mp4#t=4358.39|1:12:38]] ==乾く==（||かわく||） - trocken werden.
+- [[The Wind Rises (2013).mp4#t=4485.823|1:14:45]] ==体験==（||たいけん||） - Erlebnis, Erfahrung.🍙
+- [[The Wind Rises (2013).mp4#t=4524.425|1:15:24]] ==集まり==（||あつまり||） - Versammlung, Gruppe — あれはならず者の集まりです
+- [[The Wind Rises (2013).mp4#t=4994.390|1:23:14]] ==直る==（||なおる||） - heilen, repariert werden — お嬢さん治りましたか？
+- [[The Wind Rises (2013).mp4#t=5038.810|1:23:58]] ==認める==（||みとめる||） - anerkennen, erlauben — 認めてください
+- [[The Wind Rises (2013).mp4#t=5073.93|1:24:33]] ==僕と結婚してください== - „bitte heirate mich“; klassische Bitte mit ください.
+- [[The Wind Rises (2013).mp4#t=5077.31|1:24:37]] ==治す==（||なおす||） - heilen, reparieren.
+- [[The Wind Rises (2013).mp4#t=5079.87|1:24:39]] ==それまで待っていただけますか== - „könnten Sie bis dahin warten?“; höfliche Bitte mit いただけますか.
+- [[The Wind Rises (2013).mp4#t=5152.21|1:25:52]] ==立つ==（||たつ||） - entstehen, aufkommen, sich erheben.
+- [[The Wind Rises (2013).mp4#t=5244.890|1:27:24]] ==専門==（||せんもん||） - Spezialgebiet — 思想犯専門の秘密警察だ🍙
+- [[The Wind Rises (2013).mp4#t=5372.015|1:29:32]] ==当たり前==（||あたりまえ||） - selbstverständlich, normal — 当たり前だろ
+- [[The Wind Rises (2013).mp4#t=5375.6|1:29:35]] ==恋文==（||こいぶみ||） - Liebesbrief.
+- [[The Wind Rises (2013).mp4#t=5381.675|1:29:41]] ==会社は全力で君を守る== - „die Firma wird dich mit aller Kraft schützen“; 全力で + Verb.
+- [[The Wind Rises (2013).mp4#t=5402.763|1:30:02]] ==国外==（||こくがい||） - Ausland, außerhalb des Landes.
+- [[The Wind Rises (2013).mp4#t=5703.07|1:35:03]] ==参る==（||まいる||） - gehen/kommen; demütige Form.
+- [[The Wind Rises (2013).mp4#t=5737.155|1:35:37]] ==注文主==（||ちゅうもんぬし||） - Auftraggeber.
+- [[The Wind Rises (2013).mp4#t=5847.835|1:37:27]] ==表面==（||ひょうめん||） - Oberfläche.
+- [[The Wind Rises (2013).mp4#t=6139.411|1:42:19]] ==男女==（||だんじょ||） - Mann und Frau.
+- [[The Wind Rises (2013).mp4#t=304.76|5:04]] ==拝借==（||はいしゃく||） - sich etwas leihen; höflich/bescheiden🍙
+- [[The Wind Rises (2013).mp4#t=336.479|5:36]] ==下級生==（||かきゅうせい||） - jüngerer Schüler, Unterklässler🍙
+- [[The Wind Rises (2013).mp4#t=728.7|12:08]] ==設計家は夢に形を与えるのだ== - „Konstrukteure geben Träumen Gestalt“; 形を与える ist eine schöne abstrakte Wendung.
+- [[The Wind Rises (2013).mp4#t=1667.350|27:47]] ==只今==（||ただいま||） - gerade jetzt; ich bin zurück — ただいま
+- [[The Wind Rises (2013).mp4#t=1998.15|33:18]] ==仕事にかかりたまえ== - „mach dich an die Arbeit“; formelle/autoritäre Aufforderung.
+- [[The Wind Rises (2013).mp4#t=2485.58|41:25]] ==推薦==（||すいせん||） - Empfehlung, Nominierung.🍙
+- [[The Wind Rises (2013).mp4#t=2780.555|46:20]] ==金属==（||きんぞく||） - Metall — 金属工作の技術を学ぶチャンスだと思えばいいんだ
+- [[The Wind Rises (2013).mp4#t=2840.715|47:20]] ==訪れる==（||おとずれる||） - besuchen, aufsuchen — 本城もういいよこの工場を訪れた我々がこの格納庫に入ったのは
+- [[The Wind Rises (2013).mp4#t=2858.355|47:38]] ==事故==（||じこ||） - Unfall — 諸君が事故の任務に忠実であることは疑わない。
+- [[The Wind Rises (2013).mp4#t=4516.225|1:15:16]] ==政府==（||せいふ||） - Regierung — 政府と喧嘩してる
+- [[The Wind Rises (2013).mp4#t=5077.31|1:24:37]] ==でも必ず病気を治します== - „aber ich werde die Krankheit ganz sicher heilen“; 必ず als Versprechen.
+- [[The Wind Rises (2013).mp4#t=6534.698|1:48:54]] ==仲良し==（||なかよし||） - gute Freunde, vertraut.
+- [[The Wind Rises (2013).mp4#t=6880.045|1:54:40]] ==成功==（||せいこう||） - Erfolg — ご成功
+- [[The Wind Rises (2013).mp4#t=6911.285|1:55:11]] ==散歩==（||さんぽ||） - Spaziergang — 今朝は気分がいいのでこのあたりをちょっと散歩してきます
+- [[The Wind Rises (2013).mp4#t=7346.734|2:02:26]] ==美しい風のような人だ== - „sie ist wie ein schöner Wind“; ような für bildhaften Vergleich.
+- [[The Wind Rises (2013).mp4#t=7356.294|2:02:36]] ==君は生きねべならん== - „wirst du nicht leben?“; finale, direkte Frage.
+- [[The Wind Rises (2013).mp4#t=7415.489|2:03:35]] ==気付く==（||きづく||） - bemerken, merken — 誰も気づかずただ一人
+
+### Kann ich schon (fast) perfekt
+
+- [[The Wind Rises (2013).mp4#t=3977.881|1:06:17]] ==怪我==（||けが||） - Verletzung.
+- [[The Wind Rises (2013).mp4#t=5006.950|1:23:26]] ==若者==（||わかもの||） - junger Mensch — この若者来た時
+- [[The Wind Rises (2013).mp4#t=304.760|5:04]] ==宜しい==（||よろしい||） - in Ordnung; höflich für „gut“ — 拝借してよろしいですか
+- [[The Wind Rises (2013).mp4#t=336|5:36]] ==いじめる== - schikanieren, mobben
+- [[The Wind Rises (2013).mp4#t=360.099|6:00]] ==転ぶ==（||ころぶ||） - hinfallen, stürzen.
+- [[The Wind Rises (2013).mp4#t=362|6:02]] ==喧嘩==（||けんか||） - Streit, Prügelei🍙
+- [[The Wind Rises (2013).mp4#t=406|6:46]] ==雑誌==（||ざっし||） - Zeitschrift
+- [[The Wind Rises (2013).mp4#t=450.18|7:30]] ==叱る==（||しかる||） - schimpfen, zurechtweisen.
+- [[The Wind Rises (2013).mp4#t=453.34|7:33]] ==流れ星==（||ながれぼし||） - Sternschnuppe🍙
+- [[The Wind Rises (2013).mp4#t=524.06|8:44]] ==夢==（||ゆめ||） - Traum.
+- [[The Wind Rises (2013).mp4#t=540.66|9:00]] ==不思議==（||ふしぎ||） - seltsam, wundersam, geheimnisvoll.
+- [[The Wind Rises (2013).mp4#t=558.92|9:18]] ==焼く==（||やく||） - verbrennen, niederbrennen, backen/braten.
+- [[The Wind Rises (2013).mp4#t=563.823|9:23]] ==敵==（||てき||） - Feind, Gegner.
+- [[The Wind Rises (2013).mp4#t=575|9:35]] ==戦争==（||せんそう||） - Krieg
+- [[The Wind Rises (2013).mp4#t=604.68|10:04]] ==爆弾==（||ばくだん||） - Bombe
+- [[The Wind Rises (2013).mp4#t=605.355|10:05]] ==代わり==（||かわり||） - Ersatz, anstelle von.
+- [[The Wind Rises (2013).mp4#t=618.39|10:18]] ==穴==（||あな||） - Loch, Öffnung.
+- [[The Wind Rises (2013).mp4#t=619.82|10:19]] ==便利==（||べんり||） - praktisch, bequem.
+- [[The Wind Rises (2013).mp4#t=688.020|11:28]] ==質問==（||しつもん||） - Frage — カプローニさん質問があります
+- [[The Wind Rises (2013).mp4#t=709.140|11:49]] ==人間==（||にんげん||） - Mensch — パイロットに向いてる人間は他にたくさんいる
+- [[The Wind Rises (2013).mp4#t=721.420|12:01]] ==道具==（||どうぐ||） - Werkzeug, Mittel — 飛行機は戦争の道具でも商売の手立てでもないのだ
+- [[The Wind Rises (2013).mp4#t=725.9|12:05]] ==飛行機==（||ひこうき||） - Flugzeug.
+- [[The Wind Rises (2013).mp4#t=725.9|12:05]] ==飛行機は美しい夢だ== - „Flugzeuge sind schöne Träume“; zentrale poetische Formel des Films.
+- [[The Wind Rises (2013).mp4#t=725.9|12:05]] ==美しい==（||うつくしい||） - schön.
+- [[The Wind Rises (2013).mp4#t=730.44|12:10]] ==形==（||かたち||） - Form, Gestalt.
+- [[The Wind Rises (2013).mp4#t=757.441|12:37]] ==返事==（||へんじ||） - Antwort, Erwiderung.
+- [[The Wind Rises (2013).mp4#t=759.645|12:39]] ==母さん==（||かあさん||） - Mutter.
+- [[The Wind Rises (2013).mp4#t=769.465|12:49]] ==作りたい==（||つくりたい||） - bauen/machen wollen.
+- [[The Wind Rises (2013).mp4#t=789.025|13:09]] ==座る==（||すわる||） - sich setzen.
+- [[The Wind Rises (2013).mp4#t=995.225|16:35]] ==緊張==（||きんちょう||） - Anspannung, Nervosität.
+- [[The Wind Rises (2013).mp4#t=1039.61|17:19]] ==逃げる==（||にげる||） - fliehen, weglaufen.
+- [[The Wind Rises (2013).mp4#t=1098.62|18:18]] ==荷物==（||にもつ||） - Gepäck, Last.
+- [[The Wind Rises (2013).mp4#t=1186.24|19:46]] ==開ける==（||ひらける||） - öffnen.
+- [[The Wind Rises (2013).mp4#t=1214.545|20:14]] ==きっと== - bestimmt, sicher.
+- [[The Wind Rises (2013).mp4#t=1214.545|20:14]] ==きっと戻ります== - „ich komme bestimmt zurück“; きっと als feste Zuversicht.
+- [[The Wind Rises (2013).mp4#t=1214.545|20:14]] ==戻る==（||もどる||） - zurückkehren.
+- [[The Wind Rises (2013).mp4#t=1547.230|25:47]] ==大学==（||だいがく||） - Universität — マンネリズムだ 大学の講義と同じだ
+- [[The Wind Rises (2013).mp4#t=1554.308|25:54]] ==時代==（||じだい||） - Zeitalter, Epoche.
+- [[The Wind Rises (2013).mp4#t=1558.65|25:58]] ==遅れる==（||おくれる||） - sich verspäten; zurückliegen.
+- [[The Wind Rises (2013).mp4#t=1761.250|29:21]] ==平気==（||へいき||） - unbekümmert; alles okay — 平気
+- [[The Wind Rises (2013).mp4#t=1903.570|31:43]] ==銀行==（||ぎんこう||） - Bank — まただ！今度は亀八銀行ですよ
+- [[The Wind Rises (2013).mp4#t=1917.570|31:57]] ==世の中==（||よのなか||） - Welt, Gesellschaft — 世の中不景気だ
+- [[The Wind Rises (2013).mp4#t=1987.110|33:07]] ==紹介==（||しょうかい||） - Vorstellung, Einführung — 諸君 新人を紹介する
+- [[The Wind Rises (2013).mp4#t=1998.15|33:18]] ==仕事==（||しごと||） - Arbeit.
+- [[The Wind Rises (2013).mp4#t=2103.210|35:03]] ==工場==（||こうじょう||） - Fabrik, Werk — 組み立て工場か
+- [[The Wind Rises (2013).mp4#t=2116.370|35:16]] ==願い==（||ねがい||） - Bitte, Wunsch — ちょっとお願いがあるのですが
+- [[The Wind Rises (2013).mp4#t=2143.83|35:43]] ==意見==（||いけん||） - Meinung, Einschätzung
+- [[The Wind Rises (2013).mp4#t=2191.790|36:31]] ==説明==（||せつめい||） - Erklärung — 説明したまえ
+- [[The Wind Rises (2013).mp4#t=2227.71|37:07]] ==完璧==（||かんぺき||） - perfekt, vollständig.
+- [[The Wind Rises (2013).mp4#t=2362.675|39:22]] ==方々==（||かたがた||） - Personen; Leute; verschiedene Seiten — リコ軍の方々が来てくださってる はい
+- [[The Wind Rises (2013).mp4#t=2448.149|40:48]] ==原因==（||げんいん||） - Ursache.
+- [[The Wind Rises (2013).mp4#t=2458.68|40:58]] ==戦闘機==（||せんとうき||） - Kampfflugzeug.
+- [[The Wind Rises (2013).mp4#t=2525.615|42:05]] ==今夜==（||こんや||） - heute Abend — 今夜はだいぶ遅いね
+- [[The Wind Rises (2013).mp4#t=2601.195|43:21]] ==残念==（||ざんねん||） - bedauerlich, schade.
+- [[The Wind Rises (2013).mp4#t=2644.93|44:04]] ==貧乏==（||びんぼう||） - Armut, arm sein.
+- [[The Wind Rises (2013).mp4#t=2677.93|44:37]] ==嫁==（||よめ||） - Ehefrau; Braut.
+- [[The Wind Rises (2013).mp4#t=2820.795|47:00]] ==真似==（||まね||） - Nachahmung — 日本人はすぐ真似をする
+- [[The Wind Rises (2013).mp4#t=2848.68|47:28]] ==行為==（||こうい||） - Handlung, Akt.
+- [[The Wind Rises (2013).mp4#t=2861.455|47:41]] ==相手==（||あいて||） - Gegenüber, Vertragspartner — しかし、対等の契約の相手である
+- [[The Wind Rises (2013).mp4#t=2867.45|47:47]] ==命令==（||めいれい||） - Befehl.
+- [[The Wind Rises (2013).mp4#t=2891.235|48:11]] ==立派==（||りっぱ||） - hervorragend, stattlich — うん 立派だな
+- [[The Wind Rises (2013).mp4#t=2895.635|48:15]] ==案内==（||あんない||） - Führung, Anleitung — 博士の許可が出た この中を案内する
+- [[The Wind Rises (2013).mp4#t=2915.395|48:35]] ==先輩==（||せんぱい||） - Senior, Erfahrener — 先輩たちがはしゃいでるぜ
+- [[The Wind Rises (2013).mp4#t=2962.495|49:22]] ==見付ける==（||みつける||） - finden, entdecken — 試してねえ、見つけたわ
+- [[The Wind Rises (2013).mp4#t=3078.000|51:18]] ==間に合う==（||まにあう||） - rechtzeitig sein, ausreichen — それでは間に合わない
+- [[The Wind Rises (2013).mp4#t=3296.46|54:56]] ==風==（||かぜ||） - Wind.
+- [[The Wind Rises (2013).mp4#t=3335.18|55:35]] ==通す==（||とうす||） - durchlassen, passieren lassen.
+- [[The Wind Rises (2013).mp4#t=3337.46|55:37]] ==親戚==（||しんせき||） - Verwandte.
+- [[The Wind Rises (2013).mp4#t=3361.140|56:01]] ==秘密==（||ひみつ||） - Geheimnis, geheim — まだし当局には秘密だ
+- [[The Wind Rises (2013).mp4#t=3392.28|56:32]] ==大切==（||たいせつ||） - wichtig, kostbar.
+- [[The Wind Rises (2013).mp4#t=3448.551|57:28]] ==人類==（||じんるい||） - Menschheit.
+- [[The Wind Rises (2013).mp4#t=3450.056|57:30]] ==呪われた==（||のろわれた||） - verflucht.
+- [[The Wind Rises (2013).mp4#t=3451.34|57:31]] ==背負う==（||せおう||） - auf sich tragen, eine Last tragen.
+- [[The Wind Rises (2013).mp4#t=3457.42|57:37]] ==選ぶ==（||えらぶ||） - wählen.
+- [[The Wind Rises (2013).mp4#t=3515.600|58:35]] ==人生==（||じんせい||） - Leben, Lebensweg — 創造的人生の持ち時間は10年だ
+- [[The Wind Rises (2013).mp4#t=3690.500|1:01:30]] ==世話==（||せわ||） - Fürsorge, Betreuung — どうもお世話様です
+- [[The Wind Rises (2013).mp4#t=4318.31|1:11:58]] ==泣く==（||なく||） - weinen.
+- [[The Wind Rises (2013).mp4#t=4327.605|1:12:07]] ==見える==（||みえる||） - sichtbar sein; wirken wie — 白馬に乗った王子様に見えました
+- [[The Wind Rises (2013).mp4#t=4330.02|1:12:10]] ==傘==（||かさ||） - Regenschirm.
+- [[The Wind Rises (2013).mp4#t=4376.565|1:12:56]] ==生きている==（||いきている||） - am Leben sein, leben.
+- [[The Wind Rises (2013).mp4#t=4401.085|1:13:21]] ==助ける==（||たすける||） - helfen, retten — この方に助けていただきましたの
+- [[The Wind Rises (2013).mp4#t=4702.39|1:18:22]] ==誰==（||だれ||） - wer.
+- [[The Wind Rises (2013).mp4#t=5035.770|1:23:55]] ==付き合い==（||つきあい||） - Umgang, Beziehung — お嬢さんとのお付き合いを
+- [[The Wind Rises (2013).mp4#t=5057.43|1:24:17]] ==亡くす==（||なくす||） - verlieren; sterben lassen/haben.
+- [[The Wind Rises (2013).mp4#t=5064.670|1:24:24]] ==愛する==（||あいする||） - lieben — 僕はあなたを愛しています
+- [[The Wind Rises (2013).mp4#t=5073.93|1:24:33]] ==結婚==（||けっこん||） - Heirat.
+- [[The Wind Rises (2013).mp4#t=5077.31|1:24:37]] ==病気==（||びょうき||） - Krankheit.
+- [[The Wind Rises (2013).mp4#t=5079.87|1:24:39]] ==待つ==（||まつ||） - warten.
+- [[The Wind Rises (2013).mp4#t=5152.21|1:25:52]] ==風が立ってる== - „der Wind erhebt sich“; titelnahe, poetische Wendung.
+- [[The Wind Rises (2013).mp4#t=5244.890|1:27:24]] ==警察==（||けいさつ||） - Polizei — 思想犯専門の秘密警察だ
+- [[The Wind Rises (2013).mp4#t=5275.450|1:27:55]] ==覚える==（||おぼえる||） - sich erinnern; lernen — みんな身に覚えなどなかった
+- [[The Wind Rises (2013).mp4#t=5281.43|1:28:01]] ==我慢==（||がまん||） - Geduld, Aushalten.
+- [[The Wind Rises (2013).mp4#t=5382.665|1:29:42]] ==全力==（||ぜんりょく||） - volle Kraft.
+- [[The Wind Rises (2013).mp4#t=5427.195|1:30:27]] ==電話==（||でんわ||） - Telefon — 二郎さんお電話です
+- [[The Wind Rises (2013).mp4#t=5481.093|1:31:21]] ==方法==（||ほうほう||） - Methode, Weg.
+- [[The Wind Rises (2013).mp4#t=5703.075|1:35:03]] ==病院==（||びょういん||） - Krankenhaus — 私お医者様のおすすめの抗原病院に参ります
+- [[The Wind Rises (2013).mp4#t=5737.155|1:35:37]] ==注文==（||ちゅうもん||） - Bestellung, Auftrag — 注文主だ
+- [[The Wind Rises (2013).mp4#t=5892.815|1:38:12]] ==感動==（||かんどう||） - Bewegung, Ergriffenheit — 感動しました
+- [[The Wind Rises (2013).mp4#t=6156.820|1:42:36]] ==連絡==（||れんらく||） - Kontakt, Benachrichtigung — 病院へも連絡しました
+- [[The Wind Rises (2013).mp4#t=6193.432|1:43:13]] ==エゴイズム== - Egoismus.
+- [[The Wind Rises (2013).mp4#t=6382.188|1:46:22]] ==安心==（||あんしん||） - Beruhigung, Sicherheit.
+- [[The Wind Rises (2013).mp4#t=6444.508|1:47:24]] ==両親==（||りょうしん||） - Eltern — 兄兄様にはご結婚おめでとうございます黒川様へのお礼方々 両親に代わって伺いした黒川さんたちは？お休みになりました直子に会ったの？はい
+- [[The Wind Rises (2013).mp4#t=6475.756|1:47:55]] ==毎朝==（||まいあさ||） - jeden Morgen — 毎朝お化粧してほうべにをさしたりしてるの
+- [[The Wind Rises (2013).mp4#t=6536.16|1:48:56]] ==未来==（||みらい||） - Zukunft.
+- [[The Wind Rises (2013).mp4#t=6744.004|1:52:24]] ==中国==（||ちゅうごく||） - China — 中国、ソ連、イギリス、オランダ、アメリカ
+- [[The Wind Rises (2013).mp4#t=6796.104|1:53:16]] ==苦労==（||くろう||） - Mühe, Anstrengung — ご苦労様
+- [[The Wind Rises (2013).mp4#t=6911.285|1:55:11]] ==気分==（||きぶん||） - Stimmung, Befinden — 今朝は気分がいいのでこのあたりをちょっと散歩してきます
+- [[The Wind Rises (2013).mp4#t=6919.12|1:55:19]] ==片付ける==（||かたづける||） - aufräumen.
+- [[The Wind Rises (2013).mp4#t=7066.160|1:57:46]] ==外国==（||がいこく||） - Ausland — まるで外国にいるような気分だ
+- [[The Wind Rises (2013).mp4#t=7195.580|1:59:55]] ==最初==（||さいしょ||） - Anfang, erstes Mal — やあ来たな 日本の少年カプローニさんここは私たちが最初にお会いした草原ですね
+- [[The Wind Rises (2013).mp4#t=7220.73|2:00:20]] ==地獄==（||じごく||） - Hölle.
+- [[The Wind Rises (2013).mp4#t=7313.734|2:01:53]] ==あなた== - du/Sie.
+- [[The Wind Rises (2013).mp4#t=7313.734|2:01:53]] ==あなた、生きて== - „du, lebe“; extrem kurzer, zentraler Satz.
+- [[The Wind Rises (2013).mp4#t=7313.734|2:01:53]] ==生きる==（||いきる||） - leben.
+
+%%
+
+- [[The Wind Rises (2013).mp4#t=5400.377|1:30:00]] ==無事==（||ぶじ||） - unversehrt, sicher.
+
+## Links
+Prev::
+Next:: [[The Wind Rises.ja.srt|Transcript]]
+Friend::
+%%
+
+## Tags
+#japanese #transcript #media
+
+## Lernschnitt-Übersicht
+
+- [[Lernschnitte|Alle Lernschnitte]]

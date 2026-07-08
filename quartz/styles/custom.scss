@@ -114,14 +114,9 @@ article li {
   background-position: center;
   background-size: contain;
 
-filter:
-  brightness(1.15)
-  drop-shadow(0 0 2px #ffffff)
-  drop-shadow(0 0 6px #d9ff66)
-  drop-shadow(0 0 12px #9dff00)
-  drop-shadow(0 0 20px #39ff14)
-  drop-shadow(0 0 40px #00e676)
-  drop-shadow(0 0 70px #00c853);
+  filter: brightness(1.15) drop-shadow(0 0 2px #ffffff) drop-shadow(0 0 6px #d9ff66)
+    drop-shadow(0 0 12px #9dff00) drop-shadow(0 0 20px #39ff14) drop-shadow(0 0 40px #00e676)
+    drop-shadow(0 0 70px #00c853);
 
   color: transparent;
   font-size: 0;
@@ -185,9 +180,7 @@ filter:
 
   &:hover,
   &:focus-visible {
-    filter:
-      drop-shadow(0 0 4px #fff4a8)
-      drop-shadow(0 0 12px #39ff14);
+    filter: drop-shadow(0 0 4px #fff4a8) drop-shadow(0 0 12px #39ff14);
     outline: none;
     transform: rotate(-8deg) scale(1.12);
   }
@@ -219,12 +212,8 @@ filter:
 .tea-tree-garden.is-lit .tea-tree-garden__tree {
   opacity: 1;
   transform: translateX(-50%) translateY(0) scale(1);
-  filter:
-    brightness(1.18)
-    drop-shadow(0 0 3px #fff)
-    drop-shadow(0 0 9px var(--tree-glow))
-    drop-shadow(0 0 20px var(--tree-glow))
-    drop-shadow(0 0 42px var(--tree-glow));
+  filter: brightness(1.18) drop-shadow(0 0 3px #fff) drop-shadow(0 0 9px var(--tree-glow))
+    drop-shadow(0 0 20px var(--tree-glow)) drop-shadow(0 0 42px var(--tree-glow));
 }
 
 @media (max-width: 620px) {
@@ -247,4 +236,60 @@ filter:
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border: 0;
+}
+
+.excalidraw-transclude {
+  margin: 1.25rem 0;
+  position: relative;
+  contain: content;
+  user-select: none;
+}
+
+.excalidraw-transclude-link {
+  display: block;
+  cursor: grab;
+}
+
+.excalidraw-transclude-svg {
+  display: block;
+  width: 100%;
+  max-height: min(34rem, 75vh);
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  object-fit: contain;
+  touch-action: pan-y;
+}
+
+.excalidraw-transclude-hint {
+  position: absolute;
+  z-index: 2;
+  top: 0.55rem;
+  left: 0.55rem;
+  padding: 0.25rem 0.45rem;
+  border: 1px solid color-mix(in srgb, var(--dark) 12%, transparent);
+  border-radius: 0.35rem;
+  background: color-mix(in srgb, var(--light) 88%, transparent);
+  color: var(--darkgray);
+  font-family: var(--font-interface);
+  font-size: 0.72rem;
+  line-height: 1.2;
+  pointer-events: none;
+  backdrop-filter: blur(8px);
+  transition: opacity 160ms ease;
+}
+
+.excalidraw-transclude.is-zoomed .excalidraw-transclude-hint,
+.excalidraw-transclude.is-dragging .excalidraw-transclude-hint {
+  opacity: 0.28;
+}
+
+.excalidraw-transclude.is-dragging,
+.excalidraw-transclude.is-dragging .excalidraw-transclude-link {
+  cursor: grabbing;
+}
+
+@media (max-width: 620px) {
+  .excalidraw-transclude-hint {
+    font-size: 0.62rem;
+  }
 }

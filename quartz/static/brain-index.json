@@ -44,15 +44,6 @@
         "zettel"
       ]
     },
-    "tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.": {
-      "slug": "tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.",
-      "title": "2026-07-05 Einfach mal geistig abschalten.",
-      "source": "Digital Garden/Tea Garden/personal/2026-07-05 Einfach mal geistig abschalten..md",
-      "url": "/tea-garden/personal/2026-07-05-einfach-mal-geistig-abschalten.",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/personal/about-me": {
       "slug": "tea-garden/personal/about-me",
       "title": "About me",
@@ -89,15 +80,6 @@
         "zettel"
       ]
     },
-    "tea-garden/personal/possible-names-for-our-football-team": {
-      "slug": "tea-garden/personal/possible-names-for-our-football-team",
-      "title": "Possible names for our football team",
-      "source": "Digital Garden/Tea Garden/personal/Possible names for our football team.md",
-      "url": "/tea-garden/personal/possible-names-for-our-football-team",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/personal/things-i-made/drawings": {
       "slug": "tea-garden/personal/things-i-made/drawings",
       "title": "Drawings",
@@ -107,20 +89,38 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/things-i-made/possible-names-for-our-football-team": {
+      "slug": "tea-garden/personal/things-i-made/possible-names-for-our-football-team",
+      "title": "Possible names for our football team",
+      "source": "Digital Garden/Tea Garden/personal/Things I made/Possible names for our football team.md",
+      "url": "/tea-garden/personal/things-i-made/possible-names-for-our-football-team",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
+      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "title": "Why should you learn a language, and what is it even that you are learning?",
+      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
+      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/welcome-to-my-zettelkasten!": {
+      "slug": "zettelkasten/welcome-to-my-zettelkasten!",
+      "title": "Welcome to My Zettelkasten!",
+      "source": "Digital Garden/Zettelkasten/Welcome to My Zettelkasten!.md",
+      "url": "/zettelkasten/welcome-to-my-zettelkasten!",
+      "tags": [
+        "zettel"
+      ]
+    },
     "zettelkasten/zettel/communication-and-information/body-language": {
       "slug": "zettelkasten/zettel/communication-and-information/body-language",
       "title": "Body Language",
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Body Language.md",
       "url": "/zettelkasten/zettel/communication-and-information/body-language",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/zettel/communication-and-information/communication": {
-      "slug": "zettelkasten/zettel/communication-and-information/communication",
-      "title": "Communication",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Communication.md",
-      "url": "/zettelkasten/zettel/communication-and-information/communication",
       "tags": [
         "zettel"
       ]
@@ -292,6 +292,15 @@
       "title": "Nexus Warns Against Automated Destruction of Trust",
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Warns Against Automated Destruction of Trust.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-warns-against-automated-destruction-of-trust",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/zettel/communication-and-information/communication": {
+      "slug": "zettelkasten/zettel/communication-and-information/communication",
+      "title": "Communication",
+      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/communication.md",
+      "url": "/zettelkasten/zettel/communication-and-information/communication",
       "tags": [
         "zettel"
       ]
@@ -962,15 +971,6 @@
         "zettel"
       ]
     },
-    "zettelkasten/zettel/welcome-to-my-zettelkasten!": {
-      "slug": "zettelkasten/zettel/welcome-to-my-zettelkasten!",
-      "title": "Welcome to My Zettelkasten!",
-      "source": "Digital Garden/Zettelkasten/zettel/Welcome to My Zettelkasten!.md",
-      "url": "/zettelkasten/zettel/welcome-to-my-zettelkasten!",
-      "tags": [
-        "zettel"
-      ]
-    },
     "journal/2026/january-until-may---2026/2026-05-31-neuer-japanisch-lernplan": {
       "slug": "journal/2026/january-until-may---2026/2026-05-31-neuer-japanisch-lernplan",
       "title": "Japanisch Lernplan",
@@ -989,11 +989,11 @@
         "zettel"
       ]
     },
-    "journal/2026-07-05-wo-bewerben?": {
-      "slug": "journal/2026-07-05-wo-bewerben?",
+    "journal/july---2026/2026-07-05-wo-bewerben?": {
+      "slug": "journal/july---2026/2026-07-05-wo-bewerben?",
       "title": "2026-07-05 wo bewerben?",
-      "source": "Digital Garden/journal/2026-07-05 wo bewerben?.md",
-      "url": "/journal/2026-07-05-wo-bewerben?",
+      "source": "Digital Garden/journal/July - 2026/2026-07-05 wo bewerben?.md",
+      "url": "/journal/july---2026/2026-07-05-wo-bewerben?",
       "tags": [
         "zettel"
       ]
@@ -1007,11 +1007,29 @@
         "zettel"
       ]
     },
+    "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service": {
+      "slug": "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service",
+      "title": "Kikis Delivery Service",
+      "source": "Digital Garden/media-lib/Media/Japanese/movies/Kikis Delivery Service (1989)/Kikis Delivery Service.md",
+      "url": "/media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service",
+      "tags": [
+        "zettel"
+      ]
+    },
     "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves": {
       "slug": "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
       "title": "Ocean Waves",
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
       "url": "/media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises": {
+      "slug": "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises",
+      "title": "The Wind Rises",
+      "source": "Digital Garden/media-lib/Media/Japanese/movies/The Wind Rises (2013)/The Wind Rises.md",
+      "url": "/media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises",
       "tags": [
         "zettel"
       ]

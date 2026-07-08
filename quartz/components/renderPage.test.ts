@@ -266,6 +266,130 @@ describe("renderTranscludes", () => {
     const text = JSON.stringify(bq.children)
     assert.ok(text.includes("Circular transclusion"), "self-reference should be blocked")
   })
+
+  test("renders Excalidraw group transclusions as cropped SVG links", () => {
+    const root: Root = {
+      type: "root",
+      children: [makeTranscludeBlockquote("drawing.excalidraw", "#^group=arrow1")],
+    }
+
+    const allFiles = [
+      makePageData(
+        "drawing.excalidraw",
+        { type: "root", children: [] },
+        {
+          excalidrawData: {
+            elements: [
+              {
+                id: "text1",
+                type: "text",
+                x: 100,
+                y: 100,
+                width: 200,
+                height: 80,
+                groupIds: ["group1"],
+              },
+              {
+                id: "arrow1",
+                type: "arrow",
+                x: 300,
+                y: 150,
+                width: 120,
+                height: 40,
+                groupIds: ["group1"],
+              },
+              {
+                id: "outside",
+                type: "text",
+                x: 1000,
+                y: 1000,
+                width: 200,
+                height: 80,
+                groupIds: [],
+              },
+            ],
+          },
+          excalidrawExport: {
+            lightPath: "/static/excalidraw/drawing.excalidraw.light.svg",
+            viewBox: { width: 1200, height: 1200 },
+          },
+        },
+      ),
+    ]
+    const visited = new Set<FullSlug>(["current" as FullSlug])
+    renderTranscludes(
+      root,
+      cfg,
+      "current" as FullSlug,
+      makeComponentData(allFiles) as QuartzComponentProps,
+      visited,
+    )
+
+    const figure = root.children[0] as Element
+    const output = JSON.stringify(figure)
+    assert.equal(figure.tagName, "figure")
+    assert.ok(output.includes("excalidraw-transclude-svg"), "should render a cropped SVG")
+    assert.ok(
+      output.includes("/static/excalidraw/drawing.excalidraw.light.svg"),
+      "should point at the static Excalidraw export",
+    )
+  })
+
+  test("renders Excalidraw frame transclusions by frame name", () => {
+    const root: Root = {
+      type: "root",
+      children: [makeTranscludeBlockquote("drawing.excalidraw", "#^frame=Main%20Frame")],
+    }
+
+    const allFiles = [
+      makePageData(
+        "drawing.excalidraw",
+        { type: "root", children: [] },
+        {
+          excalidrawData: {
+            elements: [
+              {
+                id: "frame1",
+                type: "frame",
+                name: "Main Frame",
+                x: 200,
+                y: 300,
+                width: 640,
+                height: 360,
+              },
+              {
+                id: "text1",
+                type: "text",
+                x: 240,
+                y: 340,
+                width: 200,
+                height: 80,
+                frameId: "frame1",
+              },
+            ],
+          },
+          excalidrawExport: {
+            lightPath: "/static/excalidraw/drawing.excalidraw.light.svg",
+            viewBox: { width: 1200, height: 1200 },
+          },
+        },
+      ),
+    ]
+    const visited = new Set<FullSlug>(["current" as FullSlug])
+    renderTranscludes(
+      root,
+      cfg,
+      "current" as FullSlug,
+      makeComponentData(allFiles) as QuartzComponentProps,
+      visited,
+    )
+
+    const figure = root.children[0] as Element
+    const output = JSON.stringify(figure)
+    assert.equal(figure.tagName, "figure")
+    assert.ok(output.includes("excalidraw-transclude-svg"), "should render a cropped SVG")
+    assert.ok(output.includes("viewBox"), "should crop to the frame bounds")
+  })
 })
 
 describe("pageResources", () => {

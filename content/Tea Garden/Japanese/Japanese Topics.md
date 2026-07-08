@@ -19,11 +19,11 @@ Moving from Germany to Japan: Differences in Schooling, Every Day Life, Customs,
 Anime: 
 - [[media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle|Howl's Moving Castle]]
 - [[media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves|Ocean Waves]]
-- [[Kikis Delivery Service]]
-- [[The Wind Rises]]
+- [[media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service|Kikis Delivery Service]]
+- [[media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises|The Wind Rises]]
 
-Relationships and Love in Japan: 
+## Relationships and Love in Japan: 
 - [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships|日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships]]
-- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?|How much do Japanese Girls Cheat?]] 
-- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive|What Japanese Girls Find Attractive]]
-- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)|Being a Porn Director in Japan (Interview)]] (Yeah, I watched that. Despite the title, it's a serious interview with a very serious lady!)
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?|日本人女性はどれくらい浮気するの？]]
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive|日本人女性が魅力的だと思う男性の特徴]]
+- [[media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)|日本のAV監督という仕事（インタビュー）]] (Yeah, I watched that. Despite the title, it's a serious interview with a very serious lady!)

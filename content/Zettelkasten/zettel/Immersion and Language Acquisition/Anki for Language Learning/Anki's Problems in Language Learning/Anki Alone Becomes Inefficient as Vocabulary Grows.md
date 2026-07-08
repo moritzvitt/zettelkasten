@@ -18,8 +18,3 @@ Anki may then preserve only an [[zettelkasten/zettel/immersion-and-language-acqu
 ## Why It Matters
 
 This clarifies what a card should do, when Anki helps, and where immersion must perform the real work of building meaning.
-
-%%
-## Tags
-#language-learning #anki #translation
-%%

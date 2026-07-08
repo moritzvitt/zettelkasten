@@ -30,6 +30,319 @@ interface RenderComponents {
 }
 
 const headerRegex = new RegExp(/h[1-6]/)
+const excalidrawBlockRefRegex = /^#\^(area|group|frame)=([^&]+)$/
+const excalidrawTranscludeScript = `
+function setupExcalidrawTranscludes() {
+  const figures = document.querySelectorAll(".excalidraw-transclude:not([data-excalidraw-transclude-ready])")
+
+  for (const figure of figures) {
+    figure.setAttribute("data-excalidraw-transclude-ready", "true")
+    const svg = figure.querySelector(".excalidraw-transclude-svg")
+    if (!svg) continue
+
+    const values = (svg.getAttribute("viewBox") || "").trim().split(/[\\s,]+/).map(Number)
+    if (values.length !== 4 || values.some((value) => !Number.isFinite(value))) continue
+
+    const initial = { x: values[0], y: values[1], width: values[2], height: values[3] }
+    let viewBox = { ...initial }
+    let dragging = false
+    let pointerId = null
+    let startX = 0
+    let startY = 0
+    let originX = 0
+    let originY = 0
+    let moved = false
+    let pendingFrame = 0
+
+    const applyViewBoxNow = () => {
+      pendingFrame = 0
+      svg.setAttribute("viewBox", [viewBox.x, viewBox.y, viewBox.width, viewBox.height].join(" "))
+      figure.classList.toggle("is-zoomed", viewBox.width < initial.width - 0.001)
+    }
+
+    const applyViewBox = () => {
+      if (pendingFrame) return
+      pendingFrame = requestAnimationFrame(applyViewBoxNow)
+    }
+
+    const reset = () => {
+      viewBox = { ...initial }
+      applyViewBox()
+    }
+
+    const clientToSvg = (clientX, clientY) => {
+      const point = svg.createSVGPoint()
+      point.x = clientX
+      point.y = clientY
+      const matrix = svg.getScreenCTM()
+      return matrix ? point.matrixTransform(matrix.inverse()) : null
+    }
+
+    const zoomAt = (factor, clientX, clientY) => {
+      const point = clientToSvg(clientX, clientY)
+      if (!point) return
+
+      const currentScale = initial.width / viewBox.width
+      const nextScale = Math.min(18, Math.max(1, currentScale * factor))
+      const nextWidth = initial.width / nextScale
+      const nextHeight = initial.height / nextScale
+      const widthRatio = nextWidth / viewBox.width
+      const heightRatio = nextHeight / viewBox.height
+
+      viewBox = {
+        x: point.x - (point.x - viewBox.x) * widthRatio,
+        y: point.y - (point.y - viewBox.y) * heightRatio,
+        width: nextWidth,
+        height: nextHeight,
+      }
+
+      if (nextScale === 1) viewBox = { ...initial }
+      applyViewBox()
+    }
+
+    figure.addEventListener(
+      "wheel",
+      (event) => {
+        if (!event.shiftKey) return
+        const delta = Math.abs(event.deltaY) >= Math.abs(event.deltaX) ? event.deltaY : event.deltaX
+        if (!delta) return
+        event.preventDefault()
+        zoomAt(Math.exp(-delta * 0.002), event.clientX, event.clientY)
+      },
+      { passive: false },
+    )
+
+    figure.addEventListener("pointerdown", (event) => {
+      if (!event.shiftKey || event.button !== 0) return
+      event.preventDefault()
+      dragging = true
+      pointerId = event.pointerId
+      startX = event.clientX
+      startY = event.clientY
+      originX = viewBox.x
+      originY = viewBox.y
+      moved = false
+      figure.classList.add("is-dragging")
+      figure.setPointerCapture(pointerId)
+    })
+
+    figure.addEventListener("pointermove", (event) => {
+      if (!dragging || event.pointerId !== pointerId) return
+      event.preventDefault()
+      if (Math.hypot(event.clientX - startX, event.clientY - startY) > 4) moved = true
+      const rect = svg.getBoundingClientRect()
+      const unitsPerPixel = Math.max(viewBox.width / rect.width, viewBox.height / rect.height)
+      viewBox.x = originX - (event.clientX - startX) * unitsPerPixel
+      viewBox.y = originY - (event.clientY - startY) * unitsPerPixel
+      applyViewBox()
+    })
+
+    const stopDragging = (event) => {
+      if (!dragging || event.pointerId !== pointerId) return
+      dragging = false
+      pointerId = null
+      figure.classList.remove("is-dragging")
+    }
+
+    figure.addEventListener("pointerup", stopDragging)
+    figure.addEventListener("pointercancel", stopDragging)
+    figure.addEventListener("click", (event) => {
+      const openInNewContext = event.metaKey || event.ctrlKey || event.altKey || event.button === 1
+      if (moved || event.shiftKey || !openInNewContext) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+      moved = false
+    })
+    figure.addEventListener("dblclick", (event) => {
+      if (!event.shiftKey) return
+      event.preventDefault()
+      reset()
+    })
+
+    applyViewBox()
+  }
+}
+
+document.addEventListener("nav", setupExcalidrawTranscludes)
+document.addEventListener("render", setupExcalidrawTranscludes)
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", setupExcalidrawTranscludes, { once: true })
+} else {
+  setupExcalidrawTranscludes()
+}
+`
+
+function numeric(value: unknown): number | undefined {
+  return typeof value === "number" && Number.isFinite(value) ? value : undefined
+}
+
+function elementBounds(element: Record<string, unknown>) {
+  const x = numeric(element.x)
+  const y = numeric(element.y)
+  const width = numeric(element.width)
+  const height = numeric(element.height)
+  if (x === undefined || y === undefined || width === undefined || height === undefined) {
+    return undefined
+  }
+
+  return {
+    x: Math.min(x, x + width),
+    y: Math.min(y, y + height),
+    width: Math.abs(width),
+    height: Math.abs(height),
+  }
+}
+
+function mergeBounds(
+  current: { x: number; y: number; width: number; height: number } | undefined,
+  next: { x: number; y: number; width: number; height: number } | undefined,
+) {
+  if (!next) return current
+  if (!current) return next
+
+  const x = Math.min(current.x, next.x)
+  const y = Math.min(current.y, next.y)
+  const maxX = Math.max(current.x + current.width, next.x + next.width)
+  const maxY = Math.max(current.y + current.height, next.y + next.height)
+  return { x, y, width: maxX - x, height: maxY - y }
+}
+
+function excalidrawDataBounds(elements: Record<string, unknown>[]) {
+  return elements.reduce<{ x: number; y: number; width: number; height: number } | undefined>(
+    (bounds, element) => {
+      if (element.isDeleted) return bounds
+      return mergeBounds(bounds, elementBounds(element))
+    },
+    undefined,
+  )
+}
+
+function excalidrawFragmentBounds(
+  elements: Record<string, unknown>[],
+  fragmentKind: string,
+  fragmentId: string,
+) {
+  const decodedFragmentId = decodeURIComponent(fragmentId)
+  const element = elements.find(
+    (item) =>
+      !item.isDeleted &&
+      (item.id === fragmentId ||
+        item.id === decodedFragmentId ||
+        (fragmentKind === "frame" && item.type === "frame" && item.name === decodedFragmentId)),
+  )
+  if (!element) return undefined
+
+  if (fragmentKind === "frame") {
+    return elementBounds(element)
+  }
+
+  if (fragmentKind === "group") {
+    const groupIds = Array.isArray(element.groupIds) ? element.groupIds : []
+    const groupId = groupIds.at(-1)
+    if (typeof groupId === "string") {
+      const groupedBounds = elements.reduce<
+        { x: number; y: number; width: number; height: number } | undefined
+      >((bounds, item) => {
+        const itemGroupIds = Array.isArray(item.groupIds) ? item.groupIds : []
+        if (item.isDeleted || !itemGroupIds.includes(groupId)) return bounds
+        return mergeBounds(bounds, elementBounds(item))
+      }, undefined)
+      if (groupedBounds) return groupedBounds
+    }
+  }
+
+  return elementBounds(element)
+}
+
+function renderExcalidrawTransclude(
+  el: Element,
+  page: Record<string, unknown>,
+  blockRef: string | undefined,
+  inner: Element,
+) {
+  const match = blockRef?.match(excalidrawBlockRefRegex)
+  const exportData = page.excalidrawExport as
+    | {
+        lightPath?: string
+        darkPath?: string
+        viewBox?: { width?: number; height?: number }
+      }
+    | undefined
+  const elements = (page.excalidrawData as { elements?: Record<string, unknown>[] } | undefined)
+    ?.elements
+  const imagePath = exportData?.lightPath ?? exportData?.darkPath
+  const viewBoxWidth = numeric(exportData?.viewBox?.width)
+  const viewBoxHeight = numeric(exportData?.viewBox?.height)
+  if (!match || !elements || !imagePath || !viewBoxWidth || !viewBoxHeight) return false
+
+  const drawingBounds = excalidrawDataBounds(elements)
+  const fragmentBounds = excalidrawFragmentBounds(elements, match[1]!, match[2]!)
+  if (!drawingBounds || !fragmentBounds) return false
+
+  const exportPadding = 10
+  const cropPadding = match[1] === "group" ? 48 : match[1] === "frame" ? 0 : 24
+  const x = Math.max(0, fragmentBounds.x - drawingBounds.x + exportPadding - cropPadding)
+  const y = Math.max(0, fragmentBounds.y - drawingBounds.y + exportPadding - cropPadding)
+  const maxX = Math.min(
+    viewBoxWidth,
+    fragmentBounds.x - drawingBounds.x + exportPadding + fragmentBounds.width + cropPadding,
+  )
+  const maxY = Math.min(
+    viewBoxHeight,
+    fragmentBounds.y - drawingBounds.y + exportPadding + fragmentBounds.height + cropPadding,
+  )
+  const width = Math.max(1, maxX - x)
+  const height = Math.max(1, maxY - y)
+
+  el.tagName = "figure"
+  el.properties = { className: ["excalidraw-transclude"] }
+  el.children = [
+    {
+      type: "element",
+      tagName: "span",
+      properties: { className: ["excalidraw-transclude-hint"] },
+      children: [{ type: "text", value: "Shift halten: zoomen / verschieben" }],
+    },
+    {
+      type: "element",
+      tagName: "a",
+      properties: {
+        href: inner.properties?.href,
+        className: ["internal", "internal-link", "excalidraw-transclude-link"],
+        dataNoPopover: "true",
+      },
+      children: [
+        {
+          type: "element",
+          tagName: "svg",
+          properties: {
+            className: ["excalidraw-transclude-svg"],
+            viewBox: `${x} ${y} ${width} ${height}`,
+            role: "img",
+          },
+          children: [
+            {
+              type: "element",
+              tagName: "image",
+              properties: {
+                href: imagePath,
+                x: 0,
+                y: 0,
+                width: viewBoxWidth,
+                height: viewBoxHeight,
+              },
+              children: [],
+            },
+          ],
+        },
+      ],
+    },
+  ]
+
+  return true
+}
+
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
@@ -94,6 +407,12 @@ export function pageResources(
         script: contentIndexScript,
       },
       ...resolvedJs,
+      {
+        loadTime: "afterDOMReady",
+        contentType: "inline",
+        spaPreserve: true,
+        script: excalidrawTranscludeScript,
+      },
     ],
     additionalHead: staticResources.additionalHead,
   }
@@ -180,6 +499,11 @@ export function renderTranscludes(
       }
 
       let blockRef = el.properties.dataBlock as string | undefined
+      if (renderExcalidrawTransclude(el, page, blockRef, inner)) {
+        visited.delete(transcludeTarget)
+        continue
+      }
+
       if (blockRef?.startsWith("#^")) {
         // block transclude
         blockRef = blockRef.slice("#^".length)

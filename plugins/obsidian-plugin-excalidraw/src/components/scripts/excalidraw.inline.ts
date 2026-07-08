@@ -24,7 +24,7 @@ function initPanZoom(page) {
   const svg = container.querySelector("svg")
   const exportImage = container.querySelector(".excalidraw-export-image")
   if (!canvas || (!svg && !exportImage)) return
-  const transformTarget = exportImage ? canvas : svg
+  const transformTarget = canvas
 
   function updateExportTheme() {
     if (!exportImage) return
@@ -83,6 +83,8 @@ function initPanZoom(page) {
   let didDrag = false
   let startX = 0
   let startY = 0
+  let pendingTransformFrame = 0
+  let pendingOverlayFrame = 0
 
   function positionOverlays() {
     if (!overlaysContainer) return
@@ -151,18 +153,49 @@ function initPanZoom(page) {
     }
   }
 
-  positionOverlays()
-
-  function applyTransform() {
+  function applyTransformNow() {
+    pendingTransformFrame = 0
     transformTarget.style.transform =
       "translate(" + panX + "px, " + panY + "px) scale(" + zoom + ")"
+  }
+
+  function applyTransform() {
+    if (pendingTransformFrame) return
+    pendingTransformFrame = requestAnimationFrame(applyTransformNow)
+  }
+
+  function schedulePositionOverlays() {
+    if (pendingOverlayFrame) return
+    pendingOverlayFrame = requestAnimationFrame(function () {
+      pendingOverlayFrame = 0
+      positionOverlays()
+    })
+  }
+
+  positionOverlays()
+
+  function resetTransform() {
+    if (pendingTransformFrame) {
+      cancelAnimationFrame(pendingTransformFrame)
+      pendingTransformFrame = 0
+    }
+    applyTransformNow()
+  }
+
+  function resetOverlayPositions() {
+    if (pendingOverlayFrame) {
+      cancelAnimationFrame(pendingOverlayFrame)
+      pendingOverlayFrame = 0
+    }
     positionOverlays()
   }
 
   function handleWheel(e) {
     e.preventDefault()
-    var delta = e.deltaY > 0 ? -ZOOM_STEP : ZOOM_STEP
-    zoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, zoom + delta))
+    var wheelDelta = Math.abs(e.deltaY) >= Math.abs(e.deltaX) ? e.deltaY : e.deltaX
+    if (!wheelDelta) return
+    var zoomDelta = wheelDelta > 0 ? -ZOOM_STEP : ZOOM_STEP
+    zoom = Math.max(MIN_ZOOM, Math.min(MAX_ZOOM, zoom + zoomDelta))
     applyTransform()
   }
 
@@ -222,7 +255,7 @@ function initPanZoom(page) {
       zoom = 1
       panX = 0
       panY = 0
-      applyTransform()
+      resetTransform()
     })
   }
 
@@ -271,17 +304,17 @@ function initPanZoom(page) {
   container.addEventListener("touchstart", handleTouchStart, { passive: true })
   container.addEventListener("touchmove", handleTouchMove, { passive: false })
   container.addEventListener("touchend", handleTouchEnd)
-  var resizeObserver = new ResizeObserver(positionOverlays)
+  var resizeObserver = new ResizeObserver(schedulePositionOverlays)
   resizeObserver.observe(container)
   var themeObserver = new MutationObserver(function () {
     updateExportTheme()
-    positionOverlays()
+    schedulePositionOverlays()
   })
   themeObserver.observe(document.documentElement, {
     attributes: true,
     attributeFilter: ["saved-theme"],
   })
-  exportImage?.addEventListener("load", positionOverlays)
+  exportImage?.addEventListener("load", resetOverlayPositions)
 
   window.addCleanup(function () {
     closeNoteMenu()
@@ -298,7 +331,9 @@ function initPanZoom(page) {
     container.removeEventListener("touchend", handleTouchEnd)
     resizeObserver.disconnect()
     themeObserver.disconnect()
-    exportImage?.removeEventListener("load", positionOverlays)
+    if (pendingTransformFrame) cancelAnimationFrame(pendingTransformFrame)
+    if (pendingOverlayFrame) cancelAnimationFrame(pendingOverlayFrame)
+    exportImage?.removeEventListener("load", resetOverlayPositions)
   })
 }
 

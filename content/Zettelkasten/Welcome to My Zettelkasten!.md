@@ -1,19 +1,17 @@
 ---
 title: "Welcome to My Zettelkasten!"
-source: "Digital Garden/Zettelkasten/zettel/Welcome to My Zettelkasten!.md"
+source: "Digital Garden/Zettelkasten/Welcome to My Zettelkasten!.md"
 publish: true
 tags:
   - zettel
 ---
-Hello, I'm Moritz.
+Hello there! Somehow, you have found your way into my Zettelkasten!
 
-Somehow, you have found your way into my zettelkasten!
+[[zettelkasten/overview-of-topics-in-the-zettelkasten|Overview of Topics in the Zettelkasten]]
 
-If you want to get into the theory of language learning, [[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition|Language Acquisition]] is a good place to start.
+## Collaborating on these notes
 
-If you want to use Anki more effectively, especially for studying a language, have a look at [[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki|SRS (Spaced Repetition), Anki]].
-
-One final note: the markdown files in this Zettelkasten are public on GitHub:  
+The markdown files in this Zettelkasten are public on GitHub:  
 [github.com/moritzvitt/zettelkasten](https://github.com/moritzvitt/zettelkasten/tree/v5/content/Zettelkasten/zettel)
 
 My dream is to collaborate on these notes with others, in an open-source kind of way.  
@@ -29,4 +27,4 @@ The notes follow my own structure of thought. To truly engage with a topic, it i
 
 Perhaps one day I will write a plugin that allows visitors to create their own Excalidraw mind map directly on the website.
 
-In my view, these conceptual building blocks provide the perfect foundation for that.
+These conceptual building blocks provide the perfect foundation for that.

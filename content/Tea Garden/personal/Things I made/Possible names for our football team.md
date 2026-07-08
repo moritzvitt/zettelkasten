@@ -1,6 +1,6 @@
 ---
 title: "Possible names for our football team"
-source: "Digital Garden/Tea Garden/personal/Possible names for our football team.md"
+source: "Digital Garden/Tea Garden/personal/Things I made/Possible names for our football team.md"
 publish: true
 tags:
   - zettel
@@ -26,7 +26,6 @@ Mögliche Namen für das French Quarter Team:
 - Allez Krautz
 - Aber bitte mit Sané 
 
-
 Mit allez les bleu:
 - Allez les Blöd
 - Allez Blau (so wie alle blau)
@@ -46,7 +45,7 @@ Charles de Gaulle:
 - Charles de Goal 
 
 Mit Croissant und Baguette:
-- Croissant Unfited
+- Croissant United
 - Croissant Ronaldo (
 
 Ousmane Dembélé:
@@ -61,12 +60,11 @@ Olympique de Marseille:
 
 
 
-**Kilian camembappé**
+Kilian Camembappé
 
 Camembappé
 FC Camembert 
 Camembert 
-
 
 Brie,   
 
@@ -86,9 +84,16 @@ Klein mit Pappe
 
 N’ klein Mbappé au lait sil wu plä
 
-  
+Je ne Ball pas francais
+Je t'aimbappé
+Je t'embappé
+Jö t'embappé
 
-  
+
+
+Allemagne = AlleMannYeah! 
+
+oder: AllezMannYe!
 
 Champagner FC
 
@@ -97,6 +102,23 @@ Schampagner FC
 Schampanjer FC
 
 Schammpanjer
+**Les balleurs** 
+
+Les kickeurs 
+
+LesBolzeurs
+
+Les Dribbleurs
+
+LesMiserables 
+Les MiseraBall
+les MistAmBall
+Les MiesAmBall
+
+LaMannschaft ()
+
+L
+
 
 
 moritz: bring mal ein bisschen Ordnung in all diese Vorschläge (ohne etwas zu löschen!)

@@ -13,3 +13,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 ## Notizen
 
 - [[Drawings]] - Drawings from when I studied architecture !Pasted image 20260615142054.png !Pasted image 20260615142153.png !Pasted image 20260615142201.png !Pasted image 20260615153653.png !Pasted image 20260615142425.png Architecture
+- [[Possible names for our football team]] - Mögliche Namen für das French Quarter Team: - Die Franzosen kommen - Franzacken am Hacken - Franzocker - Baguette FC - Kylian Mbaguette - Mbappé au Lait - Mbappé mit Sahne - Aber Mbappé mit Sahne - FC Baguettona - Libert
