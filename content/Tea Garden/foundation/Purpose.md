@@ -10,7 +10,7 @@ tags:
 In brief: Sustainability, Truth, Community, and simply being human.
 
 The many iterations this Garden has gone through: [[tea-garden/foundation/digital-garden-website-versions-log|Digital Garden Website Versions log]]
-[[Development of the Logo]]
+[[tea-garden/foundation/development-of-the-logo|Development of the Logo]]
 ## **Sustainability**
 
 Protect life.
