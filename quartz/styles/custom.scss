@@ -119,6 +119,13 @@ article li {
   line-height: 0;
 }
 
+// Safari rasterizes the SVG's neon filters at a visibly lower resolution.
+@supports (font: -apple-system-body) and (-webkit-appearance: none) {
+  .page-title a {
+    background-image: url("static/page-title-logo-safari.png");
+  }
+}
+
 @media all and ($mobile) {
   .page > #quartz-body .left.sidebar {
     align-items: flex-start;

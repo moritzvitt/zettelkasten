@@ -10,7 +10,7 @@ tags:
 ---
 Hey, I am Moritz! 😃🙋🏻‍♂️
 
-This is my digital tea garden.  
+Welcome in my digital tea garden.  
 You are very welcome to look around, follow whatever path seems interesting, or just hang out for a while.  
 
 Have a tea, while you read! <span class="tea-kettle-easter-egg" role="button" tabindex="0" aria-label="Show glowing tree garden">🫖</span>  <sup><sub>*← click me*</sub></sup>
