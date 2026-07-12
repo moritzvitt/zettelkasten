@@ -8,7 +8,7 @@ tags:
 ![](https://www.youtube.com/watch?v=k5TzbBZsZVU)
 
 
-Messi scans many more times than the average player, helping him in optimising his distance to other players. This allows him to be in the best possible position.
+Messi scans many more times than the average player, helping him in maximising his distance to other players. 
 
 Messi creates geometry. 
 

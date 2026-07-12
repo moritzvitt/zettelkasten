@@ -1,13 +1,13 @@
 ---
-title: "Welcome to My Zettelkasten!"
-source: "Digital Garden/Zettelkasten/Welcome to My Zettelkasten!.md"
+title: "Welcome in my Zettelkasten!"
+source: "Digital Garden/Zettelkasten/Welcome in my Zettelkasten!.md"
 publish: true
 tags:
   - zettel
 ---
 Hello there! Somehow, you have found your way into my Zettelkasten!
 
-[[Overview of Topics in the Zettelkasten]]
+[[zettelkasten/overview-of-topics-in-the-zettelkasten|Overview of Topics in the Zettelkasten]]
 
 ## Collaborating on these notes
 

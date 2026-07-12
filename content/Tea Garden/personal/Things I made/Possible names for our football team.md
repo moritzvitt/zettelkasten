@@ -119,6 +119,33 @@ LaMannschaft ()
 
 L
 
+Ramenez Unicup à la maison
 
+Je m’appelle Franzviertel
+
+Lionel Merci
+
+  
+
+La7
+
+SeptFini 
+
+  
+
+RienNeVaPlus
+
+  
+
+LesJeuxSontFaits
+
+Les
+
+  
+
+Didier Dechamps
+Daddy Dechamps
+
+Daddy TheChamps
 
 moritz: bring mal ein bisschen Ordnung in all diese Vorschläge (ohne etwas zu löschen!)

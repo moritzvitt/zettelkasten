@@ -30,3 +30,18 @@ Politik 
 Studium in der Zukunft
 International Relations? (Mit Fokus aus Asien?)
 eher weg von Data Science... (leicht ersetzbar, durch KI)
+  
+
+**Coole Marken und Firmen (für die ich evtl. arbeiten kann)**
+
+  
+
+Muji
+
+Uniqlo
+
+Bosch
+
+  
+
+Ecosia

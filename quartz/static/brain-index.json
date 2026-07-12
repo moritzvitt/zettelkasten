@@ -17,6 +17,15 @@
         "zettel"
       ]
     },
+    "tea-garden/japanese/favourite-japanese-songs": {
+      "slug": "tea-garden/japanese/favourite-japanese-songs",
+      "title": "favourite japanese songs",
+      "source": "Digital Garden/Tea Garden/Japanese/favourite japanese songs.md",
+      "url": "/tea-garden/japanese/favourite-japanese-songs",
+      "tags": [
+        "zettel"
+      ]
+    },
     "index": {
       "slug": "index",
       "title": "Welcome in my Digital Garden!",
@@ -53,6 +62,15 @@
         "zettel"
       ]
     },
+    "tea-garden/job-related/organisational-stuff,-future-plans.": {
+      "slug": "tea-garden/job-related/organisational-stuff,-future-plans.",
+      "title": "Organisational stuff, Future plans.",
+      "source": "Digital Garden/Tea Garden/job-related/Organisational stuff, Future plans..md",
+      "url": "/tea-garden/job-related/organisational-stuff,-future-plans.",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/about-me": {
       "slug": "tea-garden/personal/about-me",
       "title": "About me",
@@ -71,6 +89,15 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/green-tea": {
+      "slug": "tea-garden/personal/green-tea",
+      "title": "Green Tea",
+      "source": "Digital Garden/Tea Garden/personal/Green Tea.md",
+      "url": "/tea-garden/personal/green-tea",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/messi-is-art": {
       "slug": "tea-garden/personal/messi-is-art",
       "title": "Messi is Art",
@@ -80,11 +107,11 @@
         "zettel"
       ]
     },
-    "tea-garden/personal/organisational-stuff,-future-plans.": {
-      "slug": "tea-garden/personal/organisational-stuff,-future-plans.",
-      "title": "Organisational stuff, Future plans.",
-      "source": "Digital Garden/Tea Garden/personal/Organisational stuff, Future plans..md",
-      "url": "/tea-garden/personal/organisational-stuff,-future-plans.",
+    "tea-garden/personal/psalm-23": {
+      "slug": "tea-garden/personal/psalm-23",
+      "title": "Psalm 23",
+      "source": "Digital Garden/Tea Garden/personal/Psalm 23.md",
+      "url": "/tea-garden/personal/psalm-23",
       "tags": [
         "zettel"
       ]
@@ -107,11 +134,29 @@
         "zettel"
       ]
     },
-    "zettelkasten/welcome-to-my-zettelkasten!": {
-      "slug": "zettelkasten/welcome-to-my-zettelkasten!",
-      "title": "Welcome to My Zettelkasten!",
-      "source": "Digital Garden/Zettelkasten/Welcome to My Zettelkasten!.md",
-      "url": "/zettelkasten/welcome-to-my-zettelkasten!",
+    "tea-garden/personal/things-i-made/pixel-art": {
+      "slug": "tea-garden/personal/things-i-made/pixel-art",
+      "title": "pixel art",
+      "source": "Digital Garden/Tea Garden/personal/Things I made/pixel art.md",
+      "url": "/tea-garden/personal/things-i-made/pixel-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
+      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "title": "Why should you learn a language, and what is it even that you are learning?",
+      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
+      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/welcome-in-my-zettelkasten!": {
+      "slug": "zettelkasten/welcome-in-my-zettelkasten!",
+      "title": "Welcome in my Zettelkasten!",
+      "source": "Digital Garden/Zettelkasten/Welcome in my Zettelkasten!.md",
+      "url": "/zettelkasten/welcome-in-my-zettelkasten!",
       "tags": [
         "zettel"
       ]

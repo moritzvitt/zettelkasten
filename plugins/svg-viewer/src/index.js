@@ -1,3 +1,47 @@
+import { visit } from "unist-util-visit"
+
+function propertyValue(value) {
+  return Array.isArray(value) ? value.join(" ") : value
+}
+
+function isExcalidrawSvgUrl(value) {
+  if (typeof value !== "string") return false
+  return value.includes("static/excalidraw/") || /\.excalidraw(?:\.|$)/i.test(value)
+}
+
+function numericDimension(value) {
+  const normalized = String(propertyValue(value) ?? "").trim()
+  return /^\d+$/.test(normalized) ? normalized : undefined
+}
+
+function normalizeSvgObjectEmbeds() {
+  return (tree) => {
+    visit(tree, "element", (node) => {
+      if (node.tagName !== "object") return
+
+      const properties = node.properties ?? {}
+      const type = String(propertyValue(properties.type) ?? "").toLowerCase()
+      const data = propertyValue(properties.data)
+      if (type !== "image/svg+xml" || typeof data !== "string" || isExcalidrawSvgUrl(data)) {
+        return
+      }
+
+      const width = numericDimension(properties.width)
+      const height = numericDimension(properties.height)
+      const alt = String(propertyValue(properties.ariaLabel ?? properties["aria-label"]) ?? "")
+
+      node.tagName = "img"
+      node.properties = {
+        src: data,
+        alt,
+        ...(width ? { width } : {}),
+        ...(height ? { height } : {}),
+      }
+      node.children = []
+    })
+  }
+}
+
 const viewerScript = `
 let svgLinkIndexPromise
 
@@ -407,6 +451,13 @@ function initializeSvgViewers() {
   )
 
   for (const object of objects) {
+    const data = object.getAttribute("data") || ""
+    const isExcalidrawSvg =
+      data.includes("static/excalidraw/") ||
+      new RegExp("\\\\.excalidraw(?:\\\\.|$)", "i").test(data)
+    if (!isExcalidrawSvg) {
+      continue
+    }
     setupSvgViewer(object)
   }
 }
@@ -620,7 +671,7 @@ export default function SvgViewer() {
   return {
     name: "SvgViewer",
     htmlPlugins() {
-      return []
+      return [normalizeSvgObjectEmbeds]
     },
     externalResources() {
       return {
