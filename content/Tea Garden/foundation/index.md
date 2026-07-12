@@ -12,6 +12,7 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[**Purpose**]] - **Purpose** In brief: Sustainability, Truth, Community, and simply being human. The many iterations this Garden has gone through: Digital Garden Website Versions log Development of the Logo **Sustainability** Protect lif
-- [[Development of the Logo]] - Mir gefällt hier der untere Schriftzug "Garden" (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum "Moritz" Schriftzug. !276 Elias: dieses Video funktioniert nicht auf der Website !Screen Recordi
-- [[Digital Garden Website Versions log]] - First ideas for a fun interactive landing page with easter eggs. "Art Gallery" style. !185 !84 !182 The collection of japanese media notes. Looks like notes in a folder. Or sticky notes. !162 Graph view with ink bleeding
+- [[**Purpose**]] - **Purpose** In brief: Sustainability, Truth, Community, Connection and simply being human. This note provides the basis for all further work in this garden. The design and content of this garden is based on this note, Pu
+- [[Development of the Logo]] - moritz: übersetze folgendes auf englisch: Mir gefällt hier der untere Schriftzug "Garden" (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum "Moritz" Schriftzug. !276 moritz: dieses Video funktio
+- [[Versions Log]] - First ideas for a fun interactive landing page with easter eggs. "Art Gallery" style. !185 !84 !182 The collection of japanese media notes. Looks like notes in a folder. Or sticky notes. !162 Graph view with ink bleeding
+- [[Working with AI - statement]] - Human work and AI augmented work should remain distinguishable. Every note, that has been augmented by AI will from now have "AGENT" written before it's name (Sun. 12.07.2026)

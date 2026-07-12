@@ -7,7 +7,7 @@ tags:
 ---
 Hello there! Somehow, you have found your way into my Zettelkasten!
 
-[[zettelkasten/overview-of-topics-in-the-zettelkasten|Overview of Topics in the Zettelkasten]]
+[[Overview of Topics in the Zettelkasten]]
 
 ## Collaborating on these notes
 

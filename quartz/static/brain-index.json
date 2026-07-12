@@ -44,20 +44,29 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/digital-garden-website-versions-log": {
-      "slug": "tea-garden/foundation/digital-garden-website-versions-log",
-      "title": "Digital Garden Website Versions log",
-      "source": "Digital Garden/Tea Garden/foundation/Digital Garden Website Versions log.md",
-      "url": "/tea-garden/foundation/digital-garden-website-versions-log",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/foundation/purpose": {
       "slug": "tea-garden/foundation/purpose",
       "title": "**Purpose**",
       "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
       "url": "/tea-garden/foundation/purpose",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/versions-log": {
+      "slug": "tea-garden/foundation/versions-log",
+      "title": "Versions Log",
+      "source": "Digital Garden/Tea Garden/foundation/Versions Log.md",
+      "url": "/tea-garden/foundation/versions-log",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/working-with-ai---statement": {
+      "slug": "tea-garden/foundation/working-with-ai---statement",
+      "title": "Working with AI - statement",
+      "source": "Digital Garden/Tea Garden/foundation/Working with AI - statement.md",
+      "url": "/tea-garden/foundation/working-with-ai---statement",
       "tags": [
         "zettel"
       ]
@@ -139,15 +148,6 @@
       "title": "pixel art",
       "source": "Digital Garden/Tea Garden/personal/Things I made/pixel art.md",
       "url": "/tea-garden/personal/things-i-made/pixel-art",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
-      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
-      "title": "Why should you learn a language, and what is it even that you are learning?",
-      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
-      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
       "tags": [
         "zettel"
       ]

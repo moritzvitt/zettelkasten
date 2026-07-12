@@ -7,10 +7,16 @@ tags:
 ---
 # **Purpose**
 
-In brief: Sustainability, Truth, Community, and simply being human.
+In brief: Sustainability, Truth, Community, Connection and simply being human.
 
-The many iterations this Garden has gone through: [[tea-garden/foundation/digital-garden-website-versions-log|Digital Garden Website Versions log]]
-[[tea-garden/foundation/development-of-the-logo|Development of the Logo]]
+This note provides the basis for all further work in this garden. 
+The design and content of this garden is based on this note, [[tea-garden/foundation/purpose|Purpose]].
+
+The many iterations the design of this garden has gone through:
+- [[tea-garden/foundation/versions-log|Versions Log]]
+- [[tea-garden/foundation/development-of-the-logo|Development of the Logo]]
+
+
 ## **Sustainability**
 
 Protect life.

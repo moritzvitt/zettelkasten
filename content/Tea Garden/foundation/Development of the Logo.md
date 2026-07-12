@@ -5,14 +5,19 @@ publish: true
 tags:
   - zettel
 ---
-Mir gefällt hier der untere Schriftzug "Garden" (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum "Moritz" Schriftzug. 
+moritz: übersetze folgendes auf englisch: Mir gefällt hier der untere Schriftzug "Garden" (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum "Moritz" Schriftzug. 
+
 ![[Pasted image 20260709193033.png|276]]
 
 
-Elias: dieses Video funktioniert nicht auf der Website
-![[Screen Recording 2026-07-09 at 14.56.16.mov]]
+moritz: dieses Video funktioniert nicht auf der Website
+The logo now flickers and makes a buzzing sound on hover, like real neon tubes do.
 
-Das sieht auch irgendwie gut aus. Ich versuche gerade mit dem Blur einen Flacker-Effekt hinzubekommen. 
+![[Screen Recording 2026-07-12 at 20.04.16.mov]]
+
+
+While experimenting, I ended up with this interesting design. 
+It's less readable, but I really like how it looks. As if you were watching neon lights through a window glass on a rainy day.
 
 ![[Pasted image 20260709144854.png|441]]
 
@@ -21,6 +26,7 @@ Das sieht auch irgendwie gut aus. Ich versuche gerade mit dem Blur einen Flacker
 
 Newest addition: a little bonzai tree. 
 Not yet quite sure about the colours of the "Garden" lettering (yellow neon tube with red glow?).
+
 ![[new-logo-version-5.svg|393]]
 
 
@@ -28,7 +34,7 @@ Not yet quite sure about the colours of the "Garden" lettering (yellow neon tube
 
 Neon glow is now less complicated (just 2 layers, one blur).
 Neon lights also don't glow purely in white. It actually depends on the gas they contain (mercury for blue, neon for orange glow). 
-I really like the colours here. Got inspired by a neon sign from Hongkong. 
+I really like the colours here. Inspired by a neon sign from Hongkong. 
 
 ![[new-logo-version-4.svg|349]]
 
@@ -37,11 +43,12 @@ I really like the colours here. Got inspired by a neon sign from Hongkong.
 
 08.07.2026, 3rd Version, 
 
-![[new-logo-3rd-version.svg|296]]![[new-logo-3rd-version 1.svg|637]]
+![[new-logo-3rd-version.svg|232]]![[new-logo-3rd-version 1.svg|227]]
 
-![[page-title-logo.svg|637]]
+2nd Version, The green neon glow is quite elaborate (several different layers, whereas in later versions I used only 2.)
+![[page-title-logo.svg|357]]
 
 ![[Pasted image 20260708202832.png|420]]
 
-The first version with neon glow. The Logo itself is an SVG and the glow is added in custom.css.
+The very first version with neon glow. The Logo itself is an SVG and the glow is added in custom.css.
 ![[Pasted image 20260708203606.png|323]]
