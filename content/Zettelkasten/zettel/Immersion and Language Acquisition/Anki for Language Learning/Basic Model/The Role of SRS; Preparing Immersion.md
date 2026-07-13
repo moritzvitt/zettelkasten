@@ -1,9 +1,10 @@
 ---
 title: "The Role of SRS; Preparing Immersion"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md"
+next:
+  - "[[Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning
+    Lists]]"
 publish: true
-graphLinks:
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists]]"
 tags:
   - zettel
 ---
@@ -18,16 +19,3 @@ Important: this is only an entry. Definitions, example sentences, synonyms, and 
 ## Why It Matters
 
 The actual learning of the word happens afterwards in input. Every encounter in reading or listening refines the entry through sound, context, register, and collocations. Anki gives the word an address; immersion fills it with meaning.
-
-%%
-## Links
-
-Prev::
-Next:: [[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists|Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists]]
-Parent::
-Child::
-Friend::
-
-## Tags
-#anki #language-learning #language-acquisition #translation
-%%

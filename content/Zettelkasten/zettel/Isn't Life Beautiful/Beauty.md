@@ -18,16 +18,3 @@ Thinking too much about beauty can destroy it for oneself.
 ## Why It Matters
 
 This note preserves a basic intuition that can serve as a horizon of value and meaning for other reflections in the zettelkasten.
-
-%%
-## Links
-
-Prev::
-Next::
-Parent::
-Child::
-Friend::
-
-## Tags
-#zettel
-%%

@@ -152,6 +152,24 @@
         "zettel"
       ]
     },
+    "zettelkasten/language-learning-theory": {
+      "slug": "zettelkasten/language-learning-theory",
+      "title": "**The Why and the What**",
+      "source": "Digital Garden/Zettelkasten/Language Learning Theory.md",
+      "url": "/zettelkasten/language-learning-theory",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
+      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "title": "Overview of Topics in the Zettelkasten",
+      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
+      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
+      "tags": [
+        "zettel"
+      ]
+    },
     "zettelkasten/welcome-in-my-zettelkasten!": {
       "slug": "zettelkasten/welcome-in-my-zettelkasten!",
       "title": "Welcome in my Zettelkasten!",
@@ -1079,6 +1097,15 @@
         "zettel"
       ]
     },
+    "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index": {
+      "slug": "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
+      "title": "米津玄師 Kenshi Yonezu - Lemon",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米津玄師 Kenshi Yonezu - Lemon/米津玄師 Kenshi Yonezu - Lemon.md",
+      "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
+      "tags": [
+        "zettel"
+      ]
+    },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {
       "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
       "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
@@ -1325,16 +1352,16 @@
       "explicit": true
     },
     {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
-      "type": "next",
-      "explicit": true
-    },
-    {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "type": "prev",
       "explicit": true
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
+      "type": "next",
+      "explicit": false
     },
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
@@ -1393,30 +1420,6 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment",
-      "type": "friend",
-      "explicit": false
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "type": "next",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "type": "prev",
-      "explicit": false
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
-      "type": "friend",
-      "explicit": true
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "type": "friend",
       "explicit": false
     },
@@ -1615,18 +1618,18 @@
       "direction": "both"
     },
     {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
-      "type": "next",
-      "explicit": true,
-      "direction": "both"
-    },
-    {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "type": "prev",
       "explicit": true,
-      "direction": "both"
+      "direction": "from"
+    },
+    {
+      "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
+      "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
+      "type": "next",
+      "explicit": false,
+      "direction": "to"
     },
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
@@ -1694,34 +1697,6 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment",
-      "type": "friend",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "type": "next",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "type": "prev",
-      "explicit": false,
-      "direction": "to"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "type": "friend",
       "explicit": false,
       "direction": "to"
@@ -1904,13 +1879,6 @@
       "direction": "from"
     },
     {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
-      "type": "next",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "type": "prev",
@@ -1948,20 +1916,6 @@
     {
       "from": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment",
       "to": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion",
-      "type": "friend",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
-      "type": "next",
-      "explicit": true,
-      "direction": "from"
-    },
-    {
-      "from": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
-      "to": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
       "type": "friend",
       "explicit": true,
       "direction": "from"

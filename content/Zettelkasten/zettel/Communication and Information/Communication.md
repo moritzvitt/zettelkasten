@@ -13,7 +13,3 @@ tags:
 
 Communication is the bilateral process of transmitting information.
 It is also the process through which an information network organizes itself.
-
-## Why It Matters
-
-This note clarifies one building block for understanding how language, culture, institutions, and media work together as information networks.

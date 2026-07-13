@@ -12,5 +12,3 @@ tags:
 Per definition: rules and their enforcement.
 
 ## Why It Matters
-
-This note clarifies one building block for understanding how language, culture, institutions, and media work together as information networks.

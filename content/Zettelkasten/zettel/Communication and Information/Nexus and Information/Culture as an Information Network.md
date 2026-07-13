@@ -1,6 +1,9 @@
 ---
 title: "Culture as an Information Network"
 source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md"
+next:
+  - "[[Means of Communication Within a Culture]]"
+  - "[[Institutions of a Culture]]"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture]]"
@@ -13,7 +16,7 @@ tags:
 
 ## Claim
 
-A culture is an information network with established rules and conventions. Culture connects different means of communication and institutions in order to organize itself.
+A culture is an information network with established rules and conventions. Culture connects different means of communication and institutions in order to organise itself.
 
 Means of communication:
 

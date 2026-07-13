@@ -16,8 +16,3 @@ For language learning, its role is not to contain the language, but to keep sele
 ## Why It Matters
 
 SRS is most useful when it supports later encounters with real language instead of becoming a substitute for them.
-
-%%
-## Tags
-#anki #srs #language-learning #translation
-%%

@@ -1,10 +1,9 @@
 ---
 title: "Functional Fluency"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md"
+next:
+  - "[[Language Acquisition]]"
 publish: true
-graphLinks:
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition]]"
-  - "[[zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance]]"
 tags:
   - zettel
 ---
@@ -27,16 +26,3 @@ You may not already know every technical term for spaceflight, but you have the 
 ## Why It Matters
 
 This note clarifies how languages can remain accessible or be reactivated over time without keeping every ability permanently at peak performance.
-
-%%
-## Links
-
-Prev::
-Next:: [[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition|Language Acquisition]]
-Parent::
-Child::
-Friend:: [[zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance|Multilingualism Is Reactivation, Not Constant Performance]]
-
-## Tags
-#language-learning #translation
-%%
