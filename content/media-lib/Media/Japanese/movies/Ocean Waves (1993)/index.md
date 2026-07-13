@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[Ocean Waves]] - Kurznotiz Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und Beziehungssprache, mit deutlichen Tosa/Kochi-Färbungen wie `〜き`, `〜が`, `〜ちゅう` und `〜やき`. Lernliste - 45:25 ==連れてく==（||つれてく||） - mit
+- [[media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves|Ocean Waves]] - Kurznotiz Sprachlich nützlich ist der Film vor allem wegen alltagstauglicher Jugend- und Beziehungssprache, mit deutlichen Tosa/Kochi-Färbungen wie `〜き`, `〜が`, `〜ちゅう` und `〜やき`. Lernliste - 45:25 ==連れてく==（||つれてく||） - mit

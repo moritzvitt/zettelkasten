@@ -1,0 +1,24 @@
+{
+  "name": "@moritzvitt/quartz-pdf-viewer",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "quartz": {
+    "name": "pdf-viewer",
+    "displayName": "PDF Viewer",
+    "category": "emitter",
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 68,
+    "defaultOptions": {}
+  }
+}

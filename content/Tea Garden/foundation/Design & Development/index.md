@@ -12,8 +12,6 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[Design Ideas]] - The little pet in the lower right corner (codex pet) looks fun! It also fills the big white space down there! I could potentially create a pixel art pet to show there! !Pasted image 20260713173708.png
-- [[Development of the Logo]] - I like the lower "Garden" lettering here (a simple serif font). It adds some variety compared with the "Moritz" lettering. !276 The logo now flickers and makes a buzzing sound on hover, like real neon tubes do. !150x200
-- [[Digital Garden Architecture & Design]] - The ideas in Purpose (search of truth & clear thinking) lead to following design principles: I follow these design principles - minimalism (only really necessary information) - simplicity (only essential stuff matters, d
-- [[Plugins Media Extended]] - Ansonsten werden youtube Videos per iframe abgespielt. Media Extended für Quartz Funktionalitäten: - audio player soll funktionieren: - Media Extended Funktionalitäten generell sollten funktionieren - Links in der Note s
-- [[Versions Log]] - Stand 05.07.2026!Pasted image 20260705212748.png Meine Teekanne würde genau zu dem jetzigen Farbschema passen: !256 Vielleicht kann ich den ink bleed Effekt noch verbessern: https://andyjakubowski.com/tutorial/ink-bleed-
+- [[tea-garden/foundation/design-&-development/design-ideas|Design Ideas]] - Das Logo könnte auch Richtung Lichtbox gehen. Generell könnte die "music" page ja vielleicht ganz viele Schallplatten zeigen. So ein Schallplatten regal. The audio player could be a mix of the current version and this (
+- [[tea-garden/foundation/design-&-development/human-design-overview|Human Design Overview]] - Styling: my own logo: Development of the Logo. own plugins: Plugins Media Control Plugins Media Control my font: my own font font versions log Link-Stil, ## Toolbar zeigt aktuell drei icons und die Suchleiste. Light/Dark
+- [[tea-garden/foundation/design-&-development/versions-log|Versions Log]] - Stand 05.07.2026!Pasted image 20260705212748.png Meine Teekanne würde genau zu dem jetzigen Farbschema passen: !256 Vielleicht kann ich den ink bleed Effekt noch verbessern: https://andyjakubowski.com/tutorial/ink-bleed-

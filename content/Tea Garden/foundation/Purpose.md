@@ -8,6 +8,7 @@ tags:
 # **Purpose**
 In brief: Sustainability, Truth, Community, Connection and simply being human.
 This note provides the basis for all further work in this garden. 
+[[tea-garden/foundation/design-&-development/human-design-overview|Human Design Overview]]
 ## **Sustainability**
 Protect life.
 
@@ -29,7 +30,7 @@ _(The Garden and the Stream)_
 
 🌳
 
-𐃘 Therefore, the Garden is designed according to the principles of [[zettelkasten/zettel/design-principles/minimalism|Minimalism]]: it should promote clarity and reduce distraction. This follows naturally from the search for truth and the idea of free thinking. ([[tea-garden/foundation/design-&-development/digital-garden-architecture-&-design|Digital Garden Architecture & Design]])
+𐃘 Therefore, the Garden is designed according to the principles of [[zettelkasten/zettel/design-principles/minimalism|Minimalism]]: it should promote clarity and reduce distraction. This follows naturally from the search for truth and the idea of free thinking. ([[Digital Garden Architecture & Design]])
 ## **Community**
 A community of people and all living beings.
 

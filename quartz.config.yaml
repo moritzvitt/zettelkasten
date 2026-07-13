@@ -89,6 +89,9 @@ plugins:
   - source: ./plugins/svg-viewer
     enabled: true
     order: 67
+  - source: ./plugins/pdf-viewer
+    enabled: true
+    order: 68
   - source: github:quartz-community/description
     enabled: true
     order: 70
@@ -119,7 +122,7 @@ plugins:
   - source: github:quartz-community/folder-page
     enabled: true
   - source: github:quartz-community/tag-page
-    enabled: false
+    enabled: true
   - source: ./plugins/explorer
     enabled: false
     options:
@@ -158,7 +161,7 @@ plugins:
         linkDistance: 42
         fontSize: 0.55
         opacityScale: 0.85
-        showTags: false
+        showTags: true
       globalGraph:
         enabled: false
         depth: -1
@@ -168,7 +171,7 @@ plugins:
         linkDistance: 36
         fontSize: 0.55
         opacityScale: 0.8
-        showTags: false
+        showTags: true
     layout:
       position: right
       priority: 10
@@ -246,7 +249,7 @@ plugins:
       links:
         Zettelkasten: /
   - source: github:quartz-community/spacer
-    enabled: false
+    enabled: true
     options: {}
     order: 25
     layout:
@@ -292,13 +295,9 @@ layout:
         right: []
     content: {}
     folder:
-      exclude:
-        - reader-mode
       positions:
         right: []
     tag:
-      exclude:
-        - reader-mode
       positions:
         right: []
     canvas: {}

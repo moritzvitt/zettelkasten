@@ -8,20 +8,20 @@
     "sibling"
   ],
   "nodes": {
-    "tea-garden/japanese/all-2136-joyo-kanji": {
-      "slug": "tea-garden/japanese/all-2136-joyo-kanji",
-      "title": "All 2136 Joyo Kanji",
-      "source": "Digital Garden/Tea Garden/Japanese/All 2136 Joyo Kanji.md",
-      "url": "/tea-garden/japanese/all-2136-joyo-kanji",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/japanese/japanese-topics": {
       "slug": "tea-garden/japanese/japanese-topics",
       "title": "Japanese Topics",
       "source": "Digital Garden/Tea Garden/Japanese/Japanese Topics.md",
       "url": "/tea-garden/japanese/japanese-topics",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/japanese/character-sets-for-making-custom-fonts": {
+      "slug": "tea-garden/japanese/character-sets-for-making-custom-fonts",
+      "title": "character sets for making custom fonts",
+      "source": "Digital Garden/Tea Garden/Japanese/character sets for making custom fonts.md",
+      "url": "/tea-garden/japanese/character-sets-for-making-custom-fonts",
       "tags": [
         "zettel"
       ]
@@ -44,6 +44,15 @@
         "zettel"
       ]
     },
+    "tea-garden/foundation/design-&-development/design/development-of-the-logo": {
+      "slug": "tea-garden/foundation/design-&-development/design/development-of-the-logo",
+      "title": "Development of the Logo",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design/Development of the Logo.md",
+      "url": "/tea-garden/foundation/design-&-development/design/development-of-the-logo",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/foundation/design-&-development/design-ideas": {
       "slug": "tea-garden/foundation/design-&-development/design-ideas",
       "title": "Design Ideas",
@@ -53,29 +62,11 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/development-of-the-logo": {
-      "slug": "tea-garden/foundation/design-&-development/development-of-the-logo",
-      "title": "Development of the Logo",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Development of the Logo.md",
-      "url": "/tea-garden/foundation/design-&-development/development-of-the-logo",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/digital-garden-architecture-&-design": {
-      "slug": "tea-garden/foundation/design-&-development/digital-garden-architecture-&-design",
-      "title": "Digital Garden Architecture & Design",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Digital Garden Architecture & Design.md",
-      "url": "/tea-garden/foundation/design-&-development/digital-garden-architecture-&-design",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/plugins-media-extended": {
-      "slug": "tea-garden/foundation/design-&-development/plugins-media-extended",
-      "title": "Plugins Media Extended",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Plugins Media Extended.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins-media-extended",
+    "tea-garden/foundation/design-&-development/human-design-overview": {
+      "slug": "tea-garden/foundation/design-&-development/human-design-overview",
+      "title": "Human Design Overview",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Human Design Overview.md",
+      "url": "/tea-garden/foundation/design-&-development/human-design-overview",
       "tags": [
         "zettel"
       ]
@@ -89,11 +80,11 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website": {
-      "slug": "tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website",
-      "title": "how the font looks on the website",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/how the font looks on the website.md",
-      "url": "/tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website",
+    "tea-garden/foundation/design-&-development/font/font-versions-log": {
+      "slug": "tea-garden/foundation/design-&-development/font/font-versions-log",
+      "title": "font versions log",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/font versions log.md",
+      "url": "/tea-garden/foundation/design-&-development/font/font-versions-log",
       "tags": [
         "zettel"
       ]
@@ -103,6 +94,24 @@
       "title": "my own font",
       "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/my own font.md",
       "url": "/tea-garden/foundation/design-&-development/font/my-own-font",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz",
+      "title": "Excalibrain for Quartz",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Excalibrain for Quartz.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/plugins/plugins-media-control": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/plugins-media-control",
+      "title": "Plugins Media Control",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Plugins Media Control.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/plugins-media-control",
       "tags": [
         "zettel"
       ]
@@ -136,7 +145,7 @@
     },
     "tea-garden/music/tchaikovsky---symphony-no.-4": {
       "slug": "tea-garden/music/tchaikovsky---symphony-no.-4",
-      "title": "Tchaikovsky - Symphony No. 4",
+      "title": "Tchaikovsky - Symphony No. 4 f-moll op. 36",
       "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
       "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
       "tags": [

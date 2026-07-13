@@ -7,6 +7,8 @@ import {
   relationshipTypes,
   withInverseRelationships,
 } from "./relationship-parser.mjs"
+import { assetHref } from "./asset-path.mjs"
+import { renderPdfEmbed } from "./pdf-embed.mjs"
 
 const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
 const digitalGardenRoot =
@@ -189,10 +191,6 @@ function escapeHtml(value) {
     .replaceAll('"', "&quot;")
 }
 
-function assetHref(target) {
-  return `./${path.basename(target).split("/").map(encodeURIComponent).join("/")}`
-}
-
 function embedSize(label) {
   if (!label) return {}
   const value = label.trim()
@@ -220,9 +218,11 @@ function renderAssetEmbed(target, label) {
   const size = embedSize(label)
 
   if (pdfAssetExtensions.has(ext)) {
-    return `<iframe class="pdf" src="${href}" title="${title}"${sizeStyle(size, {
-      height: 600,
-    })}></iframe>`
+    return renderPdfEmbed({
+      href,
+      title,
+      styleAttribute: sizeStyle(size, { height: 600 }),
+    })
   }
 
   if (videoAssetExtensions.has(ext)) {
@@ -304,7 +304,7 @@ function folderIndex(relDir, notes) {
     "",
     "## Notizen",
     "",
-    ...notes.map((note) => `- [[${note.title}]] - ${note.excerpt}`),
+    ...notes.map((note) => `- [[${graphPath(note)}|${note.title}]] - ${note.excerpt}`),
     "",
   ].join("\n")
 }
@@ -494,10 +494,17 @@ const lookupByLanguage = new Map(
   ]),
 )
 const slugSet = new Set(rawNotes.map((note) => graphPath(note)))
+const folderIndexBySlug = new Map(
+  rawNotes
+    .filter((note) => note.relDir)
+    .map((note) => [slugPath(note.relDir), slugPath(path.join(note.relDir, "index.md"))]),
+)
 const resolve = (note, target) => {
   if (target.includes("/")) {
     const explicitSlug = slugPath(cleanTargetPath(target))
     if (slugSet.has(explicitSlug)) return explicitSlug
+    const folderIndexSlug = folderIndexBySlug.get(explicitSlug)
+    if (folderIndexSlug) return folderIndexSlug
   }
 
   const lookup = lookupByLanguage.get(languageGroup(note))

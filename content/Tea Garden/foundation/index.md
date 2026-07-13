@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[**Purpose**]] - **Purpose** In brief: Sustainability, Truth, Community, Connection and simply being human. This note provides the basis for all further work in this garden. **Sustainability** Protect life. A meaningful life is a sustain
+- [[tea-garden/foundation/purpose|**Purpose**]] - **Purpose** In brief: Sustainability, Truth, Community, Connection and simply being human. This note provides the basis for all further work in this garden. Human Design Overview **Sustainability** Protect life. A meanin

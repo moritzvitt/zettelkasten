@@ -1,6 +1,6 @@
 ---
 title: "Development of the Logo"
-source: "Digital Garden/Tea Garden/foundation/Design & Development/Development of the Logo.md"
+source: "Digital Garden/Tea Garden/foundation/Design & Development/Design/Development of the Logo.md"
 publish: true
 tags:
   - zettel
@@ -12,7 +12,7 @@ I like the lower "Garden" lettering here (a simple serif font). It adds some var
 
 The logo now flickers and makes a buzzing sound on hover, like real neon tubes do.
 
-<video controls playsinline preload="metadata" src="./Screen%20Recording%202026-07-12%20at%2020.04.16.mov" width="150" height="200" title="Screen Recording 2026-07-12 at 20.04.16.mov"></video>
+<video controls playsinline preload="metadata" src="./Screen Recording 2026-07-12 at 20.04.16.mov" width="150" height="200" title="Screen Recording 2026-07-12 at 20.04.16.mov"></video>
 
 
 While experimenting, I ended up with this interesting design. 

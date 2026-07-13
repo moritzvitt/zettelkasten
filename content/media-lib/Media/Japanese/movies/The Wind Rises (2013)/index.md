@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[The Wind Rises]] - Lernliste - 6:06 ==御八つ==（||おやつ||） - Zwischenmahlzeit, Snack — いつものところにおやつがあります - 7:03 ==赤チン==（||あかチン||） - rotes Desinfektionsmittel - 7:03 ==塗る==（||ぬる||） - auftragen, einstreichen; hier: Medizin auf die Schürfwunde tun —
+- [[media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises|The Wind Rises]] - Lernliste - 6:06 ==御八つ==（||おやつ||） - Zwischenmahlzeit, Snack — いつものところにおやつがあります - 7:03 ==赤チン==（||あかチン||） - rotes Desinfektionsmittel - 7:03 ==塗る==（||ぬる||） - auftragen, einstreichen; hier: Medizin auf die Schürfwunde tun —
