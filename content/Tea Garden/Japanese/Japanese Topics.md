@@ -25,7 +25,7 @@ Anime:
 - [[media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service|Kikis Delivery Service]]
 - [[media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises|The Wind Rises]]
 
-## Japanese Music
+## Japanese Music 
 
 - [[tea-garden/japanese/favourite-japanese-songs|favourite japanese songs]]
 - [[media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index|米津玄師 Kenshi Yonezu - Lemon]]

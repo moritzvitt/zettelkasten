@@ -1,6 +1,6 @@
 ---
 title: "Believe!"
-source: "Digital Garden/Tea Garden/personal/Believe!.md"
+source: "Digital Garden/Tea Garden/personal/other/Believe!.md"
 publish: true
 tags:
   - zettel

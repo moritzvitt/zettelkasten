@@ -1,6 +1,6 @@
 ---
 title: "Green Tea"
-source: "Digital Garden/Tea Garden/personal/Green Tea.md"
+source: "Digital Garden/Tea Garden/personal/other/Green Tea.md"
 publish: true
 tags:
   - zettel

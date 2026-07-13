@@ -1,6 +1,6 @@
 ---
 title: "Messi is Art"
-source: "Digital Garden/Tea Garden/personal/Messi is Art.md"
+source: "Digital Garden/Tea Garden/personal/other/Messi is Art.md"
 publish: true
 tags:
   - zettel

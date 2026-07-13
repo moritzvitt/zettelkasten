@@ -89,33 +89,6 @@
         "zettel"
       ]
     },
-    "tea-garden/personal/believe!": {
-      "slug": "tea-garden/personal/believe!",
-      "title": "Believe!",
-      "source": "Digital Garden/Tea Garden/personal/Believe!.md",
-      "url": "/tea-garden/personal/believe!",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/personal/green-tea": {
-      "slug": "tea-garden/personal/green-tea",
-      "title": "Green Tea",
-      "source": "Digital Garden/Tea Garden/personal/Green Tea.md",
-      "url": "/tea-garden/personal/green-tea",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/personal/messi-is-art": {
-      "slug": "tea-garden/personal/messi-is-art",
-      "title": "Messi is Art",
-      "source": "Digital Garden/Tea Garden/personal/Messi is Art.md",
-      "url": "/tea-garden/personal/messi-is-art",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/personal/psalm-23": {
       "slug": "tea-garden/personal/psalm-23",
       "title": "Psalm 23",
@@ -148,6 +121,42 @@
       "title": "pixel art",
       "source": "Digital Garden/Tea Garden/personal/Things I made/pixel art.md",
       "url": "/tea-garden/personal/things-i-made/pixel-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/other/believe!": {
+      "slug": "tea-garden/personal/other/believe!",
+      "title": "Believe!",
+      "source": "Digital Garden/Tea Garden/personal/other/Believe!.md",
+      "url": "/tea-garden/personal/other/believe!",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/other/green-tea": {
+      "slug": "tea-garden/personal/other/green-tea",
+      "title": "Green Tea",
+      "source": "Digital Garden/Tea Garden/personal/other/Green Tea.md",
+      "url": "/tea-garden/personal/other/green-tea",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/other/messi-is-art": {
+      "slug": "tea-garden/personal/other/messi-is-art",
+      "title": "Messi is Art",
+      "source": "Digital Garden/Tea Garden/personal/other/Messi is Art.md",
+      "url": "/tea-garden/personal/other/messi-is-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/other/favourite-songs": {
+      "slug": "tea-garden/personal/other/favourite-songs",
+      "title": "favourite songs",
+      "source": "Digital Garden/Tea Garden/personal/other/favourite songs.md",
+      "url": "/tea-garden/personal/other/favourite-songs",
       "tags": [
         "zettel"
       ]
