@@ -1,6 +1,6 @@
 ---
 title: "favourite songs"
-source: "Digital Garden/Tea Garden/personal/other/favourite songs.md"
+source: "Digital Garden/Tea Garden/music/favourite songs.md"
 publish: true
 tags:
   - zettel

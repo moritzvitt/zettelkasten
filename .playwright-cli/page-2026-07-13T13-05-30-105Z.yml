@@ -1,0 +1,48 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading [level=2] [ref=e5]:
+      - link "Moritz' Tea Garden" [ref=e6] [cursor=pointer]:
+        - /url: ../..
+    - generic [ref=e7]:
+      - button "Suche" [ref=e10] [cursor=pointer]:
+        - img "Search" [ref=e11]
+        - paragraph [ref=e15]: Suche
+      - button "Dunkler Modus" [ref=e17] [cursor=pointer]:
+        - img "Dunkler Modus" [ref=e18]
+      - button "Lesemodus" [ref=e21] [cursor=pointer]:
+        - img "Lesemodus" [ref=e22]
+      - button "Standardschrift aktivieren" [ref=e26] [cursor=pointer]:
+        - generic [ref=e27]: 字
+  - generic [ref=e28]:
+    - article [ref=e29]:
+      - generic [ref=e30]:
+        - paragraph [ref=e31]: "moritz: übersetze folgendes auf englisch: Mir gefällt hier der untere Schriftzug “Garden” (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum “Moritz” Schriftzug."
+        - paragraph [ref=e32]
+        - paragraph [ref=e33]: The logo now flickers and makes a buzzing sound on hover, like real neon tubes do.
+        - paragraph [ref=e34]:
+          - generic "Screen Recording 2026-07-12 at 20.04.16.mov" [ref=e35]
+        - paragraph [ref=e36]: While experimenting, I ended up with this interesting design. It’s less readable, but I really like how it looks. As if you were watching neon lights through a window glass |on a rainy day.
+        - paragraph [ref=e37]
+        - paragraph [ref=e38]: 09.07.2026 5th version.
+        - paragraph [ref=e39]: "Newest addition: a little bonzai tree. Not yet quite sure about the colours of the “Garden” lettering (yellow neon tube with red glow?)."
+        - paragraph [ref=e40]
+        - paragraph [ref=e41]: 09.07.2026, 4th Version,
+        - paragraph [ref=e42]: Neon glow is now less complicated (just 2 layers, one blur). Neon lights also don’t glow purely in white. It actually depends on the gas they contain (mercury for blue, neon for orange glow). I really like the colours here. Inspired by a neon sign from Hongkong.
+        - paragraph [ref=e43]
+        - paragraph [ref=e44]: 08.07.2026, 3rd Version,
+        - paragraph [ref=e45]
+        - paragraph [ref=e46]: 2nd Version, The green neon glow is quite elaborate (several different layers, whereas in later versions I used only 2.)
+        - paragraph [ref=e47]
+        - paragraph [ref=e48]: The very first version with neon glow. The Logo itself is an SVG and the glow is added in custom.css.
+    - separator [ref=e49]
+  - button "Global Graph" [ref=e55] [cursor=pointer]
+  - contentinfo [ref=e58]:
+    - paragraph [ref=e59]:
+      - text: Erstellt mit
+      - link "Quartz v5.0.0" [ref=e60] [cursor=pointer]:
+        - /url: https://quartz.jzhao.xyz/
+      - text: © 2026
+    - list [ref=e61]:
+      - listitem [ref=e62]:
+        - link "Zettelkasten" [ref=e63] [cursor=pointer]:
+          - /url: /

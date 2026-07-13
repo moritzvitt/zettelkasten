@@ -13,6 +13,5 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 ## Notizen
 
 - [[Believe!]] - The next day, the next hour, the next minute will always be better than everything before! Believe in that! Stay excited for what is to come.
-- [[favourite songs]] - ![White Cyclosa|100x100](https://www.youtube.com/watch?v=W-Ejg5Lllr4) Raumfahrt. (Apokalypse) Menschen müssen die Erde verlassen. (Interstellar Vibe) Der Synth klingt ein bisschen nach Orgel.
 - [[Green Tea]] - My favourites so far are: Ali Shan Oolong tea, Morimoto Sencha, Asagiri Sencha, Bilouchun Long Leaf Green tea. Brewing some Ali Shan Oolong Tea (Gift from friends from my girlfriend's parents) in my Iwachu Tetsu Kyusu. !
 - [[Messi is Art]] - ![](https://www.youtube.com/watch?v=k5TzbBZsZVU) Messi scans many more times than the average player, helping him in maximising his distance to other players. Messi creates geometry. Messi manipulates rhythm. He is prese

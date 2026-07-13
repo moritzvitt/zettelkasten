@@ -10,14 +10,13 @@ moritz: übersetze folgendes auf englisch: Mir gefällt hier der untere Schriftz
 ![[Pasted image 20260709193033.png|276]]
 
 
-moritz: dieses Video funktioniert nicht auf der Website
 The logo now flickers and makes a buzzing sound on hover, like real neon tubes do.
 
-![[Screen Recording 2026-07-12 at 20.04.16.mov]]
+<video controls playsinline preload="metadata" src="./Screen%20Recording%202026-07-12%20at%2020.04.16.mov" width="150" height="200" title="Screen Recording 2026-07-12 at 20.04.16.mov"></video>
 
 
 While experimenting, I ended up with this interesting design. 
-It's less readable, but I really like how it looks. As if you were watching neon lights through a window glass on a rainy day.
+It's less readable, but I really like how it looks. As if you were watching neon lights through a window glass |on a rainy day.
 
 ![[Pasted image 20260709144854.png|441]]
 

@@ -602,6 +602,10 @@ img {
   content-visibility: auto;
 }
 
+img[src$=".svg" i] {
+  content-visibility: visible;
+}
+
 p > img + em {
   display: block;
   transform: translateY(-1rem);

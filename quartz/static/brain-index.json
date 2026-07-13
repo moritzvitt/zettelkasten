@@ -80,6 +80,42 @@
         "zettel"
       ]
     },
+    "tea-garden/music/tchaikovsky---rococco-variations": {
+      "slug": "tea-garden/music/tchaikovsky---rococco-variations",
+      "title": "Rococco Variations",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md",
+      "url": "/tea-garden/music/tchaikovsky---rococco-variations",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/music/tchaikovsky---symphony-no.-4": {
+      "slug": "tea-garden/music/tchaikovsky---symphony-no.-4",
+      "title": "Tchaikovsky - Symphony No. 4",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
+      "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/music/favourite-classical-pieces": {
+      "slug": "tea-garden/music/favourite-classical-pieces",
+      "title": "favourite classical pieces",
+      "source": "Digital Garden/Tea Garden/music/favourite classical pieces.md",
+      "url": "/tea-garden/music/favourite-classical-pieces",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/music/favourite-songs": {
+      "slug": "tea-garden/music/favourite-songs",
+      "title": "favourite songs",
+      "source": "Digital Garden/Tea Garden/music/favourite songs.md",
+      "url": "/tea-garden/music/favourite-songs",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/about-me": {
       "slug": "tea-garden/personal/about-me",
       "title": "About me",
@@ -148,15 +184,6 @@
       "title": "Messi is Art",
       "source": "Digital Garden/Tea Garden/personal/other/Messi is Art.md",
       "url": "/tea-garden/personal/other/messi-is-art",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/personal/other/favourite-songs": {
-      "slug": "tea-garden/personal/other/favourite-songs",
-      "title": "favourite songs",
-      "source": "Digital Garden/Tea Garden/personal/other/favourite songs.md",
-      "url": "/tea-garden/personal/other/favourite-songs",
       "tags": [
         "zettel"
       ]

@@ -125,14 +125,21 @@ function allWikiLinks(text) {
   return [...new Set(wikiLinks(text))]
 }
 
-const embeddableAssetExtensions = new Set([".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"])
+const imageAssetExtensions = new Set([".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"])
+const pdfAssetExtensions = new Set([".pdf"])
+const videoAssetExtensions = new Set([".mp4", ".mov", ".m4v", ".webm", ".ogv"])
+const copiedAssetExtensions = new Set([
+  ...imageAssetExtensions,
+  ...pdfAssetExtensions,
+  ...videoAssetExtensions,
+])
 
 function embeddedAssets(text) {
   const result = []
   const rx = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g
   for (const match of text.matchAll(rx)) {
     const target = match[1].trim()
-    if (embeddableAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
+    if (copiedAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
       result.push(target)
     }
   }
@@ -160,14 +167,71 @@ function rewriteWikiLinks(text, note, resolve) {
   return text.replace(
     /(!?)\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
     (match, embed, target, anchor = "", label) => {
-      if (embed && embeddableAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
-        return match
+      if (embed) {
+        const ext = path.extname(target).toLocaleLowerCase("de")
+        if (imageAssetExtensions.has(ext)) return match
+        if (pdfAssetExtensions.has(ext) || videoAssetExtensions.has(ext)) {
+          return renderAssetEmbed(target, label)
+        }
       }
       const slug = resolve(note, target)
       if (!slug) return match
       return `${embed}[[${slug}${anchor}|${label || cleanTitle(target)}]]`
     },
   )
+}
+
+function escapeHtml(value) {
+  return value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+}
+
+function assetHref(target) {
+  return `./${path.basename(target).split("/").map(encodeURIComponent).join("/")}`
+}
+
+function embedSize(label) {
+  if (!label) return {}
+  const value = label.trim()
+  const match = value.match(/^(\d+)(?:x(\d+))?$/i)
+  if (!match) return {}
+  return {
+    width: Number(match[1]),
+    height: match[2] ? Number(match[2]) : undefined,
+  }
+}
+
+function sizeStyle(size, defaults = {}) {
+  const width = size.width ?? defaults.width
+  const height = size.height ?? defaults.height
+  const styles = []
+  if (width) styles.push(`width: ${width}px`)
+  if (height) styles.push(`height: ${height}px`)
+  return styles.length ? ` style="${styles.join("; ")}"` : ""
+}
+
+function renderAssetEmbed(target, label) {
+  const ext = path.extname(target).toLocaleLowerCase("de")
+  const href = escapeHtml(assetHref(target))
+  const title = escapeHtml(cleanTitle(target))
+  const size = embedSize(label)
+
+  if (pdfAssetExtensions.has(ext)) {
+    return `<iframe class="pdf" src="${href}" title="${title}"${sizeStyle(size, {
+      height: 600,
+    })}></iframe>`
+  }
+
+  if (videoAssetExtensions.has(ext)) {
+    const width = size.width ? ` width="${size.width}"` : ""
+    const height = size.height ? ` height="${size.height}"` : ""
+    return `<video controls playsinline preload="metadata" src="${href}"${width}${height} title="${title}"></video>`
+  }
+
+  return `![[${target}${label ? `|${label}` : ""}]]`
 }
 
 const passthroughFrontmatterKeys = [
@@ -375,7 +439,7 @@ const files = sourceFiles.filter((file) => file.endsWith(".md"))
 const assetsByName = new Map()
 for (const file of sourceFiles) {
   const ext = path.extname(file).toLocaleLowerCase("de")
-  if (!embeddableAssetExtensions.has(ext)) continue
+  if (!copiedAssetExtensions.has(ext)) continue
   const name = path.basename(file)
   if (!assetsByName.has(name)) assetsByName.set(name, file)
 }
