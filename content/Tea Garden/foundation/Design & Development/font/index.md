@@ -12,4 +12,5 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[my own font]] - font on the website created with font app !handfont.ttf!handfont-characters.png
+- [[how the font looks on the website]] - 05.07.2026 !592 !Pasted image 20260713184135.png
+- [[my own font]] - Current state: how the font looks on the website created with handfont lab All 2136 Joyo Kanji Current state --- 13.07.2026 !handfont.ttf!handfont-characters 1.pdf

@@ -8,6 +8,15 @@
     "sibling"
   ],
   "nodes": {
+    "tea-garden/japanese/all-2136-joyo-kanji": {
+      "slug": "tea-garden/japanese/all-2136-joyo-kanji",
+      "title": "All 2136 Joyo Kanji",
+      "source": "Digital Garden/Tea Garden/Japanese/All 2136 Joyo Kanji.md",
+      "url": "/tea-garden/japanese/all-2136-joyo-kanji",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/japanese/japanese-topics": {
       "slug": "tea-garden/japanese/japanese-topics",
       "title": "Japanese Topics",
@@ -76,6 +85,15 @@
       "title": "Versions Log",
       "source": "Digital Garden/Tea Garden/foundation/Design & Development/Versions Log.md",
       "url": "/tea-garden/foundation/design-&-development/versions-log",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website": {
+      "slug": "tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website",
+      "title": "how the font looks on the website",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/how the font looks on the website.md",
+      "url": "/tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website",
       "tags": [
         "zettel"
       ]

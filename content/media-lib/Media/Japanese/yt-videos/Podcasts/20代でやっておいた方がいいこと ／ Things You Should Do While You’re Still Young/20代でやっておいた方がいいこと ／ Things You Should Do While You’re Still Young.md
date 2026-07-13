@@ -52,7 +52,7 @@ tags:
 - [12:58](https://www.youtube.com/watch?v=szlCSg0qlV0&t=778.43) 当たり前っちゃ==||当たり前||==（||あたりまえ||） — wenn man es so sagt, ist es eigentlich normal
 - [13:06](https://www.youtube.com/watch?v=szlCSg0qlV0&t=786.944) ==大切さ== — Wichtigkeit, Wert
 - [13:48](https://www.youtube.com/watch?v=szlCSg0qlV0&t=828.711) お金のありがみが==||分かった||== — den Wert des Geldes zu schätzen gelernt
-- [13:55](https://www.youtube.com/watch?v=szlCSg0qlV0&t=835) ==ありがみ== — Dankbarkeit/Wertschätzung für etwas (moritz: heißt das nicht einfach Wert? füge außerdem die Kanji Lesung hinzu, und dann die Hiragana als Inline Spoiler)
+- [13:55](https://www.youtube.com/watch?v=szlCSg0qlV0&t=835) ==有り難み==（||ありがみ||） — Wert, Kostbarkeit; das Gefühl, etwas wirklich zu schätzen
 - [14:09](https://www.youtube.com/watch?v=szlCSg0qlV0&t=849.201) 比べ物にならないくらい==||努力をしよう||==（||どりょくをしよう||） — sich unvergleichlich mehr Mühe geben
 - [14:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=883) ==||掛けがえのない||==（||かけがえのない||）いい経験 — eine unersetzliche wertvolle Erfahrung
 - [14:43](https://www.youtube.com/watch?v=szlCSg0qlV0&t=883) ==掛けがえのない==（||かけがえのない||） — unersetzlich

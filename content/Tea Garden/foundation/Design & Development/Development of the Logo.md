@@ -5,7 +5,7 @@ publish: true
 tags:
   - zettel
 ---
-moritz: übersetze folgendes auf englisch: Mir gefällt hier der untere Schriftzug "Garden" (eine einfache Serifenschrift). Das gibt etwas Abwechslung im Vergleich zum "Moritz" Schriftzug. 
+I like the lower "Garden" lettering here (a simple serif font). It adds some variety compared with the "Moritz" lettering.
 
 ![[Pasted image 20260709193033.png|276]]
 

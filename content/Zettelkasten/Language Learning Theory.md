@@ -102,8 +102,6 @@ That means learning not only the language itself, but also the other ways in whi
 # ---- UNDER CONSTRUCTION ----
 ## **Speaking a language means understanding its people**: how people from that culture communicate and think 
 
-moritz: I think these two notes coult be merged [[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture|Means of Communication Within a Culture]] and [[zettelkasten/zettel/communication-and-information/culture-dependent-means-of-communication|Culture-Dependent Means of Communication]].
-
 ---
 
 ## Acquiring an understanding of [[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture|Means of Communication Within a Culture]] and [[zettelkasten/zettel/communication-and-information/institutions-of-a-culture|Institutions of a Culture]] naturally

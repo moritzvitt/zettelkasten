@@ -121,31 +121,21 @@ L
 
 Ramenez Unicup à la maison
 
-Je m’appelle Franzviertel
+## Französische Wortspiele
 
-Lionel Merci
+- Je m’appelle Franzviertel
+- RienNeVaPlus
+- LesJeuxSontFaits
+- Les
 
-  
+## Sieben / Viertel
 
-La7
+- La7
+- SeptFini 
 
-SeptFini 
+## Fußballer-Wortspiele
 
-  
-
-RienNeVaPlus
-
-  
-
-LesJeuxSontFaits
-
-Les
-
-  
-
-Didier Dechamps
-Daddy Dechamps
-
-Daddy TheChamps
-
-moritz: bring mal ein bisschen Ordnung in all diese Vorschläge (ohne etwas zu löschen!)
+- Lionel Merci
+- Didier Dechamps
+- Daddy Dechamps
+- Daddy TheChamps

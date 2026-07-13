@@ -8,10 +8,4 @@ tags:
 ---
 # Culture-Dependent Means of Communication
 
-## Claim
-
-Culture-dependent means of communication include body language, small-talk topics, rituals for showing respect, and rituals of approach.
-
-## Why It Matters
-
-This note clarifies one building block for understanding how language, culture, institutions, and media work together as information networks.
+Merged into [[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture|Means of Communication Within a Culture]].

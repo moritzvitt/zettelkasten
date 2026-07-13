@@ -9,4 +9,8 @@ tags:
 
 ## Claim
 
-The means of communication within a culture include language and behaviour (e.g. body language), and institutionalised, ritualized practices (e.g. forms of expressing politeness). ^4c9749
+The means of communication within a culture include language and behaviour (e.g. body language), small-talk topics, and institutionalised, ritualized practices (e.g. forms of expressing politeness, respect, and approach). ^4c9749
+
+## Why It Matters
+
+This note clarifies one building block for understanding how language, culture, institutions, and media work together as information networks.

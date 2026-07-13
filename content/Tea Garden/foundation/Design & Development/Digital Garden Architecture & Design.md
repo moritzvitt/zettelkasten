@@ -17,6 +17,9 @@ The many iterations the design of this garden has gone through:
 - [[tea-garden/foundation/design-&-development/versions-log|Versions Log]]
 - [[tea-garden/foundation/design-&-development/development-of-the-logo|Development of the Logo]]
 
+## Font 
+[[tea-garden/foundation/design-&-development/font/my-own-font|my own font]]
+[[tea-garden/foundation/design-&-development/font/how-the-font-looks-on-the-website|how the font looks on the website]]
 ## Design and Development of plugins
 [[tea-garden/foundation/design-&-development/plugins-media-extended|Plugins Media Extended]]
 
