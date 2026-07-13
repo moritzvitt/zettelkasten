@@ -12,6 +12,7 @@ publish: true
 tags:
   - zettel
 ---
+![](https://www.youtube.com/watch?v=3krAPjO2Ke8#as=audio&no_loop)
 ## Kurznotiz
 YUYU beantwortet die Frage, was man tun kann, wenn man nach einem Rückschlag keine Motivation mehr hat. Sein Kernpunkt ist: Nicht einfach blind weiterdrücken, sondern den Kopf ordnen. Erst fragt man zweimal nach dem eigenen Warum, dann prüft man, ob es alternative Wege zum eigentlichen Ziel gibt, und zuletzt, ob der gewählte Weg sich innerlich richtig anfühlt und zum eigenen Wachstum beiträgt. Wenn das unklar bleibt, empfiehlt er Schreiben: Gedanken sichtbar machen, damit aus Nebel wieder Richtung wird.
 

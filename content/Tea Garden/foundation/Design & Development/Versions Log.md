@@ -1,6 +1,6 @@
 ---
 title: "Versions Log"
-source: "Digital Garden/Tea Garden/foundation/Versions Log.md"
+source: "Digital Garden/Tea Garden/foundation/Design & Development/Versions Log.md"
 publish: true
 tags:
   - zettel

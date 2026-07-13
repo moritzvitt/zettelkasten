@@ -1,6 +1,6 @@
 ---
 title: "Development of the Logo"
-source: "Digital Garden/Tea Garden/foundation/Development of the Logo.md"
+source: "Digital Garden/Tea Garden/foundation/Design & Development/Development of the Logo.md"
 publish: true
 tags:
   - zettel

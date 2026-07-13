@@ -3,7 +3,10 @@ import assert from "node:assert/strict"
 import fs from "node:fs"
 import os from "node:os"
 import path from "node:path"
-import LocalMediaPlayer, { rewriteMediaTimestampLinks } from "../src/index.js"
+import LocalMediaPlayer, {
+  rewriteMediaExtendedAudioEmbeds,
+  rewriteMediaTimestampLinks,
+} from "../src/index.js"
 
 test("rewrites media timestamps when filenames contain square brackets", () => {
   const source = `---
@@ -57,6 +60,135 @@ test("injects a player for a bracketed Howl media filename", () => {
   } finally {
     fs.rmSync(mediaRoot, { recursive: true, force: true })
   }
+})
+
+test("renders Media Extended YouTube audio embeds as compact audio cards", () => {
+  const plugin = LocalMediaPlayer()
+  const transformer = plugin.htmlPlugins()[0]()
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "p",
+        properties: {},
+        children: [
+          {
+            type: "element",
+            tagName: "img",
+            properties: {
+              src: "https://www.youtube.com/watch?v=CxI1B6NXrc4#as=audio",
+              alt: "Being a Porn Director in Japan",
+            },
+            children: [],
+          },
+        ],
+      },
+    ],
+  }
+
+  transformer(tree, {
+    data: {
+      filePath: "/tmp/note.md",
+      frontmatter: {},
+    },
+  })
+
+  const figure = tree.children[0].children[0]
+  assert.equal(figure.tagName, "figure")
+  assert.deepEqual(figure.properties.className, ["local-media-player", "local-media-audio-card"])
+  assert.equal(figure.properties["data-media-url"], "https://www.youtube.com/watch?v=CxI1B6NXrc4")
+  assert.match(figure.children[0].properties.src, /youtube\.com\/embed\/CxI1B6NXrc4/)
+  assert.equal(figure.children[1].properties.className[0], "local-media-audio-ui")
+  const main = figure.children[1].children[1]
+  assert.equal(main.children[1].tagName, "input")
+  assert.deepEqual(main.children[1].properties.className, ["local-media-audio-progress"])
+})
+
+test("rewrites Media Extended audio markdown before Obsidian YouTube embeds run", () => {
+  const source = `![100x150](https://www.youtube.com/watch?v=xdLG7jXGkLQ&list=RDxdLG7jXGkLQ&start_radio=1#controls&as=audio)`
+
+  const result = rewriteMediaExtendedAudioEmbeds(source)
+
+  assert.match(result, /https:\/\/local-media\.invalid\/youtube-audio/)
+  assert.match(result, /src=https%3A%2F%2Fwww\.youtube\.com%2Fwatch/)
+  assert.match(result, /xdLG7jXGkLQ/)
+  assert.doesNotMatch(result, /youtube\.com\/embed/)
+  assert.match(result, /^!\[YouTube audio\]/)
+})
+
+test("renders Media Extended audio placeholders as compact audio cards", () => {
+  const plugin = LocalMediaPlayer()
+  const transformer = plugin.htmlPlugins()[0]()
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "span",
+        properties: {
+          "data-local-media-audio":
+            "https://www.youtube.com/watch?v=xdLG7jXGkLQ&list=RDxdLG7jXGkLQ&start_radio=1#controls&as=audio",
+          "data-local-media-title": "",
+        },
+        children: [],
+      },
+    ],
+  }
+
+  transformer(tree, {
+    data: {
+      filePath: "/tmp/note.md",
+      frontmatter: {},
+    },
+  })
+
+  const figure = tree.children[0]
+  assert.equal(figure.tagName, "figure")
+  assert.deepEqual(figure.properties.className, ["local-media-player", "local-media-audio-card"])
+  assert.match(figure.children[0].properties.src, /youtube\.com\/embed\/xdLG7jXGkLQ/)
+})
+
+test("renders Media Extended audio marker images as compact audio cards", () => {
+  const plugin = LocalMediaPlayer()
+  const transformer = plugin.htmlPlugins()[0]()
+  const source =
+    "https://www.youtube.com/watch?v=Y7G5ithbFys&list=RDY7G5ithbFys&start_radio=1&t=1508s#as=audio"
+  const marker = new URL("https://local-media.invalid/youtube-audio")
+  marker.searchParams.set("src", source)
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "img",
+        properties: {
+          src: marker.href,
+          alt: "YouTube audio",
+        },
+        children: [],
+      },
+    ],
+  }
+
+  transformer(tree, {
+    data: {
+      filePath: "/tmp/note.md",
+      frontmatter: {},
+    },
+  })
+
+  const figure = tree.children[0]
+  assert.equal(figure.tagName, "figure")
+  assert.deepEqual(figure.properties.className, ["local-media-player", "local-media-audio-card"])
+  assert.equal(figure.properties["data-media-time"], "1508")
+  assert.match(figure.children[0].properties.src, /youtube\.com\/embed\/Y7G5ithbFys/)
+  const progress = figure.children[1].children[1].children[1]
+  assert.equal(progress.tagName, "input")
+  assert.equal(progress.properties.value, "1508")
+  assert.equal(progress.properties.min, "0")
+  assert.equal(progress.properties.step, "1")
+  assert.ok(Number(progress.properties.max) > 1508)
 })
 
 test("does not copy local media by default", async () => {

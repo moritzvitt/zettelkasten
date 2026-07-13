@@ -35,11 +35,56 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/development-of-the-logo": {
-      "slug": "tea-garden/foundation/development-of-the-logo",
+    "tea-garden/foundation/design-&-development/design-ideas": {
+      "slug": "tea-garden/foundation/design-&-development/design-ideas",
+      "title": "Design Ideas",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design Ideas.md",
+      "url": "/tea-garden/foundation/design-&-development/design-ideas",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/development-of-the-logo": {
+      "slug": "tea-garden/foundation/design-&-development/development-of-the-logo",
       "title": "Development of the Logo",
-      "source": "Digital Garden/Tea Garden/foundation/Development of the Logo.md",
-      "url": "/tea-garden/foundation/development-of-the-logo",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Development of the Logo.md",
+      "url": "/tea-garden/foundation/design-&-development/development-of-the-logo",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/digital-garden-architecture-&-design": {
+      "slug": "tea-garden/foundation/design-&-development/digital-garden-architecture-&-design",
+      "title": "Digital Garden Architecture & Design",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Digital Garden Architecture & Design.md",
+      "url": "/tea-garden/foundation/design-&-development/digital-garden-architecture-&-design",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/plugins-media-extended": {
+      "slug": "tea-garden/foundation/design-&-development/plugins-media-extended",
+      "title": "Plugins Media Extended",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Plugins Media Extended.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins-media-extended",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/versions-log": {
+      "slug": "tea-garden/foundation/design-&-development/versions-log",
+      "title": "Versions Log",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Versions Log.md",
+      "url": "/tea-garden/foundation/design-&-development/versions-log",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/font/my-own-font": {
+      "slug": "tea-garden/foundation/design-&-development/font/my-own-font",
+      "title": "my own font",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/my own font.md",
+      "url": "/tea-garden/foundation/design-&-development/font/my-own-font",
       "tags": [
         "zettel"
       ]
@@ -49,24 +94,6 @@
       "title": "**Purpose**",
       "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
       "url": "/tea-garden/foundation/purpose",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/versions-log": {
-      "slug": "tea-garden/foundation/versions-log",
-      "title": "Versions Log",
-      "source": "Digital Garden/Tea Garden/foundation/Versions Log.md",
-      "url": "/tea-garden/foundation/versions-log",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/working-with-ai---statement": {
-      "slug": "tea-garden/foundation/working-with-ai---statement",
-      "title": "Working with AI - statement",
-      "source": "Digital Garden/Tea Garden/foundation/Working with AI - statement.md",
-      "url": "/tea-garden/foundation/working-with-ai---statement",
       "tags": [
         "zettel"
       ]
@@ -94,6 +121,15 @@
       "title": "Tchaikovsky - Symphony No. 4",
       "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
       "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/music/tchaikovsky---symphony-no.-6": {
+      "slug": "tea-garden/music/tchaikovsky---symphony-no.-6",
+      "title": "Tchaikovsky - Symphony No. 6",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 6.md",
+      "url": "/tea-garden/music/tchaikovsky---symphony-no.-6",
       "tags": [
         "zettel"
       ]
@@ -206,11 +242,11 @@
         "zettel"
       ]
     },
-    "zettelkasten/welcome-in-my-zettelkasten!": {
-      "slug": "zettelkasten/welcome-in-my-zettelkasten!",
-      "title": "Welcome in my Zettelkasten!",
-      "source": "Digital Garden/Zettelkasten/Welcome in my Zettelkasten!.md",
-      "url": "/zettelkasten/welcome-in-my-zettelkasten!",
+    "zettelkasten/index": {
+      "slug": "zettelkasten/index",
+      "title": "index",
+      "source": "Digital Garden/Zettelkasten/index.md",
+      "url": "/zettelkasten/index",
       "tags": [
         "zettel"
       ]

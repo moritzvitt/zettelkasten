@@ -13,6 +13,7 @@ publish: true
 tags:
   - zettel
 ---
+![](https://www.youtube.com/watch?v=szlCSg0qlV0#as=audio)
 ## Lernliste
 
 - [0:46](https://www.youtube.com/watch?v=szlCSg0qlV0&t=46.807) 気持ちが==||大きく動いた||== — innerlich stark bewegt werden
