@@ -32,7 +32,8 @@
       "source": "Digital Garden/Tea Garden/Japanese/favourite japanese songs.md",
       "url": "/tea-garden/japanese/favourite-japanese-songs",
       "tags": [
-        "zettel"
+        "zettel",
+        "japanese"
       ]
     },
     "index": {
@@ -140,7 +141,10 @@
       "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md",
       "url": "/tea-garden/music/tchaikovsky---rococco-variations",
       "tags": [
-        "zettel"
+        "zettel",
+        "tchaikovsky",
+        "cello",
+        "romantic"
       ]
     },
     "tea-garden/music/tchaikovsky---symphony-no.-4": {
@@ -149,7 +153,12 @@
       "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
       "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
       "tags": [
-        "zettel"
+        "zettel",
+        "tchaikovsky",
+        "cello",
+        "symphony",
+        "romantic",
+        "music"
       ]
     },
     "tea-garden/music/tchaikovsky---symphony-no.-6": {
@@ -176,7 +185,9 @@
       "source": "Digital Garden/Tea Garden/music/favourite songs.md",
       "url": "/tea-garden/music/favourite-songs",
       "tags": [
-        "zettel"
+        "zettel",
+        "music",
+        "songs"
       ]
     },
     "tea-garden/personal/about-me": {
@@ -320,7 +331,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Institutions of a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/institutions-of-a-culture",
       "tags": [
-        "zettel"
+        "zettel",
+        "communication"
       ]
     },
     "zettelkasten/zettel/communication-and-information/institutions": {
@@ -329,7 +341,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Institutions.md",
       "url": "/zettelkasten/zettel/communication-and-information/institutions",
       "tags": [
-        "zettel"
+        "zettel",
+        "communication"
       ]
     },
     "zettelkasten/zettel/communication-and-information/language": {
@@ -356,7 +369,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Means of Communication Within a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
       "tags": [
-        "zettel"
+        "zettel",
+        "communication"
       ]
     },
     "zettelkasten/zettel/communication-and-information/means-of-communication": {
@@ -572,7 +586,10 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Getting Ready for Immersion - Building a Basic Vocabulary.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/getting-ready-for-immersion---building-a-basic-vocabulary",
       "tags": [
-        "zettel"
+        "zettel",
+        "anki",
+        "immersion",
+        "language-learning"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/misplaced-ambition-in-anki": {
@@ -590,7 +607,11 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki",
       "tags": [
-        "zettel"
+        "zettel",
+        "srs",
+        "spaced-repitition",
+        "anki",
+        "language-learning"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state": {
@@ -617,7 +638,10 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "tags": [
-        "zettel"
+        "zettel",
+        "anki",
+        "language-learning",
+        "language-acquisition"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists": {
@@ -869,7 +893,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Learning.excalidraw.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw",
       "tags": [
-        "zettel"
+        "zettel",
+        "excalidraw"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later": {
@@ -896,7 +921,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "tags": [
-        "zettel"
+        "zettel",
+        "language-learning"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/language-knowledge-becomes-less-accessible,-not-simply-erased": {
@@ -923,7 +949,8 @@
       "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
       "tags": [
-        "zettel"
+        "zettel",
+        "language-learning"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai": {
@@ -1166,7 +1193,14 @@
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004)/Howl's Moving Castle.md",
       "url": "/media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "anime",
+        "ghibli",
+        "love",
+        "war"
       ]
     },
     "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service": {
@@ -1175,7 +1209,10 @@
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Kikis Delivery Service (1989)/Kikis Delivery Service.md",
       "url": "/media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese"
       ]
     },
     "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves": {
@@ -1184,7 +1221,10 @@
       "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
       "url": "/media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese"
       ]
     },
     "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises": {
@@ -1193,7 +1233,10 @@
       "source": "Digital Garden/media-lib/Media/Japanese/movies/The Wind Rises (2013)/The Wind Rises.md",
       "url": "/media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese"
       ]
     },
     "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index": {
@@ -1202,7 +1245,11 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米津玄師 Kenshi Yonezu - Lemon/米津玄師 Kenshi Yonezu - Lemon.md",
       "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {
@@ -1211,7 +1258,14 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "japanese",
+        "youtube",
+        "germany",
+        "japan",
+        "culture",
+        "cultural-differences",
+        "germany-japan"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index": {
@@ -1220,7 +1274,8 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦.md",
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "_"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index": {
@@ -1229,7 +1284,8 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい.md",
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "_"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index": {
@@ -1238,7 +1294,11 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube"
       ]
     },
     "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index": {
@@ -1247,7 +1307,13 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
       "url": "/media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "life-advice",
+        "nostalgia"
       ]
     },
     "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index": {
@@ -1256,7 +1322,13 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
       "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
       "tags": [
-        "zettel"
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "yuyu",
+        "yuyus-podcast"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)": {
@@ -1265,7 +1337,15 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/Being a Porn Director in Japan (Interview).md",
       "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)",
       "tags": [
-        "zettel"
+        "zettel",
+        "find-your-love",
+        "love",
+        "interview",
+        "japan",
+        "japanese",
+        "_",
+        "find-your-love-in-japan",
+        "porn-director-in-japan"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?": {
@@ -1292,7 +1372,19 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
       "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
       "tags": [
-        "zettel"
+        "zettel",
+        "nihongo",
+        "_",
+        "japanese-practice",
+        "japanese-conversation",
+        "native-speaker",
+        "daily-japanese",
+        "listening",
+        "comprehensible-japanese",
+        "japanese",
+        "japaneselanguage",
+        "relationships",
+        "love"
       ]
     },
     "media-lib/web-clippings/minimum-information-principle": {
@@ -1301,7 +1393,8 @@
       "source": "Digital Garden/media-lib/web-clippings/Minimum information principle.md",
       "url": "/media-lib/web-clippings/minimum-information-principle",
       "tags": [
-        "zettel"
+        "zettel",
+        "clippings"
       ]
     }
   },

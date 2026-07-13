@@ -4,6 +4,7 @@ source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Instit
 publish: true
 tags:
   - zettel
+  - communication
 ---
 # Institutions
 

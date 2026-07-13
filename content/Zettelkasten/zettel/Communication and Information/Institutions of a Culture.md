@@ -5,6 +5,7 @@ previous: "[[Culture as an Information Network]]"
 publish: true
 tags:
   - zettel
+  - communication
 ---
 # Institutions of a Culture
 

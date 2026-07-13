@@ -4,6 +4,7 @@ source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Means 
 publish: true
 tags:
   - zettel
+  - communication
 ---
 # Means of Communication Within a Culture
 

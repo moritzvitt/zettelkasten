@@ -12,6 +12,9 @@ cover: "[[mx-img-the-wind-rises-2013-pt8m51_30s.jpg]]"
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
 ---
 ## Lernliste
 

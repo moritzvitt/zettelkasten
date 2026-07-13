@@ -4,6 +4,7 @@ source: "Digital Garden/Tea Garden/Japanese/favourite japanese songs.md"
 publish: true
 tags:
   - zettel
+  - japanese
 ---
 Hana Fuji kaze 
 

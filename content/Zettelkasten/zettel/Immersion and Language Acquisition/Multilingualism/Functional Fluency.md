@@ -6,6 +6,7 @@ next:
 publish: true
 tags:
   - zettel
+  - language-learning
 ---
 # Functional Fluency
 

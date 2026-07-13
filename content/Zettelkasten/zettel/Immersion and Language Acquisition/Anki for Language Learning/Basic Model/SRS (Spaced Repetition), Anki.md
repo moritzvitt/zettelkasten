@@ -4,6 +4,10 @@ source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/A
 publish: true
 tags:
   - zettel
+  - srs
+  - spaced-repitition
+  - anki
+  - language-learning
 ---
 # SRS (Spaced Repetition), Anki
 

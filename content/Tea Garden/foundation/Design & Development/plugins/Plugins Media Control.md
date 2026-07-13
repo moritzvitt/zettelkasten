@@ -62,3 +62,14 @@ Wichtig: Vor der Unterbrechung hatte ich lediglich `pdfjs-dist` als vorbereitend
 
 
 wenn die Seite breit genug ist, können auch zwei PDF Seiten nebeneinander angezeigt werden (im Fokusmodus aber auch in der Vorschau). Außerdem muss es die Möglichkeit zum zoomen geben. Im Fokusmodus sollte versucht werden, standardmäßig die ganze Seite zu zeigen (und vielleicht auch zwei Seiten gleichzeitig wie schon erwähnt). Außerdem muss man auch durch alle Seiten durchscrollen können, damit man z.B. schnell zur letzten Seite scrollen kann.
+
+warum ist es unscharf im darkmode (inverted)?:
+Weil das PDF nicht mehr als Vektorgrafik dargestellt wird, sondern PDF.js jede Seite zuerst in ein Canvas-Bild rendert. Drei Dinge verstärken die Unschärfe:
+
+- Die Auflösung ist auf maximal `2×` begrenzt. Viele iPhones haben jedoch `3×` Pixeldichte und skalieren das Canvas daher hoch.
+- `filter: invert(1)` plus `mix-blend-mode: screen` wird anschließend auf das fertige Bitmap angewendet. Besonders Safari reduziert dabei den Kantenkontrast.
+- Bei zwei Seiten nebeneinander werden Noten und Schrift zusätzlich stark verkleinert.
+
+Die größte technische Ursache ist die Begrenzung in [runtime.js (line 63)](/Users/moritzvitt/src/zettelkasten-website/plugins/pdf-viewer/src/runtime.js:63); die wahrgenommene Weichheit im Dark Mode kommt zusätzlich aus [index.js (line 83)](/Users/moritzvitt/src/zettelkasten-website/plugins/pdf-viewer/src/index.js:83).
+
+Ich würde als Korrektur mit der tatsächlichen Pixeldichte bis maximal `3×` rendern und den `screen`-Blendmodus durch eine kontrastschonendere Farbanpassung ersetzen.

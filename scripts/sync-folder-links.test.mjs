@@ -22,7 +22,10 @@ test("rewrites explicit Obsidian folder links to the generated index slug", () =
     path.join(teaGarden, "Welcome in my Digital Garden!.md"),
     `---\npublish: true\n---\n[[Digital Garden/Tea Garden/music/|music]]\n`,
   )
-  fs.writeFileSync(path.join(music, "Song.md"), `---\npublish: true\n---\n# Song\n`)
+  fs.writeFileSync(
+    path.join(music, "Song.md"),
+    `---\npublish: true\ntags:\n  - music\n  - favourite\n---\n# Song\n`,
+  )
 
   try {
     execFileSync(process.execPath, [syncScript], {
@@ -41,6 +44,21 @@ test("rewrites explicit Obsidian folder links to the generated index slug", () =
     )
     assert.match(musicIndex, /\[\[tea-garden\/music\/song\|Song\]\]/)
     assert.doesNotMatch(musicIndex, /\[\[Song\]\]/)
+
+    const song = fs.readFileSync(
+      path.join(outputRoot, "content", "Tea Garden", "music", "Song.md"),
+      "utf8",
+    )
+    assert.match(song, /tags:\n  - zettel\n  - music\n  - favourite/)
+
+    const brainIndex = JSON.parse(
+      fs.readFileSync(path.join(outputRoot, "quartz", "static", "brain-index.json"), "utf8"),
+    )
+    assert.deepEqual(brainIndex.nodes["tea-garden/music/song"].tags, [
+      "zettel",
+      "music",
+      "favourite",
+    ])
   } finally {
     fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }

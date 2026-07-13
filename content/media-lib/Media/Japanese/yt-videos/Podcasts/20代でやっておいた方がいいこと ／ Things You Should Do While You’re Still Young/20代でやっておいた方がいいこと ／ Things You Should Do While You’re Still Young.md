@@ -12,6 +12,12 @@ vocab-trainer: true
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
+  - youtube
+  - life-advice
+  - nostalgia
 ---
 ![](https://www.youtube.com/watch?v=szlCSg0qlV0#as=audio)
 ## Lernliste

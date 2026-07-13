@@ -8,6 +8,10 @@ cover: https://i.ytimg.com/vi_webp/SX_ViT4Ra7k/maxresdefault.webp
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
+  - youtube
 ---
 ## Lernliste
 

@@ -4,6 +4,9 @@ source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/A
 publish: true
 tags:
   - zettel
+  - anki
+  - immersion
+  - language-learning
 ---
 # Getting Ready for Immersion - Building a Basic Vocabulary
 

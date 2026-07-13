@@ -11,6 +11,12 @@ cover: https://i.ytimg.com/vi_webp/3krAPjO2Ke8/maxresdefault.webp
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
+  - youtube
+  - yuyu
+  - yuyus-podcast
 ---
 ![](https://www.youtube.com/watch?v=3krAPjO2Ke8#as=audio&no_loop)
 ## Kurznotiz

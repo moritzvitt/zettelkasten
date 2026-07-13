@@ -26,7 +26,9 @@ my font:
  zeigt aktuell drei icons und die Suchleiste. 
  Light/Dark mode, Reading mode, switch font, 
  
+ Graph view:
  
+ die graph view sollte auch tags aus den properties zeigen
 ## Reading mode: 
 Logo verschwindet sofort (Graph auch) die tool bar verschwindet erst wenn der Cursor die Seitenleiste verlässt. 
 

@@ -246,6 +246,7 @@ const passthroughFrontmatterKeys = [
   "offset",
   "source_offset_applied",
   "cover",
+  "tags",
   "vocab-trainer",
 ]
 
@@ -274,12 +275,29 @@ function passthroughFrontmatter(data) {
   return passthrough
 }
 
+function normalizeTags(value) {
+  const values = Array.isArray(value) ? value.flat(Infinity) : value === undefined ? [] : [value]
+  return [
+    ...new Set(
+      values
+        .flatMap((tag) => String(tag).split(","))
+        .map((tag) => tag.trim().replace(/^#/, ""))
+        .filter(Boolean),
+    ),
+  ]
+}
+
+function publishedTags(data = {}) {
+  return [...new Set(["zettel", ...normalizeTags(data.tags)])]
+}
+
 function frontmatter(title, sourcePath, graphLinks = [], aliases = [], extraData = {}) {
+  const { tags: sourceTags, ...extraFields } = extraData
   const lines = [
     "---",
     `title: "${title.replaceAll('"', '\\"')}"`,
     `source: "${sourcePath.replaceAll('"', '\\"')}"`,
-    ...Object.entries(extraData).flatMap(([key, value]) => yamlField(key, value)),
+    ...Object.entries(extraFields).flatMap(([key, value]) => yamlField(key, value)),
     "publish: true",
   ]
   if (aliases.length) {
@@ -290,7 +308,10 @@ function frontmatter(title, sourcePath, graphLinks = [], aliases = [], extraData
     lines.push("graphLinks:")
     for (const link of graphLinks) lines.push(`  - "[[${link.replaceAll('"', '\\"')}]]"`)
   }
-  lines.push("tags:", "  - zettel", "---", "")
+  lines.push("tags:")
+  for (const tag of publishedTags({ tags: sourceTags }))
+    lines.push(`  - ${YAML.stringify(tag).trim()}`)
+  lines.push("---", "")
   return lines.join("\n")
 }
 
@@ -369,7 +390,7 @@ function buildBrainIndex(notes) {
       title: note.title,
       source: path.relative(vaultRoot, note.file),
       url: `/${slug}`,
-      tags: ["zettel"],
+      tags: publishedTags(note.frontmatter),
     }
   }
 

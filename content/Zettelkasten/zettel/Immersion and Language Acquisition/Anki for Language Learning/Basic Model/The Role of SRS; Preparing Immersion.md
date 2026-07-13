@@ -7,6 +7,9 @@ next:
 publish: true
 tags:
   - zettel
+  - anki
+  - language-learning
+  - language-acquisition
 ---
 # The Role of SRS; Preparing Immersion
 

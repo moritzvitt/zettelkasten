@@ -12,6 +12,9 @@ cover: "[[mx-img-ocean-waves-1993-pt1h9m26_73s.jpg]]"
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
 ---
 ## Kurznotiz
 

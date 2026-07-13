@@ -12,6 +12,9 @@ cover: "[[mx-img-kikis-delivery-service-1989-pt13m46_93s.jpg]]"
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
 ---
 ## Lernliste
 

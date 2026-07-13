@@ -10,6 +10,18 @@ cover: https://i.ytimg.com/vi/-QzI5uUvihA/maxresdefault.jpg?v=6843d024
 publish: true
 tags:
   - zettel
+  - nihongo
+  - _
+  - japanese-practice
+  - japanese-conversation
+  - native-speaker
+  - daily-japanese
+  - listening
+  - comprehensible-japanese
+  - japanese
+  - japaneselanguage
+  - relationships
+  - love
 ---
 ## Lernliste
 

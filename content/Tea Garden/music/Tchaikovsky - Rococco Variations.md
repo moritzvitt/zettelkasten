@@ -4,6 +4,9 @@ source: "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md"
 publish: true
 tags:
   - zettel
+  - tchaikovsky
+  - cello
+  - romantic
 ---
 # Rococco Variations
 

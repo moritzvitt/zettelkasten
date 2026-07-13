@@ -4,6 +4,7 @@ source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/W
 publish: true
 tags:
   - zettel
+  - language-learning
 ---
 # Which Skills Should You Prioritize When Learning a Language
 

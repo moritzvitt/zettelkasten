@@ -5,6 +5,11 @@ media: https://www.youtube.com/watch?v=Y7G5ithbFys
 publish: true
 tags:
   - zettel
+  - tchaikovsky
+  - cello
+  - symphony
+  - romantic
+  - music
 ---
 # Tchaikovsky - Symphony No. 4 f-moll op. 36
 

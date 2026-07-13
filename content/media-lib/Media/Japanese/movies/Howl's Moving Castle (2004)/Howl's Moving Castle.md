@@ -14,6 +14,13 @@ vocab-trainer: true
 publish: true
 tags:
   - zettel
+  - media
+  - transcript
+  - japanese
+  - anime
+  - ghibli
+  - love
+  - war
 ---
 ## Lernliste
 - [[Howl's Moving Castle (2004).mp4#t=292|4:52]] ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesicht

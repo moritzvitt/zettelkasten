@@ -4,6 +4,8 @@ source: "Digital Garden/Tea Garden/music/favourite songs.md"
 publish: true
 tags:
   - zettel
+  - music
+  - songs
 ---
 ![White Cyclosa|100x100](https://www.youtube.com/watch?v=W-Ejg5Lllr4)
 

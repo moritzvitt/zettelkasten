@@ -4,6 +4,7 @@ source: "Digital Garden/media-lib/web-clippings/Minimum information principle.md
 publish: true
 tags:
   - zettel
+  - clippings
 ---
 The [minimum information principle](https://supermemo.guru/wiki/Minimum_information_principle) has its purpose to minimize the changes in synaptic pattern complexity in each successive repetition (i.e. spaced repetition). This can be done by making your flashcards as simple as possible while ensuring that the whole of the collection still sufficiently resembles all of the components.
 
