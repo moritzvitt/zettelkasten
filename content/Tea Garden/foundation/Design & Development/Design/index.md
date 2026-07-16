@@ -12,4 +12,4 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[tea-garden/foundation/design-&-development/design/development-of-the-logo|Development of the Logo]] - I like the lower "Garden" lettering here (a simple serif font). It adds some variety compared with the "Moritz" lettering. !276 The logo now flickers and makes a buzzing sound on hover, like real neon tubes do. !150x200
+- [[tea-garden/foundation/design-&-development/design/theme-palette|Theme palette]] - /Users/moritzvitt/.codex/visualizations/2026/07/15/019f6520-c312-70d0-98ac-db2930c8886d/quartz-penpot-color-tokens.json <div style="font-family:'Noto Serif',serif; max-width:850px; margin:auto;"> <h1>Theme Palette</h1> <

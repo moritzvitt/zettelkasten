@@ -1,6 +1,6 @@
 ---
 title: "Tchaikovsky - Symphony No. 6"
-source: "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 6.md"
+source: "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 6.md"
 publish: true
 tags:
   - zettel

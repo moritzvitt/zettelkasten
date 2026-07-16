@@ -45,11 +45,11 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/design/development-of-the-logo": {
-      "slug": "tea-garden/foundation/design-&-development/design/development-of-the-logo",
-      "title": "Development of the Logo",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design/Development of the Logo.md",
-      "url": "/tea-garden/foundation/design-&-development/design/development-of-the-logo",
+    "tea-garden/foundation/design-&-development/design/theme-palette": {
+      "slug": "tea-garden/foundation/design-&-development/design/theme-palette",
+      "title": "Theme palette",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design/Theme palette.md",
+      "url": "/tea-garden/foundation/design-&-development/design/theme-palette",
       "tags": [
         "zettel"
       ]
@@ -99,20 +99,29 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz",
-      "title": "Excalibrain for Quartz",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Excalibrain for Quartz.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/excalibrain-for-quartz",
+    "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
+      "title": "Human Excalibrain for Quartz",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human Excalibrain for Quartz.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/plugins/plugins-media-control": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/plugins-media-control",
-      "title": "Plugins Media Control",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Plugins Media Control.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/plugins-media-control",
+    "tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin",
+      "title": "Human PDF Viewer Plugin",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human PDF Viewer Plugin.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/foundation/design-&-development/plugins/human-plugins-media-control": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/human-plugins-media-control",
+      "title": "Human Plugins Media Control",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human Plugins Media Control.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/human-plugins-media-control",
       "tags": [
         "zettel"
       ]
@@ -126,6 +135,15 @@
         "zettel"
       ]
     },
+    "tea-garden/foundation/working-with-ai---statement": {
+      "slug": "tea-garden/foundation/working-with-ai---statement",
+      "title": "Working with AI - statement",
+      "source": "Digital Garden/Tea Garden/foundation/Working with AI - statement.md",
+      "url": "/tea-garden/foundation/working-with-ai---statement",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/job-related/organisational-stuff,-future-plans.": {
       "slug": "tea-garden/job-related/organisational-stuff,-future-plans.",
       "title": "Organisational stuff, Future plans.",
@@ -135,11 +153,11 @@
         "zettel"
       ]
     },
-    "tea-garden/music/tchaikovsky---rococco-variations": {
-      "slug": "tea-garden/music/tchaikovsky---rococco-variations",
+    "tea-garden/music/classic/tchaikovsky---rococco-variations": {
+      "slug": "tea-garden/music/classic/tchaikovsky---rococco-variations",
       "title": "Rococco Variations",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md",
-      "url": "/tea-garden/music/tchaikovsky---rococco-variations",
+      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Rococco Variations.md",
+      "url": "/tea-garden/music/classic/tchaikovsky---rococco-variations",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -147,11 +165,11 @@
         "romantic"
       ]
     },
-    "tea-garden/music/tchaikovsky---symphony-no.-4": {
-      "slug": "tea-garden/music/tchaikovsky---symphony-no.-4",
+    "tea-garden/music/classic/tchaikovsky---symphony-no.-4": {
+      "slug": "tea-garden/music/classic/tchaikovsky---symphony-no.-4",
       "title": "Tchaikovsky - Symphony No. 4 f-moll op. 36",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
-      "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
+      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 4.md",
+      "url": "/tea-garden/music/classic/tchaikovsky---symphony-no.-4",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -161,29 +179,29 @@
         "music"
       ]
     },
-    "tea-garden/music/tchaikovsky---symphony-no.-6": {
-      "slug": "tea-garden/music/tchaikovsky---symphony-no.-6",
+    "tea-garden/music/classic/tchaikovsky---symphony-no.-6": {
+      "slug": "tea-garden/music/classic/tchaikovsky---symphony-no.-6",
       "title": "Tchaikovsky - Symphony No. 6",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 6.md",
-      "url": "/tea-garden/music/tchaikovsky---symphony-no.-6",
+      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 6.md",
+      "url": "/tea-garden/music/classic/tchaikovsky---symphony-no.-6",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/music/favourite-classical-pieces": {
-      "slug": "tea-garden/music/favourite-classical-pieces",
-      "title": "favourite classical pieces",
-      "source": "Digital Garden/Tea Garden/music/favourite classical pieces.md",
-      "url": "/tea-garden/music/favourite-classical-pieces",
+    "tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)": {
+      "slug": "tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
+      "title": "Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video)",
+      "source": "Digital Garden/Tea Garden/music/pop/Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video).md",
+      "url": "/tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/music/favourite-songs": {
-      "slug": "tea-garden/music/favourite-songs",
-      "title": "favourite songs",
-      "source": "Digital Garden/Tea Garden/music/favourite songs.md",
-      "url": "/tea-garden/music/favourite-songs",
+    "tea-garden/music/techno/white-cyclosa": {
+      "slug": "tea-garden/music/techno/white-cyclosa",
+      "title": "White Cyclosa",
+      "source": "Digital Garden/Tea Garden/music/techno/White Cyclosa.md",
+      "url": "/tea-garden/music/techno/white-cyclosa",
       "tags": [
         "zettel",
         "music",
@@ -258,6 +276,33 @@
       "title": "Messi is Art",
       "source": "Digital Garden/Tea Garden/personal/other/Messi is Art.md",
       "url": "/tea-garden/personal/other/messi-is-art",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/recipes/bolognese": {
+      "slug": "tea-garden/recipes/bolognese",
+      "title": "**Ragù alla Bolognese**",
+      "source": "Digital Garden/Tea Garden/recipes/Bolognese.md",
+      "url": "/tea-garden/recipes/bolognese",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/recipes/gnocchi-auflauf": {
+      "slug": "tea-garden/recipes/gnocchi-auflauf",
+      "title": "**Gnocchi-Auflauf**",
+      "source": "Digital Garden/Tea Garden/recipes/Gnocchi Auflauf.md",
+      "url": "/tea-garden/recipes/gnocchi-auflauf",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/recipes/milchreis": {
+      "slug": "tea-garden/recipes/milchreis",
+      "title": "**Milchreis**",
+      "source": "Digital Garden/Tea Garden/recipes/Milchreis.md",
+      "url": "/tea-garden/recipes/milchreis",
       "tags": [
         "zettel"
       ]
@@ -1246,10 +1291,9 @@
       "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
       "tags": [
         "zettel",
-        "media",
-        "transcript",
         "japanese",
-        "youtube"
+        "music",
+        "jpop"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {

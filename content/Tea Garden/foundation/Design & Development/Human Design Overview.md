@@ -5,23 +5,15 @@ publish: true
 tags:
   - zettel
 ---
-Styling: 
+## My own logo:
+[[Development of the Logo]].
 
-my own logo:
-[[tea-garden/foundation/design-&-development/design/development-of-the-logo|Development of the Logo]].
+## own plugins: 
+[[tea-garden/foundation/design-&-development/plugins/human-plugins-media-control|Human Plugins Media Control]]
+[[tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin|Human PDF Viewer Plugin]]
 
-own plugins: 
-[[tea-garden/foundation/design-&-development/plugins/plugins-media-control|Plugins Media Control]]
-[[tea-garden/foundation/design-&-development/plugins/plugins-media-control#Pdf viewer|Plugins Media Control]]
+## base plugins: 
 
-my font:
-[[tea-garden/foundation/design-&-development/font/my-own-font|my own font]]
-[[tea-garden/foundation/design-&-development/font/font-versions-log|font versions log]]
-
-
- Link-Stil, 
- 
- 
  ## Toolbar
  zeigt aktuell drei icons und die Suchleiste. 
  Light/Dark mode, Reading mode, switch font, 
@@ -32,155 +24,18 @@ my font:
 ## Reading mode: 
 Logo verschwindet sofort (Graph auch) die tool bar verschwindet erst wenn der Cursor die Seitenleiste verlässt. 
 
+## my font:
+[[tea-garden/foundation/design-&-development/font/my-own-font|my own font]]
+[[tea-garden/foundation/design-&-development/font/font-versions-log|font versions log]]
+
+[[tea-garden/foundation/design-&-development/design/theme-palette|Theme palette]]
+
+ Link-Stil, 
  
-<div style="font-family:'Noto Serif',serif; max-width:850px; margin:auto;">
-
-<h1>Theme Palette</h1>
-
-<p>
-<strong>Header:</strong> Noto Serif<br>
-<strong>Body:</strong> Noto Serif<br>
-<strong>Code:</strong> <span style="font-family:'JetBrains Mono',monospace;">JetBrains Mono</span>
-</p>
-
-<h2>Light Mode</h2>
-
-<table style="border-collapse:collapse;width:100%;">
-<tr>
-<th align="left">Name</th>
-<th align="left">Preview</th>
-<th align="left">Value</th>
-</tr>
-
-<tr>
-<td>Light</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#ffffff" stroke="#888"/></svg></td>
-<td><code>#ffffff</code></td>
-</tr>
-
-<tr>
-<td>Light Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#deded6" stroke="#888"/></svg></td>
-<td><code>#deded6</code></td>
-</tr>
-
-<tr>
-<td>Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#a8aaa0" stroke="#888"/></svg></td>
-<td><code>#a8aaa0</code></td>
-</tr>
-
-<tr>
-<td>Dark Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#243027" stroke="#888"/></svg></td>
-<td><code>#243027</code></td>
-</tr>
-
-<tr>
-<td>Dark</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#1f1f1e" stroke="#888"/></svg></td>
-<td><code>#1f1f1e</code></td>
-</tr>
-
-<tr>
-<td>Secondary</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#00a83b" stroke="#888"/></svg></td>
-<td><code>#00a83b</code></td>
-</tr>
-
-<tr>
-<td>Tertiary</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#00b894" stroke="#888"/></svg></td>
-<td><code>#00b894</code></td>
-</tr>
-
-<tr>
-<td>Highlight</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="rgba(57,255,20,0.13)" stroke="#888"/></svg></td>
-<td><code>rgba(57,255,20,0.13)</code></td>
-</tr>
-
-<tr>
-<td>Text Highlight</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#eaffbf" stroke="#888"/></svg></td>
-<td><code>#eaffbf</code></td>
-</tr>
-
-</table>
-
-<br>
-
-<h2>Dark Mode</h2>
-
-<table style="border-collapse:collapse;width:100%;">
-<tr>
-<th align="left">Name</th>
-<th align="left">Preview</th>
-<th align="left">Value</th>
-</tr>
-
-<tr>
-<td>Light</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#121412" stroke="#888"/></svg></td>
-<td><code>#121412</code></td>
-</tr>
-
-<tr>
-<td>Light Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#30362f" stroke="#888"/></svg></td>
-<td><code>#30362f</code></td>
-</tr>
-
-<tr>
-<td>Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#777d72" stroke="#888"/></svg></td>
-<td><code>#777d72</code></td>
-</tr>
-
-<tr>
-<td>Dark Gray</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#d9ded5" stroke="#888"/></svg></td>
-<td><code>#d9ded5</code></td>
-</tr>
-
-<tr>
-<td>Dark</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#f4f6ef" stroke="#888"/></svg></td>
-<td><code>#f4f6ef</code></td>
-</tr>
-
-<tr>
-<td>Secondary</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#c8fff2" stroke="#888"/></svg></td>
-<td><code>#c8fff2</code></td>
-</tr>
-
-<tr>
-<td>Tertiary</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="#d9ff66" stroke="#888"/></svg></td>
-<td><code>#d9ff66</code></td>
-</tr>
-
-<tr>
-<td>Highlight</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="rgba(102,255,209,0.13)" stroke="#888"/></svg></td>
-<td><code>rgba(102,255,209,0.13)</code></td>
-</tr>
-
-<tr>
-<td>Text Highlight</td>
-<td><svg width="80" height="24"><rect width="80" height="24" fill="rgba(217,255,102,0.14)" stroke="#888"/></svg></td>
-<td><code>rgba(217,255,102,0.14)</code></td>
-</tr>
-
-</table>
-
-</div>****
-
-
+****
 The ideas in [[tea-garden/foundation/purpose|Purpose]] (search of truth & clear thinking) lead to following design principles: 
 
-I follow these design principles. Not strictly, but I look to thing I am sticking to these (moritz: kann man das so sagen? Der Satz vor dem Kommentar)
+I follow these design principles. Not strictly, but I like to think that I am sticking to these (moritz: kann man das so sagen? Der Satz vor dem Kommentar)
 - [[minimalism]] (only really necessary information)
 - simplicity (only essential stuff matters, don't try to overcomplicate things (visually))
 - [[zettelkasten/zettel/design-principles/guided-attention|Guided Attention]] (through simple differences in stroke thickness, font size, etc.)

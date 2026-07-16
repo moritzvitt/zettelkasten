@@ -1,6 +1,6 @@
 ---
-title: "favourite songs"
-source: "Digital Garden/Tea Garden/music/favourite songs.md"
+title: "White Cyclosa"
+source: "Digital Garden/Tea Garden/music/techno/White Cyclosa.md"
 publish: true
 tags:
   - zettel

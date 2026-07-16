@@ -4,15 +4,15 @@ source: "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米
 mx-uid: yt-SX_ViT4Ra7k
 media: https://www.youtube.com/watch?v=SX_ViT4Ra7k
 captions: []
-cover: https://i.ytimg.com/vi_webp/SX_ViT4Ra7k/maxresdefault.webp
+cover: "[[mx-img-yt-SX_ViT4Ra7k-pt1m6_80s.jpg]]"
 publish: true
 tags:
   - zettel
-  - media
-  - transcript
   - japanese
-  - youtube
+  - music
+  - jpop
 ---
+![](https://www.youtube.com/watch?v=SX_ViT4Ra7k#as=audio)
 ## Lernliste
 
 - [00:02](https://youtu.be/SX_ViT4Ra7k?t=2) ==夢ならば== ||ゆめならば|| - wenn es ein Traum wäre
@@ -46,6 +46,7 @@ tags:
 - [01:05](https://youtu.be/SX_ViT4Ra7k?t=65) ==愛してた== ||あいしてた|| - hatte geliebt
 - [01:05](https://youtu.be/SX_ViT4Ra7k?t=65) ==ともに== - zusammen mit, gemeinsam mit
 - [01:10](https://youtu.be/SX_ViT4Ra7k?t=70) ==胸に残る== ||むねにのこる|| - im Herzen / in der Brust zurückbleiben
+- [01:13](https://www.youtube.com/watch?v=SX_ViT4Ra7k&t=73#t=01:13.14) 
 - [01:10](https://youtu.be/SX_ViT4Ra7k?t=70) ==離れない== ||はなれない|| - nicht weggehen, sich nicht lösen
 - [01:10](https://youtu.be/SX_ViT4Ra7k?t=70) ==苦い== ||にがい|| - bitter
 - [01:10](https://youtu.be/SX_ViT4Ra7k?t=70) ==匂い== ||におい|| - Geruch
