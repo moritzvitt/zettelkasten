@@ -14,3 +14,5 @@ replit.nix
 plugins/*/dist/
 plugins/*/node_modules/
 quartz/cli/tui/dist/
+
+*.mp4

@@ -10,6 +10,9 @@ cover: https://i.ytimg.com/vi/p6ctFk0M9hc/maxresdefault.jpg
 publish: true
 tags:
   - zettel
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - media
 ---
 ## Lernliste
 

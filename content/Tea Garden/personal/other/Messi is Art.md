@@ -10,8 +10,10 @@ tags:
 
 Messi scans many more times than the average player, helping him in maximising his distance to other players. 
 
-Messi creates geometry. 
+In doing that, he creates geometry. 
 
 Messi manipulates rhythm. He is present and his brain works lightning fast. A short moment of distraction allows him to slip past defenders. 
 
-Messi chooses the right moment. He decides wisely on when to go all in.
+In dribbling he makes defenders used to a certain rhythm and then breaks the rhythm. 
+
+Messi chooses the right moment. He decides wisely on when to go all in, saves his energy.

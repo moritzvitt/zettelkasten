@@ -8,34 +8,6 @@
     "sibling"
   ],
   "nodes": {
-    "tea-garden/japanese/japanese-topics": {
-      "slug": "tea-garden/japanese/japanese-topics",
-      "title": "Japanese Topics",
-      "source": "Digital Garden/Tea Garden/Japanese/Japanese Topics.md",
-      "url": "/tea-garden/japanese/japanese-topics",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/japanese/character-sets-for-making-custom-fonts": {
-      "slug": "tea-garden/japanese/character-sets-for-making-custom-fonts",
-      "title": "character sets for making custom fonts",
-      "source": "Digital Garden/Tea Garden/Japanese/character sets for making custom fonts.md",
-      "url": "/tea-garden/japanese/character-sets-for-making-custom-fonts",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/japanese/favourite-japanese-songs": {
-      "slug": "tea-garden/japanese/favourite-japanese-songs",
-      "title": "favourite japanese songs",
-      "source": "Digital Garden/Tea Garden/Japanese/favourite japanese songs.md",
-      "url": "/tea-garden/japanese/favourite-japanese-songs",
-      "tags": [
-        "zettel",
-        "japanese"
-      ]
-    },
     "index": {
       "slug": "index",
       "title": "Welcome in my Digital Garden!",
@@ -54,38 +26,11 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/design-ideas": {
-      "slug": "tea-garden/foundation/design-&-development/design-ideas",
-      "title": "Design Ideas",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design Ideas.md",
-      "url": "/tea-garden/foundation/design-&-development/design-ideas",
-      "tags": [
-        "zettel"
-      ]
-    },
     "tea-garden/foundation/design-&-development/human-design-overview": {
       "slug": "tea-garden/foundation/design-&-development/human-design-overview",
       "title": "Human Design Overview",
       "source": "Digital Garden/Tea Garden/foundation/Design & Development/Human Design Overview.md",
       "url": "/tea-garden/foundation/design-&-development/human-design-overview",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/versions-log": {
-      "slug": "tea-garden/foundation/design-&-development/versions-log",
-      "title": "Versions Log",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Versions Log.md",
-      "url": "/tea-garden/foundation/design-&-development/versions-log",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/font/font-versions-log": {
-      "slug": "tea-garden/foundation/design-&-development/font/font-versions-log",
-      "title": "font versions log",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/font versions log.md",
-      "url": "/tea-garden/foundation/design-&-development/font/font-versions-log",
       "tags": [
         "zettel"
       ]
@@ -99,20 +44,20 @@
         "zettel"
       ]
     },
+    "tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin": {
+      "slug": "tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin",
+      "title": "Agents PDF Viewer Plugin",
+      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Agents/Agents PDF Viewer Plugin.md",
+      "url": "/tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz": {
       "slug": "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
       "title": "Human Excalibrain for Quartz",
       "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human Excalibrain for Quartz.md",
       "url": "/tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin",
-      "title": "Human PDF Viewer Plugin",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human PDF Viewer Plugin.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/human-pdf-viewer-plugin",
       "tags": [
         "zettel"
       ]
@@ -153,6 +98,58 @@
         "zettel"
       ]
     },
+    "tea-garden/languages/japanese/japanese-topics": {
+      "slug": "tea-garden/languages/japanese/japanese-topics",
+      "title": "Japanese Topics",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Topics.md",
+      "url": "/tea-garden/languages/japanese/japanese-topics",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/languages/japanese/kanji-lernliste": {
+      "slug": "tea-garden/languages/japanese/kanji-lernliste",
+      "title": "Kanji Lernliste",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Kanji Lernliste.md",
+      "url": "/tea-garden/languages/japanese/kanji-lernliste",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-mistakes": {
+      "slug": "tea-garden/languages/japanese/japanese-mistakes",
+      "title": "japanese mistakes",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/japanese mistakes.md",
+      "url": "/tea-garden/languages/japanese/japanese-mistakes",
+      "tags": [
+        "zettel",
+        "japanese",
+        "home/study-room"
+      ]
+    },
+    "tea-garden/languages/chinese/zhuyin": {
+      "slug": "tea-garden/languages/chinese/zhuyin",
+      "title": "Zhuyin",
+      "source": "Digital Garden/Tea Garden/languages/chinese/Zhuyin.md",
+      "url": "/tea-garden/languages/chinese/zhuyin",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/music/joe-hisaishi---one-summer's-day": {
+      "slug": "tea-garden/music/joe-hisaishi---one-summer's-day",
+      "title": "Joe Hisaishi - One Summer's Day",
+      "source": "Digital Garden/Tea Garden/music/Joe Hisaishi - One Summer's Day.md",
+      "url": "/tea-garden/music/joe-hisaishi---one-summer's-day",
+      "tags": [
+        "zettel",
+        "music",
+        "japanese-music",
+        "ghibli",
+        "natsukashii",
+        "media"
+      ]
+    },
     "tea-garden/music/classic/tchaikovsky---rococco-variations": {
       "slug": "tea-garden/music/classic/tchaikovsky---rococco-variations",
       "title": "Rococco Variations",
@@ -162,7 +159,9 @@
         "zettel",
         "tchaikovsky",
         "cello",
-        "romantic"
+        "romantic",
+        "music/romantic",
+        "media"
       ]
     },
     "tea-garden/music/classic/tchaikovsky---symphony-no.-4": {
@@ -176,7 +175,8 @@
         "cello",
         "symphony",
         "romantic",
-        "music"
+        "music",
+        "media"
       ]
     },
     "tea-garden/music/classic/tchaikovsky---symphony-no.-6": {
@@ -185,7 +185,25 @@
       "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 6.md",
       "url": "/tea-garden/music/classic/tchaikovsky---symphony-no.-6",
       "tags": [
-        "zettel"
+        "zettel",
+        "music",
+        "classic",
+        "romantic",
+        "tchaikovsky",
+        "media"
+      ]
+    },
+    "tea-garden/music/hiphop/hotline-bling": {
+      "slug": "tea-garden/music/hiphop/hotline-bling",
+      "title": "Hotline Bling",
+      "source": "Digital Garden/Tea Garden/music/hiphop/Hotline Bling.md",
+      "url": "/tea-garden/music/hiphop/hotline-bling",
+      "tags": [
+        "zettel",
+        "music",
+        "drake",
+        "hiphop",
+        "media"
       ]
     },
     "tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)": {
@@ -194,7 +212,25 @@
       "source": "Digital Garden/Tea Garden/music/pop/Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video).md",
       "url": "/tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
       "tags": [
-        "zettel"
+        "zettel",
+        "media"
+      ]
+    },
+    "tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world": {
+      "slug": "tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world",
+      "title": "世界の約束　ー　Promise of the World",
+      "source": "Digital Garden/Tea Garden/music/tear-jerker/世界の約束　ー　Promise of the World.md",
+      "url": "/tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world",
+      "tags": [
+        "zettel",
+        "japanese",
+        "music",
+        "howls-moving-castle",
+        "ghibli",
+        "japanese-music",
+        "nostalgia",
+        "natsukashii",
+        "media"
       ]
     },
     "tea-garden/music/techno/white-cyclosa": {
@@ -205,7 +241,8 @@
       "tags": [
         "zettel",
         "music",
-        "songs"
+        "songs",
+        "media"
       ]
     },
     "tea-garden/personal/about-me": {
@@ -213,6 +250,15 @@
       "title": "About me",
       "source": "Digital Garden/Tea Garden/personal/About me.md",
       "url": "/tea-garden/personal/about-me",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/positive-fantasie-💭": {
+      "slug": "tea-garden/personal/positive-fantasie-💭",
+      "title": "Positive Fantasie 💭",
+      "source": "Digital Garden/Tea Garden/personal/Positive Fantasie 💭.md",
+      "url": "/tea-garden/personal/positive-fantasie-💭",
       "tags": [
         "zettel"
       ]
@@ -244,6 +290,15 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts": {
+      "slug": "tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts",
+      "title": "character sets for making custom fonts",
+      "source": "Digital Garden/Tea Garden/personal/Things I made/character sets for making custom fonts.md",
+      "url": "/tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/things-i-made/pixel-art": {
       "slug": "tea-garden/personal/things-i-made/pixel-art",
       "title": "pixel art",
@@ -262,13 +317,23 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/other/funny-stuff": {
+      "slug": "tea-garden/personal/other/funny-stuff",
+      "title": "Funny Stuff",
+      "source": "Digital Garden/Tea Garden/personal/other/Funny Stuff.md",
+      "url": "/tea-garden/personal/other/funny-stuff",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/personal/other/green-tea": {
       "slug": "tea-garden/personal/other/green-tea",
       "title": "Green Tea",
       "source": "Digital Garden/Tea Garden/personal/other/Green Tea.md",
       "url": "/tea-garden/personal/other/green-tea",
       "tags": [
-        "zettel"
+        "zettel",
+        "home/living-room"
       ]
     },
     "tea-garden/personal/other/messi-is-art": {
@@ -280,9 +345,18 @@
         "zettel"
       ]
     },
+    "tea-garden/personal/other/routine": {
+      "slug": "tea-garden/personal/other/routine",
+      "title": "Routine",
+      "source": "Digital Garden/Tea Garden/personal/other/Routine.md",
+      "url": "/tea-garden/personal/other/routine",
+      "tags": [
+        "zettel"
+      ]
+    },
     "tea-garden/recipes/bolognese": {
       "slug": "tea-garden/recipes/bolognese",
-      "title": "**Ragù alla Bolognese**",
+      "title": "Ragù alla Bolognese",
       "source": "Digital Garden/Tea Garden/recipes/Bolognese.md",
       "url": "/tea-garden/recipes/bolognese",
       "tags": [
@@ -291,7 +365,7 @@
     },
     "tea-garden/recipes/gnocchi-auflauf": {
       "slug": "tea-garden/recipes/gnocchi-auflauf",
-      "title": "**Gnocchi-Auflauf**",
+      "title": "Gnocchi-Auflauf",
       "source": "Digital Garden/Tea Garden/recipes/Gnocchi Auflauf.md",
       "url": "/tea-garden/recipes/gnocchi-auflauf",
       "tags": [
@@ -300,7 +374,7 @@
     },
     "tea-garden/recipes/milchreis": {
       "slug": "tea-garden/recipes/milchreis",
-      "title": "**Milchreis**",
+      "title": "Milchreis",
       "source": "Digital Garden/Tea Garden/recipes/Milchreis.md",
       "url": "/tea-garden/recipes/milchreis",
       "tags": [
@@ -1232,6 +1306,68 @@
         "zettel"
       ]
     },
+    "journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.": {
+      "slug": "journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
+      "title": "2026-07-06 The future is amazing. Go get it.",
+      "source": "Digital Garden/journal/July - 2026/2026-07-06 The future is amazing. Go get it..md",
+      "url": "/journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "journal/july---2026/2026-07-18-datascience": {
+      "slug": "journal/july---2026/2026-07-18-datascience",
+      "title": "2026-07-18 datascience",
+      "source": "Digital Garden/journal/July - 2026/2026-07-18 datascience.md",
+      "url": "/journal/july---2026/2026-07-18-datascience",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index": {
+      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)",
+      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin).md",
+      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "youtube",
+        "vocabulary-list",
+        "french/vocabulary-list"
+      ]
+    },
+    "media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index": {
+      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)",
+      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen).md",
+      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "youtube",
+        "vocabulary-list",
+        "french/vocabulary-list"
+      ]
+    },
+    "media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index": {
+      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)",
+      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil).md",
+      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "vocabulary-list",
+        "french/vocabulary-list"
+      ]
+    },
     "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle": {
       "slug": "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle",
       "title": "Howl's Moving Castle",
@@ -1245,7 +1381,10 @@
         "anime",
         "ghibli",
         "love",
-        "war"
+        "war",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
       ]
     },
     "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service": {
@@ -1257,7 +1396,10 @@
         "zettel",
         "media",
         "transcript",
-        "japanese"
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
       ]
     },
     "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves": {
@@ -1269,7 +1411,10 @@
         "zettel",
         "media",
         "transcript",
-        "japanese"
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
       ]
     },
     "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises": {
@@ -1281,19 +1426,40 @@
         "zettel",
         "media",
         "transcript",
-        "japanese"
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
       ]
     },
-    "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index": {
-      "slug": "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
+    "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon": {
+      "slug": "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon",
       "title": "米津玄師 Kenshi Yonezu - Lemon",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米津玄師 Kenshi Yonezu - Lemon/米津玄師 Kenshi Yonezu - Lemon.md",
-      "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu---lemon/index",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米津玄師 Kenshi Yonezu/米津玄師 Kenshi Yonezu - Lemon.md",
+      "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon",
       "tags": [
         "zettel",
         "japanese",
         "music",
-        "jpop"
+        "jpop",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index": {
+      "slug": "media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index",
+      "title": "ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～",
+      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Interviews & Documentaries/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～.md",
+      "url": "/media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {
@@ -1309,7 +1475,10 @@
         "japan",
         "culture",
         "cultural-differences",
-        "germany-japan"
+        "germany-japan",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index": {
@@ -1319,7 +1488,11 @@
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index",
       "tags": [
         "zettel",
-        "_"
+        "_",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index": {
@@ -1329,7 +1502,11 @@
       "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index",
       "tags": [
         "zettel",
-        "_"
+        "_",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index": {
@@ -1342,7 +1519,9 @@
         "media",
         "transcript",
         "japanese",
-        "youtube"
+        "youtube",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
       ]
     },
     "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index": {
@@ -1357,7 +1536,9 @@
         "japanese",
         "youtube",
         "life-advice",
-        "nostalgia"
+        "nostalgia",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
       ]
     },
     "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index": {
@@ -1372,7 +1553,9 @@
         "japanese",
         "youtube",
         "yuyu",
-        "yuyus-podcast"
+        "yuyus-podcast",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)": {
@@ -1389,7 +1572,10 @@
         "japanese",
         "_",
         "find-your-love-in-japan",
-        "porn-director-in-japan"
+        "porn-director-in-japan",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?": {
@@ -1398,7 +1584,12 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/How much do Japanese Girls Cheat?.md",
       "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?",
       "tags": [
-        "zettel"
+        "zettel",
+        "japanese/relationships",
+        "japanese/conversation",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive": {
@@ -1407,7 +1598,10 @@
       "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/What Japanese Girls Find Attractive.md",
       "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive",
       "tags": [
-        "zettel"
+        "zettel",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     },
     "media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
@@ -1428,17 +1622,10 @@
         "japanese",
         "japaneselanguage",
         "relationships",
-        "love"
-      ]
-    },
-    "media-lib/web-clippings/minimum-information-principle": {
-      "slug": "media-lib/web-clippings/minimum-information-principle",
-      "title": "Minimum information principle",
-      "source": "Digital Garden/media-lib/web-clippings/Minimum information principle.md",
-      "url": "/media-lib/web-clippings/minimum-information-principle",
-      "tags": [
-        "zettel",
-        "clippings"
+        "love",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
       ]
     }
   },

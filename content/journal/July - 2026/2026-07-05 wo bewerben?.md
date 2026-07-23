@@ -1,6 +1,7 @@
 ---
 title: "2026-07-05 wo bewerben?"
 source: "Digital Garden/journal/July - 2026/2026-07-05 wo bewerben?.md"
+password: zowitsch
 publish: true
 tags:
   - zettel

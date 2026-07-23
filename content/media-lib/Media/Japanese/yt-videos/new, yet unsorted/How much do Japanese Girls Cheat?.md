@@ -7,11 +7,19 @@ media: https://www.youtube.com/watch?v=b22jxhg0OVo
 captions:
   - "[[xm0kei7udkdpoiq604iqdzdp.uX8u.ja.vtt#lang=ja&label=Japanese+%28auto-gene\
     rated%29]]"
-cover: "[[mx-img-xm0kei7udkdpoiq604iqdzdp-pt2_90s.jpg]]"
+cover: "[[media-lib/Media/Japanese/yt-videos/new, yet
+  unsorted/mx-img-xm0kei7udkdpoiq604iqdzdp-pt2_90s.jpg]]"
 publish: true
 tags:
   - zettel
+  - japanese/relationships
+  - japanese/conversation
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - media
 ---
+![](https://www.youtube.com/watch?v=b22jxhg0OVo#as=audio)
+
 ## Lernliste
 
 - [0:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=0#t=00:00.08) ==浮気してる方==（||うわきしてるかた||） - jemand, der fremdgeht; `方` hier hoeflicher fuer Person
@@ -45,7 +53,7 @@ tags:
 - [7:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=425#t=07:05.91) ==経験としてどうぞ==（||けいけんとしてどうぞ||） - mach es halt als Erfahrung; sehr laessige Haltung
 - [7:46](https://www.youtube.com/watch?v=b22jxhg0OVo&t=466#t=07:46.80) ==出会いじゃなくて==（||であいじゃなくて||） - nicht als Kennenlernen/Begegnung gemeint
 - [7:53](https://www.youtube.com/watch?v=b22jxhg0OVo&t=473#t=07:53.19) ==縛られたくない==（||しばられたくない||） - nicht eingeengt/gebunden werden wollen
-- [7:53](https://www.youtube.com/watch?v=b22jxhg0OVo&t=473#t=07:53.19) ==縛り合ってるのが愛==（||しばりあってるのがあい||） - einander einzuschranken gilt als Liebe
+- [7:53](https://www.youtube.com/watch?v=b22jxhg0OVo&t=473#t=07:53.19) ==縛り合ってるのが愛==（||しばりあってるのがあい||） - einander einzuschränken gilt als Liebe
 - [8:06](https://www.youtube.com/watch?v=b22jxhg0OVo&t=486#t=08:06.80) ==重すぎない方がいい==（||おもすぎないほうがいい||） - besser nicht zu einengend/intensiv sein
 - [8:35](https://www.youtube.com/watch?v=b22jxhg0OVo&t=515#t=08:35.44) ==異性とした時==（||いせいとしたとき||） - wenn man es mit jemandem vom anderen Geschlecht macht
 - [9:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=545#t=09:05.83) ==勝手にしてくれるんやったら==（||かってにしてくれるんやったら||） - wenn er es von sich aus/ohne mich macht; Kansai-nahe Form

@@ -10,6 +10,7 @@ tags:
   - symphony
   - romantic
   - music
+  - media
 ---
 # Tchaikovsky - Symphony No. 4 f-moll op. 36
 

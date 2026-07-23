@@ -1,15 +1,15 @@
 ---
-title: "**Milchreis**"
+title: "Milchreis"
 source: "Digital Garden/Tea Garden/recipes/Milchreis.md"
 publish: true
 tags:
   - zettel
 ---
-# **Milchreis**
+# Milchreis
 
-## **Klassischer Milchreis (ca. 2 Portionen)**
+## Klassischer Milchreis (ca. 2 Portionen)
 
-### **Zutaten**
+### Zutaten
 
 - 150 g Milchreis
 - 600 ml Milch
@@ -20,25 +20,25 @@ tags:
     - Vanille
     - Zimt
 
-### **Zubereitung**
+### Zubereitung
 
 1. Milch mit einer kleinen Prise Salz aufkochen.
 2. Milchreis einrühren.
 3. Hitze auf klein stellen.
-4. Etwa **30–35 Minuten** unter gelegentlichem Rühren köcheln lassen.
+4. Etwa 30–35 Minuten unter gelegentlichem Rühren köcheln lassen.
 5. Gegen Ende Zucker und ggf. Butter unterrühren.
 6. Vor dem Servieren einige Minuten quellen lassen.
 
-### **Anmerkungen**
+### Anmerkungen
 
-- Eine „gute Prise Salz“ entspricht ungefähr **1/8 Teelöffel**.
+- Eine „gute Prise Salz“ entspricht ungefähr 1/8 Teelöffel.
 - Butter macht den Milchreis etwas cremiger und runder im Geschmack.
 
 ---
 
-# **Milchreis mit Sojamilch**
+# Milchreis mit Sojamilch
 
-## **Funktioniert das?**
+## Funktioniert das?
 
 Ja.
 
@@ -47,7 +47,7 @@ Empfehlungen:
 - Ungesüßte Sojamilch verwenden.
 - Butter kann zusätzlich verwendet werden, falls keine vegane Variante gewünscht ist.
 
-### **Unterschiede**
+### Unterschiede
 
 - etwas weniger süß
 - leicht nussiger Geschmack
@@ -59,15 +59,15 @@ Empfehlungen:
 
 ---
 
-# **Erkenntnisse / Anmerkungen aus dem Projekt**
+# Erkenntnisse / Anmerkungen aus dem Projekt
 
-### **Milchreis**
+### Milchreis
 
 - Eine kleine Menge Salz verbessert den Geschmack deutlich.
 - Butter ist optional, macht den Reis aber cremiger.
 - Sojamilch funktioniert problemlos.
 
-### **Gnocchi-Auflauf**
+### Gnocchi-Auflauf
 
 - Weißwein eignet sich gut zum Ablöschen der Sahnesauce.
 - Parmesan und Mozzarella ergänzen sich gut:

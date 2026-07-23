@@ -8,13 +8,17 @@ captions:
 language: ja
 offset: 0ms
 source_offset_applied: 0ms
-cover: "[[mx-img-ocean-waves-1993-pt1h9m26_73s.jpg]]"
+cover: "[[media-lib/Media/Japanese/movies/Ocean Waves
+  (1993)/mx-img-ocean-waves-1993-pt1h9m26_73s.jpg]]"
 publish: true
 tags:
   - zettel
   - media
   - transcript
   - japanese
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
 ---
 ## Kurznotiz
 

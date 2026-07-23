@@ -7,6 +7,8 @@ tags:
   - tchaikovsky
   - cello
   - romantic
+  - music/romantic
+  - media
 ---
 # Rococco Variations
 

@@ -1,11 +1,11 @@
 ---
-title: "**Ragù alla Bolognese**"
+title: "Ragù alla Bolognese"
 source: "Digital Garden/Tea Garden/recipes/Bolognese.md"
 publish: true
 tags:
   - zettel
 ---
-# **Ragù alla Bolognese**
+# Ragù alla Bolognese
 
 ## **Zutaten (ca. 4–6 Portionen)**
 

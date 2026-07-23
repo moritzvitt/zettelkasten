@@ -18,6 +18,8 @@ tags:
   - youtube
   - life-advice
   - nostalgia
+  - vocabulary-list
+  - japanese/vocabulary-list
 ---
 ![](https://www.youtube.com/watch?v=szlCSg0qlV0#as=audio)
 ## Lernliste

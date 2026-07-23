@@ -148,6 +148,19 @@ function embeddedAssets(text) {
   return [...new Set(result)]
 }
 
+function wikilinkImageTarget(value) {
+  if (typeof value !== "string") return null
+  const match = value.match(/^!?\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]$/)
+  if (!match) return null
+
+  const target = match[1].trim()
+  return imageAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
+}
+
+function publishedAssetPath(relDir, target) {
+  return [...relDir.split(path.sep).filter(Boolean), path.basename(target)].join("/")
+}
+
 function excerpt(text) {
   return stripFrontmatter(text)
     .replace(/%%[\s\S]*?%%/g, "")
@@ -248,6 +261,9 @@ const passthroughFrontmatterKeys = [
   "cover",
   "tags",
   "vocab-trainer",
+  "password",
+  "unlisted",
+  "stealth",
 ]
 
 function yamlField(key, value) {
@@ -457,6 +473,9 @@ await mkdir(excalidrawStaticRoot, { recursive: true })
 
 const sourceFiles = await walkFiles(digitalGardenRoot)
 const files = sourceFiles.filter((file) => file.endsWith(".md"))
+const baseFiles = sourceFiles.filter(
+  (file) => path.extname(file).toLocaleLowerCase("de") === ".base",
+)
 const assetsByName = new Map()
 for (const file of sourceFiles) {
   const ext = path.extname(file).toLocaleLowerCase("de")
@@ -475,19 +494,23 @@ for (const file of files) {
     continue
   }
   const rel = outputPath(file)
+  const relDir = path.dirname(rel) === "." ? "" : path.dirname(rel)
+  const coverAsset = wikilinkImageTarget(data.cover)
   const parsedRelationships = parseLinksSection(text)
   rawNotes.push({
     file,
     rel,
-    relDir: path.dirname(rel) === "." ? "" : path.dirname(rel),
+    relDir,
     title: titleFrom(file, text),
     text,
     relations: parsedRelationships.byType,
     relationships: parsedRelationships.relationships,
     wikiLinks: allWikiLinks(text),
-    embeddedAssets: embeddedAssets(text),
+    embeddedAssets: [...new Set([...embeddedAssets(text), ...(coverAsset ? [coverAsset] : [])])],
     excerpt: excerpt(text),
-    frontmatter: data,
+    frontmatter: coverAsset
+      ? { ...data, cover: `[[${publishedAssetPath(relDir, coverAsset)}]]` }
+      : data,
   })
 }
 
@@ -606,6 +629,12 @@ for (const note of rawNotes) {
   }
 }
 
+for (const file of baseFiles) {
+  const out = path.join(contentRoot, outputPath(file))
+  await mkdir(path.dirname(out), { recursive: true })
+  await copyFile(file, out)
+}
+
 const folders = new Map()
 for (const note of rawNotes) {
   if (!folders.has(note.relDir)) folders.set(note.relDir, [])
@@ -634,6 +663,7 @@ await writeFile(
 )
 
 console.log(`Synced ${rawNotes.length} published Digital Garden notes into ${contentRoot}`)
+if (baseFiles.length) console.log(`Synced ${baseFiles.length} Digital Garden bases`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
 const unresolvedRelationships = rawNotes.flatMap((note) =>
   note.unresolvedRelationships.map((relationship) => ({

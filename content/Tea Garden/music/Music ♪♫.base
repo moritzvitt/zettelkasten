@@ -1,0 +1,14 @@
+filters:
+  and:
+    - file.tags.contains("music")
+views:
+  - type: cards
+    name: Table
+    image: note.cover
+  - type: cards
+    name: Classic
+    order:
+      - file.name
+    image: note.cover
+  - type: table
+    name: romantic

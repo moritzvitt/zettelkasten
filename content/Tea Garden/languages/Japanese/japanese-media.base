@@ -1,0 +1,65 @@
+formulas:
+  duration: duration(duration + 's')
+  subtitle: "[album, creator].filter(value.isTruthy()).join(' - ')"
+  languageSignal: "[title, description, creator, file.name].filter(value.isTruthy()).join(' ')"
+properties:
+  formula.duration:
+    displayName: Duration
+views:
+  - type: cards
+    name: all japanese videos
+    filters:
+      and:
+        - '!note["mx-uid"].isEmpty()'
+    groupBy:
+      property: creator
+      direction: ASC
+    order:
+      - title
+      - creator
+    sort:
+      - property: creator
+        direction: ASC
+      - property: title
+        direction: ASC
+    subtitleSource: formula.subtitle
+    columnSize:
+      info: 626
+    hideCover: false
+    image: note.cover
+  - type: cards
+    name: movies
+    filters:
+      and:
+        - file.tags.contains("movie")
+    image: note.cover
+  - type: cards
+    name: has vocabulary list
+    filters:
+      and:
+        - file.tags.containsAll("vocabulary-list", "japanese")
+    image: note.cover
+  - type: cards
+    name: published
+    filters:
+      and:
+        - publish == true
+        - file.tags.containsAll("japanese")
+    image: note.cover
+  - type: table
+    name: french
+    filters:
+      and:
+        - file.tags.contains("french")
+  - type: cards
+    name: japanese (cards)
+    filters:
+      and:
+        - file.tags.contains("japanese")
+    image: note.cover
+  - type: cards
+    name: japanese (yt) videos
+    filters:
+      and:
+        - file.tags.containsAll("japanese", "media")
+        - '!file.tags.contains("movie")'

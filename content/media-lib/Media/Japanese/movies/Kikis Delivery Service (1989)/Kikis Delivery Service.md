@@ -8,13 +8,17 @@ captions:
 language: ja
 offset: 0ms
 source_offset_applied: 0ms
-cover: "[[mx-img-kikis-delivery-service-1989-pt13m46_93s.jpg]]"
+cover: "[[media-lib/Media/Japanese/movies/Kikis Delivery Service
+  (1989)/mx-img-kikis-delivery-service-1989-pt13m46_93s.jpg]]"
 publish: true
 tags:
   - zettel
   - media
   - transcript
   - japanese
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
 ---
 ## Lernliste
 

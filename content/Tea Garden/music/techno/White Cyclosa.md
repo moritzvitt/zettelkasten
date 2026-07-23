@@ -6,6 +6,7 @@ tags:
   - zettel
   - music
   - songs
+  - media
 ---
 ![White Cyclosa|100x100](https://www.youtube.com/watch?v=W-Ejg5Lllr4)
 

@@ -9,7 +9,8 @@ captions:
 language: ja
 offset: 0ms
 source_offset_applied: 0ms
-cover: "[[mx-img-howls-moving-castle-2004-pt1h54m36_80s.jpg]]"
+cover: "[[media-lib/Media/Japanese/movies/Howl's Moving Castle
+  (2004)/mx-img-howls-moving-castle-2004-pt1h54m36_80s.jpg]]"
 vocab-trainer: true
 publish: true
 tags:
@@ -21,10 +22,15 @@ tags:
   - ghibli
   - love
   - war
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
 ---
+<video controls playsinline preload="metadata" src="./Howl's Moving Castle (2004).mp4" title="Howl's Moving Castle (2004).mp4"></video>
+
 ## Lernliste
 - [[Howl's Moving Castle (2004).mp4#t=292|4:52]] ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesicht
-- [[Howl's Moving Castle (2004).mp4#t=322|5:22]] ==ジェザーリ== - Cesari/Name des Ladens
+- [[Howl's Moving Castle (2004).mp4#t=322|5:22]] ==ジェザーリ== - Cesari/Name des Ladens*❗️*
 - [[Howl's Moving Castle (2004).mp4#t=350|5:50]] ==巻き込む==（||まきこむ||） - hineinziehen, verwickeln
 - [[Howl's Moving Castle (2004).mp4#t=408|6:48]] ==引きつける==（||ひきつける||） - anziehen; hier: ablenken/auf sich ziehen
 - [[Howl's Moving Castle (2004).mp4#t=466.438|7:46]] ==魔法使い==（||まほうつかい||） - Zauberer, Magier

@@ -17,6 +17,8 @@ tags:
   - youtube
   - yuyu
   - yuyus-podcast
+  - vocabulary-list
+  - japanese/vocabulary-list
 ---
 ![](https://www.youtube.com/watch?v=3krAPjO2Ke8#as=audio&no_loop)
 ## Kurznotiz

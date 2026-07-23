@@ -18,6 +18,9 @@ tags:
   - _
   - find-your-love-in-japan
   - porn-director-in-japan
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - media
 ---
 ![](https://www.youtube.com/watch?v=CxI1B6NXrc4#as=audio)
 

@@ -22,6 +22,9 @@ tags:
   - japaneselanguage
   - relationships
   - love
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - media
 ---
 ## Lernliste
 

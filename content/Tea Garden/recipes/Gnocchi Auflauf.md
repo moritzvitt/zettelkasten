@@ -1,11 +1,11 @@
 ---
-title: "**Gnocchi-Auflauf**"
+title: "Gnocchi-Auflauf"
 source: "Digital Garden/Tea Garden/recipes/Gnocchi Auflauf.md"
 publish: true
 tags:
   - zettel
 ---
-# **Gnocchi-Auflauf**
+# Gnocchi-Auflauf
 
 ## **Zutaten**
 

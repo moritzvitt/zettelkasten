@@ -63,3 +63,87 @@ test("rewrites explicit Obsidian folder links to the generated index slug", () =
     fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }
 })
+
+test("copies every Obsidian base while preserving its relative path and contents", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-bases-"))
+  const gardenRoot = path.join(fixtureRoot, "Digital Garden")
+  const nestedRoot = path.join(gardenRoot, "media-lib", "Japanese")
+  const outputRoot = path.join(fixtureRoot, "site")
+  const rootBase = "views:\n  - type: table\n"
+  const nestedBase = 'filters:\n  and:\n    - file.hasTag("japanese")\n'
+
+  fs.mkdirSync(nestedRoot, { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(path.join(gardenRoot, "index.base"), rootBase)
+  fs.writeFileSync(path.join(nestedRoot, "videos.base"), nestedBase)
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: { ...process.env, ZETTEL_SOURCE_ROOT: gardenRoot },
+      stdio: "pipe",
+    })
+
+    assert.equal(fs.readFileSync(path.join(outputRoot, "content", "index.base"), "utf8"), rootBase)
+    assert.equal(
+      fs.readFileSync(
+        path.join(outputRoot, "content", "media-lib", "Japanese", "videos.base"),
+        "utf8",
+      ),
+      nestedBase,
+    )
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("copies frontmatter cover assets and rewrites their wikilinks to published paths", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-cover-asset-"))
+  const gardenRoot = path.join(fixtureRoot, "Digital Garden")
+  const movieRoot = path.join(gardenRoot, "media-lib", "Movies", "Example Movie")
+  const attachmentsRoot = path.join(movieRoot, "attachments")
+  const outputRoot = path.join(fixtureRoot, "site")
+  const coverName = "mx-img-example-cover.jpg"
+  const coverContents = Buffer.from("example-cover")
+
+  fs.mkdirSync(attachmentsRoot, { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(
+    path.join(movieRoot, "Example Movie.md"),
+    `---\npublish: true\ncover: "[[${coverName}]]"\n---\n# Example Movie\n`,
+  )
+  fs.writeFileSync(path.join(attachmentsRoot, coverName), coverContents)
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: { ...process.env, ZETTEL_SOURCE_ROOT: gardenRoot },
+      stdio: "pipe",
+    })
+
+    const publishedNote = fs.readFileSync(
+      path.join(outputRoot, "content", "media-lib", "Movies", "Example Movie", "Example Movie.md"),
+      "utf8",
+    )
+    assert.ok(
+      publishedNote.includes(
+        'cover: "[[media-lib/Movies/Example Movie/mx-img-example-cover.jpg]]"',
+      ),
+    )
+    assert.deepEqual(
+      fs.readFileSync(
+        path.join(
+          outputRoot,
+          "content",
+          "media-lib",
+          "Movies",
+          "Example Movie",
+          coverName,
+        ),
+      ),
+      coverContents,
+    )
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})

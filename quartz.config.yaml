@@ -27,7 +27,7 @@ configuration:
         dark: "#1f1f1e"
         secondary: "#00a83b"
         tertiary: "#00b894"
-        highlight: "rgba(57, 255, 20, 0.13)"
+        highlight: rgba(57, 255, 20, 0.13)
         textHighlight: "#eaffbf"
       darkMode:
         light: "#121412"
@@ -37,8 +37,8 @@ configuration:
         dark: "#f4f6ef"
         secondary: "#c8fff2"
         tertiary: "#d9ff66"
-        highlight: "rgba(102, 255, 209, 0.13)"
-        textHighlight: "rgba(217, 255, 102, 0.14)"
+        highlight: rgba(102, 255, 209, 0.13)
+        textHighlight: rgba(217, 255, 102, 0.14)
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -70,7 +70,7 @@ plugins:
     enabled: true
     order: 45
   - source: github:quartz-community/table-of-contents
-    enabled: false
+    enabled: true
     order: 50
     layout:
       position: right
@@ -100,6 +100,17 @@ plugins:
     options:
       renderEngine: katex
     order: 80
+  - source: github:quartz-community/encrypted-pages
+    enabled: true
+    options:
+      iterations: 600000
+      passwordField: password
+      unlistWhenEncrypted: false
+      outputPath: static/encryptedContentIndex.json
+    order: 90
+    layout:
+      position: afterBody
+      priority: 100
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/unlisted-pages
@@ -115,6 +126,8 @@ plugins:
     enabled: false
   - source: github:quartz-community/og-image
     enabled: false
+  - source: github:quartz-community/bases-page
+    enabled: true
   - source: github:quartz-community/canvas-page
     enabled: true
   - source: github:quartz-community/content-page
@@ -162,6 +175,8 @@ plugins:
         fontSize: 0.55
         opacityScale: 0.85
         showTags: true
+        removeTags: index, zettelkasten, zettel,
+        excludeFiles: [index.base, japanese-media.base, french-videos.base]
       globalGraph:
         enabled: false
         depth: -1
@@ -172,10 +187,11 @@ plugins:
         fontSize: 0.55
         opacityScale: 0.8
         showTags: true
+        removeTags: index, zettelkasten, zettel,
+        excludeFiles: [index.base, japanese-media.base, french-videos.base]
     layout:
       position: right
       priority: 10
-      condition: not-japanese
   - source: ./plugins/structured-brain
     enabled: false
     options:
@@ -206,7 +222,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: false
+    enabled: true
     layout:
       position: right
       priority: 50

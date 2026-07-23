@@ -8,13 +8,17 @@ captions:
 language: ja
 offset: 0ms
 source_offset_applied: 0ms
-cover: "[[mx-img-the-wind-rises-2013-pt8m51_30s.jpg]]"
+cover: "[[media-lib/Media/Japanese/movies/The Wind Rises
+  (2013)/mx-img-the-wind-rises-2013-pt8m51_30s.jpg]]"
 publish: true
 tags:
   - zettel
   - media
   - transcript
   - japanese
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
 ---
 ## Lernliste
 

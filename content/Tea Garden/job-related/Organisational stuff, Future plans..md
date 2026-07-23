@@ -1,6 +1,7 @@
 ---
 title: "Organisational stuff, Future plans."
 source: "Digital Garden/Tea Garden/job-related/Organisational stuff, Future plans..md"
+password: null
 publish: true
 tags:
   - zettel
