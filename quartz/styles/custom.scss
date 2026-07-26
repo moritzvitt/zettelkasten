@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Handfont";
-  src: url("static/fonts/handfont.ttf") format("truetype");
+  src: url("static/fonts/handfont.ttf?v=restored") format("truetype");
   font-display: swap;
   font-style: normal;
   font-weight: 300;
@@ -110,7 +110,7 @@ article li {
   width: 100%;
   height: 18rem;
 
-  background-image: url("static/page-title-logo-full.png");
+  background-image: url("static/page-title-logo-light-v12.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -120,11 +120,15 @@ article li {
   line-height: 0;
 }
 
-.neon-logo--starting a {
+:root[saved-theme="dark"] .page-title a {
+  background-image: url("static/page-title-logo-full.png");
+}
+
+:root[saved-theme="dark"] .neon-logo--starting a {
   animation: neon-startup 1.25s var(--neon-delay, 0ms) both;
 }
 
-.neon-logo--hovered a {
+:root[saved-theme="dark"] .neon-logo--hovered a {
   animation: neon-hover-flicker 720ms var(--neon-delay, 0ms) both;
 }
 
