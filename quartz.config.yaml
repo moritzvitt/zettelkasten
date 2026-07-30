@@ -111,6 +111,17 @@ plugins:
     layout:
       position: afterBody
       priority: 100
+  - source: github:quartz-community/stacked-pages
+    enabled: true
+    options:
+      maxTabs: 8
+      mobileBreakpoint: 800
+      showSpines: true
+      animateTransitions: true
+    layout:
+      position: afterBody
+      priority: 50
+      display: all
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/unlisted-pages
