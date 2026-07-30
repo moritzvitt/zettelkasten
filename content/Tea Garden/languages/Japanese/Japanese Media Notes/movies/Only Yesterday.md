@@ -1,0 +1,471 @@
+---
+title: "Only Yesterday"
+source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Only Yesterday.md"
+mx-uid: only-yesterday-1991
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[Tea Garden/languages/Japanese/Japanese Media
+  Notes/movies/mx-img-only-yesterday-1991-pt1h56m57_75s.jpg]]"
+publish: true
+tags:
+  - zettel
+  - media
+  - transcript
+  - japanese
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
+---
+*Only Yesterday (1991).mp4 – nicht öffentlich verfügbar**Only Yesterday (1991).mp4 – nicht öffentlich verfügbar*
+
+## Lernliste
+
+- 2:30 ==10日も休暇取るって言うから== - „weil du gesagt hast, du nimmst dir ganze zehn Tage frei“; も betont die überraschend lange Dauer.
+- 2:39 ==てっきり海外旅行かと思った== - „ich dachte fest, es wäre eine Auslandsreise“; てっきり für eine sichere, aber falsche Annahme.
+- 2:39 ==てっきり== - ganz fest, sicher; bei falscher Annahme
+- 2:45 ==失恋==（||しつれん||） - Liebeskummer, unerwiderte Liebe
+- 2:51 ==田舎に行くの憧れるんだから== - „ich sehne mich danach, aufs Land zu fahren“; 憧れるんだから klingt erklärend/emotional.
+- 2:51 ==憧れる==（||あこがれる||） - sich sehnen nach, bewundern
+- 2:54 ==あっかんべ== - Grimasse mit herausgestreckter Zunge
+- 3:09 ==理科だって算数だって成績良かったでしょ== - „in Naturkunde und Mathe hattest du doch gute Noten“; だって...だって als Aufzählung.
+- 3:19 ==別荘==（||べっそう||） - Ferienhaus
+- 3:23 ==算数==（||さんすう||） - Rechnen, Mathe in der Grundschule
+- 3:26 ==理科==（||りか||） - Naturkunde, Naturwissenschaften als Schulfach
+- 3:40 ==鶴の恩返し==（||つるのおんがえし||） - „Die dankbare Kranichfrau“; Märchenreferenz — 鶴の恩返しやってるんでしょ
+- 3:54 ==ないものねだり== - etwas wollen, was man nicht hat
+- 4:33 ==熱海==（||あたみ||） - Atami; Bade-/Urlaubsort
+- 5:26 ==ラジオ体操==（||ラジオたいそう||） - Radio-Gymnastik — 毎朝ちゃんとラジオ体操来て偉いわね
+- 6:08 ==本家==（||ほんけ||） - Haupthaus, Hauptfamilie
+- 6:25 ==お見合い==（||おみあい||） - arrangiertes Kennenlernen zur Ehe — あなたお見合い断ったでしょ
+- 6:25 ==断る==（||ことわる||） - ablehnen, absagen — あなたお見合い断ったでしょ
+- 6:41 ==ルンルン気分==（||ルンルンきぶん||） - beschwingte, sorglose Laune — いつまでもルンルン気分じゃダメよ
+- 6:47 ==野良仕事==（||のらしごと||） - Feldarbeit
+- 6:49 ==稲刈り==（||いねかり||） - Reisernte — そうよ稲刈り
+- 6:52 ==紅花==（||べにばな||） - Färberdistel, Saflor
+- 6:54 ==せっかく== - wo man sich schon die Gelegenheit gemacht hat; extra — せっかくなら、お姉さんのおかげで田舎が持てたんだもの
+- 7:09 ==ペンション== - Pension, kleines Gästehaus
+- 7:12 ==巡り会う==（||めぐりあう||） - zufällig begegnen, finden — 素敵な彼氏に巡り会えるかもよ
+- 8:02 ==退屈==（||たいくつ||） - Langeweile, langweilig
+- 8:05 ==手始め==（||てはじめ||） - Anfang, erster Schritt — グリム風呂を手始めに
+- 8:12 ==はしご== - Tour von Ort zu Ort; hier Bad zu Bad — お風呂のはしご
+- 8:16 ==たどり着く==（||たどりつく||） - endlich erreichen, ankommen — ローマ風呂にたどり着いた時には
+- 8:16 ==のぼせる== - benommen/heiß werden, z.B. im Bad — すっかりのぼせていて
+- 8:36 ==一泊旅行==（||いっぱくりょこう||） - Reise mit einer Übernachtung
+- 8:38 ==あっけなく== - überraschend schnell, enttäuschend einfach
+- 9:07 ==贅沢==（||ぜいたく||） - Luxus, Verschwendung
+- 9:07 ==花が咲く==（||はながさく||） - aufblühen; Gespräch kommt in Schwung — 思い出話に花が咲いた
+- 9:09 ==思い出話==（||おもいでばなし||） - Erinnerungsgeschichte, nostalgisches Erzählen
+- 9:31 ==輪っか==（||わっか||） - Ring, runde Form
+- 10:12 ==あのパイナップル事件は覚えてるわ== - „an die Ananas-Sache erinnere ich mich“; 事件 hier scherzhaft für eine kleine Familienszene.
+- 10:25 ==包丁==（||ほうちょう||） - Küchenmesser — 包丁の方がいいんじゃない
+- 10:48 ==酸っぱい==（||すっぱい||） - sauer
+- 11:39 ==長生き==（||ながいき||） - langes Leben — 長生きするといろんな経験するよ
+- 13:36 ==来日==（||らいにち||） - Besuch/Ankunft in Japan — ビートルズの来日をきっかけに
+- 13:36 ==きっかけ== - Anlass, Auslöser — ビートルズの来日をきっかけに
+- 13:40 ==流行し始める==（||りゅうこうしはじめる||） - anfangen, populär zu werden — グループサウンズが流行し始め
+- 13:42 ==到来==（||とうらい||） - Ankunft, Heraufziehen einer Zeit — エレキブームが到来した
+- 13:51 ==最先端==（||さいせんたん||） - Spitze, neuester Stand — いつも流行の最先端
+- 13:53 ==真っ先==（||まっさき||） - als Allererste/r — 真っ先に履いて
+- 13:58 ==紙袋==（||かみぶくろ||） - Papiertüte — 紙袋でお尻を隠して登った
+- 14:04 ==秀才==（||しゅうさい||） - Musterschüler, sehr kluger Mensch — 高2の秀才だった
+- 14:59 ==給食==（||きゅうしょく||） - Schulessen
+- 15:10 ==好き嫌いのある人== - „jemand, der bei Essen wählerisch ist“; sehr alltagsnützliche Nominalphrase.
+- 15:10 ==好き嫌い==（||すききらい||） - wählerisch sein, Vorlieben und Abneigungen
+- 15:43 ==大根==（||だいこん||） - Daikon, Rettich
+- 16:27 ==今のはやり直し== - „das eben zählt nicht, noch mal“; やり直し als schnelle Korrektur.
+- 16:27 ==終盤==（||しゅうばん||） - Endphase, Schlussabschnitt
+- 16:28 ==やり直し==（||やりなおし||） - Wiederholung, noch einmal von vorne
+- 17:59 ==議題==（||ぎ だい||） - Tagesordnungspunkt, Thema einer Besprechung - 議題にしたいと思います
+- 18:03 ==出しゃばり==（||でしゃばり||） - Wichtigtuer, jemand der sich vordrängt — またあいつ出しゃばり
+- 18:10 ==記事==（||きじ||） - Artikel — 雑誌でベトナム戦争の記事を読みました
+- 18:28 ==おかず== - Beilage, Gericht zum Reis — 給食のおかず
+- 19:24 ==怯える==（||おびえる||） - sich fürchten, eingeschüchtert sein — 漫画に怯えたこと
+- 19:28 ==鉛筆削り==（||えんぴつけずり||） - Bleistiftspitzer — 電気鉛筆削りに憧れたこと
+- 19:32 ==些細==（||ささい||） - geringfügig, unbedeutend — 些細なことまでがありありと思い出され
+- 19:32 ==ありあり== - lebhaft, plastisch — ありありと思い出され
+- 19:38 ==占領==（||せんりょう||） - Besetzung; völlig einnehmen — 私の頭を占領し
+- 19:44 ==圧倒==（||あっとう||） - überwältigen, dominieren
+- 21:05 ==横丁==（||よこちょう||） - Seitengasse, Gassenviertel
+- 25:44 ==飯くらい奢るぞ== - „ein Essen spendiere ich dir schon“; くらい schwächt/spielt herunter.
+- 25:44 ==奢る==（||おごる||） - einladen, spendieren
+- 30:44 ==体育館==（||たいいくかん||） - Sporthalle
+- 31:41 ==身長==（||しんちょう||） - Körpergröße
+- 32:09 ==保健==（||ほけん||） - Gesundheitspflege; Schulfach/Unterricht zu Gesundheit
+- 33:28 ==男子には内緒なんだって== - „das soll vor den Jungen geheim bleiben“; 内緒 + なんだって.
+- 33:28 ==内緒==（||ないしょ||） - Geheimnis, geheim
+- 33:50 ==案の定 流行りました== - „wie erwartet wurde es zum Trend“; 案の定 ist sehr nützlich.x
+- 33:50 ==流行る==（||はやる||） - in Mode kommen, kursieren
+- 33:50 ==案の定==（||あんのじょう||） - wie erwartet, prompt
+- 38:25 ==蛹==（||さなぎ||） - Puppe, Kokonstadium
+- 38:34 ==巡る==（||めぐる||） - kreisen, wiederkehren, umlaufen
+- 39:07 ==飛び立つ==（||とびたつ||） - auffliegen, aufbrechen — 私たちは飛び立ったつもりになっていた
+- 39:11 ==無我夢中==（||むがむちゅう||） - völlig versunken, außer sich — ただ無我夢中で羽を動かしていただけ
+- 39:19 ==羽ばたいていくのです== - „sie schlagen die Flügel und fliegen los“; poetisch für Reifung.
+- 39:19 ==羽ばたく==（||はばたく||） - mit den Flügeln schlagen, losfliegen
+- 39:19 ==つきまとう== - ständig folgen, nicht loslassen — 5年生の私がつきまとう
+- 39:19 ==振り返る==（||ふりかえる||） - zurückblicken — 自分を振り返って
+- 41:35 ==ひったくり== - Taschendieb, Entreissdiebstahl — またひったくりかと思っちゃって
+- 41:35 ==そそかしい== - unachtsam, schusselig — 私そそかしくて
+- 42:13 ==親父==（||おやじ||） - Vater, alter Herr; derb/vertraut
+- 43:16 ==無地==（||むじ||） - einfarbig, schlicht; hier wohl OCR/Name-Kontext — ハンガリーの無地カーシュ
+- 43:25 ==百姓って言うと怒られるかな== - „ob man Ärger bekommt, wenn man Bauer sagt?“; sozial gefärbte Wortwahl.
+- 43:26 ==百姓==（||ひゃくしょう||） - Bauer; historisch/umgangssprachlich rau gefärbt
+- 43:57 ==稲刈りの跡==（||いねかりのあと||） - nach der Reisernte — 去年 稲狩の跡を本家で
+- 44:35 ==染色==（||せんしょく||） - Färben, Textilfärbung — 染色会なんかやってるんですか
+- 44:48 ==仕立てる==（||したてる||） - herstellen, herrichten; zu etwas machen — 昔に仕立てた特産品
+- 44:50 ==特産品==（||とくさんひん||） - regionale Spezialität
+- 44:56 ==紅花大尽==（||べにばなだいじん||） - durch Saflor reich gewordener Großkaufmann — ベニバナ大臣とかね
+- 44:58 ==儲ける==（||もうける||） - Geld verdienen, Gewinn machen — 儲けた人にはすごかったんでしょうが
+- 45:01 ==作物==（||さくもつ||） - Feldfrucht, Nutzpflanze — 百姓にはただの作物ですからね
+- 45:12 ==芭蕉の句==（||ばしょうのく||） - Vers von Basho — 芭蕉の句でしょ
+- 45:27 ==花摘み==（||はなつみ||） - Blumenpflücken
+- 45:29 ==一生に一遍は花摘みをしたい== - „einmal im Leben möchte ich Blumen pflücken“; 一生に一遍 = einmal im Leben.
+- 45:29 ==一生に一遍==（||いっしょうにいっぺん||） - einmal im Leben
+- 45:59 ==農業==（||のうぎょう||） - Landwirtschaft
+- 46:05 ==滅びる==（||ほろびる||） - untergehen, zugrunde gehen — 日本の農業は滅びてしまうんじゃないかな
+- 46:18 ==都会==（||とかい||） - Großstadt, städtisches Leben
+- 46:22 ==生きがい==（||いきがい||） - Lebenssinn, Erfüllung — 仕事が生きがいっていう人
+- 46:47 ==畜産==（||ちくさん||） - Viehzucht
+- 46:57 ==サクランボ== - Kirsche
+- 46:58 ==稲==（||いね||） - Reispflanze
+- 47:04 ==面倒見る==（||めんどうみる||） - sich kümmern um — 一生懸命面倒見てやると
+- 47:20 ==勤める==（||つとめる||） - angestellt arbeiten — 会社に勤めていて
+- 47:24 ==駆け出し==（||かけだし||） - Anfänger, Neuling — 百姓としてはまだ駆け出しなんです
+- 47:36 ==有機農業==（||ゆうきのうぎょう||） - ökologische Landwirtschaft
+- 47:36 ==引っ張る==（||ひっぱる||） - ziehen, mitreißen — 先輩に引っ張られて会社辞めて
+- 47:54 ==堆肥==（||たいひ||） - Kompost, organischer Dünger
+- 47:59 ==農薬==（||のうやく||） - Pestizid, Agrarchemikalie
+- 48:00 ==化学肥料==（||かがくひりょう||） - chemischer Dünger
+- 48:04 ==無農薬==（||むのうやく||） - pestizidfrei — 無農薬とか低農薬
+- 48:04 ==低農薬==（||ていのうやく||） - pestizidarm — 無農薬とか低農薬
+- 48:04 ==消極的==（||しょうきょくてき||） - passiv, negativ formuliert — 消極的な言い方じゃなくて
+- 48:11 ==生命力==（||せいめいりょく||） - Lebenskraft — 生き物自体が持っている生命力
+- 48:11 ==引き出す==（||ひきだす||） - herausholen, hervorbringen — 生命力を引き出して
+- 48:16 ==手助け==（||てだすけ||） - Hilfe, Unterstützung
+- 48:40 ==朝露==（||あさつゆ||） - Morgentau — 紅花は朝露で
+- 48:40 ==トゲ== - Dorn, Stachel — トゲの柔らかいうちに摘むんでしょ
+- 48:51 ==夜行==（||やこう||） - Nachtfahrt/Nachtzug — 夜光で来るのが一番だって
+- 52:02 ==鮮やか==（||あざやか||） - leuchtend, klar, lebhaft
+- 52:04 ==紅色==（||べにいろ||） - tiefes Rot, Karminrot
+- 52:08 ==言い伝え==（||いいつたえ||） - Überlieferung, Sage — 悲しい言い伝えを教えてくれた
+- 52:12 ==ゴム手袋==（||ゴムてぶくろ||） - Gummihandschuhe — ゴム手袋のようなものはない
+- 52:17 ==素手==（||すで||） - bloße Hände — 娘たちは素手で花を摘み
+- 52:17 ==棘==（||とげ||） - Dorn, Stachel — 棘に指をさされて血を流す
+- 52:26 ==唇==（||くちびる||） - Lippen — 一生唇に紅を刺すことのなかった
+- 52:31 ==華やか==（||はなやか||） - prächtig, glanzvoll
+- 52:33 ==恨み==（||うらみ||） - Groll, Bitterkeit
+- 52:36 ==一握り==（||ひとにぎり||） - eine Handvoll — 一握りの紅を取るには
+- 52:43 ==玉虫色==（||たまむしいろ||） - schillernde Farbe; mehrdeutig schillernd — 玉虫色に輝く純粋の紅
+- 54:05 ==水洗い==（||みずあらい||） - Waschen mit Wasser — 水洗いした花を踏んだりもんだりして
+- 54:05 ==揉む==（||もむ||） - reiben, kneten, massieren — 踏んだりもんだりして
+- 54:21 ==花びら==（||はなびら||） - Blütenblatt — 黄色い花びらは酸化して
+- 54:21 ==酸化==（||さんか||） - Oxidation — 花びらは酸化して
+- 54:23 ==赤み==（||あかみ||） - Rötung, rötlicher Ton — 次第次第に赤みを増す
+- 54:23 ==増す==（||ます||） - zunehmen, stärker werden — 赤みを増す
+- 54:30 ==発酵==（||はっこう||） - Gärung, Fermentation — 花は発酵して
+- 54:33 ==粘り気==（||ねばりけ||） - Klebrigkeit, Zähigkeit — 粘り気を帯びてくる
+- 54:33 ==帯びる==（||おびる||） - annehmen, tragen, mit etwas behaftet sein — 粘り気を帯びてくる
+- 54:35 ==団子に丸める==（||だんごにまるめる||） - zu Klößchen/Kugeln formen — 団子に丸めて押しつぶし
+- 54:35 ==押しつぶす==（||おしつぶす||） - plattdrücken, zerquetschen — 押しつぶし
+- 54:42 ==天日==（||てんぴ||） - Sonnenlicht; Trocknen in der Sonne — 天日で乾燥させれば
+- 54:42 ==原料==（||げんりょう||） - Rohstoff, Ausgangsmaterial — 紅の原料となる花餅
+- 54:42 ==花餅==（||はなもち||） - Saflor-Blütenkuchen als Farbstoff-Rohstoff — 原料となる花餅が出来上がる
+- 54:47 ==絞り出す==（||しぼりだす||） - auspressen, herausquetschen — 絞り出した排液も
+- 54:47 ==排液==（||はいえき||） - Abflüssigkeit, Restflüssigkeit — 黄色い排液
+- 54:55 ==色素==（||しきそ||） - Pigment, Farbstoff — 紅の色素を
+- 54:59 ==染み込ませる==（||しみこませる||） - einziehen lassen, tränken — 布に染み込ませる
+- 55:05 ==色よく染まる==（||いろよくそまる||） - schön Farbe annehmen
+- 55:05 ==紅花染め==（||べにばなぞめ||） - Färben mit Saflor/Färberdistel
+- 55:10 ==おしろい== - weißes Gesichtspuder — 紅おしろいや派手な着物
+- 55:10 ==派手==（||はで||） - auffällig, prächtig — 派手な着物
+- 55:10 ==縁がない==（||えんがない||） - keine Verbindung/Gelegenheit zu etwas haben — 派手な着物に縁のなかった
+- 55:14 ==彩り==（||いろどり||） - Farbe, Belebung — 暮らしに彩りを添えた
+- 55:14 ==添える==（||そえる||） - hinzufügen, beifügen — 彩りを添えた
+- 55:23 ==溶け去る==（||とけさる||） - sich auflösen und verschwinden — 黄色い色素は水に溶け去り
+- 55:23 ==木綿==（||もめん||） - Baumwolle — 木綿や麻
+- 55:23 ==麻==（||あさ||） - Hanf, Leinen — 木綿や麻
+- 55:23 ==薄紅色==（||うすべにいろ||） - helles Rosa/Karmesin — 薄紅色に染まる
+	- 55:34 ==幾分==（||いくぶん||） - etwas, bis zu einem gewissen Grad — 幾分手間を省いてはいるけれども
+- 55:34 ==手間を省く==（||てまをはぶく||） - Aufwand sparen — 手間を省いてはいるけれども
+- 55:36 ==作業==（||さぎょう||） - Arbeitsschritt, Arbeitsvorgang — こうした作業のすべてを
+- 56:20 ==容赦なく==（||ようしゃなく||） - gnadenlos, ohne Nachsicht — 梅雨の雨は容赦なく降り注ぎ
+- 56:20 ==降り注ぐ==（||ふりそそぐ||） - herabströmen, niederprasseln — 雨は容赦なく降り注ぎ
+- 56:25 ==深夜に及ぶ==（||しんやにおよぶ||） - bis tief in die Nacht reichen — 仕事が深夜に及ぶこともある
+- 56:28 ==乙女たちの身の上を思って== - „wenn man an das Schicksal der jungen Frauen denkt“; 身の上 als Lebensumstände/Schicksal.
+- 56:36 ==乙女==（||おとめ||） - junges Mädchen, Jungfrau; poetisch
+- 56:37 ==身の上==（||みのうえ||） - Lebensumstände, Schicksal
+- 56:45 ==読書感想文==（||どくしょかんそうぶん||） - Buchbericht/Lesereflexion in der Schule — 読書感想文なんかじゃなくて
+- 56:45 ==生き生きした作文==（||いきいきしたさくぶん||） - lebendiger Aufsatz — もっと生き生きした作文が書けたのに
+- 58:11 ==染料==（||せんりょう||） - Farbstoff
+- 59:50 ==わがまま== - eigensinnig, verwöhnt — うちの子はみんなわがままだよ
+- 1:00:23 ==支度==（||したく||） - Vorbereitung, sich fertig machen — 早く支度しなさいよ
+- 1:01:02 ==脂っこい==（||あぶらっこい||） - fettig, ölig — 脂っこいものは嫌いでしょ
+- 1:02:28 ==就職したて==（||しゅうしょくしたて||） - gerade erst ins Berufsleben eingestiegen
+- 1:03:14 ==蘇る==（||よみがえる||） - wieder aufleben, wiederkehren
+- 1:04:10 ==冷やす==（||ひやす||） - kühlen — タオルで冷やしたんだけど
+- 1:06:09 ==山寺==（||やまでら||） - Bergtempel; Ortsname — 山寺は去年行ったって聞いたから
+- 1:06:30 ==眺め==（||ながめ||） - Aussicht — ザオウの眺めは素晴らしかった
+- 1:06:45 ==リゾート地帯==（||リゾートちたい||） - Resortgebiet — すっかりリゾート地帯になっていた
+- 1:07:27 ==分数の割り算でつまずいたのよ== - „bei Division mit Brüchen bin ich gestolpert“; つまずく auch übertragen.
+- 1:07:27 ==時分==（||じぶん||） - Zeit, Phase; damals — 小学校の時分数の割り算
+- 1:07:29 ==分数==（||ぶんすう||） - Bruchzahl
+- 1:07:30 ==割り算==（||わりざん||） - Division
+- 1:07:32 ==分子==（||ぶんし||） - Zähler eines Bruchs
+- 1:07:33 ==分母==（||ぶんぼ||） - Nenner eines Bruchs
+- 1:07:36 ==教わる==（||おそわる||） - unterrichtet bekommen — 教わった通りに
+- 1:07:54 ==それで答えはすんなり出るんだもの== - „und damit kommt die Antwort einfach heraus“; すんなり = glatt, ohne Widerstand.
+- 1:07:56 ==すんなり== - glatt, problemlos, ohne Widerstand
+- 1:08:02 ==おっとり== - sanft, gelassen, ruhig — おっとりした子がいたの
+- 1:08:13 ==子持ち==（||こもち||） - mit Kindern — 二人の子持ち
+- 1:08:48 ==図工==（||ずこう||） - Kunst/Werken in der Schule — 図工だったの
+- 1:08:59 ==画用紙==（||がようし||） - Zeichenpapier — 画用紙に絵の具を垂らしてね
+- 1:08:59 ==絵の具==（||えのぐ||） - Malfarbe — 絵の具を垂らして
+- 1:08:59 ==垂らす==（||たらす||） - tropfen lassen — 絵の具を垂らしてね
+- 1:09:03 ==模様==（||もよう||） - Muster — 模様を作ってくの
+- 1:11:52 ==九九==（||くく||） - Einmaleins — 九九を始めから言ってみなさい
+- 1:13:10 ==掛け算==（||かけざん||） - Multiplikation — それは掛け算
+- 1:14:46 ==想像==（||そうぞう||） - Vorstellung, Fantasie — 全然想像できないんだもの
+- 1:15:21 ==豊かさ==（||ゆたかさ||） - Reichtum, Fülle — 本当の豊かさっていうのは何か
+- 1:16:00 ==のめり込む== - sich vertiefen, sich völlig hineinsteigern — のめり込めるような仕事じゃないし
+- 1:16:36 ==本当に励ましになる== - „das ist wirklich ermutigend“; 励ましになる als Alltagsformel.
+- 1:16:38 ==励まし==（||はげまし||） - Ermutigung
+- 1:17:57 ==ありがたがる== - etwas dankbar verehren, als wertvoll betrachten
+- 1:18:19 ==山林==（||さんりん||） - Berge und Wälder, Waldland
+- 1:18:19 ==田んぼ==（||たんぼ||） - Reisfeld
+- 1:18:27 ==落ち葉==（||おちば||） - Laub, gefallene Blätter — 落ち葉やキノコを取っていた
+- 1:18:47 ==絶えず==（||たえず||） - ununterbrochen, ständig — 絶えず自然からもらい続けなきゃ
+- 1:19:00 ==共同作業==（||きょうどうさぎょう||） - gemeinsame Arbeit — 自然と人間の共同作業
+- 1:19:18 ==ふるさと== - Heimat, Herkunftsort — ここがふるさとって気がする
+- 1:19:46 ==後継ぎ==（||あとつぎ||） - Nachfolger, Erbe
+- 1:20:24 ==理念==（||りねん||） - Idee, Prinzip, Leitbild — 理念の方の話
+- 1:20:38 ==除草剤==（||じょそうざい||） - Unkrautvernichter, Herbizid — 除草剤使って
+- 1:20:42 ==草取り==（||くさとり||） - Unkrautjäten — 同じ草取りはしない
+
+- 1:20:58 ==一休み==（||ひとやすみ||） - kurze Pause — 一休みしたいと思ってたとこ
+- 1:22:08 ==カラス== - Krähe
+- 1:22:20 ==学芸会の出し物== - „der Beitrag/Auftritt beim Schulfest“; 出し物 für Programmpunkt.
+- 1:22:20 ==出し物==（||だしもの||） - Programmpunkt, Aufführung
+- 1:22:20 ==台詞==（||せりふ||） - Text, Dialogzeile
+- 1:22:23 ==学芸会==（||がくげいかい||） - Schulaufführung, Schulfest
+- 1:22:25 ==小太り==（||こぶとり||） - leicht dicklich — 小太りじいさん
+- 1:22:29 ==その他大勢==（||そのたおおぜい||） - Statisten, die große Masse — その他大勢しかやったことない
+- 1:22:36 ==大役==（||たいやく||） - große Rolle, wichtige Aufgabe — 結構大役ばっかり
+- 1:22:43 ==出稼ぎ==（||でかせぎ||） - Saison-/Wanderarbeit — 出稼ぎが多くなってたし
+- 1:22:46 ==過疎化==（||かそか||） - Entvölkerung ländlicher Gebiete — 村の過疎化が進んで
+- 1:23:04 ==真ん中へん==（||まんなかへん||） - ungefähr in der Mitte; hier: weder Hauptrolle noch ganz am Rand — いつも真ん中へん
+- 1:23:29 ==張り切る==（||はりきる||） - voller Eifer sein — すごく張り切ってたから
+- 1:23:36 ==猛練習==（||もうれんしゅう||） - intensives Üben — 鏡の前で猛練習した
+- 1:23:38 ==宝塚==（||たからづか||） - Takarazuka-Revue
+- 1:24:26 ==台本==（||だいほん||） - Skript, Drehbuch — 台本に書いてあるセリフ
+- 1:24:32 ==工夫==（||くふう||） - Einfall, kreative Anpassung — せっかく工夫したのに
+- 1:24:50 ==意欲==（||いよく||） - Motivation, Wille — 意欲を失ったわけじゃなかった
+- 1:25:41 ==努力の甲斐==（||どりょくのかい||） - der Lohn der Mühe
+- 1:25:44 ==演技==（||えんぎ||） - Schauspiel, Darbietung
+- 1:25:48 ==児童劇団==（||じどうげきだん||） - Kindertheatertruppe — 児童劇団に入ってるのか
+- 1:26:20 ==芝居==（||しばい||） - Theaterstück, Schauspiel
+- 1:26:22 ==連帯==（||れんたい||） - Solidarität, Zusammenhalt — 学生と市民の連帯
+- 1:26:22 ==出演==（||しゅつえん||） - auftreten, mitspielen — 出演してほしい
+- 1:26:22 ==稽古==（||けいこ||） - Probe, Training — 稽古は土曜日の昼間とか
+- 1:27:51 ==取り柄==（||とりえ||） - Vorzug, Stärke — 一つぐらい取り柄はあるもんね
+- 1:28:13 ==本職==（||ほんしょく||） - eigentliche Profession — 本職の子役
+- 1:28:13 ==子役==（||こやく||） - Kinderdarsteller — 本職の子役になったりして
+- 1:28:50 ==芸能界==（||げいのうかい||） - Showbusiness, Unterhaltungsbranche — 芸能界なんてだめだ
+- 1:30:56 ==触れ回る==（||ふれまわる||） - herumerzählen, verbreiten — みんなに触れ回ってるんだよ
+- 1:31:06 ==よそ行き==（||よそゆき||） - Sonntagskleidung, Ausgehkleidung — よそ行きのと着替えて
+- 1:32:18 ==水平線==（||すいへいせん||） - Horizontlinie — 丸い地球の水平線に
+- 1:33:18 ==演劇部==（||えんげきぶ||） - Theater-AG/Theaterclub — 演劇部に入ったの
+- 1:33:33 ==役者==（||やくしゃ||） - Schauspieler — 役者もやってみたの
+- 1:33:38 ==なり損ねる==（||なりそこねる||） - knapp nicht werden, etwas verpassen — スターになり損ねた
+- 1:33:58 ==進学==（||しんがく||） - weiterführende Ausbildung/Studium — 進学のことで相談
+- 1:34:10 ==帰省==（||きせい||） - Heimkehr in die Heimat — 帰省してきて
+- 1:34:13 ==東京風を吹かす==（||とうきょうかぜをふかす||） - sich großstädtisch/Tokio-mäßig aufspielen — 東京風吹かしたりされると
+- 1:34:35 ==くじける== - den Mut verlieren, einknicken — だけど僕らはくじけない
+- 1:34:46 ==ひょうたん島==（||ひょうたんじま||） - Hyotan-Insel; kulturelle Referenz
+- 1:34:54 ==励ましの歌==（||はげましのうた||） - ermutigendes Lied — 励ましの歌多かった
+- 1:35:24 ==前向き==（||まえむき||） - positiv, nach vorn gerichtet — 前向きにして覚えていた
+- 1:36:12 ==へそ曲がり==（||へそまがり||） - Dickkopf, Querulant
+- 1:36:38 ==別世界==（||べっせかい||） - andere Welt — ここは別世界です
+- 1:37:44 ==仲直り==（||なかなおり||） - Versöhnung
+- 1:38:10 ==勤め口==（||つとめぐち||） - Arbeitsstelle, Anstellung
+- 1:39:13 ==順序==（||じゅんじょ||） - Reihenfolge, Ordnung — 順序ってものがあるんだ
+- 1:39:38 ==あり得る==（||ありえる||） - möglich sein, denkbar sein — そういう生き方が私にもあり得る
+- 1:40:14 ==覚悟==（||かくご||） - Entschluss, innere Bereitschaft
+- 1:40:24 ==握手してくれないか== - „würdest du mir die Hand geben?“; direkt, aber weich durch くれないか.
+- 1:40:27 ==握手==（||あくしゅ||） - Händedruck
+- 1:42:40 ==隣の席の子が転校することになりました== - „das Kind vom Nachbarsitz wechselt die Schule“; ことになりました als Entwicklung.
+- 1:43:25 ==袖==（||そで||） - Ärmel — 袖で鼻を擦り上げたり
+- 1:43:25 ==擦り上げる==（||すりあげる||） - hochziehen, reibend nach oben ziehen — 鼻を擦り上げたり
+- 1:43:28 ==鼻くそ==（||はなくそ||） - Popel — 鼻くそグリーンって
+- 1:43:33 ==ぶっ飛ばす==（||ぶっとばす||） - wegpusten, verprügeln; grob drohen — ぶっ飛ばされんなよって凄む
+- 1:44:12 ==言い合う==（||いいあう||） - sich gegenseitig sagen/streiten — 陰口言い合って嫌う
+- 1:44:36 ==手のひら==（||てのひら||） - Handfläche — 手のひらには赤のような筋があった
+- 1:44:39 ==筋==（||すじ||） - Linie, Strieme, Muskel/Sehne — 赤のような筋があった
+- 1:44:49 ==コチコチに緊張==（||コチコチにきんちょう||） - stocksteif vor Nervosität — コチコチに緊張してた
+- 1:46:50 ==学級委員==（||がっきゅういいん||） - Klassensprecher, Klassenkomitee-Mitglied
+- 1:46:50 ==委員==（||いいん||） - Ausschussmitglied, Beauftragter
+- 1:46:54 ==突っ込む==（||つっこむ||） - hineinstecken; einhaken, einwerfen — ポケットに手突っ込んで
+- 1:46:57 ==唾==（||つば||） - Spucke — 唾吐いたりしながら
+- 1:47:08 ==意地悪==（||いじわる||） - Gemeinheit, gemein sein — わざと意地悪して
+- 1:49:11 ==後ろめたい==（||うしろめたい||） - schuldbewusst, mit schlechtem Gewissen — 悪くて後ろめたくて
+- 1:49:25 ==取り返しがつかない==（||とりかえしがつかない||） - nicht wieder gutzumachen — 取り返しがつかないもの
+- 1:50:03 ==出くわす==（||でくわす||） - zufällig begegnen, auf etwas stoßen — たぬきやテンによく出くわす
+- 1:50:12 ==甘える==（||あまえる||） - sich anlehnen, verwöhnt/vertrauensvoll abhängig sein — としおさんに甘えちゃった
+- 1:50:25 ==本気==（||ほんき||） - Ernst, ernst gemeint — 一体本気で何があったんだろう
+- 1:51:33 ==ひねくれた心==（||ひねくれたこころ||） - verdrehtes/trotziges Herz — 私のひねぐれた心を
+- 1:52:36 ==一心に==（||いっしんに||） - mit ganzer Konzentration — 一心に考え続けた
+- 1:54:35 ==押し流す==（||おしながす||） - wegspülen, fortreißen — やさしさを押し流す
+- 1:54:59 ==魂を切り裂かれるような痛み== - „ein Schmerz, als würde einem die Seele zerrissen“; sehr literarisch.
+- 1:55:07 ==魂==（||たましい||） - Seele
+- 1:55:15 ==切り裂く==（||きりさく||） - aufschlitzen, zerreißen
+- 1:55:15 ==止めどない==（||とめどない||） - endlos, unaufhörlich — 止めどない渇きが
+- 1:55:15 ==渇き==（||かわき||） - Durst, Trockenheit, Verlangen — 止めどない渇きが
+- 1:57:53 ==種は春 お日様の愛で花ひらく== - „Samen blühen im Frühling durch die Liebe der Sonne“; poetischer Schluss.
+- 1:57:58 ==お日様==（||おひさま||） - Sonne; kindlich/liebevoll
+- 1:58:12 ==花ひらく==（||はなひらく||） - erblühen, sich entfalten
+
+## Kenn ich schon mehr oder weniger
+
+- 2:33 ==休暇==（||きゅうか||） - Urlaub, freie Tage
+- 2:41 ==山形==（||やまがた||） - Yamagata
+- 2:41 ==田舎==（||いなか||） - Land, Provinz, Heimatdorf
+- 3:13 ==長野==（||ながの||） - Nagano; Ortsname — 長野
+- 3:57 ==東京生まれの東京育ち==（||とうきょううまれのとうきょうそだち||） - in Tokio geboren und aufgewachsen — 私は親の代から東京生まれの東京育ち
+- 4:04 ==羨ましい==（||うらやましい||） - neidisch, beneidenswert
+- 4:50 ==ローマ風呂==（||ローマぶろ||） - römisches Bad
+- 6:57 ==味わう==（||あじわう||） - auskosten, erleben — しっかり田舎の気分ば、味わってくるっす
+- 7:25 ==こだわる== - sich an etwas festbeißen; Wert auf etwas legen — あなたまだあんなことにこだわってるの？
+- 8:07 ==人魚==（||にんぎょ||） - Meerjungfrau — 人魚風呂
+- 9:03 ==大笑い==（||おおわらい||） - lautes Gelächter — 大笑いになり
+- 10:01 ==珍しい==（||めずらしい||） - selten, ungewöhnlich
+- 10:12 ==パイナップル== - Ananas
+- 12:29 ==腹を壊す==（||はらをこわす||） - sich den Magen verderben — 腹壊すぞ
+- 14:26 ==青春の日々==（||せいしゅんのひび||） - Jugendtage — 懐かしい青春の日々
+- 18:10 ==ベトナム戦争==（||ベトナムせんそう||） - Vietnamkrieg — ベトナム戦争の記事を読みました
+- 23:36 ==ストライク== - Strike
+- 25:39 ==エラー== - Fehler im Baseball, Error
+- 31:41 ==背==（||せ||） - Körpergröße, Rücken
+- 31:44 ==生理==（||せいり||） - Menstruation
+- 32:58 ==男子==（||だんし||） - Jungen, männliche Schüler
+- 38:34 ==季節==（||きせつ||） - Jahreszeit; Lebensphase
+- 38:46 ==再び==（||ふたたび||） - erneut, wieder
+- 39:34 ==ともかく== - jedenfalls, wie auch immer — ともかく私は残り少なくなった
+- 42:00 ==迎えに行く==（||むかえにいく||） - jemanden abholen gehen
+- 46:43 ==育てる==（||そだてる||） - aufziehen, anbauen, großziehen — 生き物を育てるっていうのは
+- 47:34 ==勢い==（||いきおい||） - Schwung, Momentum, Antrieb — 必要なんですよね 勢いが
+- 47:42 ==後悔==（||こうかい||） - Reue, Bedauern — 今のところ後悔してませんよ
+- 48:26 ==畑==（||はたけ||） - Feld, Acker
+- 52:43 ==純粋==（||じゅんすい||） - rein, unverfälscht — 純粋の紅
+- 52:43 ==当時==（||とうじ||） - damals, zu jener Zeit — 当時でさえ金と同じ値段だった
+- 54:05 ==踏む==（||ふむ||） - treten, stampfen — 花を踏んだりもんだりして
+- 55:14 ==暮らし==（||くらし||） - Lebensweise, Alltag — 慎ましい暮らしに彩りを添えた
+- 55:39 ==繰り返す==（||くりかえす||） - wiederholen — 毎日花摘みをしながら繰り返す
+- 58:11 ==染める==（||そめる||） - färben
+- 1:00:50 ==予習==（||よしゅう||） - Vorbereitung auf Unterricht — 予習が終わったから
+- 1:04:07 ==中止==（||ちゅうし||） - Abbruch, Absage — お出かけはもちろん中止
+- 1:04:10 ==腫れる==（||はれる||） - anschwellen — ほっぺたが腫れて
+- 1:07:32 ==ひっくり返す==（||ひっくりかえす||） - umdrehen, auf den Kopf stellen
+- 1:12:52 ==分ける==（||わける||） - aufteilen, teilen
+- 1:16:07 ==自然==（||しぜん||） - Natur
+- 1:16:08 ==夢中==（||むちゅう||） - vertieft, ganz begeistert
+- 1:18:33 ==達成感==（||たっせいかん||） - Gefühl, etwas erreicht zu haben
+- 1:18:39 ==景色==（||けしき||） - Landschaft, Aussicht — 出来上がってきた景色
+- 1:18:58 ==感心==（||かんしん||） - Bewunderung, beeindruckt sein
+- 1:20:46 ==人手==（||ひとで||） - Arbeitskräfte, helfende Hände — 人手が足りないから
+- 1:22:14 ==本物==（||ほんもの||） - das Echte, authentisch — 本物の村でこれが言えたわ
+- 1:24:53 ==動作==（||どうさ||） - Bewegung, Handlung — 動作で表現すればいい
+- 1:24:53 ==表現==（||ひょうげん||） - Ausdruck, darstellen — 動作で表現すればいい
+- 1:25:43 ==評判==（||ひょうばん||） - Ruf, Ansehen, Resonanz — 演技は評判になっちゃった
+- 1:34:13 ==悔しい==（||くやしい||） - ärgerlich, frustrierend, bitter — やっぱり悔しくってね
+- 1:42:40 ==転校==（||てんこう||） - Schulwechsel
+- 1:42:43 ==隣の席==（||となりのせき||） - Nachbarsitz, Sitz daneben
+- 1:43:12 ==嫌な気持ち==（||いやなきもち||） - unangenehmes Gefühl
+- 1:44:12 ==陰口==（||かげぐち||） - Lästern hinter dem Rücken — こそこそ陰口言い合って
+- 1:44:59 ==差し出す==（||さしだす||） - hinhalten, anbieten — 手差し出すと
+- 1:46:32 ==情けない==（||なさけない||） - beschämend, erbärmlich — 自分が情けなくなったの
+- 1:47:56 ==本音==（||ほんね||） - ehrliches Gefühl, wahre Meinung — 本音が出せたんですよ
+- 1:49:19 ==必死==（||ひっし||） - verzweifelt, mit aller Kraft — 必死に阿部君の真似をした
+- 1:53:14 ==実践==（||じっせん||） - Praxis, praktische Umsetzung — もっとも実践あるのみですけどね
+- 1:57:53 ==種==（||たね||） - Samen
+
+### Kann ich schon (fast) perfekt
+- 2:30 ==取る==（||とる||） - nehmen, bekommen
+- 2:39 ==海外旅行==（||かいがいりょこう||） - Auslandsreise
+- 2:41 ==行く==（||いく||） - gehen, fahren
+- 2:59 ==成績==（||せいせき||） - Noten, Leistung
+- 3:07 ==叱る==（||しかる||） - schimpfen, zurechtweisen — だから叱られるのはずっと先
+- 3:09 ==良い==（||いい||） - gut
+- 3:26 ==得意==（||とくい||） - Stärke, gut in etwas
+- 3:29 ==夏休み==（||なつやすみ||） - Sommerferien — ねえねえ夏休みどっか行くの
+- 3:36 ==映画==（||えいが||） - Film, Kino — 映画に連れてってあげるわよ
+- 4:07 ==無理==（||むり||） - unmöglich, zu viel verlangt — 今からじゃどこもいっぱいで旅行なんて無理よ
+- 4:37 ==新幹線==（||しんかんせん||） - Shinkansen
+- 4:37 ==乗る==（||のる||） - einsteigen, fahren
+- 5:53 ==親戚==（||しんせき||） - Verwandtschaft — 親戚の家に行くのだから
+- 6:05 ==出発==（||しゅっぱつ||） - Abfahrt, Aufbruch — 今日出発するけど
+- 7:08 ==おしゃれ== - schick, modisch — おしゃれなペンションなんかでおいしい生活すればいいのに
+- 7:29 ==過去==（||かこ||） - Vergangenheit
+- 7:29 ==背負う==（||せおう||） - auf dem Rücken tragen; eine Last tragen
+- 8:35 ==期待==（||きたい||） - Erwartung, Hoffnung
+- 9:19 ==値段==（||ねだん||） - Preis — 私がお値段にしたんだからね
+- 9:31 ==切る==（||きる||） - schneiden
+- 10:01 ==果物==（||くだもの||） - Obst
+- 11:37 ==味==（||あじ||） - Geschmack
+- 11:37 ==缶詰==（||かんづめ||） - Konserve, Dosenessen
+- 15:12 ==作文==（||さくぶん||） - Aufsatz
+- 15:41 ==種類==（||しゅるい||） - Art, Sorte
+- 15:41 ==玉ねぎ==（||たまねぎ||） - Zwiebel
+- 16:58 ==意見==（||いけん||） - Meinung
+- 18:18 ==幸せ==（||しあわせ||） - Glück, glücklich — 私たちは幸せです
+- 19:16 ==飼う==（||かう||） - ein Tier halten — 飼っていたゴンという犬
+- 19:22 ==走る==（||はしる||） - laufen
+- 19:22 ==運動会==（||うんどうかい||） - Sportfest
+- 19:42 ==現実==（||げんじつ||） - Realität — 現実の私を圧倒してしまった
+- 25:01 ==お手洗い==（||おてあらい||） - Toilette; höflich
+- 25:48 ==男==（||おとこ||） - Mann
+- 25:50 ==女子==（||じょし||） - Mädchen, weibliche Schüler
+- 31:17 ==準備==（||じゅんび||） - Vorbereitung
+- 43:25 ==怒る==（||おこる||） - wütend werden
+- 45:27 ==花==（||はな||） - Blume
+- 46:43 ==生き物==（||いきもの||） - Lebewesen
+- 46:57 ==作る==（||つくる||） - machen, herstellen
+- 46:57 ==リンゴ== - Apfel
+- 47:54 ==冗談==（||じょうだん||） - Scherz — 10円っていうのは冗談で
+- 51:53 ==色==（||いろ||） - Farbe
+- 56:28 ==思う==（||おもう||） - denken, fühlen
+- 59:40 ==もったいない== - zu schade, verschwenderisch — もったいないわね
+- 1:00:20 ==我慢==（||がまん||） - Geduld, Aushalten — 我慢しなさい
+- 1:06:53 ==友達==（||ともだち||） - Freund
+- 1:06:53 ==結婚==（||けっこん||） - Ehe, Heirat
+- 1:07:27 ==答え==（||こたえ||） - Antwort, Ergebnis
+- 1:07:41 ==苦手==（||にがて||） - Schwäche, etwas liegt einem nicht — 算数そんなに苦手でもなかった
+- 1:08:20 ==不思議==（||ふしぎ||） - seltsam, wundersam
+- 1:20:58 ==若者==（||わかもの||） - junge Leute
+- 1:26:46 ==大人==（||おとな||） - Erwachsener
+- 1:27:56 ==才能==（||さいのう||） - Talent — 才能があるのかもしれないね
+- 1:33:58 ==相談==（||そうだん||） - Beratung, Besprechung — 相談の手紙
+- 1:34:20 ==尊敬==（||そんけい||） - Respekt, Achtung — 親父のこと少しは尊敬してるんです
+- 1:37:09 ==嫁==（||よめ||） - Ehefrau, Braut; Schwiegertochter je nach Kontext
+- 1:39:43 ==感動==（||かんどう||） - Ergriffenheit, Rührung — 不思議な感動があった
+- 1:40:24 ==手==（||て||） - Hand
+- 1:43:18 ==貧乏==（||びんぼう||） - Armut, arm — 家が貧乏らしくて
+- 1:46:05 ==代わり==（||かわり||） - Ersatz; anstelle von
+- 1:49:22 ==手遅れ==（||ておくれ||） - zu spät — でも手遅れよね
+- 1:53:08 ==忘れ物==（||わすれもの||） - vergessene Sache — 忘れ物はないかい？
+- 1:55:58 ==恐れる==（||おそれる||） - fürchten — くじけるの恐れて
+- 1:57:53 ==春==（||はる||） - Frühling
+- 1:57:53 ==愛==（||あい||） - Liebe
+
+%%
+## Links
+Prev::
+Next:: Transcript (nicht öffentlich verfügbar)
+Friend::
+%%
+
+## Tags
+#japanese #subtitle #media
+
+## Lernschnitt-Übersicht
+
+- [[Lernschnitte|Alle Lernschnitte]]

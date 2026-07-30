@@ -1,6 +1,6 @@
 ---
 title: "bis Mitte August Zeit in Tübingen"
-source: "Digital Garden/journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md"
+source: "journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md"
 publish: true
 tags:
   - zettel

@@ -1,0 +1,376 @@
+---
+title: "Howl's Moving Castle"
+source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Howl's Moving Castle.md"
+mx-uid: howls-moving-castle-2004
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[Tea Garden/languages/Japanese/Japanese Media
+  Notes/movies/mx-img-howls-moving-castle-2004-pt1h54m36_80s.jpg]]"
+vocab-trainer: true
+publish: true
+tags:
+  - zettel
+  - media
+  - transcript
+  - japanese
+  - anime
+  - ghibli
+  - love
+  - war
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
+---
+*Howl's Moving Castle (2004).mp4 – nicht öffentlich verfügbar*
+
+## Lernliste
+- 4:52 ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesichtw
+- 5:22 ==ジェザーリ== - Cesari/Name des Ladens*❗️*
+- 5:50 ==巻き込む==（||まきこむ||） - hineinziehen, verwickeln
+- 6:48 ==引きつける==（||ひきつける||） - anziehen; hier: ablenken/auf sich ziehen
+- 7:46 ==魔法使い==（||まほうつかい||） - Zauberer, Magier
+- 8:09 ==うろつく== - herumstreifen, umherirren
+- 8:09 ==荒地の魔女までうろついてるって言うよ== - „man sagt, sogar die Hexe aus der Einöde streift dort herum“.
+- 8:15 ==マドレーヌ== - Madeleine, kleines Gebäck
+- 10:26 ==しがない== - unbedeutend, armselig, schlicht
+- 10:29 ==引き取る==（||ひきとる||） - sich zurückziehen; abholen/übernehmen
+- 10:29 ==引き取り==（||ひきとり||） - Rückzug, Abholung/Übernahme; hier in お引き取りください = bitte verlassen Sie den Laden
+- 10:37 ==荒れ地==（||あれち||） - Ödland, Brachland
+- 10:37 ==張り合う==（||はりあう||） - konkurrieren, sich messen
+- 10:41 ==度胸==（||どきょう||） - Mut, Schneid
+- 10:42 ==張り合おうなんていい度胸ね== - „ganz schön mutig, sich mit ihr messen zu wollen“; ironisch-bedrohlich.
+- 12:06 ==慌てる==（||あわてる||） - in Panik geraten, sich beeilen
+- 12:06 ==慌てるとろくなことないよ== - „wenn man in Panik gerät, kommt nichts Gutes dabei heraus“.
+- 13:10 ==いちいち== - jedes Mal, einzeln, jedes einzelne Mal
+- 13:55 ==年寄り==（||としより||） - alter Mensch, ältere Person
+- 14:25 ==親切だけはいただくよ== - „deine Freundlichkeit nehme ich an“;いただく höflich/ironisch.
+- 15:18 ==杖==（||つえ||） - Stock
+- 15:53 ==カカシ== - Vogelscheuche
+- 16:20 ==マシ== - besser, vorzuziehen
+- 16:37 ==ついてくる== - folgen
+- 16:50 ==魔女とか呪いとか魔法を託しちゃう== - „Hexen, Flüche, Magie, sowas schiebt man mir zu“; 託す/ちゃう.
+- 16:50 ==託す==（||たくす||） - anvertrauen, übertragen, jemandem etwas überlassen
+- 17:36 ==悪知恵==（||わるぢえ||） - böse List, Schlauheit zu schlechten Zwecken
+- 18:16 ==山小屋==（||やまごや||） - Berghütte, Berghaus
+- 18:28 ==荒野==（||こうや||） - Wildnis, öde Ebene
+- 18:28 ==かかし== - Vogelscheuche
+- 20:19 ==招待状==（||しょうたいじょう||） - Einladungsschreiben
+- 21:00 ==ぼろ== - Lumpen, Fetzen
+- 21:16 ==こんがらがる== - sich verheddern, durcheinander geraten
+- 21:42 ==火の悪魔==（||ひのあくま||） - Feuerdämon
+- 21:51 ==縛り付ける==（||しばりつける||） - festbinden, fesseln
+- 21:56 ==悪魔と取引をするってわけね== - „also soll ich mit einem Dämon einen Handel schließen?“.
+- 21:57 ==取引==（||とりひき||） - Handel, Geschäft, Deal
+- 22:10 ==縛る==（||しばる||） - binden, fesseln
+- 22:10 ==こき使う==（||こきつかう||） - hart schuften lassen, ausnutzen
+- 22:10 ==契約に縛られて== - „an einen Vertrag gebunden sein“.
+- 22:14 ==オイラ== - ich; raues, kindlich-maskulines Selbstpronomen von Calcifer — この城だって、オイラが動かしてるんだぜ
+- 22:14 ==動かしてる==（||うごかしてる||） - in Bewegung halten, antreiben — この城だって、オイラが動かしてるんだぜ
+- 22:20 ==見破る==（||みやぶる||） - durchschauen, entlarven
+- 22:23 ==契約の秘密を見破ってくれたら== - „wenn du das Geheimnis des Vertrags durchschaust“.
+- 23:45 ==港町==（||みなとまち||） - Hafenstadt
+- 24:07 ==皿==（||さら||） - Teller
+- 24:18 ==魔法師==（||まほうし||） - Magier; formeller/altertümlicher als 魔法使い
+- 24:20 ==国家==（||こっか||） - Staat, Nation
+- 24:21 ==協力==（||きょうりょく||） - Zusammenarbeit, Kooperation
+- 24:22 ==出頭==（||しゅっとう||） - Erscheinen, Vorladung
+- 24:22 ==お示し==（||おしめし||） - Erlass, Anweisung; höflich/formell
+- 24:22 ==皆国家に協力せよとのお示しです== - „alle sollen dem Staat dienen“; formell-autoritäre Amtsform.
+- 24:53 ==待たれよ==（||またれよ||） - wartet, haltet ein
+- 25:01 ==まじない== - Zauberspruch, Beschwörung
+- 25:34 ==粉==（||こな||） - Pulver, Mehl
+- 25:47 ==変装==（||へんそう||） - Verkleidung, Tarnung
+- 25:48 ==その変装やめた方がいいよ== - „du solltest diese Verkleidung lassen“.
+- 25:55 ==扉==（||とびら||） - Tür, Portal
+- 26:07 ==国王陛下==（||こくおうへいか||） - Seine Majestät der König
+- 26:35 ==引っ込む==（||ひっこむ||） - sich zurückziehen, hineingehen
+- 26:43 ==うろうろ== - ziellos umherirren, herumlaufen
+- 27:58 ==言うことを聞く==（||いうことをきく||） - gehorchen
+- 28:04 ==あらあら== - Oh je, Ach herrje
+- 28:16 ==指図==（||さしず||） - Anweisung, Befehl
+- 28:22 ==ばらす== - verraten, enthüllen
+- 28:46 ==ポット== - Kanne, Teekanne
+- 30:55 ==汚れる==（||よごれる||） - schmutzig werden
+- 31:46 ==焼き付く==（||やきつく||） - sich einbrennen, sich einprägen
+- 32:01 ==捉える==（||とらえる||） - fangen, erfassen
+- 32:01 ==汝流れ星を捉えし者== - „du, der du den fallenden Stern gefangen hast“; altertümlich/literarisch.
+- 32:01 ==汝==（||なんじ||） - du; altertümlich
+- 32:08 ==台無し==（||だいな||） - Ruiniert, Verderben
+- 32:25 ==焼け焦げ==（||やけこげ||） - Brandfleck, Angebranntes
+- 32:49 ==手下==（||てした||） - Gefolgsmann, Handlanger
+- 33:07 ==ただじゃおかない== - nicht ungestraft davonkommen lassen
+- 33:15 ==吐き出す==（||はきだす||） - ausspucken, herauswürgen
+- 33:33 ==暴れる==（||あばれる||） - toben, randalieren, wüten
+- 33:58 ==灰をかく==（||はいをかく||） - Asche zusammenkratzen / Asche schüren
+- 34:56 ==大概==（||たいがい||） - im Rahmen, genug; meistens
+- 35:17 ==掃除係==（||そうじがかり||） - fürs Putzen zuständige Person
+- 37:30 ==挟まる==（||はさまる||） - eingeklemmt werden, feststecken
+- 37:58 ==好く==（||すく||） - mögen, gernhaben
+- 41:26 ==あんまり飛ぶと戻れなくなるぜ== - „wenn du zu viel fliegst, kannst du nicht mehr zurück“.
+- 42:05 ==火薬==（||かやく||） - Schießpulver, Sprengstoff
+- 42:11 ==同業者==（||どうぎょうしゃ||） - Berufskollege, Branchenkollege
+- 42:28 ==呼び出す==（||よびだす||） - herbeirufen, vorladen
+- 43:45 ==芋==（||いも||） - Kartoffel, Knolle
+- 44:34 ==どんなに== - wie sehr, egal wie
+- 44:59 ==おばけ== - Geist, Gespenst
+- 47:07 ==染め直す==（||そめなおす||） - neu färben, umfärben
+- 48:25 ==果て==（||は||） - Ende, Abschluss
+- 48:31 ==癇癪==（||かんしゃく||） - Wutanfall, Jähzorn
+- 50:18 ==臆病者==（||おくびょうもの||） - Feigling
+- 50:37 ==近づいたんだ それで逃げ出した== - „sie kam ihm zu nahe, deshalb floh er“.
+- 51:40 ==マダム== - Dame, Frau
+- 51:40 ==マダムサリマン== - Madame Suliman, Frau Suliman
+- 52:27 ==化ける==（||ばける||） - sich verwandeln, sich tarnen — カラスに化けてる
+- 52:47 ==ひと飛び==（||ひととび||） - ein kurzer Flug/Sprung
+- 53:47 ==いい知らせ==（||いいしらせ||） - gute Nachricht
+- 53:58 ==よりによって== - ausgerechnet, gerade
+- 54:20 ==震え上がる==（||ふるえあがる||） - vor Angst zittern, erschauern
+- 55:32 ==魔法陣==（||まほうじん||） - magischer Kreis
+- 58:24 ==まね== - Nachahmen, Imitation
+- 1:01:16 ==身代わり==（||みがわり||） - Stellvertreter, Ersatzopfer
+- 1:02:47 ==奪い取る==（||うばいとる||） - entreißen, rauben
+- 1:02:59 ==招く==（||まねく||） - einladen, herbeiführen
+- 1:03:03 ==連れ込む==（||つれこむ||） - hineinbringen, mitnehmen
+- 1:03:04 ==罠==（||わな||） - Falle, List
+- 1:03:45 ==王==（||おう||） - König
+- 1:03:55 ==掃除部屋==（||そうじべや||） - Putzraum, Abstellkammer
+- 1:03:56 ==恐れ入る==（||おそれいる||） - sich entschuldigen; dankbar/verlegen sein
+- 1:04:18 ==王宮==（||おうきゅう||） - Königspalast
+- 1:04:30 ==能弁==（||のうべん||） - beredt, wortgewandt
+- 1:04:32 ==決戦==（||けっせん||） - Entscheidungsschlacht, entscheidender Kampf
+- 1:04:36 ==叩きのめす==（||たたきのめす||） - zusammenschlagen, vernichtend schlagen
+- 1:04:39 ==影武者==（||かげむしゃ||） - Doppelgänger, Stellvertreter
+- 1:07:03 ==回し者==（||まわしもの||） - Spion, Agent
+- 1:08:11 ==引き離す==（||ひきはなす||） - trennen, auseinanderziehen
+- 1:09:40 ==なれなれしい== - aufdringlich, zudringlich
+- 1:09:51 ==思想==（||しそう||） - Gedanke, Ideologie, Denken
+- 1:14:24 ==暴く==（||あばく||） - aufdecken, enthüllen
+- 1:14:37 ==魔王==（||まおう||） - Dämonenkönig, dunkler Fürst — ハウルが魔王になるってこと？
+- 1:14:55 ==脅す==（||おどす||） - bedrohen, einschüchtern — 消すって脅したら？
+- 1:15:21 ==勇気を出す==（||ゆうきをだす||） - Mut fassen, sich überwinden
+- 1:16:15 ==ガラクタ== - Gerümpel, Schrott, Kram
+- 1:16:15 ==寄せ集め==（||よせあつめ||） - zusammengewürfelte Sammlung, Sammelsurium
+- 1:16:37 ==じっと== - starr, still
+- 1:16:58 ==丸ごと==（||まるごと||） - vollständig, am Stück, mitsamt allem
+- 1:16:58 ==飛び込む==（||とびこむ||） - hineinspringen, sich hineinstürzen
+- 1:17:09 ==ややこしい== - kompliziert, verworren
+- 1:17:13 ==我が家族はややこしいものばかりだな== - „meine Familie besteht nur aus komplizierten Leuten“.
+- 1:17:35 ==暖炉==（||だんろ||） - Kamin, Feuerstelle
+- 1:17:52 ==上出来==（||じょうでき||） - sehr gut gelungen, hervorragende Arbeit
+- 1:18:07 ==そっと== - vorsichtig, leise, behutsam
+- 1:19:03 ==師匠==（||ししょう||） - Meister, Lehrmeister
+- 1:19:57 ==着替え==（||きがえ||） - Wechselkleidung; Umziehen
+- 1:20:12 ==出口==（||でぐち||） - Ausgang
+- 1:20:55 ==ちょっぴり== - ein kleines bisschen, ein wenig
+- 1:21:40 ==涙が出てきちゃった==（||なみだがでてきちゃった||） - „mir kommen die Tränen“; てきちゃった als unwillkürliche Veränderung.
+- 1:21:53 ==ちっちゃな== - klein, winzig
+- 1:22:00 ==隠れ家==（||かくれが||） - Versteck, Rückzugsort
+- 1:22:12 ==こっそり== - heimlich, unauffällig
+- 1:22:12 ==小屋==（||こや||） - Hütte, kleines Haus
+- 1:22:33 ==怪物==（||かいぶつ||） - Monster, Ungeheuer
+- 1:22:41 ==安心して暮らせる==（||あんしんしてくらせる||） - in Ruhe/Sicherheit leben können
+- 1:22:44 ==摘む==（||つむ||） - pflücken
+- 1:22:46 ==花屋==（||はなや||） - Blumenladen, Floristgeschäft
+- 1:22:58 ==ないし== - weder noch, und nicht
+- 1:23:06 ==年寄りのいいとこは無くすものが少ないことね== - „das Gute am Altsein ist, dass man wenig zu verlieren hat“.
+- 1:23:29 ==軍艦==（||ぐんかん||） - Kriegsschiff
+- 1:23:48 ==人殺し==（||ひとごろし||） - Mörder; Mord
+- 1:24:16 ==いじる== - herumfummeln, anfassen, verändern
+- 1:24:26 ==おっとっと== - Hoppla, Ups
+- 1:24:38 ==下っ端==（||したっぱ||） - unterster Handlanger, kleiner Untergebener
+- 1:25:44 ==ため息==（||ためいき||） - Seufzer
+- 1:25:54 ==図星==（||ずぼし||） - ins Schwarze getroffen; wunder Punkt
+- 1:26:16 ==呆れる==（||あきれる||） - fassungslos sein, die Nase voll haben
+- 1:26:25 ==空襲==（||くうしゅう||） - Luftangriff
+- 1:26:26 ==空襲警報==（||くうしゅうけいほう||） - Fliegeralarm, Luftangriffswarnung
+- 1:26:35 ==手先==（||てさき||） - Handlanger, Agent; wörtlich auch Fingerspitzen
+- 1:26:38 ==探し回る==（||さがしまわる||） - überall suchen, herumstöbern nach
+- 1:28:03 ==再婚==（||さいこん||） - Wiederheirat
+- 1:28:41 ==のぞき虫==（||のぞきむし||） - Spionagekäfer, Lauscher; wörtlich „Guck-Käfer“
+- 1:29:05 ==言われた通りにした==（||いわれたとおりにした||） - „ich habe getan, was mir gesagt wurde“.
+- 1:29:15 ==街中空っぽになっちゃう==（||まちじゅうからっぽになっちゃう||） - „die ganze Stadt wird leer sein“.
+- 1:29:31 ==仲直り==（||なかなおり||） - Versöhnung, sich wieder vertragen
+- 1:30:01 ==渡さない==（||わたさない||） - nicht herausgeben, nicht überlassen — サリマンなんかにハウル渡さないよ
+- 1:31:37 ==火事を消す==（||かじをけす||） - ein Feuer löschen
+- 1:33:16 ==食わせる==（||くわせる||） - fressen lassen, jemandem etwas zu essen geben; rauer als 食べさせる
+- 1:33:49 ==次の空襲==（||つぎのくうしゅう||） - nächster Luftangriff
+- 1:33:52 ==防げる==（||ふせげる||） - abwehren können, verhindern können
+- 1:33:59 ==ようやく== - endlich, nach langer Zeit
+- 1:36:17 ==弱虫==（||よわむし||） - Feigling, Schwächling; hier wahrscheinlich ASR-unsauber als ヨアムシ
+- 1:36:28 ==ボロボロ== - zerfetzt, völlig kaputt, heruntergekommen
+- 1:38:04 ==雨漏れ==（||あまもれ||） - undichtes Dach, hereinregnendes Wasser
+- 1:38:09 ==濡れる==（||ぬれる||） - nass werden
+- 1:38:14 ==湿る==（||しめる||） - feucht werden, feucht sein
+- 1:38:47 ==煙突==（||えんとつ||） - Schornstein
+- 1:38:53 ==一流は場所を選ばない==（||いちりゅうはばしょをえらばない||） - „Erstklassige wählen ihren Ort nicht“; schmeichelnde Ermunterung.
+- 1:40:46 ==囲まれる==（||かこまれる||） - umzingelt sein, eingeschlossen werden
+- 1:48:41 ==グズ== - Trödler, Trottel, jemand, der zu langsam ist
+- 1:50:51 ==クタクタ== - völlig erschöpft, fix und fertig
+- 1:51:08 ==小鳥みたいに動いてる==（||ことりみたいにうごいてる||） - „es bewegt sich wie ein kleiner Vogel“; zarte Beschreibung des Herzens.
+- 1:51:12 ==まんま== - genauso wie vorher; unverändert, in kindlicher/umgangssprachlicher Form.
+- 1:51:18 ==取り戻す==（||とりもどす||） - zurückerlangen, wiederbekommen
+- 1:52:21 ==棒==（||ぼう||） - Stock, Stab
+- 1:52:40 ==王子==（||おうじ||） - Prinz
+- 1:52:40 ==カブ頭==（||かぶあたま||） - Rübenkopf; hier Scarecrows Fluchgestalt
+- 1:52:43 ==愛する者==（||あいするもの||） - geliebte Person; jemand, der liebt/geliebt wird
+- 1:53:02 ==髪の毛==（||かみのけ||） - Haare, Haarsträhne
+- 1:53:04 ==染まる==（||そまる||） - sich färben, gefärbt werden
+- 1:53:04 ==星の光に染まってる==（||ほしのひかりにそまってる||） - „vom Sternenlicht gefärbt/getönt sein“.
+- 1:53:24 ==心変わり==（||こころがわり||） - Sinneswandel, Meinungs-/Gefühlswechsel
+- 1:53:24 ==人の世の常==（||ひとのよのつね||） - der normale Lauf der Menschenwelt; menschliche Gewohnheit
+- 1:53:48 ==ハッピーエンドってわけね== - „also ein Happy End, ja?“; ってわけ als erklärende Schlussfolgerung.
+- 1:53:50 ==浮気者==（||うわきもの||） - untreue Person, Fremdgänger
+- 1:54:00 ==総理大臣==（||そうりだいじん||） - Premierminister
+- 1:54:02 ==参謀長==（||さんぼうちょう||） - Stabschef
+- 1:54:04 ==馬鹿げる==（||ばかげる||） - absurd sein, albern sein
+- 1:54:04 ==馬鹿げた==（||ばかげた||） - absurd, lächerlich, töricht
+- 1:54:19 ==雨も降りそうだしさ== - „außerdem sieht es nach Regen aus“; そうだし als beiläufiger Zusatzgrund.
+- 1:55:05 ==限りない==（||かぎりない||） - grenzenlos, endlos
+- 1:55:47 ==せせらぎ== - Murmeln/Plätschern eines Bachs
+## Kenn ich schon mehr oder weniger
+- 1:46 ==これ仕上げちゃう== - „ich mache das noch fertig“; ちゃう als beiläufiges Abschließen.
+- 21:16 ==こんがらがった呪いだね== - „das ist ein völlig verhedderter Fluch“.
+- 21:44 ==火の悪魔カルシファーって言うんだ== - „ich heiße Calcifer, der Feuerdämon“.
+- 1:26:10 ==仕方のないもの==（||しかたのないもの||） - etwas, bei dem man nichts machen kann; unvermeidliche Sache
+- 1:48:05 ==涙が止まらない==（||なみだがとまらない||） - die Tränen hören nicht auf
+- 1:50:22 ==大事にする==（||だいじにする||） - sorgsam behandeln, wertschätzen
+- 1:52:58 ==体が石みたいだ==（||からだがいしみたいだ||） - „mein Körper ist wie Stein“.
+- 1:30 ==店==（||みせ||） - Laden
+- 1:43 ==行く==（||いく||） - gehen
+- 1:43 ==ソフィーさんも行けばいいのに== - „du solltest doch auch gehen“; ばいいのに als Vorschlag mit Bedauern.
+- 1:46 ==仕上げる==（||しあげる||） - fertigstellen, vollenden
+- 1:53 ==待つ==（||まつ||） - warten
+- 1:56 ==城==（||しろ||） - Schloss, Burg
+- 2:03 ==街==（||まち||） - Stadt
+- 2:14 ==隠れる==（||かくれる||） - sich verstecken
+- 2:14 ==隠れただけでしょ== - „sie hat sich doch nur versteckt“; だけでしょ als korrigierende Einordnung.
+- 2:16 ==軍隊==（||ぐんたい||） - Armee, Militär
+- 2:18 ==南町==（||みなみまち||） - Südviertel/Südstadt
+- 2:20 ==心臓==（||しんぞう||） - Herz
+- 2:22 ==心臓取られちゃったんだってね== - „ihr wurde angeblich das Herz genommen“; んだってね als Gerücht.
+- 7:45 ==使う==（||つかう||） - benutzen
+- 7:59 ==食べられる==（||たべられる||） - gegessen werden; Passiv/Potential
+- 8:00 ==心臓食べられちゃってるよ== - „dein Herz wird gegessen werden“; passivisch/umgangssprachlich dramatisiert.
+- 8:09 ==来る==（||くる||） - kommen
+- 8:09 ==魔女==（||まじょ||） - Hexe
+- 8:09 ==荒地==（||あれち||） - Einöde, Ödland
+- 8:47 ==帽子屋==（||ぼうしや||） - Hutladen, Hutmacher🍙
+- 10:15 ==安っぽい==（||やすっぽい||） - billig wirkend, schäbig
+- 10:43 ==呪い==（||のろい||） - Fluch
+- 10:43 ==その呪いは人には話せないからね== - „über diesen Fluch kannst du niemandem sprechen“.
+- 11:45 ==落ち着かなきゃ==（||おちつかなきゃ||） - ich muss mich beruhigen / ruhig bleiben
+- 12:32 ==奥様==（||おくさま||） - gnädige Frau,
+- 12:41 ==お帰り==（||おかえり||） - willkommen zurück
+- 14:25 ==親切==（||しんせつ||） - Freundlichkeit, freundlich
+- 16:47 ==魔法==（||まほう||） - Magie, Zauber
+- 17:47 ==体が動かない==（||からだがうごかない||） - der Körper lässt sich nicht bewegen / man kommt körperlich nicht mit
+- 18:57 ==家==（||いえ||） - Haus
+- 18:58 ==お城==（||おしろ||） - Schloss; höflich/kindlich
+- 21:41 ==火==（||ひ||） - Feuer
+- 21:49 ==解ける==（||とける||） - sich lösen; Fluch löst sich
+- 21:59 ==約束==（||やくそく||） - Versprechen, Abmachung
+- 22:10 ==契約==（||けいやく||） - Vertrag, Pakt🍙
+- 22:22 ==秘密==（||ひみつ||） - Geheimnis
+- 23:42 ==誰==（||だれ||） - wer
+- 24:16 ==戦争==（||せんそう||） - Krieg
+- 24:28 ==嫌==（||いや||） - unangenehm, nein
+- 25:53 ==開ける==（||あける||） - öffnen
+- 28:05 ==帽子==（||ぼうし||） - Hut
+- 29:31 ==新しい==（||あたらしい||） - neu
+- 29:33 ==掃除婦==（||そうじふ||） - Putzfrau🍙
+- 29:34 ==この城の新しい掃除婦さん== - „die neue Putzfrau dieses Schlosses“.
+- 29:34 ==貸しなさい==（||かしなさい||） - gib her / leih es mir; imperativisch
+- 30:13 ==掃除婦って誰が決めたの==（||そうじふってだれがきめたの||） - „wer hat entschieden, dass ich Putzfrau bin?“
+- 30:13 ==掃除==（||そうじ||） - Putzen, Reinigung
+- 32:02 ==流れ星==（||ながれぼし||） - Sternschnuppe
+- 33:57 ==早く==（||はやく||） - schnell, früh
+- 33:57 ==危ない==（||あぶない||） - gefährlich, Vorsicht
+- 37:23 ==星の海==（||ほしのうみ||） - Sternenmeer
+- 37:32 ==手を貸す==（||てをかす||） - helfen, Hand anlegen
+- 37:32 ==手==（||て||） - Hand
+- 38:50 ==洗濯物==（||せんたくもの||） - Wäsche
+- 41:26 ==戻る==（||もどる||） - zurückkehren
+- 41:46 ==戻れなくなる==（||もどれなくなる||） - nicht mehr zurückkehren können
+- 41:57 ==ひどい== - schlimm, grausam
+- 50:14 ==見かける==（||みかける||） - sehen, bemerken
+- 50:37 ==逃げ出す==（||にげだす||） - fliehen, davonlaufen
+- 50:37 ==近づく==（||ちかづく||） - sich nähern
+- 50:40 ==恐ろしい==（||おそろしい||） - furchterregend, schrecklich
+- 51:40 ==諦める==（||あきらめる||） - aufgeben, verzichten
+- 54:23 ==おかげで== - dank, wegen; oft ironisch
+- 57:21 ==ずっと待つ==（||ずっとまつ||） - die ganze Zeit warten
+- 57:27 ==この日が来るのをずっと待ってたんだ== - „ich habe die ganze Zeit auf diesen Tag gewartet“.
+- 57:28 ==手を貸すほど==（||てをかすほど||） - so sehr, dass man hilft
+- 58:03 ==ご案内する==（||ごあんないする||） - führen, geleiten; höflich
+- 58:03 ==案内==（||あんない||） - Führung, Anleitung
+- 1:01:06 ==使い犬==（||つかいいぬ||） - Dienerhund, Botenhund
+- 1:04:21 ==敵==（||てき||） - Feind
+- 1:07:24 ==飛ぶ==（||とぶ||） - fliegen
+- 1:07:30 ==教える==（||おしえる||） - lehren, mitteilen
+- 1:07:30 ==方向==（||ほうこう||） - Richtung
+- 1:07:30 ==方向は指輪が教えてくれる== - „der Ring zeigt dir die Richtung“.
+- 1:07:30 ==指輪==（||ゆびわ||） - Ring🍙
+- 1:14:46 ==渡す==（||わたす||） - übergeben, aushändigen — 大切なものをあなたに渡した
+- 1:14:51 ==喋る==（||しゃべる||） - sprechen, plaudern
+- 1:17:13 ==家族==（||かぞく||） - Familie
+- 1:17:20 ==引っ越し==（||ひっこし||） - Umzug
+- 1:17:20 ==引っ越しだ== - „wir ziehen um“; knappes Alltagskommando.
+- 1:17:30 ==魔力==（||まりょく||） - magische Kraft, Zauberkraft
+- 1:18:58 ==終わり==（||おわり||） - Ende, abgeschlossen
+- 1:20:04 ==庭==（||にわ||） - Garten
+- 1:20:04 ==中庭==（||なかにわ||） - Innenhof🍙
+- 1:20:47 ==秘密の庭==（||ひみつのにわ||） - geheimer Garten
+- 1:23:57 ==くっつける== - ankleben, befestigen
+- 1:25:41 ==恋==（||こい||） - Liebe, Verliebtheit
+- 1:28:03 ==お金持ち==（||おかねもち||） - reiche Person, wohlhabend
+- 1:28:15 ==暮らし==（||くらし||） - Leben, Lebensweise
+- 1:29:49 ==そう、家族よ== - „ja, wir sind Familie“.
+- 1:30:22 ==信じる==（||しんじる||） - glauben, vertrauen
+- 1:30:38 ==窓==（||まど||） - Fenster
+- 1:33:04 ==しっかりしろ== - „reiß dich zusammen“, „halt durch“
+- 1:33:31 ==珍しい==（||めずらしい||） - ungewöhnlich, selten
+- 1:33:52 ==防ぐ==（||ふせぐ||） - abwehren, verhindern🍙
+- 1:33:57 ==十分逃げた==（||じゅうぶんにげた||） - „ich bin genug davongelaufen“.
+- 1:36:10 ==無茶==（||むちゃ||） - Unsinn, Übermut, Unvernunft
+- 1:36:10 ==無茶だよ== - „das ist völlig verrückt/unmöglich“.
+- 1:36:50 ==崩れる==（||くずれる||） - einstürzen, zerfallen
+- 1:40:22 ==目==（||め||） - Auge
+- 1:43:17 ==居場所==（||いばしょ||） - Aufenthaltsort, Ort, an dem jemand ist
+- 1:45:40 ==子供時代==（||こどもじだい||） - Kindheit
+- 1:47:27 ==未来==（||みらい||） - Zukunft
+- 1:47:27 ==未来で待ってて== - „warte in der Zukunft auf mich“.
+- 1:48:50 ==連れて行く==（||つれていく||） - jemanden mitnehmen, hinführen
+- 1:51:34 ==自由==（||じゆう||） - Freiheit, frei
+- 1:52:38 ==隣の国==（||となりのくに||） - Nachbarland
+- 1:52:46 ==その通り==（||そのとおり||） - genau so, richtig
+- 1:52:55 ==騒ぎ==（||さわぎ||） - Aufruhr, Tumult, Lärm
+- 1:53:21 ==伺う==（||うかがう||） - hingehen/besuchen; höfliche Form von 行く/聞く
+- 1:54:04 ==終わらせる==（||おわらせる||） - beenden, zu Ende bringen; kausativ zu 終わる
+- 1:54:51 ==決して==（||けっして||） - keinesfalls, niemals
+- 1:54:51 ==決して終わらない世界の約束== - „das niemals endende Versprechen der Welt“; poetischer Titelsong-Ausdruck.
+- 1:55:18 ==優しさ==（||やさしさ||） - Freundlichkeit, Sanftheit
+- 1:55:34 ==思い出==（||おもいで||） - Erinnerung
+- 1:55:47 ==空==（||そら||） - Himmel
+- 1:55:47 ==香り==（||かおり||） - Duft
+- 1:55:47 ==色==（||いろ||） - Farbe
+
+### Kann ich schon (fast) perfekt
+
+
+%%
+
+- 12:31 ==ばあさん== - alte Frau, Oma
+
+## Links
+Prev::
+Next:: Transcript (nicht öffentlich verfügbar)
+Friend::
+%%
+
+## Tags
+#japanese #transcript #media
+
+## Lernschnitt-Übersicht
+
+- [[Lernschnitte|Alle Lernschnitte]]

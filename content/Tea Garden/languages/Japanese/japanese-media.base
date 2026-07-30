@@ -1,3 +1,6 @@
+filters:
+  and:
+    - file.tags.contains("japanese")
 formulas:
   duration: duration(duration + 's')
   subtitle: "[album, creator].filter(value.isTruthy()).join(' - ')"
@@ -32,6 +35,9 @@ views:
     filters:
       and:
         - file.tags.contains("movie")
+    order:
+      - file.name
+      - publish
     image: note.cover
   - type: cards
     name: has vocabulary list
@@ -40,17 +46,12 @@ views:
         - file.tags.containsAll("vocabulary-list", "japanese")
     image: note.cover
   - type: cards
-    name: published
+    name: all published files
     filters:
       and:
         - publish == true
         - file.tags.containsAll("japanese")
     image: note.cover
-  - type: table
-    name: french
-    filters:
-      and:
-        - file.tags.contains("french")
   - type: cards
     name: japanese (cards)
     filters:
@@ -63,3 +64,11 @@ views:
       and:
         - file.tags.containsAll("japanese", "media")
         - '!file.tags.contains("movie")'
+  - type: cards
+    name: music
+    filters:
+      and:
+        - file.tags.contains("music")
+    order:
+      - file.name
+    image: note.cover

@@ -18,8 +18,8 @@ This is a collection of [[tea-garden/personal/things-i-made/drawings|Drawings]].
 Here is some [[tea-garden/personal/things-i-made/pixel-art|pixel art]] I made. 
 
 [[favourite classical pieces]]
-[[tea-garden/music/techno/white-cyclosa|White Cyclosa]]
+[[White Cyclosa]]
 
 [[tea-garden/personal/other/believe!|Believe!]]
 [[tea-garden/personal/psalm-23|Psalm 23]]
-[[Fantasy]]
+[[tea-garden/personal/other/fantasy|Fantasy]]

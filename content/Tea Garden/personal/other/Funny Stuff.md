@@ -7,7 +7,7 @@ tags:
 ---
 ![120x120](https://youtube.com/shorts/VZNsIkMFWzU?si=CB9QoYdsDeKFACBE)
 
-![120x120](https://youtube.com/shorts/zBCq79nphLI?si=u1HK5OYQS6BzNYvL)
+![](https://youtube.com/shorts/zBCq79nphLI?si=u1HK5OYQS6BzNYvL)
 
 ![120x120](https://youtube.com/shorts/EubvryTowFc?si=IcH_aLdn8Cujk9p3)
 

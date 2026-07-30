@@ -32,7 +32,7 @@ Logo verschwindet sofort (Graph auch) die tool bar verschwindet erst wenn der Cu
 The ideas in [[tea-garden/foundation/purpose|Purpose]] (search of truth & clear thinking) lead to following design principles: 
 
 I follow these design principles. Not strictly, but I like to think that I am sticking to these (moritz: kann man das so sagen? Der Satz vor dem Kommentar)
-- [[minimalism]] (only really necessary information)
+- [[minimalism]] (only really necessary information).. but what is necessary? Only necessary information is kind of life less... that's why I like simplicity more. 
 - simplicity (only essential stuff matters, don't try to overcomplicate things (visually))
 - [[zettelkasten/zettel/design-principles/guided-attention|Guided Attention]] (through simple differences in stroke thickness, font size, etc.)
 

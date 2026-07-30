@@ -1,5 +1,7 @@
 import { access, copyFile, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
+import { existsSync } from "node:fs"
 import path from "node:path"
+import { fileURLToPath } from "node:url"
 import YAML from "yaml"
 import {
   parseLinksSection,
@@ -10,12 +12,17 @@ import {
 import { assetHref } from "./asset-path.mjs"
 import { renderPdfEmbed } from "./pdf-embed.mjs"
 
-const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
-const digitalGardenRoot =
-  process.env.ZETTEL_SOURCE_ROOT ||
-  process.env.DIGITAL_GARDEN_ROOT ||
-  path.join(vaultRoot, "Digital Garden")
+const defaultVaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
+const vaultRoot =
+  process.env.ZETTEL_SOURCE_ROOT || process.env.DIGITAL_GARDEN_ROOT || defaultVaultRoot
+const nestedDigitalGardenRoot = path.join(vaultRoot, "Digital Garden")
+const hasNestedDigitalGarden = existsSync(nestedDigitalGardenRoot)
+const digitalGardenRoot = hasNestedDigitalGarden ? nestedDigitalGardenRoot : vaultRoot
+const picturesRoot = process.env.ZETTEL_PICTURES_ROOT || path.join("/Users/moritzvitt", "Pictures")
+const moviesRoot = process.env.ZETTEL_MOVIES_ROOT || path.join("/Users/moritzvitt", "Movies")
+const transcriptsRoot = process.env.ZETTEL_TRANSCRIPTS_ROOT || path.join(moviesRoot, "Transkripte")
 const homepageSources = [
+  path.join(digitalGardenRoot, "Digital Garden.md"),
   path.join(digitalGardenRoot, "Welcome in my Digital Garden!.md"),
   path.join(digitalGardenRoot, "Tea Garden", "Welcome in my Digital Garden!.md"),
 ]
@@ -26,20 +33,22 @@ const relationNames = relationshipNames
 const relationTypes = relationshipTypes
 
 try {
-  await access(digitalGardenRoot)
+  await access(vaultRoot)
 } catch {
-  console.log(
-    `Digital Garden source not found at ${digitalGardenRoot}; using existing content directory`,
-  )
+  console.log(`Obsidian source not found at ${vaultRoot}; using existing content directory`)
   process.exit(0)
 }
+
+const ignoredSourceDirectories = new Set([".git", ".obsidian", ".trash", "node_modules"])
 
 async function walkFiles(dir) {
   const entries = await readdir(dir, { withFileTypes: true })
   const files = []
   for (const entry of entries) {
     const full = path.join(dir, entry.name)
-    if (entry.isDirectory()) files.push(...(await walkFiles(full)))
+    if (entry.isDirectory() && !ignoredSourceDirectories.has(entry.name)) {
+      files.push(...(await walkFiles(full)))
+    }
     if (entry.isFile()) files.push(full)
   }
   return files
@@ -74,7 +83,11 @@ function shouldPublish(data) {
 
 function outputPath(file) {
   if (isHomepageSource(file)) return "index.md"
-  return path.relative(digitalGardenRoot, file)
+  const relative = path.relative(vaultRoot, file)
+  if (!hasNestedDigitalGarden) return relative
+
+  const gardenPrefix = `Digital Garden${path.sep}`
+  return relative.startsWith(gardenPrefix) ? relative.slice(gardenPrefix.length) : relative
 }
 
 function isHomepageSource(file) {
@@ -161,8 +174,82 @@ function publishedAssetPath(relDir, target) {
   return [...relDir.split(path.sep).filter(Boolean), path.basename(target)].join("/")
 }
 
+function localFile(value) {
+  if (typeof value !== "string" || !value.startsWith("file:")) return null
+  try {
+    const url = new URL(value)
+    if (url.protocol !== "file:") return null
+    return fileURLToPath(url)
+  } catch {
+    return null
+  }
+}
+
+function isInside(root, target) {
+  const relative = path.relative(path.resolve(root), path.resolve(target))
+  return relative !== ".." && !relative.startsWith(`..${path.sep}`) && !path.isAbsolute(relative)
+}
+
+function publishablePicture(value) {
+  const source = localFile(value)
+  if (!source || !isInside(picturesRoot, source)) return null
+  if (!imageAssetExtensions.has(path.extname(source).toLocaleLowerCase("de"))) return null
+  return source
+}
+
+function isPrivateTranscript(value) {
+  const source = localFile(value)
+  if (!source) return false
+  const ext = path.extname(source).toLocaleLowerCase("de")
+  return isInside(transcriptsRoot, source) || ext === ".srt" || ext === ".vtt"
+}
+
+function withoutLocalFileUrls(value) {
+  if (Array.isArray(value)) {
+    return value.map(withoutLocalFileUrls).filter((item) => item !== undefined)
+  }
+  if (typeof value === "string" && localFile(value)) return undefined
+  return value
+}
+
+function publicFrontmatter(data) {
+  const result = {}
+  for (const [key, value] of Object.entries(data)) {
+    if (key === "captions") continue
+    const publicValue = withoutLocalFileUrls(value)
+    if (publicValue === undefined) continue
+    if (Array.isArray(publicValue) && publicValue.length === 0 && Array.isArray(value)) {
+      result[key] = publicValue
+      continue
+    }
+    result[key] = publicValue
+  }
+  return result
+}
+
+function rewriteExternalFileUrls(text, externalAssets) {
+  const markdownFileLink = /(!?)\[([^\]]*)\]\((file:\/\/\/[^)\s]+)(?:\s+["'][^)]*["'])?\)/g
+  const rewritten = text.replace(markdownFileLink, (match, embed, label, value) => {
+    const picture = publishablePicture(value)
+    if (embed && picture) {
+      externalAssets.set(picture, path.basename(picture))
+      return `![${label}](./${encodeURIComponent(path.basename(picture))})`
+    }
+
+    if (embed) return label ? `*${label} – nicht öffentlich verfügbar*` : ""
+    if (isPrivateTranscript(value) && /transcript|transkript|untertitel/i.test(label)) {
+      return `${label} (nicht öffentlich verfügbar)`
+    }
+    return label
+  })
+
+  return rewritten.replace(/file:\/\/\/[^\s)<>"']+/g, "")
+}
+
 function excerpt(text) {
   return stripFrontmatter(text)
+    .replace(/!?\[([^\]]*)\]\((file:\/\/\/[^)\s]+)(?:\s+["'][^)]*["'])?\)/g, (_, label) => label)
+    .replace(/file:\/\/\/[^\s)<>"']+/g, "")
     .replace(/%%[\s\S]*?%%/g, "")
     .replace(
       /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
@@ -471,7 +558,7 @@ await mkdir(contentRoot, { recursive: true })
 await rm(excalidrawStaticRoot, { recursive: true, force: true })
 await mkdir(excalidrawStaticRoot, { recursive: true })
 
-const sourceFiles = await walkFiles(digitalGardenRoot)
+const sourceFiles = await walkFiles(vaultRoot)
 const files = sourceFiles.filter((file) => file.endsWith(".md"))
 const baseFiles = sourceFiles.filter(
   (file) => path.extname(file).toLocaleLowerCase("de") === ".base",
@@ -496,7 +583,11 @@ for (const file of files) {
   const rel = outputPath(file)
   const relDir = path.dirname(rel) === "." ? "" : path.dirname(rel)
   const coverAsset = wikilinkImageTarget(data.cover)
+  const externalCover = publishablePicture(data.cover)
+  const externalAssets = new Map()
+  if (externalCover) externalAssets.set(externalCover, path.basename(externalCover))
   const parsedRelationships = parseLinksSection(text)
+  const publicData = publicFrontmatter(data)
   rawNotes.push({
     file,
     rel,
@@ -507,10 +598,13 @@ for (const file of files) {
     relationships: parsedRelationships.relationships,
     wikiLinks: allWikiLinks(text),
     embeddedAssets: [...new Set([...embeddedAssets(text), ...(coverAsset ? [coverAsset] : [])])],
+    externalAssets,
     excerpt: excerpt(text),
     frontmatter: coverAsset
-      ? { ...data, cover: `[[${publishedAssetPath(relDir, coverAsset)}]]` }
-      : data,
+      ? { ...publicData, cover: `[[${publishedAssetPath(relDir, coverAsset)}]]` }
+      : externalCover
+        ? { ...publicData, cover: `[[${publishedAssetPath(relDir, externalCover)}]]` }
+        : publicData,
   })
 }
 
@@ -580,7 +674,10 @@ for (const note of rawNotes) {
   const out = path.join(contentRoot, note.rel)
   await mkdir(path.dirname(out), { recursive: true })
   const isExcalidraw = Boolean(note.frontmatter["excalidraw-plugin"])
-  const body = rewriteWikiLinks(stripFrontmatter(note.text), note, resolve)
+  const body = rewriteExternalFileUrls(
+    rewriteWikiLinks(stripFrontmatter(note.text), note, resolve),
+    note.externalAssets,
+  )
   const sourcePath = path.relative(vaultRoot, note.file)
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
@@ -624,6 +721,20 @@ for (const note of rawNotes) {
       continue
     }
     const destination = path.join(contentRoot, note.relDir, path.basename(target))
+    await mkdir(path.dirname(destination), { recursive: true })
+    await copyFile(source, destination)
+  }
+
+  for (const [source, target] of note.externalAssets) {
+    const destination = path.join(contentRoot, note.relDir, target)
+    try {
+      await access(source)
+    } catch {
+      console.warn(
+        `Missing external picture ${source} referenced by ${path.relative(vaultRoot, note.file)}`,
+      )
+      continue
+    }
     await mkdir(path.dirname(destination), { recursive: true })
     await copyFile(source, destination)
   }

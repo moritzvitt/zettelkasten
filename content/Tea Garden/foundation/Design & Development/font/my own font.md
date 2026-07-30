@@ -7,7 +7,7 @@ tags:
 ---
 I generated the missing 1161 kanji characters from  this sample down below. However, the results don't yet look convincing enough. I think, a big problem has been inconsistency in my style of writing (I have been experimenting with new ways of writing characters) so a better approach would be to first settle on a design for the individual radicals and then draw the whole font. 
 
-![[Pasted image 20260717152200.png]]
+![Pasted image 20260717152200.png](./Pasted%20image%2020260717152200.png)
 Current state: 
 
 [[font versions log]]

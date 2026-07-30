@@ -22,7 +22,7 @@ Die zentrale Idee ist:
 ## Datenfluss
 
 1. `npm run dev` oder `npm run build` startet den Build.
-2. `scripts/sync-zettel.mjs` liest den Obsidian-Quellordner.
+2. `scripts/sync-zettel.mjs` liest den gesamten Obsidian-Vault.
 3. Nur Notizen mit `publish: true` oder `dg-publish: true` werden übernommen.
 4. Ausgeschlossene Notizen sind Notizen mit `draft: true`, `publish: false` oder `dg-publish: false`.
 5. Der Sync schreibt veröffentlichte Notizen nach `content/`.
@@ -73,17 +73,29 @@ Zweck: Brücke zwischen Obsidian-Vault und Quartz-Content.
 
 Eingaben:
 
-- Standardquelle: `/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden`
+- Standardquelle: der gesamte Vault unter `/Users/moritzvitt/Notes/Obsidian Notes`
 - Alternative Quelle: `ZETTEL_SOURCE_ROOT` oder `DIGITAL_GARDEN_ROOT`
+- Externe Bilder: standardmäßig `/Users/moritzvitt/Pictures`, für Tests überschreibbar
+  mit `ZETTEL_PICTURES_ROOT`
+- Private Medien und Transkripte: standardmäßig `/Users/moritzvitt/Movies` und
+  `/Users/moritzvitt/Movies/Transkripte`, für Tests überschreibbar mit
+  `ZETTEL_MOVIES_ROOT` und `ZETTEL_TRANSCRIPTS_ROOT`
 - Markdown-Frontmatter der Notizen
 - Obsidian-Wikilinks und eingebettete Assets
 
 Wichtige Funktionen:
 
 - `shouldPublish`: entscheidet, ob eine Notiz veröffentlicht wird.
-- `customOutputPath`: akzeptiert `custom-path` und schützt gegen Pfade außerhalb von `content/`.
+- `outputPath`: erhält Vault-relative Ordner für neue Quellbereiche, entfernt aber
+  bei Notizen unter `Digital Garden/` das historische Präfix, damit bestehende
+  öffentliche URLs stabil bleiben.
 - `titleFrom`: nimmt die erste H1 als Titel, sonst den Dateinamen.
 - `rewriteWikiLinks`: ersetzt Wikilinks durch Slugs veröffentlichter Notizen.
+- `rewriteExternalFileUrls`: kopiert referenzierte Bilder aus dem freigegebenen
+  Pictures-Bereich in den Ordner der veröffentlichten Notiz und ersetzt lokale
+  `file:///`-Bildpfade durch relative Webpfade.
+- `publicFrontmatter`: entfernt `captions` und lokale `file:///`-Werte aus dem
+  veröffentlichten Frontmatter.
 - `parseLinksSection`: liest strukturierte Beziehungen aus einem Abschnitt `## Links`.
 - `frontmatter`: schreibt ein neues Quartz-Frontmatter mit `title`, `source`, `publish`, `tags`, optionalen Aliases und `graphLinks`.
 - `folderIndex`: erzeugt automatische Ordnerseiten.
@@ -92,9 +104,23 @@ Wichtige Funktionen:
 Ausgaben:
 
 - `content/**/*.md`
-- kopierte eingebettete Bilder/SVGs
+- kopierte eingebettete Bilder/SVGs und referenzierte externe Bilder aus
+  `/Users/moritzvitt/Pictures`
 - automatische `content/**/index.md`
 - `quartz/static/brain-index.json`
+
+Der Sync durchsucht alle nicht-internen Vault-Ordner. `.git`, `.obsidian`,
+`.trash` und `node_modules` werden ausgelassen. Ob eine Notiz veröffentlicht
+wird, hängt vom Frontmatter ab und nicht von ihrem Quellordner.
+
+Datenschutz- und Veröffentlichungsgrenze:
+
+- SRT-/VTT-Dateien und `captions` werden nicht veröffentlicht.
+- Lokale Filme und Videos werden nicht kopiert.
+- Lokale Medien- und Transkriptlinks werden im generierten Markdown neutralisiert,
+  sodass keine absoluten Benutzerpfade auf der Website landen.
+- Diese Bereinigung betrifft nur `content/`; die Obsidian-Quelldateien bleiben
+  unverändert.
 
 ### `scripts/relationship-parser.mjs`
 
@@ -495,6 +521,23 @@ Konfiguration:
 
 Tests: `npm test --prefix plugins/obsidian-plugin-excalidraw`.
 
+### `stacked-pages`
+
+Typ: Component.
+
+Zweck: Behält den Navigationspfad auf Desktop-Bildschirmen als vertikale
+Seitenstapel am linken und rechten Rand sichtbar. Interne Links werden weiterhin
+vom Quartz-SPA-Router geöffnet; besuchte Seiten werden während der Browser-Sitzung
+als Tabs gespeichert und können erneut aufgerufen oder geschlossen werden.
+
+Konfiguration:
+
+- höchstens 8 Tabs,
+- ab 800 Pixel Breite aktiv,
+- Spines und Übergangsanimationen aktiviert,
+- Position `afterBody` mit Priorität 50,
+- auf mobilen Ansichten normale Navigation ohne Seitenstapel.
+
 ## Deaktivierte, aber konfigurierte Plugins
 
 Diese Plugins stehen in `quartz.config.yaml`, sind aber aktuell deaktiviert:
@@ -503,7 +546,6 @@ Diese Plugins stehen in `quartz.config.yaml`, sind aber aktuell deaktiviert:
 - `ox-hugo`: Unterstützung für ox-hugo-kompatiblen Markdown-Export.
 - `roam`: Roam-ähnliche Markdown-/Linkkonventionen.
 - `explicit-publish`: könnte Veröffentlichung stärker über explizite Publish-Flags steuern; aktuell übernimmt das eigene Sync-Skript diese Aufgabe.
-- `stacked-pages`: alternative gestapelte Seitenansicht.
 - `tag-list`: Tagliste oberhalb des Inhalts.
 - `comments`: Kommentare, in der Config auf Giscus vorbereitet.
 - `recent-notes`: Liste neuer oder geänderter Notizen.
@@ -721,12 +763,13 @@ Nachbau:
 ## Homepage
 
 Die Root-URL `/` ist eine reguläre Quartz-Inhaltsseite. Die veröffentlichte
-Obsidian-Notiz `Digital Garden/Welcome in my Digital Garden!.md` setzt
-`custom-path: /`. Der Sync erkennt diese festgelegte Homepage-Quelldatei und
-schreibt sie nach `content/index.md`; andere Notizen mit demselben Custom-Pfad
-bleiben als benannte Dateien im Content-Root. Quartz rendert die Homepage nach
-`public/index.html`. Es gibt keinen separaten Homepage-Emitter und keine
-Pixel-Art-Assets mehr.
+Obsidian-Notiz `Digital Garden/Digital Garden.md` wird vom Sync als Homepage
+erkannt und nach `content/index.md` geschrieben. Die früher verwendeten
+Quelldateien `Digital Garden/Welcome in my Digital Garden!.md` und
+`Digital Garden/Tea Garden/Welcome in my Digital Garden!.md` bleiben als
+Kompatibilitätsfälle unterstützt. Die Homepage muss wie jede andere Notiz
+`publish: true` oder `dg-publish: true` tragen. Quartz rendert sie nach
+`public/index.html`; es gibt keinen separaten Homepage-Emitter.
 
 ## Strukturindex `brain-index.json`
 

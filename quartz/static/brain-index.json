@@ -10,9 +10,27 @@
   "nodes": {
     "index": {
       "slug": "index",
-      "title": "Welcome in my Digital Garden!",
-      "source": "Digital Garden/Tea Garden/Welcome in my Digital Garden!.md",
+      "title": "Digital Garden",
+      "source": "Digital Garden/Digital Garden.md",
       "url": "/index",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world": {
+      "slug": "tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world",
+      "title": "Axiom - The Wonders of This World",
+      "source": "Digital Garden/Tea Garden/Isn't Life Beautiful/Axiom - The Wonders of This World.md",
+      "url": "/tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/isn't-life-beautiful/beauty": {
+      "slug": "tea-garden/isn't-life-beautiful/beauty",
+      "title": "Beauty (don't optimise Beauty)",
+      "source": "Digital Garden/Tea Garden/Isn't Life Beautiful/Beauty.md",
+      "url": "/tea-garden/isn't-life-beautiful/beauty",
       "tags": [
         "zettel"
       ]
@@ -98,6 +116,264 @@
         "zettel"
       ]
     },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+      "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "life-advice",
+        "nostalgia",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
+      "title": "Being an AV Director in Japan (Interview)",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/Being an AV Director in Japan (Interview).md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
+      "tags": [
+        "zettel",
+        "find-your-love",
+        "love",
+        "interview",
+        "japan",
+        "japanese",
+        "_",
+        "find-your-love-in-japan",
+        "porn-director-in-japan",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
+      "title": "What Japanese Girls Find Attractive",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/What Japanese Girls Find Attractive.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
+      "tags": [
+        "zettel",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "tags": [
+        "zettel",
+        "japanese",
+        "youtube",
+        "germany",
+        "japan",
+        "culture",
+        "cultural-differences",
+        "germany-japan",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
+      "title": "【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
+      "tags": [
+        "zettel",
+        "_",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
+      "title": "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
+      "tags": [
+        "zettel",
+        "_",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
+      "title": "日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
+      "tags": [
+        "zettel",
+        "nihongo",
+        "_",
+        "japanese-practice",
+        "japanese-conversation",
+        "native-speaker",
+        "daily-japanese",
+        "listening",
+        "comprehensible-japanese",
+        "japanese",
+        "japaneselanguage",
+        "relationships",
+        "love",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
+      "title": "米津玄師 Kenshi Yonezu - Lemon",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/米津玄師 Kenshi Yonezu - Lemon.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
+      "tags": [
+        "zettel",
+        "japanese",
+        "music",
+        "jpop",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?",
+      "title": "How much do Japanese Girls Cheat?",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/How much do Japanese Girls Cheat?.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?",
+      "tags": [
+        "zettel",
+        "japanese/relationships",
+        "japanese/conversation",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
+      "title": "Howl's Moving Castle",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Howl's Moving Castle.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "anime",
+        "ghibli",
+        "love",
+        "war",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
+      "title": "Kikis Delivery Service",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Kikis Delivery Service.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
+      "title": "Nausicaa Of The Valley Of The Wind",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Nausicaa Of The Valley Of The Wind.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves",
+      "title": "Ocean Waves",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Ocean Waves.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday",
+      "title": "Only Yesterday",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Only Yesterday.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away",
+      "title": "Spirited Away",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Spirited Away.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises",
+      "title": "The Wind Rises",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/The Wind Rises.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "movie"
+      ]
+    },
     "tea-garden/languages/japanese/japanese-topics": {
       "slug": "tea-garden/languages/japanese/japanese-topics",
       "title": "Japanese Topics",
@@ -127,6 +403,53 @@
         "home/study-room"
       ]
     },
+    "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)": {
+      "slug": "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+      "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
+      "source": "Digital Garden/Tea Garden/languages/Mediennotizen/Nur vom Agenten erstellt/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
+      "url": "/tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "yuyu",
+        "yuyus-podcast",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
+      ]
+    },
+    "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～": {
+      "slug": "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
+      "title": "ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～",
+      "source": "Digital Garden/Tea Garden/languages/Mediennotizen/Nur vom Agenten erstellt/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～.md",
+      "url": "/tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
+      ]
+    },
+    "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】": {
+      "slug": "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "title": "正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "source": "Digital Garden/Tea Garden/languages/Mediennotizen/Nur vom Agenten erstellt/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
+      "url": "/tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "japanese",
+        "youtube",
+        "vocabulary-list",
+        "japanese/vocabulary-list"
+      ]
+    },
     "tea-garden/languages/chinese/zhuyin": {
       "slug": "tea-garden/languages/chinese/zhuyin",
       "title": "Zhuyin",
@@ -134,6 +457,50 @@
       "url": "/tea-garden/languages/chinese/zhuyin",
       "tags": [
         "zettel"
+      ]
+    },
+    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)": {
+      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)",
+      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin).md",
+      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "youtube",
+        "vocabulary-list",
+        "french/vocabulary-list"
+      ]
+    },
+    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)": {
+      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)",
+      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen).md",
+      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "youtube",
+        "vocabulary-list",
+        "french/vocabulary-list"
+      ]
+    },
+    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)": {
+      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
+      "title": "QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)",
+      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil).md",
+      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
+      "tags": [
+        "zettel",
+        "media",
+        "transcript",
+        "french",
+        "vocabulary-list",
+        "french/vocabulary-list"
       ]
     },
     "tea-garden/music/joe-hisaishi---one-summer's-day": {
@@ -150,11 +517,11 @@
         "media"
       ]
     },
-    "tea-garden/music/classic/tchaikovsky---rococco-variations": {
-      "slug": "tea-garden/music/classic/tchaikovsky---rococco-variations",
+    "tea-garden/music/genres/classic/tchaikovsky---rococco-variations": {
+      "slug": "tea-garden/music/genres/classic/tchaikovsky---rococco-variations",
       "title": "Rococco Variations",
-      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Rococco Variations.md",
-      "url": "/tea-garden/music/classic/tchaikovsky---rococco-variations",
+      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Rococco Variations.md",
+      "url": "/tea-garden/music/genres/classic/tchaikovsky---rococco-variations",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -164,11 +531,11 @@
         "media"
       ]
     },
-    "tea-garden/music/classic/tchaikovsky---symphony-no.-4": {
-      "slug": "tea-garden/music/classic/tchaikovsky---symphony-no.-4",
+    "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4": {
+      "slug": "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4",
       "title": "Tchaikovsky - Symphony No. 4 f-moll op. 36",
-      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 4.md",
-      "url": "/tea-garden/music/classic/tchaikovsky---symphony-no.-4",
+      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Symphony No. 4.md",
+      "url": "/tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -179,11 +546,11 @@
         "media"
       ]
     },
-    "tea-garden/music/classic/tchaikovsky---symphony-no.-6": {
-      "slug": "tea-garden/music/classic/tchaikovsky---symphony-no.-6",
+    "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6": {
+      "slug": "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6",
       "title": "Tchaikovsky - Symphony No. 6",
-      "source": "Digital Garden/Tea Garden/music/classic/Tchaikovsky - Symphony No. 6.md",
-      "url": "/tea-garden/music/classic/tchaikovsky---symphony-no.-6",
+      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Symphony No. 6.md",
+      "url": "/tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6",
       "tags": [
         "zettel",
         "music",
@@ -193,11 +560,11 @@
         "media"
       ]
     },
-    "tea-garden/music/hiphop/hotline-bling": {
-      "slug": "tea-garden/music/hiphop/hotline-bling",
+    "tea-garden/music/genres/hiphop/hotline-bling": {
+      "slug": "tea-garden/music/genres/hiphop/hotline-bling",
       "title": "Hotline Bling",
-      "source": "Digital Garden/Tea Garden/music/hiphop/Hotline Bling.md",
-      "url": "/tea-garden/music/hiphop/hotline-bling",
+      "source": "Digital Garden/Tea Garden/music/genres/hiphop/Hotline Bling.md",
+      "url": "/tea-garden/music/genres/hiphop/hotline-bling",
       "tags": [
         "zettel",
         "music",
@@ -206,42 +573,13 @@
         "media"
       ]
     },
-    "tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)": {
-      "slug": "tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
+    "tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)": {
+      "slug": "tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
       "title": "Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video)",
-      "source": "Digital Garden/Tea Garden/music/pop/Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video).md",
-      "url": "/tea-garden/music/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
+      "source": "Digital Garden/Tea Garden/music/genres/pop/Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video).md",
+      "url": "/tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
       "tags": [
         "zettel",
-        "media"
-      ]
-    },
-    "tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world": {
-      "slug": "tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world",
-      "title": "世界の約束　ー　Promise of the World",
-      "source": "Digital Garden/Tea Garden/music/tear-jerker/世界の約束　ー　Promise of the World.md",
-      "url": "/tea-garden/music/tear-jerker/世界の約束-ー-promise-of-the-world",
-      "tags": [
-        "zettel",
-        "japanese",
-        "music",
-        "howls-moving-castle",
-        "ghibli",
-        "japanese-music",
-        "nostalgia",
-        "natsukashii",
-        "media"
-      ]
-    },
-    "tea-garden/music/techno/white-cyclosa": {
-      "slug": "tea-garden/music/techno/white-cyclosa",
-      "title": "White Cyclosa",
-      "source": "Digital Garden/Tea Garden/music/techno/White Cyclosa.md",
-      "url": "/tea-garden/music/techno/white-cyclosa",
-      "tags": [
-        "zettel",
-        "music",
-        "songs",
         "media"
       ]
     },
@@ -313,6 +651,15 @@
       "title": "Believe!",
       "source": "Digital Garden/Tea Garden/personal/other/Believe!.md",
       "url": "/tea-garden/personal/other/believe!",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "tea-garden/personal/other/fantasy": {
+      "slug": "tea-garden/personal/other/fantasy",
+      "title": "Fantasy",
+      "source": "Digital Garden/Tea Garden/personal/other/Fantasy.md",
+      "url": "/tea-garden/personal/other/fantasy",
       "tags": [
         "zettel"
       ]
@@ -1081,33 +1428,6 @@
         "zettel"
       ]
     },
-    "zettelkasten/zettel/isn't-life-beautiful/asking-for-the-meaning-of-life-can-fail-to-value-life-itself": {
-      "slug": "zettelkasten/zettel/isn't-life-beautiful/asking-for-the-meaning-of-life-can-fail-to-value-life-itself",
-      "title": "Asking for the Meaning of Life Can Fail to Value Life Itself",
-      "source": "Digital Garden/Zettelkasten/zettel/Isn't Life Beautiful/Asking for the Meaning of Life Can Fail to Value Life Itself.md",
-      "url": "/zettelkasten/zettel/isn't-life-beautiful/asking-for-the-meaning-of-life-can-fail-to-value-life-itself",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/zettel/isn't-life-beautiful/axiom---the-wonders-of-this-world": {
-      "slug": "zettelkasten/zettel/isn't-life-beautiful/axiom---the-wonders-of-this-world",
-      "title": "Axiom - The Wonders of This World",
-      "source": "Digital Garden/Zettelkasten/zettel/Isn't Life Beautiful/Axiom - The Wonders of This World.md",
-      "url": "/zettelkasten/zettel/isn't-life-beautiful/axiom---the-wonders-of-this-world",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/zettel/isn't-life-beautiful/beauty": {
-      "slug": "zettelkasten/zettel/isn't-life-beautiful/beauty",
-      "title": "Beauty",
-      "source": "Digital Garden/Zettelkasten/zettel/Isn't Life Beautiful/Beauty.md",
-      "url": "/zettelkasten/zettel/isn't-life-beautiful/beauty",
-      "tags": [
-        "zettel"
-      ]
-    },
     "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation": {
       "slug": "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation",
       "title": "Enterprise Foundation",
@@ -1279,19 +1599,10 @@
         "zettel"
       ]
     },
-    "journal/2026/january-until-may---2026/2026-05-31-neuer-japanisch-lernplan": {
-      "slug": "journal/2026/january-until-may---2026/2026-05-31-neuer-japanisch-lernplan",
-      "title": "Japanisch Lernplan",
-      "source": "Digital Garden/journal/2026/January until May - 2026/2026-05-31 Neuer Japanisch Lernplan.md",
-      "url": "/journal/2026/january-until-may---2026/2026-05-31-neuer-japanisch-lernplan",
-      "tags": [
-        "zettel"
-      ]
-    },
     "journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft": {
       "slug": "journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft",
       "title": "bis Mitte August Zeit in Tübingen",
-      "source": "Digital Garden/journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md",
+      "source": "journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md",
       "url": "/journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft",
       "tags": [
         "zettel"
@@ -1300,7 +1611,7 @@
     "journal/july---2026/2026-07-05-wo-bewerben?": {
       "slug": "journal/july---2026/2026-07-05-wo-bewerben?",
       "title": "2026-07-05 wo bewerben?",
-      "source": "Digital Garden/journal/July - 2026/2026-07-05 wo bewerben?.md",
+      "source": "journal/July - 2026/2026-07-05 wo bewerben?.md",
       "url": "/journal/july---2026/2026-07-05-wo-bewerben?",
       "tags": [
         "zettel"
@@ -1309,7 +1620,7 @@
     "journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.": {
       "slug": "journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
       "title": "2026-07-06 The future is amazing. Go get it.",
-      "source": "Digital Garden/journal/July - 2026/2026-07-06 The future is amazing. Go get it..md",
+      "source": "journal/July - 2026/2026-07-06 The future is amazing. Go get it..md",
       "url": "/journal/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
       "tags": [
         "zettel"
@@ -1318,314 +1629,28 @@
     "journal/july---2026/2026-07-18-datascience": {
       "slug": "journal/july---2026/2026-07-18-datascience",
       "title": "2026-07-18 datascience",
-      "source": "Digital Garden/journal/July - 2026/2026-07-18 datascience.md",
+      "source": "journal/July - 2026/2026-07-18 datascience.md",
       "url": "/journal/july---2026/2026-07-18-datascience",
       "tags": [
         "zettel"
       ]
     },
-    "media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index": {
-      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index",
-      "title": "QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)",
-      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin).md",
-      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)/index",
+    "journal/july---2026/2026-07-23-japanese-study-plan": {
+      "slug": "journal/july---2026/2026-07-23-japanese-study-plan",
+      "title": "Japanisch Lernplan",
+      "source": "journal/July - 2026/2026-07-23 Japanese Study Plan.md",
+      "url": "/journal/july---2026/2026-07-23-japanese-study-plan",
       "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "french",
-        "youtube",
-        "vocabulary-list",
-        "french/vocabulary-list"
+        "zettel"
       ]
     },
-    "media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index": {
-      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index",
-      "title": "QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)",
-      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen).md",
-      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)/index",
+    "journal/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?": {
+      "slug": "journal/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?",
+      "title": "2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?",
+      "source": "journal/July - 2026/2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?.md",
+      "url": "/journal/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?",
       "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "french",
-        "youtube",
-        "vocabulary-list",
-        "french/vocabulary-list"
-      ]
-    },
-    "media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index": {
-      "slug": "media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index",
-      "title": "QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)",
-      "source": "Digital Garden/media-lib/Media/French/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil).md",
-      "url": "/media-lib/media/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)/index",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "french",
-        "vocabulary-list",
-        "french/vocabulary-list"
-      ]
-    },
-    "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle": {
-      "slug": "media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle",
-      "title": "Howl's Moving Castle",
-      "source": "Digital Garden/media-lib/Media/Japanese/movies/Howl's Moving Castle (2004)/Howl's Moving Castle.md",
-      "url": "/media-lib/media/japanese/movies/howl's-moving-castle-(2004)/howl's-moving-castle",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "anime",
-        "ghibli",
-        "love",
-        "war",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "movie"
-      ]
-    },
-    "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service": {
-      "slug": "media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service",
-      "title": "Kikis Delivery Service",
-      "source": "Digital Garden/media-lib/Media/Japanese/movies/Kikis Delivery Service (1989)/Kikis Delivery Service.md",
-      "url": "/media-lib/media/japanese/movies/kikis-delivery-service-(1989)/kikis-delivery-service",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "movie"
-      ]
-    },
-    "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves": {
-      "slug": "media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
-      "title": "Ocean Waves",
-      "source": "Digital Garden/media-lib/Media/Japanese/movies/Ocean Waves (1993)/Ocean Waves.md",
-      "url": "/media-lib/media/japanese/movies/ocean-waves-(1993)/ocean-waves",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "movie"
-      ]
-    },
-    "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises": {
-      "slug": "media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises",
-      "title": "The Wind Rises",
-      "source": "Digital Garden/media-lib/Media/Japanese/movies/The Wind Rises (2013)/The Wind Rises.md",
-      "url": "/media-lib/media/japanese/movies/the-wind-rises-(2013)/the-wind-rises",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "movie"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon": {
-      "slug": "media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon",
-      "title": "米津玄師 Kenshi Yonezu - Lemon",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/History & Culture/米津玄師 Kenshi Yonezu/米津玄師 Kenshi Yonezu - Lemon.md",
-      "url": "/media-lib/media/japanese/yt-videos/history-&-culture/米津玄師-kenshi-yonezu/米津玄師-kenshi-yonezu---lemon",
-      "tags": [
-        "zettel",
-        "japanese",
-        "music",
-        "jpop",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index": {
-      "slug": "media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index",
-      "title": "ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Interviews & Documentaries/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～.md",
-      "url": "/media-lib/media/japanese/yt-videos/interviews-&-documentaries/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～/index",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "youtube",
-        "vocabulary-list",
-        "japanese/vocabulary-list"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
-      "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた/index",
-      "tags": [
-        "zettel",
-        "japanese",
-        "youtube",
-        "germany",
-        "japan",
-        "culture",
-        "cultural-differences",
-        "germany-japan",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index",
-      "title": "【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦/index",
-      "tags": [
-        "zettel",
-        "_",
-        "japanese",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index",
-      "title": "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい/index",
-      "tags": [
-        "zettel",
-        "_",
-        "japanese",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index": {
-      "slug": "media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index",
-      "title": "正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Japanese Life & Vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
-      "url": "/media-lib/media/japanese/yt-videos/japanese-life-&-vlogs/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】/index",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "youtube",
-        "vocabulary-list",
-        "japanese/vocabulary-list"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index": {
-      "slug": "media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index",
-      "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
-      "url": "/media-lib/media/japanese/yt-videos/podcasts/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young/index",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "youtube",
-        "life-advice",
-        "nostalgia",
-        "vocabulary-list",
-        "japanese/vocabulary-list"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index": {
-      "slug": "media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
-      "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/Podcasts/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
-      "url": "/media-lib/media/japanese/yt-videos/podcasts/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)/index",
-      "tags": [
-        "zettel",
-        "media",
-        "transcript",
-        "japanese",
-        "youtube",
-        "yuyu",
-        "yuyus-podcast",
-        "vocabulary-list",
-        "japanese/vocabulary-list"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)": {
-      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)",
-      "title": "Being a Porn Director in Japan (Interview)",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/Being a Porn Director in Japan (Interview).md",
-      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/being-a-porn-director-in-japan-(interview)",
-      "tags": [
-        "zettel",
-        "find-your-love",
-        "love",
-        "interview",
-        "japan",
-        "japanese",
-        "_",
-        "find-your-love-in-japan",
-        "porn-director-in-japan",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?": {
-      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?",
-      "title": "How much do Japanese Girls Cheat?",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/How much do Japanese Girls Cheat?.md",
-      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/how-much-do-japanese-girls-cheat?",
-      "tags": [
-        "zettel",
-        "japanese/relationships",
-        "japanese/conversation",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive": {
-      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive",
-      "title": "What Japanese Girls Find Attractive",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/What Japanese Girls Find Attractive.md",
-      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/what-japanese-girls-find-attractive",
-      "tags": [
-        "zettel",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
-      "slug": "media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
-      "title": "日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships",
-      "source": "Digital Garden/media-lib/Media/Japanese/yt-videos/new, yet unsorted/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
-      "url": "/media-lib/media/japanese/yt-videos/new,-yet-unsorted/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
-      "tags": [
-        "zettel",
-        "nihongo",
-        "_",
-        "japanese-practice",
-        "japanese-conversation",
-        "native-speaker",
-        "daily-japanese",
-        "listening",
-        "comprehensible-japanese",
-        "japanese",
-        "japaneselanguage",
-        "relationships",
-        "love",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
+        "zettel"
       ]
     }
   },

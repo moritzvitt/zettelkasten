@@ -1,0 +1,639 @@
+---
+title: "The Wind Rises"
+source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/The Wind Rises.md"
+mx-uid: the-wind-rises-2013
+language: ja
+offset: 0ms
+source_offset_applied: 0ms
+cover: "[[Tea Garden/languages/Japanese/Japanese Media
+  Notes/movies/mx-img-the-wind-rises-2013-pt8m51_30s.jpg]]"
+publish: true
+tags:
+  - zettel
+  - media
+  - transcript
+  - japanese
+  - vocabulary-list
+  - japanese/vocabulary-list
+  - movie
+---
+*9:12 – nicht öffentlich verfügbar*
+## Lernliste
+
+- 6:06 ==御八つ==（||おやつ||） - Zwischenmahlzeit, Snack — いつものところにおやつがあります
+- 7:03 ==赤チン==（||あかチン||） - rotes Desinfektionsmittel
+- 7:03 ==塗る==（||ぬる||） - auftragen, einstreichen; hier: Medizin auf die Schürfwunde tun — 赤チンを塗りましょ、塗って差し上げます
+- 9:03 ==伯爵==（||はくしゃく||） - Graf; hier: „Graf Caproni“
+- 9:12 ==王国==（||おうこく||） - Königreich
+- 9:35 ==じき== - bald, in Kürze; hier: „der Krieg wird bald vorbei sein“ — だが戦争はじき終わる
+- 9:46 ==下りる==（||おりる||） - aussteigen, hinuntergehen — 降りたまえ 日本の少年
+- 9:57 ==豪華==（||ごうか||） - prächtig, luxuriös
+- 10:31 ==桁==（||けた||） - Träger/Balken; auch Ziffernstelle.
+- 11:17 壮大: großartig
+- 11:25 ==大西洋==（||たいせいよう||） - Atlantik
+- 11:26 ==横断==（||おうだん||） - Überquerung
+- 11:31 ==近眼==（||きんがん||） - Kurzsichtigkeit; die lokale SRT schreibt hier fehlerhaft `金岩`, gemeint ist `近眼` — 近眼でも飛行機の設計はできますか
+- 11:39 ==操縦==（||そうじゅう||） - Steuerung, Pilotieren
+- 12:04 ==手立て==（||てだて||） - Mittel, Weg, Maßnahme
+- 17:18 ==汽車==（||きしゃ||） - Dampfzug/Zug
+- 17:21 ==機関車==（||きかんしゃ||） - Lokomotive
+- 19:47 ==枯れる==（||かれる||） - austrocknen, verdorren
+- 19:55 ==広小路==（||ひろこうじ||） - breite Straße/Allee, Ortsname — 広小路の方は火が来ていません
+- 22:13 ==航空研究所==（||こうくうけんきゅうじょ||） - Luftfahrtforschungsinstitut.
+- 22:36 ==壊滅==（||かいめつ||） - Zerstörung, Vernichtung
+- 25:25 ==旧式==（||きゅうしき||） - veraltet, altes Modell
+- 25:47 ==マンネリズム== - eingefahrene Routine, geistige Erstarrung; hier abwertend zu Lehrbuch-/Vorlesungsdenken.
+- 25:49 ==講義==（||こうぎ||） - Vorlesung
+- 25:52 ==ジュラルミン== - Duraluminium
+- 26:15 ==熱心==（||ねっしん||） - eifrig, engagiert — 二郎さんずいぶん熱心ですね
+- 26:39 ==翼==（||つばさ||） - Flügel.
+- 26:39 ==翼断面==（||つばさだんめん||） - Flügelprofil, Flügelquerschnitt
+- 26:39 ==断面==（||だんめん||） - Querschnitt, Profil.
+- 26:39 ==企画==（||きかく||） - Plan, Entwurf, Projektplanung.
+- 28:21 ==白状==（||はくじょう||） - Geständnis; hier wohl ASR-unsicher — ニーニーは白状物です全然帰ってこないんだからああ こんなに遅くなっちゃった
+- 28:32 ==一銭蒸気==（||いっせんじょうき||） - historischer kleiner Dampfer/Flussverkehr auf dem Sumida; nicht „sich beeilen“, sondern eher: „nehmen wir den Ein-Sen-Dampfer“ — 一銭蒸気で行こう
+- 28:32 ==蒸気==（||じょうき||） - Dampf; hier Teil von 一銭蒸気
+- 28:54 ==路地==（||ろじ||） - Gasse, Seitengasse.
+- 29:23 ==復興==（||ふっこう||） - Wiederaufbau, Erholung.
+- 31:01 ==工程==（||こうてい||） - Arbeitsablauf, Prozess — 工程。
+- 31:37 ==野宿==（||のじゅく||） - im Freien übernachten.
+- 31:57 ==景気==（||けいき||） - Konjunktur, Wirtschaftslage — 世の中不景気だ
+- 31:59 ==不景気==（||ふけいき||） - Wirtschaftsflaute, schlechte Konjunktur.
+- 32:30 ==追い込み==（||おいこみ||） - Endspurt, Schlussphase
+- 32:30 ==貰う==（||もらう||） - bekommen — 追い込みだ すぐ本番に入ってもらう
+- 32:31 ==本番==（||ほんばん||） - Ernstfall, eigentliche Aufführung/Produktion.
+- 32:33 ==揃える==（||そろえる||） - zusammentragen, bereitstellen
+- 32:34 ==金物==（||かなもの||） - Metallbeschlag, Metallteil.
+- 32:37 ==工作==（||こうさく||） - Herstellung, Bastel-/Werkstattarbeit — すぐ作図してもらう 工作部が手が空きそうだ
+- 32:37 ==作図==（||さくず||） - technisches Zeichnen
+- 32:38 ==工作部==（||こうさくぶ||） - Werkstatt-/Fertigungsabteilung
+- 33:01 ==わざわざ== - extra, eigens, mit besonderem Aufwand.
+- 33:01 ==輸入==（||ゆにゅう||） - Import
+- 33:07 ==諸君==（||しょくん||） - meine Herren/ihr alle; formelle Anrede.
+- 33:07 ==新人==（||しんじん||） - Neuling — 諸君 新人を紹介する
+- 33:11 ==英才==（||えいさい||） - begabter Mensch, Elite-Talent.
+- 33:18 ==掛かる==（||かかる||） - sich an etwas machen; beginnen — 仕事にかかりたまえ
+- 35:03 ==組み立て工場==（||くみたてこうじょう||） - Montagewerk, Zusammenbauhalle
+- 35:12 ==取付金具==（||とりつけかなぐ||） - Befestigungsbeschlag, Montagehalterung.
+- 35:12 ==金具==（||かなぐ||） - Metallbeschlag, Halterung — 取付金具は乱暴だ
+- 35:13 ==乱暴==（||らんぼう||） - grob, rücksichtslos
+- 35:33 ==新米==（||しんまい||） - Neuling, Anfänger
+- 35:39 ==しごき== - hartes Training, Schikane, Drill.
+- 35:53 ==堅実==（||けんじつ||） - solide, zuverlässig, bodenständig.
+- 36:27 ==取り付ける==（||とりつける||） - anbringen, montieren — 早草の取り付け金具です
+- 36:34 ==剛性==（||ごうせい||） - Steifigkeit, strukturelle Festigkeit.
+- 36:36 ==板バネ==（||いたバネ||） - Blattfeder.
+- 36:37 ==圧力==（||あつりょく||） - Druck.
+- 36:39 ==伸縮==（||しんしゅく||） - Ausdehnung und Zusammenziehen, elastische Bewegung.
+- 36:40 ==吸収==（||きゅうしゅう||） - Absorption, Aufnahme, Abfangen.
+- 36:40 ==骨格==（||こっかく||） - Skelett, Gerüst — ワイヤーは地中の中を通して胴体骨格に固定します
+- 36:40 ==胴体==（||どうたい||） - Rumpf, Körper — ワイヤーは地中の中を通して胴体骨格に固定します
+- 36:40 ==地中==（||ちちゅう||） - unter der Erde; im Inneren — ワイヤーは地中の中を通して胴体骨格に固定します
+- 36:43 ==胴体骨格==（||どうたいこっかく||） - Rumpfgerüst, Körperstruktur eines Flugzeugs.
+- 36:44 ==固定==（||こてい||） - Fixierung, Befestigung.
+- 36:45 ==主翼==（||しゅよく||） - Hauptflügel, Tragfläche.
+- 36:46 ==骨組み==（||ほねぐみ||） - Gerüst, Rahmenstruktur.
+- 36:47 ==改変==（||かいへん||） - Veränderung, Umbau, Modifikation.
+- 36:49 ==計算==（||けいさん||） - Berechnung — それにまだ計算もしていません
+- 37:29 ==飛行場==（||ひこうじょう||） - Flugplatz.
+- 37:31 ==時速==（||じそく||） - Stundenkilometer, Geschwindigkeit pro Stunde.
+- 37:33 ==更新==（||こうしん||） - Erneuerung; hier wohl ASR-unsicher — 恐るべき更新制だよ
+- 38:45 ==計測==（||けいそく||） - Messung, Vermessung.
+- 39:14 ==本庁==（||ほんちょう||） - Hauptamt/Hauptbehörde; vermutlich Migaku-Transkription, im technischen Kontext hier unsicher.
+- 39:16 ==高度==（||こうど||） - Höhe, Flughöhe.
+- 39:25 ==纏める==（||まとめる||） - zusammenfassen, bündeln — おめでとう さすが三菱 まとめ方がうまい
+- 39:44 ==動力効果==（||どうりょくこうか||） - Leistungseffekt/Antriebseffekt.
+- 39:44 ==効果==（||こうか||） - Wirkung, Effekt — 動力効果です
+- 39:44 ==動力==（||どうりょく||） - Antriebskraft — 動力効果です
+- 39:49 ==挑む==（||いどむ||） - sich einer Herausforderung stellen, es mit etwas aufnehmen — 時速400キロに挑みます
+- 40:46 ==分解==（||ぶんかい||） - Zerlegung, Zerfall — 君は空中分解の原因が取り付け金具だと思うか
+- 40:47 ==空中分解==（||くうちゅうぶんかい||） - Zerbrechen in der Luft.
+- 40:57 ==感銘==（||かんめい||） - tiefer Eindruck, Ergriffenheit.
+- 40:59 ==果てしない==（||はてしない||） - endlos, grenzenlos.
+- 41:05 ==陸軍==（||りくぐん||） - Heer, Armee.
+- 41:12 ==一回きり==（||いっかいきり||） - ein einziges Mal, einmalige Chance.
+- 41:16 ==爆撃機==（||ばくげきき||） - Bomber.
+- 41:18 ==小型機==（||こがたき||） - Kleinflugzeug.
+- 41:20 ==当分==（||とうぶん||） - für eine Weile, vorerst.
+- 43:24 ==開発中止==（||かいはつちゅうし||） - Entwicklungsstopp.
+- 43:24 ==開発==（||かいはつ||） - Entwicklung — 開発中止だって
+- 43:40 ==偽善==（||ぎぜん||） - Heuchelei.
+- 43:43 ==にっこり== - lächelnd, mit einem Lächeln.
+- 43:52 ==腹を減らす==（||はらをへらす||） - hungrig sein.
+- 43:55 ==横丁==（||よこちょう||） - Seitengasse/kleines Viertel; hier passt es als dicht bewohntes Gassenviertel: `この横丁だけでも何十人もいる`.
+- 44:10 ==技術導入==（||ぎじゅつどうにゅう||） - Technologieeinführung, Technologietransfer.
+- 44:11 ==金額==（||きんがく||） - Geldbetrag — ユンカー社にどれだけ金を払うか知ってるか日本中の子供に天丼とシベリアを毎日食わせてもお釣りが来る金額だそれでも俺は与えられたチャンスを...
+- 44:33 ==矛盾==（||むじゅん||） - Widerspruch.
+- 44:40 ==本腰を据えて仕事をする== - „sich ernsthaft an die Arbeit machen“; 本腰を据える = wirklich ernst machen.
+- 44:40 ==本腰==（||ほんごし||） - Ernsthaftigkeit; in 本腰を据える.
+- 44:40 ==据える==（||すえる||） - setzen, fest verankern — 本腰を据えて仕事をするために初体を持つ
+- 45:23 ==立ち入る==（||たちいる||） - eintreten, betreten — ハルバル訪ねてきたのに工場は立ち入り禁止だとよ
+- 45:23 ==はるばる== - von weit her, extra den langen Weg.
+- 45:27 ==立ち入り禁止==（||たちいりきんし||） - Zutritt verboten.
+- 46:01 ==極秘==（||ごくひ||） - streng geheim.
+- 46:13 ==見事==（||みごと||） - prächtig, beeindruckend — 見事だな
+- 46:14 ==展望==（||てんぼう||） - Aussicht, Ausblick — 翼に展望室がある
+- 46:15 ==展望室==（||てんぼうしつ||） - Aussichtsraum, Beobachtungsraum.
+- 46:20 ==金属工作==（||きんぞくこうさく||） - Metallbearbeitung.
+- 47:14 ==技術==（||ぎじゅつ||） - Technik, Technologie.
+- 47:16 ==財産==（||ざいさん||） - Vermögen, Besitz, wertvolles Gut.
+- 47:20 ==格納==（||かくのう||） - Einlagerung, Unterbringung — 本城もういいよこの工場を訪れた我々がこの格納庫に入ったのは
+- 47:26 ==格納庫==（||かくのうこ||） - Hangar.
+- 47:29 ==基づく==（||もとづく||） - auf etwas beruhen, basieren.
+- 47:30 ==正当==（||せいとう||） - rechtmäßig, legitim.
+- 47:33 ==上司==（||じょうし||） - Vorgesetzter.
+- 47:34 ==近付く==（||ちかづく||） - sich nähern — この機体へ近づくな、という指示をしていない。
+- 47:34 ==機体==（||きたい||） - Flugzeugkörper, Maschine.
+- 47:37 ==指示==（||しじ||） - Anweisung.
+- 47:39 ==任務==（||にんむ||） - Aufgabe, Dienstpflicht, Mission.
+- 47:39 ==忠実==（||ちゅうじつ||） - treu, gewissenhaft.
+- 47:42 ==対等==（||たいとう||） - gleichberechtigt, auf Augenhöhe.
+- 47:45 ==侮辱==（||ぶじょく||） - Beleidigung, Demütigung.
+- 48:09 ==博士==（||はかせ||） - Doktor, Gelehrter — ユンカース博士だ
+- 48:34 ==振動==（||しんどう||） - Vibration, Erschütterung.
+- 48:51 ==通路==（||つうろ||） - Gang, Durchgang.
+- 49:05 ==空転==（||くうてん||） - Leerlauf, Durchdrehen — 空転ターク
+- 49:08 ==見学==（||けんがく||） - Besichtigung — ユンカーサーカゼに見学の許可を取ってあります
+- 49:11 ==仕事場==（||しごとば||） - Arbeitsplatz, Werkstatt — あなたの仕事場を見せてください
+- 49:13 ==持ち場==（||もちば||） - zugewiesener Posten/Arbeitsplatz.
+- 49:14 ==機関士==（||きかんし||） - Maschinist, Ingenieur im Maschinenraum.
+- 49:30 ==工業==（||こうぎょう||） - Industrie, Technik — ドイツ工業技術の結晶だ
+- 49:31 ==工業技術==（||こうぎょうぎじゅつ||） - Industrietechnik.
+- 49:33 ==結晶==（||けっしょう||） - Kristall; Ergebnis/Konzentration von etwas.
+- 50:42 ==暖炉==（||だんろ||） - Kamin.
+- 50:44 ==発生==（||はっせい||） - Entstehung, Auftreten — これも輪火発生かな
+- 50:52 ==基礎==（||きそ||） - Grundlage, Fundament.
+- 50:54 ==火燵==（||こたつ||） - Kotatsu, Wärmetisch — 俺はこたつと銭湯でいいんだ
+- 50:55 ==銭湯==（||せんとう||） - öffentliches Badehaus.
+- 50:57 ==くっ付ける==（||くっつける||） - zusammenfügen, befestigen — 飛行機とこたつをくっつけようと言うんだ
+- 51:05 ==巨人機==（||きょじんき||） - Riesenflugzeug.
+- 51:16 ==対抗==（||たいこう||） - Widerstand, Konkurrenz, Gegenhalten.
+- 51:28 ==煮える==（||にえる||） - kochen, gar werden — 脳みそが煮えちまいそうだ
+- 51:31 ==追い掛ける==（||おいかける||） - verfolgen, hinterherjagen — 俺たちは20年先のカメを追いかけるアキレスだ
+- 51:47 ==追いつく==（||おいつく||） - einholen, aufholen.
+- 51:57 ==追い越す==（||おいこす||） - überholen.
+- 52:16 ==蓄音機==（||ちくおんき||） - Grammophon.
+- 54:10 ==本社==（||ほんしゃ||） - Hauptsitz — 本社から電信が入った
+- 54:17 ==帰国==（||きこく||） - Rückkehr ins Heimatland.
+- 54:20 ==残留==（||ざんりゅう||） - Zurückbleiben, Verbleib.
+- 54:22 ==西回り==（||にしまわり||） - westliche Route.
+- 55:02 ==引退飛行==（||いんたいひこう||） - Abschiedsflug.
+- 55:07 ==思い切り==（||おもいきり||） - mit voller Kraft; nach Herzenslust — 思い切り飛べ
+- 56:00 ==村中==（||むらなか||） - das ganze Dorf.
+- 56:02 ==当局==（||とうきょく||） - Behörden.
+- 56:03 ==納品==（||のうひん||） - Lieferung, Auslieferung — 何しろ納品前の爆撃機だからな
+- 56:04 ==納品前==（||のうひんまえ||） - vor der Auslieferung.
+- 56:14 ==壮大==（||そうだい||） - großartig, monumental.
+- 56:15 ==建築==（||けんちく||） - Architektur, Bau — 古代ローマの建築物のようです
+- 56:17 ==建築物==（||けんちくぶつ||） - Bauwerk, Gebäude.
+- 56:19 ==付け込む==（||つけこむ||） - ausnutzen, sich zunutze machen — まあ当局のハッタリ好きにつけ込んだんだ
+- 56:28 ==未熟==（||みじゅく||） - unreif, unausgereift.
+- 56:32 ==設計で大切なのはセンスだ== - „beim Entwerfen ist Sinn/Gespür wichtig“; 大切なのは〜だ als Definitionsstruktur.
+- 56:35 ==センス== - Sinn, Gespür, Geschmack.
+- 56:37 ==先駆ける==（||さきがける||） - vorangehen, Pionier sein.
+- 57:08 ==首が飛ぶ==（||くびがとぶ||） - der Kopf fliegt ab; bildlich: gefährlich/konsequent.
+- 57:26 ==空を飛びたいという人類の夢は呪われた夢でもある== - „der Menschheitstraum vom Fliegen ist auch ein verfluchter Traum“; という zur Einbettung eines Traums/Ideals.
+- 57:32 ==殺戮==（||さつりく||） - Massaker, Abschlachten.
+- 57:32 ==破壊==（||はかい||） - Zerstörung.
+- 57:34 ==宿命==（||しゅくめい||） - Schicksal, unausweichliche Bestimmung.
+- 58:33 ==引退==（||いんたい||） - Rücktritt, Ruhestand.
+- 58:35 ==創造的人生の持ち時間は10年だ== - „die verfügbare Zeit eines schöpferischen Lebens beträgt zehn Jahre“; sehr dichter, merkbarer Satz.
+- 58:35 ==創造的==（||そうぞうてき||） - schöpferisch, kreativ.
+- 58:35 ==創造==（||そうぞう||） - Schöpfung, Erschaffung — 創造的人生の持ち時間は10年だ
+- 58:37 ==持ち時間==（||もちじかん||） - verfügbare Zeit, Zeitkontingent.
+- 58:39 ==芸術家==（||げいじゅつか||） - Künstler.
+- 58:39 ==芸術==（||げいじゅつ||） - Kunst — 芸術家も設計家も同じだ
+- 58:42 ==君の10年を力を尽くして生きなさい== - „lebe deine zehn Jahre mit aller Kraft“; 力を尽くす als starke Lebens-/Arbeitswendung.
+- 58:42 ==力を尽くす==（||ちからをつくす||） - alles geben, sich mit aller Kraft einsetzen.
+- 58:42 ==尽くす==（||つくす||） - alles geben, ausschöpfen — 君の10年を力を尽くして生きなさい
+- 59:07 ==打ち合わせ==（||うちあわせ||） - Besprechung, Abstimmung.
+- 59:07 ==伸ばす==（||のばす||） - strecken, verlängern — 伸ばせ
+- 59:24 ==過大==（||かだい||） - übermäßig, überzogen.
+- 59:25 ==要求==（||ようきゅう||） - Forderung, Anforderung.
+- 59:33 ==入社==（||にゅうしゃ||） - Firmeneintritt.
+- 59:40 ==昭和==（||しょうわ||） - Showa-Zeit — 海軍昭和7年試作
+- 59:40 ==海軍==（||かいぐん||） - Marine — 海軍昭和7年試作
+- 59:42 ==試作==（||しさく||） - Prototyp, Versuchsbau.
+- 59:42 ==艦上戦闘機==（||かんじょうせんとうき||） - Trägerkampfflugzeug.
+- 59:42 ==艦上==（||かんじょう||） - an Bord eines Kriegsschiffs/Trägers — 艦上戦闘機だ
+- 59:54 ==頂く==（||いただく||） - erhalten; bescheiden für bekommen — どうかなやらせていただきますよしスタッフに本庄をもらえませんかやめとけ同期はライバルだ
+- 1:00:09 ==同期==（||どうき||） - Kollege desselben Jahrgangs.
+- 1:00:11 ==ライバル== - Rivale.
+- 1:00:12 ==友情==（||ゆうじょう||） - Freundschaft.
+- 1:00:17 ==勘定==（||かんじょう||） - Rechnung, Zahlung.
+- 1:01:20 ==母艦==（||ぼかん||） - Mutterschiff, Flugzeugträger — これが航空母艦だ
+- 1:01:21 ==航空母艦==（||こうくうぼかん||） - Flugzeugträger.
+- 1:01:22 ==着替え==（||きがえ||） - Kleidung zum Wechseln — 着替えを用意しました
+- 1:06:16 ==失敬==（||しっけい||） - Entschuldigung; Unhöflichkeit.
+- 1:06:21 ==借り物==（||かりもの||） - geliehener Gegenstand.
+- 1:09:19 ==捕まえる==（||つかまえる||） - fangen, festhalten — どうしたんだいほらパラソルを捕まえてくれた人ああ釣れはいないのかな
+- 1:11:11 ==震災==（||しんさい||） - Erdbebenkatastrophe.
+- 1:11:53 ==居所==（||いどころ||） - Aufenthaltsort, Adresse.
+- 1:12:06 ==王子==（||おうじ||） - Prinz — 王子さん
+- 1:12:26 ==濡れる==（||ぬれる||） - nass werden — 手が濡れちゃいましたね このまま記念にとっておきます
+- 1:12:30 ==記念==（||きねん||） - Andenken, Erinnerung.
+- 1:12:38 ==御覧==（||ごらん||） - Anschauen; höflich für sehen — あっ乾いていますほらご覧になって虹なんかすっかり忘れていました
+- 1:12:56 ==生きているって素敵ですね== - „es ist schön, am Leben zu sein“; って als Zitier-/Thematisierungsmarker.
+- 1:13:29 ==厄介==（||やっかい||） - Mühe, Belastung; Hilfe in Anspruch nehmen.
+- 1:15:23 ==政権==（||せいけん||） - Regierung, Regime.
+- 1:15:25 ==ならず者==（||ならずもの||） - Schurke, gesetzloser Kerl.
+- 1:15:38 ==如何==（||いかが||） - wie; wie wäre es — いかがですか 日本のタバコですが
+- 1:16:03 ==国際連盟==（||こくさいれんめい||） - Völkerbund.
+- 1:16:10 ==日本破裂する== - „Japan wird platzen/zerbrechen“; knappes politisches Bild.
+- 1:16:11 ==破裂==（||はれつ||） - Platzen, Zerreißen.
+- 1:16:27 ==会食==（||かいしょく||） - gemeinsames Essen — 今夜の会食はキャンセルさせてください
+- 1:18:39 ==震わせる==（||ふるわせる||） - erzittern lassen.
+- 1:18:39 ==通り抜ける==（||とおりぬける||） - hindurchgehen, durchwehen — けれど木の葉を震わせて風は通り抜けてゆく
+- 1:18:40 ==木の葉==（||このは||） - Baumblatt, Laub.
+- 1:18:51 ==届く==（||とどく||） - ankommen, erreichen — あなたのもとへ届きませ
+- 1:23:01 ==殆ど==（||ほとんど||） - fast, beinahe — ほとんどあいねんまい
+- 1:23:18 ==御陰==（||おかげ||） - dank; durch Hilfe von — おかげさまでよくなりました
+- 1:24:19 ==結核==（||けっかく||） - Tuberkulose.
+- 1:24:27 ==受け止める==（||うけやめる||） - auffangen; annehmen.
+- 1:24:48 ==青年==（||せいねん||） - junger Mann.
+- 1:25:41 ==実験==（||じっけん||） - Experiment, Test — 実験機みたいなものだからな
+- 1:25:47 ==飛ばす==（||とばす||） - fliegen lassen, starten — 飛ばしてみないと何ともわからんよ
+- 1:26:17 ==ひとまたぎ== - ein einziger großer Schritt/Sprung.
+- 1:26:17 ==家鴨==（||あひる||） - Ente — 僕のブリキのアヒルだった
+- 1:26:25 ==点検口==（||てんけんこう||） - Inspektionsöffnung; das finale `う` in `こう` kann in schneller Aussprache kaum hörbar sein.
+- 1:26:25 ==点検==（||てんけん||） - Inspektion, Kontrolle — 点検口の蓋にサラコネジを使うんだ
+- 1:26:27 ==蓋==（||ふた||） - Deckel, Klappe.
+- 1:26:30 ==抵抗==（||ていこう||） - Widerstand — 空気抵抗が減る
+- 1:26:32 ==燃料==（||ねんりょう||） - Treibstoff — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- 1:26:32 ==注入==（||ちゅうにゅう||） - Einfüllung, Einspritzung — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- 1:26:32 ==片方==（||かたほう||） - eine Seite, eine Hälfte — 燃料の注入口も片方にヒンジをつけてやれば作業も楽だ
+- 1:26:33 ==注入口==（||ちゅうにゅうぐち||） - Einfüllöffnung.
+- 1:26:36 ==作業==（||さぎょう||） - Arbeit, Arbeitsvorgang.
+- 1:26:48 ==コロンブスの卵==（||ころんぶすのたまご||） - Ei des Kolumbus; simple geniale Lösung.
+- 1:26:55 ==図面==（||ずめん||） - Zeichnung, Plan — この図面はもらっとく
+- 1:27:17 ==特高==（||とくこう||） - Tokko; geheime politische Polizei.
+- 1:27:24 ==思想犯==（||しそうはん||） - politischer Straftäter/Gedankenverbrecher.
+- 1:27:24 ==思想==（||しそう||） - Gedanke, Ideologie — 思想犯専門の秘密警察だ
+- 1:27:27 ==秘密警察==（||ひみつけいさつ||） - Geheimpolizei.
+- 1:27:30 ==出張==（||しゅっちょう||） - Dienstreise.
+- 1:27:43 ==引き上げる==（||ひきあげる||） - abziehen, hochziehen — 引き上げたと見せかけがあってその手に乗るか
+- 1:27:44 ==見せかけ==（||みせかけ||） - Schein, Täuschung.
+- 1:27:52 ==友人==（||ゆうじん||） - Freund — 俺の友人が何人も特攻にやられてる
+- 1:28:38 ==押し出し==（||おしだし||） - Herausdrücken, Extrusion — ジュラルミンの押し出し材とは贅沢なものだ
+- 1:28:41 ==贅沢==（||ぜいたく||） - Luxus, verschwenderisch.
+- 1:28:58 ==用心==（||ようじん||） - Vorsicht.
+- 1:29:01 ==姿を隠す==（||すがたをかくす||） - sich verstecken, untertauchen.
+- 1:29:07 ==下宿==（||げしゅく||） - Pension/Unterkunft; Untermiete.
+- 1:29:13 ==極めて==（||きわめて||） - äußerst, extrem.
+- 1:29:14 ==指針==（||ししん||） - Richtlinie, Kompassnadel — 特攻は平気で指針をあげるぞ
+- 1:29:16 ==婚約者==（||こんやくしゃ||） - Verlobte/r.
+- 1:29:18 ==冒涜==（||ぼうとく||） - Blasphemie, Entweihung.
+- 1:29:19 ==近代国家==（||きんだいこっか||） - moderner Staat.
+- 1:29:19 ==国家==（||こっか||） - Staat, Nation — 近代国家にあるまじきことだ
+- 1:29:19 ==近代==（||きんだい||） - Moderne — 近代国家にあるまじきことだ
+- 1:29:30 ==笑い事==（||わらいこと||） - etwas zum Lachen; Bagatelle.
+- 1:29:33 ==張り付く==（||はりつく||） - sich festkleben; dicht dranbleiben/überwachen.
+- 1:29:46 ==今は仕事に専念しろ== - „konzentrier dich jetzt auf die Arbeit“; 専念する als Fokuswort.
+- 1:29:48 ==専念==（||せんねん||） - Konzentration/Hingabe an eine Sache.
+- 1:29:56 ==唐突==（||とうとつ||） - plötzlich, unvermittelt.
+- 1:30:05 ==脱出==（||だっしゅつ||） - Flucht, Entkommen.
+- 1:30:10 ==祈る==（||いのる||） - beten, hoffen.
+- 1:30:43 ==電報==（||でんぽう||） - Telegramm.
+- 1:30:45 ==管理==（||かんり||） - Verwaltung, Management — アパートの管理人が心配して持ってきてくれたんだ
+- 1:30:45 ==管理人==（||かんりにん||） - Hausverwalter.
+- 1:31:24 ==一刻==（||いっこく||） - ein Augenblick; sehr kurze Zeit — はい 一刻も早く行かなければなりません
+- 1:31:25 ==一刻も早く==（||いっこくもはやく||） - so schnell wie irgend möglich.
+- 1:31:28 ==実機==（||じっき||） - reales/echtes Fluggerät; hier ASR-unsicher — 昼のバスが実機とおります
+- 1:31:30 ==休校==（||きゅうこう||） - Schulschließung; hier ASR-unsicher — それなら一時の休校に間に合います
+- 1:31:35 ==支度==（||したく||） - Vorbereitung, Herrichten.
+- 1:34:15 ==玄関==（||げんかん||） - Eingang, Haustürbereich.
+- 1:34:36 ==付き添う==（||つきそう||） - begleiten, beistehen.
+- 1:35:03 ==勧める==（||すすめる||） - empfehlen, nahelegen — 私お医者様のおすすめの抗原病院に参ります
+- 1:35:10 ==一人きり==（||ひとりきり||） - ganz allein.
+- 1:35:24 ==お待ちかね==（||おまちかね||） - sehnsüchtig erwartet.
+- 1:35:38 ==剣道==（||けんどう||） - Kendo; hier ASR-unsicher — 海軍の剣道のおかげは
+- 1:35:53 ==取りやめる==（||とりやめる||） - absagen, fallenlassen.
+- 1:35:53 ==取り止める==（||とりやめる||） - absagen, aufgeben — でこの案は取りやめた
+- 1:36:01 ==自主==（||じしゅ||） - Eigeninitiative, freiwillig — 課長自主的研究会だそうです
+- 1:36:02 ==自主的==（||じしゅてき||） - freiwillig, eigenständig.
+- 1:36:05 ==最新==（||さいしん||） - neueste, aktuellste.
+- 1:36:08 ==結集==（||けっしゅう||） - Bündelung, Zusammenführung.
+- 1:36:11 ==引っ込み足==（||ひっこみあし||） - eingezogenes Fahrwerk/Bein; technische Formulierung.
+- 1:36:11 ==引っ込み==（||ひっこみ||） - Rückzug; Einziehen — 引っ込み足ですね
+- 1:36:23 ==時代遅れ==（||じだいおくれ||） - veraltet, nicht mehr zeitgemäß.
+- 1:36:25 ==翼面==（||よくめん||） - Flügelfläche — 翼面火事は120キロ平米
+- 1:36:25 ==平米==（||へいべい||） - Quadratmeter — 翼面火事は120キロ平米
+- 1:36:28 ==有害==（||ゆうがい||） - schädlich.
+- 1:36:28 ==削る==（||けずる||） - abschleifen, reduzieren — 有害な抵抗を削り最新の技術を大胆に取り入れる
+- 1:36:31 ==大胆==（||だいたん||） - kühn, mutig.
+- 1:36:32 ==取り入れる==（||とりいれる||） - aufnehmen, einführen, übernehmen.
+- 1:37:06 ==機会==（||きかい||） - Gelegenheit — それでこのアンは次の機会に譲ることにした
+- 1:37:13 ==譲る==（||ゆずる||） - überlassen, abtreten.
+- 1:37:22 ==非力==（||ひりき||） - kraftlos, leistungsschwach.
+- 1:37:23 ==丈夫==（||じょうぶ||） - robust, stabil.
+- 1:37:26 ==削れる==（||けずれる||） - abgeschliffen/reduziert werden — 削れるだけ削り
+- 1:37:28 ==滑らか==（||なめらか||） - glatt, geschmeidig.
+- 1:37:30 ==空気抵抗==（||くうきていこう||） - Luftwiderstand.
+- 1:37:39 ==工作家==（||こうさくいえ||） - Werkstatt-/Fertigungsfachmann.
+- 1:37:51 ==平滑==（||へいかつ||） - glatt, eben.
+- 1:37:53 ==強度==（||きょうど||） - Festigkeit, Stärke.
+- 1:37:54 ==保つ==（||たもつ||） - bewahren, aufrechterhalten.
+- 1:37:54 ==可能==（||かのう||） - möglich — 技術的に不可能ではありません
+- 1:37:56 ==試みる==（||こころみる||） - versuchen, erproben.
+- 1:37:56 ==全面==（||ぜんめん||） - ganze Fläche; vollständig — 何のことだ鎮湯病です鎮湯病はすでに世界中で試みられているそれを全面的に使おうと思うんだはいはいはいはい
+- 1:38:04 ==全面的==（||ぜんめんてき||） - vollständig, umfassend.
+- 1:38:27 ==郵便==（||ゆうびん||） - Post — さとみさん郵便です
+- 1:40:02 ==休養==（||きゅうよう||） - Erholung, Ruhepause.
+- 1:41:42 ==一目==（||いちもく||） - ein Blick; einmal sehen.
+- 1:42:09 ==伺う==（||うかがう||） - besuchen/fragen; höflich.
+- 1:42:15 ==離れ==（||はなれ||） - separates Nebengebäude, Annex.
+- 1:42:31 ==恋しさ==（||こいしさ||） - Sehnsucht/Liebesverlangen.
+- 1:42:31 ==抜け出す==（||ぬけだす||） - hinausschleichen, entkommen.
+- 1:42:31 ==健気==（||けなげ||） - tapfer, rührend — 恋しさに山を抜け出してくるなんてけなげだわ
+- 1:43:11 ==愛情==（||あいじょう||） - Liebe, Zuneigung.
+- 1:43:17 ==覚悟==（||かくご||） - Entschluss, Bereitschaft, gefasst sein.
+- 1:43:22 ==盛大==（||せいだい||） - großartig, feierlich, prunkvoll.
+- 1:44:13 ==投げ捨てる==（||なげすてる||） - wegwerfen — しっちんまんぽうなげすてて
+- 1:44:21 ==乙女==（||おとめ||） - Jungfrau, Mädchen; poetisch.
+- 1:44:24 ==雨露==（||あめつゆ||） - Regen und Tau; Witterung.
+- 1:44:27 ==鈍感==（||どんかん||） - gefühllos, unsensibel.
+- 1:44:28 ==愚物==（||ぐぶつ||） - Dummkopf, Narr.
+- 1:44:33 ==契り==（||ちぎり||） - Gelöbnis, Bund; poetisch.
+- 1:45:42 ==思いやり==（||おもいやり||） - Rücksichtnahme, Mitgefühl.
+- 1:45:45 ==御恩==（||ごおん||） - Gnade/Wohltat, empfangene Güte.
+- 1:45:45 ==生涯==（||しょうがい||） - Lebenszeit, ganzes Leben.
+- 1:45:51 ==好く==（||すく||） - mögen, liebgewinnen.
+- 1:46:20 ==揺れる==（||ゆれる||） - schaukeln, schwanken.
+- 1:47:43 ==独りぼっち==（||ひとりぼっち||） - mutterseelenallein.
+- 1:47:56 ==化粧==（||けしょう||） - Make-up, Schminke.
+- 1:48:03 ==可哀想==（||かわいそう||） - bemitleidenswert, arm dran — このままじゃかわいそう
+- 1:48:16 ==一日一日をとても大切に生きているんだよ== - „sie lebt jeden einzelnen Tag sehr kostbar“; 一日一日 als emotionale Wiederholung.
+- 1:48:16 ==一日一日==（||いちにちいちにち||） - Tag für Tag, jeden einzelnen Tag.
+- 1:48:56 ==詰まる==（||つまる||） - voll sein, gefüllt sein.
+- 1:49:06 ==根巻き==（||ねまき||） - Schlafkleidung/Unterkleid; hier Kleidungskontext — それにねお母様が私に肌着と根巻きを縫ってくださったの
+- 1:49:08 ==肌着==（||はだぎ||） - Unterwäsche, Unterhemd.
+- 1:49:14 ==眩しい==（||まぶしい||） - blendend, grell.
+- 1:49:26 ==工夫==（||くふう||） - Einfallsreichtum, Tüftelei.
+- 1:49:52 ==片手==（||かたて||） - eine Hand — 片手で計算尺を扱うコンクールがあったら
+- 1:49:53 ==計算尺==（||けいさんじゃく||） - Rechenschieber.
+- 1:49:53 ==扱う==（||あつかう||） - handhaben, bedienen.
+- 1:51:07 ==思い切る==（||おもいきる||） - sich überwinden, entschlossen handeln.
+- 1:51:19 ==不慣れ==（||ふなれ||） - ungeübt, unerfahren.
+- 1:51:33 ==浸透==（||しんとう||） - Durchdringung; hier technischer Begriff/ASR-unsicher — ジロウ 浸透病 俺にも使わせろ
+- 1:51:42 ==弄る==（||ろうる||） - herumfummeln, verändern.
+- 1:51:48 ==達磨==（||だるま||） - Daruma; in 火だるま: Feuerball — ほとんどが燃料タンクだ 2、3発で火だるまだよ
+- 1:51:49 ==燃料タンク==（||ねんりょうたんく||） - Treibstofftank.
+- 1:51:52 ==火だるま==（||ひだるま||） - Feuerball; völlig in Flammen.
+- 1:51:52 ==防弾==（||ぼうだん||） - kugelsicher, beschusssicher — もっとも 防弾タンクなんぞ 研究したこともないからな
+- 1:51:53 ==防弾タンク==（||ぼうだんたんく||） - beschusssicherer Tank.
+- 1:51:56 ==正面==（||まとも||） - frontal, direkt — 海軍は日本で初めてまともに飛ぶ飛行機ができたと 右頂点だ
+- 1:51:56 ==頂点==（||ちょうてん||） - Scheitelpunkt, Spitze — 海軍は日本で初めてまともに飛ぶ飛行機ができたと 右頂点だ
+- 1:52:00 ==ぶら下げる==（||ぶらさげる||） - herabhängen lassen.
+- 1:52:00 ==剥き出し==（||むきだし||） - bloßgelegt, ungeschützt.
+- 1:52:04 ==銃座==（||じゅうざ||） - Geschützstand.
+- 1:52:30 ==商人==（||しょうにん||） - Händler — 俺たちは武器商人じゃない
+- 1:52:30 ==武器==（||ぶき||） - Waffe — 俺たちは武器商人じゃない
+- 1:52:31 ==武器商人==（||ぶきしょうにん||） - Waffenhändler.
+- 1:53:23 ==泊まり込み==（||とまりこみ||） - Übernachten am Arbeitsplatz; längerer Arbeitseinsatz.
+- 1:55:19 ==散らかす==（||ちらかす||） - unordentlich machen, verstreuen.
+- 1:56:40 ==呼び戻す==（||よびもどす||） - zurückrufen, zurückholen.
+- 1:57:48 ==速力==（||そくりょく||） - Geschwindigkeit.
+- 1:57:50 ==やり直す==（||やりなおす||） - noch einmal machen, neu berechnen.
+- 1:57:50 ==遣り直す==（||やりなおす||） - neu machen, wiederholen — すみません計算をやり直しています
+- 2:00:15 ==草原==（||そうげん||） - Grasland, Wiese.
+- 2:00:32 ==滅ぼす==（||ほろぼす||） - zerstören, zugrunde richten.
+- 2:03:13 ==坂道==（||さかみち||） - Steigung, Hangweg — 白い坂道が 空まで続いていた
+- 2:03:25 ==陽炎==（||かげろう||） - Hitzeflimmern — ゆらゆら陽炎があの子を包む
+## Kenn ich schon mehr oder weniger
+
+- 5:09 ==辞書==（||じしょ||） - Wörterbuch.🍙
+- 5:58 ==勇ましい==（||いさましい||） - tapfer, kühn🍙
+- 7:00 ==すりむく== - sich aufschürfen
+- 7:03 ==差し上げる==（||さしあげる||） - geben/tun für jemanden; bescheidene höfliche Form — 塗って差し上げます = „ich trage es Ihnen/dir auf“
+- 8:57 ==くっ付く==（||くっつく||） - zusammenkleben, sich verbinden.
+- 9:10 ==此の世==（||このよ||） - diese Welt, Diesseits — この世は夢🍙
+- 9:13 ==光栄==（||こうえい||） - Ehre, Auszeichnung🍙
+- 9:18 ==半分==（||はんぶん||） - Hälfte — あの半分も戻ってこまい 敵の町を焼きに行くのだ
+- 11:15 ==美しかろう==（||うつくしかろう||） - „schön, nicht wahr?“; klassische/gehobene Vermutungsform von 美しい — どうかね 美しかろう
+- 12:03 ==商売==（||しょうばい||） - Geschäft, Handel🍙
+- 12:08 ==設計家==（||せっけいか||） - Konstrukteur, Designer, Ingenieur im Entwurf.🍙
+- 12:11 ==与える==（||あたえる||） - geben, verleihen, zufügen.🍙
+- 12:43 ==素敵==（||すてき||） - wunderbar, schön — そう素敵な夢ですね
+- 12:49 ==僕は美しい飛行機を作りたい== - „ich möchte schöne Flugzeuge bauen“; Wunschform mit 作りたい.
+- 13:24 ==湿気==（||しっけ||） - Feuchtigkeit🍙
+- 17:14 ==骨==（||ほね||） - Knochen; Struktur/Gerüst.
+- 17:14 ==折れる==（||おれる||） - brechen, geknickt werden.
+- 17:18 ==爆発==（||ばくはつ||） - Explosion🍙
+- 19:43 ==新品==（||しんぴん||） - nagelneu, neue Ware🍙
+- 19:47 ==井戸==（||いど||） - Brunnen🍙
+- 22:16 ==深川==（||ふかがわ||） - Fukagawa; Stadtteil in Tokyo🍙
+- 22:17 ==火の海==（||ひのうみ||） - Flammenmeer
+- 22:18 ==持ち出す==（||もちだす||） - heraustragen, mitnehmen — 持ち出せるだけ持ち出したんだが
+- 22:32 ==映る==（||うつる||） - sich spiegeln, sichtbar sein火が映るぞ 東京壊滅だ
+- 26:06 ==曲線==（||きょくせん||） - Kurve, geschwungene Linie🍙
+- 26:34 ==発見==（||はっけん||） - Entdeckung — 本庄我発見せりだ
+- 26:50 ==預かる==（||あずかる||） - in Verwahrung nehmen, betreuen.
+- 26:50 ==留守==（||るす||） - Abwesenheit; nicht zu Hause sein.
+- 28:45 ==訪ねる==（||たずねる||） - besuchen, aufsuchen.
+- 28:47 ==収まる==（||おさまる||） - sich beruhigen, abklingen; sich einfügen.🍙
+- 29:43 ==学ぶ==（||まなぶ||） - lernen, studieren.
+- 29:45 ==医学==（||いがく||） - Medizin.
+- 29:48 ==通う==（||かよう||） - pendeln, regelmäßig hingehen.
+- 31:35 ==連中==（||れんちゅう||） - Leute, Bande, Truppe; oft abwertend.
+- 31:54 ==噂==（||うわさ||） - Gerücht.🍙
+- 33:04 ==帽子==（||ぼうし||） - Hut, Mütze — データはこれ 帽子はそこ🍙
+- 33:14 ==挨拶==（||あいさつ||） - Begrüßung, Vorstellung — 挨拶🍙
+- 33:18 ==たまえ== - alte/formelle Aufforderungsendung.
+- 35:05 ==覗く==（||のぞく||） - hineinschauen, spähen🍙
+- 35:21 ==申し訳==（||もうしわけ||） - Entschuldigung; Schuld/Bedauern — 申し訳ありませんね
+- 36:08 ==遅刻==（||ちこく||） - Verspätung🍙
+- 36:35 ==高める==（||たかめる||） - erhöhen, verstärken.
+- 36:51 ==無駄==（||むだ||） - Verschwendung, nutzlos.
+- 37:33 ==恐るべき==（||おそるべき||） - furchterregend; erstaunlich, enorm.
+- 40:46 ==空中==（||くうちゅう||） - in der Luft — 君は空中分解の原因が取り付け金具だと思うか
+- 40:55 ==受ける==（||うける||） - empfangen, erleiden, bekommen — 今日自分は深い感銘を受けました
+- 41:08 ==内定==（||ないてい||） - inoffizielle Entscheidung/Zusage.
+- 41:11 ==ひっくり返す==（||ひっくりかえす||） - umdrehen, umkehren
+- 41:21 ==ドイツを見に行くチャンスだ== - „das ist eine Chance, Deutschland zu sehen“; チャンスだ als klare Gelegenheit.
+- 43:24 ==中止==（||ちゅうし||） - Abbruch, Einstellung — 開発中止だって
+- 43:52 ==減らす==（||へらす||） - verringern, reduzieren — 腹を減らしてる子供なら
+- 44:17 ==お釣り==（||おつり||） - Wechselgeld; etwas bleibt übrig.
+- 44:24 ==決まる==（||きまる||） - entschieden/festgelegt werden — 今日決まった
+- 45:23 ==禁止==（||きんし||） - Verbot — ハルバル訪ねてきたのに工場は立ち入り禁止だとよ
+- 45:29 ==隣==（||となり||） - Nachbar, nebenan.
+- 47:28 ==契約==（||けいやく||） - Vertrag — 契約に基づく正当な行為である。🍙
+- 48:15 ==許可==（||きょか||） - Erlaubnis, Genehmigung.🍙
+- 48:24 ==乗れる==（||のれる||） - mitfahren/einsteigen können.
+- 51:11 ==繋がる==（||つながる||） - verbunden sein, zusammenhängen.
+- 54:12 ==電信==（||でんしん||） - Telegramm/Telegrafie.
+- 54:27 ==一人旅==（||ひとりたび||） - Alleinreise.
+- 54:56 ==吹く==（||ふく||） - wehen, blasen — まだ風は吹いているかね
+- 55:04 ==招待==（||しょうたい||） - Einladung.
+- 56:15 ==古代==（||こだい||） - Antike, Altertum — 古代ローマの建築物のようです
+- 1:01:44 ==似合う==（||にあう||） - passen, gut stehen — いや似合いますな
+- 1:10:55 ==申す==（||もうす||） - sagen; bescheidene Form — 今泉にお礼を申しましたの
+- 1:12:06 ==白馬==（||はくば||） - weißes Pferd.
+- 1:12:38 ==乾く==（||かわく||） - trocken werden.
+- 1:14:45 ==体験==（||たいけん||） - Erlebnis, Erfahrung.🍙
+- 1:15:24 ==集まり==（||あつまり||） - Versammlung, Gruppe — あれはならず者の集まりです
+- 1:23:14 ==直る==（||なおる||） - heilen, repariert werden — お嬢さん治りましたか？
+- 1:23:58 ==認める==（||みとめる||） - anerkennen, erlauben — 認めてください
+- 1:24:33 ==僕と結婚してください== - „bitte heirate mich“; klassische Bitte mit ください.
+- 1:24:37 ==治す==（||なおす||） - heilen, reparieren.
+- 1:24:39 ==それまで待っていただけますか== - „könnten Sie bis dahin warten?“; höfliche Bitte mit いただけますか.
+- 1:25:52 ==立つ==（||たつ||） - entstehen, aufkommen, sich erheben.
+- 1:27:24 ==専門==（||せんもん||） - Spezialgebiet — 思想犯専門の秘密警察だ🍙
+- 1:29:32 ==当たり前==（||あたりまえ||） - selbstverständlich, normal — 当たり前だろ
+- 1:29:35 ==恋文==（||こいぶみ||） - Liebesbrief.
+- 1:29:41 ==会社は全力で君を守る== - „die Firma wird dich mit aller Kraft schützen“; 全力で + Verb.
+- 1:30:02 ==国外==（||こくがい||） - Ausland, außerhalb des Landes.
+- 1:35:03 ==参る==（||まいる||） - gehen/kommen; demütige Form.
+- 1:35:37 ==注文主==（||ちゅうもんぬし||） - Auftraggeber.
+- 1:37:27 ==表面==（||ひょうめん||） - Oberfläche.
+- 1:42:19 ==男女==（||だんじょ||） - Mann und Frau.
+- 5:04 ==拝借==（||はいしゃく||） - sich etwas leihen; höflich/bescheiden🍙
+- 5:36 ==下級生==（||かきゅうせい||） - jüngerer Schüler, Unterklässler🍙
+- 12:08 ==設計家は夢に形を与えるのだ== - „Konstrukteure geben Träumen Gestalt“; 形を与える ist eine schöne abstrakte Wendung.
+- 27:47 ==只今==（||ただいま||） - gerade jetzt; ich bin zurück — ただいま
+- 33:18 ==仕事にかかりたまえ== - „mach dich an die Arbeit“; formelle/autoritäre Aufforderung.
+- 41:25 ==推薦==（||すいせん||） - Empfehlung, Nominierung.🍙
+- 46:20 ==金属==（||きんぞく||） - Metall — 金属工作の技術を学ぶチャンスだと思えばいいんだ
+- 47:20 ==訪れる==（||おとずれる||） - besuchen, aufsuchen — 本城もういいよこの工場を訪れた我々がこの格納庫に入ったのは
+- 47:38 ==事故==（||じこ||） - Unfall — 諸君が事故の任務に忠実であることは疑わない。
+- 1:15:16 ==政府==（||せいふ||） - Regierung — 政府と喧嘩してる
+- 1:24:37 ==でも必ず病気を治します== - „aber ich werde die Krankheit ganz sicher heilen“; 必ず als Versprechen.
+- 1:48:54 ==仲良し==（||なかよし||） - gute Freunde, vertraut.
+- 1:54:40 ==成功==（||せいこう||） - Erfolg — ご成功
+- 1:55:11 ==散歩==（||さんぽ||） - Spaziergang — 今朝は気分がいいのでこのあたりをちょっと散歩してきます
+- 2:02:26 ==美しい風のような人だ== - „sie ist wie ein schöner Wind“; ような für bildhaften Vergleich.
+- 2:02:36 ==君は生きねべならん== - „wirst du nicht leben?“; finale, direkte Frage.
+- 2:03:35 ==気付く==（||きづく||） - bemerken, merken — 誰も気づかずただ一人
+
+### Kann ich schon (fast) perfekt
+
+- 1:06:17 ==怪我==（||けが||） - Verletzung.
+- 1:23:26 ==若者==（||わかもの||） - junger Mensch — この若者来た時
+- 5:04 ==宜しい==（||よろしい||） - in Ordnung; höflich für „gut“ — 拝借してよろしいですか
+- 5:36 ==いじめる== - schikanieren, mobben
+- 6:00 ==転ぶ==（||ころぶ||） - hinfallen, stürzen.
+- 6:02 ==喧嘩==（||けんか||） - Streit, Prügelei🍙
+- 6:46 ==雑誌==（||ざっし||） - Zeitschrift
+- 7:30 ==叱る==（||しかる||） - schimpfen, zurechtweisen.
+- 7:33 ==流れ星==（||ながれぼし||） - Sternschnuppe🍙
+- 8:44 ==夢==（||ゆめ||） - Traum.
+- 9:00 ==不思議==（||ふしぎ||） - seltsam, wundersam, geheimnisvoll.
+- 9:18 ==焼く==（||やく||） - verbrennen, niederbrennen, backen/braten.
+- 9:23 ==敵==（||てき||） - Feind, Gegner.
+- 9:35 ==戦争==（||せんそう||） - Krieg
+- 10:04 ==爆弾==（||ばくだん||） - Bombe
+- 10:05 ==代わり==（||かわり||） - Ersatz, anstelle von.
+- 10:18 ==穴==（||あな||） - Loch, Öffnung.
+- 10:19 ==便利==（||べんり||） - praktisch, bequem.
+- 11:28 ==質問==（||しつもん||） - Frage — カプローニさん質問があります
+- 11:49 ==人間==（||にんげん||） - Mensch — パイロットに向いてる人間は他にたくさんいる
+- 12:01 ==道具==（||どうぐ||） - Werkzeug, Mittel — 飛行機は戦争の道具でも商売の手立てでもないのだ
+- 12:05 ==飛行機==（||ひこうき||） - Flugzeug.
+- 12:05 ==飛行機は美しい夢だ== - „Flugzeuge sind schöne Träume“; zentrale poetische Formel des Films.
+- 12:05 ==美しい==（||うつくしい||） - schön.
+- 12:10 ==形==（||かたち||） - Form, Gestalt.
+- 12:37 ==返事==（||へんじ||） - Antwort, Erwiderung.
+- 12:39 ==母さん==（||かあさん||） - Mutter.
+- 12:49 ==作りたい==（||つくりたい||） - bauen/machen wollen.
+- 13:09 ==座る==（||すわる||） - sich setzen.
+- 16:35 ==緊張==（||きんちょう||） - Anspannung, Nervosität.
+- 17:19 ==逃げる==（||にげる||） - fliehen, weglaufen.
+- 18:18 ==荷物==（||にもつ||） - Gepäck, Last.
+- 19:46 ==開ける==（||ひらける||） - öffnen.
+- 20:14 ==きっと== - bestimmt, sicher.
+- 20:14 ==きっと戻ります== - „ich komme bestimmt zurück“; きっと als feste Zuversicht.
+- 20:14 ==戻る==（||もどる||） - zurückkehren.
+- 25:47 ==大学==（||だいがく||） - Universität — マンネリズムだ 大学の講義と同じだ
+- 25:54 ==時代==（||じだい||） - Zeitalter, Epoche.
+- 25:58 ==遅れる==（||おくれる||） - sich verspäten; zurückliegen.
+- 29:21 ==平気==（||へいき||） - unbekümmert; alles okay — 平気
+- 31:43 ==銀行==（||ぎんこう||） - Bank — まただ！今度は亀八銀行ですよ
+- 31:57 ==世の中==（||よのなか||） - Welt, Gesellschaft — 世の中不景気だ
+- 33:07 ==紹介==（||しょうかい||） - Vorstellung, Einführung — 諸君 新人を紹介する
+- 33:18 ==仕事==（||しごと||） - Arbeit.
+- 35:03 ==工場==（||こうじょう||） - Fabrik, Werk — 組み立て工場か
+- 35:16 ==願い==（||ねがい||） - Bitte, Wunsch — ちょっとお願いがあるのですが
+- 35:43 ==意見==（||いけん||） - Meinung, Einschätzung
+- 36:31 ==説明==（||せつめい||） - Erklärung — 説明したまえ
+- 37:07 ==完璧==（||かんぺき||） - perfekt, vollständig.
+- 39:22 ==方々==（||かたがた||） - Personen; Leute; verschiedene Seiten — リコ軍の方々が来てくださってる はい
+- 40:48 ==原因==（||げんいん||） - Ursache.
+- 40:58 ==戦闘機==（||せんとうき||） - Kampfflugzeug.
+- 42:05 ==今夜==（||こんや||） - heute Abend — 今夜はだいぶ遅いね
+- 43:21 ==残念==（||ざんねん||） - bedauerlich, schade.
+- 44:04 ==貧乏==（||びんぼう||） - Armut, arm sein.
+- 44:37 ==嫁==（||よめ||） - Ehefrau; Braut.
+- 47:00 ==真似==（||まね||） - Nachahmung — 日本人はすぐ真似をする
+- 47:28 ==行為==（||こうい||） - Handlung, Akt.
+- 47:41 ==相手==（||あいて||） - Gegenüber, Vertragspartner — しかし、対等の契約の相手である
+- 47:47 ==命令==（||めいれい||） - Befehl.
+- 48:11 ==立派==（||りっぱ||） - hervorragend, stattlich — うん 立派だな
+- 48:15 ==案内==（||あんない||） - Führung, Anleitung — 博士の許可が出た この中を案内する
+- 48:35 ==先輩==（||せんぱい||） - Senior, Erfahrener — 先輩たちがはしゃいでるぜ
+- 49:22 ==見付ける==（||みつける||） - finden, entdecken — 試してねえ、見つけたわ
+- 51:18 ==間に合う==（||まにあう||） - rechtzeitig sein, ausreichen — それでは間に合わない
+- 54:56 ==風==（||かぜ||） - Wind.
+- 55:35 ==通す==（||とうす||） - durchlassen, passieren lassen.
+- 55:37 ==親戚==（||しんせき||） - Verwandte.
+- 56:01 ==秘密==（||ひみつ||） - Geheimnis, geheim — まだし当局には秘密だ
+- 56:32 ==大切==（||たいせつ||） - wichtig, kostbar.
+- 57:28 ==人類==（||じんるい||） - Menschheit.
+- 57:30 ==呪われた==（||のろわれた||） - verflucht.
+- 57:31 ==背負う==（||せおう||） - auf sich tragen, eine Last tragen.
+- 57:37 ==選ぶ==（||えらぶ||） - wählen.
+- 58:35 ==人生==（||じんせい||） - Leben, Lebensweg — 創造的人生の持ち時間は10年だ
+- 1:01:30 ==世話==（||せわ||） - Fürsorge, Betreuung — どうもお世話様です
+- 1:11:58 ==泣く==（||なく||） - weinen.
+- 1:12:07 ==見える==（||みえる||） - sichtbar sein; wirken wie — 白馬に乗った王子様に見えました
+- 1:12:10 ==傘==（||かさ||） - Regenschirm.
+- 1:12:56 ==生きている==（||いきている||） - am Leben sein, leben.
+- 1:13:21 ==助ける==（||たすける||） - helfen, retten — この方に助けていただきましたの
+- 1:18:22 ==誰==（||だれ||） - wer.
+- 1:23:55 ==付き合い==（||つきあい||） - Umgang, Beziehung — お嬢さんとのお付き合いを
+- 1:24:17 ==亡くす==（||なくす||） - verlieren; sterben lassen/haben.
+- 1:24:24 ==愛する==（||あいする||） - lieben — 僕はあなたを愛しています
+- 1:24:33 ==結婚==（||けっこん||） - Heirat.
+- 1:24:37 ==病気==（||びょうき||） - Krankheit.
+- 1:24:39 ==待つ==（||まつ||） - warten.
+- 1:25:52 ==風が立ってる== - „der Wind erhebt sich“; titelnahe, poetische Wendung.
+- 1:27:24 ==警察==（||けいさつ||） - Polizei — 思想犯専門の秘密警察だ
+- 1:27:55 ==覚える==（||おぼえる||） - sich erinnern; lernen — みんな身に覚えなどなかった
+- 1:28:01 ==我慢==（||がまん||） - Geduld, Aushalten.
+- 1:29:42 ==全力==（||ぜんりょく||） - volle Kraft.
+- 1:30:27 ==電話==（||でんわ||） - Telefon — 二郎さんお電話です
+- 1:31:21 ==方法==（||ほうほう||） - Methode, Weg.
+- 1:35:03 ==病院==（||びょういん||） - Krankenhaus — 私お医者様のおすすめの抗原病院に参ります
+- 1:35:37 ==注文==（||ちゅうもん||） - Bestellung, Auftrag — 注文主だ
+- 1:38:12 ==感動==（||かんどう||） - Bewegung, Ergriffenheit — 感動しました
+- 1:42:36 ==連絡==（||れんらく||） - Kontakt, Benachrichtigung — 病院へも連絡しました
+- 1:43:13 ==エゴイズム== - Egoismus.
+- 1:46:22 ==安心==（||あんしん||） - Beruhigung, Sicherheit.
+- 1:47:24 ==両親==（||りょうしん||） - Eltern — 兄兄様にはご結婚おめでとうございます黒川様へのお礼方々 両親に代わって伺いした黒川さんたちは？お休みになりました直子に会ったの？はい
+- 1:47:55 ==毎朝==（||まいあさ||） - jeden Morgen — 毎朝お化粧してほうべにをさしたりしてるの
+- 1:48:56 ==未来==（||みらい||） - Zukunft.
+- 1:52:24 ==中国==（||ちゅうごく||） - China — 中国、ソ連、イギリス、オランダ、アメリカ
+- 1:53:16 ==苦労==（||くろう||） - Mühe, Anstrengung — ご苦労様
+- 1:55:11 ==気分==（||きぶん||） - Stimmung, Befinden — 今朝は気分がいいのでこのあたりをちょっと散歩してきます
+- 1:55:19 ==片付ける==（||かたづける||） - aufräumen.
+- 1:57:46 ==外国==（||がいこく||） - Ausland — まるで外国にいるような気分だ
+- 1:59:55 ==最初==（||さいしょ||） - Anfang, erstes Mal — やあ来たな 日本の少年カプローニさんここは私たちが最初にお会いした草原ですね
+- 2:00:20 ==地獄==（||じごく||） - Hölle.
+- 2:01:53 ==あなた== - du/Sie.
+- 2:01:53 ==あなた、生きて== - „du, lebe“; extrem kurzer, zentraler Satz.
+- 2:01:53 ==生きる==（||いきる||） - leben.
+
+%%
+
+- 1:30:00 ==無事==（||ぶじ||） - unversehrt, sicher.
+
+## Links
+Prev::
+Next:: Transcript (nicht öffentlich verfügbar)
+Friend::
+%%
+
+## Tags
+#japanese #transcript #media
+
+## Lernschnitt-Übersicht
+
+- [[Lernschnitte|Alle Lernschnitte]]

@@ -5,137 +5,93 @@ publish: true
 tags:
   - zettel
 ---
-Mögliche Namen für das French Quarter Team:
-
+## Mögliche Namen für das French Quarter Team:
 - Die Franzosen kommen
 - Franzacken am Hacken
-- Franzocker
-- Baguette FC
-- Kylian Mbaguette
-- Mbappé au Lait
-- Mbappé mit Sahne
-- Aber Mbappé mit Sahne
-- FC Baguettona
+- ==Franzocker==
+- ==La Mannschaft== 
+- ==Ramenez Unicup à la maison==
+## Liberté, Egalité, Fraternité
 - Liberté, Dembélé, Elfmeter
 - Liberté, Égalité, Meisterschale
 - Liberté, Égalité, Elfmétré
-- Liberte, Egalite, Kräutertee
+- ==Liberte, Egalite, Kräutertee==
 - Lionel Mais Si! 
 - Les Krautz FC
-- Alles les Krautz
-- Allez Krautz
-- Aber bitte mit Sané 
-
-Mit allez les bleu:
+## Mit allez les bleu:
 - Allez les Blöd
 - Allez Blau (so wie alle blau)
 - Allez Baguette
-
-Anspielung auf Zinedin Zidane:
+- Alles les Krautz
+- Allez Krautz
+## Zinedin Zidane:
 - Zinedine Zieht an 
 - Zinedine Sieht man dann 
 - Zinnedine Zidane (Anspielung auf Zinne)
-- Sieh ned hin, Zidane. 
+- ==Sieh ned hin, Zidane== 
 - Sieht ned hin, Zidane. 
 - Sieht ned hin, 
 - Sieht nicht hin, Zidane. 
-
-
-Charles de Gaulle:
-- Charles de Goal 
-
-Mit Croissant und Baguette:
+## Charles de Gaulle:
+- ==Charles de Goal== 
+## Mit Croissant und Baguette (französisches Essen):
 - Croissant United
-- Croissant Ronaldo (
-
-Ousmane Dembélé:
-
-Daddy de Schampus
-Tchouaméni:
-Schuh ham wir nie
-
-Michael Olise:
-
-Olympique de Marseille:
-
-
-
-Kilian Camembappé
-
-Camembappé
-FC Camembert 
-Camembert 
-
-Brie,   
-
-Les Tübingeurs
-
-FC Panzerhalle
-
-  
-FC Panzer’alle
-
-FC Panzer’allè
-
-
-Mbappé au lait (FC)
-
-Klein mit Pappe
-
-N’ klein Mbappé au lait sil wu plä
-
-Je ne Ball pas francais
-Je t'aimbappé
-Je t'embappé
-Jö t'embappé
-
-
-
-Allemagne = AlleMannYeah! 
-
-oder: AllezMannYe!
-
-Champagner FC
-
-Schampagner FC
-
-Schampanjer FC
-
-Schammpanjer
-**Les balleurs** 
-
-Les kickeurs 
-
-LesBolzeurs
-
-Les Dribbleurs
-
-LesMiserables 
-Les MiseraBall
-les MistAmBall
-Les MiesAmBall
-
-LaMannschaft ()
-
-L
-
-Ramenez Unicup à la maison
-
-## Französische Wortspiele
-
-- Je m’appelle Franzviertel
-- RienNeVaPlus
-- LesJeuxSontFaits
-- Les
-
-## Sieben / Viertel
-
-- La7
-- SeptFini 
-
-## Fußballer-Wortspiele
-
-- Lionel Merci
+- Croissant Ronaldo 
+- Baguette FC
+- FC Baguettona
+- FC Camembert 
+## Didier Des Champs
+- Daddy de Schampus
 - Didier Dechamps
 - Daddy Dechamps
-- Daddy TheChamps
+- ==Daddy TheChamps==
+- Daddy der Champs
+## Tchouaméni:
+Schuh ham wir nie
+## Olympique de Marseille:
+Olle Pike 
+## Kylian Mbappé
+- Kilian Camembappé
+- Kylian Mbaguette
+- Mbappé mit Sahne
+- Aber Mbappé mit Sahne
+- Camembappé
+- ==Mbappé au lait== (FC)
+- Je t'aimbappé
+- ==Je t'embappé==
+- ==Jö t'embappé==
+- Klein mit Pappe
+- N’ klein Mbappé au lait sil wu plä
+## Je ne parle pas francais
+- ==Je ne Ball pas francais==
+## Allemagne
+- Allemagne = AlleMannYeah! 
+- oder: AllezMannYe!
+## Champagner
+- Schampagner FC
+- Schampanjer FC
+- Champagner FC
+- Schammpanyeah!
+## Französische Aussprache
+- Les Balleurs
+- ==Les Kickeurs== 
+- Les Bolzeurs
+- Les Dribbleurs 
+- Les Skilleurs
+## Anspielungen auf Tübingen
+- Les Tübingeurs
+- FC Panzerhalle
+- FC Panzer’alle
+- FC Panzer’allè
+- Je m’appelle Franzviertel
+## Les Miserables
+- LesMiserables 
+- Les MiseraBall
+- les MistAmBall
+- ==Les MiesAmBall==
+## Honorable Mentions
+- RienNeVaPlus
+- LesJeuxSontFaits
+- La7
+- SeptFini 
+- ==Lionel Merci==

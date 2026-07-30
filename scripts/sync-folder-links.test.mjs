@@ -132,17 +132,185 @@ test("copies frontmatter cover assets and rewrites their wikilinks to published 
     )
     assert.deepEqual(
       fs.readFileSync(
-        path.join(
-          outputRoot,
-          "content",
-          "media-lib",
-          "Movies",
-          "Example Movie",
-          coverName,
-        ),
+        path.join(outputRoot, "content", "media-lib", "Movies", "Example Movie", coverName),
       ),
       coverContents,
     )
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("publishes referenced external pictures without leaking their local file URLs", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-external-pictures-"))
+  const gardenRoot = path.join(fixtureRoot, "Digital Garden")
+  const picturesRoot = path.join(fixtureRoot, "Pictures")
+  const noteRoot = path.join(gardenRoot, "Gallery")
+  const outputRoot = path.join(fixtureRoot, "site")
+  const coverName = "Cover Photo.jpg"
+  const drawingName = "My Drawing.png"
+
+  fs.mkdirSync(noteRoot, { recursive: true })
+  fs.mkdirSync(picturesRoot, { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(path.join(picturesRoot, coverName), "cover")
+  fs.writeFileSync(path.join(picturesRoot, drawingName), "drawing")
+  fs.writeFileSync(
+    path.join(noteRoot, "Pictures.md"),
+    [
+      "---",
+      "publish: true",
+      `cover: ${new URL(`file://${path.join(picturesRoot, coverName)}`).href}`,
+      "---",
+      `![My drawing](${new URL(`file://${path.join(picturesRoot, drawingName)}`).href})`,
+      "",
+    ].join("\n"),
+  )
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: {
+        ...process.env,
+        ZETTEL_SOURCE_ROOT: gardenRoot,
+        ZETTEL_PICTURES_ROOT: picturesRoot,
+      },
+      stdio: "pipe",
+    })
+
+    const publishedNote = fs.readFileSync(
+      path.join(outputRoot, "content", "Gallery", "Pictures.md"),
+      "utf8",
+    )
+    assert.match(publishedNote, /cover: "\[\[Gallery\/Cover Photo\.jpg\]\]"/)
+    assert.match(publishedNote, /!\[My drawing\]\(\.\/My%20Drawing\.png\)/)
+    assert.doesNotMatch(publishedNote, /file:\/\//)
+    assert.equal(
+      fs.readFileSync(path.join(outputRoot, "content", "Gallery", coverName), "utf8"),
+      "cover",
+    )
+    assert.equal(
+      fs.readFileSync(path.join(outputRoot, "content", "Gallery", drawingName), "utf8"),
+      "drawing",
+    )
+    const folderIndex = fs.readFileSync(
+      path.join(outputRoot, "content", "Gallery", "index.md"),
+      "utf8",
+    )
+    assert.doesNotMatch(folderIndex, /file:\/\//)
+    const brainIndex = fs.readFileSync(
+      path.join(outputRoot, "quartz", "static", "brain-index.json"),
+      "utf8",
+    )
+    assert.doesNotMatch(brainIndex, /file:\/\//)
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("keeps transcripts and local videos out of published content", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-private-media-"))
+  const gardenRoot = path.join(fixtureRoot, "Digital Garden")
+  const moviesRoot = path.join(fixtureRoot, "Movies")
+  const transcriptsRoot = path.join(moviesRoot, "Transkripte")
+  const noteRoot = path.join(gardenRoot, "Media")
+  const outputRoot = path.join(fixtureRoot, "site")
+  const transcript = path.join(transcriptsRoot, "captions.vtt")
+  const movie = path.join(moviesRoot, "Filme", "movie.mp4")
+  const transcriptUrl = new URL(`file://${transcript}`).href
+  const movieUrl = new URL(`file://${movie}`).href
+
+  fs.mkdirSync(noteRoot, { recursive: true })
+  fs.mkdirSync(path.dirname(transcript), { recursive: true })
+  fs.mkdirSync(path.dirname(movie), { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(transcript, "WEBVTT")
+  fs.writeFileSync(movie, "private movie")
+  fs.writeFileSync(
+    path.join(noteRoot, "Movie.md"),
+    [
+      "---",
+      "publish: true",
+      `media: ${movieUrl}`,
+      "captions:",
+      `  - ${transcriptUrl}#lang=de`,
+      `next: ${transcriptUrl}`,
+      "---",
+      `[Transcript](${transcriptUrl})`,
+      `[01:23](${movieUrl}#t=83)`,
+      "",
+    ].join("\n"),
+  )
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: {
+        ...process.env,
+        ZETTEL_SOURCE_ROOT: gardenRoot,
+        ZETTEL_MOVIES_ROOT: moviesRoot,
+        ZETTEL_TRANSCRIPTS_ROOT: transcriptsRoot,
+      },
+      stdio: "pipe",
+    })
+
+    const publishedNote = fs.readFileSync(
+      path.join(outputRoot, "content", "Media", "Movie.md"),
+      "utf8",
+    )
+    assert.doesNotMatch(publishedNote, /^captions:/m)
+    assert.doesNotMatch(publishedNote, /^media:/m)
+    assert.doesNotMatch(publishedNote, /^next:/m)
+    assert.doesNotMatch(publishedNote, /file:\/\//)
+    assert.match(publishedNote, /Transcript \(nicht öffentlich verfügbar\)/)
+    assert.match(publishedNote, /01:23/)
+    assert.equal(fs.existsSync(path.join(outputRoot, "content", "Media", "captions.vtt")), false)
+    assert.equal(fs.existsSync(path.join(outputRoot, "content", "Media", "movie.mp4")), false)
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("publishes notes from the entire vault while preserving Digital Garden routes", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-whole-vault-"))
+  const vaultRoot = path.join(fixtureRoot, "Obsidian Vault")
+  const gardenRoot = path.join(vaultRoot, "Digital Garden")
+  const journalRoot = path.join(vaultRoot, "journal", "2026")
+  const workspaceRoot = path.join(vaultRoot, "workspace")
+  const outputRoot = path.join(fixtureRoot, "site")
+
+  fs.mkdirSync(gardenRoot, { recursive: true })
+  fs.mkdirSync(journalRoot, { recursive: true })
+  fs.mkdirSync(workspaceRoot, { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(
+    path.join(gardenRoot, "Digital Garden.md"),
+    "---\npublish: true\n---\n# Home\n[[Journal Entry]]\n",
+  )
+  fs.writeFileSync(
+    path.join(journalRoot, "Journal Entry.md"),
+    "---\npublish: true\n---\n# Journal Entry\n",
+  )
+  fs.writeFileSync(path.join(workspaceRoot, "Private.md"), "---\npublish: false\n---\n# Private\n")
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: { ...process.env, ZETTEL_SOURCE_ROOT: vaultRoot },
+      stdio: "pipe",
+    })
+
+    const homepage = fs.readFileSync(path.join(outputRoot, "content", "index.md"), "utf8")
+    assert.match(homepage, /\[\[journal\/2026\/journal-entry\|Journal Entry\]\]/)
+    assert.equal(
+      fs.existsSync(path.join(outputRoot, "content", "Digital Garden", "Digital Garden.md")),
+      false,
+    )
+    assert.equal(
+      fs.existsSync(path.join(outputRoot, "content", "journal", "2026", "Journal Entry.md")),
+      true,
+    )
+    assert.equal(fs.existsSync(path.join(outputRoot, "content", "workspace", "Private.md")), false)
   } finally {
     fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }
