@@ -77,7 +77,7 @@ Eingaben:
 - Alternative Quelle: `ZETTEL_SOURCE_ROOT` oder `DIGITAL_GARDEN_ROOT`
 - Externe Bilder: standardmäßig `/Users/moritzvitt/Pictures`, für Tests überschreibbar
   mit `ZETTEL_PICTURES_ROOT`
-- Private Medien und Transkripte: standardmäßig `/Users/moritzvitt/Movies` und
+- Lokale Medien und private Transkripte: standardmäßig `/Users/moritzvitt/Movies` und
   `/Users/moritzvitt/Movies/Transkripte`, für Tests überschreibbar mit
   `ZETTEL_MOVIES_ROOT` und `ZETTEL_TRANSCRIPTS_ROOT`
 - Markdown-Frontmatter der Notizen
@@ -94,8 +94,9 @@ Wichtige Funktionen:
 - `rewriteExternalFileUrls`: kopiert referenzierte Bilder aus dem freigegebenen
   Pictures-Bereich in den Ordner der veröffentlichten Notiz und ersetzt lokale
   `file:///`-Bildpfade durch relative Webpfade.
-- `publicFrontmatter`: entfernt `captions` und lokale `file:///`-Werte aus dem
-  veröffentlichten Frontmatter.
+- `publicFrontmatter`: entfernt `captions`, anonymisiert lokale Video-`file:///`-Werte als
+  `/local-media/...`-Aliasse und entfernt sonstige lokale Dateipfade aus dem veröffentlichten
+  Frontmatter.
 - `parseLinksSection`: liest strukturierte Beziehungen aus einem Abschnitt `## Links`.
 - `frontmatter`: schreibt ein neues Quartz-Frontmatter mit `title`, `source`, `publish`, `tags`, optionalen Aliases und `graphLinks`.
 - `folderIndex`: erzeugt automatische Ordnerseiten.
@@ -108,6 +109,7 @@ Ausgaben:
   `/Users/moritzvitt/Pictures`
 - automatische `content/**/index.md`
 - `quartz/static/brain-index.json`
+- private, von Git ausgeschlossene Zuordnung `private/local-media-aliases.json`
 
 Der Sync durchsucht alle nicht-internen Vault-Ordner. `.git`, `.obsidian`,
 `.trash` und `node_modules` werden ausgelassen. Ob eine Notiz veröffentlicht
@@ -116,9 +118,11 @@ wird, hängt vom Frontmatter ab und nicht von ihrem Quellordner.
 Datenschutz- und Veröffentlichungsgrenze:
 
 - SRT-/VTT-Dateien und `captions` werden nicht veröffentlicht.
-- Lokale Filme und Videos werden nicht kopiert.
-- Lokale Medien- und Transkriptlinks werden im generierten Markdown neutralisiert,
-  sodass keine absoluten Benutzerpfade auf der Website landen.
+- Lokale Filme und Videos werden nicht kopiert. Jeder verwendete Film erhält einen stabilen,
+  aus seinem Pfad gehashten Alias unter `/local-media/...`; echte Pfade und Dateinamen werden
+  aus dem veröffentlichten Markdown entfernt.
+- Die Alias-Zuordnung wird nur lokal in `private/local-media-aliases.json` abgelegt. Dieser
+  Ordner ist von Git ausgeschlossen. Transkriptlinks werden weiterhin neutralisiert.
 - Diese Bereinigung betrifft nur `content/`; die Obsidian-Quelldateien bleiben
   unverändert.
 
@@ -661,20 +665,29 @@ Eingabe:
 - Frontmatter-Feld `media`.
 - Lokale Medienwurzel: `/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media`.
 - Standardroute: `/local-media`.
+- Private Alias-Zuordnung: `private/local-media-aliases.json`.
 
 Markdown-/HTML-Funktionen:
 
 - erkennt `media` als Obsidian-Wikilink auf lokale Datei,
 - erkennt YouTube-URLs,
 - schreibt Zeitmarkenlinks wie `[[Video#t=123|Label]]` in echte Links um,
-- markiert Zeitmarkenlinks mit `data-media-time`,
-- fügt automatisch einen `<video>`-Player oder YouTube-`<iframe>` ein, falls kein Player existiert,
-- verweist lokale Mediendateien unter `/local-media/...`; das Kopieren in den Output ist nur mit `copyMedia: true` aktiv,
+- markiert Zeitmarkenlinks mit `data-media-time` und fängt Klicks innerhalb der Seite ab,
+- fügt niemals allein aufgrund des `media`-Frontmatters einen Player ein; ein Video- oder
+  Audio-Player muss ausdrücklich als Embed im Markdown stehen,
+- verweist lokale Mediendateien unter anonymisierten `/local-media/...`-Adressen,
+- legt im lokalen Output standardmäßig Symlinks auf die unveränderten Originaldateien an; nur
+  mit `copyMedia: true` werden Medien stattdessen kopiert,
+- kann echte lokale Pfade nur über die von Git ausgeschlossene Alias-Datei auflösen; im
+  GitHub-/CI-Build bleiben diese Medien deshalb absichtlich nicht verfügbar,
 - verhindert Quartz-Router-Interferenz durch `data-router-ignore`.
 
 Browser-Funktionen:
 
-- Klick auf Zeitmarke springt im Video zur Sekunde,
+- Klick auf eine Zeitmarke öffnet keine neue Seite, sondern springt im passenden vorhandenen
+  Player zur Sekunde,
+- bei mehreren Playern für dasselbe Medium wird nur der gerade aktive Player gesteuert; ist
+  nur ein passender Player vorhanden, wird dieser verwendet,
 - YouTube wird via `postMessage` gesteuert,
 - lokale Videos werden per `currentTime` gesteuert,
 - `BroadcastChannel` synchronisiert Sprünge zwischen Tabs/Fenstern,
@@ -683,9 +696,9 @@ Browser-Funktionen:
 Nachbau:
 
 - Transformer für Markdown-Zeitmarken.
-- HTML-Plugin für Player-Einfügung und Link-Markierung.
-- Emitter zum Kopieren lokaler Medien.
-- Inline-JS für Seek-Logik bei lokalen Videos und YouTube.
+- HTML-Plugin zum Erkennen ausdrücklich eingebetteter Player und zum Markieren von Zeitlinks.
+- Emitter zum lokalen Verlinken der Originalmedien über private Alias-Zuordnungen.
+- Inline-JS für die aktive-Player-Auswahl und Seek-Logik bei Video, Audio und YouTube.
 
 ### `plugins/discord-spoilers`
 

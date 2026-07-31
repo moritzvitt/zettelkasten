@@ -1,6 +1,6 @@
 ---
 title: "Working with AI - statement"
-source: "Digital Garden/Tea Garden/foundation/Working with AI - statement.md"
+source: "Working with AI - statement.md"
 publish: true
 tags:
   - zettel

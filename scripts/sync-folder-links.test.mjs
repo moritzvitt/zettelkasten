@@ -208,7 +208,7 @@ test("publishes referenced external pictures without leaking their local file UR
   }
 })
 
-test("keeps transcripts and local videos out of published content", () => {
+test("publishes private aliases for local videos without exposing filenames", () => {
   const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-private-media-"))
   const gardenRoot = path.join(fixtureRoot, "Digital Garden")
   const moviesRoot = path.join(fixtureRoot, "Movies")
@@ -238,6 +238,8 @@ test("keeps transcripts and local videos out of published content", () => {
       "---",
       `[Transcript](${transcriptUrl})`,
       `[01:23](${movieUrl}#t=83)`,
+      `[movie.mp4](${movieUrl})`,
+      `Direkter Link: ${movieUrl}#t=90`,
       "",
     ].join("\n"),
   )
@@ -259,13 +261,88 @@ test("keeps transcripts and local videos out of published content", () => {
       "utf8",
     )
     assert.doesNotMatch(publishedNote, /^captions:/m)
-    assert.doesNotMatch(publishedNote, /^media:/m)
+    assert.match(publishedNote, /^media: \/local-media\/[a-f0-9]{24}\.mp4$/m)
     assert.doesNotMatch(publishedNote, /^next:/m)
     assert.doesNotMatch(publishedNote, /file:\/\//)
+    assert.doesNotMatch(publishedNote, /movie\.mp4/i)
     assert.match(publishedNote, /Transcript \(nicht öffentlich verfügbar\)/)
-    assert.match(publishedNote, /01:23/)
+    assert.match(
+      publishedNote,
+      /\[01:23\]\(https:\/\/local-media\.invalid\/%2Flocal-media%2F[a-f0-9]{24}\.mp4\?t=83\)/,
+    )
+    assert.match(publishedNote, /\[Lokales Video\]\(\/local-media\/[a-f0-9]{24}\.mp4\)/)
+    assert.match(
+      publishedNote,
+      /Direkter Link: https:\/\/local-media\.invalid\/%2Flocal-media%2F[a-f0-9]{24}\.mp4\?t=90/,
+    )
     assert.equal(fs.existsSync(path.join(outputRoot, "content", "Media", "captions.vtt")), false)
     assert.equal(fs.existsSync(path.join(outputRoot, "content", "Media", "movie.mp4")), false)
+
+    const manifest = JSON.parse(
+      fs.readFileSync(path.join(outputRoot, "private", "local-media-aliases.json"), "utf8"),
+    )
+    const aliases = Object.entries(manifest.aliases)
+    assert.equal(aliases.length, 1)
+    assert.match(aliases[0][0], /^\/local-media\/[a-f0-9]{24}\.mp4$/)
+    assert.equal(aliases[0][1], movie)
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("anonymizes Obsidian video wikilinks without copying the video", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "sync-video-wikilink-"))
+  const gardenRoot = path.join(fixtureRoot, "Digital Garden")
+  const noteRoot = path.join(gardenRoot, "Media")
+  const outputRoot = path.join(fixtureRoot, "site")
+  const videoName = "Private Original Title.webm"
+  const videoPath = path.join(noteRoot, videoName)
+
+  fs.mkdirSync(noteRoot, { recursive: true })
+  fs.mkdirSync(outputRoot, { recursive: true })
+  fs.writeFileSync(videoPath, "private video")
+  fs.writeFileSync(
+    path.join(noteRoot, "Video.md"),
+    [
+      "---",
+      "publish: true",
+      `media: "[[${videoName}]]"`,
+      "---",
+      `![[${videoName}]]`,
+      `[[${videoName}#t=42|00:42]]`,
+      `[[${videoName}|${videoName}]]`,
+      "",
+    ].join("\n"),
+  )
+
+  try {
+    execFileSync(process.execPath, [syncScript], {
+      cwd: outputRoot,
+      env: { ...process.env, ZETTEL_SOURCE_ROOT: gardenRoot },
+      stdio: "pipe",
+    })
+
+    const publishedNote = fs.readFileSync(
+      path.join(outputRoot, "content", "Media", "Video.md"),
+      "utf8",
+    )
+    assert.doesNotMatch(publishedNote, /Private Original Title/)
+    assert.match(publishedNote, /^media: \/local-media\/[a-f0-9]{24}\.webm$/m)
+    assert.match(
+      publishedNote,
+      /<video controls playsinline preload="metadata" src="\/local-media\/[a-f0-9]{24}\.webm" title="Lokales Video"><\/video>/,
+    )
+    assert.match(
+      publishedNote,
+      /\[00:42\]\(https:\/\/local-media\.invalid\/%2Flocal-media%2F[a-f0-9]{24}\.webm\?t=42\)/,
+    )
+    assert.match(publishedNote, /\[Lokales Video\]\(\/local-media\/[a-f0-9]{24}\.webm\)/)
+    assert.equal(fs.existsSync(path.join(outputRoot, "content", "Media", videoName)), false)
+
+    const manifest = JSON.parse(
+      fs.readFileSync(path.join(outputRoot, "private", "local-media-aliases.json"), "utf8"),
+    )
+    assert.deepEqual(Object.values(manifest.aliases), [videoPath])
   } finally {
     fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }

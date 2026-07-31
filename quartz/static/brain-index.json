@@ -35,74 +35,11 @@
         "zettel"
       ]
     },
-    "tea-garden/foundation/design-&-development/design/theme-palette": {
-      "slug": "tea-garden/foundation/design-&-development/design/theme-palette",
-      "title": "Theme palette",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Design/Theme palette.md",
-      "url": "/tea-garden/foundation/design-&-development/design/theme-palette",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/human-design-overview": {
-      "slug": "tea-garden/foundation/design-&-development/human-design-overview",
-      "title": "Human Design Overview",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/Human Design Overview.md",
-      "url": "/tea-garden/foundation/design-&-development/human-design-overview",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/font/my-own-font": {
-      "slug": "tea-garden/foundation/design-&-development/font/my-own-font",
-      "title": "my own font",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/font/my own font.md",
-      "url": "/tea-garden/foundation/design-&-development/font/my-own-font",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin",
-      "title": "Agents PDF Viewer Plugin",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Agents/Agents PDF Viewer Plugin.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
-      "title": "Human Excalibrain for Quartz",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human Excalibrain for Quartz.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/human-excalibrain-for-quartz",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/design-&-development/plugins/human-plugins-media-control": {
-      "slug": "tea-garden/foundation/design-&-development/plugins/human-plugins-media-control",
-      "title": "Human Plugins Media Control",
-      "source": "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Human Plugins Media Control.md",
-      "url": "/tea-garden/foundation/design-&-development/plugins/human-plugins-media-control",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/purpose": {
-      "slug": "tea-garden/foundation/purpose",
+    "tea-garden/purpose": {
+      "slug": "tea-garden/purpose",
       "title": "**Purpose**",
-      "source": "Digital Garden/Tea Garden/foundation/Purpose.md",
-      "url": "/tea-garden/foundation/purpose",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/foundation/working-with-ai---statement": {
-      "slug": "tea-garden/foundation/working-with-ai---statement",
-      "title": "Working with AI - statement",
-      "source": "Digital Garden/Tea Garden/foundation/Working with AI - statement.md",
-      "url": "/tea-garden/foundation/working-with-ai---statement",
+      "source": "Digital Garden/Tea Garden/Purpose.md",
+      "url": "/tea-garden/purpose",
       "tags": [
         "zettel"
       ]
@@ -148,6 +85,20 @@
         "_",
         "find-your-love-in-japan",
         "porn-director-in-japan",
+        "vocabulary-list",
+        "japanese/vocabulary-list",
+        "media"
+      ]
+    },
+    "tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?": {
+      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
+      "title": "How much do Japanese Girls Cheat?",
+      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/How much do Japanese Girls Cheat?.md",
+      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
+      "tags": [
+        "zettel",
+        "japanese/relationships",
+        "japanese/conversation",
         "vocabulary-list",
         "japanese/vocabulary-list",
         "media"
@@ -246,20 +197,6 @@
         "japanese",
         "music",
         "jpop",
-        "vocabulary-list",
-        "japanese/vocabulary-list",
-        "media"
-      ]
-    },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?",
-      "title": "How much do Japanese Girls Cheat?",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/How much do Japanese Girls Cheat?.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?",
-      "tags": [
-        "zettel",
-        "japanese/relationships",
-        "japanese/conversation",
         "vocabulary-list",
         "japanese/vocabulary-list",
         "media"
@@ -503,25 +440,11 @@
         "french/vocabulary-list"
       ]
     },
-    "tea-garden/music/joe-hisaishi---one-summer's-day": {
-      "slug": "tea-garden/music/joe-hisaishi---one-summer's-day",
-      "title": "Joe Hisaishi - One Summer's Day",
-      "source": "Digital Garden/Tea Garden/music/Joe Hisaishi - One Summer's Day.md",
-      "url": "/tea-garden/music/joe-hisaishi---one-summer's-day",
-      "tags": [
-        "zettel",
-        "music",
-        "japanese-music",
-        "ghibli",
-        "natsukashii",
-        "media"
-      ]
-    },
-    "tea-garden/music/genres/classic/tchaikovsky---rococco-variations": {
-      "slug": "tea-garden/music/genres/classic/tchaikovsky---rococco-variations",
+    "tea-garden/music/tchaikovsky---rococco-variations": {
+      "slug": "tea-garden/music/tchaikovsky---rococco-variations",
       "title": "Rococco Variations",
-      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Rococco Variations.md",
-      "url": "/tea-garden/music/genres/classic/tchaikovsky---rococco-variations",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md",
+      "url": "/tea-garden/music/tchaikovsky---rococco-variations",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -531,11 +454,11 @@
         "media"
       ]
     },
-    "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4": {
-      "slug": "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4",
+    "tea-garden/music/tchaikovsky---symphony-no.-4": {
+      "slug": "tea-garden/music/tchaikovsky---symphony-no.-4",
       "title": "Tchaikovsky - Symphony No. 4 f-moll op. 36",
-      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Symphony No. 4.md",
-      "url": "/tea-garden/music/genres/classic/tchaikovsky---symphony-no.-4",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
+      "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
       "tags": [
         "zettel",
         "tchaikovsky",
@@ -546,40 +469,17 @@
         "media"
       ]
     },
-    "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6": {
-      "slug": "tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6",
+    "tea-garden/music/tchaikovsky---symphony-no.-6": {
+      "slug": "tea-garden/music/tchaikovsky---symphony-no.-6",
       "title": "Tchaikovsky - Symphony No. 6",
-      "source": "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Symphony No. 6.md",
-      "url": "/tea-garden/music/genres/classic/tchaikovsky---symphony-no.-6",
+      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 6.md",
+      "url": "/tea-garden/music/tchaikovsky---symphony-no.-6",
       "tags": [
         "zettel",
         "music",
         "classic",
         "romantic",
         "tchaikovsky",
-        "media"
-      ]
-    },
-    "tea-garden/music/genres/hiphop/hotline-bling": {
-      "slug": "tea-garden/music/genres/hiphop/hotline-bling",
-      "title": "Hotline Bling",
-      "source": "Digital Garden/Tea Garden/music/genres/hiphop/Hotline Bling.md",
-      "url": "/tea-garden/music/genres/hiphop/hotline-bling",
-      "tags": [
-        "zettel",
-        "music",
-        "drake",
-        "hiphop",
-        "media"
-      ]
-    },
-    "tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)": {
-      "slug": "tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
-      "title": "Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video)",
-      "source": "Digital Garden/Tea Garden/music/genres/pop/Pharrell Williams - Double Life (From \"Despicable Me 4\" - Official Lyric Video).md",
-      "url": "/tea-garden/music/genres/pop/pharrell-williams---double-life-(from-\"despicable-me-4\"---official-lyric-video)",
-      "tags": [
-        "zettel",
         "media"
       ]
     },
@@ -1595,6 +1495,69 @@
       "title": "Sustainable Constitution",
       "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/index.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/index",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/design-&-development/design/theme-palette": {
+      "slug": "quartz/design-&-development/design/theme-palette",
+      "title": "Theme palette",
+      "source": "Quartz/Design & Development/Design/Theme palette.md",
+      "url": "/quartz/design-&-development/design/theme-palette",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/design-&-development/human-design-overview": {
+      "slug": "quartz/design-&-development/human-design-overview",
+      "title": "Human Design Overview",
+      "source": "Quartz/Design & Development/Human Design Overview.md",
+      "url": "/quartz/design-&-development/human-design-overview",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/design-&-development/font/my-own-font": {
+      "slug": "quartz/design-&-development/font/my-own-font",
+      "title": "my own font",
+      "source": "Quartz/Design & Development/font/my own font.md",
+      "url": "/quartz/design-&-development/font/my-own-font",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/plugins/agents/agents-pdf-viewer-plugin": {
+      "slug": "quartz/plugins/agents/agents-pdf-viewer-plugin",
+      "title": "Agents PDF Viewer Plugin",
+      "source": "Quartz/plugins/Agents/Agents PDF Viewer Plugin.md",
+      "url": "/quartz/plugins/agents/agents-pdf-viewer-plugin",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/plugins/human-excalibrain-for-quartz": {
+      "slug": "quartz/plugins/human-excalibrain-for-quartz",
+      "title": "Human Excalibrain for Quartz",
+      "source": "Quartz/plugins/Human Excalibrain for Quartz.md",
+      "url": "/quartz/plugins/human-excalibrain-for-quartz",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "quartz/plugins/human-plugins-media-control": {
+      "slug": "quartz/plugins/human-plugins-media-control",
+      "title": "Human Plugins Media Control",
+      "source": "Quartz/plugins/Human Plugins Media Control.md",
+      "url": "/quartz/plugins/human-plugins-media-control",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "working-with-ai---statement": {
+      "slug": "working-with-ai---statement",
+      "title": "Working with AI - statement",
+      "source": "Working with AI - statement.md",
+      "url": "/working-with-ai---statement",
       "tags": [
         "zettel"
       ]

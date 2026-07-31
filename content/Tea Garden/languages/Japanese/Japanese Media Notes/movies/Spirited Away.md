@@ -2,6 +2,7 @@
 title: "Spirited Away"
 source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Spirited Away.md"
 mx-uid: spirited-away-2001
+media: /local-media/d751be4e7f04d77b6d9d80d6.mp4
 language: ja
 offset: 0ms
 source_offset_applied: -4500ms
@@ -23,317 +24,317 @@ Die Untertiteldatei wurde direkt um ca. `-4500ms` an die MP4 angepasst; die Zeit
 > [!todo] Transkript später noch einmal mit Migaku neu überarbeiten.
 ## Lernliste
 
-- 0:25 ==やっぱり田舎ね== - „doch ziemlich ländlich“; gut für ein leicht abwertendes Ersturteil.
-- 0:29 ==住んで都==（||すんでみやこ||） - „Wo man wohnt, wird es heimisch“; Sprichwort für Sich-Einleben.
-- 0:30 ==住んで都にするしかないさ== - „man muss es sich eben wohnlich machen“; pragmatisch-resignierte Wendung.
-- 1:01 ==水切り==（||みずきり||） - Wasser abtropfen lassen
-- 1:03 ==初めてもらった花束が別れの花束なんて== - „ausgerechnet der erste Blumenstrauß ist einer zum Abschied“; なんて markiert emotionale Bewertung.
-- 1:05 ==花束==（||はなたば||） - Blumenstrauß.
-- 2:15 ==道を間違えたんじゃない？== - „haben wir uns nicht verfahren?“; 間違える als „sich irren/falsch nehmen“.
-- 2:35 ==四駆==（||よんく||） - Allradantrieb
-- 2:58 ==いい加減==（||いいかげん||） - genug, halbherzig, maßlos; in いい加減にして: „hör endlich auf“.
-- 2:59 ==いい加減にして！== - „Jetzt reicht’s!“; sehr alltagstaugliche Beschwerde.
-- 3:41 ==閉じ込める==（||とじこめる||） - einsperren, einschließen.
-- 3:44 ==吸い込む==（||すいこむ||） - einatmen, einsaugen.
-- 3:47 ==抜ける==（||ぬける||） - hinauskommen, entweichen; auch „fehlen“.
-- 4:00 ==渡る==（||わたる||） - hinübergehen, überqueren.
-- 5:28 ==案外==（||あんがい||） - unerwartet, überraschenderweise.
-- 6:12 ==残骸==（||ざんがい||） - Überreste, Trümmer.
-- 6:36 ==ここ なんだか不気味ね== - „irgendwie unheimlich hier“; なんだか für vages Gefühl.
-- 6:37 ==不気味==（||ぶきみ||） - unheimlich, gruselig.
-- 6:48 ==風鳴り==（||かざなり||） - Windgeräusch, Heulen des Windes
-- 14:39 ==湯屋==（||ゆや||） - Badehaus
-- 14:56 ==そなた== - du; altertümliche Anrede
-- 15:44 ==無理にでも食べないと消えちゃうぞ== - „du musst essen, selbst wenn es schwerfällt, sonst verschwindest du“; 〜ないと als Warnung.
-- 16:09 ==お父さんとお母さんを捜すの== - „ich suche meinen Vater und meine Mutter“; schlichtes Ziel mit の als erklärender Ton.
-- 16:27 ==解ける==（||とける||） - sich lösen; enträtselt werden; Zauber löst sich.
-- 17:05 ==伝統==（||でんとう||） - Tradition.
-- 17:18 ==もう大丈夫だよ。体が戻ったんだ== - „jetzt ist es gut, dein Körper ist zurück“; 戻る in märchenhafter, körperlicher Bedeutung.
-- 17:19 ==術==（||じゅつ||） - Technik, Kunstgriff, Zauber.
-- 17:36 ==所用==（||しょよう||） - Angelegenheit, Besorgung
-- 17:53 ==鈴==（||すず||） - Glöckchen, Schelle.
-- 18:33 ==琴==（||こと||） - japanische Zither/Koto.
-- 18:53 ==抜け出す==（||ぬけだす||） - entkommen, hinausschlüpfen
-- 19:09 ==騒ぐ==（||さわぐ||） - Lärm machen, Aufsehen erregen.
-- 19:12 ==裏==（||うら||） - Rückseite, Hinterseite, verborgenes Inneres.
-- 19:28 ==断られても粘るんだよ== - „auch wenn man dich abweist, bleib dran“; ても + 粘る.
-- 19:28 ==断る==（||ことわる||） - ablehnen, zurückweisen.
-- 19:38 ==仕向ける==（||しむける||） - dazu bringen, lenken
-- 19:44 ==耐える==（||たえる||） - aushalten, ertragen.
-- 19:45 ==つらくても耐えて機会を待つんだよ== - „auch wenn es hart ist, halte durch und warte auf die Gelegenheit“; sehr lernstarker Satz.
-- 22:17 ==大所帯==（||おおじょたい||） - großer Haushalt; große Gruppe/Belegschaft.
-- 22:49 ==機械==（||きかい||） - Maschine.
-- 23:40 ==鐘==（||かね||） - Glocke.
-- 25:10 ==こき使う==（||こきつかう||） - hart ausnutzen, herumscheuchen
-- 28:13 ==気まぐれ==（||きまぐれ||） - Laune, launenhaftes Verhalten
-- 28:23 ==石炭==（||せきたん||） - Kohle
-- 28:31 ==文句は言わないの== - „keine Beschwerden“; 文句を言う als feste Wendung.
-- 29:31 ==イモリ== - Molch
-- 29:33 ==黒焼き==（||くろやき||） - verkohltes/geröstetes Heilmittel; wörtlich „schwarz gebrannt“.
-- 29:33 ==上物==（||じょうもの||） - erstklassige Ware
-- 29:36 ==契約したからには働いてもらうよ== - „wenn du schon unterschrieben hast, wirst du arbeiten“; からには = wenn schon, dann.
-- 31:24 ==乗り継ぐ==（||のりつぐ||） - umsteigen
-- 31:24 ==継ぐ==（||つぐ||） - nachfolgen, übernehmen.
-- 31:47 ==宴==（||うたげ||） - Festmahl, Gelage.
-- 32:35 ==座敷==（||ざしき||） - Tatami-Zimmer; Gästezimmer.
-- 32:56 ==正直==（||しょうじき||） - ehrlich, offen
-- 33:53 ==呼吸==（||こきゅう||） - Atmung, Atem.
-- 35:38 ==頭==（||かしら||） - Kopf; Anführer; hier auch die drei Köpfe.
-- 36:35 ==八百万==（||やおよろず||） - unzählig, Myriaden; in 八百万の神 = zahllose Gottheiten.
-- 36:37 ==癒す==（||いやす||） - heilen, lindern, trösten.
-- 36:45 ==食い散らす==（||くいちらす||） - herumfressen, Essen verstreuen
-- 36:45 ==散る==（||ちる||） - zerstreuen, auseinanderfliegen; verblühen.
-- 36:49 ==報いる==（||むくいる||） - vergelten, belohnen, heimzahlen.
-- 36:51 ==報い==（||むくい||） - Vergeltung, Folge
-- 37:14 ==震える==（||ふるえる||） - zittern, beben.
-- 37:19 ==世話を焼く==（||せわをやく||） - sich kümmern, Fürsorge betreiben
-- 37:47 ==雇ってやってください== - „bitte stellen Sie sie ein“; やる kann herablassend/gewährend klingen.
-- 37:47 ==雇う==（||やとう||） - anstellen, beschäftigen.
-- 37:58 ==小娘==（||こむすめ||） - kleines Mädchen; abwertend „Göre“.
-- 38:02 ==穀潰し==（||ごくつぶし||） - Nichtsnutz, Esser ohne Nutzen.
-- 38:04 ==穀つぶし==（||ごくつぶし||） - Nichtsnutz, unnützer Esser
-- 39:26 ==契約書==（||けいやくしょ||） - Vertragsdokument.
-- 39:51 ==誓います== - „ich schwöre es“; formelle Selbstverpflichtung.
-- 39:51 ==誓う==（||ちかう||） - schwören, geloben.
-- 40:12 ==ぜいたく== - Luxus; verschwenderisch
-- 41:21 ==仰り==（||おっしゃり||） - Gesagtes; ehrerbietig für 言う
-- 41:32 ==かなわん== - unerträglich; nicht zu ertragen
-- 41:37 ==煮る==（||にる||） - kochen, schmoren.
-- 41:48 ==この子に適役だわ== - „dafür ist dieses Kind genau richtig“; 適役 für „passende Besetzung/Rolle“.
-- 41:51 ==適役==（||てきやく||） - passende Rolle/Besetzung; genau geeignet.
-- 41:55 ==埋まる==（||うまる||） - gefüllt sein, besetzt sein; begraben sein.
-- 42:18 ==油断==（||ゆだん||） - Unachtsamkeit; Nachlassen der Wachsamkeit.
-- 44:20 ==寝息==（||ねいき||） - Atem im Schlaf.
-- 44:32 ==吐息==（||といき||） - Seufzer, Atemhauch.
-- 48:57 ==名を奪われると帰り道が分からなくなる== - „wenn dir dein Name genommen wird, findest du den Weg zurück nicht mehr“; 奪う + Passiv.
-- 48:57 ==奪う==（||うばう||） - rauben, wegnehmen.
-- 49:24 ==飯==（||はん||） - Essen, Mahlzeit; Reis.
-- 52:11 ==和楽器==（||わがっき||） - traditionelles japanisches Musikinstrument.
-- 52:37 ==大湯番==（||おおゆばん||） - Leiter/Verantwortlicher des großen Bads.
-- 52:40 ==骨身を惜しまず働け== - „arbeite ohne dich zu schonen“; idiomatisch und hart.
-- 52:40 ==骨身を惜しまず==（||ほねみをおしまず||） - ohne sich zu schonen; mit voller Hingabe.
-- 53:03 ==濡れる==（||ぬれる||） - nass werden.
-- 55:23 ==春日様==（||かすがさま||） - Kasuga-Gottheit/Gast; höfliche Anrede.
-- 55:55 ==番台蛙==（||ばんだいがえる||） - Frosch am Badschalter; Badehaus-Figur.
-- 56:16 ==混む==（||こむ||） - überfüllt sein.
-- 56:42 ==干物==（||ひもの||） - getrockneter Fisch.
-- 56:43 ==濁る==（||にごる||） - trüb werden; getrübt sein.
-- 56:52 ==離す==（||はなす||） - loslassen, trennen.
-- 58:05 ==奥様==（||おくさま||） - Ehefrau/gnädige Frau; höfliche Anrede.
-- 58:08 ==特大==（||とくだい||） - extra groß, Übergröße.
-- 58:18 ==青蛙==（||あおがえる||） - Aogaeru; wörtlich „grüner Frosch“.
-- 58:27 ==迎える==（||むかえる||） - empfangen, abholen, willkommen heißen.
-- 58:43 ==初仕事だからって== - „nur weil es dein erster Job ist …“; だからって als Einwand.
-- 58:46 ==初仕事==（||はつしごと||） - erste Arbeit, erster Job.
-- 1:02:21 ==高価==（||こうか||） - teuer, kostbar.
-- 1:03:40 ==結ぶ==（||むすぶ||） - binden, knüpfen; verbinden.
-- 1:05:29 ==砂金==（||さきん||） - Goldstaub, Goldsand.
-- 1:05:36 ==噴き出す==（||ふきだす||） - herausspritzen, ausbrechen; loslachen.
-- 1:05:56 ==高笑い==（||たかわらい||） - lautes, triumphierendes Lachen.
-- 1:06:19 ==大儲け==（||おおもうけ||） - großer Gewinn, Riesengeschäft.
-- 1:06:27 ==拍手==（||はくしゅ||） - Applaus, Klatschen.
-- 1:06:41 ==宴会==（||えんかい||） - Bankett, Trink-/Festgesellschaft.
-- 1:08:30 ==床==（||ゆか||） - Fußboden.
-- 1:08:55 ==金がなくなったら戻れない== - „wenn das Gold weg ist, kannst du nicht zurück“; Bedingung + Potential.
-- 1:09:24 ==消灯==（||しょうとう||） - Licht aus; Nachtruhe.
-- 1:09:51 ==団子==（||だんご||） - Reiskloß, Kloß/Süßigkeit.
-- 1:11:25 ==歓声==（||かんせい||） - Jubelruf, Freudenschrei.
-- 1:11:42 ==不機嫌==（||ふきげん||） - schlecht gelaunt.
-- 1:12:46 ==龍==（||りゅう||） - Drache.
-- 1:14:42 ==大臣==（||だいじん||） - Minister; hochrangige Figur.
-- 1:14:54 ==情け==（||なさけ||） - Mitgefühl, Erbarmen.
-- 1:15:01 ==湧く==（||わく||） - hervorquellen; entstehen; aufkommen.
-- 1:16:16 ==無礼==（||ぶれい||） - Unhöflichkeit, Respektlosigkeit.
-- 1:19:23 ==欲を出すからだ== - „das kommt davon, dass du gierig wirst“; Ursache/Vorwurf.
-- 1:19:24 ==欲==（||よく||） - Gier, Verlangen.
-- 1:19:28 ==余計==（||よけい||） - unnötig, überflüssig; noch mehr.
-- 1:19:31 ==敷物==（||しきもの||） - Teppich, Matte, Unterlage.
-- 1:21:04 ==珍しい==（||めずらしい||） - selten, ungewöhnlich.
-- 1:21:30 ==折る==（||おる||） - brechen, knicken, falten.
-- 1:21:44 ==壮大==（||そうだい||） - großartig, gewaltig, monumental.
-- 1:22:43 ==銭婆==（||ぜにーば||） - Zeniba; Yubabas Zwillingsschwester.
-- 1:23:00 ==透ける==（||すける||） - durchsichtig sein, durchscheinen.
-- 1:23:04 ==区別==（||くべつ||） - Unterscheidung.
-- 1:23:38 ==これは内緒だよ== - „das bleibt unter uns“; super nützliche Alltagswendung.
-- 1:23:40 ==内緒==（||ないしょ||） - Geheimnis; vertraulich.
-- 1:23:40 ==裂く==（||さく||） - zerreißen, aufschlitzen.
-- 1:23:48 ==双子==（||ふたご||） - Zwillinge.
-- 1:24:01 ==私の所から大事なハンコを盗み出した== - „er hat bei mir ein wichtiges Siegel gestohlen“; 〜の所から meint aus dem Besitz/Bereich von jemandem, 盗み出す ist „heimlich herausstehlen“.
-- 1:24:11 ==愚か==（||おろか||） - dumm, töricht.
-- 1:24:15 ==欲深い==（||よくぶかい||） - gierig.
-- 1:24:33 ==振動音==（||しんどうおん||） - Vibrationsgeräusch.
-- 1:24:42 ==連中==（||れんちゅう||） - die Leute, die Bande; oft abwertend.
-- 1:24:47 ==神秘的==（||しんぴてき||） - mystisch, geheimnisvoll.
-- 1:24:48 ==牙==（||きば||） - Fangzahn, Reißzahn.
-- 1:26:10 ==荒い==（||あらい||） - grob, rau, wild.
-- 1:26:22 ==効く==（||きく||） - wirken, effektiv sein.
-- 1:27:56 ==契約印==（||けいやくいん||） - Vertragssiegel.
-- 1:28:17 ==傷==（||きず||） - Wunde, Kratzer; Schaden.
-- 1:30:44 ==沼==（||ぬま||） - Sumpf, Moor, Teich.
-- 1:30:44 ==底==（||そこ||） - Boden, Grund, Tiefe.
-- 1:30:54 ==近頃==（||ちかごろ||） - in letzter Zeit, heutzutage.
-- 1:31:38 ==抑える==（||おさえる||） - unterdrücken, festhalten, kontrollieren.
-- 1:31:43 ==暴れたって無駄だよ== - „es bringt nichts, wenn du randalierst“; 〜たって als konzessiv.
-- 1:31:43 ==暴れる==（||あばれる||） - toben, wüten, randalieren.
-- 1:32:10 ==大損==（||おおぞん||） - großer Verlust.
-- 1:32:20 ==存じる==（||ぞんじる||） - bescheiden: wissen, kennen.
-- 1:32:38 ==冷笑==（||れいしょう||） - spöttisches Lachen.
-- 1:42:09 ==儲ける==（||もうける||） - Gewinn machen, verdienen.
-- 1:42:22 ==見捨てるわけにはいかない== - „ich kann ihn/sie nicht einfach im Stich lassen“; わけにはいかない.
-- 1:42:22 ==見捨てる==（||みすてる||） - im Stich lassen, aufgeben.
-- 1:42:38 ==替える==（||かえる||） - austauschen, ersetzen.
-- 1:42:45 ==偉い==（||えらい||） - großartig, bedeutend; brav.
-- 1:44:56 ==性悪==（||しょうわる||） - bösartig, gemein; schlechte Natur.
-- 1:45:15 ==八つ裂き==（||やつざき||） - in Stücke reißen; brutale Drohung.
-- 1:48:54 ==決して踏んではならない== - „du darfst es auf keinen Fall betreten“; 決して + ならない.
-- 1:48:54 ==踏む==（||ふむ||） - treten, betreten.
-- 1:49:04 ==操る==（||あやつる||） - steuern, manipulieren.
-- 1:49:04 ==忍び込む==（||しのびこむ||） - sich hineinschleichen.
-- 1:49:44 ==厄介==（||やっかい||） - lästig, schwierig; Ärger.
-- 1:51:06 ==留める==（||とめる||） - befestigen; anhalten; im Gedächtnis behalten.
-- 1:51:14 ==紡ぐ==（||つむぐ||） - spinnen; Worte/Geschichten weben.
-- 1:51:14 ==編む==（||あむ||） - stricken, flechten; zusammenstellen.
-- 1:51:19 ==みんなで紡いだ糸を編み込んであるからね== - „weil Fäden, die wir alle gesponnen haben, hineingeflochten sind“; 〜てある beschreibt den vorbereiteten Resultatzustand.
-- 1:52:31 ==とうとうやり遂げた== - „endlich hast du es geschafft“; やり遂げる = bis zum Ende durchziehen.
-- 1:52:34 ==遂げる==（||とげる||） - vollenden, erreichen.
-- 1:54:47 ==浅瀬==（||あさせ||） - seichte Stelle, Untiefe.
-- 1:56:43 ==覚悟はいいかい== - „bist du bereit?“; wörtlich: ist deine Entschlossenheit da?
-- 1:56:45 ==覚悟==（||かくご||） - Entschlossenheit; Bereitschaft, etwas Schweres zu tragen.
-- 1:58:20 ==振り向く==（||ふりむく||） - sich umdrehen, zurückblicken.
+- [0:25](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=25.196) ==やっぱり田舎ね== - „doch ziemlich ländlich“; gut für ein leicht abwertendes Ersturteil.
+- [0:29](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=29.617) ==住んで都==（||すんでみやこ||） - „Wo man wohnt, wird es heimisch“; Sprichwort für Sich-Einleben.
+- [0:30](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=30.902) ==住んで都にするしかないさ== - „man muss es sich eben wohnlich machen“; pragmatisch-resignierte Wendung.
+- [1:01](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=61.607) ==水切り==（||みずきり||） - Wasser abtropfen lassen
+- [1:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=63.677) ==初めてもらった花束が別れの花束なんて== - „ausgerechnet der erste Blumenstrauß ist einer zum Abschied“; なんて markiert emotionale Bewertung.
+- [1:05](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=65.591) ==花束==（||はなたば||） - Blumenstrauß.
+- [2:15](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=135.331) ==道を間違えたんじゃない？== - „haben wir uns nicht verfahren?“; 間違える als „sich irren/falsch nehmen“.
+- [2:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=155.087) ==四駆==（||よんく||） - Allradantrieb
+- [2:58](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=178.953) ==いい加減==（||いいかげん||） - genug, halbherzig, maßlos; in いい加減にして: „hör endlich auf“.
+- [2:59](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=179.967) ==いい加減にして！== - „Jetzt reicht’s!“; sehr alltagstaugliche Beschwerde.
+- [3:41](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=221.668) ==閉じ込める==（||とじこめる||） - einsperren, einschließen.
+- [3:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=224.212) ==吸い込む==（||すいこむ||） - einatmen, einsaugen.
+- [3:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=227.257) ==抜ける==（||ぬける||） - hinauskommen, entweichen; auch „fehlen“.
+- [4:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=240.228) ==渡る==（||わたる||） - hinübergehen, überqueren.
+- [5:28](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=328.374) ==案外==（||あんがい||） - unerwartet, überraschenderweise.
+- [6:12](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=372.568) ==残骸==（||ざんがい||） - Überreste, Trümmer.
+- [6:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=396.592) ==ここ なんだか不気味ね== - „irgendwie unheimlich hier“; なんだか für vages Gefühl.
+- [6:37](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=397.192) ==不気味==（||ぶきみ||） - unheimlich, gruselig.
+- [6:48](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=408.662) ==風鳴り==（||かざなり||） - Windgeräusch, Heulen des Windes
+- [14:39](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=879.007) ==湯屋==（||ゆや||） - Badehaus
+- [14:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=896.422) ==そなた== - du; altertümliche Anrede
+- [15:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=944.849) ==無理にでも食べないと消えちゃうぞ== - „du musst essen, selbst wenn es schwerfällt, sonst verschwindest du“; 〜ないと als Warnung.
+- [16:09](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=969.623) ==お父さんとお母さんを捜すの== - „ich suche meinen Vater und meine Mutter“; schlichtes Ziel mit の als erklärender Ton.
+- [16:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=987.141) ==解ける==（||とける||） - sich lösen; enträtselt werden; Zauber löst sich.
+- [17:05](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1025.278) ==伝統==（||でんとう||） - Tradition.
+- [17:18](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1038.44) ==もう大丈夫だよ。体が戻ったんだ== - „jetzt ist es gut, dein Körper ist zurück“; 戻る in märchenhafter, körperlicher Bedeutung.
+- [17:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1039.041) ==術==（||じゅつ||） - Technik, Kunstgriff, Zauber.
+- [17:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1056.309) ==所用==（||しょよう||） - Angelegenheit, Besorgung
+- [17:53](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1073.785) ==鈴==（||すず||） - Glöckchen, Schelle.
+- [18:33](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1113.996) ==琴==（||こと||） - japanische Zither/Koto.
+- [18:53](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1133.4) ==抜け出す==（||ぬけだす||） - entkommen, hinausschlüpfen
+- [19:09](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1149.89) ==騒ぐ==（||さわぐ||） - Lärm machen, Aufsehen erregen.
+- [19:12](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1152.176) ==裏==（||うら||） - Rückseite, Hinterseite, verborgenes Inneres.
+- [19:28](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1168.82) ==断られても粘るんだよ== - „auch wenn man dich abweist, bleib dran“; ても + 粘る.
+- [19:28](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1168.82) ==断る==（||ことわる||） - ablehnen, zurückweisen.
+- [19:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1178.4) ==仕向ける==（||しむける||） - dazu bringen, lenken
+- [19:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1184.46) ==耐える==（||たえる||） - aushalten, ertragen.
+- [19:45](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1185.063) ==つらくても耐えて機会を待つんだよ== - „auch wenn es hart ist, halte durch und warte auf die Gelegenheit“; sehr lernstarker Satz.
+- [22:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1337.528) ==大所帯==（||おおじょたい||） - großer Haushalt; große Gruppe/Belegschaft.
+- [22:49](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1369.372) ==機械==（||きかい||） - Maschine.
+- [23:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1420.34) ==鐘==（||かね||） - Glocke.
+- [25:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1510.4) ==こき使う==（||こきつかう||） - hart ausnutzen, herumscheuchen
+- [28:13](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1693.451) ==気まぐれ==（||きまぐれ||） - Laune, launenhaftes Verhalten
+- [28:23](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1703.623) ==石炭==（||せきたん||） - Kohle
+- [28:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1711.78) ==文句は言わないの== - „keine Beschwerden“; 文句を言う als feste Wendung.
+- [29:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1771.874) ==イモリ== - Molch
+- [29:33](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1773.059) ==黒焼き==（||くろやき||） - verkohltes/geröstetes Heilmittel; wörtlich „schwarz gebrannt“.
+- [29:33](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1773.276) ==上物==（||じょうもの||） - erstklassige Ware
+- [29:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1776.3) ==契約したからには働いてもらうよ== - „wenn du schon unterschrieben hast, wirst du arbeiten“; からには = wenn schon, dann.
+- [31:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1884.553) ==乗り継ぐ==（||のりつぐ||） - umsteigen
+- [31:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1884.692) ==継ぐ==（||つぐ||） - nachfolgen, übernehmen.
+- [31:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1907.159) ==宴==（||うたげ||） - Festmahl, Gelage.
+- [32:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1955.625) ==座敷==（||ざしき||） - Tatami-Zimmer; Gästezimmer.
+- [32:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1976.979) ==正直==（||しょうじき||） - ehrlich, offen
+- [33:53](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2033.19) ==呼吸==（||こきゅう||） - Atmung, Atem.
+- [35:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2138.641) ==頭==（||かしら||） - Kopf; Anführer; hier auch die drei Köpfe.
+- [36:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2195.614) ==八百万==（||やおよろず||） - unzählig, Myriaden; in 八百万の神 = zahllose Gottheiten.
+- [36:37](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2197.47) ==癒す==（||いやす||） - heilen, lindern, trösten.
+- [36:45](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2205.4) ==食い散らす==（||くいちらす||） - herumfressen, Essen verstreuen
+- [36:45](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2205.53) ==散る==（||ちる||） - zerstreuen, auseinanderfliegen; verblühen.
+- [36:49](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2209.07) ==報いる==（||むくいる||） - vergelten, belohnen, heimzahlen.
+- [36:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2211.314) ==報い==（||むくい||） - Vergeltung, Folge
+- [37:14](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2234.68) ==震える==（||ふるえる||） - zittern, beben.
+- [37:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2239.4) ==世話を焼く==（||せわをやく||） - sich kümmern, Fürsorge betreiben
+- [37:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2267.3) ==雇ってやってください== - „bitte stellen Sie sie ein“; やる kann herablassend/gewährend klingen.
+- [37:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2267.3) ==雇う==（||やとう||） - anstellen, beschäftigen.
+- [37:58](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2278.022) ==小娘==（||こむすめ||） - kleines Mädchen; abwertend „Göre“.
+- [38:02](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2282.93) ==穀潰し==（||ごくつぶし||） - Nichtsnutz, Esser ohne Nutzen.
+- [38:04](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2284.236) ==穀つぶし==（||ごくつぶし||） - Nichtsnutz, unnützer Esser
+- [39:26](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2366.076) ==契約書==（||けいやくしょ||） - Vertragsdokument.
+- [39:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2391.5) ==誓います== - „ich schwöre es“; formelle Selbstverpflichtung.
+- [39:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2391.5) ==誓う==（||ちかう||） - schwören, geloben.
+- [40:12](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2412.247) ==ぜいたく== - Luxus; verschwenderisch
+- [41:21](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2481.702) ==仰り==（||おっしゃり||） - Gesagtes; ehrerbietig für 言う
+- [41:32](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2492.515) ==かなわん== - unerträglich; nicht zu ertragen
+- [41:37](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2497.78) ==煮る==（||にる||） - kochen, schmoren.
+- [41:48](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2508.7) ==この子に適役だわ== - „dafür ist dieses Kind genau richtig“; 適役 für „passende Besetzung/Rolle“.
+- [41:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2511.216) ==適役==（||てきやく||） - passende Rolle/Besetzung; genau geeignet.
+- [41:55](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2515.04) ==埋まる==（||うまる||） - gefüllt sein, besetzt sein; begraben sein.
+- [42:18](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2538.29) ==油断==（||ゆだん||） - Unachtsamkeit; Nachlassen der Wachsamkeit.
+- [44:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2660.028) ==寝息==（||ねいき||） - Atem im Schlaf.
+- [44:32](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2672.624) ==吐息==（||といき||） - Seufzer, Atemhauch.
+- [48:57](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2937.17) ==名を奪われると帰り道が分からなくなる== - „wenn dir dein Name genommen wird, findest du den Weg zurück nicht mehr“; 奪う + Passiv.
+- [48:57](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2937.17) ==奪う==（||うばう||） - rauben, wegnehmen.
+- [49:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2964.632) ==飯==（||はん||） - Essen, Mahlzeit; Reis.
+- [52:11](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3131.341) ==和楽器==（||わがっき||） - traditionelles japanisches Musikinstrument.
+- [52:37](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3157.812) ==大湯番==（||おおゆばん||） - Leiter/Verantwortlicher des großen Bads.
+- [52:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3160.52) ==骨身を惜しまず働け== - „arbeite ohne dich zu schonen“; idiomatisch und hart.
+- [52:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3160.52) ==骨身を惜しまず==（||ほねみをおしまず||） - ohne sich zu schonen; mit voller Hingabe.
+- [53:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3183.88) ==濡れる==（||ぬれる||） - nass werden.
+- [55:23](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3323.407) ==春日様==（||かすがさま||） - Kasuga-Gottheit/Gast; höfliche Anrede.
+- [55:55](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3355.898) ==番台蛙==（||ばんだいがえる||） - Frosch am Badschalter; Badehaus-Figur.
+- [56:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3376.61) ==混む==（||こむ||） - überfüllt sein.
+- [56:42](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3402.731) ==干物==（||ひもの||） - getrockneter Fisch.
+- [56:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3403.68) ==濁る==（||にごる||） - trüb werden; getrübt sein.
+- [56:52](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3412.06) ==離す==（||はなす||） - loslassen, trennen.
+- [58:05](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3485.528) ==奥様==（||おくさま||） - Ehefrau/gnädige Frau; höfliche Anrede.
+- [58:08](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3488.318) ==特大==（||とくだい||） - extra groß, Übergröße.
+- [58:18](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3498.124) ==青蛙==（||あおがえる||） - Aogaeru; wörtlich „grüner Frosch“.
+- [58:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3507.41) ==迎える==（||むかえる||） - empfangen, abholen, willkommen heißen.
+- [58:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3523.63) ==初仕事だからって== - „nur weil es dein erster Job ist …“; だからって als Einwand.
+- [58:46](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3526.313) ==初仕事==（||はつしごと||） - erste Arbeit, erster Job.
+- [1:02:21](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3741.529) ==高価==（||こうか||） - teuer, kostbar.
+- [1:03:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3820.35) ==結ぶ==（||むすぶ||） - binden, knüpfen; verbinden.
+- [1:05:29](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3929.388) ==砂金==（||さきん||） - Goldstaub, Goldsand.
+- [1:05:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3936.75) ==噴き出す==（||ふきだす||） - herausspritzen, ausbrechen; loslachen.
+- [1:05:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3956.115) ==高笑い==（||たかわらい||） - lautes, triumphierendes Lachen.
+- [1:06:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3979.151) ==大儲け==（||おおもうけ||） - großer Gewinn, Riesengeschäft.
+- [1:06:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3987.404) ==拍手==（||はくしゅ||） - Applaus, Klatschen.
+- [1:06:41](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4001.042) ==宴会==（||えんかい||） - Bankett, Trink-/Festgesellschaft.
+- [1:08:30](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4110.319) ==床==（||ゆか||） - Fußboden.
+- [1:08:55](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4135.29) ==金がなくなったら戻れない== - „wenn das Gold weg ist, kannst du nicht zurück“; Bedingung + Potential.
+- [1:09:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4164.372) ==消灯==（||しょうとう||） - Licht aus; Nachtruhe.
+- [1:09:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4191.599) ==団子==（||だんご||） - Reiskloß, Kloß/Süßigkeit.
+- [1:11:25](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4285.619) ==歓声==（||かんせい||） - Jubelruf, Freudenschrei.
+- [1:11:42](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4302.456) ==不機嫌==（||ふきげん||） - schlecht gelaunt.
+- [1:12:46](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4366.449) ==龍==（||りゅう||） - Drache.
+- [1:14:42](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4482.763) ==大臣==（||だいじん||） - Minister; hochrangige Figur.
+- [1:14:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4494.378) ==情け==（||なさけ||） - Mitgefühl, Erbarmen.
+- [1:15:01](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4501.287) ==湧く==（||わく||） - hervorquellen; entstehen; aufkommen.
+- [1:16:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4576.013) ==無礼==（||ぶれい||） - Unhöflichkeit, Respektlosigkeit.
+- [1:19:23](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4763.08) ==欲を出すからだ== - „das kommt davon, dass du gierig wirst“; Ursache/Vorwurf.
+- [1:19:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4764) ==欲==（||よく||） - Gier, Verlangen.
+- [1:19:28](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4768.017) ==余計==（||よけい||） - unnötig, überflüssig; noch mehr.
+- [1:19:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4771.705) ==敷物==（||しきもの||） - Teppich, Matte, Unterlage.
+- [1:21:04](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4864.845) ==珍しい==（||めずらしい||） - selten, ungewöhnlich.
+- [1:21:30](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4890.29) ==折る==（||おる||） - brechen, knicken, falten.
+- [1:21:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4904.362) ==壮大==（||そうだい||） - großartig, gewaltig, monumental.
+- [1:22:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4963.671) ==銭婆==（||ぜにーば||） - Zeniba; Yubabas Zwillingsschwester.
+- [1:23:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4980.246) ==透ける==（||すける||） - durchsichtig sein, durchscheinen.
+- [1:23:04](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4984.582) ==区別==（||くべつ||） - Unterscheidung.
+- [1:23:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5018.25) ==これは内緒だよ== - „das bleibt unter uns“; super nützliche Alltagswendung.
+- [1:23:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5020.162) ==内緒==（||ないしょ||） - Geheimnis; vertraulich.
+- [1:23:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5020.17) ==裂く==（||さく||） - zerreißen, aufschlitzen.
+- [1:23:48](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5028.027) ==双子==（||ふたご||） - Zwillinge.
+- [1:24:01](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5041.249) ==私の所から大事なハンコを盗み出した== - „er hat bei mir ein wichtiges Siegel gestohlen“; 〜の所から meint aus dem Besitz/Bereich von jemandem, 盗み出す ist „heimlich herausstehlen“.
+- [1:24:11](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5051.032) ==愚か==（||おろか||） - dumm, töricht.
+- [1:24:15](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5055.75) ==欲深い==（||よくぶかい||） - gierig.
+- [1:24:33](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5073.147) ==振動音==（||しんどうおん||） - Vibrationsgeräusch.
+- [1:24:42](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5082.215) ==連中==（||れんちゅう||） - die Leute, die Bande; oft abwertend.
+- [1:24:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5087.336) ==神秘的==（||しんぴてき||） - mystisch, geheimnisvoll.
+- [1:24:48](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5088.421) ==牙==（||きば||） - Fangzahn, Reißzahn.
+- [1:26:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5170.65) ==荒い==（||あらい||） - grob, rau, wild.
+- [1:26:22](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5182.348) ==効く==（||きく||） - wirken, effektiv sein.
+- [1:27:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5276.769) ==契約印==（||けいやくいん||） - Vertragssiegel.
+- [1:28:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5297.306) ==傷==（||きず||） - Wunde, Kratzer; Schaden.
+- [1:30:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5444.469) ==沼==（||ぬま||） - Sumpf, Moor, Teich.
+- [1:30:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5444.838) ==底==（||そこ||） - Boden, Grund, Tiefe.
+- [1:30:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5454.787) ==近頃==（||ちかごろ||） - in letzter Zeit, heutzutage.
+- [1:31:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5498.06) ==抑える==（||おさえる||） - unterdrücken, festhalten, kontrollieren.
+- [1:31:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5503.53) ==暴れたって無駄だよ== - „es bringt nichts, wenn du randalierst“; 〜たって als konzessiv.
+- [1:31:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5503.53) ==暴れる==（||あばれる||） - toben, wüten, randalieren.
+- [1:32:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5530.158) ==大損==（||おおぞん||） - großer Verlust.
+- [1:32:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5540.77) ==存じる==（||ぞんじる||） - bescheiden: wissen, kennen.
+- [1:32:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5558.382) ==冷笑==（||れいしょう||） - spöttisches Lachen.
+- [1:42:09](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6129.19) ==儲ける==（||もうける||） - Gewinn machen, verdienen.
+- [1:42:22](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6142.67) ==見捨てるわけにはいかない== - „ich kann ihn/sie nicht einfach im Stich lassen“; わけにはいかない.
+- [1:42:22](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6142.67) ==見捨てる==（||みすてる||） - im Stich lassen, aufgeben.
+- [1:42:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6158.93) ==替える==（||かえる||） - austauschen, ersetzen.
+- [1:42:45](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6165.65) ==偉い==（||えらい||） - großartig, bedeutend; brav.
+- [1:44:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6296.044) ==性悪==（||しょうわる||） - bösartig, gemein; schlechte Natur.
+- [1:45:15](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6315.193) ==八つ裂き==（||やつざき||） - in Stücke reißen; brutale Drohung.
+- [1:48:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6534.89) ==決して踏んではならない== - „du darfst es auf keinen Fall betreten“; 決して + ならない.
+- [1:48:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6534.89) ==踏む==（||ふむ||） - treten, betreten.
+- [1:49:04](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6544.852) ==操る==（||あやつる||） - steuern, manipulieren.
+- [1:49:04](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6544.98) ==忍び込む==（||しのびこむ||） - sich hineinschleichen.
+- [1:49:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6584.673) ==厄介==（||やっかい||） - lästig, schwierig; Ärger.
+- [1:51:06](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6666.4) ==留める==（||とめる||） - befestigen; anhalten; im Gedächtnis behalten.
+- [1:51:14](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6674.74) ==紡ぐ==（||つむぐ||） - spinnen; Worte/Geschichten weben.
+- [1:51:14](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6674.74) ==編む==（||あむ||） - stricken, flechten; zusammenstellen.
+- [1:51:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6679.961) ==みんなで紡いだ糸を編み込んであるからね== - „weil Fäden, die wir alle gesponnen haben, hineingeflochten sind“; 〜てある beschreibt den vorbereiteten Resultatzustand.
+- [1:52:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6751.32) ==とうとうやり遂げた== - „endlich hast du es geschafft“; やり遂げる = bis zum Ende durchziehen.
+- [1:52:34](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6754.532) ==遂げる==（||とげる||） - vollenden, erreichen.
+- [1:54:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6887.328) ==浅瀬==（||あさせ||） - seichte Stelle, Untiefe.
+- [1:56:43](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=7003.15) ==覚悟はいいかい== - „bist du bereit?“; wörtlich: ist deine Entschlossenheit da?
+- [1:56:45](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=7005.315) ==覚悟==（||かくご||） - Entschlossenheit; Bereitschaft, etwas Schweres zu tragen.
+- [1:58:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=7100.25) ==振り向く==（||ふりむく||） - sich umdrehen, zurückblicken.
 
 ## Kenn ich schon mehr oder weniger
 
 
 
-- 00:24 ==||田舎||==（||いなか||） - Land, Provinz; ländliche Gegend.
-- 0:26 ==隣町==（||となりまち||） - Nachbarstadt, Nachbarort.
-- 0:59 ==大丈夫==（||だいじょうぶ||） - alles okay; in Ordnung.
-- 1:03 ==別れ==（||わかれ||） - Abschied, Trennung.
-- 1:07 ==誕生日==（||たんじょうび||） - Geburtstag.
-- 1:15 ==窓==（||まど||） - Fenster.
-- 1:18 ==忙しい==（||いそがしい||） - beschäftigt, viel los.
-- 2:15 ==迷う==（||まよう||） - sich verirren; unschlüssig sein.
-- 2:35 ==座る==（||すわる||） - sich setzen.
-- 3:17 ==建物==（||たてもの||） - Gebäude.
-- 3:59 ==渡す==（||わたす||） - übergeben
-- 04:25 ==||困る||==（||こまる||） - in Schwierigkeiten sein; nicht wissen, was tun.
-- 6:20 ==計画==（||けいかく||） - Planung, Projekt
-- 7:25 ==不思議==（||ふしぎ||） - seltsam, geheimnisvoll; Wunder.
-- 7:31 ==匂い==（||におい||） - Geruch, Duft.
-- 8:41 ==払う==（||はらう||） - bezahlen; wegwischen/vertreiben.
-- 8:56 ==怒る==（||おこる||） - wütend werden.
-- 9:02 ==財布==（||さいふ||） - Portemonnaie.
-- 9:10 ==骨==（||ほね||） - Knochen.
-- 11:17 ==驚く==（||おどろく||） - erschrecken, überrascht sein.
-- 11:27 ==静か==（||しずか||） - still, ruhig.
-- 13:24 ==夢==（||ゆめ||） - Traum.
-- 15:00 ==消える==（||きえる||） - verschwinden
-- 15:44 ==必ず==（||かならず||） - unbedingt, ganz sicher.
-- 15:44 ==無理==（||むり||） - unmöglich; zu viel; gezwungen.
-- 16:09 ==捜す==（||さがす||） - suchen, vermisste Person/Sache suchen.
-- 17:16 ==吐く==（||はく||） - ausspucken, erbrechen; äußern.
-- 18:55 ==願う==（||ねがう||） - wünschen, bitten.
-- 19:00 ==生きのびる==（||いきのびる||） - überleben
-- 19:01 ==両親==（||りょうしん||） - Eltern
-- 19:12 ==階段==（||かいだん||） - Treppe
-- 19:16 ==入口==（||いりぐち||） - Eingang
-- 19:17 ==ボイラー室==（||ボイラーしつ||） - Heiz-/Kesselraum
-- 19:20 ==||釜爺||==（||かまじい||） - Kamaji; wörtlich etwa „Kessel-Opa“.
-- 19:26 ==働く==（||はたらく||） - arbeiten.
-- 19:26 ==ここで働かせてください== - „bitte lassen Sie mich hier arbeiten“; 使役 + ください als höfliche Bitte.
-- 19:26 ==||頼む||==（||たのむ||） - bitten; sich verlassen auf.
-- 19:31 ==||湯婆婆||==（||ゆばーば||） - Yubaba; Name der Hexe im Badehaus.
-- 19:36 ==魔女==（||まじょ||） - Hexe.
-- 19:38 ==支配==（||しはい||） - Herrschaft, Kontrolle.
-- 19:46 ==機会==（||きかい||） - Gelegenheit, Chance.
-- 19:54 ==忘れる==（||わすれる||） - vergessen.
-- 25:11 ==風呂==（||ふろ||） - Bad, Badewanne.
-- 28:18 ==魔法==（||まほう||） - Magie, Zauber.
-- 28:31 ==文句==（||もんく||） - Beschwerde, Einwand; Gemecker.
-- 28:46 ==器==（||うつわ||） - Gefäß, Schale; auch Fähigkeit/Format einer Person.
-- 28:49 ==休憩==（||きゅうけい||） - Pause.
-- 29:11 ==大騒ぎ==（||おおさわぎ||） - großer Aufruhr, Riesentrubel.
-- 29:13 ==孫==（||まご||） - Enkelkind.
-- 29:21 ==連れてくる==（||つれてくる||） - jemanden mitbringen.
-- 29:27 ==||殺す||==（||ころす||） - töten.
-- 29:36 ==||契約||==（||けいやく||） - Vertrag, Vertragsabschluss.
-- 29:39 ==運を試す==（||うんをためす||） - sein Glück versuchen
-- 29:39 ==契約==（||けいやく||） - Vertrag
-- 29:40 ==試す==（||ためす||） - ausprobieren, testen.
-- 30:02 ==靴下==（||くつした||） - Socken.
-- 30:34 ==てっぺん== - Spitze, ganz oben
-- 30:35 ==奥==（||おく||） - Inneres, hinterer Teil; tief drin.
-- 31:44 ==探す==（||さがす||） - suchen.
-- 32:27 ==到着==（||とうちゃく||） - Ankunft.
-- 32:53 ==隠れる==（||かくれる||） - sich verstecken.
-- 35:01 ==娘==（||むすめ||） - Tochter; Mädchen.
-- 36:38 ==疲れ==（||つかれ||） - Müdigkeit, Erschöpfung.
-- 37:20 ==焼く==（||やく||） - braten, backen, verbrennen
-- 37:51 ==泣く==（||なく||） - weinen.
-- 37:51 ==甘い==（||あまい||） - süß; nachsichtig; naiv.
-- 38:02 ==増える==（||ふえる||） - zunehmen, mehr werden.
-- 38:03 ==以上==（||いじょう||） - mehr als; ab hier; damit genug.
-- 38:25 ==坊==（||ぼう||） - kleiner Junge; Kind; Yubabas Baby als Name/Anrede.
-- 40:22 ==千==（||せん||） - Sen; Chihiros neuer Name, wörtlich „tausend“.
-- 40:32 ==呼ぶ==（||よぶ||） - rufen, nennen.
-- 41:19 ==仰る==（||おっしゃる||） - höflich: sagen.
-- 41:44 ==押す==（||おす||） - drücken, schieben.
-- 41:47 ==欲しい==（||ほしい||） - haben wollen, wünschen.
-- 41:51 ==不満==（||ふまん||） - Unzufriedenheit, Beschwerdegefühl.
-- 42:35 ==寝る==（||ねる||） - schlafen.
-- 42:40 ==洗う==（||あらう||） - waschen.
-- 42:41 ==腹==（||はら||） - Bauch; auch inneres Gefühl/Absicht.
-- 44:42 ==布団==（||ふとん||） - japanisches Bettzeug/Futon.
-- 48:37 ==捨てる==（||すてる||） - wegwerfen, aufgeben.
-- 48:39 ==要る==（||いる||） - brauchen, nötig sein.
-- 49:17 ==覚える==（||おぼえる||） - sich merken; lernen; fühlen.
-- 52:40 ==命令==（||めいれい||） - Befehl, Anordnung.
-- 53:31 ==準備==（||じゅんび||） - Vorbereitung.
-- 53:58 ==笑う==（||わらう||） - lachen.
-- 54:06 ==汚れの神様だ== - „ein Gott der Verschmutzung“; の zur Klassifizierung.
-- 54:08 ==汚れ==（||よごれ||） - Schmutz, Verschmutzung.
-- 54:09 ==専門==（||せんもん||） - Fachgebiet; spezialisiert auf.
-- 54:20 ==札==（||ふだ||） - Marke, Schild, Zettel; hier Badmarke.
-- 54:47 ==込む==（||こむ||） - hineingehen; voll/gedrängt werden; Verbzusatz für „hinein-“.
-- 56:10 ==良い==（||いい||） - gut.
-- 58:35 ==訳==（||わけ||） - Grund, Umstand; Sinn; „das heißt…“.
-- 59:07 ==失礼==（||しつれい||） - Unhöflichkeit; Entschuldigung/Verabschiedung.
-- 59:41 ==案内==（||あんない||） - Führung, Wegweisung; jemanden führen.
-- 1:01:17 ==壁==（||かべ||） - Wand.
-- 1:02:56 ==最高じゃないか== - „ist doch großartig!“; じゃないか als bestätigender Ausruf.
-- 1:02:56 ==最高==（||さいこう||） - das Beste, großartig.
-- 1:02:58 ==刺す==（||さす||） - stechen, hineinstechen.
-- 01:07:35 ==||降る||==（||ふる||） - fallen, regnen/schneien.
-- 1:07:40 ==絶対==（||ぜったい||） - absolut, auf keinen Fall/ unbedingt.
-- 1:08:56 ==金==（||きん||） - Gold.
-- 1:09:23 ==過ぎる==（||すぎる||） - vorübergehen; zu viel sein.
-- 1:09:29 ==減る==（||へる||） - abnehmen, weniger werden.
-- 1:11:10 ==召し上がる==（||めしあがる||） - höflich: essen/trinken.
-- 01:11:13 ==||料理||==（||りょうり||） - Gericht, Essen; kochen.
-- 01:19:33 ==||片付ける||==（||かたづける||） - aufräumen, erledigen.
-- 1:20:47 ==痛い==（||いたい||） - schmerzhaft; weh tun.
-- 1:22:03 ==湯==（||ゆ||） - heißes Wasser; Bad.
-- 1:24:00 ==盗む==（||ぬすむ||） - stehlen.
-- 01:24:16 ==||若者||==（||わかもの||） - junger Mensch.
-- 1:27:21 ==逃げる==（||にげる||） - fliehen, entkommen.
-- 1:28:36 ==突然==（||とつぜん||） - plötzlich.
-- 1:29:08 ==謝る==（||あやまる||） - sich entschuldigen.
-- 1:30:03 ==友達==（||ともだち||） - Freund, Freundin.
-- 1:30:36 ==切符==（||きっぷ||） - Fahrkarte, Ticket.
-- 1:30:39 ==残る==（||のこる||） - übrig bleiben, bleiben.
-- 1:31:13 ==愛==（||あい||） - Liebe.
-- 1:32:16 ==汚い==（||きたない||） - schmutzig; gemein.
-- 1:34:57 ==許す==（||ゆるす||） - verzeihen; erlauben.
-- 1:39:20 ==不安==（||ふあん||） - Angst, Sorge, Unsicherheit.
-- 1:41:46 ==闇==（||やみ||） - Dunkelheit; Schattenseite.
-- 1:42:19 ==種==（||たね||） - Samen; Ursache; Art.
-- 1:46:34 ==肩==（||かた||） - Schulter.
-- 01:50:17 ==||遅い||==（||おそい||） - spät; langsam.
-- 01:50:21 ==||手伝う||==（||てつだう||） - helfen.
-- 1:55:54 ==約束==（||やくそく||） - Versprechen, Verabredung.
-- 1:55:54 ==約束だよ== - „versprochen“; kurz, emotional, sehr wiedererkennbar.
-- 01:56:00 ==||簡単||==（||かんたん||） - einfach, unkompliziert.
-- 1:56:16 ==呪い==（||のろい||） - Fluch.
+- [00:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=24.028) ==||田舎||==（||いなか||） - Land, Provinz; ländliche Gegend.
+- [0:26](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=26.823) ==隣町==（||となりまち||） - Nachbarstadt, Nachbarort.
+- [0:59](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=59.672) ==大丈夫==（||だいじょうぶ||） - alles okay; in Ordnung.
+- [1:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=63.677) ==別れ==（||わかれ||） - Abschied, Trennung.
+- [1:07](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=67.514) ==誕生日==（||たんじょうび||） - Geburtstag.
+- [1:15](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=75.897) ==窓==（||まど||） - Fenster.
+- [1:18](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=78.733) ==忙しい==（||いそがしい||） - beschäftigt, viel los.
+- [2:15](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=135.331) ==迷う==（||まよう||） - sich verirren; unschlüssig sein.
+- [2:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=155.769) ==座る==（||すわる||） - sich setzen.
+- [3:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=197.018) ==建物==（||たてもの||） - Gebäude.
+- [3:59](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=239.4) ==渡す==（||わたす||） - übergeben
+- [04:25](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=265.77) ==||困る||==（||こまる||） - in Schwierigkeiten sein; nicht wissen, was tun.
+- [6:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=380.306) ==計画==（||けいかく||） - Planung, Projekt
+- [7:25](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=445.141) ==不思議==（||ふしぎ||） - seltsam, geheimnisvoll; Wunder.
+- [7:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=451.606) ==匂い==（||におい||） - Geruch, Duft.
+- [8:41](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=521.342) ==払う==（||はらう||） - bezahlen; wegwischen/vertreiben.
+- [8:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=536.023) ==怒る==（||おこる||） - wütend werden.
+- [9:02](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=542.447) ==財布==（||さいふ||） - Portemonnaie.
+- [9:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=550.215) ==骨==（||ほね||） - Knochen.
+- [11:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=677.206) ==驚く==（||おどろく||） - erschrecken, überrascht sein.
+- [11:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=687.258) ==静か==（||しずか||） - still, ruhig.
+- [13:24](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=804.542) ==夢==（||ゆめ||） - Traum.
+- [15:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=900.4) ==消える==（||きえる||） - verschwinden
+- [15:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=944.849) ==必ず==（||かならず||） - unbedingt, ganz sicher.
+- [15:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=944.849) ==無理==（||むり||） - unmöglich; zu viel; gezwungen.
+- [16:09](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=969.623) ==捜す==（||さがす||） - suchen, vermisste Person/Sache suchen.
+- [17:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1036.44) ==吐く==（||はく||） - ausspucken, erbrechen; äußern.
+- [18:55](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1135.62) ==願う==（||ねがう||） - wünschen, bitten.
+- [19:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1140.283) ==生きのびる==（||いきのびる||） - überleben
+- [19:01](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1141.4) ==両親==（||りょうしん||） - Eltern
+- [19:12](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1152.4) ==階段==（||かいだん||） - Treppe
+- [19:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1156.4) ==入口==（||いりぐち||） - Eingang
+- [19:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1157.894) ==ボイラー室==（||ボイラーしつ||） - Heiz-/Kesselraum
+- [19:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1160.914) ==||釜爺||==（||かまじい||） - Kamaji; wörtlich etwa „Kessel-Opa“.
+- [19:26](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1166.32) ==働く==（||はたらく||） - arbeiten.
+- [19:26](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1166.32) ==ここで働かせてください== - „bitte lassen Sie mich hier arbeiten“; 使役 + ください als höfliche Bitte.
+- [19:26](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1166.92) ==||頼む||==（||たのむ||） - bitten; sich verlassen auf.
+- [19:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1171.633) ==||湯婆婆||==（||ゆばーば||） - Yubaba; Name der Hexe im Badehaus.
+- [19:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1176.25) ==魔女==（||まじょ||） - Hexe.
+- [19:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1178.569) ==支配==（||しはい||） - Herrschaft, Kontrolle.
+- [19:46](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1186.398) ==機会==（||きかい||） - Gelegenheit, Chance.
+- [19:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1194.68) ==忘れる==（||わすれる||） - vergessen.
+- [25:11](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1511.806) ==風呂==（||ふろ||） - Bad, Badewanne.
+- [28:18](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1698.582) ==魔法==（||まほう||） - Magie, Zauber.
+- [28:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1711.78) ==文句==（||もんく||） - Beschwerde, Einwand; Gemecker.
+- [28:46](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1726.187) ==器==（||うつわ||） - Gefäß, Schale; auch Fähigkeit/Format einer Person.
+- [28:49](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1729.38) ==休憩==（||きゅうけい||） - Pause.
+- [29:11](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1751.363) ==大騒ぎ==（||おおさわぎ||） - großer Aufruhr, Riesentrubel.
+- [29:13](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1753.28) ==孫==（||まご||） - Enkelkind.
+- [29:21](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1761.25) ==連れてくる==（||つれてくる||） - jemanden mitbringen.
+- [29:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1767.478) ==||殺す||==（||ころす||） - töten.
+- [29:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1776.904) ==||契約||==（||けいやく||） - Vertrag, Vertragsabschluss.
+- [29:39](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1779.4) ==運を試す==（||うんをためす||） - sein Glück versuchen
+- [29:39](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1779.545) ==契約==（||けいやく||） - Vertrag
+- [29:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1780.35) ==試す==（||ためす||） - ausprobieren, testen.
+- [30:02](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1802.25) ==靴下==（||くつした||） - Socken.
+- [30:34](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1834.524) ==てっぺん== - Spitze, ganz oben
+- [30:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1835.235) ==奥==（||おく||） - Inneres, hinterer Teil; tief drin.
+- [31:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1904.85) ==探す==（||さがす||） - suchen.
+- [32:27](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1947.533) ==到着==（||とうちゃく||） - Ankunft.
+- [32:53](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=1973.33) ==隠れる==（||かくれる||） - sich verstecken.
+- [35:01](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2101.09) ==娘==（||むすめ||） - Tochter; Mädchen.
+- [36:38](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2198.075) ==疲れ==（||つかれ||） - Müdigkeit, Erschöpfung.
+- [37:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2240.1) ==焼く==（||やく||） - braten, backen, verbrennen
+- [37:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2271.13) ==泣く==（||なく||） - weinen.
+- [37:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2271.13) ==甘い==（||あまい||） - süß; nachsichtig; naiv.
+- [38:02](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2282.93) ==増える==（||ふえる||） - zunehmen, mehr werden.
+- [38:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2283.854) ==以上==（||いじょう||） - mehr als; ab hier; damit genug.
+- [38:25](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2305.641) ==坊==（||ぼう||） - kleiner Junge; Kind; Yubabas Baby als Name/Anrede.
+- [40:22](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2422.95) ==千==（||せん||） - Sen; Chihiros neuer Name, wörtlich „tausend“.
+- [40:32](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2432.34) ==呼ぶ==（||よぶ||） - rufen, nennen.
+- [41:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2479.05) ==仰る==（||おっしゃる||） - höflich: sagen.
+- [41:44](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2504.41) ==押す==（||おす||） - drücken, schieben.
+- [41:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2507.33) ==欲しい==（||ほしい||） - haben wollen, wünschen.
+- [41:51](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2511.25) ==不満==（||ふまん||） - Unzufriedenheit, Beschwerdegefühl.
+- [42:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2555.37) ==寝る==（||ねる||） - schlafen.
+- [42:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2560.84) ==洗う==（||あらう||） - waschen.
+- [42:41](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2561.438) ==腹==（||はら||） - Bauch; auch inneres Gefühl/Absicht.
+- [44:42](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2682.71) ==布団==（||ふとん||） - japanisches Bettzeug/Futon.
+- [48:37](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2917.49) ==捨てる==（||すてる||） - wegwerfen, aufgeben.
+- [48:39](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2919.45) ==要る==（||いる||） - brauchen, nötig sein.
+- [49:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=2957.78) ==覚える==（||おぼえる||） - sich merken; lernen; fühlen.
+- [52:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3160.52) ==命令==（||めいれい||） - Befehl, Anordnung.
+- [53:31](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3211.45) ==準備==（||じゅんび||） - Vorbereitung.
+- [53:58](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3238.51) ==笑う==（||わらう||） - lachen.
+- [54:06](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3246.02) ==汚れの神様だ== - „ein Gott der Verschmutzung“; の zur Klassifizierung.
+- [54:08](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3248.094) ==汚れ==（||よごれ||） - Schmutz, Verschmutzung.
+- [54:09](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3249.014) ==専門==（||せんもん||） - Fachgebiet; spezialisiert auf.
+- [54:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3260.887) ==札==（||ふだ||） - Marke, Schild, Zettel; hier Badmarke.
+- [54:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3287.31) ==込む==（||こむ||） - hineingehen; voll/gedrängt werden; Verbzusatz für „hinein-“.
+- [56:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3370.11) ==良い==（||いい||） - gut.
+- [58:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3515.933) ==訳==（||わけ||） - Grund, Umstand; Sinn; „das heißt…“.
+- [59:07](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3547.74) ==失礼==（||しつれい||） - Unhöflichkeit; Entschuldigung/Verabschiedung.
+- [59:41](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3581.466) ==案内==（||あんない||） - Führung, Wegweisung; jemanden führen.
+- [1:01:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3677.74) ==壁==（||かべ||） - Wand.
+- [1:02:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3776.51) ==最高じゃないか== - „ist doch großartig!“; じゃないか als bestätigender Ausruf.
+- [1:02:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3776.51) ==最高==（||さいこう||） - das Beste, großartig.
+- [1:02:58](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=3778.89) ==刺す==（||さす||） - stechen, hineinstechen.
+- [01:07:35](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4055.973) ==||降る||==（||ふる||） - fallen, regnen/schneien.
+- [1:07:40](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4060.34) ==絶対==（||ぜったい||） - absolut, auf keinen Fall/ unbedingt.
+- [1:08:56](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4136.1) ==金==（||きん||） - Gold.
+- [1:09:23](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4163.77) ==過ぎる==（||すぎる||） - vorübergehen; zu viel sein.
+- [1:09:29](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4169.65) ==減る==（||へる||） - abnehmen, weniger werden.
+- [1:11:10](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4270.71) ==召し上がる==（||めしあがる||） - höflich: essen/trinken.
+- [01:11:13](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4273.857) ==||料理||==（||りょうり||） - Gericht, Essen; kochen.
+- [01:19:33](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4773.481) ==||片付ける||==（||かたづける||） - aufräumen, erledigen.
+- [1:20:47](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4847.37) ==痛い==（||いたい||） - schmerzhaft; weh tun.
+- [1:22:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=4923.86) ==湯==（||ゆ||） - heißes Wasser; Bad.
+- [1:24:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5040.65) ==盗む==（||ぬすむ||） - stehlen.
+- [01:24:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5056.347) ==||若者||==（||わかもの||） - junger Mensch.
+- [1:27:21](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5241.43) ==逃げる==（||にげる||） - fliehen, entkommen.
+- [1:28:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5316.353) ==突然==（||とつぜん||） - plötzlich.
+- [1:29:08](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5348.25) ==謝る==（||あやまる||） - sich entschuldigen.
+- [1:30:03](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5403.3) ==友達==（||ともだち||） - Freund, Freundin.
+- [1:30:36](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5436.34) ==切符==（||きっぷ||） - Fahrkarte, Ticket.
+- [1:30:39](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5439.25) ==残る==（||のこる||） - übrig bleiben, bleiben.
+- [1:31:13](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5473.46) ==愛==（||あい||） - Liebe.
+- [1:32:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5536.6) ==汚い==（||きたない||） - schmutzig; gemein.
+- [1:34:57](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5697.3) ==許す==（||ゆるす||） - verzeihen; erlauben.
+- [1:39:20](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=5960.684) ==不安==（||ふあん||） - Angst, Sorge, Unsicherheit.
+- [1:41:46](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6106.229) ==闇==（||やみ||） - Dunkelheit; Schattenseite.
+- [1:42:19](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6139.709) ==種==（||たね||） - Samen; Ursache; Art.
+- [1:46:34](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6394.88) ==肩==（||かた||） - Schulter.
+- [01:50:17](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6617.24) ==||遅い||==（||おそい||） - spät; langsam.
+- [01:50:21](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6621.118) ==||手伝う||==（||てつだう||） - helfen.
+- [1:55:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6954.69) ==約束==（||やくそく||） - Versprechen, Verabredung.
+- [1:55:54](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6954.69) ==約束だよ== - „versprochen“; kurz, emotional, sehr wiedererkennbar.
+- [01:56:00](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6960.958) ==||簡単||==（||かんたん||） - einfach, unkompliziert.
+- [1:56:16](https://local-media.invalid/%2Flocal-media%2Fd751be4e7f04d77b6d9d80d6.mp4?t=6976.79) ==呪い==（||のろい||） - Fluch.
 %%
 ## Links
 Prev::
@@ -344,7 +345,7 @@ Friend::
 ## Tags
 #japanese #subtitle #media
 
-- 01:16
+- [01:16](/local-media/d751be4e7f04d77b6d9d80d6.mp4#t=01:16.91)
 
 ## Lernschnitt-Übersicht
 

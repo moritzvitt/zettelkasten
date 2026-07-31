@@ -12,7 +12,6 @@ Diese Seite sammelt die Zettel aus diesem Themenbereich.
 
 ## Notizen
 
-- [[tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?|How much do Japanese Girls Cheat?]] - ![](https://www.youtube.com/watch?v=b22jxhg0OVo#as=audio) Lernliste - [0:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=0#t=00:00.08) ==浮気してる方==（||うわきしてるかた||） - jemand, der fremdgeht; `方` hier hoeflicher fuer Person -
 - [[tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle|Howl's Moving Castle]] - Howl's Moving Castle (2004).mp4 Lernliste - 4:52 ==髭面==（||ひげづら||） - bärtiges Gesicht, unrasiertes Gesichtw - 5:22 ==ジェザーリ== - Cesari/Name des Ladens*❗️* - 5:50 ==巻き込む==（||まきこむ||） - hineinziehen, verwickeln - 6:48 ==引きつける
 - [[tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service|Kikis Delivery Service]] - Lernliste - 0:30 ==今夕==（||こんゆう||） - heute Abend; gehobener als 今夜 - 0:31 ==西北西==（||せいほくせい||） - Westnordwest - 0:33 ==風力==（||ふうりょく||） - Windstärke - 1:32 ==絶好==（||ぜっこう||） - ideal, ausgezeichnet passend - 1:58 ==出かけるって魔女の修
 - [[tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind|Nausicaa Of The Valley Of The Wind]] - Lernliste - 1:00 ==また村が一つ死んだ== - "wieder ist ein Dorf gestorben"; starke, knappe Weltbeschreibung - 1:35 ==ここもじき腐海に沈む== - "auch hier wird bald alles in der Fukai versinken"; `じき` = bald - 1:35 ==じき== - bald, in Kürze - 1

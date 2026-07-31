@@ -34,6 +34,6 @@ I got the whole idea for this "Digital Garden" from [Jacky Zhao](https://jzhao.x
 > [[tea-garden/personal/other/fantasy|Fantasy]]
 >
 
-The [[purpose|purpose]] behind this place.   
-[[tea-garden/foundation/purpose#Humanity|What makes us human]].   
+The [[tea-garden/purpose|purpose]] behind this place.   
+[[tea-garden/purpose#Humanity|What makes us human]].   
 [[tea-garden/personal/about-me|About me]]. [[tea-garden/job-related/organisational-stuff,-future-plans.|🔖]]

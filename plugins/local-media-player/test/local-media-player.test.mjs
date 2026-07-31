@@ -23,7 +23,7 @@ media: "[[Ocean Waves (1993) [1080p].mp4]]"
   )
 })
 
-test("injects a player for a bracketed Howl media filename", () => {
+test("does not inject a player from frontmatter alone", () => {
   const mediaRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-player-"))
   const noteDir = path.join(
     mediaRoot,
@@ -38,7 +38,10 @@ test("injects a player for a bracketed Howl media filename", () => {
   fs.writeFileSync(path.join(noteDir, mediaName), "")
 
   try {
-    const plugin = LocalMediaPlayer({ mediaRoot })
+    const plugin = LocalMediaPlayer({
+      mediaRoot,
+      aliasManifest: path.join(mediaRoot, "missing-alias-manifest.json"),
+    })
     const transformer = plugin.htmlPlugins()[0]()
     const tree = {
       type: "root",
@@ -52,13 +55,122 @@ test("injects a player for a bracketed Howl media filename", () => {
       },
     })
 
-    assert.equal(tree.children[0]?.tagName, "figure")
-    assert.match(
-      tree.children[0]?.children[0]?.properties?.src ?? "",
-      /Howl%27s%20Moving%20Castle%20%282004%29%20%5BBluRay%5D%20%5B1080p%5D\.mp4$/,
-    )
+    assert.deepEqual(tree.children, [])
   } finally {
     fs.rmSync(mediaRoot, { recursive: true, force: true })
+  }
+})
+
+test("marks direct media timestamp links and reuses the Markdown video player", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-markdown-player-"))
+  const mediaPath = path.join(fixtureRoot, "Private Movie.mp4")
+  const manifestPath = path.join(fixtureRoot, "local-media-aliases.json")
+  const alias = "/local-media/0123456789abcdef01234567.mp4"
+  fs.writeFileSync(mediaPath, "video")
+  fs.writeFileSync(manifestPath, JSON.stringify({ version: 1, aliases: { [alias]: mediaPath } }))
+
+  try {
+    const plugin = LocalMediaPlayer({ aliasManifest: manifestPath })
+    const transformer = plugin.htmlPlugins()[0]()
+    const video = {
+      type: "element",
+      tagName: "video",
+      properties: { src: alias, controls: true },
+      children: [],
+    }
+    const audio = {
+      type: "element",
+      tagName: "audio",
+      properties: { src: alias, controls: true },
+      children: [],
+    }
+    const timestamp = {
+      type: "element",
+      tagName: "a",
+      properties: { href: `${alias}#t292` },
+      children: [{ type: "text", value: "4:52" }],
+    }
+    const decimalTimestamp = {
+      type: "element",
+      tagName: "a",
+      properties: { href: `${alias}?t=466.438` },
+      children: [{ type: "text", value: "7:46" }],
+    }
+    const tree = { type: "root", children: [video, audio, timestamp, decimalTimestamp] }
+
+    transformer(tree, {
+      data: {
+        filePath: path.join(fixtureRoot, "Published.md"),
+        frontmatter: { media: alias },
+      },
+    })
+
+    assert.equal(tree.children.length, 4)
+    assert.deepEqual(video.properties.className, ["local-media-video"])
+    assert.deepEqual(audio.properties.className, ["local-media-audio"])
+    assert.equal(timestamp.properties.href, "#t=292")
+    assert.equal(timestamp.properties["data-media-time"], "292")
+    assert.equal(timestamp.properties["data-media-url"], alias)
+    assert.equal(timestamp.properties["data-router-ignore"], "")
+    assert.deepEqual(timestamp.properties.className, ["local-media-timestamp"])
+    assert.equal(decimalTimestamp.properties.href, "#t=466.438")
+    assert.equal(decimalTimestamp.properties["data-media-time"], "466.438")
+    assert.equal(decimalTimestamp.properties["data-media-url"], alias)
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
+  }
+})
+
+test("routes marked timestamps to their matching explicit player without frontmatter", () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-multiple-players-"))
+  const videoAlias = "/local-media/0123456789abcdef01234567.mp4"
+  const audioAlias = "/local-media/89abcdef0123456701234567.mp3"
+  const videoPath = path.join(fixtureRoot, "Private Video.mp4")
+  const audioPath = path.join(fixtureRoot, "Private Audio.mp3")
+  const manifestPath = path.join(fixtureRoot, "local-media-aliases.json")
+  fs.writeFileSync(videoPath, "video")
+  fs.writeFileSync(audioPath, "audio")
+  fs.writeFileSync(
+    manifestPath,
+    JSON.stringify({ aliases: { [videoAlias]: videoPath, [audioAlias]: audioPath } }),
+  )
+
+  try {
+    const plugin = LocalMediaPlayer({ aliasManifest: manifestPath })
+    const transformer = plugin.htmlPlugins()[0]()
+    const video = {
+      type: "element",
+      tagName: "video",
+      properties: { src: videoAlias },
+      children: [],
+    }
+    const audio = {
+      type: "element",
+      tagName: "audio",
+      properties: { src: audioAlias },
+      children: [],
+    }
+    const timestamp = {
+      type: "element",
+      tagName: "a",
+      properties: {
+        href: `https://local-media.invalid/${encodeURIComponent(audioAlias)}?t=75.5`,
+      },
+      children: [{ type: "text", value: "1:15" }],
+    }
+    const tree = { type: "root", children: [video, audio, timestamp] }
+
+    transformer(tree, {
+      data: { filePath: path.join(fixtureRoot, "Published.md"), frontmatter: {} },
+    })
+
+    assert.deepEqual(video.properties.className, ["local-media-video"])
+    assert.deepEqual(audio.properties.className, ["local-media-audio"])
+    assert.equal(timestamp.properties.href, "#t=75.5")
+    assert.equal(timestamp.properties["data-media-time"], "75.5")
+    assert.equal(timestamp.properties["data-media-url"], audioAlias)
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }
 })
 
@@ -191,7 +303,7 @@ test("renders Media Extended audio marker images as compact audio cards", () => 
   assert.ok(Number(progress.properties.max) > 1508)
 })
 
-test("does not copy local media by default", async () => {
+test("links local media from its original location by default", async () => {
   const mediaRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-player-"))
   const output = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-output-"))
   const noteDir = path.join(mediaRoot, "Japanese")
@@ -203,30 +315,77 @@ test("does not copy local media by default", async () => {
   fs.writeFileSync(mediaPath, "video")
 
   try {
-    const plugin = LocalMediaPlayer({ mediaRoot })
+    const plugin = LocalMediaPlayer({
+      mediaRoot,
+      aliasManifest: path.join(mediaRoot, "missing-alias-manifest.json"),
+    })
     const emitted = []
-    for await (const file of plugin.emit(
-      { argv: { output } },
+    for await (const file of plugin.emit({ argv: { output } }, [
       [
-        [
-          "sample",
-          {
-            data: {
-              filePath: notePath,
-              frontmatter: { media: `[[${mediaName}]]` },
-            },
+        "sample",
+        {
+          data: {
+            filePath: notePath,
+            frontmatter: { media: `[[${mediaName}]]` },
           },
-        ],
+        },
       ],
-    )) {
+    ])) {
       emitted.push(file)
     }
 
-    assert.deepEqual(emitted, [])
-    assert.equal(fs.existsSync(path.join(output, "local-media", "Japanese", mediaName)), false)
+    const linkedPath = path.join(output, "local-media", "Japanese", mediaName)
+    assert.deepEqual(emitted, [linkedPath])
+    assert.equal(fs.lstatSync(linkedPath).isSymbolicLink(), true)
+    assert.equal(fs.realpathSync(linkedPath), fs.realpathSync(mediaPath))
   } finally {
     fs.rmSync(mediaRoot, { recursive: true, force: true })
     fs.rmSync(output, { recursive: true, force: true })
+  }
+})
+
+test("resolves opaque media aliases from the private manifest", async () => {
+  const fixtureRoot = fs.mkdtempSync(path.join(os.tmpdir(), "local-media-alias-"))
+  const output = path.join(fixtureRoot, "public")
+  const privateRoot = path.join(fixtureRoot, "private")
+  const mediaPath = path.join(fixtureRoot, "Secret Movie Title.mp4")
+  const alias = "/local-media/0123456789abcdef01234567.mp4"
+  const manifestPath = path.join(privateRoot, "local-media-aliases.json")
+  fs.mkdirSync(privateRoot, { recursive: true })
+  fs.mkdirSync(output, { recursive: true })
+  fs.writeFileSync(mediaPath, "video")
+  fs.writeFileSync(manifestPath, JSON.stringify({ version: 1, aliases: { [alias]: mediaPath } }))
+
+  try {
+    const plugin = LocalMediaPlayer({ aliasManifest: manifestPath })
+    const file = {
+      data: {
+        filePath: path.join(fixtureRoot, "Published.md"),
+        frontmatter: { media: alias },
+      },
+    }
+    const transformer = plugin.htmlPlugins()[0]()
+    const video = {
+      type: "element",
+      tagName: "video",
+      properties: { src: alias },
+      children: [],
+    }
+    const tree = { type: "root", children: [video] }
+    transformer(tree, file)
+    assert.equal(tree.children.length, 1)
+    assert.deepEqual(video.properties.className, ["local-media-video"])
+
+    const emitted = []
+    for await (const emittedPath of plugin.emit({ argv: { output } }, [["published", file]])) {
+      emitted.push(emittedPath)
+    }
+
+    const linkedPath = path.join(output, "local-media", "0123456789abcdef01234567.mp4")
+    assert.deepEqual(emitted, [linkedPath])
+    assert.equal(fs.realpathSync(linkedPath), fs.realpathSync(mediaPath))
+  } finally {
+    fs.rmSync(fixtureRoot, { recursive: true, force: true })
   }
 })
 
@@ -242,22 +401,23 @@ test("copies local media when explicitly enabled", async () => {
   fs.writeFileSync(mediaPath, "video")
 
   try {
-    const plugin = LocalMediaPlayer({ mediaRoot, copyMedia: true })
+    const plugin = LocalMediaPlayer({
+      mediaRoot,
+      copyMedia: true,
+      aliasManifest: path.join(mediaRoot, "missing-alias-manifest.json"),
+    })
     const emitted = []
-    for await (const file of plugin.emit(
-      { argv: { output } },
+    for await (const file of plugin.emit({ argv: { output } }, [
       [
-        [
-          "sample",
-          {
-            data: {
-              filePath: notePath,
-              frontmatter: { media: `[[${mediaName}]]` },
-            },
+        "sample",
+        {
+          data: {
+            filePath: notePath,
+            frontmatter: { media: `[[${mediaName}]]` },
           },
-        ],
+        },
       ],
-    )) {
+    ])) {
       emitted.push(file)
     }
 

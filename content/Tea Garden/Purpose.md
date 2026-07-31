@@ -1,6 +1,6 @@
 ---
 title: "**Purpose**"
-source: "Digital Garden/Tea Garden/foundation/Purpose.md"
+source: "Digital Garden/Tea Garden/Purpose.md"
 publish: true
 tags:
   - zettel
@@ -8,7 +8,7 @@ tags:
 # **Purpose**
 In brief: Sustainability, Truth, Community, Connection and simply being human.
 This note provides the basis for all further work in this garden. 
-[[tea-garden/foundation/design-&-development/human-design-overview|Human Design Overview]]
+[[quartz/design-&-development/human-design-overview|Human Design Overview]]
 ## **Sustainability**
 Protect life.
 

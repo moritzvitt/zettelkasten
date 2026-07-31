@@ -1,10 +1,10 @@
 ---
 title: "How much do Japanese Girls Cheat?"
-source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/How much do Japanese Girls Cheat?.md"
+source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/How much do Japanese Girls Cheat?.md"
 mx-uid: How much do Japanese Girls Cheat?
 media: https://www.youtube.com/watch?v=b22jxhg0OVo
 cover: "[[Tea Garden/languages/Japanese/Japanese Media
-  Notes/movies/mx-img-xm0kei7udkdpoiq604iqdzdp-pt2_90s.jpg]]"
+  Notes/Youtube/mx-img-xm0kei7udkdpoiq604iqdzdp-pt2_90s.jpg]]"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "my own font"
-source: "Digital Garden/Tea Garden/foundation/Design & Development/font/my own font.md"
+source: "Quartz/Design & Development/font/my own font.md"
 publish: true
 tags:
   - zettel

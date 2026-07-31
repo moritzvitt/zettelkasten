@@ -57,8 +57,15 @@ Der Sync trennt lokale Obsidian-Dateien bewusst vom öffentlichen Build:
 - Referenzierte Bilder unter `/Users/moritzvitt/Pictures` werden nur für veröffentlichte
   Notizen nach `content/` kopiert und auf relative Webpfade umgeschrieben.
 - `captions` sowie lokale SRT-/VTT-Links werden nicht veröffentlicht.
-- Lokale Filme und Videos unter `/Users/moritzvitt/Movies` werden weder kopiert noch als
-  `file:///`-Pfade in den öffentlichen Markdown-Dateien ausgegeben.
+- Lokale Filme und Videos unter `/Users/moritzvitt/Movies` werden nicht kopiert. Der Sync
+  ersetzt ihre Dateipfade und Dateinamen in veröffentlichtem Markdown durch stabile,
+  undurchsichtige Aliasse unter `/local-media/...`.
+- Die private Zuordnung in `private/local-media-aliases.json` bleibt außerhalb von Git. Beim
+  lokalen Build werden die Aliasse als Symlinks auf die Originaldateien bereitgestellt; auf
+  der veröffentlichten Website funktionieren sie daher bewusst nicht.
+- Ein Player erscheint nur durch ein ausdrückliches Video- oder Audio-Embed im Markdown;
+  das `media`-Frontmatter allein fügt keinen Player ein. Zeitlinks steuern den passenden
+  vorhandenen Player direkt auf der Seite.
 - Externe Webmedien wie YouTube-URLs bleiben erhalten.
 
 Die lokalen Pfade in den Obsidian-Quelldateien werden dabei nicht verändert.

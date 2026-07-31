@@ -1,5 +1,6 @@
 import { access, copyFile, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises"
 import { existsSync } from "node:fs"
+import { createHash } from "node:crypto"
 import path from "node:path"
 import { fileURLToPath } from "node:url"
 import YAML from "yaml"
@@ -29,6 +30,9 @@ const homepageSources = [
 const contentRoot = path.join(process.cwd(), "content")
 const staticRoot = path.join(process.cwd(), "quartz/static")
 const excalidrawStaticRoot = path.join(staticRoot, "excalidraw")
+const localMediaAliasManifest = path.join(process.cwd(), "private", "local-media-aliases.json")
+const localMediaRoute = "/local-media"
+const localMediaMarkerOrigin = "https://local-media.invalid"
 const relationNames = relationshipNames
 const relationTypes = relationshipTypes
 
@@ -148,13 +152,14 @@ const copiedAssetExtensions = new Set([
   ...pdfAssetExtensions,
   ...videoAssetExtensions,
 ])
+const publishedEmbeddedAssetExtensions = new Set([...imageAssetExtensions, ...pdfAssetExtensions])
 
 function embeddedAssets(text) {
   const result = []
   const rx = /!\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g
   for (const match of text.matchAll(rx)) {
     const target = match[1].trim()
-    if (copiedAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
+    if (publishedEmbeddedAssetExtensions.has(path.extname(target).toLocaleLowerCase("de"))) {
       result.push(target)
     }
   }
@@ -168,6 +173,15 @@ function wikilinkImageTarget(value) {
 
   const target = match[1].trim()
   return imageAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
+}
+
+function wikilinkVideoTarget(value) {
+  if (typeof value !== "string") return null
+  const match = value.match(/^!?\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]$/)
+  if (!match) return null
+
+  const target = match[1].trim()
+  return videoAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
 }
 
 function publishedAssetPath(relDir, target) {
@@ -204,19 +218,82 @@ function isPrivateTranscript(value) {
   return isInside(transcriptsRoot, source) || ext === ".srt" || ext === ".vtt"
 }
 
-function withoutLocalFileUrls(value) {
+function localVideoFile(value) {
+  const source = localFile(value)
+  if (!source || !isInside(moviesRoot, source)) return null
+  return videoAssetExtensions.has(path.extname(source).toLocaleLowerCase("de")) ? source : null
+}
+
+const localMediaAliases = new Map()
+
+function localVideoAlias(source) {
+  const extension = path.extname(source).toLocaleLowerCase("de")
+  const digest = createHash("sha256").update(path.resolve(source)).digest("hex").slice(0, 24)
+  const alias = `${localMediaRoute}/${digest}${extension}`
+  localMediaAliases.set(alias, path.resolve(source))
+  return alias
+}
+
+function localVideoAliasFromUrl(value) {
+  const source = localVideoFile(value)
+  if (!source) return null
+  const url = new URL(value)
+  return `${localVideoAlias(source)}${url.search}${url.hash}`
+}
+
+function localVideoPublishedHref(value) {
+  const source = localVideoFile(value)
+  if (!source) return null
+  const url = new URL(value)
+  const alias = localVideoAlias(source)
+  const timestamp = url.hash.match(/^#t=?([0-9]+(?:\.[0-9]+)?)s?$/i)
+  return timestamp ? localVideoTimestampHref(alias, `#t=${timestamp[1]}`) : `${alias}${url.search}${url.hash}`
+}
+
+function resolveWikilinkVideo(noteFile, target) {
+  const direct = path.resolve(path.dirname(noteFile), target)
+  if (existsSync(direct)) return direct
+  return assetsByName.get(path.basename(target)) ?? null
+}
+
+function safeLocalVideoLabel(label, source) {
+  if (!label) return "Lokales Video"
+  let decodedLabel = label
+  try {
+    decodedLabel = decodeURIComponent(label)
+  } catch {}
+  const originalName = path.basename(source, path.extname(source)).toLocaleLowerCase("de")
+  return decodedLabel.toLocaleLowerCase("de").includes(originalName) ? "Lokales Video" : label
+}
+
+function localVideoTimestampHref(alias, anchor = "") {
+  const timestamp = anchor.match(/^#t=?([0-9]+(?:\.[0-9]+)?)s?$/i)
+  if (!timestamp) return `${alias}${anchor}`
+  return `${localMediaMarkerOrigin}/${encodeURIComponent(alias)}?t=${timestamp[1]}`
+}
+
+function withoutLocalFileUrls(value, noteFile) {
   if (Array.isArray(value)) {
-    return value.map(withoutLocalFileUrls).filter((item) => item !== undefined)
+    return value
+      .map((item) => withoutLocalFileUrls(item, noteFile))
+      .filter((item) => item !== undefined)
   }
-  if (typeof value === "string" && localFile(value)) return undefined
+  if (typeof value === "string" && localFile(value)) {
+    return localVideoAliasFromUrl(value) ?? undefined
+  }
+  const videoTarget = wikilinkVideoTarget(value)
+  if (videoTarget) {
+    const source = resolveWikilinkVideo(noteFile, videoTarget)
+    return source ? localVideoAlias(source) : undefined
+  }
   return value
 }
 
-function publicFrontmatter(data) {
+function publicFrontmatter(data, noteFile) {
   const result = {}
   for (const [key, value] of Object.entries(data)) {
     if (key === "captions") continue
-    const publicValue = withoutLocalFileUrls(value)
+    const publicValue = withoutLocalFileUrls(value, noteFile)
     if (publicValue === undefined) continue
     if (Array.isArray(publicValue) && publicValue.length === 0 && Array.isArray(value)) {
       result[key] = publicValue
@@ -236,6 +313,13 @@ function rewriteExternalFileUrls(text, externalAssets) {
       return `![${label}](./${encodeURIComponent(path.basename(picture))})`
     }
 
+    const videoHref = localVideoPublishedHref(value)
+    if (videoHref) {
+      const source = localVideoFile(value)
+      const safeLabel = safeLocalVideoLabel(label, source)
+      return `${embed}[${safeLabel}](${videoHref})`
+    }
+
     if (embed) return label ? `*${label} – nicht öffentlich verfügbar*` : ""
     if (isPrivateTranscript(value) && /transcript|transkript|untertitel/i.test(label)) {
       return `${label} (nicht öffentlich verfügbar)`
@@ -243,7 +327,10 @@ function rewriteExternalFileUrls(text, externalAssets) {
     return label
   })
 
-  return rewritten.replace(/file:\/\/\/[^\s)<>"']+/g, "")
+  return rewritten.replace(
+    /file:\/\/\/[^\s)<>"']+/g,
+    (value) => localVideoPublishedHref(value) ?? "",
+  )
 }
 
 function excerpt(text) {
@@ -269,10 +356,22 @@ function rewriteWikiLinks(text, note, resolve) {
   return text.replace(
     /(!?)\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
     (match, embed, target, anchor = "", label) => {
+      const ext = path.extname(target).toLocaleLowerCase("de")
+      if (videoAssetExtensions.has(ext)) {
+        const source = resolveWikilinkVideo(note.file, target)
+        if (!source) return label ? `${label} (lokales Video nicht verfügbar)` : "Lokales Video"
+        const alias = localVideoAlias(source)
+        const safeLabel = safeLocalVideoLabel(label, source)
+        if (!embed) return `[${safeLabel}](${localVideoTimestampHref(alias, anchor)})`
+
+        const size = embedSize(label)
+        const width = size.width ? ` width="${size.width}"` : ""
+        const height = size.height ? ` height="${size.height}"` : ""
+        return `<video controls playsinline preload="metadata" src="${alias}"${width}${height} title="Lokales Video"></video>`
+      }
       if (embed) {
-        const ext = path.extname(target).toLocaleLowerCase("de")
         if (imageAssetExtensions.has(ext)) return match
-        if (pdfAssetExtensions.has(ext) || videoAssetExtensions.has(ext)) {
+        if (pdfAssetExtensions.has(ext)) {
           return renderAssetEmbed(target, label)
         }
       }
@@ -587,7 +686,7 @@ for (const file of files) {
   const externalAssets = new Map()
   if (externalCover) externalAssets.set(externalCover, path.basename(externalCover))
   const parsedRelationships = parseLinksSection(text)
-  const publicData = publicFrontmatter(data)
+  const publicData = publicFrontmatter(data, file)
   rawNotes.push({
     file,
     rel,
@@ -773,7 +872,24 @@ await writeFile(
   `${JSON.stringify(buildBrainIndex(rawNotes), null, 2)}\n`,
 )
 
+await mkdir(path.dirname(localMediaAliasManifest), { recursive: true })
+await writeFile(
+  localMediaAliasManifest,
+  `${JSON.stringify(
+    {
+      version: 1,
+      aliases: Object.fromEntries(
+        [...localMediaAliases].sort(([left], [right]) => left.localeCompare(right)),
+      ),
+    },
+    null,
+    2,
+  )}\n`,
+)
+
 console.log(`Synced ${rawNotes.length} published Digital Garden notes into ${contentRoot}`)
+if (localMediaAliases.size)
+  console.log(`Linked ${localMediaAliases.size} local videos through private aliases`)
 if (baseFiles.length) console.log(`Synced ${baseFiles.length} Digital Garden bases`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
 const unresolvedRelationships = rawNotes.flatMap((note) =>

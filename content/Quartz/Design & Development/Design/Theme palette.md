@@ -1,6 +1,6 @@
 ---
 title: "Theme palette"
-source: "Digital Garden/Tea Garden/foundation/Design & Development/Design/Theme palette.md"
+source: "Quartz/Design & Development/Design/Theme palette.md"
 publish: true
 tags:
   - zettel

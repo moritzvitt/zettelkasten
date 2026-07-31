@@ -1,13 +1,13 @@
 ---
 title: "Human Design Overview"
-source: "Digital Garden/Tea Garden/foundation/Design & Development/Human Design Overview.md"
+source: "Quartz/Design & Development/Human Design Overview.md"
 publish: true
 tags:
   - zettel
 ---
 ## own plugins: 
-[[tea-garden/foundation/design-&-development/plugins/human-plugins-media-control|Human Plugins Media Control]]
-[[tea-garden/foundation/design-&-development/plugins/agents/agents-pdf-viewer-plugin|Agents PDF Viewer Plugin]]
+[[quartz/plugins/human-plugins-media-control|Human Plugins Media Control]]
+[[quartz/plugins/agents/agents-pdf-viewer-plugin|Agents PDF Viewer Plugin]]
 
 ## base plugins: 
 
@@ -22,14 +22,14 @@ tags:
 Logo verschwindet sofort (Graph auch) die tool bar verschwindet erst wenn der Cursor die Seitenleiste verlässt. 
 
 ## my font:
-[[tea-garden/foundation/design-&-development/font/my-own-font|my own font]]
+[[quartz/design-&-development/font/my-own-font|my own font]]
 
-[[tea-garden/foundation/design-&-development/design/theme-palette|Theme palette]]
+[[quartz/design-&-development/design/theme-palette|Theme palette]]
 
  Link-Stil, 
  
 ****
-The ideas in [[tea-garden/foundation/purpose|Purpose]] (search of truth & clear thinking) lead to following design principles: 
+The ideas in [[tea-garden/purpose|Purpose]] (search of truth & clear thinking) lead to following design principles: 
 
 I follow these design principles. Not strictly, but I like to think that I am sticking to these (moritz: kann man das so sagen? Der Satz vor dem Kommentar)
 - [[minimalism]] (only really necessary information).. but what is necessary? Only necessary information is kind of life less... that's why I like simplicity more. 

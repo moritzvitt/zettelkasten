@@ -1,6 +1,6 @@
 ---
 title: "Rococco Variations"
-source: "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Rococco Variations.md"
+source: "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md"
 publish: true
 tags:
   - zettel

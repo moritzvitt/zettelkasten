@@ -59,6 +59,29 @@ function resolveContentPath(contentPath) {
   return path.join(cwd, contentPath)
 }
 
+export function serveHandlerOptions(output) {
+  return {
+    public: output,
+    directoryListing: false,
+    // Local media aliases intentionally point outside the generated output.
+    symlinks: true,
+    headers: [
+      {
+        source: "**/*.*",
+        headers: [{ key: "Content-Disposition", value: "inline" }],
+      },
+      {
+        source: "**/*.webp",
+        headers: [{ key: "Content-Type", value: "image/webp" }],
+      },
+      {
+        source: "**/*.avif",
+        headers: [{ key: "Content-Type", value: "image/avif" }],
+      },
+    ],
+  }
+}
+
 /**
  * Handles `npx quartz create`
  * @param {*} argv arguments for `create`
@@ -471,25 +494,7 @@ export async function handleBuild(argv) {
 
       const serve = async () => {
         const release = await buildMutex.acquire()
-        await serveHandler(req, res, {
-          public: argv.output,
-          directoryListing: false,
-          headers: [
-            {
-              source: "**/*.*",
-              headers: [{ key: "Content-Disposition", value: "inline" }],
-            },
-            {
-              source: "**/*.webp",
-              headers: [{ key: "Content-Type", value: "image/webp" }],
-            },
-            // fixes bug where avif images are displayed as text instead of images (future proof)
-            {
-              source: "**/*.avif",
-              headers: [{ key: "Content-Type", value: "image/avif" }],
-            },
-          ],
-        })
+        await serveHandler(req, res, serveHandlerOptions(argv.output))
         const status = res.statusCode
         const statusString =
           status >= 200 && status < 300

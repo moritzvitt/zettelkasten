@@ -1,6 +1,6 @@
 ---
 title: "Agents PDF Viewer Plugin"
-source: "Digital Garden/Tea Garden/foundation/Design & Development/plugins/Agents/Agents PDF Viewer Plugin.md"
+source: "Quartz/plugins/Agents/Agents PDF Viewer Plugin.md"
 publish: true
 tags:
   - zettel

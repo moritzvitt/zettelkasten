@@ -85,6 +85,7 @@ plugins:
     options:
       mediaRoot: /Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media
       route: /local-media
+      aliasManifest: private/local-media-aliases.json
     order: 65
   - source: ./plugins/svg-viewer
     enabled: true
@@ -112,7 +113,7 @@ plugins:
       position: afterBody
       priority: 100
   - source: github:quartz-community/stacked-pages
-    enabled: true
+    enabled: false
     options:
       maxTabs: 8
       mobileBreakpoint: 800

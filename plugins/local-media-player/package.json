@@ -14,7 +14,10 @@
   "quartz": {
     "name": "local-media-player",
     "displayName": "Local Media Player",
-    "category": ["transformer", "emitter"],
+    "category": [
+      "transformer",
+      "emitter"
+    ],
     "version": "1.0.0",
     "quartzVersion": ">=5.0.0",
     "dependencies": [],
@@ -23,7 +26,8 @@
     "defaultOptions": {
       "mediaRoot": "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
       "route": "/local-media",
-      "copyMedia": false
+      "copyMedia": false,
+      "aliasManifest": "private/local-media-aliases.json"
     }
   }
 }

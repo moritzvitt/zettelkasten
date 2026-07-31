@@ -1,6 +1,6 @@
 ---
 title: "Tchaikovsky - Symphony No. 4 f-moll op. 36"
-source: "Digital Garden/Tea Garden/music/genres/classic/Tchaikovsky - Symphony No. 4.md"
+source: "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md"
 media: https://www.youtube.com/watch?v=Y7G5ithbFys
 publish: true
 tags:

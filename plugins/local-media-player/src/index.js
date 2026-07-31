@@ -8,6 +8,7 @@ const defaultOptions = {
   mediaRoot: "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
   route: "/local-media",
   copyMedia: false,
+  aliasManifest: "private/local-media-aliases.json",
 }
 
 function wikilinkTarget(value) {
@@ -30,8 +31,10 @@ function frontmatter(src) {
 }
 
 function sameMediaTarget(left, right) {
-  return left.replaceAll("\\", "/").toLocaleLowerCase() ===
+  return (
+    left.replaceAll("\\", "/").toLocaleLowerCase() ===
     right.replaceAll("\\", "/").toLocaleLowerCase()
+  )
 }
 
 export function rewriteMediaTimestampLinks(src) {
@@ -71,8 +74,9 @@ export function rewriteMediaExtendedAudioEmbeds(src) {
 }
 
 function encodePathSegment(segment) {
-  return encodeURIComponent(segment).replace(/[!'()*]/g, (character) =>
-    `%${character.charCodeAt(0).toString(16).toUpperCase()}`,
+  return encodeURIComponent(segment).replace(
+    /[!'()*]/g,
+    (character) => `%${character.charCodeAt(0).toString(16).toUpperCase()}`,
   )
 }
 
@@ -117,9 +121,45 @@ function youtubeSeconds(value) {
   if (typeof value !== "string") return null
   try {
     const url = new URL(value)
-    return secondsFromParams(url.searchParams) ?? secondsFromParams(new URLSearchParams(url.hash.slice(1)))
+    return (
+      secondsFromParams(url.searchParams) ??
+      secondsFromParams(new URLSearchParams(url.hash.slice(1)))
+    )
   } catch {
     return null
+  }
+}
+
+function mediaSeconds(value) {
+  if (typeof value !== "string") return null
+  try {
+    const url = new URL(value, markerOrigin)
+    const parameterSeconds =
+      secondsFromParams(url.searchParams) ??
+      secondsFromParams(new URLSearchParams(url.hash.slice(1)))
+    if (parameterSeconds !== null) return parameterSeconds
+
+    const compactHash = url.hash.match(/^#t=?([0-9]+(?:\.[0-9]+)?)s?$/i)
+    if (!compactHash) return null
+    const seconds = Number(compactHash[1])
+    return Number.isFinite(seconds) && seconds >= 0 ? seconds : null
+  } catch {
+    return null
+  }
+}
+
+function sameMediaResource(left, right) {
+  try {
+    const normalize = (value) => {
+      const url = new URL(value, markerOrigin)
+      url.hash = ""
+      url.searchParams.delete("t")
+      url.searchParams.delete("start")
+      return url.href
+    }
+    return normalize(left) === normalize(right)
+  } catch {
+    return false
   }
 }
 
@@ -193,6 +233,37 @@ export function resolveMedia(filePath, mediaValue, mediaRoot, route) {
   return resolveMediaFile(filePath, mediaValue, mediaRoot, route)
 }
 
+function resolveAliasedMedia(mediaValue, route, aliasManifest) {
+  if (typeof mediaValue !== "string") return null
+  const routeBase = `/${route.replace(/^\/+|\/+$/g, "")}/`
+  let alias
+  try {
+    alias = new URL(mediaValue, "https://local-media.invalid").pathname
+  } catch {
+    return null
+  }
+  if (!alias.startsWith(routeBase)) return null
+
+  let manifest
+  try {
+    const manifestPath = path.resolve(aliasManifest)
+    manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"))
+  } catch {
+    return null
+  }
+
+  const mediaFile = manifest?.aliases?.[alias]
+  if (typeof mediaFile !== "string" || !fs.existsSync(mediaFile)) return null
+  return { type: "local", file: mediaFile, target: alias, url: alias }
+}
+
+function resolveConfiguredMedia(filePath, mediaValue, options) {
+  return (
+    resolveAliasedMedia(mediaValue, options.route, options.aliasManifest) ||
+    resolveMedia(filePath, mediaValue, options.mediaRoot, options.route)
+  )
+}
+
 function sourceFilePath(generatedFilePath, sourceValue, mediaRoot) {
   if (typeof sourceValue !== "string" || !sourceValue.trim()) return generatedFilePath
 
@@ -235,17 +306,22 @@ function timestampFrom(node) {
   }
 }
 
+function markedTimestampTarget(node) {
+  try {
+    const url = new URL(node.properties.href, markerOrigin)
+    const target = decodeURIComponent(url.pathname.replace(/^\//, ""))
+    return target.startsWith("/") ? target : null
+  } catch {
+    return null
+  }
+}
+
 function markTimestampLink(node, href, seconds) {
-  node.properties.href = href
+  node.properties.href = `#t=${seconds}`
   node.properties["data-media-time"] = String(seconds)
+  node.properties["data-media-url"] = href.replace(/#.*$/, "")
   node.properties["data-router-ignore"] = ""
-  node.properties.className = [
-    ...new Set(
-      classNames(node)
-        .filter((name) => name !== "external" && name !== "external-link")
-        .concat("local-media-timestamp"),
-    ),
-  ]
+  node.properties.className = ["local-media-timestamp"]
   node.children = node.children.filter(
     (child) =>
       !(
@@ -261,6 +337,18 @@ function youtubeTimestampFrom(node, media) {
   if (media.type !== "youtube") return null
   if (youtubeId(node.properties.href) !== media.youtube) return null
   return youtubeSeconds(node.properties.href)
+}
+
+function localTimestampFrom(node, media) {
+  if (
+    media.type !== "local" ||
+    node.tagName !== "a" ||
+    typeof node.properties?.href !== "string" ||
+    !sameMediaResource(node.properties.href, media.url)
+  ) {
+    return null
+  }
+  return mediaSeconds(node.properties.href)
 }
 
 function mediaExtendedMode(value) {
@@ -472,60 +560,6 @@ function replaceYoutubeAudioEmbeds(tree) {
   })
 }
 
-function videoElement(media) {
-  if (media.type === "youtube") {
-    return {
-      type: "element",
-      tagName: "figure",
-      properties: { className: ["local-media-player"] },
-      children: [
-        {
-          type: "element",
-          tagName: "iframe",
-          properties: {
-            className: ["local-media-youtube"],
-            allow: "fullscreen; autoplay",
-            frameBorder: "0",
-            src: media.embedUrl,
-          },
-          children: [],
-        },
-        {
-          type: "element",
-          tagName: "figcaption",
-          properties: {},
-          children: [{ type: "text", value: "YouTube-Video" }],
-        },
-      ],
-    }
-  }
-
-  return {
-    type: "element",
-    tagName: "figure",
-    properties: { className: ["local-media-player"] },
-    children: [
-      {
-        type: "element",
-        tagName: "video",
-        properties: {
-          className: ["local-media-video"],
-          controls: true,
-          preload: "metadata",
-          src: media.url,
-        },
-        children: [],
-      },
-      {
-        type: "element",
-        tagName: "figcaption",
-        properties: {},
-        children: [{ type: "text", value: "Lokale Videodatei" }],
-      },
-    ],
-  }
-}
-
 const playerScript = `
 const localMediaChannelName = "local-media-player-v1"
 const localMediaChannel = "BroadcastChannel" in window
@@ -595,66 +629,117 @@ function loadYoutubeIframeApi() {
   return youtubeIframeApiPromise
 }
 
-function seekYoutubePlayer(seconds, mediaUrl, options = {}) {
-  const frame = document.querySelector(".local-media-youtube")
+var lastActiveMediaTarget = null
+var youtubeVideoPlaying = new WeakMap()
+
+function mediaTargetUrl(target) {
+  if (target instanceof HTMLMediaElement) return target.currentSrc || target.src
+  if (target instanceof HTMLIFrameElement) return target.src
+  if (target instanceof HTMLElement && target.classList.contains("local-media-audio-card")) {
+    var frame = target.querySelector(".local-media-youtube-audio-frame")
+    return target.dataset.mediaUrl || (frame instanceof HTMLIFrameElement ? frame.src : null)
+  }
+  return null
+}
+
+function mediaTargetMatches(target, mediaUrl) {
+  var targetUrl = mediaTargetUrl(target)
+  if (!targetUrl) return false
+  if (
+    target instanceof HTMLIFrameElement ||
+    (target instanceof HTMLElement && target.classList.contains("local-media-audio-card"))
+  ) {
+    if (sameYoutubeVideo(targetUrl, mediaUrl)) return true
+  }
+  return normalizedMediaUrl(targetUrl) === normalizedMediaUrl(mediaUrl)
+}
+
+function matchingMediaTargets(mediaUrl) {
+  return [
+    ...document.querySelectorAll("video.local-media-video, audio.local-media-audio"),
+    ...document.querySelectorAll(
+      "iframe.local-media-youtube:not(.local-media-youtube-audio-frame)",
+    ),
+    ...document.querySelectorAll(".local-media-audio-card"),
+  ].filter((target) => mediaTargetMatches(target, mediaUrl))
+}
+
+function mediaTargetIsPlaying(target) {
+  if (target instanceof HTMLMediaElement) return !target.paused && !target.ended
+  if (target instanceof HTMLIFrameElement) return youtubeVideoPlaying.get(target) === true
+  return target instanceof HTMLElement && target.dataset.playing === "true"
+}
+
+function selectMediaTarget(mediaUrl) {
+  var matches = matchingMediaTargets(mediaUrl)
+  if (matches.length === 0) return null
+
+  var playing = matches.filter(mediaTargetIsPlaying)
+  if (lastActiveMediaTarget && playing.includes(lastActiveMediaTarget)) {
+    return lastActiveMediaTarget
+  }
+  if (playing.length > 0) return playing[0]
+  if (matches.length === 1) return matches[0]
+  if (lastActiveMediaTarget && matches.includes(lastActiveMediaTarget)) {
+    return lastActiveMediaTarget
+  }
+  return null
+}
+
+function seekAudioCard(card, seconds, options = {}) {
+  var frame = card.querySelector(".local-media-youtube-audio-frame")
   if (!(frame instanceof HTMLIFrameElement)) return false
-  if (!sameYoutubeVideo(frame.src, mediaUrl)) return false
   postYoutubeCommand(frame, "seekTo", [seconds, true])
   if (options.play) postYoutubeCommand(frame, "playVideo")
-  if (options.scroll) frame.scrollIntoView({ behavior: "smooth", block: "center" })
+  var state = audioCardState(card)
+  state.current = seconds
+  if (options.play) state.playing = true
+  updateAudioCard(card, state)
+  setAudioTimer(card, state.playing)
+  if (options.scroll) card.scrollIntoView({ behavior: "smooth", block: "center" })
   return true
 }
 
-function seekLocalMediaPlayer(seconds, mediaUrl, options = {}) {
-  const player = document.querySelector(".local-media-video")
-  if (!(player instanceof HTMLVideoElement)) return false
-  const playerUrl = normalizedMediaUrl(player.currentSrc || player.src)
-  if (!playerUrl || playerUrl !== normalizedMediaUrl(mediaUrl)) return false
-
-  const seek = () => {
-    player.currentTime = seconds
-    if (options.play) player.play().catch(() => {})
-    if (options.scroll) player.scrollIntoView({ behavior: "smooth", block: "center" })
+function seekMediaTarget(target, seconds, options = {}) {
+  if (target instanceof HTMLMediaElement) {
+    const seek = () => {
+      target.currentTime = seconds
+      if (options.play) target.play().catch(() => {})
+      if (options.scroll) target.scrollIntoView({ behavior: "smooth", block: "center" })
+    }
+    if (target.readyState >= 1) seek()
+    else target.addEventListener("loadedmetadata", seek, { once: true })
+    return true
   }
-  if (player.readyState >= 1) seek()
-  else player.addEventListener("loadedmetadata", seek, { once: true })
-  return true
+  if (target instanceof HTMLIFrameElement) {
+    postYoutubeCommand(target, "seekTo", [seconds, true])
+    if (options.play) postYoutubeCommand(target, "playVideo")
+    if (options.scroll) target.scrollIntoView({ behavior: "smooth", block: "center" })
+    return true
+  }
+  if (target instanceof HTMLElement && target.classList.contains("local-media-audio-card")) {
+    return seekAudioCard(target, seconds, options)
+  }
+  return false
 }
 
 function seekMediaPlayer(seconds, mediaUrl, options = {}) {
-  return (
-    seekLocalMediaPlayer(seconds, mediaUrl, options) ||
-    seekYoutubePlayer(seconds, mediaUrl, options)
-  )
-}
-
-function syncAudioCards(mediaUrl, seconds, options = {}) {
-  if (!Number.isFinite(seconds) || seconds < 0) return
-  document.querySelectorAll(".local-media-audio-card").forEach((card) => {
-    if (!(card instanceof HTMLElement)) return
-    var cardMediaUrl = card.dataset.mediaUrl
-    var frame = card.querySelector(".local-media-youtube-audio-frame")
-    var matches = cardMediaUrl && normalizedMediaUrl(cardMediaUrl) === normalizedMediaUrl(mediaUrl)
-    if (!matches && frame instanceof HTMLIFrameElement) matches = sameYoutubeVideo(frame.src, mediaUrl)
-    if (!matches) return
-
-    var state = audioCardState(card)
-    state.current = seconds
-    if (options.playing !== undefined) state.playing = Boolean(options.playing)
-    updateAudioCard(card, state)
-    setAudioTimer(card, state.playing)
-  })
+  const target = selectMediaTarget(mediaUrl)
+  if (!target) return false
+  lastActiveMediaTarget = target
+  return seekMediaTarget(target, seconds, options)
 }
 
 function seekFromLocation() {
   const initial = Number(new URLSearchParams(location.hash.slice(1)).get("t"))
   if (!Number.isFinite(initial) || initial <= 0) return
-  const player = document.querySelector(".local-media-video")
-  if (player instanceof HTMLVideoElement) {
-    seekMediaPlayer(initial, player.currentSrc || player.src, { scroll: true })
-  }
-  const frame = document.querySelector(".local-media-youtube")
-  if (frame instanceof HTMLIFrameElement) seekMediaPlayer(initial, frame.src, { scroll: true })
+  const target =
+    lastActiveMediaTarget ||
+    document.querySelector(
+      "video.local-media-video, audio.local-media-audio, iframe.local-media-youtube, .local-media-audio-card",
+    )
+  const mediaUrl = target ? mediaTargetUrl(target) : null
+  if (mediaUrl) seekMediaPlayer(initial, mediaUrl, { scroll: true })
 }
 
 localMediaChannel?.addEventListener("message", (event) => {
@@ -666,8 +751,7 @@ localMediaChannel?.addEventListener("message", (event) => {
   ) {
     return
   }
-  seekMediaPlayer(message.seconds, message.mediaUrl, { play: true })
-  syncAudioCards(message.mediaUrl, message.seconds, { playing: true })
+  seekMediaPlayer(message.seconds, message.mediaUrl)
 })
 
 document.addEventListener("click", (event) => {
@@ -678,15 +762,25 @@ document.addEventListener("click", (event) => {
   if (!(link instanceof HTMLAnchorElement)) return
 
   const seconds = Number(link.dataset.mediaTime)
-  const mediaUrl = normalizedMediaUrl(link.href)
+  const mediaUrl = normalizedMediaUrl(link.dataset.mediaUrl || link.href)
   if (!Number.isFinite(seconds) || !mediaUrl) return
 
   event.preventDefault()
   event.stopImmediatePropagation()
   localMediaChannel?.postMessage({ type: "seek", mediaUrl, seconds })
-  seekMediaPlayer(seconds, mediaUrl, { play: true })
-  syncAudioCards(mediaUrl, seconds, { playing: true })
+  seekMediaPlayer(seconds, mediaUrl)
   history.replaceState(null, "", "#t=" + seconds)
+}, true)
+
+document.addEventListener("play", (event) => {
+  const target = event.target
+  if (
+    target instanceof HTMLMediaElement &&
+    (target.classList.contains("local-media-video") ||
+      target.classList.contains("local-media-audio"))
+  ) {
+    lastActiveMediaTarget = target
+  }
 }, true)
 
 document.addEventListener("auxclick", (event) => {
@@ -761,12 +855,42 @@ function hydrateAudioCards() {
       var player = new YT.Player(frame, {
         events: {
           onReady: () => updateAudioCardDuration(card, player),
-          onStateChange: () => updateAudioCardDuration(card, player),
+          onStateChange: (event) => {
+            updateAudioCardDuration(card, player)
+            var state = audioCardState(card)
+            state.playing = event.data === 1
+            if (state.playing) lastActiveMediaTarget = card
+            updateAudioCard(card, state)
+            setAudioTimer(card, state.playing)
+          },
         },
       })
       audioCardPlayers.set(card, player)
     })
   })
+}
+
+var youtubeVideoPlayers = new WeakMap()
+
+function hydrateYoutubeVideoFrames() {
+  document
+    .querySelectorAll("iframe.local-media-youtube:not(.local-media-youtube-audio-frame)")
+    .forEach((frame) => {
+      if (!(frame instanceof HTMLIFrameElement) || youtubeVideoPlayers.has(frame)) return
+      loadYoutubeIframeApi().then((YT) => {
+        if (!YT?.Player || youtubeVideoPlayers.has(frame)) return
+        var player = new YT.Player(frame, {
+          events: {
+            onStateChange: (event) => {
+              var playing = event.data === 1
+              youtubeVideoPlaying.set(frame, playing)
+              if (playing) lastActiveMediaTarget = frame
+            },
+          },
+        })
+        youtubeVideoPlayers.set(frame, player)
+      })
+    })
 }
 
 var localAudioTimers = new WeakMap()
@@ -810,6 +934,7 @@ document.addEventListener("click", (event) => {
     state.playing = !state.playing
     postYoutubeCommand(frame, state.playing ? "playVideo" : "pauseVideo")
     setAudioTimer(card, state.playing)
+    if (state.playing) lastActiveMediaTarget = card
   } else if (action === "back" || action === "forward") {
     state.current += action === "back" ? -15 : 15
     state.current = Math.max(0, state.current)
@@ -850,13 +975,17 @@ document.addEventListener("nav", seekFromLocation)
 document.addEventListener("render", seekFromLocation)
 document.addEventListener("nav", hydrateAudioCards)
 document.addEventListener("render", hydrateAudioCards)
+document.addEventListener("nav", hydrateYoutubeVideoFrames)
+document.addEventListener("render", hydrateYoutubeVideoFrames)
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", () => {
     hydrateAudioCards()
+    hydrateYoutubeVideoFrames()
     seekFromLocation()
   }, { once: true })
 } else {
   hydrateAudioCards()
+  hydrateYoutubeVideoFrames()
   seekFromLocation()
 }
 `
@@ -1057,78 +1186,100 @@ export default function LocalMediaPlayer(userOptions = {}) {
           return (tree, file) => {
             replaceYoutubeAudioEmbeds(tree)
 
-            const media = resolveMedia(
-              sourceFilePath(
-                file.data.filePath,
-                file.data.frontmatter?.source,
-                options.mediaRoot,
-              ),
+            const defaultMedia = resolveConfiguredMedia(
+              sourceFilePath(file.data.filePath, file.data.frontmatter?.source, options.mediaRoot),
               file.data.frontmatter?.media,
-              options.mediaRoot,
-              options.route,
+              options,
             )
-            if (!media) return
 
-            let existingVideo = null
-            let existingYoutube = null
             visit(tree, "element", (node) => {
-              if (!existingVideo && node.tagName === "video") existingVideo = node
               if (
-                !existingYoutube &&
                 node.tagName === "iframe" &&
-                media.type === "youtube" &&
-                sameMediaTarget(youtubeId(node.properties?.src) || "", media.youtube)
+                youtubeId(node.properties?.src)
               ) {
-                existingYoutube = node
+                node.properties ||= {}
+                node.properties.src = withYoutubeApi(node.properties.src)
+                node.properties.allow = "fullscreen; autoplay"
+                node.properties.className = [
+                  ...new Set(classNames(node).concat("local-media-youtube")),
+                ]
+              }
+
+              if (
+                (node.tagName === "video" || node.tagName === "audio") &&
+                typeof node.properties?.src === "string"
+              ) {
+                node.properties.className = [
+                  ...new Set(
+                    classNames(node).concat(
+                      node.tagName === "video" ? "local-media-video" : "local-media-audio",
+                    ),
+                  ),
+                ]
               }
 
               if (isMarkedTimestamp(node)) {
                 const seconds = timestampFrom(node)
                 if (seconds === null) return
-                markTimestampLink(node, `${media.url}#t=${seconds}`, seconds)
+                const markedTarget = markedTimestampTarget(node)
+                const markedMedia = markedTarget
+                  ? resolveAliasedMedia(markedTarget, options.route, options.aliasManifest)
+                  : null
+                const mediaUrl = markedMedia?.url ?? markedTarget ?? defaultMedia?.url
+                if (!mediaUrl) return
+                markTimestampLink(node, `${mediaUrl}#t=${seconds}`, seconds)
                 return
               }
 
-              const youtubeSeconds = youtubeTimestampFrom(node, media)
+              if (!defaultMedia) return
+
+              const youtubeSeconds = youtubeTimestampFrom(node, defaultMedia)
               if (youtubeSeconds !== null) {
-                markTimestampLink(node, `${media.url}#t=${youtubeSeconds}`, youtubeSeconds)
+                markTimestampLink(node, `${defaultMedia.url}#t=${youtubeSeconds}`, youtubeSeconds)
+                return
+              }
+
+              const localSeconds = localTimestampFrom(node, defaultMedia)
+              if (localSeconds !== null) {
+                markTimestampLink(node, `${defaultMedia.url}#t=${localSeconds}`, localSeconds)
               }
             })
-
-            if (media.type === "youtube" && existingYoutube) {
-              existingYoutube.properties ||= {}
-              existingYoutube.properties.src = withYoutubeApi(existingYoutube.properties.src)
-              existingYoutube.properties.allow = "fullscreen; autoplay"
-              existingYoutube.properties.className = [
-                ...new Set(classNames(existingYoutube).concat("local-media-youtube")),
-              ]
-            } else if (existingVideo) {
-              existingVideo.properties ||= {}
-              existingVideo.properties.className = [
-                ...new Set(classNames(existingVideo).concat("local-media-video")),
-              ]
-            } else {
-              tree.children.unshift(videoElement(media))
-            }
           }
         },
       ]
     },
     async *emit(ctx, content) {
-      if (!options.copyMedia) return
-
       const copied = new Set()
 
+      let aliases = {}
+      try {
+        const manifest = JSON.parse(fs.readFileSync(path.resolve(options.aliasManifest), "utf8"))
+        if (manifest?.aliases && typeof manifest.aliases === "object") aliases = manifest.aliases
+      } catch {
+        // A private alias manifest is optional for repositories without local media.
+      }
+
+      for (const [alias, source] of Object.entries(aliases)) {
+        if (typeof source !== "string" || !fs.existsSync(source)) continue
+        const dest = localMediaOutputPath(ctx.argv.output, options.route, alias)
+        if (!dest || copied.has(dest)) continue
+
+        await fs.promises.mkdir(path.dirname(dest), { recursive: true })
+        if (options.copyMedia) {
+          await fs.promises.copyFile(source, dest)
+        } else {
+          await fs.promises.rm(dest, { force: true })
+          await fs.promises.symlink(source, dest)
+        }
+        copied.add(dest)
+        yield dest
+      }
+
       for (const [, file] of content) {
-        const media = resolveMedia(
-          sourceFilePath(
-            file.data.filePath,
-            file.data.frontmatter?.source,
-            options.mediaRoot,
-          ),
+        const media = resolveConfiguredMedia(
+          sourceFilePath(file.data.filePath, file.data.frontmatter?.source, options.mediaRoot),
           file.data.frontmatter?.media,
-          options.mediaRoot,
-          options.route,
+          options,
         )
         if (!media || media.type !== "local") continue
 
@@ -1136,7 +1287,12 @@ export default function LocalMediaPlayer(userOptions = {}) {
         if (!dest || copied.has(dest)) continue
 
         await fs.promises.mkdir(path.dirname(dest), { recursive: true })
-        await fs.promises.copyFile(media.file, dest)
+        if (options.copyMedia) {
+          await fs.promises.copyFile(media.file, dest)
+        } else {
+          await fs.promises.rm(dest, { force: true })
+          await fs.promises.symlink(media.file, dest)
+        }
         copied.add(dest)
         yield dest
       }

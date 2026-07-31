@@ -32,6 +32,6 @@ Anime:
 ## Relationships and Love in Japan: 
 
 - [[tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships|日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships]]
-- [[tea-garden/languages/japanese/japanese-media-notes/movies/how-much-do-japanese-girls-cheat?|日本人女性はどれくらい浮気するの？]]
+- [[tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?|日本人女性はどれくらい浮気するの？]]
 - [[tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive|日本人女性が魅力的だと思う男性の特徴]]
 - [[tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)|日本のAV監督という仕事（インタビュー）]] (Yeah, I watched that. Despite the title, it's a serious interview with a very serious lady!)
