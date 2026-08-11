@@ -21,8 +21,6 @@ Dann evtl meditieren…
 
   
 
-  
-
 Mittelfristig:
 
   

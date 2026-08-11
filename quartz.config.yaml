@@ -69,6 +69,9 @@ plugins:
   - source: ./plugins/discord-spoilers
     enabled: true
     order: 45
+  - source: ./plugins/bases-view-name-resolver
+    enabled: true
+    order: 49
   - source: github:quartz-community/table-of-contents
     enabled: true
     order: 50

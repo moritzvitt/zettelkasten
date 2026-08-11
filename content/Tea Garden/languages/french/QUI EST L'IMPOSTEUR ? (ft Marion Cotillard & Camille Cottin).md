@@ -4,6 +4,110 @@ source: "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Ma
 mx-uid: dg65r5limpxhztt0x75mhii3
 media: https://www.youtube.com/watch?v=xG-Ef4ig07I
 cover: "[[Tea Garden/languages/french/mx-cover-youtube_xG-Ef4ig07I.jpg]]"
+duration: 3184
+creator: SQUEEZIE
+description: >-
+  Vous ne devinerez jamais ce qui est arrivé à Camille... 😭
+
+  Retrouvez Marion Cotillard dans le film Little Girl Blue de Mona Achache en
+  salle le 15 novembre : https://tandemfilms.fr/film/little-girl-blue
+
+
+  La maison des femmes : https://www.lamaisondesfemmes.fr/je-donne/faire-un-don/
+
+
+  L'association Tonga : https://www.association-tonga.com/
+
+
+
+  Réalisateur : Théo Meunier
+
+  Cadreurs : Lucas Stoll, Pierre Amilhat 
+
+  Assistante caméra : Magali Faizeau
+
+  Ingénieur du Son : Basile Catelin (Kr-Sound)
+
+  Maquilleuse : Kim Desnoyers
+
+  Maquilleuse Camille Cottin : Emma Franco
+
+  Coiffeur Camille Cottin : Marc Orsatelli
+
+
+  Chef monteur : Théo Meunier
+
+  Monteur : Yannick Dinay et Ludovic Bichon
+
+  Graphiste : Guillaume Griffoni (Spectre)
+
+
+  Productrice Exécutive UNFOLD : Clara Lesage 
+
+  Directrice des productions : Julie Peloso
+
+  Chargée de production : Marie Delvallée
+
+  Assistante de production : Valentine Pejoux
+
+  Administratrice de production : Tiphaine Demarche
+
+  Stagiaire de production : Inès Hervé
+
+  Programmatrice : Alizée Gaborit
+
+
+  Merci à :
+
+
+  Baristas : 
+
+  Marco : youtube @MaxiCoffee / insta @French_coffeeaddict
+
+  Marie : insta @mariepicoche
+
+  Aurélie 
+
+
+  Fleuristes : 
+
+  Manon : insta @manon.dnvl & @auderose
+
+  Théo : insta @renard.fleuriste
+
+  Axelle : insta @axelle_bossard_comédienne
+
+
+  Joueurs de flechette : 
+
+  Thibault : facebook @Thibault ´The French Touch’ Tricole /insta : @tricole180
+
+  Mehdi : facebook : Carolo Darts / insta @dimejade
+
+  Alex : facebook @Gilles Alexandra
+
+
+  Croupiers : 
+
+  Audrey 
+
+  Louis 
+
+  Thibault : insta @ouistitipics / https://www.association-tonga.com/
+
+
+
+  Remerciements 
+
+  Nestor
+
+
+  PLANIPRESSE / KR SOUND / SUPERVAN / NESTOR / MAXICOFFEE
+
+
+  UNFOLD PRODUCTION / 2023
+creator_url: https://www.youtube.com/@Squeezie
+video: https://www.youtube.com/watch?v=xG-Ef4ig07I
 publish: true
 tags:
   - zettel

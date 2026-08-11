@@ -332,6 +332,73 @@ function markTimestampLink(node, href, seconds) {
   )
 }
 
+function learningClipsFrom(value) {
+  if (!Array.isArray(value)) return []
+  return value.flatMap((clip) => {
+    const normalized = {
+      entry: Number(clip?.entry),
+      anchor: Number(clip?.anchor),
+      cueStart: Number(clip?.cueStart),
+      cueEnd: Number(clip?.cueEnd),
+      start: Number(clip?.start),
+      end: Number(clip?.end),
+    }
+    return Object.values(normalized).every(Number.isFinite) &&
+      normalized.entry >= 0 &&
+      normalized.start >= 0 &&
+      normalized.end > normalized.start
+      ? [normalized]
+      : []
+  })
+}
+
+function learningTargetMatches(node, mediaUrl) {
+  if (!mediaUrl || typeof node.properties !== "object") return false
+  const source = node.properties.src
+  if (
+    node.tagName === "figure" &&
+    classNames(node).includes("local-media-audio-card") &&
+    typeof node.properties["data-media-url"] === "string"
+  ) {
+    return youtubeId(node.properties["data-media-url"]) === youtubeId(mediaUrl)
+  }
+  if (
+    node.tagName === "iframe" &&
+    !classNames(node).includes("local-media-youtube-audio-frame") &&
+    typeof source === "string" &&
+    youtubeId(source) !== null
+  ) {
+    return youtubeId(source) === youtubeId(mediaUrl)
+  }
+  if ((node.tagName === "video" || node.tagName === "audio") && typeof source === "string") {
+    return sameMediaResource(source, mediaUrl)
+  }
+  return false
+}
+
+function markLearningTarget(node, mediaUrl, clips) {
+  node.properties ||= {}
+  node.properties["data-learning-clips"] = JSON.stringify(clips)
+  node.properties["data-learning-media-url"] = mediaUrl
+  node.properties.className = [...new Set(classNames(node).concat("local-media-learning-target"))]
+}
+
+function markLearningEntry(node, seconds, clips, usedEntries) {
+  let match = null
+  let distance = Number.POSITIVE_INFINITY
+  for (const clip of clips) {
+    if (usedEntries.has(clip.entry)) continue
+    const candidateDistance = Math.abs(clip.anchor - seconds)
+    if (candidateDistance < distance) {
+      match = clip
+      distance = candidateDistance
+    }
+  }
+  if (!match || distance > 2) return
+  usedEntries.add(match.entry)
+  node.properties["data-learning-entry"] = String(match.entry)
+}
+
 function youtubeTimestampFrom(node, media) {
   if (node.tagName !== "a" || typeof node.properties?.href !== "string") return null
   if (media.type !== "youtube") return null
@@ -730,6 +797,330 @@ function seekMediaPlayer(seconds, mediaUrl, options = {}) {
   return seekMediaTarget(target, seconds, options)
 }
 
+var learningTargets = new Set()
+var learningStates = new WeakMap()
+var learningTickTimer = null
+
+function parseLearningClips(target) {
+  try {
+    var clips = JSON.parse(target.dataset.learningClips || "[]")
+    if (!Array.isArray(clips)) return []
+    return clips.filter(function (clip) {
+      return Number.isFinite(clip.entry) &&
+        Number.isFinite(clip.anchor) &&
+        Number.isFinite(clip.start) &&
+        Number.isFinite(clip.end) &&
+        clip.start >= 0 && clip.end > clip.start
+    })
+  } catch {
+    return []
+  }
+}
+
+function clusterLearningClipsForPlayer(clips) {
+  var sorted = clips.slice().sort(function (left, right) {
+    return left.start - right.start || left.end - right.end
+  })
+  var clusters = []
+  sorted.forEach(function (clip) {
+    var current = clusters[clusters.length - 1]
+    if (!current || clip.start > current.end) {
+      clusters.push({ start: clip.start, end: clip.end, clips: [clip] })
+      return
+    }
+    current.end = Math.max(current.end, clip.end)
+    current.clips.push(clip)
+  })
+  return clusters
+}
+
+function learningCurrentTime(target) {
+  if (target instanceof HTMLMediaElement) return Number(target.currentTime)
+  if (target instanceof HTMLElement && target.classList.contains("local-media-audio-card")) {
+    var syntheticTime = Number(target.dataset.mediaTime)
+    if (Number.isFinite(syntheticTime)) return syntheticTime
+    var audioPlayer = audioCardPlayers.get(target)
+    if (audioPlayer && typeof audioPlayer.getCurrentTime === "function") {
+      var audioTime = Number(audioPlayer.getCurrentTime())
+      if (Number.isFinite(audioTime)) return audioTime
+    }
+    return null
+  }
+  if (target instanceof HTMLIFrameElement) {
+    var youtubePlayer = youtubeVideoPlayers.get(target)
+    if (youtubePlayer && typeof youtubePlayer.getCurrentTime === "function") {
+      var youtubeTime = Number(youtubePlayer.getCurrentTime())
+      return Number.isFinite(youtubeTime) ? youtubeTime : null
+    }
+  }
+  return null
+}
+
+function pauseLearningTarget(target) {
+  if (target instanceof HTMLMediaElement) {
+    target.pause()
+    return
+  }
+  if (target instanceof HTMLElement && target.classList.contains("local-media-audio-card")) {
+    var frame = target.querySelector(".local-media-youtube-audio-frame")
+    if (frame instanceof HTMLIFrameElement) postYoutubeCommand(frame, "pauseVideo")
+    var state = audioCardState(target)
+    state.playing = false
+    updateAudioCard(target, state)
+    setAudioTimer(target, false)
+    return
+  }
+  if (target instanceof HTMLIFrameElement) {
+    var youtubePlayer = youtubeVideoPlayers.get(target)
+    if (youtubePlayer && typeof youtubePlayer.pauseVideo === "function") youtubePlayer.pauseVideo()
+    else postYoutubeCommand(target, "pauseVideo")
+  }
+}
+
+function isVisualLearningTarget(target) {
+  return target instanceof HTMLVideoElement || target instanceof HTMLIFrameElement
+}
+
+function toggleLearningPlayback(target) {
+  if (target instanceof HTMLMediaElement) {
+    if (mediaTargetIsPlaying(target)) target.pause()
+    else target.play().catch(() => {})
+    return
+  }
+  if (target instanceof HTMLIFrameElement) {
+    var player = youtubeVideoPlayers.get(target)
+    var shouldPlay = !mediaTargetIsPlaying(target)
+    if (player) {
+      if (shouldPlay && typeof player.playVideo === "function") player.playVideo()
+      else if (!shouldPlay && typeof player.pauseVideo === "function") player.pauseVideo()
+    } else {
+      postYoutubeCommand(target, shouldPlay ? "playVideo" : "pauseVideo")
+      youtubeVideoPlaying.set(target, shouldPlay)
+    }
+  }
+}
+
+function learningScope() {
+  return document.querySelector("article") || document
+}
+
+function highlightLearningEntries(state) {
+  learningScope().querySelectorAll(".local-media-learning-active").forEach(function (element) {
+    element.classList.remove("local-media-learning-active")
+  })
+  var cluster = state.clusters[state.index]
+  if (!state.enabled || !cluster) return
+  cluster.clips.forEach(function (clip) {
+    learningScope()
+      .querySelectorAll('[data-learning-entry="' + clip.entry + '"]')
+      .forEach(function (link) {
+        ;(link.closest("li") || link).classList.add("local-media-learning-active")
+      })
+  })
+}
+
+function updateLearningToolbar(state, message) {
+  var toggle = state.toolbar.querySelector('[data-learning-action="toggle"]')
+  var playPause = state.toolbar.querySelector('[data-learning-action="play-pause"]')
+  var audioOnly = state.toolbar.querySelector('[data-learning-action="audio-only"]')
+  var status = state.toolbar.querySelector(".local-media-learning-status")
+  state.toolbar.dataset.enabled = state.enabled ? "true" : "false"
+  state.toolbar.dataset.audioOnly = state.audioOnly ? "true" : "false"
+  if (toggle) {
+    toggle.setAttribute("aria-pressed", state.enabled ? "true" : "false")
+    toggle.textContent = state.enabled ? "Lernmodus an" : "Lernmodus"
+  }
+  if (status) {
+    status.textContent = message ||
+      (state.enabled
+        ? String(state.index + 1) + " / " + String(state.clusters.length)
+        : String(state.clusters.length) + " Lernclips")
+  }
+  if (playPause) {
+    var playing = mediaTargetIsPlaying(state.target)
+    playPause.textContent = playing ? "Pause" : "Abspielen"
+    playPause.setAttribute("aria-label", playing ? "Audio pausieren" : "Audio abspielen")
+  }
+  if (audioOnly) {
+    audioOnly.textContent = state.audioOnly ? "Video anzeigen" : "Nur Audio"
+    audioOnly.setAttribute("aria-pressed", state.audioOnly ? "true" : "false")
+  }
+}
+
+function startLearningTick() {
+  if (learningTickTimer !== null) return
+  learningTickTimer = window.setInterval(function () {
+    var hasEnabledTarget = false
+    learningTargets.forEach(function (target) {
+      if (!target.isConnected) {
+        learningTargets.delete(target)
+        return
+      }
+      var state = learningStates.get(target)
+      if (!state || !state.enabled) return
+      hasEnabledTarget = true
+      if (performance.now() < state.seekingUntil || !mediaTargetIsPlaying(target)) return
+      var currentTime = learningCurrentTime(target)
+      var cluster = state.clusters[state.index]
+      if (!Number.isFinite(currentTime) || !cluster || currentTime < cluster.end - 0.05) return
+
+      if (state.index + 1 < state.clusters.length) {
+        goToLearningCluster(state, state.index + 1, true)
+      } else {
+        pauseLearningTarget(target)
+        updateLearningToolbar(state, "Ende der Lernliste")
+      }
+    })
+    if (!hasEnabledTarget) {
+      window.clearInterval(learningTickTimer)
+      learningTickTimer = null
+    }
+  }, 120)
+}
+
+function goToLearningCluster(state, index, play, startOverride) {
+  var bounded = Math.max(0, Math.min(state.clusters.length - 1, index))
+  var cluster = state.clusters[bounded]
+  if (!cluster) return
+  state.index = bounded
+  state.seekingUntil = performance.now() + 900
+  lastActiveMediaTarget = state.target
+  seekMediaTarget(
+    state.target,
+    Number.isFinite(startOverride) ? startOverride : cluster.start,
+    { play: play },
+  )
+  updateLearningToolbar(state)
+  highlightLearningEntries(state)
+  if (play) startLearningTick()
+}
+
+function toggleLearningMode(state) {
+  state.enabled = !state.enabled
+  if (!state.enabled) {
+    updateLearningToolbar(state)
+    highlightLearningEntries(state)
+    return
+  }
+
+  var currentTime = learningCurrentTime(state.target)
+  var index = state.clusters.findIndex(function (cluster) {
+    return Number.isFinite(currentTime) && currentTime >= cluster.start && currentTime <= cluster.end
+  })
+  if (index === -1) {
+    index = state.clusters.findIndex(function (cluster) {
+      return !Number.isFinite(currentTime) || cluster.end >= currentTime
+    })
+  }
+  goToLearningCluster(state, index === -1 ? 0 : index, true)
+}
+
+function goToLearningEntry(state, entry) {
+  var clip = state.clips.find(function (candidate) { return candidate.entry === entry })
+  if (!clip) return false
+  var index = state.clusters.findIndex(function (cluster) { return cluster.clips.includes(clip) })
+  if (index === -1) return false
+  goToLearningCluster(state, index, true, clip.start)
+  return true
+}
+
+function learningToolbar(target) {
+  var toolbar = document.createElement("div")
+  toolbar.className = "local-media-learning-controls"
+  toolbar.setAttribute("role", "group")
+  toolbar.setAttribute("aria-label", "Lernclip-Steuerung")
+  toolbar.innerHTML =
+    '<button type="button" data-learning-action="toggle" aria-pressed="false">Lernmodus</button>' +
+    '<span class="local-media-learning-status" aria-live="polite"></span>' +
+    '<span class="local-media-learning-navigation">' +
+      '<button type="button" data-learning-action="previous" aria-label="Vorheriger Lernclip">Zurück</button>' +
+      '<button type="button" data-learning-action="repeat" aria-label="Lernclip wiederholen">Wiederholen</button>' +
+      '<button type="button" data-learning-action="next" aria-label="Nächster Lernclip">Weiter</button>' +
+    '</span>' +
+    (isVisualLearningTarget(target)
+      ? '<span class="local-media-learning-media">' +
+          '<button type="button" data-learning-action="play-pause" aria-label="Audio abspielen">Abspielen</button>' +
+          '<button type="button" data-learning-action="audio-only" aria-pressed="false">Nur Audio</button>' +
+        '</span>'
+      : '')
+  return toolbar
+}
+
+function mediaModeToolbar() {
+  var toolbar = document.createElement("div")
+  toolbar.className = "local-media-learning-controls local-media-mode-controls"
+  toolbar.setAttribute("role", "group")
+  toolbar.setAttribute("aria-label", "Media-Steuerung")
+  toolbar.innerHTML =
+    '<span class="local-media-learning-media">' +
+      '<button type="button" data-learning-action="play-pause" aria-label="Audio abspielen">Abspielen</button>' +
+      '<button type="button" data-learning-action="audio-only" aria-pressed="false">Nur Audio</button>' +
+    '</span>'
+  return toolbar
+}
+
+function hydrateLearningPlayers() {
+  document.querySelectorAll(".local-media-learning-target[data-learning-clips]").forEach(function (target) {
+    if (
+      !(target instanceof HTMLElement) ||
+      target.dataset.learningHydrated === "true" ||
+      learningStates.has(target)
+    ) {
+      return
+    }
+    var clips = parseLearningClips(target)
+    var clusters = clusterLearningClipsForPlayer(clips)
+    if (!clusters.length) return
+    target.dataset.learningHydrated = "true"
+    var toolbar = learningToolbar(target)
+    target.insertAdjacentElement("afterend", toolbar)
+    var state = {
+      target: target,
+      toolbar: toolbar,
+      clips: clips,
+      clusters: clusters,
+      enabled: false,
+      audioOnly: false,
+      index: 0,
+      seekingUntil: 0,
+    }
+    learningStates.set(target, state)
+    learningTargets.add(target)
+    updateLearningToolbar(state)
+  })
+}
+
+function hydrateMediaModeControls() {
+  document.querySelectorAll(
+    "video.local-media-video, iframe.local-media-youtube:not(.local-media-youtube-audio-frame)",
+  ).forEach(function (target) {
+    if (
+      !(target instanceof HTMLElement) ||
+      target.dataset.mediaModeHydrated === "true" ||
+      target.hasAttribute("data-learning-clips") ||
+      learningStates.has(target)
+    ) {
+      return
+    }
+    target.dataset.mediaModeHydrated = "true"
+    var toolbar = mediaModeToolbar()
+    target.insertAdjacentElement("afterend", toolbar)
+    var state = {
+      target: target,
+      toolbar: toolbar,
+      clips: [],
+      clusters: [],
+      enabled: false,
+      audioOnly: false,
+      index: 0,
+      seekingUntil: 0,
+    }
+    learningStates.set(target, state)
+    learningTargets.add(target)
+    updateLearningToolbar(state)
+  })
+}
+
 function seekFromLocation() {
   const initial = Number(new URLSearchParams(location.hash.slice(1)).get("t"))
   if (!Number.isFinite(initial) || initial <= 0) return
@@ -767,6 +1158,17 @@ document.addEventListener("click", (event) => {
 
   event.preventDefault()
   event.stopImmediatePropagation()
+  const learningTarget = selectMediaTarget(mediaUrl)
+  const learningState = learningTarget ? learningStates.get(learningTarget) : null
+  const learningEntry = Number(link.dataset.learningEntry)
+  if (
+    learningState?.enabled &&
+    Number.isFinite(learningEntry) &&
+    goToLearningEntry(learningState, learningEntry)
+  ) {
+    history.replaceState(null, "", "#t=" + seconds)
+    return
+  }
   localMediaChannel?.postMessage({ type: "seek", mediaUrl, seconds })
   seekMediaPlayer(seconds, mediaUrl)
   history.replaceState(null, "", "#t=" + seconds)
@@ -780,7 +1182,16 @@ document.addEventListener("play", (event) => {
       target.classList.contains("local-media-audio"))
   ) {
     lastActiveMediaTarget = target
+    var state = learningStates.get(target)
+    if (state) updateLearningToolbar(state)
   }
+}, true)
+
+document.addEventListener("pause", (event) => {
+  const target = event.target
+  if (!(target instanceof HTMLMediaElement)) return
+  var state = learningStates.get(target)
+  if (state) updateLearningToolbar(state)
 }, true)
 
 document.addEventListener("auxclick", (event) => {
@@ -791,6 +1202,38 @@ document.addEventListener("auxclick", (event) => {
   if (!(link instanceof HTMLAnchorElement)) return
   event.preventDefault()
   event.stopImmediatePropagation()
+}, true)
+
+document.addEventListener("click", (event) => {
+  const target = event.target
+  const button = target instanceof Element
+    ? target.closest("[data-learning-action]")
+    : null
+  if (!(button instanceof HTMLButtonElement)) return
+  const toolbar = button.closest(".local-media-learning-controls")
+  if (!(toolbar instanceof HTMLElement)) return
+  const state = [...learningTargets]
+    .map(function (candidate) { return learningStates.get(candidate) })
+    .find(function (candidate) { return candidate?.toolbar === toolbar })
+  if (!state) return
+
+  event.preventDefault()
+  event.stopImmediatePropagation()
+  const action = button.dataset.learningAction
+  if (action === "toggle") toggleLearningMode(state)
+  else if (action === "play-pause") {
+    toggleLearningPlayback(state.target)
+    window.setTimeout(function () { updateLearningToolbar(state) }, 0)
+  }
+  else if (action === "audio-only" && isVisualLearningTarget(state.target)) {
+    state.audioOnly = !state.audioOnly
+    state.target.classList.toggle("local-media-audio-only", state.audioOnly)
+    updateLearningToolbar(state)
+  }
+  else if (!state.enabled) return
+  else if (action === "previous") goToLearningCluster(state, state.index - 1, true)
+  else if (action === "repeat") goToLearningCluster(state, state.index, true)
+  else if (action === "next") goToLearningCluster(state, state.index + 1, true)
 }, true)
 
 function formatMediaTime(value) {
@@ -885,6 +1328,8 @@ function hydrateYoutubeVideoFrames() {
               var playing = event.data === 1
               youtubeVideoPlaying.set(frame, playing)
               if (playing) lastActiveMediaTarget = frame
+              var state = learningStates.get(frame)
+              if (state) updateLearningToolbar(state)
             },
           },
         })
@@ -977,15 +1422,23 @@ document.addEventListener("nav", hydrateAudioCards)
 document.addEventListener("render", hydrateAudioCards)
 document.addEventListener("nav", hydrateYoutubeVideoFrames)
 document.addEventListener("render", hydrateYoutubeVideoFrames)
+document.addEventListener("nav", hydrateLearningPlayers)
+document.addEventListener("render", hydrateLearningPlayers)
+document.addEventListener("nav", hydrateMediaModeControls)
+document.addEventListener("render", hydrateMediaModeControls)
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", () => {
     hydrateAudioCards()
     hydrateYoutubeVideoFrames()
+    hydrateLearningPlayers()
+    hydrateMediaModeControls()
     seekFromLocation()
   }, { once: true })
 } else {
   hydrateAudioCards()
   hydrateYoutubeVideoFrames()
+  hydrateLearningPlayers()
+  hydrateMediaModeControls()
   seekFromLocation()
 }
 `
@@ -1170,6 +1623,114 @@ a.local-media-timestamp {
   font-variant-numeric: tabular-nums;
   cursor: pointer;
 }
+
+.local-media-learning-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  width: 100%;
+  margin: 0 0 1.5rem;
+  padding: 0.55rem 0.65rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 0.65rem;
+  background: color-mix(in srgb, var(--light) 92%, var(--secondary) 8%);
+  box-sizing: border-box;
+}
+
+.local-media-learning-controls button {
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.8rem;
+  line-height: 1;
+  padding: 0.45rem 0.65rem;
+}
+
+.local-media-learning-controls[data-enabled="true"] [data-learning-action="toggle"] {
+  border-color: var(--secondary);
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.local-media-learning-status {
+  color: var(--gray);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.local-media-learning-navigation {
+  display: flex;
+  gap: 0.4rem;
+  margin-left: auto;
+}
+
+.local-media-learning-media {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.local-media-mode-controls {
+  justify-content: flex-end;
+}
+
+.local-media-learning-controls[data-audio-only="true"] {
+  border-color: color-mix(in srgb, var(--secondary) 55%, var(--lightgray));
+}
+
+.local-media-learning-controls[data-audio-only="true"] [data-learning-action="audio-only"] {
+  border-color: var(--secondary);
+  background: var(--secondary);
+  color: var(--light);
+}
+
+.local-media-learning-target.local-media-audio-only {
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.local-media-learning-controls[data-enabled="false"] .local-media-learning-navigation {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+li.local-media-learning-active,
+.local-media-learning-active:not(li) {
+  border-radius: 0.35rem;
+  background: var(--highlight);
+  box-shadow: -0.3rem 0 0 var(--secondary);
+}
+
+@media (max-width: 620px) {
+  .local-media-learning-controls {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .local-media-learning-navigation {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .local-media-learning-navigation button,
+  .local-media-learning-media button {
+    flex: 1 1 0;
+  }
+
+  .local-media-learning-media {
+    width: 100%;
+  }
+}
 `
 
 export default function LocalMediaPlayer(userOptions = {}) {
@@ -1186,17 +1747,22 @@ export default function LocalMediaPlayer(userOptions = {}) {
           return (tree, file) => {
             replaceYoutubeAudioEmbeds(tree)
 
+            const learningClips = learningClipsFrom(file.data.frontmatter?.learningClips)
+            const usedLearningEntries = new Set()
+
             const defaultMedia = resolveConfiguredMedia(
               sourceFilePath(file.data.filePath, file.data.frontmatter?.source, options.mediaRoot),
               file.data.frontmatter?.media,
               options,
             )
+            const learningMediaUrl =
+              defaultMedia?.url ??
+              (typeof file.data.frontmatter?.media === "string"
+                ? file.data.frontmatter.media
+                : null)
 
             visit(tree, "element", (node) => {
-              if (
-                node.tagName === "iframe" &&
-                youtubeId(node.properties?.src)
-              ) {
+              if (node.tagName === "iframe" && youtubeId(node.properties?.src)) {
                 node.properties ||= {}
                 node.properties.src = withYoutubeApi(node.properties.src)
                 node.properties.allow = "fullscreen; autoplay"
@@ -1218,6 +1784,10 @@ export default function LocalMediaPlayer(userOptions = {}) {
                 ]
               }
 
+              if (learningClips.length && learningTargetMatches(node, learningMediaUrl)) {
+                markLearningTarget(node, learningMediaUrl, learningClips)
+              }
+
               if (isMarkedTimestamp(node)) {
                 const seconds = timestampFrom(node)
                 if (seconds === null) return
@@ -1228,6 +1798,7 @@ export default function LocalMediaPlayer(userOptions = {}) {
                 const mediaUrl = markedMedia?.url ?? markedTarget ?? defaultMedia?.url
                 if (!mediaUrl) return
                 markTimestampLink(node, `${mediaUrl}#t=${seconds}`, seconds)
+                markLearningEntry(node, seconds, learningClips, usedLearningEntries)
                 return
               }
 
@@ -1236,12 +1807,14 @@ export default function LocalMediaPlayer(userOptions = {}) {
               const youtubeSeconds = youtubeTimestampFrom(node, defaultMedia)
               if (youtubeSeconds !== null) {
                 markTimestampLink(node, `${defaultMedia.url}#t=${youtubeSeconds}`, youtubeSeconds)
+                markLearningEntry(node, youtubeSeconds, learningClips, usedLearningEntries)
                 return
               }
 
               const localSeconds = localTimestampFrom(node, defaultMedia)
               if (localSeconds !== null) {
                 markTimestampLink(node, `${defaultMedia.url}#t=${localSeconds}`, localSeconds)
+                markLearningEntry(node, localSeconds, learningClips, usedLearningEntries)
               }
             })
           }

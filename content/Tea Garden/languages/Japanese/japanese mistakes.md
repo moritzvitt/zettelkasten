@@ -5,13 +5,9 @@ publish: true
 tags:
   - zettel
   - japanese
+  - home
   - home/study-room
 ---
-Hana Fuji kaze 
-
-Lemon
-
-
 Original: その曲に対して(bezüglich)何が好き？
 Korrigiert: その曲のどんなところが好き？
 

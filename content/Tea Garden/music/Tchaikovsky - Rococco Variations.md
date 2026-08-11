@@ -7,6 +7,7 @@ tags:
   - tchaikovsky
   - cello
   - romantic
+  - music
   - music/romantic
   - media
 ---

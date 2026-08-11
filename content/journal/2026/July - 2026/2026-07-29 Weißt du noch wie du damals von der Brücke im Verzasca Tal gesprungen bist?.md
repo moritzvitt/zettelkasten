@@ -1,6 +1,6 @@
 ---
 title: "2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?"
-source: "journal/July - 2026/2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?.md"
+source: "journal/2026/July - 2026/2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?.md"
 publish: true
 tags:
   - zettel

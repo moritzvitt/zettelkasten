@@ -261,6 +261,97 @@ test("renders Media Extended audio placeholders as compact audio cards", () => {
   assert.match(figure.children[0].properties.src, /youtube\.com\/embed\/xdLG7jXGkLQ/)
 })
 
+test("attaches publishable learning clips to the matching player and learning-list links", () => {
+  const plugin = LocalMediaPlayer()
+  const transformer = plugin.htmlPlugins()[0]()
+  const clips = [{ entry: 0, anchor: 35.84, cueStart: 35.84, cueEnd: 37, start: 33.84, end: 41 }]
+  const frame = {
+    type: "element",
+    tagName: "iframe",
+    properties: { src: "https://www.youtube.com/embed/example" },
+    children: [],
+  }
+  const timestamp = {
+    type: "element",
+    tagName: "a",
+    properties: { href: "https://www.youtube.com/watch?v=example&t=35" },
+    children: [{ type: "text", value: "0:35" }],
+  }
+  const tree = { type: "root", children: [frame, timestamp] }
+
+  transformer(tree, {
+    data: {
+      filePath: "/tmp/published.md",
+      frontmatter: {
+        media: "https://www.youtube.com/watch?v=example",
+        learningClips: clips,
+      },
+    },
+  })
+
+  assert.equal(frame.properties["data-learning-clips"], JSON.stringify(clips))
+  assert.equal(
+    frame.properties["data-learning-media-url"],
+    "https://www.youtube.com/watch?v=example",
+  )
+  assert.ok(frame.properties.className.includes("local-media-learning-target"))
+  assert.equal(timestamp.properties["data-learning-entry"], "0")
+})
+
+test("attaches learning clips to a YouTube audio card rather than its hidden iframe", () => {
+  const plugin = LocalMediaPlayer()
+  const transformer = plugin.htmlPlugins()[0]()
+  const clip = { entry: 0, anchor: 6, cueStart: 6, cueEnd: 7, start: 4, end: 11 }
+  const tree = {
+    type: "root",
+    children: [
+      {
+        type: "element",
+        tagName: "span",
+        properties: {
+          "data-local-media-audio": "https://www.youtube.com/watch?v=example#as=audio",
+          "data-local-media-title": "",
+        },
+        children: [],
+      },
+    ],
+  }
+
+  transformer(tree, {
+    data: {
+      filePath: "/tmp/published.md",
+      frontmatter: {
+        media: "https://www.youtube.com/watch?v=example",
+        learningClips: [clip],
+      },
+    },
+  })
+
+  const card = tree.children[0]
+  const frame = card.children[0]
+  assert.equal(card.properties["data-learning-clips"], JSON.stringify([clip]))
+  assert.equal(frame.properties["data-learning-clips"], undefined)
+})
+
+test("keeps the learning bar below the media player without overlap", () => {
+  const resources = LocalMediaPlayer().externalResources()
+  const css = resources.css.map((resource) => resource.content).join("\n")
+
+  assert.match(css, /\.local-media-learning-controls\s*\{[\s\S]*?margin:\s*0 0 1\.5rem;/)
+  assert.doesNotMatch(css, /\.local-media-learning-controls\s*\{[\s\S]*?margin:\s*-/)
+})
+
+test("adds audio-only and playback controls for every visual media player", () => {
+  const resources = LocalMediaPlayer().externalResources()
+  const script = resources.js.map((resource) => resource.script).join("\n")
+
+  assert.match(script, /data-learning-action="audio-only"/)
+  assert.match(script, /data-learning-action="play-pause"/)
+  assert.match(script, /local-media-audio-only/)
+  assert.match(script, /function hydrateMediaModeControls\(\)/)
+  assert.match(script, /target\.hasAttribute\("data-learning-clips"\)/)
+})
+
 test("renders Media Extended audio marker images as compact audio cards", () => {
   const plugin = LocalMediaPlayer()
   const transformer = plugin.htmlPlugins()[0]()

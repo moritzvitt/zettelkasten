@@ -1,7 +1,8 @@
 ---
 title: "Culture-Dependent Means of Communication"
 source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Culture-Dependent Means of Communication.md"
-previous: "[[Culture as an Information Network]]"
+previous: "[[zettelkasten/zettel/communication-and-information/nexus-and-inform\
+  ation/culture-as-an-information-network|Culture as an Information Network]]"
 publish: true
 tags:
   - zettel

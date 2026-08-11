@@ -4,6 +4,7 @@ source: "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Pi
 mx-uid: qo4nbyw16s0hswjj85vwdlm2
 media: https://www.youtube.com/watch?v=dWbPdqns5Xk
 cover: "[[Tea Garden/languages/french/mx-img-qo4nbyw16s0hswjj85vwdlm2-pt1_42s.jpg]]"
+creator: SQUEEZIE
 publish: true
 tags:
   - zettel

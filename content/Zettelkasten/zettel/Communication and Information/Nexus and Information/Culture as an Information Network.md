@@ -2,8 +2,10 @@
 title: "Culture as an Information Network"
 source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md"
 next:
-  - "[[Means of Communication Within a Culture]]"
-  - "[[Institutions of a Culture]]"
+  - "[[zettelkasten/zettel/communication-and-information/means-of-communication\
+    -within-a-culture|Means of Communication Within a Culture]]"
+  - "[[zettelkasten/zettel/communication-and-information/institutions-of-a-cult\
+    ure|Institutions of a Culture]]"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture]]"

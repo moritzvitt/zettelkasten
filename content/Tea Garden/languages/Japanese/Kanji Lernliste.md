@@ -29,39 +29,39 @@ Globale Liste fuer Ausdruecke, die in Media Notes mit `` markiert sind. Der Mark
 - [15:42](https://www.youtube.com/watch?v=yjXZ5G2su5c&t=942.609) ==多様==（||たよう||） - vielfältig
 - [17:06](https://www.youtube.com/watch?v=yjXZ5G2su5c&t=1026.661) ==芸術==（||げいじゅつ||） - Kunst
 
-- 5:09 (lokales Video nicht verfügbar) ==辞書==（||じしょ||） - Wörterbuch.
-- 5:58 (lokales Video nicht verfügbar) ==勇ましい==（||いさましい||） - tapfer, kühn
-- 9:10 (lokales Video nicht verfügbar) ==此の世==（||このよ||） - diese Welt, Diesseits — この世は夢
-- 9:13 (lokales Video nicht verfügbar) ==光栄==（||こうえい||） - Ehre, Auszeichnung
-- 12:03 (lokales Video nicht verfügbar) ==商売==（||しょうばい||） - Geschäft, Handel
-- 12:08 (lokales Video nicht verfügbar) ==設計家==（||せっけいか||） - Konstrukteur, Designer, Ingenieur im Entwurf.
-- 13:24 (lokales Video nicht verfügbar) ==湿気==（||しっけ||） - Feuchtigkeit
-- 17:18 (lokales Video nicht verfügbar) ==爆発==（||ばくはつ||） - Explosion
-- 19:43 (lokales Video nicht verfügbar) ==新品==（||しんぴん||） - nagelneu, neue Ware
-- 19:47 (lokales Video nicht verfügbar) ==井戸==（||いど||） - Brunnen
-- 22:16 (lokales Video nicht verfügbar) ==深川==（||ふかがわ||） - Fukagawa; Stadtteil in Tokyo
-- 26:06 (lokales Video nicht verfügbar) ==曲線==（||きょくせん||） - Kurve, geschwungene Linie
-- 28:47 (lokales Video nicht verfügbar) ==収まる==（||おさまる||） - sich beruhigen, abklingen; sich einfügen.
-- 31:54 (lokales Video nicht verfügbar) ==噂==（||うわさ||） - Gerücht.
-- 33:04 (lokales Video nicht verfügbar) ==帽子==（||ぼうし||） - Hut, Mütze — データはこれ 帽子はそこ
-- 33:14 (lokales Video nicht verfügbar) ==挨拶==（||あいさつ||） - Begrüßung, Vorstellung — 挨拶
-- 35:05 (lokales Video nicht verfügbar) ==覗く==（||のぞく||） - hineinschauen, spähen
-- 36:08 (lokales Video nicht verfügbar) ==遅刻==（||ちこく||） - Verspätung
-- 47:28 (lokales Video nicht verfügbar) ==契約==（||けいやく||） - Vertrag — 契約に基づく正当な行為である。
-- 48:15 (lokales Video nicht verfügbar) ==許可==（||きょか||） - Erlaubnis, Genehmigung.
-- 1:14:45 (lokales Video nicht verfügbar) ==体験==（||たいけん||） - Erlebnis, Erfahrung.
-- 1:27:24 (lokales Video nicht verfügbar) ==専門==（||せんもん||） - Spezialgebiet — 思想犯専門の秘密警察だ
-- 5:04 (lokales Video nicht verfügbar) ==拝借==（||はいしゃく||） - sich etwas leihen; höflich/bescheiden
-- 5:36 (lokales Video nicht verfügbar) ==下級生==（||かきゅうせい||） - jüngerer Schüler, Unterklässler
-- 41:25 (lokales Video nicht verfügbar) ==推薦==（||すいせん||） - Empfehlung, Nominierung.
-- 6:02 (lokales Video nicht verfügbar) ==喧嘩==（||けんか||） - Streit, Prügelei
-- 7:33 (lokales Video nicht verfügbar) ==流れ星==（||ながれぼし||） - Sternschnuppe
-- 1:02:29 (lokales Video nicht verfügbar) ==風邪==（||かぜ||） - Erkältung.
-- 1:11:12 (lokales Video nicht verfügbar) ==夢中==（||むちゅう||） - völlig vertieft, wie im Rausch
-- 8:47 (lokales Video nicht verfügbar) ==帽子屋==（||ぼうしや||） - Hutladen, Hutmacher
-- 29:33 (lokales Video nicht verfügbar) ==掃除婦==（||そうじふ||） - Putzfrau
-- 1:07:30 (lokales Video nicht verfügbar) ==指輪==（||ゆびわ||） - Ring
-- 1:20:04 (lokales Video nicht verfügbar) ==中庭==（||なかにわ||） - Innenhof
-- 1:33:52 (lokales Video nicht verfügbar) ==防ぐ==（||ふせぐ||） - abwehren, verhindern
-- 22:10 (lokales Video nicht verfügbar) ==契約==（||けいやく||） - Vertrag, Pakt
+- 5:09 (lokales video nicht verfügbar) ==辞書==（||じしょ||） - Wörterbuch.
+- 5:58 (lokales video nicht verfügbar) ==勇ましい==（||いさましい||） - tapfer, kühn
+- 9:10 (lokales video nicht verfügbar) ==此の世==（||このよ||） - diese Welt, Diesseits — この世は夢
+- 9:13 (lokales video nicht verfügbar) ==光栄==（||こうえい||） - Ehre, Auszeichnung
+- 12:03 (lokales video nicht verfügbar) ==商売==（||しょうばい||） - Geschäft, Handel
+- 12:08 (lokales video nicht verfügbar) ==設計家==（||せっけいか||） - Konstrukteur, Designer, Ingenieur im Entwurf.
+- 13:24 (lokales video nicht verfügbar) ==湿気==（||しっけ||） - Feuchtigkeit
+- 17:18 (lokales video nicht verfügbar) ==爆発==（||ばくはつ||） - Explosion
+- 19:43 (lokales video nicht verfügbar) ==新品==（||しんぴん||） - nagelneu, neue Ware
+- 19:47 (lokales video nicht verfügbar) ==井戸==（||いど||） - Brunnen
+- 22:16 (lokales video nicht verfügbar) ==深川==（||ふかがわ||） - Fukagawa; Stadtteil in Tokyo
+- 26:06 (lokales video nicht verfügbar) ==曲線==（||きょくせん||） - Kurve, geschwungene Linie
+- 28:47 (lokales video nicht verfügbar) ==収まる==（||おさまる||） - sich beruhigen, abklingen; sich einfügen.
+- 31:54 (lokales video nicht verfügbar) ==噂==（||うわさ||） - Gerücht.
+- 33:04 (lokales video nicht verfügbar) ==帽子==（||ぼうし||） - Hut, Mütze — データはこれ 帽子はそこ
+- 33:14 (lokales video nicht verfügbar) ==挨拶==（||あいさつ||） - Begrüßung, Vorstellung — 挨拶
+- 35:05 (lokales video nicht verfügbar) ==覗く==（||のぞく||） - hineinschauen, spähen
+- 36:08 (lokales video nicht verfügbar) ==遅刻==（||ちこく||） - Verspätung
+- 47:28 (lokales video nicht verfügbar) ==契約==（||けいやく||） - Vertrag — 契約に基づく正当な行為である。
+- 48:15 (lokales video nicht verfügbar) ==許可==（||きょか||） - Erlaubnis, Genehmigung.
+- 1:14:45 (lokales video nicht verfügbar) ==体験==（||たいけん||） - Erlebnis, Erfahrung.
+- 1:27:24 (lokales video nicht verfügbar) ==専門==（||せんもん||） - Spezialgebiet — 思想犯専門の秘密警察だ
+- 5:04 (lokales video nicht verfügbar) ==拝借==（||はいしゃく||） - sich etwas leihen; höflich/bescheiden
+- 5:36 (lokales video nicht verfügbar) ==下級生==（||かきゅうせい||） - jüngerer Schüler, Unterklässler
+- 41:25 (lokales video nicht verfügbar) ==推薦==（||すいせん||） - Empfehlung, Nominierung.
+- 6:02 (lokales video nicht verfügbar) ==喧嘩==（||けんか||） - Streit, Prügelei
+- 7:33 (lokales video nicht verfügbar) ==流れ星==（||ながれぼし||） - Sternschnuppe
+- 1:02:29 (lokales video nicht verfügbar) ==風邪==（||かぜ||） - Erkältung.
+- 1:11:12 (lokales video nicht verfügbar) ==夢中==（||むちゅう||） - völlig vertieft, wie im Rausch
+- 8:47 (lokales video nicht verfügbar) ==帽子屋==（||ぼうしや||） - Hutladen, Hutmacher
+- 29:33 (lokales video nicht verfügbar) ==掃除婦==（||そうじふ||） - Putzfrau
+- 1:07:30 (lokales video nicht verfügbar) ==指輪==（||ゆびわ||） - Ring
+- 1:20:04 (lokales video nicht verfügbar) ==中庭==（||なかにわ||） - Innenhof
+- 1:33:52 (lokales video nicht verfügbar) ==防ぐ==（||ふせぐ||） - abwehren, verhindern
+- 22:10 (lokales video nicht verfügbar) ==契約==（||けいやく||） - Vertrag, Pakt
 - ==与える==（||あたえる||） - geben, verleihen, zufügen.

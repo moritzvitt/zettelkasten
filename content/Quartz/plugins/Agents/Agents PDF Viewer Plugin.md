@@ -52,7 +52,7 @@ wenn die Seite breit genug ist, können auch zwei PDF Seiten nebeneinander angez
 > - `filter: invert(1)` plus `mix-blend-mode: screen` wird anschließend auf das fertige Bitmap angewendet. Besonders Safari reduziert dabei den Kantenkontrast.
 > - Bei zwei Seiten nebeneinander werden Noten und Schrift zusätzlich stark verkleinert.
 > 
-> Die größte technische Ursache ist die Begrenzung in [runtime.js (line 63)](/Users/moritzvitt/src/zettelkasten-website/plugins/pdf-viewer/src/runtime.js:63); die wahrgenommene Weichheit im Dark Mode kommt zusätzlich aus [index.js (line 83)](/Users/moritzvitt/src/zettelkasten-website/plugins/pdf-viewer/src/index.js:83).
+> Die größte technische Ursache ist die Begrenzung in runtime.js (line 63); die wahrgenommene Weichheit im Dark Mode kommt zusätzlich aus index.js (line 83).
 > 
 > Ich würde als Korrektur mit der tatsächlichen Pixeldichte bis maximal `3×` rendern und den `screen`-Blendmodus durch eine kontrastschonendere Farbanpassung ersetzen.
 >

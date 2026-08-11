@@ -1,6 +1,6 @@
 ---
 title: "2026-07-18 datascience"
-source: "journal/July - 2026/2026-07-18 datascience.md"
+source: "journal/2026/July - 2026/2026-07-18 datascience.md"
 password: zowitsch
 publish: true
 tags:

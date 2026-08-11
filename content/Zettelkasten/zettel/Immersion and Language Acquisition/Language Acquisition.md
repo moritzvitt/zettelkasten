@@ -2,9 +2,11 @@
 title: "Language Acquisition"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md"
 next:
-  - "[[Immersion Turns Culture Into the Environment]]"
-  - "[[Digital Garden/Zettelkasten/zettel/Immersion and Language
-    Acquisition/Immersion/The LLM in My Brain|The LLM in My Brain]]"
+  - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersi\
+    on-turns-culture-into-the-environment|Immersion Turns Culture Into the
+    Environment]]"
+  - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm\
+    -in-my-brain|The LLM in My Brain]]"
 publish: true
 tags:
   - zettel

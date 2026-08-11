@@ -2,7 +2,10 @@
 title: "Thematic Immersion Optimizes Re-Encounter Density"
 source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Thematic Immersion Optimizes Re-Encounter Density.md"
 next: null
-previous: "[[Anki Alone Becomes Inefficient as Vocabulary Grows]]"
+previous: "[[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-la\
+  nguage-learning/anki's-problems-in-language-learning/anki-alone-becomes-ineff\
+  icient-as-vocabulary-grows|Anki Alone Becomes Inefficient as Vocabulary
+  Grows]]"
 publish: true
 tags:
   - zettel

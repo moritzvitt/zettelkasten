@@ -5,9 +5,11 @@ mx-uid: How much do Japanese Girls Cheat?
 media: https://www.youtube.com/watch?v=b22jxhg0OVo
 cover: "[[Tea Garden/languages/Japanese/Japanese Media
   Notes/Youtube/mx-img-xm0kei7udkdpoiq604iqdzdp-pt2_90s.jpg]]"
+creator: TAKASHii
 publish: true
 tags:
   - zettel
+  - japanese
   - japanese/relationships
   - japanese/conversation
   - vocabulary-list
@@ -18,13 +20,13 @@ tags:
 
 ## Lernliste
 
-- [0:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=0#t=00:00.08) ==浮気してる方==（||うわきしてるかた||） - jemand, der fremdgeht; `方` hier hoeflicher fuer Person
-- [0:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=5#t=00:05.12) ==風俗に行く==（||ふうぞくにいく||） - in ein Sex-/Hostess-/Erotik-Etablissement gehen
+- [0:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=0#t=00:00.08) ==浮気してる方==（||うわきしてるかた||） - jemand, der fremdgeht; `方` hier hoeflicher fuer Person ❗️
+- [0:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=5#t=00:05.12) ==風俗に行く==（||ふうぞくにいく||） - in ein Sex-/Hostess-/Erotik-Etablissement gehen❗️
 - [0:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=5#t=00:05.12) ==浮気かどうか==（||うわきかどうか||） - ob etwas als Fremdgehen gilt oder nicht
-- [0:43](https://www.youtube.com/watch?v=b22jxhg0OVo&t=43#t=00:43.84) ==付き合ってる状況==（||つきあってるじょうきょう||） - Situation, in der man mit jemandem zusammen ist
-- [0:43](https://www.youtube.com/watch?v=b22jxhg0OVo&t=43#t=00:43.84) ==耐えられなくて==（||たえられなくて||） - es nicht aushalten koennen; weil es unertraeglich war
-- [0:50](https://www.youtube.com/watch?v=b22jxhg0OVo&t=50#t=00:50.11) ==そもそも==（||そもそも||） - ueberhaupt, von Anfang an betrachtet
-- [1:01](https://www.youtube.com/watch?v=b22jxhg0OVo&t=61#t=01:01.32) ==冷めちゃった==（||さめちゃった||） - die Gefuehle sind abgekuehlt; umgangssprachlich mit `ちゃった`
+- [0:43](https://www.youtube.com/watch?v=b22jxhg0OVo&t=43#t=00:43.84) ==付き合ってる状況==（||つきあってるじょうきょう||） - Situation, in der man mit jemandem zusammen ist❗️
+- [0:43](https://www.youtube.com/watch?v=b22jxhg0OVo&t=43#t=00:43.84) ==耐えられなくて==（||たえ❗️られなくて||） - es nicht aushalten koennen; weil es unertraeglich war
+- [0:50](https://www.youtube.com/watch?v=b22jxhg0OVo&t=50#t=00:50.11) ==そもそも==（||そもそも||） - ueberhaupt, von Anfang an betrachtet❗️
+- [1:01](https://www.youtube.com/watch?v=b22jxhg0OVo&t=61#t=01:01.32) ==冷めちゃった==（||さめちゃった||） - die Gefuehle sind abgekuehlt; umgangssprachlich mit `ちゃった`❗️
 - [1:05](https://www.youtube.com/watch?v=b22jxhg0OVo&t=65#t=01:05.56) ==断ってた==（||ことわってた||） - hatte abgelehnt
 - [1:13](https://www.youtube.com/watch?v=b22jxhg0OVo&t=73#t=01:13.20) ==断れなくなっちゃって==（||ことわれなくなっちゃって||） - konnte dann nicht mehr ablehnen
 - [1:28](https://www.youtube.com/watch?v=b22jxhg0OVo&t=88#t=01:28.28) ==わざわざ==（||わざわざ||） - extra, eigens; mit Aufwand/Absicht
@@ -34,8 +36,8 @@ tags:
 - [2:09](https://www.youtube.com/watch?v=b22jxhg0OVo&t=129#t=02:09.47) ==その時の関係によります==（||そのときのかんけいによります||） - es haengt von der Beziehung zu dem Zeitpunkt ab
 - [2:21](https://www.youtube.com/watch?v=b22jxhg0OVo&t=141#t=02:21.08) ==性欲強い==（||せいよくつよい||） - einen starken Sexualtrieb haben
 - [2:26](https://www.youtube.com/watch?v=b22jxhg0OVo&t=146#t=02:26.59) ==区別つけてる==（||くべつつけてる||） - eine Unterscheidung machen
-- [3:34](https://www.youtube.com/watch?v=b22jxhg0OVo&t=214#t=03:34.79) ==まだ許せる==（||まだゆるせる||） - noch verzeihbar / gerade noch akzeptabel
-- [3:42](https://www.youtube.com/watch?v=b22jxhg0OVo&t=222#t=03:42.79) ==時と場合による==（||ときとばあいによる||） - kommt auf Zeit/Situation an; es kommt darauf an
+- [3:34](https://www.youtube.com/watch?v=b22jxhg0OVo&t=214#t=03:34.79) ==まだ許せる==（||まだゆるせる||） - noch verzeihbar / gerade noch akzeptabel❗️
+- [3:42](https://www.youtube.com/watch?v=b22jxhg0OVo&t=222#t=03:42.79) ==時と場合による==（||ときとばあいによる||） - kommt auf Zeit/Situation an; es kommt darauf an❗️
 - [3:54](https://www.youtube.com/watch?v=b22jxhg0OVo&t=234#t=03:54.79) ==一定数いる==（||いっていすういる||） - es gibt eine gewisse Anzahl davon
 - [4:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=240#t=04:00.36) ==驚いてる人が多い==（||おどろいてるひとがおおい||） - viele Leute sind ueberrascht
 - [4:08](https://www.youtube.com/watch?v=b22jxhg0OVo&t=248#t=04:08.75) ==日本独特==（||にほんどくとく||） - spezifisch japanisch, japanisch-eigen
@@ -60,6 +62,7 @@ tags:
 - [10:20](https://www.youtube.com/watch?v=b22jxhg0OVo&t=620#t=10:20.95) ==行かなければいい==（||いかなければいい||） - solange er nicht hingeht / er soll halt nicht gehen
 - [10:26](https://www.youtube.com/watch?v=b22jxhg0OVo&t=626#t=10:26.72) ==女の子は隠すのがうまい==（||おんなのこはかくすのがうまい||） - Frauen/Maedchen sind gut darin, es zu verheimlichen
 
+%%
 ## Kenn ich schon mehr oder weniger
 
 - [0:00](https://www.youtube.com/watch?v=b22jxhg0OVo&t=0#t=00:00.08) ==周りの友達==（||まわりのともだち||） - Freunde im eigenen Umfeld / Freundeskreis

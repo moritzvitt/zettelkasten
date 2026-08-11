@@ -12,6 +12,7 @@ import {
 } from "./relationship-parser.mjs"
 import { assetHref } from "./asset-path.mjs"
 import { renderPdfEmbed } from "./pdf-embed.mjs"
+import { learningClipsFromSources } from "../plugins/local-media-player/src/learning-clips.js"
 
 const defaultVaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
 const vaultRoot =
@@ -88,10 +89,13 @@ function shouldPublish(data) {
 function outputPath(file) {
   if (isHomepageSource(file)) return "index.md"
   const relative = path.relative(vaultRoot, file)
-  if (!hasNestedDigitalGarden) return relative
+  if (!hasNestedDigitalGarden) return relative.replaceAll('"', "")
 
   const gardenPrefix = `Digital Garden${path.sep}`
-  return relative.startsWith(gardenPrefix) ? relative.slice(gardenPrefix.length) : relative
+  const publicRelative = relative.startsWith(gardenPrefix)
+    ? relative.slice(gardenPrefix.length)
+    : relative
+  return publicRelative.replaceAll('"', "")
 }
 
 function isHomepageSource(file) {
@@ -147,10 +151,13 @@ function allWikiLinks(text) {
 const imageAssetExtensions = new Set([".jpg", ".jpeg", ".png", ".gif", ".webp", ".svg"])
 const pdfAssetExtensions = new Set([".pdf"])
 const videoAssetExtensions = new Set([".mp4", ".mov", ".m4v", ".webm", ".ogv"])
+const audioAssetExtensions = new Set([".mp3", ".wav", ".m4a", ".ogg", ".oga", ".aac", ".flac"])
+const localMediaAssetExtensions = new Set([...videoAssetExtensions, ...audioAssetExtensions])
+const localAliasAssetExtensions = new Set([...localMediaAssetExtensions, ...imageAssetExtensions])
 const copiedAssetExtensions = new Set([
   ...imageAssetExtensions,
   ...pdfAssetExtensions,
-  ...videoAssetExtensions,
+  ...localMediaAssetExtensions,
 ])
 const publishedEmbeddedAssetExtensions = new Set([...imageAssetExtensions, ...pdfAssetExtensions])
 
@@ -175,13 +182,13 @@ function wikilinkImageTarget(value) {
   return imageAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
 }
 
-function wikilinkVideoTarget(value) {
+function wikilinkMediaTarget(value) {
   if (typeof value !== "string") return null
   const match = value.match(/^!?\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]$/)
   if (!match) return null
 
   const target = match[1].trim()
-  return videoAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
+  return localMediaAssetExtensions.has(path.extname(target).toLocaleLowerCase("de")) ? target : null
 }
 
 function publishedAssetPath(relDir, target) {
@@ -218,15 +225,70 @@ function isPrivateTranscript(value) {
   return isInside(transcriptsRoot, source) || ext === ".srt" || ext === ".vtt"
 }
 
-function localVideoFile(value) {
+function captionDescriptor(value, noteFile) {
+  if (typeof value !== "string" || !value.trim()) return null
+  let target = value.trim()
+  const wikilink = target.match(/^\[\[([\s\S]*?)\]\]$/)
+  if (wikilink) target = wikilink[1].split("|", 1)[0]
+
+  const hashIndex = target.indexOf("#")
+  const hash = hashIndex === -1 ? "" : target.slice(hashIndex + 1)
+  const bareTarget = hashIndex === -1 ? target : target.slice(0, hashIndex)
+  const metadata = new URLSearchParams(hash)
+  let file
+  try {
+    const url = new URL(bareTarget)
+    if (url.protocol !== "file:") return null
+    file = fileURLToPath(url)
+  } catch {
+    try {
+      file = path.resolve(path.dirname(noteFile), decodeURIComponent(bareTarget))
+    } catch {
+      file = path.resolve(path.dirname(noteFile), bareTarget)
+    }
+  }
+
+  const extension = path.extname(file).toLocaleLowerCase("de")
+  if ((extension !== ".srt" && extension !== ".vtt") || !existsSync(file)) return null
+  return {
+    file,
+    language: metadata.get("lang")?.trim().toLocaleLowerCase("de") || "",
+    label: metadata.get("label")?.trim().toLocaleLowerCase("de") || "",
+  }
+}
+
+async function learningClipsForNote(noteFile, source, data) {
+  const values = Array.isArray(data.captions)
+    ? data.captions.flat(Infinity)
+    : data.captions === undefined
+      ? []
+      : [data.captions]
+  const captions = values.map((value) => captionDescriptor(value, noteFile)).filter(Boolean)
+  if (!captions.length) return []
+
+  const language = String(data.language ?? "")
+    .trim()
+    .toLocaleLowerCase("de")
+  const caption =
+    captions.find((candidate) => language && candidate.language === language) ||
+    captions.find((candidate) => language && candidate.label.includes(language)) ||
+    captions[0]
+  try {
+    return learningClipsFromSources(source, await readFile(caption.file, "utf8"))
+  } catch {
+    return []
+  }
+}
+
+function localMediaFile(value) {
   const source = localFile(value)
   if (!source || !isInside(moviesRoot, source)) return null
-  return videoAssetExtensions.has(path.extname(source).toLocaleLowerCase("de")) ? source : null
+  return localAliasAssetExtensions.has(path.extname(source).toLocaleLowerCase("de")) ? source : null
 }
 
 const localMediaAliases = new Map()
 
-function localVideoAlias(source) {
+function localMediaAlias(source) {
   const extension = path.extname(source).toLocaleLowerCase("de")
   const digest = createHash("sha256").update(path.resolve(source)).digest("hex").slice(0, 24)
   const alias = `${localMediaRoute}/${digest}${extension}`
@@ -234,39 +296,48 @@ function localVideoAlias(source) {
   return alias
 }
 
-function localVideoAliasFromUrl(value) {
-  const source = localVideoFile(value)
+function localMediaAliasFromUrl(value) {
+  const source = localMediaFile(value)
   if (!source) return null
   const url = new URL(value)
-  return `${localVideoAlias(source)}${url.search}${url.hash}`
+  return `${localMediaAlias(source)}${url.search}${url.hash}`
 }
 
-function localVideoPublishedHref(value) {
-  const source = localVideoFile(value)
+function localMediaPublishedHref(value) {
+  const source = localMediaFile(value)
   if (!source) return null
   const url = new URL(value)
-  const alias = localVideoAlias(source)
+  const alias = localMediaAlias(source)
   const timestamp = url.hash.match(/^#t=?([0-9]+(?:\.[0-9]+)?)s?$/i)
-  return timestamp ? localVideoTimestampHref(alias, `#t=${timestamp[1]}`) : `${alias}${url.search}${url.hash}`
+  return timestamp
+    ? localMediaTimestampHref(alias, `#t=${timestamp[1]}`)
+    : `${alias}${url.search}${url.hash}`
 }
 
-function resolveWikilinkVideo(noteFile, target) {
+function resolveWikilinkMedia(noteFile, target) {
   const direct = path.resolve(path.dirname(noteFile), target)
   if (existsSync(direct)) return direct
   return assetsByName.get(path.basename(target)) ?? null
 }
 
-function safeLocalVideoLabel(label, source) {
-  if (!label) return "Lokales Video"
+function localMediaLabel(source) {
+  const extension = path.extname(source).toLocaleLowerCase("de")
+  if (imageAssetExtensions.has(extension)) return "Lokales Bild"
+  return audioAssetExtensions.has(extension) ? "Lokales Audio" : "Lokales Video"
+}
+
+function safeLocalMediaLabel(label, source) {
+  const fallback = localMediaLabel(source)
+  if (!label) return fallback
   let decodedLabel = label
   try {
     decodedLabel = decodeURIComponent(label)
   } catch {}
   const originalName = path.basename(source, path.extname(source)).toLocaleLowerCase("de")
-  return decodedLabel.toLocaleLowerCase("de").includes(originalName) ? "Lokales Video" : label
+  return decodedLabel.toLocaleLowerCase("de").includes(originalName) ? fallback : label
 }
 
-function localVideoTimestampHref(alias, anchor = "") {
+function localMediaTimestampHref(alias, anchor = "") {
   const timestamp = anchor.match(/^#t=?([0-9]+(?:\.[0-9]+)?)s?$/i)
   if (!timestamp) return `${alias}${anchor}`
   return `${localMediaMarkerOrigin}/${encodeURIComponent(alias)}?t=${timestamp[1]}`
@@ -279,12 +350,12 @@ function withoutLocalFileUrls(value, noteFile) {
       .filter((item) => item !== undefined)
   }
   if (typeof value === "string" && localFile(value)) {
-    return localVideoAliasFromUrl(value) ?? undefined
+    return localMediaAliasFromUrl(value) ?? undefined
   }
-  const videoTarget = wikilinkVideoTarget(value)
-  if (videoTarget) {
-    const source = resolveWikilinkVideo(noteFile, videoTarget)
-    return source ? localVideoAlias(source) : undefined
+  const mediaTarget = wikilinkMediaTarget(value)
+  if (mediaTarget) {
+    const source = resolveWikilinkMedia(noteFile, mediaTarget)
+    return source ? localMediaAlias(source) : undefined
   }
   return value
 }
@@ -304,8 +375,9 @@ function publicFrontmatter(data, noteFile) {
   return result
 }
 
-function rewriteExternalFileUrls(text, externalAssets) {
-  const markdownFileLink = /(!?)\[([^\]]*)\]\((file:\/\/\/[^)\s]+)(?:\s+["'][^)]*["'])?\)/g
+function rewriteExternalFileUrls(text, externalAssets, noteFile) {
+  const markdownFileLink =
+    /(!?)\[([^\]\r\n]*)\]\((file:\/\/\/(?:[^()\s]+|\([^()\r\n]*\))+)(?:\s+["'][^)\r\n]*["'])?\)/g
   const rewritten = text.replace(markdownFileLink, (match, embed, label, value) => {
     const picture = publishablePicture(value)
     if (embed && picture) {
@@ -313,11 +385,13 @@ function rewriteExternalFileUrls(text, externalAssets) {
       return `![${label}](./${encodeURIComponent(path.basename(picture))})`
     }
 
-    const videoHref = localVideoPublishedHref(value)
-    if (videoHref) {
-      const source = localVideoFile(value)
-      const safeLabel = safeLocalVideoLabel(label, source)
-      return `${embed}[${safeLabel}](${videoHref})`
+    const mediaHref = localMediaPublishedHref(value)
+    if (mediaHref) {
+      const source = localMediaFile(value)
+      const safeLabel = safeLocalMediaLabel(label, source)
+      return embed
+        ? renderLocalMediaEmbed(source, mediaHref, label)
+        : `[${safeLabel}](${mediaHref})`
     }
 
     if (embed) return label ? `*${label} – nicht öffentlich verfügbar*` : ""
@@ -327,9 +401,31 @@ function rewriteExternalFileUrls(text, externalAssets) {
     return label
   })
 
-  return rewritten.replace(
+  const withoutBareFileUrls = rewritten.replace(
     /file:\/\/\/[^\s)<>"']+/g,
-    (value) => localVideoPublishedHref(value) ?? "",
+    (value) => localMediaPublishedHref(value) ?? "",
+  )
+
+  return withoutBareFileUrls.replace(
+    /(!?)\[([^\]\r\n]*)\]\(([^)\s]+)(?:\s+["'][^)]*["'])?\)/g,
+    (match, embed, label, value) => {
+      let decoded = value
+      try {
+        decoded = decodeURIComponent(value)
+      } catch {}
+      const withoutFragment = decoded.split(/[?#]/, 1)[0]
+      const publishedExternalAsset = [...externalAssets.values()].includes(
+        path.basename(withoutFragment),
+      )
+      if (publishedExternalAsset) return match
+      const privateAbsolute = /^(?:\/Users\/|\/home\/|[A-Za-z]:[\\/])/.test(withoutFragment)
+      const relativeFile = /^(?:\.\.?\/|[^/]+$)/.test(withoutFragment) && Boolean(path.extname(withoutFragment))
+      const missingRelative =
+        relativeFile && !existsSync(path.resolve(path.dirname(noteFile), withoutFragment))
+      if (!privateAbsolute && !missingRelative) return match
+      const safeLabel = label || cleanTitle(withoutFragment)
+      return embed ? `*${safeLabel} – nicht öffentlich verfügbar*` : safeLabel
+    },
   )
 }
 
@@ -357,26 +453,34 @@ function rewriteWikiLinks(text, note, resolve) {
     /(!?)\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]/g,
     (match, embed, target, anchor = "", label) => {
       const ext = path.extname(target).toLocaleLowerCase("de")
-      if (videoAssetExtensions.has(ext)) {
-        const source = resolveWikilinkVideo(note.file, target)
-        if (!source) return label ? `${label} (lokales Video nicht verfügbar)` : "Lokales Video"
-        const alias = localVideoAlias(source)
-        const safeLabel = safeLocalVideoLabel(label, source)
-        if (!embed) return `[${safeLabel}](${localVideoTimestampHref(alias, anchor)})`
+      if (localMediaAssetExtensions.has(ext)) {
+        const source = resolveWikilinkMedia(note.file, target)
+        const fallback = audioAssetExtensions.has(ext) ? "Lokales Audio" : "Lokales Video"
+        if (!source)
+          return label ? `${label} (${fallback.toLocaleLowerCase("de")} nicht verfügbar)` : fallback
+        const alias = localMediaAlias(source)
+        const safeLabel = safeLocalMediaLabel(label, source)
+        if (!embed) return `[${safeLabel}](${localMediaTimestampHref(alias, anchor)})`
 
-        const size = embedSize(label)
-        const width = size.width ? ` width="${size.width}"` : ""
-        const height = size.height ? ` height="${size.height}"` : ""
-        return `<video controls playsinline preload="metadata" src="${alias}"${width}${height} title="Lokales Video"></video>`
+        return renderLocalMediaEmbed(source, alias, label)
       }
       if (embed) {
-        if (imageAssetExtensions.has(ext)) return match
+        if (imageAssetExtensions.has(ext)) {
+          return resolveWikilinkMedia(note.file, target)
+            ? match
+            : `*${label || cleanTitle(target)} – nicht öffentlich verfügbar*`
+        }
         if (pdfAssetExtensions.has(ext)) {
-          return renderAssetEmbed(target, label)
+          return resolveWikilinkMedia(note.file, target)
+            ? renderAssetEmbed(target, label)
+            : `*${label || cleanTitle(target)} – nicht öffentlich verfügbar*`
         }
       }
       const slug = resolve(note, target)
-      if (!slug) return match
+      if (!slug) {
+        const safeLabel = label || cleanTitle(target)
+        return embed ? `*${safeLabel} – nicht öffentlich verfügbar*` : safeLabel
+      }
       return `${embed}[[${slug}${anchor}|${label || cleanTitle(target)}]]`
     },
   )
@@ -410,6 +514,22 @@ function sizeStyle(size, defaults = {}) {
   return styles.length ? ` style="${styles.join("; ")}"` : ""
 }
 
+function renderLocalMediaEmbed(source, href, label) {
+  const size = embedSize(label)
+  const width = size.width ? ` width="${size.width}"` : ""
+  const height = size.height ? ` height="${size.height}"` : ""
+  const escapedHref = escapeHtml(href)
+  const title = localMediaLabel(source)
+  const extension = path.extname(source).toLocaleLowerCase("de")
+  if (imageAssetExtensions.has(extension)) {
+    return `<img src="${escapedHref}" alt="${escapeHtml(safeLocalMediaLabel(label, source))}">`
+  }
+  if (audioAssetExtensions.has(extension)) {
+    return `<audio controls preload="metadata" src="${escapedHref}" title="${title}"></audio>`
+  }
+  return `<video controls playsinline preload="metadata" src="${escapedHref}"${width}${height} title="${title}"></video>`
+}
+
 function renderAssetEmbed(target, label) {
   const ext = path.extname(target).toLocaleLowerCase("de")
   const href = escapeHtml(assetHref(target))
@@ -430,6 +550,10 @@ function renderAssetEmbed(target, label) {
     return `<video controls playsinline preload="metadata" src="${href}"${width}${height} title="${title}"></video>`
   }
 
+  if (audioAssetExtensions.has(ext)) {
+    return `<audio controls preload="metadata" src="${href}" title="${title}"></audio>`
+  }
+
   return `![[${target}${label ? `|${label}` : ""}]]`
 }
 
@@ -447,10 +571,99 @@ const passthroughFrontmatterKeys = [
   "cover",
   "tags",
   "vocab-trainer",
+  "learningClips",
   "password",
   "unlisted",
   "stealth",
 ]
+
+function baseFrontmatterKey(property) {
+  if (typeof property !== "string") return undefined
+  const parts = property.trim().split(".")
+  if (parts[0] === "note") parts.shift()
+  if (["file", "formula", "this"].includes(parts[0])) return undefined
+  const key = parts[0]
+  return key && !["title", "publish"].includes(key) ? key : undefined
+}
+
+const baseExpressionKeywords = new Set([
+  "and",
+  "or",
+  "not",
+  "true",
+  "false",
+  "null",
+  "undefined",
+  "note",
+  "file",
+  "formula",
+  "this",
+  "value",
+])
+
+function baseExpressionPropertyKeys(value) {
+  const keys = new Set()
+  if (Array.isArray(value)) {
+    for (const item of value) {
+      for (const key of baseExpressionPropertyKeys(item)) keys.add(key)
+    }
+    return keys
+  }
+  if (value && typeof value === "object") {
+    for (const item of Object.values(value)) {
+      for (const key of baseExpressionPropertyKeys(item)) keys.add(key)
+    }
+    return keys
+  }
+  if (typeof value !== "string") return keys
+
+  for (const match of value.matchAll(/\bnote\s*\[\s*(["'])([^"']+)\1\s*\]/g)) {
+    const key = baseFrontmatterKey(match[2])
+    if (key) keys.add(key)
+  }
+  for (const match of value.matchAll(/\bnote\.([A-Za-z_][\w-]*)/g)) {
+    const key = baseFrontmatterKey(match[1])
+    if (key) keys.add(key)
+  }
+
+  const unquoted = value.replace(/(["'])(?:\\.|(?!\1)[^\\])*\1/g, " ")
+  for (const match of unquoted.matchAll(/\b([A-Za-z_][\w-]*)\b/g)) {
+    const identifier = match[1]
+    const before = unquoted.slice(0, match.index)
+    const after = unquoted.slice(match.index + identifier.length)
+    if (baseExpressionKeywords.has(identifier.toLowerCase())) continue
+    if (/\.\s*$/.test(before) || /^\s*\(/.test(after)) continue
+    const key = baseFrontmatterKey(identifier)
+    if (key) keys.add(key)
+  }
+  return keys
+}
+
+function baseViewPropertyKeys(data) {
+  const keys = new Set()
+  for (const key of baseExpressionPropertyKeys(data?.filters)) keys.add(key)
+  for (const key of baseExpressionPropertyKeys(data?.formulas)) keys.add(key)
+  for (const view of Array.isArray(data?.views) ? data.views : []) {
+    const properties = [
+      ...(Array.isArray(view.order) ? view.order : []),
+      ...(Array.isArray(view.sort) ? view.sort.map((entry) => entry?.property) : []),
+      view.groupBy?.property,
+      view.image,
+      view.date,
+      view.dateField,
+      view.dateProperty,
+      view.boardProperty,
+      ...Object.keys(view.columnSize ?? {}),
+      ...Object.keys(view.summaries ?? {}),
+    ]
+    for (const property of properties) {
+      const key = baseFrontmatterKey(property)
+      if (key) keys.add(key)
+    }
+    for (const key of baseExpressionPropertyKeys(view.filters)) keys.add(key)
+  }
+  return keys
+}
 
 function yamlField(key, value) {
   return YAML.stringify({ [key]: value })
@@ -459,10 +672,9 @@ function yamlField(key, value) {
 }
 
 function passthroughFrontmatter(data) {
+  const keys = [...new Set([...passthroughFrontmatterKeys, ...baseReferencedFrontmatterKeys])]
   const passthrough = Object.fromEntries(
-    passthroughFrontmatterKeys
-      .filter((key) => data[key] !== undefined)
-      .map((key) => [key, data[key]]),
+    keys.filter((key) => data[key] !== undefined).map((key) => [key, data[key]]),
   )
 
   if (
@@ -475,6 +687,31 @@ function passthroughFrontmatter(data) {
   }
 
   return passthrough
+}
+
+function resolvedRelationshipFrontmatter(value, note, resolve) {
+  if (Array.isArray(value)) {
+    return value.map((item) => resolvedRelationshipFrontmatter(item, note, resolve)).filter(Boolean)
+  }
+  if (typeof value !== "string") return value
+  const match = value.match(/^\[\[([^\]|#]+)(#[^\]|]+)?(?:\|([^\]]+))?\]\]$/)
+  if (!match) return value
+  const slug = resolve(note, match[1])
+  if (!slug) return undefined
+  const anchor = match[2] ?? ""
+  const label = match[3] || cleanTitle(match[1])
+  return `[[${slug}${anchor}|${label}]]`
+}
+
+function passthroughFrontmatterForNote(note, resolve) {
+  const data = passthroughFrontmatter(note.frontmatter)
+  for (const key of ["next", "previous", "parents", "children", ...relationNames]) {
+    if (data[key] === undefined) continue
+    const resolved = resolvedRelationshipFrontmatter(data[key], note, resolve)
+    if (resolved === undefined || (Array.isArray(resolved) && resolved.length === 0)) delete data[key]
+    else data[key] = resolved
+  }
+  return data
 }
 
 function normalizeTags(value) {
@@ -490,7 +727,11 @@ function normalizeTags(value) {
 }
 
 function publishedTags(data = {}) {
-  return [...new Set(["zettel", ...normalizeTags(data.tags)])]
+  const expanded = normalizeTags(data.tags).flatMap((tag) => {
+    const segments = tag.split("/").filter(Boolean)
+    return segments.map((_, index) => segments.slice(0, index + 1).join("/"))
+  })
+  return [...new Set(["zettel", ...expanded])]
 }
 
 function frontmatter(title, sourcePath, graphLinks = [], aliases = [], extraData = {}) {
@@ -662,6 +903,13 @@ const files = sourceFiles.filter((file) => file.endsWith(".md"))
 const baseFiles = sourceFiles.filter(
   (file) => path.extname(file).toLocaleLowerCase("de") === ".base",
 )
+const baseReferencedFrontmatterKeys = new Set()
+for (const file of baseFiles) {
+  try {
+    const data = YAML.parse(await readFile(file, "utf8"))
+    for (const key of baseViewPropertyKeys(data)) baseReferencedFrontmatterKeys.add(key)
+  } catch {}
+}
 const assetsByName = new Map()
 for (const file of sourceFiles) {
   const ext = path.extname(file).toLocaleLowerCase("de")
@@ -687,6 +935,8 @@ for (const file of files) {
   if (externalCover) externalAssets.set(externalCover, path.basename(externalCover))
   const parsedRelationships = parseLinksSection(text)
   const publicData = publicFrontmatter(data, file)
+  const learningClips = await learningClipsForNote(file, text, data)
+  const learningData = learningClips.length ? { learningClips } : {}
   rawNotes.push({
     file,
     rel,
@@ -700,10 +950,14 @@ for (const file of files) {
     externalAssets,
     excerpt: excerpt(text),
     frontmatter: coverAsset
-      ? { ...publicData, cover: `[[${publishedAssetPath(relDir, coverAsset)}]]` }
+      ? { ...publicData, ...learningData, cover: `[[${publishedAssetPath(relDir, coverAsset)}]]` }
       : externalCover
-        ? { ...publicData, cover: `[[${publishedAssetPath(relDir, externalCover)}]]` }
-        : publicData,
+        ? {
+            ...publicData,
+            ...learningData,
+            cover: `[[${publishedAssetPath(relDir, externalCover)}]]`,
+          }
+        : { ...publicData, ...learningData },
   })
 }
 
@@ -731,25 +985,31 @@ const lookupByLanguage = new Map(
   ]),
 )
 const slugSet = new Set(rawNotes.map((note) => graphPath(note)))
+const baseSlugs = baseFiles.map((file) => slugPath(outputPath(file)))
+const baseSlugSet = new Set(baseSlugs)
+const baseStemToPath = new Map(
+  baseFiles.map((file, index) => [cleanTitle(path.basename(outputPath(file))), baseSlugs[index]]),
+)
 const folderIndexBySlug = new Map(
   rawNotes
     .filter((note) => note.relDir)
     .map((note) => [slugPath(note.relDir), slugPath(path.join(note.relDir, "index.md"))]),
 )
-const resolve = (note, target) => {
+const resolve = (note, target, includeBases = false) => {
   if (target.includes("/")) {
     const explicitSlug = slugPath(cleanTargetPath(target))
     if (slugSet.has(explicitSlug)) return explicitSlug
+    if (includeBases && baseSlugSet.has(explicitSlug)) return explicitSlug
     const folderIndexSlug = folderIndexBySlug.get(explicitSlug)
     if (folderIndexSlug) return folderIndexSlug
   }
 
   const lookup = lookupByLanguage.get(languageGroup(note))
-  return (
+  const noteSlug =
     lookup?.titleToPath.get(cleanTitle(target)) ||
     lookup?.stemToPath.get(cleanTitle(target)) ||
     null
-  )
+  return noteSlug || (includeBases ? baseStemToPath.get(cleanTitle(target)) || null : null)
 }
 
 for (const note of rawNotes) {
@@ -774,21 +1034,24 @@ for (const note of rawNotes) {
   await mkdir(path.dirname(out), { recursive: true })
   const isExcalidraw = Boolean(note.frontmatter["excalidraw-plugin"])
   const body = rewriteExternalFileUrls(
-    rewriteWikiLinks(stripFrontmatter(note.text), note, resolve),
+    rewriteWikiLinks(stripFrontmatter(note.text), note, (sourceNote, target) =>
+      resolve(sourceNote, target, true),
+    ),
     note.externalAssets,
+    note.file,
   )
   const sourcePath = path.relative(vaultRoot, note.file)
   const graphLinks = [
     ...new Set(relationNames.flatMap((name) => note.relations[name]).filter(Boolean)),
   ]
   const output = isExcalidraw
-    ? note.text.trimEnd() + "\n"
+    ? note.text.replace(/^\s*-\s*excalidraw\s*$/m, "").trimEnd() + "\n"
     : frontmatter(
         note.title,
         sourcePath,
         graphLinks,
         [],
-        passthroughFrontmatter(note.frontmatter),
+        passthroughFrontmatterForNote(note, resolve),
       ) +
       body.trim() +
       "\n"
@@ -889,7 +1152,7 @@ await writeFile(
 
 console.log(`Synced ${rawNotes.length} published Digital Garden notes into ${contentRoot}`)
 if (localMediaAliases.size)
-  console.log(`Linked ${localMediaAliases.size} local videos through private aliases`)
+  console.log(`Linked ${localMediaAliases.size} local media files through private aliases`)
 if (baseFiles.length) console.log(`Synced ${baseFiles.length} Digital Garden bases`)
 if (skipped) console.log(`Skipped ${skipped} unpublished or draft notes`)
 const unresolvedRelationships = rawNotes.flatMap((note) =>

@@ -620,6 +620,39 @@ export function renderTranscludes(
   walk(root)
 }
 
+function hastText(node: Element | Root): string {
+  return (node.children ?? [])
+    .map((child) =>
+      child.type === "text" ? child.value : child.type === "element" ? hastText(child) : "",
+    )
+    .join("")
+}
+
+/** Keep rendered heading IDs and generated table-of-contents links in agreement. */
+export function alignHeadingIdsWithToc(root: Root, toc: unknown) {
+  if (!Array.isArray(toc)) return
+  const remaining = toc.filter(
+    (entry): entry is { slug: unknown; text: unknown } =>
+      Boolean(entry && typeof entry === "object" && "slug" in entry && "text" in entry),
+  )
+
+  const walk = (node: Element | Root) => {
+    for (const child of node.children ?? []) {
+      if (child.type !== "element") continue
+      if (/^h[1-6]$/.test(child.tagName)) {
+        const text = hastText(child).trim()
+        const index = remaining.findIndex((entry) => String(entry.text).trim() === text)
+        if (index >= 0) {
+          child.properties.id = String(remaining[index].slug)
+          remaining.splice(index, 1)
+        }
+      }
+      walk(child)
+    }
+  }
+  walk(root)
+}
+
 export function renderPage(
   cfg: GlobalConfiguration,
   slug: FullSlug,
@@ -640,6 +673,8 @@ export function renderPage(
       transform(root, slug, componentData)
     }
   }
+
+  alignHeadingIdsWithToc(root, componentData.fileData.toc)
 
   // set componentData.tree to the edited html that has transclusions rendered
   componentData.tree = root

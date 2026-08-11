@@ -10,6 +10,9 @@ Die Quelle ist standardmäßig:
 
 Der Build schreibt die Website nach `public/`; dieser Ordner wird nicht committed.
 
+Die projektspezifische Architektur, Anpassungen und lokalen Plugins sind unter
+[`docs/customizations/`](docs/customizations/index.md) dokumentiert.
+
 Die veröffentlichte Obsidian-Notiz `Digital Garden/Digital Garden.md` wird als
 reguläre Quartz-Startseite nach `content/index.md` synchronisiert. Die früheren
 Dateinamen `Welcome in my Digital Garden!.md` werden weiterhin erkannt.
@@ -57,9 +60,13 @@ Der Sync trennt lokale Obsidian-Dateien bewusst vom öffentlichen Build:
 - Referenzierte Bilder unter `/Users/moritzvitt/Pictures` werden nur für veröffentlichte
   Notizen nach `content/` kopiert und auf relative Webpfade umgeschrieben.
 - `captions` sowie lokale SRT-/VTT-Links werden nicht veröffentlicht.
-- Lokale Filme und Videos unter `/Users/moritzvitt/Movies` werden nicht kopiert. Der Sync
-  ersetzt ihre Dateipfade und Dateinamen in veröffentlichtem Markdown durch stabile,
-  undurchsichtige Aliasse unter `/local-media/...`.
+- Für Mediennotizen mit `## Lernliste` darf der lokale Sync die private Untertiteldatei
+  auswerten. Veröffentlicht werden dabei ausschließlich abgeleitete Cue-Zeiten mit zwei
+  Sekunden Vorlauf und vier Sekunden Nachlauf; Untertiteltext und Dateipfad bleiben privat.
+- Lokale Videos, Audiodateien und Bilder beziehungsweise Cover unter
+  `/Users/moritzvitt/Movies` werden nicht kopiert. Der Sync ersetzt ihre Dateipfade und
+  Dateinamen in veröffentlichtem Markdown durch stabile, undurchsichtige Aliasse unter
+  `/local-media/...`.
 - Die private Zuordnung in `private/local-media-aliases.json` bleibt außerhalb von Git. Beim
   lokalen Build werden die Aliasse als Symlinks auf die Originaldateien bereitgestellt; auf
   der veröffentlichten Website funktionieren sie daher bewusst nicht.
@@ -67,6 +74,11 @@ Der Sync trennt lokale Obsidian-Dateien bewusst vom öffentlichen Build:
   das `media`-Frontmatter allein fügt keinen Player ein. Zeitlinks steuern den passenden
   vorhandenen Player direkt auf der Seite.
 - Externe Webmedien wie YouTube-URLs bleiben erhalten.
+- Unter Video-Playern lässt sich das Bild mit `Nur Audio` ausblenden und über dieselbe Leiste
+  weiter abspielen. Wenn zusätzlich abgeleitete Lernclips vorhanden sind, bietet die Leiste einen
+  Lernmodus mit Zurück, Wiederholen und Weiter. Überlappende Zeitfenster werden
+  als eine Passage behandelt; während der Wiedergabe hebt die Seite die zugehörigen
+  Lernlistenzeilen hervor.
 
 Die lokalen Pfade in den Obsidian-Quelldateien werden dabei nicht verändert.
 

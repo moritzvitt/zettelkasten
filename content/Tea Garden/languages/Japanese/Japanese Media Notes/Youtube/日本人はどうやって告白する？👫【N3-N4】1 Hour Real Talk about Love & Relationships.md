@@ -4,6 +4,60 @@ source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtu
 mx-uid: rpdwvtu6ij9lophenvu0xc8d
 media: https://www.youtube.com/watch?v=-QzI5uUvihA
 cover: https://i.ytimg.com/vi/-QzI5uUvihA/maxresdefault.jpg?v=6843d024
+learningClips:
+  - entry: 73
+    anchor: 3604
+    cueStart: 3603.039
+    cueEnd: 3604.51
+    start: 3601.039
+    end: 3608.51
+  - entry: 74
+    anchor: 3618
+    cueStart: 3615.96
+    cueEnd: 3618.67
+    start: 3613.96
+    end: 3622.67
+  - entry: 75
+    anchor: 3624
+    cueStart: 3624.079
+    cueEnd: 3625.108
+    start: 3622.079
+    end: 3629.108
+  - entry: 76
+    anchor: 3704
+    cueStart: 3703.519
+    cueEnd: 3704.349
+    start: 3701.519
+    end: 3708.349
+  - entry: 77
+    anchor: 3849
+    cueStart: 3846.039
+    cueEnd: 3849.63
+    start: 3844.039
+    end: 3853.63
+duration: 3933
+creator: Japanese super immersion
+description: |-
+  １ヶ月９０円、メンバーシップでさらに日本語を学ぼう！
+  Join here:
+  https://www.youtube.com/channel/UCLp9rnRAcrFSzsoXsjXYJYA/join
+
+  ・Spotify
+  https://open.spotify.com/show/7jk60NXhZlcu9YAvoY43Yx?si=B1cqgqqpQw693B5qqoiqpQ
+
+  🐦 X (Twitter)
+  https://x.com/miyazaki_jsi?s=21&t=qlLFdzbNuQFerhEmqFfzWQ
+
+  Ask us anything about Japanese! 🇯🇵
+  👇 Questions & Business Inquiries:
+  https://x.gd/YXJvd
+  We’ll answer your questions in our upcoming videos!
+  (Sponsors are also welcome!)
+
+  🎙️ Japanese Radio Show 🎙️
+  Every Saturday at 8 PM (JST)!
+  Fun,...
+creator_url: https://www.youtube.com/channel/UCLp9rnRAcrFSzsoXsjXYJYA
 publish: true
 tags:
   - zettel

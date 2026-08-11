@@ -8,6 +8,825 @@ offset: 0ms
 source_offset_applied: 0ms
 cover: "[[Tea Garden/languages/Japanese/Japanese Media
   Notes/movies/mx-img-kikis-delivery-service-1989-pt13m46_93s.jpg]]"
+learningClips:
+  - entry: 0
+    anchor: 30
+    cueStart: 30
+    cueEnd: 35.52
+    start: 28
+    end: 39.52
+  - entry: 1
+    anchor: 31.38
+    cueStart: 30
+    cueEnd: 35.52
+    start: 28
+    end: 39.52
+  - entry: 2
+    anchor: 33.397
+    cueStart: 30
+    cueEnd: 35.52
+    start: 28
+    end: 39.52
+  - entry: 3
+    anchor: 92.837
+    cueStart: 91.06
+    cueEnd: 94.36
+    start: 89.06
+    end: 98.36
+  - entry: 4
+    anchor: 118.86
+    cueStart: 118.86
+    cueEnd: 121.46
+    start: 116.86
+    end: 125.46
+  - entry: 5
+    anchor: 120.81
+    cueStart: 118.86
+    cueEnd: 121.46
+    start: 116.86
+    end: 125.46
+  - entry: 6
+    anchor: 123.05
+    cueStart: 122.08
+    cueEnd: 124.02
+    start: 120.08
+    end: 128.02
+  - entry: 7
+    anchor: 124.02
+    cueStart: 122.08
+    cueEnd: 124.02
+    start: 120.08
+    end: 128.02
+  - entry: 8
+    anchor: 134.522
+    cueStart: 133.98
+    cueEnd: 137.5
+    start: 131.98
+    end: 141.5
+  - entry: 9
+    anchor: 135.036
+    cueStart: 133.98
+    cueEnd: 137.5
+    start: 131.98
+    end: 141.5
+  - entry: 10
+    anchor: 152.164
+    cueStart: 148.28
+    cueEnd: 153.06
+    start: 146.28
+    end: 157.06
+  - entry: 11
+    anchor: 156.127
+    cueStart: 153.06
+    cueEnd: 157.66
+    start: 151.06
+    end: 161.66
+  - entry: 12
+    anchor: 170
+    cueStart: 165.34
+    cueEnd: 170
+    start: 163.34
+    end: 174
+  - entry: 13
+    anchor: 176.015
+    cueStart: 175.38
+    cueEnd: 180.88
+    start: 173.38
+    end: 184.88
+  - entry: 14
+    anchor: 177.417
+    cueStart: 175.38
+    cueEnd: 180.88
+    start: 173.38
+    end: 184.88
+  - entry: 15
+    anchor: 180.88
+    cueStart: 175.38
+    cueEnd: 180.88
+    start: 173.38
+    end: 184.88
+  - entry: 16
+    anchor: 180.88
+    cueStart: 175.38
+    cueEnd: 180.88
+    start: 173.38
+    end: 184.88
+  - entry: 17
+    anchor: 186
+    cueStart: 184.68
+    cueEnd: 186.68
+    start: 182.68
+    end: 190.68
+  - entry: 18
+    anchor: 189.182
+    cueStart: 186.68
+    cueEnd: 189.182
+    start: 184.68
+    end: 193.182
+  - entry: 19
+    anchor: 246.456
+    cueStart: 243.316
+    cueEnd: 246.456
+    start: 241.316
+    end: 250.456
+  - entry: 20
+    anchor: 380
+    cueStart: 378.316
+    cueEnd: 380.316
+    start: 376.316
+    end: 384.316
+  - entry: 21
+    anchor: 461.392
+    cueStart: 460.332
+    cueEnd: 461.392
+    start: 458.332
+    end: 465.392
+  - entry: 22
+    anchor: 470
+    cueStart: 468.592
+    cueEnd: 470.392
+    start: 466.592
+    end: 474.392
+  - entry: 23
+    anchor: 501
+    cueStart: 495.172
+    cueEnd: 501.252
+    start: 493.172
+    end: 505.252
+  - entry: 24
+    anchor: 501.252
+    cueStart: 495.172
+    cueEnd: 501.252
+    start: 493.172
+    end: 505.252
+  - entry: 25
+    anchor: 545
+    cueStart: 539.012
+    cueEnd: 544.952
+    start: 537.012
+    end: 548.952
+  - entry: 26
+    anchor: 584.774
+    cueStart: 581.952
+    cueEnd: 586.968
+    start: 579.952
+    end: 590.968
+  - entry: 27
+    anchor: 591.354
+    cueStart: 590.708
+    cueEnd: 594.368
+    start: 588.708
+    end: 598.368
+  - entry: 28
+    anchor: 596.048
+    cueStart: 596.048
+    cueEnd: 597.988
+    start: 594.048
+    end: 601.988
+  - entry: 29
+    anchor: 600.713
+    cueStart: 599.388
+    cueEnd: 601.508
+    start: 597.388
+    end: 605.508
+  - entry: 30
+    anchor: 608
+    cueStart: 605.108
+    cueEnd: 608.388
+    start: 603.108
+    end: 612.388
+  - entry: 31
+    anchor: 652.002
+    cueStart: 650.288
+    cueEnd: 653.288
+    start: 648.288
+    end: 657.288
+  - entry: 32
+    anchor: 664
+    cueStart: 664.628
+    cueEnd: 670.848
+    start: 662.628
+    end: 674.848
+  - entry: 33
+    anchor: 950.189
+    cueStart: 947.6
+    cueEnd: 952.26
+    start: 945.6
+    end: 956.26
+  - entry: 34
+    anchor: 1006.496
+    cueStart: 999.516
+    cueEnd: 1006.496
+    start: 997.516
+    end: 1010.496
+  - entry: 35
+    anchor: 1021
+    cueStart: 1021.056
+    cueEnd: 1024.456
+    start: 1019.056
+    end: 1028.456
+  - entry: 36
+    anchor: 1024.456
+    cueStart: 1021.056
+    cueEnd: 1024.456
+    start: 1019.056
+    end: 1028.456
+  - entry: 37
+    anchor: 1026
+    cueStart: 1024.456
+    cueEnd: 1026.596
+    start: 1022.456
+    end: 1030.596
+  - entry: 38
+    anchor: 1029.506
+    cueStart: 1026.596
+    cueEnd: 1029.556
+    start: 1024.596
+    end: 1033.556
+  - entry: 39
+    anchor: 1032.306
+    cueStart: 1029.556
+    cueEnd: 1032.356
+    start: 1027.556
+    end: 1036.356
+  - entry: 40
+    anchor: 1033.356
+    cueStart: 1032.356
+    cueEnd: 1035.856
+    start: 1030.356
+    end: 1039.856
+  - entry: 41
+    anchor: 1035
+    cueStart: 1032.356
+    cueEnd: 1035.856
+    start: 1030.356
+    end: 1039.856
+  - entry: 42
+    anchor: 1039.824
+    cueStart: 1039.456
+    cueEnd: 1042.956
+    start: 1037.456
+    end: 1046.956
+  - entry: 43
+    anchor: 1092
+    cueStart: 1092.456
+    cueEnd: 1094.456
+    start: 1090.456
+    end: 1098.456
+  - entry: 44
+    anchor: 1108.346
+    cueStart: 1106.396
+    cueEnd: 1108.396
+    start: 1104.396
+    end: 1112.396
+  - entry: 45
+    anchor: 1145.787
+    cueStart: 1144.396
+    cueEnd: 1148.396
+    start: 1142.396
+    end: 1152.396
+  - entry: 46
+    anchor: 1154.805
+    cueStart: 1153.396
+    cueEnd: 1159.032
+    start: 1151.396
+    end: 1163.032
+  - entry: 47
+    anchor: 1272.122
+    cueStart: 1267.272
+    cueEnd: 1272.172
+    start: 1265.272
+    end: 1276.172
+  - entry: 48
+    anchor: 1273
+    cueStart: 1272.172
+    cueEnd: 1273.532
+    start: 1270.172
+    end: 1277.532
+  - entry: 49
+    anchor: 1326
+    cueStart: 1326.272
+    cueEnd: 1326.892
+    start: 1324.272
+    end: 1330.892
+  - entry: 50
+    anchor: 1357.588
+    cueStart: 1349.492
+    cueEnd: 1357.588
+    start: 1347.492
+    end: 1361.588
+  - entry: 51
+    anchor: 1424.468
+    cueStart: 1421.468
+    cueEnd: 1424.468
+    start: 1419.468
+    end: 1428.468
+  - entry: 52
+    anchor: 1438
+    cueStart: 1432.468
+    cueEnd: 1438.928
+    start: 1430.468
+    end: 1442.928
+  - entry: 53
+    anchor: 1473.168
+    cueStart: 1471.568
+    cueEnd: 1473.168
+    start: 1469.568
+    end: 1477.168
+  - entry: 54
+    anchor: 1660.049
+    cueStart: 1656.62
+    cueEnd: 1672.62
+    start: 1654.62
+    end: 1676.62
+  - entry: 55
+    anchor: 1733.57
+    cueStart: 1731.62
+    cueEnd: 1733.62
+    start: 1729.62
+    end: 1737.62
+  - entry: 56
+    anchor: 1760.964
+    cueStart: 1759.856
+    cueEnd: 1762.256
+    start: 1757.856
+    end: 1766.256
+  - entry: 57
+    anchor: 1854
+    cueStart: 1834.856
+    cueEnd: 1854.116
+    start: 1832.856
+    end: 1858.116
+  - entry: 58
+    anchor: 1883
+    cueStart: 1868.116
+    cueEnd: 1883.416
+    start: 1866.116
+    end: 1887.416
+  - entry: 59
+    anchor: 1957
+    cueStart: 1957.112
+    cueEnd: 1968.232
+    start: 1955.112
+    end: 1972.232
+  - entry: 60
+    anchor: 1985.932
+    cueStart: 1983.192
+    cueEnd: 1985.932
+    start: 1981.192
+    end: 1989.932
+  - entry: 61
+    anchor: 1997
+    cueStart: 1994.932
+    cueEnd: 1997.032
+    start: 1992.932
+    end: 2001.032
+  - entry: 62
+    anchor: 2063
+    cueStart: 2063.272
+    cueEnd: 2066.432
+    start: 2061.272
+    end: 2070.432
+  - entry: 63
+    anchor: 2076.932
+    cueStart: 2075.932
+    cueEnd: 2079.932
+    start: 2073.932
+    end: 2083.932
+  - entry: 64
+    anchor: 2096.302
+    cueStart: 2094.652
+    cueEnd: 2096.352
+    start: 2092.652
+    end: 2100.352
+  - entry: 65
+    anchor: 2117
+    cueStart: 2117.932
+    cueEnd: 2125.328
+    start: 2115.932
+    end: 2129.328
+  - entry: 66
+    anchor: 2118.941
+    cueStart: 2117.932
+    cueEnd: 2125.328
+    start: 2115.932
+    end: 2129.328
+  - entry: 67
+    anchor: 2290
+    cueStart: 2288.328
+    cueEnd: 2290.328
+    start: 2286.328
+    end: 2294.328
+  - entry: 68
+    anchor: 2293
+    cueStart: 2290.328
+    cueEnd: 2293.328
+    start: 2288.328
+    end: 2297.328
+  - entry: 69
+    anchor: 2303.088
+    cueStart: 2298.328
+    cueEnd: 2303.088
+    start: 2296.328
+    end: 2307.088
+  - entry: 70
+    anchor: 2532
+    cueStart: 2531.736
+    cueEnd: 2532.736
+    start: 2529.736
+    end: 2536.736
+  - entry: 71
+    anchor: 2536
+    cueStart: 2532.736
+    cueEnd: 2536.836
+    start: 2530.736
+    end: 2540.836
+  - entry: 72
+    anchor: 2574
+    cueStart: 2572.376
+    cueEnd: 2574.036
+    start: 2570.376
+    end: 2578.036
+  - entry: 73
+    anchor: 2774
+    cueStart: 2772.572
+    cueEnd: 2774.772
+    start: 2770.572
+    end: 2778.772
+  - entry: 74
+    anchor: 2937
+    cueStart: 2935.148
+    cueEnd: 2937.608
+    start: 2933.148
+    end: 2941.608
+  - entry: 75
+    anchor: 3156.83
+    cueStart: 3151.36
+    cueEnd: 3165.72
+    start: 3149.36
+    end: 3169.72
+  - entry: 76
+    anchor: 3165.67
+    cueStart: 3151.36
+    cueEnd: 3165.72
+    start: 3149.36
+    end: 3169.72
+  - entry: 77
+    anchor: 3251
+    cueStart: 3248.92
+    cueEnd: 3251.72
+    start: 3246.92
+    end: 3255.72
+  - entry: 78
+    anchor: 3290
+    cueStart: 3286.477
+    cueEnd: 3290.156
+    start: 3284.477
+    end: 3294.156
+  - entry: 79
+    anchor: 3295
+    cueStart: 3292.216
+    cueEnd: 3295.196
+    start: 3290.216
+    end: 3299.196
+  - entry: 80
+    anchor: 3333
+    cueStart: 3330.196
+    cueEnd: 3333.216
+    start: 3328.196
+    end: 3337.216
+  - entry: 81
+    anchor: 3364
+    cueStart: 3364.096
+    cueEnd: 3365.616
+    start: 3362.096
+    end: 3369.616
+  - entry: 82
+    anchor: 3424
+    cueStart: 3423.036
+    cueEnd: 3424.736
+    start: 3421.036
+    end: 3428.736
+  - entry: 83
+    anchor: 3500.752
+    cueStart: 3500.752
+    cueEnd: 3502.032
+    start: 3498.752
+    end: 3506.032
+  - entry: 84
+    anchor: 3738
+    cueStart: 3736.228
+    cueEnd: 3738.888
+    start: 3734.228
+    end: 3742.888
+  - entry: 85
+    anchor: 4047
+    cueStart: 4047.46
+    cueEnd: 4050.46
+    start: 4045.46
+    end: 4054.46
+  - entry: 86
+    anchor: 4067.804
+    cueStart: 4062.904
+    cueEnd: 4067.804
+    start: 4060.904
+    end: 4071.804
+  - entry: 87
+    anchor: 4068.804
+    cueStart: 4067.804
+    cueEnd: 4070.204
+    start: 4065.804
+    end: 4074.204
+  - entry: 88
+    anchor: 4074
+    cueStart: 4074.124
+    cueEnd: 4074.784
+    start: 4072.124
+    end: 4078.784
+  - entry: 89
+    anchor: 4095
+    cueStart: 4093.664
+    cueEnd: 4095.784
+    start: 4091.664
+    end: 4099.784
+  - entry: 90
+    anchor: 4148
+    cueStart: 4140.824
+    cueEnd: 4148.044
+    start: 4138.824
+    end: 4152.044
+  - entry: 91
+    anchor: 4286
+    cueStart: 4285.528
+    cueEnd: 4286.428
+    start: 4283.528
+    end: 4290.428
+  - entry: 92
+    anchor: 4314
+    cueStart: 4305.228
+    cueEnd: 4314.168
+    start: 4303.228
+    end: 4318.168
+  - entry: 93
+    anchor: 4341
+    cueStart: 4340.588
+    cueEnd: 4341.508
+    start: 4338.588
+    end: 4345.508
+  - entry: 94
+    anchor: 4344.708
+    cueStart: 4343.528
+    cueEnd: 4344.708
+    start: 4341.528
+    end: 4348.708
+  - entry: 95
+    anchor: 4353
+    cueStart: 4351.108
+    cueEnd: 4353.588
+    start: 4349.108
+    end: 4357.588
+  - entry: 96
+    anchor: 4535
+    cueStart: 4528.752
+    cueEnd: 4535.752
+    start: 4526.752
+    end: 4539.752
+  - entry: 97
+    anchor: 4696.78
+    cueStart: 4695.62
+    cueEnd: 4696.78
+    start: 4693.62
+    end: 4700.78
+  - entry: 98
+    anchor: 4803.807
+    cueStart: 4799.04
+    cueEnd: 4805.54
+    start: 4797.04
+    end: 4809.54
+  - entry: 99
+    anchor: 4805.49
+    cueStart: 4799.04
+    cueEnd: 4805.54
+    start: 4797.04
+    end: 4809.54
+  - entry: 100
+    anchor: 4846
+    cueStart: 4845.196
+    cueEnd: 4846.476
+    start: 4843.196
+    end: 4850.476
+  - entry: 101
+    anchor: 4849
+    cueStart: 4847.936
+    cueEnd: 4849.076
+    start: 4845.936
+    end: 4853.076
+  - entry: 102
+    anchor: 4880
+    cueStart: 4879.116
+    cueEnd: 4879.996
+    start: 4877.116
+    end: 4883.996
+  - entry: 103
+    anchor: 4898.636
+    cueStart: 4898.636
+    cueEnd: 4900.756
+    start: 4896.636
+    end: 4904.756
+  - entry: 104
+    anchor: 5066
+    cueStart: 5060.572
+    cueEnd: 5066.692
+    start: 5058.572
+    end: 5070.692
+  - entry: 105
+    anchor: 5169.512
+    cueStart: 5165.432
+    cueEnd: 5169.512
+    start: 5163.432
+    end: 5173.512
+  - entry: 106
+    anchor: 5186
+    cueStart: 5182.552
+    cueEnd: 5186.552
+    start: 5180.552
+    end: 5190.552
+  - entry: 107
+    anchor: 5232
+    cueStart: 5212.552
+    cueEnd: 5232.148
+    start: 5210.552
+    end: 5236.148
+  - entry: 108
+    anchor: 5323
+    cueStart: 5321.908
+    cueEnd: 5323.288
+    start: 5319.908
+    end: 5327.288
+  - entry: 109
+    anchor: 5420
+    cueStart: 5418.52
+    cueEnd: 5420.86
+    start: 5416.52
+    end: 5424.86
+  - entry: 110
+    anchor: 5515
+    cueStart: 5512.22
+    cueEnd: 5515.84
+    start: 5510.22
+    end: 5519.84
+  - entry: 111
+    anchor: 5519
+    cueStart: 5515.84
+    cueEnd: 5519.26
+    start: 5513.84
+    end: 5523.26
+  - entry: 112
+    anchor: 5520
+    cueStart: 5519.26
+    cueEnd: 5520.94
+    start: 5517.26
+    end: 5524.94
+  - entry: 113
+    anchor: 5534
+    cueStart: 5534.4
+    cueEnd: 5536.4
+    start: 5532.4
+    end: 5540.4
+  - entry: 114
+    anchor: 5539
+    cueStart: 5539.4
+    cueEnd: 5542.4
+    start: 5537.4
+    end: 5546.4
+  - entry: 115
+    anchor: 5565
+    cueStart: 5564.16
+    cueEnd: 5565.74
+    start: 5562.16
+    end: 5569.74
+  - entry: 116
+    anchor: 5681
+    cueStart: 5681.82
+    cueEnd: 5684.82
+    start: 5679.82
+    end: 5688.82
+  - entry: 117
+    anchor: 5786
+    cueStart: 5785.419
+    cueEnd: 5786.84
+    start: 5783.419
+    end: 5790.84
+  - entry: 118
+    anchor: 5833
+    cueStart: 5821.28
+    cueEnd: 5833.919
+    start: 5819.28
+    end: 5837.919
+  - entry: 119
+    anchor: 5851
+    cueStart: 5851.28
+    cueEnd: 5858.78
+    start: 5849.28
+    end: 5862.78
+  - entry: 120
+    anchor: 5861
+    cueStart: 5858.78
+    cueEnd: 5861.299
+    start: 5856.78
+    end: 5865.299
+  - entry: 121
+    anchor: 5861
+    cueStart: 5858.78
+    cueEnd: 5861.299
+    start: 5856.78
+    end: 5865.299
+  - entry: 122
+    anchor: 5867
+    cueStart: 5864.56
+    cueEnd: 5867
+    start: 5862.56
+    end: 5871
+  - entry: 123
+    anchor: 6158.899
+    cueStart: 6153.899
+    cueEnd: 6158.899
+    start: 6151.899
+    end: 6162.899
+  - entry: 124
+    anchor: 60
+    cueStart: 60
+    cueEnd: 82.88
+    start: 58
+    end: 86.88
+  - entry: 125
+    anchor: 104
+    cueStart: 101.86
+    cueEnd: 104.36
+    start: 99.86
+    end: 108.36
+  - entry: 126
+    anchor: 267
+    cueStart: 266.296
+    cueEnd: 267.536
+    start: 264.296
+    end: 271.536
+  - entry: 127
+    anchor: 4943
+    cueStart: 4943.876
+    cueEnd: 4973.856
+    start: 4941.876
+    end: 4977.856
+  - entry: 128
+    anchor: 5036
+    cueStart: 5034.472
+    cueEnd: 5036.472
+    start: 5032.472
+    end: 5040.472
+  - entry: 129
+    anchor: 5561
+    cueStart: 5560.96
+    cueEnd: 5561.74
+    start: 5558.96
+    end: 5565.74
+  - entry: 130
+    anchor: 5608
+    cueStart: 5605.62
+    cueEnd: 5608.08
+    start: 5603.62
+    end: 5612.08
+  - entry: 131
+    anchor: 3306
+    cueStart: 3303.476
+    cueEnd: 3306.836
+    start: 3301.476
+    end: 3310.836
+  - entry: 132
+    anchor: 5345
+    cueStart: 5342.688
+    cueEnd: 5345.548
+    start: 5340.688
+    end: 5349.548
+  - entry: 133
+    anchor: 676
+    cueStart: 676.528
+    cueEnd: 681.408
+    start: 674.528
+    end: 685.408
+  - entry: 134
+    anchor: 0
+    cueStart: 0
+    cueEnd: 29.98
+    start: 0
+    end: 33.98
+  - entry: 135
+    anchor: 139
+    cueStart: 137.5
+    cueEnd: 142.34
+    start: 135.5
+    end: 146.34
+creator: Ghibli-Studio
+stars: 5
 publish: true
 tags:
   - zettel
@@ -55,13 +874,13 @@ tags:
 - [11:04](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=664) ==一休み==（||ひとやすみ||） - kurze Pause, Verschnaufpause
 - [15:50](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=950.189) ==第一印象==（||だいいちいんしょう||） - erster Eindruck
 - [16:46](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1006.496) ==時計塔==（||とけいとう||） - Uhrturm.
-- [17:01](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1021) ==飛び出す==（||とびだす||） - herausspringen, hinauslaufen
+- [17:01](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1021) ==飛び出す==（||とびだす||） - ||herausspringen, hinauslaufen||
 - [17:04](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1024.456) ==危うく==（||あやうく||） - beinahe, knapp davor
 - [17:06](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1026) ==非常識==（||ひじょうしき||） - unvernünftig, gegen den gesunden Menschenverstand
 - [17:09](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1029.506) ==極まりない==（||きわまりない||） - äußerst, in höchstem Maße
 - [17:12](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1032.306) ==魔女は飛ぶものです== - „Hexen sind Wesen, die fliegen“; ものです for norm/essence.
 - [17:13](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1033.356) ==交通規則==（||こうつうきそく||） - Verkehrsregeln
-- [17:15](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1035) ==住所==（||じゅうしょ||） - Adresse, Wohnanschrift
+- [17:15](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1035) ==住所==（||じゅうしょ||） - ||Adresse, Wohnanschrift||
 - [17:19](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1039.824) ==未成年者==（||みせいねんしゃ||） - Minderjährige/r
 - [18:12](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1092) ==ナンパ== - Anmache, Aufreißen; hier als Vorwurf an Tombo
 - [18:28](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=1108.346) ==助けてって言った覚えはないわ== - „ich kann mich nicht erinnern, um Hilfe gebeten zu haben“; 覚えはない for denying memory/responsibility.
@@ -158,9 +977,10 @@ tags:
 - [0:00](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=0) ==ヤギ== - Ziege
 - [2:19](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=139) ==リウマチ== - Rheuma, Rheumatismus
 
+%%
 ## Kenn ich schon mehr oder weniger
 
-- [1:20](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=80.592) ==出発==（||しゅっぱつ||） - Aufbruch, Abfahrt.
+- [1:20](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=80.592) ==出発==（||しゅっぱつ||） - Aufbruch, Abfahrt.❗️
 - [2:34](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=154.733) ==空飛ぶ==（||そらとぶ||） - fliegen, durch die Luft fliegen.
 - [2:49](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=169.726) ==効く==（||きく||） - wirken; eine Wirkung haben
 - [3:12](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=192.878) ==贈り物==（||おくりもの||） - Geschenk
@@ -250,15 +1070,3 @@ tags:
 - [1:27:28](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=5248.638) ==真似==（||まね||） - Nachahmung.
 - [1:37:44](https://local-media.invalid/%2Flocal-media%2F3cb927e55d61f67beb32401c.mp4?t=5864.831) ==一体==（||いったい||） - bloß, überhaupt, „wie nur“.
 %%
-## Links
-Prev::
-Next:: Transcript (nicht öffentlich verfügbar)
-Friend::
-%%
-
-## Tags
-#japanese #subtitle #media
-
-## Lernschnitt-Übersicht
-
-- [[Lernschnitte|Alle Lernschnitte]]

@@ -1,6 +1,7 @@
 filters:
   and:
     - file.tags.contains("japanese")
+    - file.folder.containsAny("movies", "series", "Youtube")
 formulas:
   duration: duration(duration + 's')
   subtitle: "[album, creator].filter(value.isTruthy()).join(' - ')"
@@ -10,16 +11,12 @@ properties:
     displayName: Duration
 views:
   - type: cards
-    name: all japanese videos
-    filters:
-      and:
-        - '!note["mx-uid"].isEmpty()'
+    name: All
     groupBy:
       property: creator
       direction: ASC
     order:
       - title
-      - creator
     sort:
       - property: creator
         direction: ASC
@@ -30,11 +27,16 @@ views:
       info: 626
     hideCover: false
     image: note.cover
+    cardSize: 150
+    imageAspectRatio: 0.85
   - type: cards
     name: movies
     filters:
       and:
         - file.tags.contains("movie")
+    groupBy:
+      property: creator
+      direction: ASC
     order:
       - file.name
       - publish
@@ -43,27 +45,21 @@ views:
     name: has vocabulary list
     filters:
       and:
-        - file.tags.containsAll("vocabulary-list", "japanese")
+        - file.tags.containsAll("vocabulary-list")
+    order:
+      - file.name
     image: note.cover
   - type: cards
-    name: all published files
-    filters:
-      and:
-        - publish == true
-        - file.tags.containsAll("japanese")
-    image: note.cover
-  - type: cards
-    name: japanese (cards)
+    name: YT Videos
     filters:
       and:
         - file.tags.contains("japanese")
+        - creator_url.contains("youtube")
+    groupBy:
+      property: creator
+      direction: ASC
     image: note.cover
-  - type: cards
-    name: japanese (yt) videos
-    filters:
-      and:
-        - file.tags.containsAll("japanese", "media")
-        - '!file.tags.contains("movie")'
+    cardSize: 80
   - type: cards
     name: music
     filters:
@@ -72,3 +68,17 @@ views:
     order:
       - file.name
     image: note.cover
+  - type: cards
+    name: Cards (looks beautiful, for display)
+    filters:
+      and:
+        - stars > 5
+    order:
+      - file.name
+    sort:
+      - property: creator
+        direction: ASC
+    limit: 10
+    cardSize: 130
+    image: note.cover
+    imageAspectRatio: 0.45

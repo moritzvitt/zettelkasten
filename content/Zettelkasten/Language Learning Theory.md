@@ -61,7 +61,7 @@ This leads to a unique way of organisation of a group of people.
 
 Culture is, what we call the bundle of methods a group of people uses to organise themselves. 
 
-The communication, shared knowledge, traditions, [[institutions]] and common understanding of the world they use to do that. 
+The communication, shared knowledge, traditions, institutions and common understanding of the world they use to do that. 
 
 A culture can be understood an information network: connected through continuous communication.
 
@@ -98,10 +98,10 @@ That means learning not only the language itself, but also the other ways in whi
 
 
 
-
 # ---- UNDER CONSTRUCTION ----
 ## **Speaking a language means understanding its people**: how people from that culture communicate and think 
 
+%%
 ---
 
 ## Acquiring an understanding of [[zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture|Means of Communication Within a Culture]] and [[zettelkasten/zettel/communication-and-information/institutions-of-a-culture|Institutions of a Culture]] naturally

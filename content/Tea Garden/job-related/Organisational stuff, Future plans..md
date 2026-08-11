@@ -12,4 +12,4 @@ Please head back, anonymous intruder. This is not meant for your eyes.
 
 
 
-[[journal/july---2026/2026-07-05-wo-bewerben?|2026-07-05 wo bewerben?]]
+[[journal/2026/july---2026/2026-07-05-wo-bewerben?|2026-07-05 wo bewerben?]]

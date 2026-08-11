@@ -10,7 +10,7 @@ tags:
 ## Claim
 
 Input lies in a field of tension between comprehensibility and attention.
-![[Drawing 2026-05-04 14.32.38.excalidraw]]
+*Drawing 2026-05-04 14.32.38.excalidraw – nicht öffentlich verfügbar*
 
 Language acquisition begins with comprehensible input: learners must grasp enough meaning for the brain to extract patterns, forms, and probabilities from real utterances.[^input-output-immersion-sources]
 

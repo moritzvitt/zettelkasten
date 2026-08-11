@@ -1,9 +1,489 @@
 ---
 title: "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)"
-source: "Digital Garden/Tea Garden/languages/Mediennotizen/Nur vom Agenten erstellt/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md"
+source: "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md"
 mx-uid: yt-3krAPjO2Ke8
 media: https://www.youtube.com/watch?v=3krAPjO2Ke8
 cover: https://i.ytimg.com/vi_webp/3krAPjO2Ke8/maxresdefault.webp
+learningClips:
+  - entry: 0
+    anchor: 9
+    cueStart: 6.399
+    cueEnd: 12.23
+    start: 4.399
+    end: 16.23
+  - entry: 1
+    anchor: 25.722
+    cueStart: 25.56
+    cueEnd: 32.99
+    start: 23.56
+    end: 36.99
+  - entry: 2
+    anchor: 55
+    cueStart: 53.28
+    cueEnd: 58.91
+    start: 51.28
+    end: 62.91
+  - entry: 3
+    anchor: 55.641
+    cueStart: 53.28
+    cueEnd: 58.91
+    start: 51.28
+    end: 62.91
+  - entry: 4
+    anchor: 64.854
+    cueStart: 58.92
+    cueEnd: 66.55
+    start: 56.92
+    end: 70.55
+  - entry: 5
+    anchor: 66.56
+    cueStart: 66.56
+    cueEnd: 73.59
+    start: 64.56
+    end: 77.59
+  - entry: 6
+    anchor: 66.99
+    cueStart: 66.56
+    cueEnd: 73.59
+    start: 64.56
+    end: 77.59
+  - entry: 7
+    anchor: 81.798
+    cueStart: 80.56
+    cueEnd: 86.749
+    start: 78.56
+    end: 90.749
+  - entry: 8
+    anchor: 82.016
+    cueStart: 80.56
+    cueEnd: 86.749
+    start: 78.56
+    end: 90.749
+  - entry: 9
+    anchor: 89.609
+    cueStart: 86.759
+    cueEnd: 93.069
+    start: 84.759
+    end: 97.069
+  - entry: 10
+    anchor: 90
+    cueStart: 86.759
+    cueEnd: 93.069
+    start: 84.759
+    end: 97.069
+  - entry: 11
+    anchor: 112
+    cueStart: 107.799
+    cueEnd: 115.63
+    start: 105.799
+    end: 119.63
+  - entry: 12
+    anchor: 139
+    cueStart: 134.76
+    cueEnd: 142.229
+    start: 132.76
+    end: 146.229
+  - entry: 13
+    anchor: 153
+    cueStart: 148.72
+    cueEnd: 156.229
+    start: 146.72
+    end: 160.229
+  - entry: 14
+    anchor: 168.586
+    cueStart: 162.159
+    cueEnd: 169.229
+    start: 160.159
+    end: 173.229
+  - entry: 15
+    anchor: 173.963
+    cueStart: 169.239
+    cueEnd: 174.75
+    start: 167.239
+    end: 178.75
+  - entry: 16
+    anchor: 183.159
+    cueStart: 183.159
+    cueEnd: 191.11
+    start: 181.159
+    end: 195.11
+  - entry: 17
+    anchor: 186.112
+    cueStart: 183.159
+    cueEnd: 191.11
+    start: 181.159
+    end: 195.11
+  - entry: 18
+    anchor: 194
+    cueStart: 191.12
+    cueEnd: 198.39
+    start: 189.12
+    end: 202.39
+  - entry: 19
+    anchor: 206.273
+    cueStart: 205.2
+    cueEnd: 212.71
+    start: 203.2
+    end: 216.71
+  - entry: 20
+    anchor: 224.149
+    cueStart: 218.48
+    cueEnd: 225.229
+    start: 216.48
+    end: 229.229
+  - entry: 21
+    anchor: 224.385
+    cueStart: 218.48
+    cueEnd: 225.229
+    start: 216.48
+    end: 229.229
+  - entry: 22
+    anchor: 236.542
+    cueStart: 230.519
+    cueEnd: 238.229
+    start: 228.519
+    end: 242.229
+  - entry: 23
+    anchor: 237.894
+    cueStart: 230.519
+    cueEnd: 238.229
+    start: 228.519
+    end: 242.229
+  - entry: 24
+    anchor: 244.68
+    cueStart: 244.68
+    cueEnd: 252.11
+    start: 242.68
+    end: 256.11
+  - entry: 25
+    anchor: 257.798
+    cueStart: 252.12
+    cueEnd: 258.83
+    start: 250.12
+    end: 262.83
+  - entry: 26
+    anchor: 260.659
+    cueStart: 258.84
+    cueEnd: 264.629
+    start: 256.84
+    end: 268.629
+  - entry: 27
+    anchor: 261.156
+    cueStart: 258.84
+    cueEnd: 264.629
+    start: 256.84
+    end: 268.629
+  - entry: 28
+    anchor: 287.11
+    cueStart: 286.479
+    cueEnd: 292.79
+    start: 284.479
+    end: 296.79
+  - entry: 29
+    anchor: 318
+    cueStart: 312.84
+    cueEnd: 318.11
+    start: 310.84
+    end: 322.11
+  - entry: 30
+    anchor: 319.82
+    cueStart: 318.12
+    cueEnd: 324.07
+    start: 316.12
+    end: 328.07
+  - entry: 31
+    anchor: 331.637
+    cueStart: 330.44
+    cueEnd: 338.309
+    start: 328.44
+    end: 342.309
+  - entry: 32
+    anchor: 336.178
+    cueStart: 330.44
+    cueEnd: 338.309
+    start: 328.44
+    end: 342.309
+  - entry: 33
+    anchor: 346.85
+    cueStart: 344.319
+    cueEnd: 351.189
+    start: 342.319
+    end: 355.189
+  - entry: 34
+    anchor: 365.906
+    cueStart: 363.68
+    cueEnd: 371.629
+    start: 361.68
+    end: 375.629
+  - entry: 35
+    anchor: 369.509
+    cueStart: 363.68
+    cueEnd: 371.629
+    start: 361.68
+    end: 375.629
+  - entry: 36
+    anchor: 388.11
+    cueStart: 386.52
+    cueEnd: 392.35
+    start: 384.52
+    end: 396.35
+  - entry: 37
+    anchor: 407
+    cueStart: 405.479
+    cueEnd: 413.15
+    start: 403.479
+    end: 417.15
+  - entry: 38
+    anchor: 426
+    cueStart: 420.08
+    cueEnd: 426.83
+    start: 418.08
+    end: 430.83
+  - entry: 39
+    anchor: 432
+    cueStart: 426.84
+    cueEnd: 433.589
+    start: 424.84
+    end: 437.589
+  - entry: 40
+    anchor: 442.511
+    cueStart: 439.599
+    cueEnd: 446.15
+    start: 437.599
+    end: 450.15
+  - entry: 41
+    anchor: 545
+    cueStart: 542.279
+    cueEnd: 545.67
+    start: 540.279
+    end: 549.67
+  - entry: 42
+    anchor: 550.54
+    cueStart: 545.68
+    cueEnd: 551.35
+    start: 543.68
+    end: 555.35
+  - entry: 43
+    anchor: 604.98
+    cueStart: 604
+    cueEnd: 609.389
+    start: 602
+    end: 613.389
+  - entry: 44
+    anchor: 644.852
+    cueStart: 643.2
+    cueEnd: 650.91
+    start: 641.2
+    end: 654.91
+  - entry: 45
+    anchor: 680.959
+    cueStart: 680.959
+    cueEnd: 686.71
+    start: 678.959
+    end: 690.71
+  - entry: 46
+    anchor: 686
+    cueStart: 680.959
+    cueEnd: 686.71
+    start: 678.959
+    end: 690.71
+  - entry: 47
+    anchor: 692.963
+    cueStart: 686.72
+    cueEnd: 694.47
+    start: 684.72
+    end: 698.47
+  - entry: 48
+    anchor: 742.057
+    cueStart: 737.92
+    cueEnd: 743.35
+    start: 735.92
+    end: 747.35
+  - entry: 49
+    anchor: 755.753
+    cueStart: 754.44
+    cueEnd: 761.99
+    start: 752.44
+    end: 765.99
+  - entry: 50
+    anchor: 782
+    cueStart: 777.32
+    cueEnd: 782.75
+    start: 775.32
+    end: 786.75
+  - entry: 51
+    anchor: 790
+    cueStart: 788.36
+    cueEnd: 795.189
+    start: 786.36
+    end: 799.189
+  - entry: 52
+    anchor: 799.139
+    cueStart: 795.199
+    cueEnd: 799.189
+    start: 793.199
+    end: 803.189
+  - entry: 53
+    anchor: 851.634
+    cueStart: 847.24
+    cueEnd: 854.71
+    start: 845.24
+    end: 858.71
+  - entry: 54
+    anchor: 855.755
+    cueStart: 854.72
+    cueEnd: 862.31
+    start: 852.72
+    end: 866.31
+  - entry: 55
+    anchor: 856
+    cueStart: 854.72
+    cueEnd: 862.31
+    start: 852.72
+    end: 866.31
+  - entry: 56
+    anchor: 867.246
+    cueStart: 866.519
+    cueEnd: 873.79
+    start: 864.519
+    end: 877.79
+  - entry: 57
+    anchor: 884
+    cueStart: 880.32
+    cueEnd: 885.629
+    start: 878.32
+    end: 889.629
+  - entry: 58
+    anchor: 886.469
+    cueStart: 885.639
+    cueEnd: 889.79
+    start: 883.639
+    end: 893.79
+  - entry: 59
+    anchor: 936.96
+    cueStart: 935.48
+    cueEnd: 940.069
+    start: 933.48
+    end: 944.069
+  - entry: 60
+    anchor: 955
+    cueStart: 952.68
+    cueEnd: 959.829
+    start: 950.68
+    end: 963.829
+  - entry: 61
+    anchor: 955
+    cueStart: 952.68
+    cueEnd: 959.829
+    start: 950.68
+    end: 963.829
+  - entry: 62
+    anchor: 972.429
+    cueStart: 967.72
+    cueEnd: 973.55
+    start: 965.72
+    end: 977.55
+  - entry: 63
+    anchor: 1010
+    cueStart: 1003.68
+    cueEnd: 1010.55
+    start: 1001.68
+    end: 1014.55
+  - entry: 64
+    anchor: 1037
+    cueStart: 1035.959
+    cueEnd: 1041.669
+    start: 1033.959
+    end: 1045.669
+  - entry: 65
+    anchor: 1054.96
+    cueStart: 1054.96
+    cueEnd: 1062.71
+    start: 1052.96
+    end: 1066.71
+  - entry: 66
+    anchor: 1061.114
+    cueStart: 1054.96
+    cueEnd: 1062.71
+    start: 1052.96
+    end: 1066.71
+  - entry: 67
+    anchor: 1075
+    cueStart: 1071.32
+    cueEnd: 1075.23
+    start: 1069.32
+    end: 1079.23
+  - entry: 68
+    anchor: 1126.244
+    cueStart: 1119.039
+    cueEnd: 1126.87
+    start: 1117.039
+    end: 1130.87
+  - entry: 69
+    anchor: 1160.935
+    cueStart: 1158.12
+    cueEnd: 1165.51
+    start: 1156.12
+    end: 1169.51
+  - entry: 70
+    anchor: 1166.383
+    cueStart: 1165.52
+    cueEnd: 1169.549
+    start: 1163.52
+    end: 1173.549
+  - entry: 71
+    anchor: 1167.534
+    cueStart: 1165.52
+    cueEnd: 1169.549
+    start: 1163.52
+    end: 1173.549
+  - entry: 72
+    anchor: 1208.642
+    cueStart: 1203.88
+    cueEnd: 1210.23
+    start: 1201.88
+    end: 1214.23
+  - entry: 73
+    anchor: 1209.912
+    cueStart: 1203.88
+    cueEnd: 1210.23
+    start: 1201.88
+    end: 1214.23
+  - entry: 74
+    anchor: 1225.57
+    cueStart: 1222.44
+    cueEnd: 1229.27
+    start: 1220.44
+    end: 1233.27
+  - entry: 75
+    anchor: 1226.208
+    cueStart: 1222.44
+    cueEnd: 1229.27
+    start: 1220.44
+    end: 1233.27
+  - entry: 76
+    anchor: 1268
+    cueStart: 1262.48
+    cueEnd: 1268.789
+    start: 1260.48
+    end: 1272.789
+  - entry: 77
+    anchor: 1277
+    cueStart: 1273
+    cueEnd: 1277.149
+    start: 1271
+    end: 1281.149
+  - entry: 78
+    anchor: 1317.715
+    cueStart: 1313.799
+    cueEnd: 1321.63
+    start: 1311.799
+    end: 1325.63
+duration: 1327
+creator: YUYUの日本語Podcast
+creator_url: https://www.youtube.com/channel/UC8dWfySP_cKDMFj6aFfQbFA
+stars: 6
+video: https://www.youtube.com/watch?v=3krAPjO2Ke8
 publish: true
 tags:
   - zettel
@@ -17,8 +497,10 @@ tags:
   - japanese/vocabulary-list
 ---
 ![](https://www.youtube.com/watch?v=3krAPjO2Ke8#as=audio&no_loop)
+%%
 ## Kurznotiz
 YUYU beantwortet die Frage, was man tun kann, wenn man nach einem Rückschlag keine Motivation mehr hat. Sein Kernpunkt ist: Nicht einfach blind weiterdrücken, sondern den Kopf ordnen. Erst fragt man zweimal nach dem eigenen Warum, dann prüft man, ob es alternative Wege zum eigentlichen Ziel gibt, und zuletzt, ob der gewählte Weg sich innerlich richtig anfühlt und zum eigenen Wachstum beiträgt. Wenn das unklar bleibt, empfiehlt er Schreiben: Gedanken sichtbar machen, damit aus Nebel wieder Richtung wird.
+%%
 
 ## Lernliste
 
@@ -42,7 +524,7 @@ YUYU beantwortet die Frage, was man tun kann, wenn man nach einem Rückschlag ke
 - [3:06](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=186.112) ==整理==（||せいり||） — Ordnung, Sortieren
 - [3:14](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=194) ==別の道に進んだ方がいい== — ||vielleicht ist es besser, einen anderen Weg zu gehen||
 - [3:26](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=206.273) ==僕の経験上== — ||meiner Erfahrung nach||
-- [3:44](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=224.149) ==落ち込んでいる状況== — ||die Situation, in der man niedergeschlagen ist||
+- [3:44](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=224.149) ==落ち込んでいる状況== — ||die Situation, in der man niedergeschlagen ist||❗️
 - [3:44](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=224.385) ==状況==（||じょうきょう||） — Situation, Lage
 - [3:56](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=236.542) ==無力感==（||むりょくかん||） — Gefühl der Machtlosigkeit
 - [3:57](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=237.894) ==自分の無力感を感じている== — ||das eigene Gefühl der Machtlosigkeit spüren||
@@ -64,13 +546,13 @@ YUYU beantwortet die Frage, was man tun kann, wenn man nach einem Rückschlag ke
 - [7:12](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=432) ==やる気スイッチが入る== — ||der Motivationsschalter geht an||
 - [7:22](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=442.511) ==やる理由をまず探さなきゃいけない== — ||man muss zuerst den Grund finden, warum man es tun will||
 - [9:05](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=545) ==その2回目の答えを達成するために== — ||um die zweite Antwort zu erreichen||
-- [9:10](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=550.54) ==達成する==（||たっせいする||） — erreichen
+- [9:10](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=550.54) ==達成する==（||たっせいする||） — erreichen❗️
 - [10:04](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=604.98) ==幼馴染み==（||おさななじみ||） — Kindheitsfreund
 - [10:44](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=644.852) ==小さな世界で生きているのが恥ずかしい== — ||sich schämen, in einer kleinen Welt zu leben||
 - [11:20](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=680.959) ==考えてみないとその答えには出会えない== — ||ohne Nachdenken stößt man nicht auf diese Antwort||
 - [11:26](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=686) ==比較する対象としても他の道を考える== — ||auch als Vergleich andere Wege bedenken||
 - [11:32](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=692.963) ==比較==（||ひかく||） — Vergleich
-- [12:22](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=742.057) ==やっぱり留学しかないんだ== — ||am Ende ist es doch nur das Auslandsstudium||
+- [12:22](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=742.057) ==やっぱり留学しかないんだ== — ||am Ende ist es doch nur das Auslandsstudium❗️||
 - [12:35](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=755.753) ==自分の道って間違ってないんだ== — ||der eigene Weg ist nicht falsch||
 - [13:02](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=782) ==自分のやりたいことっていうのは叶えられるのかどうか== — ||ob sich das, was man will, verwirklichen lässt||
 - [13:10](https://www.youtube.com/watch?v=3krAPjO2Ke8&t=790) ==検討する==（||けんとうする||） — prüfen, erwägen

@@ -4,6 +4,7 @@ source: "Digital Garden/Tea Garden/personal/other/Green Tea.md"
 publish: true
 tags:
   - zettel
+  - home
   - home/living-room
 ---
 My favourites so far are: Ali Shan Oolong tea, Morimoto Sencha, Asagiri Sencha, Bilouchun Long Leaf Green tea.

@@ -4,6 +4,9 @@ title: Welcome to Quartz 5
 
 Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
 
+> [!info] Project-specific documentation
+> Moritz' Tea Garden extends Quartz with a custom Obsidian sync, local-media handling, Obsidian Bases rendering, and local plugins. See the [project customizations](customizations/index.md).
+
 ## 🪴 Get Started
 
 Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have these installed on your machine before continuing.

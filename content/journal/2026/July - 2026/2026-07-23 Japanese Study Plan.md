@@ -1,6 +1,6 @@
 ---
 title: "Japanisch Lernplan"
-source: "journal/July - 2026/2026-07-23 Japanese Study Plan.md"
+source: "journal/2026/July - 2026/2026-07-23 Japanese Study Plan.md"
 publish: true
 tags:
   - zettel

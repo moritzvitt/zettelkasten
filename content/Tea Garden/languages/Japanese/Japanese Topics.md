@@ -10,7 +10,7 @@ My notes for studying japanese with videos.
 Everyday Language: 
 
 - [[tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young|20代でやっておいた方がいいこと]]
-- [[tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)|やる気が出ない時、どうすればいい？]]
+- [[tea-garden/languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)|やる気が出ない時、どうすればいい？]]
 
 Moving from Germany to Japan: Differences in Schooling, Every Day Life, Customs, Culture in general..
 

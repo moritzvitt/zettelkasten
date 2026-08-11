@@ -5,6 +5,10 @@ mx-uid: yt-SX_ViT4Ra7k
 media: https://www.youtube.com/watch?v=SX_ViT4Ra7k
 cover: "[[Tea Garden/languages/Japanese/Japanese Media
   Notes/Youtube/mx-img-yt-SX_ViT4Ra7k-pt1m6_80s.jpg]]"
+duration: 274
+creator: Kenshi Yonezu  米津玄師
+creator_url: ""
+video: https://www.youtube.com/watch?v=SX_ViT4Ra7k
 publish: true
 tags:
   - zettel

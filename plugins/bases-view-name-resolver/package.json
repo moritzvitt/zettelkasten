@@ -1,0 +1,28 @@
+{
+  "name": "@moritzvitt/quartz-bases-view-name-resolver",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "main": "./dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "quartz": {
+    "name": "bases-view-name-resolver",
+    "displayName": "Bases View Name Resolver",
+    "category": [
+      "transformer",
+      "pageType"
+    ],
+    "version": "1.0.0",
+    "quartzVersion": ">=5.0.0",
+    "dependencies": [],
+    "defaultEnabled": true,
+    "defaultOrder": 49,
+    "defaultOptions": {}
+  }
+}

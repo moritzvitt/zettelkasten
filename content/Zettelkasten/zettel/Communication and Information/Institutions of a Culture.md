@@ -1,7 +1,8 @@
 ---
 title: "Institutions of a Culture"
 source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Institutions of a Culture.md"
-previous: "[[Culture as an Information Network]]"
+previous: "[[zettelkasten/zettel/communication-and-information/nexus-and-inform\
+  ation/culture-as-an-information-network|Culture as an Information Network]]"
 publish: true
 tags:
   - zettel

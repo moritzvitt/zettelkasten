@@ -13,12 +13,12 @@ I love learning languages and connecting with people.
 
 I love playing (and watching) football ("soccer"😉❣️🇺🇸). [[tea-garden/personal/other/messi-is-art|🐐🇦🇷]] (I am a 1,76m tall No. 10)
 
-This is a collection of [[Things I made I am proud of]]
+This is a collection of Things I made I am proud of
 This is a collection of [[tea-garden/personal/things-i-made/drawings|Drawings]].
 Here is some [[tea-garden/personal/things-i-made/pixel-art|pixel art]] I made. 
 
-[[favourite classical pieces]]
-[[White Cyclosa]]
+favourite classical pieces
+White Cyclosa
 
 [[tea-garden/personal/other/believe!|Believe!]]
 [[tea-garden/personal/psalm-23|Psalm 23]]

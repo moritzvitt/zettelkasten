@@ -1,6 +1,6 @@
 ---
 title: "2026-07-05 wo bewerben?"
-source: "journal/July - 2026/2026-07-05 wo bewerben?.md"
+source: "journal/2026/July - 2026/2026-07-05 wo bewerben?.md"
 password: zowitsch
 publish: true
 tags:

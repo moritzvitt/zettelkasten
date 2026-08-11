@@ -1,6 +1,6 @@
 import test, { describe } from "node:test"
 import assert from "node:assert"
-import { renderTranscludes, pageResources } from "./renderPage"
+import { alignHeadingIdsWithToc, renderTranscludes, pageResources } from "./renderPage"
 import { Root, Element } from "hast"
 import { FullSlug } from "../util/path"
 import { GlobalConfiguration } from "../cfg"
@@ -40,6 +40,20 @@ function makePageData(slug: string, htmlAst: Root, extra?: Record<string, unknow
 }
 
 const cfg = { locale: "en-US" } as GlobalConfiguration
+
+test("aligns heading ids with matching table-of-contents entries", () => {
+  const heading: Element = {
+    type: "element",
+    tagName: "h2",
+    properties: { id: "8772ee" },
+    children: [{ type: "text", value: "Claim" }],
+  }
+  const root: Root = { type: "root", children: [heading] }
+
+  alignHeadingIdsWithToc(root, [{ slug: "claim", text: "Claim" }])
+
+  assert.equal(heading.properties.id, "claim")
+})
 
 function makeComponentData(
   allFiles: QuartzComponentProps["allFiles"],
