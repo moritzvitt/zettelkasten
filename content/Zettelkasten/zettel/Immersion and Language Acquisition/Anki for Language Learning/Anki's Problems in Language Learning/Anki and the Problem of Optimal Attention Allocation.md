@@ -4,6 +4,8 @@ source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Languag
 publish: true
 tags:
   - zettel
+  - anki
+  - translation
 ---
 # Anki and the Problem of Optimal Attention Allocation
 
@@ -14,8 +16,3 @@ In advanced language learning, Anki is not an optimal way to weight words.
 ## Why It Matters
 
 This clarifies what a card should do, when Anki helps, and where immersion must perform the real work of building meaning.
-
-%%
-## Tags
-#language-learning #anki #translation
-%%

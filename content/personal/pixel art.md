@@ -1,6 +1,6 @@
 ---
 title: "pixel art"
-source: "Digital Garden/personal/Things I made/pixel art.md"
+source: "Digital Garden/personal/pixel art.md"
 publish: true
 tags:
   - zettel

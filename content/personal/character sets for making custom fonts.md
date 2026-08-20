@@ -1,6 +1,6 @@
 ---
 title: "character sets for making custom fonts"
-source: "Digital Garden/personal/Things I made/character sets for making custom fonts.md"
+source: "Digital Garden/personal/character sets for making custom fonts.md"
 publish: true
 tags:
   - zettel

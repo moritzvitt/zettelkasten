@@ -41,6 +41,7 @@ views:
       - file.name
       - publish
     image: note.cover
+    cardSize: 90
   - type: cards
     name: has vocabulary list
     filters:
@@ -82,3 +83,8 @@ views:
     cardSize: 130
     image: note.cover
     imageAspectRatio: 0.45
+  - type: table
+    name: podcasts
+    filters:
+      and:
+        - file.tags.containsAny("podcast", "yuyu's podcast")

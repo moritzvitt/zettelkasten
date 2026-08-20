@@ -1,6 +1,6 @@
 ---
 title: "Possible names for our football team"
-source: "Digital Garden/personal/Things I made/Possible names for our football team.md"
+source: "Digital Garden/personal/Possible names for our football team.md"
 publish: true
 tags:
   - zettel

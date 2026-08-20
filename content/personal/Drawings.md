@@ -1,6 +1,6 @@
 ---
 title: "Drawings"
-source: "Digital Garden/personal/Things I made/Drawings.md"
+source: "Digital Garden/personal/Drawings.md"
 publish: true
 tags:
   - zettel

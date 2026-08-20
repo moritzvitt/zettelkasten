@@ -23,14 +23,8 @@ My [[zettelkasten/index|Zettelkasten]], with main focus areas on [[zettelkasten/
 
 I got the whole idea for this "Digital Garden" from [Jacky Zhao](https://jzhao.xyz/posts/networked-thought). Saying "inspired by" would be an understatement. Make sure to check out his Garden! 
 
-> [!Bug]- Stuff 🥭 🥑 🫖 
-> 🍕[[recipes/index|Recipes]]      
-> [[languages/chinese/zhuyin|ㄓㄨˋ ㄧㄣ]]   
-> 2026-07-23 Japanese Study Plan     
-> [[personal/other/funny-stuff|Funny Stuff]]          
-> [[personal/other/fantasy|Fantasy]]       
->
-
 The [[purpose|purpose]] behind this place.   
-[[purpose#Humanity|What makes us human]].   
-[[personal/about-me|About me]]. [[job-related/organisational-stuff,-future-plans.|🔖]]
+ 🔖 [[recipes/index|🍕]]      [[languages/chinese/zhuyin|ㄓㄨˋ ㄧㄣ🇹🇼]] 
+
+This is a collection of [[personal/drawings|Drawings]].
+Here is some [[personal/pixel-art|pixel art]] I made.

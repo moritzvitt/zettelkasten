@@ -11,7 +11,7 @@ In brief: Sustainability, Truth, Community, Connection and simply being human.
 Protect life.
 
 A meaningful life is a sustainable life.  
-The search for meaning helps prevent us from living in destructive, unsustainable ways.
+The search for meaning and purpose helps prevent us from living in destructive, unsustainable ways.
 ## **The Search for Truth**
 Assuming there is an objective truth, the Zettelkasten is a tool for moving closer to it.
 
@@ -26,8 +26,7 @@ The garden is the web as topology. Every walk through the garden creates new pat
 
 _(The Garden and the Stream)_
 
-🌳
-
+木
 ## **Community**
 A community of people and all living beings.
 

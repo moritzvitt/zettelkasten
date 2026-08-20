@@ -4,6 +4,7 @@ source: "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock 
 publish: true
 tags:
   - zettel
+  - sustainability
 ---
 # Enterprise Foundation
 
@@ -16,8 +17,3 @@ It is an alternative to the idea that ownership primarily means the right to pri
 ## Why It Matters
 
 This note marks an institutional point at which a sustainable constitution would need to organize responsibility, ownership, power, or externalities more clearly.
-
-%%
-## Tags
-#sustainability #translation
-%%

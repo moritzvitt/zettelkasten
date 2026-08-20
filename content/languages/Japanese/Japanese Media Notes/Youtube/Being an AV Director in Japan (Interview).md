@@ -600,11 +600,6 @@ tags:
   - media
 ---
 <video controls playsinline preload="metadata" src="/local-media/4a192fdb3fa4e026f97e4202.mp4" title="Lokales Video"></video>
-%%
-Notizen: 
-日本ではエッチな映画を見る人がたくさんいると思います。他の国でもAVを作っている人はいますが、日本ほど「AV文化」が発達している国はないと思います。それは面白いと思います。もちろん、それをポジティブに捉えるかネガティブに捉えるかは、人それぞれだと思います。
-%%
-
 ## Lernliste
 
 - [0:06](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=6) ==AV監督==（||エーブイかんとく||） - AV-Regisseur/in; `監督` auch Film-/Team-Regisseur
@@ -697,18 +692,3 @@ Notizen:
 - [11:07](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=667) ==経験をもとにした==（||けいけんをもとにした||） - basierend auf Erfahrung
 - [11:10](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=670) ==性教育とまでは言わないけど==（||せいきょういくとまではいわないけど||） - ich würde es nicht gleich Sexualerziehung nennen, aber...
 - [11:17](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=677) ==発信できるようにしたい==（||はっしんできるようにしたい||） - ich möchte dazu Informationen/Positionen nach außen geben können
-
-%%
-## Kenn ich schon mehr oder weniger
-
-- [0:00](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=0) ==インタビューさせていただいたんですが==（||インタビューさせていただいたんですが||） - ich durfte jemanden interviewen; höfliche `させていただく`-Form
-- [0:19](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=19) ==鈴木リズと申します==（||すずきリズともうします||） - ich heiße Suzuki Rizu; sehr höfliche Selbstvorstellung
-- [1:43](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=103) ==外国人の方が活躍する作品==（||がいこくじんのかたがかつやくするさくひん||） - Werke, in denen ausländische Darsteller aktiv/erfolgreich sind
-- [1:55](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=115) ==ドキュメンタリー作品==（||ドキュメンタリーさくひん||） - dokumentarisches Werk / dokumentarisches Format
-- [2:36](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=156) ==声をかけて==（||こえをかけて||） - jemanden ansprechen
-- [4:04](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=244) ==会話のシーン==（||かいわのシーン||） - Gesprächsszene
-- [5:46](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=346) ==女優さんからよく言われる==（||じょゆうさんからよくいわれる||） - mir wird oft von Darstellerinnen gesagt
-- [6:22](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=382) ==それぞれ本当に皆さん素敵==（||それぞれほんとうにみなさんすてき||） - jede ist auf ihre Weise wirklich toll
-- [9:40](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=580) ==面白いなって思える作品==（||おもしろいなっておもえるさくひん||） - ein Werk, das man interessant findet
-- [10:22](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=622) ==今後の目標==（||こんごのもくひょう||） - zukünftiges Ziel
-- [10:25](https://local-media.invalid/%2Flocal-media%2F4a192fdb3fa4e026f97e4202.mp4?t=625) ==達成したい==（||たっせいしたい||） - erreichen wollen

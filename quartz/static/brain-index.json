@@ -8,6 +8,15 @@
     "sibling"
   ],
   "nodes": {
+    "2026-07-05-wo-bewerben?": {
+      "slug": "2026-07-05-wo-bewerben?",
+      "title": "2026-07-05 wo bewerben?",
+      "source": "2026-07-05 wo bewerben?.md",
+      "url": "/2026-07-05-wo-bewerben?",
+      "tags": [
+        "zettel"
+      ]
+    },
     "index": {
       "slug": "index",
       "title": "Digital Garden",
@@ -22,15 +31,6 @@
       "title": "Purpose",
       "source": "Digital Garden/Purpose.md",
       "url": "/purpose",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "job-related/organisational-stuff,-future-plans.": {
-      "slug": "job-related/organisational-stuff,-future-plans.",
-      "title": "Organisational stuff, Future plans.",
-      "source": "Digital Garden/job-related/Organisational stuff, Future plans..md",
-      "url": "/job-related/organisational-stuff,-future-plans.",
       "tags": [
         "zettel"
       ]
@@ -402,15 +402,6 @@
         "series"
       ]
     },
-    "languages/japanese/japanese-topics": {
-      "slug": "languages/japanese/japanese-topics",
-      "title": "Japanese Topics",
-      "source": "Digital Garden/languages/Japanese/Japanese Topics.md",
-      "url": "/languages/japanese/japanese-topics",
-      "tags": [
-        "zettel"
-      ]
-    },
     "languages/japanese/kanji-lernliste": {
       "slug": "languages/japanese/kanji-lernliste",
       "title": "Kanji Lernliste",
@@ -500,11 +491,20 @@
         "french/vocabulary-list"
       ]
     },
-    "personal/about-me": {
-      "slug": "personal/about-me",
-      "title": "About me",
-      "source": "Digital Garden/personal/About me.md",
-      "url": "/personal/about-me",
+    "personal/drawings": {
+      "slug": "personal/drawings",
+      "title": "Drawings",
+      "source": "Digital Garden/personal/Drawings.md",
+      "url": "/personal/drawings",
+      "tags": [
+        "zettel"
+      ]
+    },
+    "personal/possible-names-for-our-football-team": {
+      "slug": "personal/possible-names-for-our-football-team",
+      "title": "Possible names for our football team",
+      "source": "Digital Garden/personal/Possible names for our football team.md",
+      "url": "/personal/possible-names-for-our-football-team",
       "tags": [
         "zettel"
       ]
@@ -518,94 +518,20 @@
         "zettel"
       ]
     },
-    "personal/things-i-made/drawings": {
-      "slug": "personal/things-i-made/drawings",
-      "title": "Drawings",
-      "source": "Digital Garden/personal/Things I made/Drawings.md",
-      "url": "/personal/things-i-made/drawings",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/things-i-made/possible-names-for-our-football-team": {
-      "slug": "personal/things-i-made/possible-names-for-our-football-team",
-      "title": "Possible names for our football team",
-      "source": "Digital Garden/personal/Things I made/Possible names for our football team.md",
-      "url": "/personal/things-i-made/possible-names-for-our-football-team",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/things-i-made/character-sets-for-making-custom-fonts": {
-      "slug": "personal/things-i-made/character-sets-for-making-custom-fonts",
+    "personal/character-sets-for-making-custom-fonts": {
+      "slug": "personal/character-sets-for-making-custom-fonts",
       "title": "character sets for making custom fonts",
-      "source": "Digital Garden/personal/Things I made/character sets for making custom fonts.md",
-      "url": "/personal/things-i-made/character-sets-for-making-custom-fonts",
+      "source": "Digital Garden/personal/character sets for making custom fonts.md",
+      "url": "/personal/character-sets-for-making-custom-fonts",
       "tags": [
         "zettel"
       ]
     },
-    "personal/things-i-made/pixel-art": {
-      "slug": "personal/things-i-made/pixel-art",
+    "personal/pixel-art": {
+      "slug": "personal/pixel-art",
       "title": "pixel art",
-      "source": "Digital Garden/personal/Things I made/pixel art.md",
-      "url": "/personal/things-i-made/pixel-art",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/other/believe!": {
-      "slug": "personal/other/believe!",
-      "title": "Believe!",
-      "source": "Digital Garden/personal/other/Believe!.md",
-      "url": "/personal/other/believe!",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/other/fantasy": {
-      "slug": "personal/other/fantasy",
-      "title": "Fantasy",
-      "source": "Digital Garden/personal/other/Fantasy.md",
-      "url": "/personal/other/fantasy",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/other/funny-stuff": {
-      "slug": "personal/other/funny-stuff",
-      "title": "Funny Stuff",
-      "source": "Digital Garden/personal/other/Funny Stuff.md",
-      "url": "/personal/other/funny-stuff",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/other/green-tea": {
-      "slug": "personal/other/green-tea",
-      "title": "Green Tea",
-      "source": "Digital Garden/personal/other/Green Tea.md",
-      "url": "/personal/other/green-tea",
-      "tags": [
-        "zettel",
-        "home",
-        "home/living-room"
-      ]
-    },
-    "personal/other/messi-is-art": {
-      "slug": "personal/other/messi-is-art",
-      "title": "Messi is Art",
-      "source": "Digital Garden/personal/other/Messi is Art.md",
-      "url": "/personal/other/messi-is-art",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "personal/other/routine": {
-      "slug": "personal/other/routine",
-      "title": "Routine",
-      "source": "Digital Garden/personal/other/Routine.md",
-      "url": "/personal/other/routine",
+      "source": "Digital Garden/personal/pixel art.md",
+      "url": "/personal/pixel-art",
       "tags": [
         "zettel"
       ]
@@ -642,15 +568,6 @@
       "title": "**The Why and the What**",
       "source": "Zettelkasten/Language Learning Theory.md",
       "url": "/zettelkasten/language-learning-theory",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/overview-of-topics-in-the-zettelkasten": {
-      "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
-      "title": "Overview of Topics in the Zettelkasten",
-      "source": "Zettelkasten/Overview of Topics in the Zettelkasten.md",
-      "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
       "tags": [
         "zettel"
       ]
@@ -726,7 +643,8 @@
       "source": "Zettelkasten/zettel/Communication and Information/Learning a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/learning-a-culture",
       "tags": [
-        "zettel"
+        "zettel",
+        "communication"
       ]
     },
     "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture": {
@@ -847,24 +765,6 @@
         "zettel"
       ]
     },
-    "zettelkasten/zettel/design-principles/guided-attention": {
-      "slug": "zettelkasten/zettel/design-principles/guided-attention",
-      "title": "Guided Attention",
-      "source": "Zettelkasten/zettel/Design Principles/Guided Attention.md",
-      "url": "/zettelkasten/zettel/design-principles/guided-attention",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/zettel/design-principles/minimalism": {
-      "slug": "zettelkasten/zettel/design-principles/minimalism",
-      "title": "Minimalism",
-      "source": "Zettelkasten/zettel/Design Principles/Minimalism.md",
-      "url": "/zettelkasten/zettel/design-principles/minimalism",
-      "tags": [
-        "zettel"
-      ]
-    },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows",
       "title": "Anki Alone Becomes Inefficient as Vocabulary Grows",
@@ -889,7 +789,9 @@
       "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki and the Problem of Optimal Attention Allocation.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-optimal-attention-allocation",
       "tags": [
-        "zettel"
+        "zettel",
+        "anki",
+        "translation"
       ]
     },
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-weighting-meanings": {
@@ -1337,7 +1239,8 @@
       "source": "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Enterprise Foundation.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation",
       "tags": [
-        "zettel"
+        "zettel",
+        "sustainability"
       ]
     },
     "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/holding-company-(denmark)": {
@@ -1507,15 +1410,6 @@
       "title": "2026-08-14 Unterhaltung mit Chat über Autismus",
       "source": "journal/2026/August/2026-08-14 Unterhaltung mit Chat über Autismus.md",
       "url": "/journal/2026/august/2026-08-14-unterhaltung-mit-chat-über-autismus",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "journal/2026/july---2026/2026-07-05-wo-bewerben?": {
-      "slug": "journal/2026/july---2026/2026-07-05-wo-bewerben?",
-      "title": "2026-07-05 wo bewerben?",
-      "source": "journal/2026/July - 2026/2026-07-05 wo bewerben?.md",
-      "url": "/journal/2026/july---2026/2026-07-05-wo-bewerben?",
       "tags": [
         "zettel"
       ]

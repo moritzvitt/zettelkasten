@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: M O R I T Z' Garden
-  pageTitleSuffix: "asdf"
+  pageTitle: "木 M O R I T Z'\nG A R D E N 木"
+  pageTitleSuffix: "Moritz Digital Garden"
   enableSPA: true
   enablePopovers: true
   analytics: null
@@ -247,7 +247,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: ./plugins/font-reset
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 36
