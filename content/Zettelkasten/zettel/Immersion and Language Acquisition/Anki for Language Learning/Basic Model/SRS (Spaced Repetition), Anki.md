@@ -1,6 +1,6 @@
 ---
 title: "SRS (Spaced Repetition), Anki"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki.md"
 publish: true
 tags:
   - zettel

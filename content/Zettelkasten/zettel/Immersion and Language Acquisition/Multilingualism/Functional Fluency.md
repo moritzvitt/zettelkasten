@@ -1,6 +1,6 @@
 ---
 title: "Functional Fluency"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md"
 next:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisit\
     ion|Language Acquisition]]"

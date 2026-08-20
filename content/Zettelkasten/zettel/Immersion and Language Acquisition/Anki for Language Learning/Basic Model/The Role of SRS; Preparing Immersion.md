@@ -1,6 +1,6 @@
 ---
 title: "The Role of SRS; Preparing Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md"
 next:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language\
     -learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zon\

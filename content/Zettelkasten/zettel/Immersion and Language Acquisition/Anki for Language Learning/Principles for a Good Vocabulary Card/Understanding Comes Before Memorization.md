@@ -1,6 +1,6 @@
 ---
 title: "Understanding Comes Before Memorization"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Understanding Comes Before Memorization.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Understanding Comes Before Memorization.md"
 publish: true
 tags:
   - zettel

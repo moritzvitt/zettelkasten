@@ -1,6 +1,6 @@
 ---
 title: "Information Connects More Than It Represents"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Information Connects More Than It Represents.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Information Connects More Than It Represents.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information]]"

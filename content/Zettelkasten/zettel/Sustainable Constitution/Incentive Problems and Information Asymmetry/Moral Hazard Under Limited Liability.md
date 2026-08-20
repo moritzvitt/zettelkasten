@@ -1,6 +1,6 @@
 ---
 title: "Moral Hazard Under Limited Liability"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard Under Limited Liability.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard Under Limited Liability.md"
 publish: true
 tags:
   - zettel

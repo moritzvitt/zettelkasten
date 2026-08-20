@@ -1,6 +1,6 @@
 ---
 title: "Axiom - The Dignity of Life Is Inviolable"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Axiom - The Dignity of Life Is Inviolable.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Axiom - The Dignity of Life Is Inviolable.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "A Nexus Is a Connection Node in the Flow of Information"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/A Nexus Is a Connection Node in the Flow of Information.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/A Nexus Is a Connection Node in the Flow of Information.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents]]"

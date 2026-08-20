@@ -1,6 +1,6 @@
 ---
 title: "Language"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Language.md"
+source: "Zettelkasten/zettel/Communication and Information/Language.md"
 publish: true
 tags:
   - zettel

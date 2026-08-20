@@ -1,6 +1,6 @@
 ---
 title: "Body Language"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Body Language.md"
+source: "Zettelkasten/zettel/Communication and Information/Body Language.md"
 publish: true
 tags:
   - zettel

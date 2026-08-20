@@ -1,6 +1,6 @@
 ---
 title: "Output Second - Output Makes Immersion Testable"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Output Second - Output Makes Immersion Testable.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Output Second - Output Makes Immersion Testable.md"
 publish: true
 tags:
   - zettel

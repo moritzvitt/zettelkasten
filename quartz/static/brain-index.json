@@ -17,47 +17,29 @@
         "zettel"
       ]
     },
-    "tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world": {
-      "slug": "tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world",
-      "title": "Axiom - The Wonders of This World",
-      "source": "Digital Garden/Tea Garden/Isn't Life Beautiful/Axiom - The Wonders of This World.md",
-      "url": "/tea-garden/isn't-life-beautiful/axiom---the-wonders-of-this-world",
+    "purpose": {
+      "slug": "purpose",
+      "title": "Purpose",
+      "source": "Digital Garden/Purpose.md",
+      "url": "/purpose",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/isn't-life-beautiful/beauty": {
-      "slug": "tea-garden/isn't-life-beautiful/beauty",
-      "title": "Beauty (don't optimise Beauty)",
-      "source": "Digital Garden/Tea Garden/Isn't Life Beautiful/Beauty.md",
-      "url": "/tea-garden/isn't-life-beautiful/beauty",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/purpose": {
-      "slug": "tea-garden/purpose",
-      "title": "**Purpose**",
-      "source": "Digital Garden/Tea Garden/Purpose.md",
-      "url": "/tea-garden/purpose",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/job-related/organisational-stuff,-future-plans.": {
-      "slug": "tea-garden/job-related/organisational-stuff,-future-plans.",
+    "job-related/organisational-stuff,-future-plans.": {
+      "slug": "job-related/organisational-stuff,-future-plans.",
       "title": "Organisational stuff, Future plans.",
-      "source": "Digital Garden/Tea Garden/job-related/Organisational stuff, Future plans..md",
-      "url": "/tea-garden/job-related/organisational-stuff,-future-plans.",
+      "source": "Digital Garden/job-related/Organisational stuff, Future plans..md",
+      "url": "/job-related/organisational-stuff,-future-plans.",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+    "languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
       "title": "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young",
       "tags": [
         "zettel",
         "media",
@@ -70,11 +52,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
+    "languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
       "title": "Being an AV Director in Japan (Interview)",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/Being an AV Director in Japan (Interview).md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/Being an AV Director in Japan (Interview).md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/being-an-av-director-in-japan-(interview)",
       "tags": [
         "zettel",
         "find-your-love",
@@ -89,11 +71,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
+    "languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
       "title": "How much do Japanese Girls Cheat?",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/How much do Japanese Girls Cheat?.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/How much do Japanese Girls Cheat?.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/how-much-do-japanese-girls-cheat?",
       "tags": [
         "zettel",
         "japanese",
@@ -104,11 +86,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
+    "languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
       "title": "What Japanese Girls Find Attractive",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/What Japanese Girls Find Attractive.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/What Japanese Girls Find Attractive.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive",
       "tags": [
         "zettel",
         "vocabulary-list",
@@ -117,11 +99,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?",
+    "languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?",
       "title": "What is Japan national team forward Takuma Asano's \"secret\"?",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/What is Japan national team forward Takuma Asano's \"secret\"?.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/What is Japan national team forward Takuma Asano's \"secret\"?.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/what-is-japan-national-team-forward-takuma-asano's-secret?",
       "tags": [
         "zettel",
         "media",
@@ -132,11 +114,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+    "languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "title": "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた",
       "tags": [
         "zettel",
         "japanese",
@@ -151,11 +133,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
+    "languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
       "title": "【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/【日本移住したドイツハーフ】コミュ障には日本の方が生きやすい｜ドイツの学校は事件だらけだった💦",
       "tags": [
         "zettel",
         "_",
@@ -165,11 +147,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+    "languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
       "title": "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice).md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)",
       "tags": [
         "zettel",
         "media",
@@ -182,11 +164,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
+    "languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
       "title": "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい",
       "tags": [
         "zettel",
         "_",
@@ -196,11 +178,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary",
+    "languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary",
       "title": "使える単語の増やし方 _ How to Turn Passive Vocabulary into Active Vocabulary",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/使える単語の増やし方 _ How to Turn Passive Vocabulary into Active Vocabulary.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/使える単語の増やし方 _ How to Turn Passive Vocabulary into Active Vocabulary.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/使える単語の増やし方-_-how-to-turn-passive-vocabulary-into-active-vocabulary",
       "tags": [
         "zettel",
         "media",
@@ -211,11 +193,11 @@
         "youtube"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】",
+    "languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】",
       "title": "受験のないドイツから来たハーフJK、日本のハードな受験勉強に挑む【大学受験】",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/受験のないドイツから来たハーフJK、日本のハードな受験勉強に挑む【大学受験】.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/受験のないドイツから来たハーフJK、日本のハードな受験勉強に挑む【大学受験】.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/受験のないドイツから来たハーフjk、日本のハードな受験勉強に挑む【大学受験】",
       "tags": [
         "zettel",
         "nichidoku-familie",
@@ -227,11 +209,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？",
+    "languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？",
       "title": "文化系大忘年会2024～今年の３大重要トピックは？",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/文化系大忘年会2024～今年の３大重要トピックは？.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/文化系大忘年会2024～今年の３大重要トピックは？.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/文化系大忘年会2024～今年の３大重要トピックは？",
       "tags": [
         "zettel",
         "media",
@@ -242,11 +224,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
+    "languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
       "title": "日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/日本人はどうやって告白する？👫【N3-N4】1 Hour Real Talk about Love & Relationships.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/日本人はどうやって告白する？👫【n3-n4】1-hour-real-talk-about-love-&-relationships",
       "tags": [
         "zettel",
         "nihongo",
@@ -266,11 +248,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+    "languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
       "title": "正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/正直きつい日本の高校生活。それでも私が前を向ける理由【後編】",
       "tags": [
         "zettel",
         "media",
@@ -281,11 +263,11 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
+    "languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon": {
+      "slug": "languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
       "title": "米津玄師 Kenshi Yonezu - Lemon",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/Youtube/米津玄師 Kenshi Yonezu - Lemon.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/Youtube/米津玄師 Kenshi Yonezu - Lemon.md",
+      "url": "/languages/japanese/japanese-media-notes/youtube/米津玄師-kenshi-yonezu---lemon",
       "tags": [
         "zettel",
         "japanese",
@@ -296,11 +278,11 @@
         "media"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
+    "languages/japanese/japanese-media-notes/movies/howl's-moving-castle": {
+      "slug": "languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
       "title": "Howl's Moving Castle",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Howl's Moving Castle.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Howl's Moving Castle.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/howl's-moving-castle",
       "tags": [
         "zettel",
         "media",
@@ -315,11 +297,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
+    "languages/japanese/japanese-media-notes/movies/kikis-delivery-service": {
+      "slug": "languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
       "title": "Kikis Delivery Service",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Kikis Delivery Service.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Kikis Delivery Service.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/kikis-delivery-service",
       "tags": [
         "zettel",
         "media",
@@ -330,11 +312,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
+    "languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind": {
+      "slug": "languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
       "title": "Nausicaa Of The Valley Of The Wind",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Nausicaa Of The Valley Of The Wind.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Nausicaa Of The Valley Of The Wind.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/nausicaa-of-the-valley-of-the-wind",
       "tags": [
         "zettel",
         "media",
@@ -345,11 +327,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves",
+    "languages/japanese/japanese-media-notes/movies/ocean-waves": {
+      "slug": "languages/japanese/japanese-media-notes/movies/ocean-waves",
       "title": "Ocean Waves",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Ocean Waves.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/ocean-waves",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Ocean Waves.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/ocean-waves",
       "tags": [
         "zettel",
         "media",
@@ -360,11 +342,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday",
+    "languages/japanese/japanese-media-notes/movies/only-yesterday": {
+      "slug": "languages/japanese/japanese-media-notes/movies/only-yesterday",
       "title": "Only Yesterday",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Only Yesterday.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/only-yesterday",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Only Yesterday.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/only-yesterday",
       "tags": [
         "zettel",
         "media",
@@ -375,11 +357,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away",
+    "languages/japanese/japanese-media-notes/movies/spirited-away": {
+      "slug": "languages/japanese/japanese-media-notes/movies/spirited-away",
       "title": "Spirited Away",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/Spirited Away.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/spirited-away",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/Spirited Away.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/spirited-away",
       "tags": [
         "zettel",
         "media",
@@ -390,11 +372,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises",
+    "languages/japanese/japanese-media-notes/movies/the-wind-rises": {
+      "slug": "languages/japanese/japanese-media-notes/movies/the-wind-rises",
       "title": "The Wind Rises",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/movies/The Wind Rises.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/movies/the-wind-rises",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/movies/The Wind Rises.md",
+      "url": "/languages/japanese/japanese-media-notes/movies/the-wind-rises",
       "tags": [
         "zettel",
         "media",
@@ -405,11 +387,11 @@
         "movie"
       ]
     },
-    "tea-garden/languages/japanese/japanese-media-notes/series/gto-1": {
-      "slug": "tea-garden/languages/japanese/japanese-media-notes/series/gto-1",
+    "languages/japanese/japanese-media-notes/series/gto-1": {
+      "slug": "languages/japanese/japanese-media-notes/series/gto-1",
       "title": "GTO 1",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Media Notes/series/GTO 1.md",
-      "url": "/tea-garden/languages/japanese/japanese-media-notes/series/gto-1",
+      "source": "Digital Garden/languages/Japanese/Japanese Media Notes/series/GTO 1.md",
+      "url": "/languages/japanese/japanese-media-notes/series/gto-1",
       "tags": [
         "zettel",
         "media",
@@ -420,29 +402,29 @@
         "series"
       ]
     },
-    "tea-garden/languages/japanese/japanese-topics": {
-      "slug": "tea-garden/languages/japanese/japanese-topics",
+    "languages/japanese/japanese-topics": {
+      "slug": "languages/japanese/japanese-topics",
       "title": "Japanese Topics",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Japanese Topics.md",
-      "url": "/tea-garden/languages/japanese/japanese-topics",
+      "source": "Digital Garden/languages/Japanese/Japanese Topics.md",
+      "url": "/languages/japanese/japanese-topics",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/languages/japanese/kanji-lernliste": {
-      "slug": "tea-garden/languages/japanese/kanji-lernliste",
+    "languages/japanese/kanji-lernliste": {
+      "slug": "languages/japanese/kanji-lernliste",
       "title": "Kanji Lernliste",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/Kanji Lernliste.md",
-      "url": "/tea-garden/languages/japanese/kanji-lernliste",
+      "source": "Digital Garden/languages/Japanese/Kanji Lernliste.md",
+      "url": "/languages/japanese/kanji-lernliste",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/languages/japanese/japanese-mistakes": {
-      "slug": "tea-garden/languages/japanese/japanese-mistakes",
+    "languages/japanese/japanese-mistakes": {
+      "slug": "languages/japanese/japanese-mistakes",
       "title": "japanese mistakes",
-      "source": "Digital Garden/Tea Garden/languages/Japanese/japanese mistakes.md",
-      "url": "/tea-garden/languages/japanese/japanese-mistakes",
+      "source": "Digital Garden/languages/Japanese/japanese mistakes.md",
+      "url": "/languages/japanese/japanese-mistakes",
       "tags": [
         "zettel",
         "japanese",
@@ -450,11 +432,11 @@
         "home/study-room"
       ]
     },
-    "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～": {
-      "slug": "tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
+    "languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～": {
+      "slug": "languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
       "title": "ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～",
-      "source": "Digital Garden/Tea Garden/languages/Mediennotizen/Nur vom Agenten erstellt/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～.md",
-      "url": "/tea-garden/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
+      "source": "Digital Garden/languages/Mediennotizen/Nur vom Agenten erstellt/ヒロシマ・グラウンド・ゼロ　～あの日、爆心地では～.md",
+      "url": "/languages/mediennotizen/nur-vom-agenten-erstellt/ヒロシマ・グラウンド・ゼロ-～あの日、爆心地では～",
       "tags": [
         "zettel",
         "media",
@@ -465,20 +447,20 @@
         "japanese/vocabulary-list"
       ]
     },
-    "tea-garden/languages/chinese/zhuyin": {
-      "slug": "tea-garden/languages/chinese/zhuyin",
+    "languages/chinese/zhuyin": {
+      "slug": "languages/chinese/zhuyin",
       "title": "Zhuyin",
-      "source": "Digital Garden/Tea Garden/languages/chinese/Zhuyin.md",
-      "url": "/tea-garden/languages/chinese/zhuyin",
+      "source": "Digital Garden/languages/chinese/Zhuyin.md",
+      "url": "/languages/chinese/zhuyin",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)": {
-      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
+    "languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)": {
+      "slug": "languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
       "title": "QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin)",
-      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin).md",
-      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
+      "source": "Digital Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Marion Cotillard & Camille Cottin).md",
+      "url": "/languages/french/qui-est-l'imposteur-?-(ft-marion-cotillard-&-camille-cottin)",
       "tags": [
         "zettel",
         "media",
@@ -489,11 +471,11 @@
         "french/vocabulary-list"
       ]
     },
-    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)": {
-      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
+    "languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)": {
+      "slug": "languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
       "title": "QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen)",
-      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen).md",
-      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
+      "source": "Digital Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Mister V, Jonathan Cohen).md",
+      "url": "/languages/french/qui-est-l'imposteur-?-(ft-mister-v,-jonathan-cohen)",
       "tags": [
         "zettel",
         "media",
@@ -504,11 +486,11 @@
         "french/vocabulary-list"
       ]
     },
-    "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)": {
-      "slug": "tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
+    "languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)": {
+      "slug": "languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
       "title": "QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil)",
-      "source": "Digital Garden/Tea Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil).md",
-      "url": "/tea-garden/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
+      "source": "Digital Garden/languages/french/QUI EST L'IMPOSTEUR ? (ft Pierre Niney & François Civil).md",
+      "url": "/languages/french/qui-est-l'imposteur-?-(ft-pierre-niney-&-françois-civil)",
       "tags": [
         "zettel",
         "media",
@@ -518,192 +500,139 @@
         "french/vocabulary-list"
       ]
     },
-    "tea-garden/music/tchaikovsky---rococco-variations": {
-      "slug": "tea-garden/music/tchaikovsky---rococco-variations",
-      "title": "Rococco Variations",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Rococco Variations.md",
-      "url": "/tea-garden/music/tchaikovsky---rococco-variations",
-      "tags": [
-        "zettel",
-        "tchaikovsky",
-        "cello",
-        "romantic",
-        "music",
-        "music/romantic",
-        "media"
-      ]
-    },
-    "tea-garden/music/tchaikovsky---symphony-no.-4": {
-      "slug": "tea-garden/music/tchaikovsky---symphony-no.-4",
-      "title": "Tchaikovsky - Symphony No. 4 f-moll op. 36",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 4.md",
-      "url": "/tea-garden/music/tchaikovsky---symphony-no.-4",
-      "tags": [
-        "zettel",
-        "tchaikovsky",
-        "cello",
-        "symphony",
-        "romantic",
-        "music",
-        "media"
-      ]
-    },
-    "tea-garden/music/tchaikovsky---symphony-no.-6": {
-      "slug": "tea-garden/music/tchaikovsky---symphony-no.-6",
-      "title": "Tchaikovsky - Symphony No. 6",
-      "source": "Digital Garden/Tea Garden/music/Tchaikovsky - Symphony No. 6.md",
-      "url": "/tea-garden/music/tchaikovsky---symphony-no.-6",
-      "tags": [
-        "zettel",
-        "music",
-        "classic",
-        "romantic",
-        "tchaikovsky",
-        "media"
-      ]
-    },
-    "tea-garden/personal/about-me": {
-      "slug": "tea-garden/personal/about-me",
+    "personal/about-me": {
+      "slug": "personal/about-me",
       "title": "About me",
-      "source": "Digital Garden/Tea Garden/personal/About me.md",
-      "url": "/tea-garden/personal/about-me",
+      "source": "Digital Garden/personal/About me.md",
+      "url": "/personal/about-me",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/positive-fantasie-💭": {
-      "slug": "tea-garden/personal/positive-fantasie-💭",
-      "title": "Positive Fantasie 💭",
-      "source": "Digital Garden/Tea Garden/personal/Positive Fantasie 💭.md",
-      "url": "/tea-garden/personal/positive-fantasie-💭",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "tea-garden/personal/psalm-23": {
-      "slug": "tea-garden/personal/psalm-23",
+    "personal/psalm-23": {
+      "slug": "personal/psalm-23",
       "title": "Psalm 23",
-      "source": "Digital Garden/Tea Garden/personal/Psalm 23.md",
-      "url": "/tea-garden/personal/psalm-23",
+      "source": "Digital Garden/personal/Psalm 23.md",
+      "url": "/personal/psalm-23",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/things-i-made/drawings": {
-      "slug": "tea-garden/personal/things-i-made/drawings",
+    "personal/things-i-made/drawings": {
+      "slug": "personal/things-i-made/drawings",
       "title": "Drawings",
-      "source": "Digital Garden/Tea Garden/personal/Things I made/Drawings.md",
-      "url": "/tea-garden/personal/things-i-made/drawings",
+      "source": "Digital Garden/personal/Things I made/Drawings.md",
+      "url": "/personal/things-i-made/drawings",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/things-i-made/possible-names-for-our-football-team": {
-      "slug": "tea-garden/personal/things-i-made/possible-names-for-our-football-team",
+    "personal/things-i-made/possible-names-for-our-football-team": {
+      "slug": "personal/things-i-made/possible-names-for-our-football-team",
       "title": "Possible names for our football team",
-      "source": "Digital Garden/Tea Garden/personal/Things I made/Possible names for our football team.md",
-      "url": "/tea-garden/personal/things-i-made/possible-names-for-our-football-team",
+      "source": "Digital Garden/personal/Things I made/Possible names for our football team.md",
+      "url": "/personal/things-i-made/possible-names-for-our-football-team",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts": {
-      "slug": "tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts",
+    "personal/things-i-made/character-sets-for-making-custom-fonts": {
+      "slug": "personal/things-i-made/character-sets-for-making-custom-fonts",
       "title": "character sets for making custom fonts",
-      "source": "Digital Garden/Tea Garden/personal/Things I made/character sets for making custom fonts.md",
-      "url": "/tea-garden/personal/things-i-made/character-sets-for-making-custom-fonts",
+      "source": "Digital Garden/personal/Things I made/character sets for making custom fonts.md",
+      "url": "/personal/things-i-made/character-sets-for-making-custom-fonts",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/things-i-made/pixel-art": {
-      "slug": "tea-garden/personal/things-i-made/pixel-art",
+    "personal/things-i-made/pixel-art": {
+      "slug": "personal/things-i-made/pixel-art",
       "title": "pixel art",
-      "source": "Digital Garden/Tea Garden/personal/Things I made/pixel art.md",
-      "url": "/tea-garden/personal/things-i-made/pixel-art",
+      "source": "Digital Garden/personal/Things I made/pixel art.md",
+      "url": "/personal/things-i-made/pixel-art",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/other/believe!": {
-      "slug": "tea-garden/personal/other/believe!",
+    "personal/other/believe!": {
+      "slug": "personal/other/believe!",
       "title": "Believe!",
-      "source": "Digital Garden/Tea Garden/personal/other/Believe!.md",
-      "url": "/tea-garden/personal/other/believe!",
+      "source": "Digital Garden/personal/other/Believe!.md",
+      "url": "/personal/other/believe!",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/other/fantasy": {
-      "slug": "tea-garden/personal/other/fantasy",
+    "personal/other/fantasy": {
+      "slug": "personal/other/fantasy",
       "title": "Fantasy",
-      "source": "Digital Garden/Tea Garden/personal/other/Fantasy.md",
-      "url": "/tea-garden/personal/other/fantasy",
+      "source": "Digital Garden/personal/other/Fantasy.md",
+      "url": "/personal/other/fantasy",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/other/funny-stuff": {
-      "slug": "tea-garden/personal/other/funny-stuff",
+    "personal/other/funny-stuff": {
+      "slug": "personal/other/funny-stuff",
       "title": "Funny Stuff",
-      "source": "Digital Garden/Tea Garden/personal/other/Funny Stuff.md",
-      "url": "/tea-garden/personal/other/funny-stuff",
+      "source": "Digital Garden/personal/other/Funny Stuff.md",
+      "url": "/personal/other/funny-stuff",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/other/green-tea": {
-      "slug": "tea-garden/personal/other/green-tea",
+    "personal/other/green-tea": {
+      "slug": "personal/other/green-tea",
       "title": "Green Tea",
-      "source": "Digital Garden/Tea Garden/personal/other/Green Tea.md",
-      "url": "/tea-garden/personal/other/green-tea",
+      "source": "Digital Garden/personal/other/Green Tea.md",
+      "url": "/personal/other/green-tea",
       "tags": [
         "zettel",
         "home",
         "home/living-room"
       ]
     },
-    "tea-garden/personal/other/messi-is-art": {
-      "slug": "tea-garden/personal/other/messi-is-art",
+    "personal/other/messi-is-art": {
+      "slug": "personal/other/messi-is-art",
       "title": "Messi is Art",
-      "source": "Digital Garden/Tea Garden/personal/other/Messi is Art.md",
-      "url": "/tea-garden/personal/other/messi-is-art",
+      "source": "Digital Garden/personal/other/Messi is Art.md",
+      "url": "/personal/other/messi-is-art",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/personal/other/routine": {
-      "slug": "tea-garden/personal/other/routine",
+    "personal/other/routine": {
+      "slug": "personal/other/routine",
       "title": "Routine",
-      "source": "Digital Garden/Tea Garden/personal/other/Routine.md",
-      "url": "/tea-garden/personal/other/routine",
+      "source": "Digital Garden/personal/other/Routine.md",
+      "url": "/personal/other/routine",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/recipes/bolognese": {
-      "slug": "tea-garden/recipes/bolognese",
+    "recipes/bolognese": {
+      "slug": "recipes/bolognese",
       "title": "Ragù alla Bolognese",
-      "source": "Digital Garden/Tea Garden/recipes/Bolognese.md",
-      "url": "/tea-garden/recipes/bolognese",
+      "source": "Digital Garden/recipes/Bolognese.md",
+      "url": "/recipes/bolognese",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/recipes/gnocchi-auflauf": {
-      "slug": "tea-garden/recipes/gnocchi-auflauf",
+    "recipes/gnocchi-auflauf": {
+      "slug": "recipes/gnocchi-auflauf",
       "title": "Gnocchi-Auflauf",
-      "source": "Digital Garden/Tea Garden/recipes/Gnocchi Auflauf.md",
-      "url": "/tea-garden/recipes/gnocchi-auflauf",
+      "source": "Digital Garden/recipes/Gnocchi Auflauf.md",
+      "url": "/recipes/gnocchi-auflauf",
       "tags": [
         "zettel"
       ]
     },
-    "tea-garden/recipes/milchreis": {
-      "slug": "tea-garden/recipes/milchreis",
+    "recipes/milchreis": {
+      "slug": "recipes/milchreis",
       "title": "Milchreis",
-      "source": "Digital Garden/Tea Garden/recipes/Milchreis.md",
-      "url": "/tea-garden/recipes/milchreis",
+      "source": "Digital Garden/recipes/Milchreis.md",
+      "url": "/recipes/milchreis",
       "tags": [
         "zettel"
       ]
@@ -711,7 +640,7 @@
     "zettelkasten/language-learning-theory": {
       "slug": "zettelkasten/language-learning-theory",
       "title": "**The Why and the What**",
-      "source": "Digital Garden/Zettelkasten/Language Learning Theory.md",
+      "source": "Zettelkasten/Language Learning Theory.md",
       "url": "/zettelkasten/language-learning-theory",
       "tags": [
         "zettel"
@@ -720,7 +649,7 @@
     "zettelkasten/overview-of-topics-in-the-zettelkasten": {
       "slug": "zettelkasten/overview-of-topics-in-the-zettelkasten",
       "title": "Overview of Topics in the Zettelkasten",
-      "source": "Digital Garden/Zettelkasten/Overview of Topics in the Zettelkasten.md",
+      "source": "Zettelkasten/Overview of Topics in the Zettelkasten.md",
       "url": "/zettelkasten/overview-of-topics-in-the-zettelkasten",
       "tags": [
         "zettel"
@@ -729,7 +658,7 @@
     "zettelkasten/index": {
       "slug": "zettelkasten/index",
       "title": "index",
-      "source": "Digital Garden/Zettelkasten/index.md",
+      "source": "Zettelkasten/index.md",
       "url": "/zettelkasten/index",
       "tags": [
         "zettel"
@@ -738,17 +667,8 @@
     "zettelkasten/zettel/communication-and-information/body-language": {
       "slug": "zettelkasten/zettel/communication-and-information/body-language",
       "title": "Body Language",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Body Language.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Body Language.md",
       "url": "/zettelkasten/zettel/communication-and-information/body-language",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "zettelkasten/zettel/communication-and-information/culture-dependent-means-of-communication": {
-      "slug": "zettelkasten/zettel/communication-and-information/culture-dependent-means-of-communication",
-      "title": "Culture-Dependent Means of Communication",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Culture-Dependent Means of Communication.md",
-      "url": "/zettelkasten/zettel/communication-and-information/culture-dependent-means-of-communication",
       "tags": [
         "zettel"
       ]
@@ -756,7 +676,7 @@
     "zettelkasten/zettel/communication-and-information/forms-of-politeness": {
       "slug": "zettelkasten/zettel/communication-and-information/forms-of-politeness",
       "title": "Forms of Politeness",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Forms of Politeness.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Forms of Politeness.md",
       "url": "/zettelkasten/zettel/communication-and-information/forms-of-politeness",
       "tags": [
         "zettel"
@@ -765,7 +685,7 @@
     "zettelkasten/zettel/communication-and-information/human-language": {
       "slug": "zettelkasten/zettel/communication-and-information/human-language",
       "title": "Human Language",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Human Language.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Human Language.md",
       "url": "/zettelkasten/zettel/communication-and-information/human-language",
       "tags": [
         "zettel"
@@ -774,7 +694,7 @@
     "zettelkasten/zettel/communication-and-information/institutions-of-a-culture": {
       "slug": "zettelkasten/zettel/communication-and-information/institutions-of-a-culture",
       "title": "Institutions of a Culture",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Institutions of a Culture.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Institutions of a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/institutions-of-a-culture",
       "tags": [
         "zettel",
@@ -784,7 +704,7 @@
     "zettelkasten/zettel/communication-and-information/institutions": {
       "slug": "zettelkasten/zettel/communication-and-information/institutions",
       "title": "Institutions",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Institutions.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Institutions.md",
       "url": "/zettelkasten/zettel/communication-and-information/institutions",
       "tags": [
         "zettel",
@@ -794,7 +714,7 @@
     "zettelkasten/zettel/communication-and-information/language": {
       "slug": "zettelkasten/zettel/communication-and-information/language",
       "title": "Language",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Language.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Language.md",
       "url": "/zettelkasten/zettel/communication-and-information/language",
       "tags": [
         "zettel"
@@ -803,7 +723,7 @@
     "zettelkasten/zettel/communication-and-information/learning-a-culture": {
       "slug": "zettelkasten/zettel/communication-and-information/learning-a-culture",
       "title": "Language as Participation in an Information Network",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Learning a Culture.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Learning a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/learning-a-culture",
       "tags": [
         "zettel"
@@ -812,7 +732,7 @@
     "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture": {
       "slug": "zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
       "title": "Means of Communication Within a Culture",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Means of Communication Within a Culture.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Means of Communication Within a Culture.md",
       "url": "/zettelkasten/zettel/communication-and-information/means-of-communication-within-a-culture",
       "tags": [
         "zettel",
@@ -822,7 +742,7 @@
     "zettelkasten/zettel/communication-and-information/means-of-communication": {
       "slug": "zettelkasten/zettel/communication-and-information/means-of-communication",
       "title": "Means of Communication",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Means of Communication.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Means of Communication.md",
       "url": "/zettelkasten/zettel/communication-and-information/means-of-communication",
       "tags": [
         "zettel"
@@ -831,7 +751,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information",
       "title": "A Nexus Is a Connection Node in the Flow of Information",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/A Nexus Is a Connection Node in the Flow of Information.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/A Nexus Is a Connection Node in the Flow of Information.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information",
       "tags": [
         "zettel"
@@ -840,7 +760,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
       "title": "An Information Network Organizes Connection and Correction",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/An Information Network Organizes Connection and Correction.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/An Information Network Organizes Connection and Correction.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/an-information-network-organizes-connection-and-correction",
       "tags": [
         "zettel"
@@ -849,7 +769,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
       "title": "Culture as an Information Network",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/culture-as-an-information-network",
       "tags": [
         "zettel"
@@ -858,7 +778,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents",
       "title": "Information Connects More Than It Represents",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Information Connects More Than It Represents.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Information Connects More Than It Represents.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/information-connects-more-than-it-represents",
       "tags": [
         "zettel"
@@ -867,7 +787,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-compares-democracy-and-dictatorship-as-information-networks": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-compares-democracy-and-dictatorship-as-information-networks",
       "title": "Nexus Compares Democracy and Dictatorship as Information Networks",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Compares Democracy and Dictatorship as Information Networks.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Compares Democracy and Dictatorship as Information Networks.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-compares-democracy-and-dictatorship-as-information-networks",
       "tags": [
         "zettel"
@@ -876,7 +796,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-makes-self-correction-a-question-of-survival": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-makes-self-correction-a-question-of-survival",
       "title": "Nexus Makes Self-Correction a Question of Survival",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Makes Self-Correction a Question of Survival.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Makes Self-Correction a Question of Survival.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-makes-self-correction-a-question-of-survival",
       "tags": [
         "zettel"
@@ -885,7 +805,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-ai-as-a-nonhuman-network-participant": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-ai-as-a-nonhuman-network-participant",
       "title": "Nexus Sees AI as a Nonhuman Network Participant",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees AI as a Nonhuman Network Participant.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees AI as a Nonhuman Network Participant.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-ai-as-a-nonhuman-network-participant",
       "tags": [
         "zettel"
@@ -894,7 +814,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-stories-as-connection-technology": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-stories-as-connection-technology",
       "title": "Nexus Sees Stories as Connection Technology",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees Stories as Connection Technology.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees Stories as Connection Technology.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-stories-as-connection-technology",
       "tags": [
         "zettel"
@@ -903,7 +823,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-separates-information-from-truth": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-separates-information-from-truth",
       "title": "Nexus Separates Information From Truth",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Separates Information From Truth.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Separates Information From Truth.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-separates-information-from-truth",
       "tags": [
         "zettel"
@@ -912,7 +832,7 @@
     "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-warns-against-automated-destruction-of-trust": {
       "slug": "zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-warns-against-automated-destruction-of-trust",
       "title": "Nexus Warns Against Automated Destruction of Trust",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Warns Against Automated Destruction of Trust.md",
+      "source": "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Warns Against Automated Destruction of Trust.md",
       "url": "/zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-warns-against-automated-destruction-of-trust",
       "tags": [
         "zettel"
@@ -921,7 +841,7 @@
     "zettelkasten/zettel/communication-and-information/communication": {
       "slug": "zettelkasten/zettel/communication-and-information/communication",
       "title": "Communication",
-      "source": "Digital Garden/Zettelkasten/zettel/Communication and Information/communication.md",
+      "source": "Zettelkasten/zettel/Communication and Information/communication.md",
       "url": "/zettelkasten/zettel/communication-and-information/communication",
       "tags": [
         "zettel"
@@ -930,7 +850,7 @@
     "zettelkasten/zettel/design-principles/guided-attention": {
       "slug": "zettelkasten/zettel/design-principles/guided-attention",
       "title": "Guided Attention",
-      "source": "Digital Garden/Zettelkasten/zettel/Design Principles/Guided Attention.md",
+      "source": "Zettelkasten/zettel/Design Principles/Guided Attention.md",
       "url": "/zettelkasten/zettel/design-principles/guided-attention",
       "tags": [
         "zettel"
@@ -939,7 +859,7 @@
     "zettelkasten/zettel/design-principles/minimalism": {
       "slug": "zettelkasten/zettel/design-principles/minimalism",
       "title": "Minimalism",
-      "source": "Digital Garden/Zettelkasten/zettel/Design Principles/Minimalism.md",
+      "source": "Zettelkasten/zettel/Design Principles/Minimalism.md",
       "url": "/zettelkasten/zettel/design-principles/minimalism",
       "tags": [
         "zettel"
@@ -948,7 +868,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows",
       "title": "Anki Alone Becomes Inefficient as Vocabulary Grows",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Alone Becomes Inefficient as Vocabulary Grows.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Alone Becomes Inefficient as Vocabulary Grows.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-alone-becomes-inefficient-as-vocabulary-grows",
       "tags": [
         "zettel"
@@ -957,7 +877,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-costs-time-and-attention": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-costs-time-and-attention",
       "title": "Anki Costs Time and Attention",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Costs Time and Attention.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Costs Time and Attention.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-costs-time-and-attention",
       "tags": [
         "zettel"
@@ -966,7 +886,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-optimal-attention-allocation": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-optimal-attention-allocation",
       "title": "Anki and the Problem of Optimal Attention Allocation",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki and the Problem of Optimal Attention Allocation.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki and the Problem of Optimal Attention Allocation.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-optimal-attention-allocation",
       "tags": [
         "zettel"
@@ -975,7 +895,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-weighting-meanings": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-weighting-meanings",
       "title": "Anki and the Problem of Weighting Meanings",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki and the Problem of Weighting Meanings.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki and the Problem of Weighting Meanings.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki-and-the-problem-of-weighting-meanings",
       "tags": [
         "zettel"
@@ -984,7 +904,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki's-context-dilemma": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki's-context-dilemma",
       "title": "Anki's Context Dilemma",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki's Context Dilemma.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki's Context Dilemma.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/anki's-context-dilemma",
       "tags": [
         "zettel"
@@ -993,7 +913,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/frequency-lists-do-not-solve-the-problem": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/frequency-lists-do-not-solve-the-problem",
       "title": "Frequency Lists Do Not Solve the Problem",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Frequency Lists Do Not Solve the Problem.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Frequency Lists Do Not Solve the Problem.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/frequency-lists-do-not-solve-the-problem",
       "tags": [
         "zettel"
@@ -1002,7 +922,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/the-chance-of-encountering-a-word-in-immersion-falls-as-vocabulary-grows": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/the-chance-of-encountering-a-word-in-immersion-falls-as-vocabulary-grows",
       "title": "The Chance of Encountering a Word in Immersion Falls as Vocabulary Grows",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/The Chance of Encountering a Word in Immersion Falls as Vocabulary Grows.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/The Chance of Encountering a Word in Immersion Falls as Vocabulary Grows.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/anki's-problems-in-language-learning/the-chance-of-encountering-a-word-in-immersion-falls-as-vocabulary-grows",
       "tags": [
         "zettel"
@@ -1011,7 +931,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/anki-is-not-a-knowledge-store": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/anki-is-not-a-knowledge-store",
       "title": "Anki Is Not a Knowledge Store",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Anki Is Not a Knowledge Store.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Anki Is Not a Knowledge Store.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/anki-is-not-a-knowledge-store",
       "tags": [
         "zettel"
@@ -1020,7 +940,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/card-retirement": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/card-retirement",
       "title": "Card Retirement",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Card Retirement.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Card Retirement.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/card-retirement",
       "tags": [
         "zettel"
@@ -1029,7 +949,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/getting-ready-for-immersion---building-a-basic-vocabulary": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/getting-ready-for-immersion---building-a-basic-vocabulary",
       "title": "Getting Ready for Immersion - Building a Basic Vocabulary",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Getting Ready for Immersion - Building a Basic Vocabulary.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Getting Ready for Immersion - Building a Basic Vocabulary.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/getting-ready-for-immersion---building-a-basic-vocabulary",
       "tags": [
         "zettel",
@@ -1041,7 +961,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/misplaced-ambition-in-anki": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/misplaced-ambition-in-anki",
       "title": "Misplaced Ambition in Anki",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Misplaced Ambition in Anki.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Misplaced Ambition in Anki.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/misplaced-ambition-in-anki",
       "tags": [
         "zettel"
@@ -1050,7 +970,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki",
       "title": "SRS (Spaced Repetition), Anki",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki",
       "tags": [
         "zettel",
@@ -1063,7 +983,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state",
       "title": "The Fertile Zone; Language Concepts in a Learnable State (short-term memory - medium-term - long-term memory)",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-fertile-zone;-language-concepts-in-a-learnable-state",
       "tags": [
         "zettel"
@@ -1072,7 +992,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-goal-of-an-anki-card-is-only-a-vague-feeling-of-recognition-in-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-goal-of-an-anki-card-is-only-a-vague-feeling-of-recognition-in-immersion",
       "title": "The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-goal-of-an-anki-card-is-only-a-vague-feeling-of-recognition-in-immersion",
       "tags": [
         "zettel"
@@ -1081,7 +1001,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "title": "The Role of SRS; Preparing Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Role of SRS; Preparing Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion",
       "tags": [
         "zettel",
@@ -1093,7 +1013,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
       "title": "Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/two-methods-for-keeping-many-words-in-the-fertile-zone,-srs-and-learning-lists",
       "tags": [
         "zettel"
@@ -1102,7 +1022,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/words-with-simple-meanings-can-often-be-almost-fully-learned-with-anki": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/words-with-simple-meanings-can-often-be-almost-fully-learned-with-anki",
       "title": "Words With Simple Meanings Can Often Be Almost Fully Learned With Anki",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Words With Simple Meanings Can Often Be Almost Fully Learned With Anki.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Words With Simple Meanings Can Often Be Almost Fully Learned With Anki.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/words-with-simple-meanings-can-often-be-almost-fully-learned-with-anki",
       "tags": [
         "zettel"
@@ -1111,7 +1031,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/learning-kanji": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/learning-kanji",
       "title": "Learning Kanji",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Learning Kanji.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Learning Kanji.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/learning-kanji",
       "tags": [
         "zettel",
@@ -1123,7 +1043,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/a-vocabulary-card-carries-at-most-one-initial-connotation": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/a-vocabulary-card-carries-at-most-one-initial-connotation",
       "title": "A Vocabulary Card Carries at Most One Initial Connotation",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/A Vocabulary Card Carries at Most One Initial Connotation.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/A Vocabulary Card Carries at Most One Initial Connotation.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/a-vocabulary-card-carries-at-most-one-initial-connotation",
       "tags": [
         "zettel"
@@ -1132,7 +1052,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/cloze-note-type-for-maximum-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/cloze-note-type-for-maximum-immersion",
       "title": "Cloze Note Type for Maximum Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Cloze Note Type for Maximum Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Cloze Note Type for Maximum Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/cloze-note-type-for-maximum-immersion",
       "tags": [
         "zettel"
@@ -1141,7 +1061,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/prioritization-decides-which-knowledge-belongs-in-anki": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/prioritization-decides-which-knowledge-belongs-in-anki",
       "title": "Prioritization Decides Which Knowledge Belongs in Anki",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Prioritization Decides Which Knowledge Belongs in Anki.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Prioritization Decides Which Knowledge Belongs in Anki.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/prioritization-decides-which-knowledge-belongs-in-anki",
       "tags": [
         "zettel"
@@ -1150,7 +1070,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/redundancy-is-allowed-when-every-retrieval-remains-simple": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/redundancy-is-allowed-when-every-retrieval-remains-simple",
       "title": "Redundancy Is Allowed When Every Retrieval Remains Simple",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Redundancy Is Allowed When Every Retrieval Remains Simple.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Redundancy Is Allowed When Every Retrieval Remains Simple.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/redundancy-is-allowed-when-every-retrieval-remains-simple",
       "tags": [
         "zettel"
@@ -1159,7 +1079,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/scheduling-problems-caused-by-overlap": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/scheduling-problems-caused-by-overlap",
       "title": "Scheduling Problems Caused by Overlap",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Scheduling Problems Caused by Overlap.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Scheduling Problems Caused by Overlap.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/scheduling-problems-caused-by-overlap",
       "tags": [
         "zettel"
@@ -1168,7 +1088,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-efficiency-question-leads-to-hint-fields": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-efficiency-question-leads-to-hint-fields",
       "title": "The Efficiency Question Leads to Hint Fields",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Efficiency Question Leads to Hint Fields.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Efficiency Question Leads to Hint Fields.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-efficiency-question-leads-to-hint-fields",
       "tags": [
         "zettel"
@@ -1177,7 +1097,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-creates-clear-memory-traces": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-creates-clear-memory-traces",
       "title": "The Minimum Information Principle Creates Clear Memory Traces",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Creates Clear Memory Traces.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Creates Clear Memory Traces.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-creates-clear-memory-traces",
       "tags": [
         "zettel"
@@ -1186,7 +1106,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-makes-reviews-predictable": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-makes-reviews-predictable",
       "title": "The Minimum Information Principle Makes Reviews Predictable",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Makes Reviews Predictable.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Makes Reviews Predictable.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/the-minimum-information-principle-makes-reviews-predictable",
       "tags": [
         "zettel"
@@ -1195,7 +1115,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/understanding-comes-before-memorization": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/understanding-comes-before-memorization",
       "title": "Understanding Comes Before Memorization",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Understanding Comes Before Memorization.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Understanding Comes Before Memorization.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/principles-for-a-good-vocabulary-card/understanding-comes-before-memorization",
       "tags": [
         "zettel"
@@ -1204,7 +1124,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/choosing-suitable-input-material-for-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/choosing-suitable-input-material-for-immersion",
       "title": "Choosing Suitable Input Material for Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Choosing Suitable Input Material for Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Choosing Suitable Input Material for Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/choosing-suitable-input-material-for-immersion",
       "tags": [
         "zettel"
@@ -1213,7 +1133,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-consolidates-concepts-best-in-a-learning-loop": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-consolidates-concepts-best-in-a-learning-loop",
       "title": "Immersion Consolidates Concepts Best in a Learning Loop",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Consolidates Concepts Best in a Learning Loop.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Consolidates Concepts Best in a Learning Loop.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-consolidates-concepts-best-in-a-learning-loop",
       "tags": [
         "zettel"
@@ -1222,7 +1142,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-loop-methods": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-loop-methods",
       "title": "Immersion Loop Methods",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Loop Methods.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Loop Methods.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/immersion-loop-methods",
       "tags": [
         "zettel"
@@ -1231,7 +1151,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density",
       "title": "Thematic Immersion Optimizes Re-Encounter Density",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Thematic Immersion Optimizes Re-Encounter Density.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Thematic Immersion Optimizes Re-Encounter Density.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density",
       "tags": [
         "zettel"
@@ -1240,7 +1160,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/video,-vocabulary,-repeat---method": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/video,-vocabulary,-repeat---method",
       "title": "Video, Vocabulary, Repeat - Method",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Video, Vocabulary, Repeat - Method.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Video, Vocabulary, Repeat - Method.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/video,-vocabulary,-repeat---method",
       "tags": [
         "zettel"
@@ -1249,7 +1169,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/videos-with-vocabulary-lists": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/videos-with-vocabulary-lists",
       "title": "Videos With Vocabulary Lists",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Videos With Vocabulary Lists.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Videos With Vocabulary Lists.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/videos-with-vocabulary-lists",
       "tags": [
         "zettel"
@@ -1258,7 +1178,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/comprehensibility-vs-attention---choosing-materials-for-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/comprehensibility-vs-attention---choosing-materials-for-immersion",
       "title": "Comprehensibility vs Attention - Choosing Materials for Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Comprehensibility vs Attention - Choosing Materials for Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Comprehensibility vs Attention - Choosing Materials for Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/comprehensibility-vs-attention---choosing-materials-for-immersion",
       "tags": [
         "zettel"
@@ -1267,7 +1187,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion",
       "title": "Effortless Attention Is the North Star of Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Effortless Attention Is the North Star of Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Effortless Attention Is the North Star of Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/effortless-attention-is-the-north-star-of-immersion",
       "tags": [
         "zettel"
@@ -1276,7 +1196,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment",
       "title": "Immersion Turns Culture Into the Environment",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Immersion Turns Culture Into the Environment.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Immersion Turns Culture Into the Environment.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment",
       "tags": [
         "zettel"
@@ -1285,7 +1205,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/input-first---building-a-feel-for-the-language": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/input-first---building-a-feel-for-the-language",
       "title": "Input First - Building a Feel for the Language",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Input First - Building a Feel for the Language.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Input First - Building a Feel for the Language.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/input-first---building-a-feel-for-the-language",
       "tags": [
         "zettel"
@@ -1294,7 +1214,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/output-second---output-makes-immersion-testable": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/output-second---output-makes-immersion-testable",
       "title": "Output Second - Output Makes Immersion Testable",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Output Second - Output Makes Immersion Testable.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Output Second - Output Makes Immersion Testable.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/output-second---output-makes-immersion-testable",
       "tags": [
         "zettel"
@@ -1303,7 +1223,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/shadowing": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/shadowing",
       "title": "Shadowing",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Shadowing.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Shadowing.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/shadowing",
       "tags": [
         "zettel"
@@ -1312,7 +1232,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm-in-my-brain": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm-in-my-brain",
       "title": "The LLM in My Brain",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The LLM in My Brain.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The LLM in My Brain.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-llm-in-my-brain",
       "tags": [
         "zettel"
@@ -1321,7 +1241,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-monolingual-nature-of-experience-deepens-immersion": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-monolingual-nature-of-experience-deepens-immersion",
       "title": "The Monolingual Nature of Experience Deepens Immersion",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The Monolingual Nature of Experience Deepens Immersion.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The Monolingual Nature of Experience Deepens Immersion.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/immersion/the-monolingual-nature-of-experience-deepens-immersion",
       "tags": [
         "zettel"
@@ -1330,7 +1250,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "title": "Language Acquisition",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition",
       "tags": [
         "zettel"
@@ -1339,7 +1259,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw",
       "title": "Language Learning",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Learning.excalidraw.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Language Learning.excalidraw.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw",
       "tags": [
         "zettel",
@@ -1349,7 +1269,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later",
       "title": "A Language Is Learned Deeply Once and Reactivated Later",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/A Language Is Learned Deeply Once and Reactivated Later.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/A Language Is Learned Deeply Once and Reactivated Later.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/a-language-is-learned-deeply-once-and-reactivated-later",
       "tags": [
         "zettel"
@@ -1358,7 +1278,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency-instead-of-absolute-perfection": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency-instead-of-absolute-perfection",
       "title": "Functional Fluency Instead of Absolute Perfection",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency Instead of Absolute Perfection.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency Instead of Absolute Perfection.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency-instead-of-absolute-perfection",
       "tags": [
         "zettel"
@@ -1367,7 +1287,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "title": "Functional Fluency",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency",
       "tags": [
         "zettel",
@@ -1377,7 +1297,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/language-knowledge-becomes-less-accessible,-not-simply-erased": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/language-knowledge-becomes-less-accessible,-not-simply-erased",
       "title": "Language Knowledge Becomes Less Accessible, Not Simply Erased",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Language Knowledge Becomes Less Accessible, Not Simply Erased.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Language Knowledge Becomes Less Accessible, Not Simply Erased.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/language-knowledge-becomes-less-accessible,-not-simply-erased",
       "tags": [
         "zettel"
@@ -1386,7 +1306,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
       "title": "Multilingualism Is Reactivation, Not Constant Performance",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Multilingualism Is Reactivation, Not Constant Performance.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Multilingualism Is Reactivation, Not Constant Performance.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/multilingualism-is-reactivation,-not-constant-performance",
       "tags": [
         "zettel"
@@ -1395,7 +1315,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
       "title": "Which Skills Should You Prioritize When Learning a Language",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/which-skills-should-you-prioritize-when-learning-a-language",
       "tags": [
         "zettel",
@@ -1405,7 +1325,7 @@
     "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai": {
       "slug": "zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "title": "Why a language is still a valuable skill in the age of AI",
-      "source": "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Why You Should Learn a Language in the Age of AI.md",
+      "source": "Zettelkasten/zettel/Immersion and Language Acquisition/Why You Should Learn a Language in the Age of AI.md",
       "url": "/zettelkasten/zettel/immersion-and-language-acquisition/why-you-should-learn-a-language-in-the-age-of-ai",
       "tags": [
         "zettel"
@@ -1414,7 +1334,7 @@
     "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation": {
       "slug": "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation",
       "title": "Enterprise Foundation",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Enterprise Foundation.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Enterprise Foundation.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/enterprise-foundation",
       "tags": [
         "zettel"
@@ -1423,7 +1343,7 @@
     "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/holding-company-(denmark)": {
       "slug": "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/holding-company-(denmark)",
       "title": "Holding Company (Denmark)",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Holding Company (Denmark).md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Holding Company (Denmark).md",
       "url": "/zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/holding-company-(denmark)",
       "tags": [
         "zettel"
@@ -1432,7 +1352,7 @@
     "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/purpose-gmbh": {
       "slug": "zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/purpose-gmbh",
       "title": "Purpose GmbH",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Purpose GmbH.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Purpose GmbH.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/alternatives-to-the-stock-corporation/purpose-gmbh",
       "tags": [
         "zettel"
@@ -1441,7 +1361,7 @@
     "zettelkasten/zettel/sustainable-constitution/axiom---the-dignity-of-life-is-inviolable": {
       "slug": "zettelkasten/zettel/sustainable-constitution/axiom---the-dignity-of-life-is-inviolable",
       "title": "Axiom - The Dignity of Life Is Inviolable",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Axiom - The Dignity of Life Is Inviolable.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Axiom - The Dignity of Life Is Inviolable.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/axiom---the-dignity-of-life-is-inviolable",
       "tags": [
         "zettel"
@@ -1450,7 +1370,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/adverse-selection": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/adverse-selection",
       "title": "Adverse Selection",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Adverse Selection.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Adverse Selection.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/adverse-selection",
       "tags": [
         "zettel"
@@ -1459,7 +1379,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/asymmetric-information": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/asymmetric-information",
       "title": "Asymmetric Information",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Asymmetric Information.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Asymmetric Information.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/asymmetric-information",
       "tags": [
         "zettel"
@@ -1468,7 +1388,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/incentive-problems": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/incentive-problems",
       "title": "Incentive Problems",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Incentive Problems.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Incentive Problems.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/incentive-problems",
       "tags": [
         "zettel"
@@ -1477,7 +1397,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard-under-limited-liability": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard-under-limited-liability",
       "title": "Moral Hazard Under Limited Liability",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard Under Limited Liability.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard Under Limited Liability.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard-under-limited-liability",
       "tags": [
         "zettel"
@@ -1486,7 +1406,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard",
       "title": "Moral Hazard",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/moral-hazard",
       "tags": [
         "zettel"
@@ -1495,7 +1415,7 @@
     "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/privatizing-profits-while-society-bears-the-externalities": {
       "slug": "zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/privatizing-profits-while-society-bears-the-externalities",
       "title": "Privatizing Profits While Society Bears the Externalities",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Privatizing Profits While Society Bears the Externalities.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Privatizing Profits While Society Bears the Externalities.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/incentive-problems-and-information-asymmetry/privatizing-profits-while-society-bears-the-externalities",
       "tags": [
         "zettel"
@@ -1504,7 +1424,7 @@
     "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/as-an-owner,-i-have-a-right-to-the-profits-generated-by-my-property": {
       "slug": "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/as-an-owner,-i-have-a-right-to-the-profits-generated-by-my-property",
       "title": "As an Owner, I Have a Right to the Profits Generated by My Property",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/As an Owner, I Have a Right to the Profits Generated by My Property.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/As an Owner, I Have a Right to the Profits Generated by My Property.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/as-an-owner,-i-have-a-right-to-the-profits-generated-by-my-property",
       "tags": [
         "zettel"
@@ -1513,7 +1433,7 @@
     "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/concentrating-power-through-wealth-concentration-undermines-democracy": {
       "slug": "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/concentrating-power-through-wealth-concentration-undermines-democracy",
       "title": "Concentrating Power Through Wealth Concentration Undermines Democracy",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Concentrating Power Through Wealth Concentration Undermines Democracy.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Concentrating Power Through Wealth Concentration Undermines Democracy.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/concentrating-power-through-wealth-concentration-undermines-democracy",
       "tags": [
         "zettel"
@@ -1522,7 +1442,7 @@
     "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/extreme-wealth-concentration-is-also-ownership-concentration": {
       "slug": "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/extreme-wealth-concentration-is-also-ownership-concentration",
       "title": "Extreme Wealth Concentration Is Also Ownership Concentration",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Extreme Wealth Concentration Is Also Ownership Concentration.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Extreme Wealth Concentration Is Also Ownership Concentration.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/extreme-wealth-concentration-is-also-ownership-concentration",
       "tags": [
         "zettel"
@@ -1531,7 +1451,7 @@
     "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/housing-is-a-fundamental-right": {
       "slug": "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/housing-is-a-fundamental-right",
       "title": "Housing Is a Fundamental Right",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Housing Is a Fundamental Right.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Housing Is a Fundamental Right.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/housing-is-a-fundamental-right",
       "tags": [
         "zettel"
@@ -1540,7 +1460,7 @@
     "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/tax-unfairness": {
       "slug": "zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/tax-unfairness",
       "title": "Tax Unfairness",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Tax Unfairness.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Tax Unfairness.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/inequality,-wealth,-ownership/tax-unfairness",
       "tags": [
         "zettel"
@@ -1549,7 +1469,7 @@
     "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/an-understanding-of-nature-and-sustainability-is-present-within-us": {
       "slug": "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/an-understanding-of-nature-and-sustainability-is-present-within-us",
       "title": "An Understanding of Nature and Sustainability Is Present Within Us",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/An Understanding of Nature and Sustainability Is Present Within Us.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/An Understanding of Nature and Sustainability Is Present Within Us.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/an-understanding-of-nature-and-sustainability-is-present-within-us",
       "tags": [
         "zettel"
@@ -1558,7 +1478,7 @@
     "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/sustainability": {
       "slug": "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/sustainability",
       "title": "Sustainability",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/Sustainability.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/Sustainability.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/sustainability",
       "tags": [
         "zettel"
@@ -1567,7 +1487,7 @@
     "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/we-create-externalities-for-our-environment,-and-our-environment-creates-externalities-for-us": {
       "slug": "zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/we-create-externalities-for-our-environment,-and-our-environment-creates-externalities-for-us",
       "title": "We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/we-create-externalities-for-our-environment,-and-our-environment-creates-externalities-for-us",
       "tags": [
         "zettel"
@@ -1576,53 +1496,17 @@
     "zettelkasten/zettel/sustainable-constitution/index": {
       "slug": "zettelkasten/zettel/sustainable-constitution/index",
       "title": "Sustainable Constitution",
-      "source": "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/index.md",
+      "source": "Zettelkasten/zettel/Sustainable Constitution/index.md",
       "url": "/zettelkasten/zettel/sustainable-constitution/index",
       "tags": [
         "zettel"
       ]
     },
-    "quartz/design-&-development/design/theme-palette": {
-      "slug": "quartz/design-&-development/design/theme-palette",
-      "title": "Theme palette",
-      "source": "Quartz/Design & Development/Design/Theme palette.md",
-      "url": "/quartz/design-&-development/design/theme-palette",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "quartz/design-&-development/font/my-own-font": {
-      "slug": "quartz/design-&-development/font/my-own-font",
-      "title": "my own font",
-      "source": "Quartz/Design & Development/font/my own font.md",
-      "url": "/quartz/design-&-development/font/my-own-font",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "quartz/plugins/agents/agents-pdf-viewer-plugin": {
-      "slug": "quartz/plugins/agents/agents-pdf-viewer-plugin",
-      "title": "Agents PDF Viewer Plugin",
-      "source": "Quartz/plugins/Agents/Agents PDF Viewer Plugin.md",
-      "url": "/quartz/plugins/agents/agents-pdf-viewer-plugin",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "quartz/plugins/human-excalibrain-for-quartz": {
-      "slug": "quartz/plugins/human-excalibrain-for-quartz",
-      "title": "Human Excalibrain for Quartz",
-      "source": "Quartz/plugins/Human Excalibrain for Quartz.md",
-      "url": "/quartz/plugins/human-excalibrain-for-quartz",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "quartz/plugins/human-plugins-media-control": {
-      "slug": "quartz/plugins/human-plugins-media-control",
-      "title": "Human Plugins Media Control",
-      "source": "Quartz/plugins/Human Plugins Media Control.md",
-      "url": "/quartz/plugins/human-plugins-media-control",
+    "journal/2026/august/2026-08-14-unterhaltung-mit-chat-über-autismus": {
+      "slug": "journal/2026/august/2026-08-14-unterhaltung-mit-chat-über-autismus",
+      "title": "2026-08-14 Unterhaltung mit Chat über Autismus",
+      "source": "journal/2026/August/2026-08-14 Unterhaltung mit Chat über Autismus.md",
+      "url": "/journal/2026/august/2026-08-14-unterhaltung-mit-chat-über-autismus",
       "tags": [
         "zettel"
       ]
@@ -1636,15 +1520,6 @@
         "zettel"
       ]
     },
-    "journal/2026/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.": {
-      "slug": "journal/2026/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
-      "title": "2026-07-06 The future is amazing. Go get it.",
-      "source": "journal/2026/July - 2026/2026-07-06 The future is amazing. Go get it..md",
-      "url": "/journal/2026/july---2026/2026-07-06-the-future-is-amazing.-go-get-it.",
-      "tags": [
-        "zettel"
-      ]
-    },
     "journal/2026/july---2026/2026-07-18-datascience": {
       "slug": "journal/2026/july---2026/2026-07-18-datascience",
       "title": "2026-07-18 datascience",
@@ -1654,29 +1529,11 @@
         "zettel"
       ]
     },
-    "journal/2026/july---2026/2026-07-23-japanese-study-plan": {
-      "slug": "journal/2026/july---2026/2026-07-23-japanese-study-plan",
-      "title": "Japanisch Lernplan",
-      "source": "journal/2026/July - 2026/2026-07-23 Japanese Study Plan.md",
-      "url": "/journal/2026/july---2026/2026-07-23-japanese-study-plan",
-      "tags": [
-        "zettel"
-      ]
-    },
     "journal/2026/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?": {
       "slug": "journal/2026/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?",
       "title": "2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?",
       "source": "journal/2026/July - 2026/2026-07-29 Weißt du noch wie du damals von der Brücke im Verzasca Tal gesprungen bist?.md",
       "url": "/journal/2026/july---2026/2026-07-29-weißt-du-noch-wie-du-damals-von-der-brücke-im-verzasca-tal-gesprungen-bist?",
-      "tags": [
-        "zettel"
-      ]
-    },
-    "journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft": {
-      "slug": "journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft",
-      "title": "bis Mitte August Zeit in Tübingen",
-      "source": "journal/2026/June - 2026/2026-06-04 Saison's (in naher Zukunft.md",
-      "url": "/journal/2026/june---2026/2026-06-04-saison's-(in-naher-zukunft",
       "tags": [
         "zettel"
       ]

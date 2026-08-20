@@ -1,6 +1,6 @@
 ---
 title: "Anki's Context Dilemma"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki's Context Dilemma.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki's Context Dilemma.md"
 publish: true
 tags:
   - zettel

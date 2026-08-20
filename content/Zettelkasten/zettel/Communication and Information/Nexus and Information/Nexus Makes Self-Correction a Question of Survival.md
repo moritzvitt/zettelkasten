@@ -1,6 +1,6 @@
 ---
 title: "Nexus Makes Self-Correction a Question of Survival"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Makes Self-Correction a Question of Survival.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Makes Self-Correction a Question of Survival.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-stories-as-connection-technology]]"

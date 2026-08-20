@@ -1,6 +1,6 @@
 ---
 title: "Immersion Loop Methods"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Loop Methods.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Loop Methods.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Cloze Note Type for Maximum Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Cloze Note Type for Maximum Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Cloze Note Type for Maximum Immersion.md"
 publish: true
 tags:
   - zettel

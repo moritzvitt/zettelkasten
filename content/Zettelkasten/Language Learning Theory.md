@@ -1,6 +1,6 @@
 ---
 title: "**The Why and the What**"
-source: "Digital Garden/Zettelkasten/Language Learning Theory.md"
+source: "Zettelkasten/Language Learning Theory.md"
 publish: true
 tags:
   - zettel
@@ -25,7 +25,7 @@ We humans are social beings. Meaning, we communicate with each other (excessivel
 
 And we need to do so—a baby that gets ignored dies, and a person without social contact eventually becomes depressed.
 
-[[zettelkasten/zettel/communication-and-information/communication|Communication]] is not merely something we enjoy. It is fundamental to human life. We are meant to communicate. 
+[[zettelkasten/zettel/communication-and-information/communication|communication]] is not merely something we enjoy. It is fundamental to human life. We are meant to communicate. 
 
 ---
 
@@ -61,7 +61,7 @@ This leads to a unique way of organisation of a group of people.
 
 Culture is, what we call the bundle of methods a group of people uses to organise themselves. 
 
-The communication, shared knowledge, traditions, institutions and common understanding of the world they use to do that. 
+The communication, shared knowledge, traditions, [[zettelkasten/zettel/communication-and-information/institutions|Institutions]] and common understanding of the world they use to do that. 
 
 A culture can be understood an information network: connected through continuous communication.
 
@@ -141,7 +141,7 @@ Or put differently:
 
 Learning a language means learning how to participate in another culture.
 
-![[zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw#^frame=Functional Fluency|Language Learning]]
+![[zettelkasten/zettel/immersion-and-language-acquisition/language-learning.excalidraw#^frame=Functional Fluency|Language Learning.excalidraw]]
 
 ## Using Anki wisely 
 

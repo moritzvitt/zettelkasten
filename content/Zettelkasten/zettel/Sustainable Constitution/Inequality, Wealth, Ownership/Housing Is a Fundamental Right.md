@@ -1,6 +1,6 @@
 ---
 title: "Housing Is a Fundamental Right"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Housing Is a Fundamental Right.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Housing Is a Fundamental Right.md"
 publish: true
 tags:
   - zettel

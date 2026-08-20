@@ -1,6 +1,6 @@
 ---
 title: "Purpose GmbH"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Purpose GmbH.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Purpose GmbH.md"
 publish: true
 tags:
   - zettel

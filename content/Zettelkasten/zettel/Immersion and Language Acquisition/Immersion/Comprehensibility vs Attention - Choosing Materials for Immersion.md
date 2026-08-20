@@ -1,6 +1,6 @@
 ---
 title: "Comprehensibility vs Attention - Choosing Materials for Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Comprehensibility vs Attention - Choosing Materials for Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Comprehensibility vs Attention - Choosing Materials for Immersion.md"
 publish: true
 tags:
   - zettel

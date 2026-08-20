@@ -1,6 +1,6 @@
 ---
 title: "The Efficiency Question Leads to Hint Fields"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Efficiency Question Leads to Hint Fields.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Efficiency Question Leads to Hint Fields.md"
 publish: true
 tags:
   - zettel

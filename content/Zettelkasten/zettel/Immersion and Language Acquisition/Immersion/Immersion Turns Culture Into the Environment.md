@@ -1,6 +1,6 @@
 ---
 title: "Immersion Turns Culture Into the Environment"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Immersion Turns Culture Into the Environment.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Immersion Turns Culture Into the Environment.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition]]"

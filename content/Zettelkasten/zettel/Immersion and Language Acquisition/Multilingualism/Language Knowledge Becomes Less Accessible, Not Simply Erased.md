@@ -1,6 +1,6 @@
 ---
 title: "Language Knowledge Becomes Less Accessible, Not Simply Erased"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Language Knowledge Becomes Less Accessible, Not Simply Erased.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Language Knowledge Becomes Less Accessible, Not Simply Erased.md"
 publish: true
 tags:
   - zettel

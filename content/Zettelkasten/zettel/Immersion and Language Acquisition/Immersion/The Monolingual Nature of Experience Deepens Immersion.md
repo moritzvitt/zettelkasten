@@ -1,6 +1,6 @@
 ---
 title: "The Monolingual Nature of Experience Deepens Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The Monolingual Nature of Experience Deepens Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The Monolingual Nature of Experience Deepens Immersion.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Nexus Warns Against Automated Destruction of Trust"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Warns Against Automated Destruction of Trust.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Warns Against Automated Destruction of Trust.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-ai-as-a-nonhuman-network-participant]]"

@@ -1,6 +1,6 @@
 ---
 title: "Prioritization Decides Which Knowledge Belongs in Anki"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Prioritization Decides Which Knowledge Belongs in Anki.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Prioritization Decides Which Knowledge Belongs in Anki.md"
 publish: true
 tags:
   - zettel

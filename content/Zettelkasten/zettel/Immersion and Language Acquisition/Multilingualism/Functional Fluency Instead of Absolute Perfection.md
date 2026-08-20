@@ -1,6 +1,6 @@
 ---
 title: "Functional Fluency Instead of Absolute Perfection"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency Instead of Absolute Perfection.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Functional Fluency Instead of Absolute Perfection.md"
 publish: true
 tags:
   - zettel

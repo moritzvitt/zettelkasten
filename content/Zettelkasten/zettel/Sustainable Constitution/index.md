@@ -1,6 +1,6 @@
 ---
 title: "Sustainable Constitution"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/index.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/index.md"
 publish: true
 tags:
   - zettel

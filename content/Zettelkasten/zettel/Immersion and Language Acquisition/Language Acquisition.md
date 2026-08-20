@@ -1,6 +1,6 @@
 ---
 title: "Language Acquisition"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Language Acquisition.md"
 next:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersi\
     on-turns-culture-into-the-environment|Immersion Turns Culture Into the

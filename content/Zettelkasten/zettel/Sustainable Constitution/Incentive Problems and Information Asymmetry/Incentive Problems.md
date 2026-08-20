@@ -1,6 +1,6 @@
 ---
 title: "Incentive Problems"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Incentive Problems.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Incentive Problems.md"
 publish: true
 tags:
   - zettel

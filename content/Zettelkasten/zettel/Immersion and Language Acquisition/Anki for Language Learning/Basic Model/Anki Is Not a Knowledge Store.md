@@ -1,6 +1,6 @@
 ---
 title: "Anki Is Not a Knowledge Store"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Anki Is Not a Knowledge Store.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Anki Is Not a Knowledge Store.md"
 publish: true
 tags:
   - zettel

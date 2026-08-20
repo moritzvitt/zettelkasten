@@ -1,6 +1,6 @@
 ---
 title: "Shadowing"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Shadowing.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Shadowing.md"
 publish: true
 tags:
   - zettel

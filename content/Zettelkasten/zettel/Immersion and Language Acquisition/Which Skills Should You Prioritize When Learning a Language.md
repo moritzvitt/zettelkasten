@@ -1,6 +1,6 @@
 ---
 title: "Which Skills Should You Prioritize When Learning a Language"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Which Skills Should You Prioritize When Learning a Language.md"
 publish: true
 tags:
   - zettel

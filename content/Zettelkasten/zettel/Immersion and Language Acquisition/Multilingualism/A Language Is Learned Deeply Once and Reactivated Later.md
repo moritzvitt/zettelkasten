@@ -1,6 +1,6 @@
 ---
 title: "A Language Is Learned Deeply Once and Reactivated Later"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/A Language Is Learned Deeply Once and Reactivated Later.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/A Language Is Learned Deeply Once and Reactivated Later.md"
 publish: true
 tags:
   - zettel

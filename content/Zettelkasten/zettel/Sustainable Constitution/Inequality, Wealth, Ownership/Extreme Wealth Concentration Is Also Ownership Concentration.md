@@ -1,6 +1,6 @@
 ---
 title: "Extreme Wealth Concentration Is Also Ownership Concentration"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Extreme Wealth Concentration Is Also Ownership Concentration.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Extreme Wealth Concentration Is Also Ownership Concentration.md"
 publish: true
 tags:
   - zettel

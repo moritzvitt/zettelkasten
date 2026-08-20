@@ -1,6 +1,6 @@
 ---
 title: "Moral Hazard"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Moral Hazard.md"
 publish: true
 tags:
   - zettel

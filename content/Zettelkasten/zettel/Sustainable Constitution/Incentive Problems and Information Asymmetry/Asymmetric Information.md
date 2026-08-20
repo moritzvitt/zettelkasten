@@ -1,6 +1,6 @@
 ---
 title: "Asymmetric Information"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Asymmetric Information.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Asymmetric Information.md"
 publish: true
 tags:
   - zettel

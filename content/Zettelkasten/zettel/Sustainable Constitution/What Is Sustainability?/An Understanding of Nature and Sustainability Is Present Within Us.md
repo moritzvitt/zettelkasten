@@ -1,6 +1,6 @@
 ---
 title: "An Understanding of Nature and Sustainability Is Present Within Us"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/An Understanding of Nature and Sustainability Is Present Within Us.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/An Understanding of Nature and Sustainability Is Present Within Us.md"
 publish: true
 tags:
   - zettel

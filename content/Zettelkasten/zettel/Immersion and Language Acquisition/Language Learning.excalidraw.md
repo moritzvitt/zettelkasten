@@ -142,7 +142,7 @@ e6ba08ce0052959ccd1830c273a39694e8afaa06: [[Getting Ready for Immersion - Buildi
 
 8c32de62aa6c11280a724d443b053bc99e7d45ab: [[Misplaced Ambition in Anki|Misplaced Ambition in Anki]]
 
-c27c8486a63fe77126841d3f986b1f7526bcc91c: [[Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/SRS (Spaced Repetition), Anki|SRS (Spaced Repetition), Anki]]
+c27c8486a63fe77126841d3f986b1f7526bcc91c: [[SRS (Spaced Repetition), Anki|SRS (Spaced Repetition), Anki]]
 
 af38a2d1c4a473a727b9515bc211a990a800a824: [[The Fertile Zone; Language Concepts in a Learnable State|The Fertile Zone; Language Concepts in a Learnable State]]
 

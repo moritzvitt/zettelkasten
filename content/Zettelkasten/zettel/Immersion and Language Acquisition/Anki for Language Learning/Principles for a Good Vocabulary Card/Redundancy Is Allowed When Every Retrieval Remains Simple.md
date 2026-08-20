@@ -1,6 +1,6 @@
 ---
 title: "Redundancy Is Allowed When Every Retrieval Remains Simple"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Redundancy Is Allowed When Every Retrieval Remains Simple.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Redundancy Is Allowed When Every Retrieval Remains Simple.md"
 publish: true
 tags:
   - zettel

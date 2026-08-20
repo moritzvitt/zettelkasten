@@ -1,6 +1,6 @@
 ---
 title: "Tax Unfairness"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Tax Unfairness.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Tax Unfairness.md"
 publish: true
 tags:
   - zettel

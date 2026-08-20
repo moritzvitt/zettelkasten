@@ -26,6 +26,7 @@ import {
 import { Features, transform } from "lightningcss"
 import { transform as transpile } from "esbuild"
 import { write } from "./helpers"
+import { compileInlineCssResource } from "./pluginCss"
 
 function hashContent(content: string | Buffer): string {
   return createHash("sha256").update(content).digest("hex").slice(0, 8)
@@ -448,18 +449,7 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       for (const cssResource of resources.css) {
         if (!(cssResource.inline ?? false)) continue
 
-        let output: string
-        try {
-          output = transform({
-            filename: "plugin-resource.css",
-            code: Buffer.from(cssResource.content),
-            minify: true,
-            targets: lightningTargets,
-            include: Features.MediaQueries,
-          }).code.toString()
-        } catch {
-          output = cssResource.content
-        }
+        const output = compileInlineCssResource(cssResource.content, lightningTargets)
 
         const hash = hashContent(output)
         const slug = `static/resource-style-${hash}`

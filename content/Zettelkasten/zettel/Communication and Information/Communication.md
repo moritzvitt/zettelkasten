@@ -1,6 +1,6 @@
 ---
 title: "Communication"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/communication.md"
+source: "Zettelkasten/zettel/Communication and Information/communication.md"
 next:
   - "[[zettelkasten/zettel/communication-and-information/language|Language]]"
 publish: true

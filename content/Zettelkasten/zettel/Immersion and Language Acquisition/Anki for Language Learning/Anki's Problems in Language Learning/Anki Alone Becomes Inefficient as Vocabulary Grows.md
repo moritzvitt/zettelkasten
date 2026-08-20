@@ -1,6 +1,6 @@
 ---
 title: "Anki Alone Becomes Inefficient as Vocabulary Grows"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Alone Becomes Inefficient as Vocabulary Grows.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Alone Becomes Inefficient as Vocabulary Grows.md"
 publish: true
 tags:
   - zettel

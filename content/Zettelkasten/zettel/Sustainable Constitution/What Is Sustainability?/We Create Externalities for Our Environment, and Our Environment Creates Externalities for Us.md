@@ -1,6 +1,6 @@
 ---
 title: "We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/We Create Externalities for Our Environment, and Our Environment Creates Externalities for Us.md"
 publish: true
 tags:
   - zettel

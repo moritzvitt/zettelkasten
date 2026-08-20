@@ -1,6 +1,6 @@
 ---
 title: "Effortless Attention Is the North Star of Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Effortless Attention Is the North Star of Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Effortless Attention Is the North Star of Immersion.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/immersion/immersion-turns-culture-into-the-environment]]"

@@ -1,13 +1,19 @@
 ---
 title: "index"
-source: "Digital Garden/Zettelkasten/index.md"
+source: "Zettelkasten/index.md"
 publish: true
 tags:
   - zettel
 ---
 Hello there! Somehow, you have found your way into my Zettelkasten!
 
-[[zettelkasten/overview-of-topics-in-the-zettelkasten|Overview of Topics in the Zettelkasten]]
+
+[[zettelkasten/language-learning-theory|Language Learning Theory]]
+- [[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/srs-(spaced-repetition),-anki|SRS (Spaced Repetition), Anki]]
+
+[[zettelkasten/zettel/sustainable-constitution/what-is-sustainability?/sustainability|Sustainability]]
+
+
 
 ## Collaborating on these notes
 

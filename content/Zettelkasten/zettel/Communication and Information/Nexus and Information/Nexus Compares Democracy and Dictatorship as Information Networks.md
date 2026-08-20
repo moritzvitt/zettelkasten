@@ -1,6 +1,6 @@
 ---
 title: "Nexus Compares Democracy and Dictatorship as Information Networks"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Compares Democracy and Dictatorship as Information Networks.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Compares Democracy and Dictatorship as Information Networks.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-makes-self-correction-a-question-of-survival]]"

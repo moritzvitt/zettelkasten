@@ -1,6 +1,6 @@
 ---
 title: "Why a language is still a valuable skill in the age of AI"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Why You Should Learn a Language in the Age of AI.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Why You Should Learn a Language in the Age of AI.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/language-acquisition]]"

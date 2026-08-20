@@ -1,6 +1,6 @@
 ---
 title: "Concentrating Power Through Wealth Concentration Undermines Democracy"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Concentrating Power Through Wealth Concentration Undermines Democracy.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Inequality, Wealth, Ownership/Concentrating Power Through Wealth Concentration Undermines Democracy.md"
 publish: true
 tags:
   - zettel

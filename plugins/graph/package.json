@@ -92,6 +92,7 @@
     "defaultEnabled": true,
     "defaultOptions": {
       "localGraph": {
+        "appearance": "classic",
         "drag": true,
         "zoom": true,
         "depth": 1,
@@ -107,6 +108,7 @@
         "enableRadial": false
       },
       "globalGraph": {
+        "appearance": "classic",
         "drag": true,
         "zoom": true,
         "depth": -1,

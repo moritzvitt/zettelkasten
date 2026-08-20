@@ -1,6 +1,6 @@
 ---
 title: "Misplaced Ambition in Anki"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Misplaced Ambition in Anki.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Misplaced Ambition in Anki.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Getting Ready for Immersion - Building a Basic Vocabulary"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Getting Ready for Immersion - Building a Basic Vocabulary.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Getting Ready for Immersion - Building a Basic Vocabulary.md"
 publish: true
 tags:
   - zettel

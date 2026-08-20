@@ -1,6 +1,6 @@
 ---
 title: "A Vocabulary Card Carries at Most One Initial Connotation"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/A Vocabulary Card Carries at Most One Initial Connotation.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/A Vocabulary Card Carries at Most One Initial Connotation.md"
 publish: true
 tags:
   - zettel

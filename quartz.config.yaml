@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Moritz' Tea Garden
-  pageTitleSuffix: ""
+  pageTitle: M O R I T Z' Garden
+  pageTitleSuffix: "asdf"
   enableSPA: true
   enablePopovers: true
   analytics: null
@@ -91,10 +91,10 @@ plugins:
       aliasManifest: private/local-media-aliases.json
     order: 65
   - source: ./plugins/svg-viewer
-    enabled: true
+    enabled: false
     order: 67
   - source: ./plugins/pdf-viewer
-    enabled: true
+    enabled: false
     order: 68
   - source: github:quartz-community/description
     enabled: true
@@ -152,7 +152,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: ./plugins/explorer
-    enabled: false
+    enabled: true
     options:
       title: Explorer
       folderClickBehavior: link
@@ -182,27 +182,11 @@ plugins:
     enabled: true
     options:
       localGraph:
-        depth: 1
-        scale: 0.95
-        repelForce: 0.75
-        centerForce: 0.22
-        linkDistance: 42
-        fontSize: 0.55
-        opacityScale: 0.85
-        showTags: true
-        removeTags: index, zettelkasten, zettel,
+        showTags: false
         excludeFiles: [index.base, japanese-media.base, french-videos.base]
       globalGraph:
         enabled: false
-        depth: -1
-        scale: 0.85
-        repelForce: 0.65
-        centerForce: 0.18
-        linkDistance: 36
-        fontSize: 0.55
-        opacityScale: 0.8
-        showTags: true
-        removeTags: index, zettelkasten, zettel,
+        showTags: false
         excludeFiles: [index.base, japanese-media.base, french-videos.base]
     layout:
       position: right
@@ -312,6 +296,14 @@ plugins:
       darkMode: auto
       exportPadding: 20
     order: 50
+  - source:
+      name: quartz-themes
+      repo: github:saberzero1/quartz-themes
+      subdir: plugin
+    enabled: true
+    options:
+      theme: tokyo-night
+      mode: both
 layout:
   groups:
     toolbar:

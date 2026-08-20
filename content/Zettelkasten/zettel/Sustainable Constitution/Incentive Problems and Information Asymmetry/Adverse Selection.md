@@ -1,6 +1,6 @@
 ---
 title: "Adverse Selection"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Adverse Selection.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Adverse Selection.md"
 publish: true
 tags:
   - zettel

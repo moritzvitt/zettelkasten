@@ -21,13 +21,8 @@ Iwf
 
 Vertrieb? In der Zukunft im Vertrieb zu arbeiten könnte gut für mich passen. 
 Zukunft: was mit Sprachen und Kommunikation. Wo ich vermitteln muss. So wie Opa.
-  
-
-  
 
 Politik 
-
-  
 Studium in der Zukunft
 International Relations? (Mit Fokus aus Asien?)
 eher weg von Data Science... (leicht ersetzbar, durch KI)

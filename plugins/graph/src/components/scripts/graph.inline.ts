@@ -135,6 +135,7 @@ import {
       }
 
       var config = JSON.parse(graph.dataset["cfg"] || "{}");
+      var teaGardenAppearance = config.appearance === "teaGarden";
       var enableDrag = config.drag;
       var enableZoom = config.zoom;
       var depth = config.depth;
@@ -329,6 +330,9 @@ import {
             numLinks++;
           }
         }
+        if (teaGardenAppearance) {
+          return 7.25 + Math.min(Math.sqrt(numLinks) * 0.2, 1.25);
+        }
         return 2 + Math.sqrt(numLinks);
       }
 
@@ -446,7 +450,13 @@ import {
         labelsContainer.addChild(label);
 
         var gfx = new PIXI.Graphics();
-        gfx.circle(0, 0, radius);
+        if (teaGardenAppearance && !isTagNode) {
+          gfx.circle(0, 0, radius + 7);
+          gfx.fill({ color: color, alpha: 0.035 });
+          gfx.circle(0, 0, radius + 3.5);
+          gfx.fill({ color: color, alpha: 0.09 });
+        }
+        gfx.circle(0, 0, isTagNode && teaGardenAppearance ? radius + 1.5 : radius);
         gfx.fill({ color: isTagNode ? light : color });
         if (isTagNode) {
           gfx.stroke({ width: 2, color: tertiary });
@@ -639,7 +649,11 @@ import {
             l.gfx.clear();
             l.gfx.moveTo(sx + width / 2, sy + height / 2);
             l.gfx.lineTo(tx + width / 2, ty + height / 2);
-            l.gfx.stroke({ alpha: l.alpha, width: 1, color: l.color });
+            l.gfx.stroke({
+              alpha: l.alpha * (teaGardenAppearance ? 0.58 : 1),
+              width: teaGardenAppearance ? 0.65 : 1,
+              color: teaGardenAppearance ? gray : l.color,
+            });
           }
         }
 

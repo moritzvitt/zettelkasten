@@ -1,6 +1,6 @@
 ---
 title: "Scheduling Problems Caused by Overlap"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Scheduling Problems Caused by Overlap.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/Scheduling Problems Caused by Overlap.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Multilingualism Is Reactivation, Not Constant Performance"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Multilingualism Is Reactivation, Not Constant Performance.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Multilingualism/Multilingualism Is Reactivation, Not Constant Performance.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/multilingualism/functional-fluency]]"

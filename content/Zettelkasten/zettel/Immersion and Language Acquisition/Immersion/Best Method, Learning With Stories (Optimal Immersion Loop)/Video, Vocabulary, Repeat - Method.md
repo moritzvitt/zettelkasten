@@ -1,6 +1,6 @@
 ---
 title: "Video, Vocabulary, Repeat - Method"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Video, Vocabulary, Repeat - Method.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Video, Vocabulary, Repeat - Method.md"
 publish: true
 tags:
   - zettel

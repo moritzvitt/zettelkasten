@@ -1,6 +1,6 @@
 ---
 title: "The Fertile Zone; Language Concepts in a Learnable State (short-term memory - medium-term - long-term memory)"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Fertile Zone; Language Concepts in a Learnable State.md"
 publish: true
 tags:
   - zettel

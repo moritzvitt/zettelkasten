@@ -1,6 +1,6 @@
 ---
 title: "Privatizing Profits While Society Bears the Externalities"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Privatizing Profits While Society Bears the Externalities.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Incentive Problems and Information Asymmetry/Privatizing Profits While Society Bears the Externalities.md"
 publish: true
 tags:
   - zettel

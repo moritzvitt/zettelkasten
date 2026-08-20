@@ -1,6 +1,6 @@
 ---
 title: "Language as Participation in an Information Network"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Learning a Culture.md"
+source: "Zettelkasten/zettel/Communication and Information/Learning a Culture.md"
 publish: true
 tags:
   - zettel

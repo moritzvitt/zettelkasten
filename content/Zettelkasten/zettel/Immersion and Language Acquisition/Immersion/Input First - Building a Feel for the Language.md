@@ -1,6 +1,6 @@
 ---
 title: "Input First - Building a Feel for the Language"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Input First - Building a Feel for the Language.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Input First - Building a Feel for the Language.md"
 publish: true
 tags:
   - zettel

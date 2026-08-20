@@ -1,6 +1,6 @@
 ---
 title: "Learning Kanji"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Learning Kanji.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Learning Kanji.md"
 publish: true
 tags:
   - zettel

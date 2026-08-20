@@ -1,6 +1,6 @@
 ---
 title: "Means of Communication Within a Culture"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Means of Communication Within a Culture.md"
+source: "Zettelkasten/zettel/Communication and Information/Means of Communication Within a Culture.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Forms of Politeness"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Forms of Politeness.md"
+source: "Zettelkasten/zettel/Communication and Information/Forms of Politeness.md"
 publish: true
 tags:
   - zettel

@@ -63,12 +63,16 @@ Das Plugin liefert die benötigten PDF.js-Dateien nach `public/static/pdfjs/` au
 
 Diese Ordner liegen ebenfalls unter `plugins/`, wurden aber nicht als projektspezifische Plugins neu entworfen:
 
-| Plugin                       | Herkunft                                       | Aktiv | Zweck                                                                               |
-| ---------------------------- | ---------------------------------------------- | ----- | ----------------------------------------------------------------------------------- |
-| `graph`                      | `@quartz-community/graph`                      | ja    | Interaktiver lokaler Seitengraph; der globale Graph ist in den Optionen deaktiviert |
-| `obsidian-plugin-excalidraw` | `@quartz-community/obsidian-plugin-excalidraw` | ja    | Rendert Obsidian-Excalidraw-Zeichnungen als interaktive SVG-Seiten                  |
+| Plugin                       | Herkunft                                       | Aktiv | Zweck                                                                                             |
+| ---------------------------- | ---------------------------------------------- | ----- | ------------------------------------------------------------------------------------------------- |
+| `graph`                      | `@quartz-community/graph`                      | ja    | Interaktiver lokaler Seitengraph im optionalen Tea-Garden-Stil; der globale Graph ist deaktiviert |
+| `obsidian-plugin-excalidraw` | `@quartz-community/obsidian-plugin-excalidraw` | ja    | Rendert Obsidian-Excalidraw-Zeichnungen als interaktive SVG-Seiten                                |
 
 `scripts/use-local-graph.mjs` legt für eine definierte Teilmenge der lokalen Ordner Symlinks unter `.quartz/plugins/` an. Direkt mit `source: ./plugins/...` konfigurierte Plugins werden zusätzlich über ihre lokalen Quellen geladen. `scripts/ensure-plugin-index.mjs` erzeugt einen Fallback-Index aus allen vorhandenen `.quartz/plugins/*/dist/index.js`.
+
+Die Graph-Komponente behält ihr klassisches Rendering als Standard. In `quartz.config.yaml` aktiviert `localGraph.appearance: teaGarden` versuchsweise den ruhigen, gerahmten Stil mit größeren Knoten, weichem Farbhalo, offenen Tag-Ringen und feineren Kanten. Drag, Zoom, Hover-Beschriftungen und Navigation bleiben dabei erhalten.
+
+`quartz-themes` wird direkt aus `github:saberzero1/quartz-themes` geladen und stellt die Obsidian-Theme-Variablen für beide Farbschemata bereit. Einige Theme-Pakete liefern verschachteltes SCSS und fehlerhafte Checkbox-Regeln als CSS aus. Der Component-Resources-Emitter normalisiert deshalb ausschließlich erkannte `quartz-themes`-Ressourcen vor dem Minifizieren. Defekte themespezifische Checkbox-Blöcke werden ausgelassen; die vom Plugin separat erzeugten allgemeinen Checkbox-Icons bleiben aktiv. So werden nachfolgende Regeln für Light Mode, Links, Bases und Callouts nicht mehr vom Browser verworfen.
 
 ## Aktivierung und Reihenfolge
 

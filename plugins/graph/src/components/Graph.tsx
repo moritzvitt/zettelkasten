@@ -9,6 +9,7 @@ import style from "./styles/graph.scss";
 import script from "./scripts/graph.inline.ts";
 
 export interface D3Config {
+  appearance?: "classic" | "teaGarden";
   drag: boolean;
   zoom: boolean;
   depth: number;
@@ -31,6 +32,7 @@ export interface GraphOptions {
 
 const defaultOptions: GraphOptions = {
   localGraph: {
+    appearance: "classic",
     drag: true,
     zoom: true,
     depth: 1,
@@ -46,6 +48,7 @@ const defaultOptions: GraphOptions = {
     enableRadial: false,
   },
   globalGraph: {
+    appearance: "classic",
     drag: true,
     zoom: true,
     depth: -1,
@@ -67,8 +70,11 @@ export default ((userOpts?: Partial<GraphOptions>) => {
     const localGraph = { ...defaultOptions.localGraph, ...userOpts?.localGraph };
     const globalGraph = { ...defaultOptions.globalGraph, ...userOpts?.globalGraph };
 
+    const appearanceClass =
+      localGraph.appearance === "teaGarden" ? "graph--tea-garden" : undefined;
+
     return (
-      <div class={classNames(displayClass, "graph")}>
+      <div class={classNames(displayClass, "graph", appearanceClass)}>
         <div class="graph-outer">
           <div class="graph-container" data-cfg={JSON.stringify(localGraph)}></div>
           <button class="global-graph-icon" aria-label="Global Graph">

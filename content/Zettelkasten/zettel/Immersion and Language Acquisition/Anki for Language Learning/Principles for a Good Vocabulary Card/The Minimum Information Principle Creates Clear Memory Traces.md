@@ -1,6 +1,6 @@
 ---
 title: "The Minimum Information Principle Creates Clear Memory Traces"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Creates Clear Memory Traces.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Creates Clear Memory Traces.md"
 publish: true
 tags:
   - zettel

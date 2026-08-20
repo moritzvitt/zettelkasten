@@ -1,6 +1,6 @@
 ---
 title: "Nexus Separates Information From Truth"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Separates Information From Truth.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Separates Information From Truth.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-sees-stories-as-connection-technology]]"

@@ -1,6 +1,6 @@
 ---
 title: "The Minimum Information Principle Makes Reviews Predictable"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Makes Reviews Predictable.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Principles for a Good Vocabulary Card/The Minimum Information Principle Makes Reviews Predictable.md"
 publish: true
 tags:
   - zettel

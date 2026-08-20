@@ -1,6 +1,6 @@
 ---
 title: "Immersion Consolidates Concepts Best in a Learning Loop"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Consolidates Concepts Best in a Learning Loop.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Immersion Consolidates Concepts Best in a Learning Loop.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Enterprise Foundation"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Enterprise Foundation.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Enterprise Foundation.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Guided Attention"
-source: "Digital Garden/Zettelkasten/zettel/Design Principles/Guided Attention.md"
+source: "Zettelkasten/zettel/Design Principles/Guided Attention.md"
 publish: true
 tags:
   - zettel

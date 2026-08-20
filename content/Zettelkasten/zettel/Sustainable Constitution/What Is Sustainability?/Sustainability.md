@@ -1,6 +1,6 @@
 ---
 title: "Sustainability"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/Sustainability.md"
+source: "Zettelkasten/zettel/Sustainable Constitution/What Is Sustainability?/Sustainability.md"
 publish: true
 tags:
   - zettel

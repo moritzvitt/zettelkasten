@@ -1,6 +1,6 @@
 ---
 title: "Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Two Methods for Keeping Many Words in the Fertile Zone, SRS and Learning Lists.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/immersion-and-language-acquisition/anki-for-language-learning/basic-model/the-role-of-srs;-preparing-immersion]]"

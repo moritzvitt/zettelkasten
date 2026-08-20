@@ -1,6 +1,6 @@
 ---
 title: "Nexus Sees AI as a Nonhuman Network Participant"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees AI as a Nonhuman Network Participant.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees AI as a Nonhuman Network Participant.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-compares-democracy-and-dictatorship-as-information-networks]]"

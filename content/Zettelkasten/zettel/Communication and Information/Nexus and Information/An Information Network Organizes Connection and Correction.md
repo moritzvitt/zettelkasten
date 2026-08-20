@@ -1,6 +1,6 @@
 ---
 title: "An Information Network Organizes Connection and Correction"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/An Information Network Organizes Connection and Correction.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/An Information Network Organizes Connection and Correction.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/a-nexus-is-a-connection-node-in-the-flow-of-information]]"

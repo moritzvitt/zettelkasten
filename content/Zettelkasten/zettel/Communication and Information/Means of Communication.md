@@ -1,6 +1,6 @@
 ---
 title: "Means of Communication"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Means of Communication.md"
+source: "Zettelkasten/zettel/Communication and Information/Means of Communication.md"
 publish: true
 tags:
   - zettel

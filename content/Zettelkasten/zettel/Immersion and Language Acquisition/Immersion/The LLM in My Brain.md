@@ -1,6 +1,6 @@
 ---
 title: "The LLM in My Brain"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The LLM in My Brain.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/The LLM in My Brain.md"
 publish: true
 tags:
   - zettel

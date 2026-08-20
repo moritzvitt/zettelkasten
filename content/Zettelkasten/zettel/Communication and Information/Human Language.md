@@ -1,6 +1,6 @@
 ---
 title: "Human Language"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Human Language.md"
+source: "Zettelkasten/zettel/Communication and Information/Human Language.md"
 publish: true
 tags:
   - zettel

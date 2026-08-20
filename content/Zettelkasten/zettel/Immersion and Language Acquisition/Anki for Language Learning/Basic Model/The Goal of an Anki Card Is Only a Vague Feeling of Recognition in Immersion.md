@@ -1,6 +1,6 @@
 ---
 title: "The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/The Goal of an Anki Card Is Only a Vague Feeling of Recognition in Immersion.md"
 publish: true
 tags:
   - zettel

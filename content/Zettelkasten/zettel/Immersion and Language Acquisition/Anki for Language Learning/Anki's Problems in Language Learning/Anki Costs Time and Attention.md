@@ -1,6 +1,6 @@
 ---
 title: "Anki Costs Time and Attention"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Costs Time and Attention.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Anki Costs Time and Attention.md"
 publish: true
 tags:
   - zettel

@@ -1,6 +1,6 @@
 ---
 title: "Frequency Lists Do Not Solve the Problem"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Frequency Lists Do Not Solve the Problem.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Anki's Problems in Language Learning/Frequency Lists Do Not Solve the Problem.md"
 publish: true
 tags:
   - zettel

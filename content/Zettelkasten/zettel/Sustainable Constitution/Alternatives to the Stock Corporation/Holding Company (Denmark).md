@@ -1,6 +1,6 @@
 ---
 title: "Holding Company (Denmark)"
-source: "Digital Garden/Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Holding Company (Denmark).md"
+source: "Zettelkasten/zettel/Sustainable Constitution/Alternatives to the Stock Corporation/Holding Company (Denmark).md"
 publish: true
 tags:
   - zettel

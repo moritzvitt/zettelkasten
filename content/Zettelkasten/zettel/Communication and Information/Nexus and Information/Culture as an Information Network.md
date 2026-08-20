@@ -1,6 +1,6 @@
 ---
 title: "Culture as an Information Network"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Culture as an Information Network.md"
 next:
   - "[[zettelkasten/zettel/communication-and-information/means-of-communication\
     -within-a-culture|Means of Communication Within a Culture]]"

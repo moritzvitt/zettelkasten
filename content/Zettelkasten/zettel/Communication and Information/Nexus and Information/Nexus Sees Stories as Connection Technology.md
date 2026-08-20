@@ -1,6 +1,6 @@
 ---
 title: "Nexus Sees Stories as Connection Technology"
-source: "Digital Garden/Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees Stories as Connection Technology.md"
+source: "Zettelkasten/zettel/Communication and Information/Nexus and Information/Nexus Sees Stories as Connection Technology.md"
 publish: true
 graphLinks:
   - "[[zettelkasten/zettel/communication-and-information/nexus-and-information/nexus-separates-information-from-truth]]"

@@ -1,6 +1,6 @@
 ---
 title: "Videos With Vocabulary Lists"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Videos With Vocabulary Lists.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Videos With Vocabulary Lists.md"
 publish: true
 tags:
   - zettel

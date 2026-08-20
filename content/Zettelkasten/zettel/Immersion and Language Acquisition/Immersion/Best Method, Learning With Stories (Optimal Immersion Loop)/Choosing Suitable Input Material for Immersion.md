@@ -1,6 +1,6 @@
 ---
 title: "Choosing Suitable Input Material for Immersion"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Choosing Suitable Input Material for Immersion.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Immersion/Best Method, Learning With Stories (Optimal Immersion Loop)/Choosing Suitable Input Material for Immersion.md"
 publish: true
 tags:
   - zettel

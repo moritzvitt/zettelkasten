@@ -1,6 +1,6 @@
 ---
 title: "Words With Simple Meanings Can Often Be Almost Fully Learned With Anki"
-source: "Digital Garden/Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Words With Simple Meanings Can Often Be Almost Fully Learned With Anki.md"
+source: "Zettelkasten/zettel/Immersion and Language Acquisition/Anki for Language Learning/Basic Model/Words With Simple Meanings Can Often Be Almost Fully Learned With Anki.md"
 publish: true
 tags:
   - zettel
