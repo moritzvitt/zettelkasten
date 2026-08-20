@@ -55,6 +55,14 @@ article strong {
   text-shadow: none;
 }
 
+// quartz-themes positions Obsidian collapse icons absolutely. Keep Explorer
+// chevrons in its flex layout so they reserve space before folder labels.
+.explorer .explorer-content .folder-container > svg.folder-icon {
+  position: static;
+  opacity: 1;
+  margin: 0 5px 0 0;
+}
+
 article p,
 article li {
   font-size: 1.4rem;

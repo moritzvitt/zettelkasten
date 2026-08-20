@@ -182,6 +182,12 @@ plugins:
     enabled: true
     options:
       localGraph:
+        depth: 1
+        scale: 1.1
+        repelForce: 0.5
+        centerForce: 0.3
+        linkDistance: 30
+        fontSize: 0.6
         showTags: false
         excludeFiles: [index.base, japanese-media.base, french-videos.base]
       globalGraph:
@@ -302,7 +308,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: tokyo-night
+      theme: apple-notes
       mode: both
 layout:
   groups:

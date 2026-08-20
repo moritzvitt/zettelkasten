@@ -1,0 +1,45 @@
+[     257ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     258ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     258ms] [LOG] [Explorer] Starting tree build... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     258ms] [LOG] [Explorer] Fetching content index... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     258ms] [LOG] [Explorer] Fetched data keys: [2026-07-05-wo-bewerben, purpose, zettelkasten/language-learning-theory, zettelkasten/index, zettelkasten/zettel/communication-and-information/body-language] @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     259ms] [LOG] [Explorer] Entry count: 229 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     259ms] [LOG] [Explorer] Trie root children: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     264ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     265ms] [LOG] [Explorer] Trie result: success @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     265ms] [LOG] [Explorer] Rendering 9 children @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[     265ms] [LOG] [Explorer] Render complete, final list length: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    3551ms] [LOG] [Explorer] Nav event received, generation: 2 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    3551ms] [LOG] [Explorer] Found 0 explorers @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    3586ms] TypeError: Cannot read properties of null (reading 'querySelectorAll')
+    at HTMLDocument.v (http://localhost:4173/static/resource-after-5eb75950.js:1:3956)
+    at yu (http://localhost:4173/static/scripts/script-13-7ca62114.js:1:14128)
+    at Zu (http://localhost:4173/static/scripts/script-13-7ca62114.js:1:15523)
+    at async $ (http://localhost:4173/static/scripts/script-13-7ca62114.js:1:15603)
+[    3589ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:4173/favicon.ico:0
+[    5291ms] [LOG] [Explorer] Nav event received, generation: 3 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5291ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5291ms] [LOG] [Explorer] Starting tree build... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5291ms] [LOG] [Explorer] Fetching content index... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5291ms] [LOG] [Explorer] Fetched data keys: [2026-07-05-wo-bewerben, purpose, zettelkasten/language-learning-theory, zettelkasten/index, zettelkasten/zettel/communication-and-information/body-language] @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5291ms] [LOG] [Explorer] Entry count: 229 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5292ms] [LOG] [Explorer] Trie root children: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5292ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5292ms] [LOG] [Explorer] Trie result: success @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5292ms] [LOG] [Explorer] Rendering 9 children @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    5293ms] [LOG] [Explorer] Render complete, final list length: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[    8302ms] [WARNING] The resource http://localhost:4173/prescript-2bfc6315.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4173/journal/:0
+[    8302ms] [WARNING] The resource http://localhost:4173/index-220da3b2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4173/journal/:0
+[   11407ms] [LOG] [Explorer] Nav event received, generation: 4 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11407ms] [LOG] [Explorer] Found 1 explorers @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11407ms] [LOG] [Explorer] Starting tree build... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11407ms] [LOG] [Explorer] Fetching content index... @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11408ms] [LOG] [Explorer] Fetched data keys: [2026-07-05-wo-bewerben, purpose, zettelkasten/language-learning-theory, zettelkasten/index, zettelkasten/zettel/communication-and-information/body-language] @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11408ms] [LOG] [Explorer] Entry count: 229 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11409ms] [LOG] [Explorer] Trie root children: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11609ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11609ms] [LOG] [Explorer] Trie result: success @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11609ms] [LOG] [Explorer] Rendering 9 children @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   11610ms] [LOG] [Explorer] Render complete, final list length: 10 @ http://localhost:4173/static/scripts/script-3-36dd954e.js:0
+[   14672ms] [WARNING] The resource http://localhost:4173/prescript-2bfc6315.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4173/personal/character-sets-for-making-custom-fonts:0
+[   14672ms] [WARNING] The resource http://localhost:4173/index-220da3b2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4173/personal/character-sets-for-making-custom-fonts:0
