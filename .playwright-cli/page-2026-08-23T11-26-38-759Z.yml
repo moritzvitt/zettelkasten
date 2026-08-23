@@ -1,0 +1,176 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - heading [level=2] [ref=e5]:
+      - link "木 M O R I T Z' G A R D E N 木" [ref=e6] [cursor=pointer]:
+        - /url: .
+    - generic [ref=e7]:
+      - button "Suche" [ref=e10] [cursor=pointer]:
+        - img "Search" [ref=e11]
+        - paragraph [ref=e15]: Suche
+      - button "Dunkler Modus" [ref=e17]
+      - button "Lesemodus" [ref=e19] [cursor=pointer]
+    - generic [ref=e20]:
+      - button [expanded] [ref=e21] [cursor=pointer]:
+        - heading "Explorer" [level=2] [ref=e22]
+      - group [ref=e24]:
+        - list [ref=e25]:
+          - listitem [ref=e26]
+          - listitem [ref=e27]:
+            - generic [ref=e28]:
+              - img [ref=e29] [cursor=pointer]
+              - link "journal" [ref=e31] [cursor=pointer]:
+                - /url: /journal/
+          - listitem [ref=e33]:
+            - generic [ref=e34]:
+              - img [ref=e35] [cursor=pointer]
+              - link "languages" [ref=e37] [cursor=pointer]:
+                - /url: /languages/
+          - listitem [ref=e39]:
+            - generic [ref=e40]:
+              - img [ref=e41] [cursor=pointer]
+              - link "media-lib" [ref=e43] [cursor=pointer]:
+                - /url: /media-lib/
+          - listitem [ref=e45]:
+            - generic [ref=e46]:
+              - img [ref=e47] [cursor=pointer]
+              - link "personal" [ref=e49] [cursor=pointer]:
+                - /url: /personal/
+          - listitem [ref=e51]:
+            - generic [ref=e52]:
+              - img [ref=e53] [cursor=pointer]
+              - link "recipes" [ref=e55] [cursor=pointer]:
+                - /url: /recipes/
+          - listitem [ref=e57]:
+            - generic [ref=e58]:
+              - img [ref=e59] [cursor=pointer]
+              - link "workspace" [ref=e61] [cursor=pointer]:
+                - /url: /workspace/
+          - listitem [ref=e63]:
+            - generic [ref=e64]:
+              - img [ref=e65] [cursor=pointer]
+              - link "Zettelkasten" [ref=e67] [cursor=pointer]:
+                - /url: /zettelkasten/
+          - listitem [ref=e69]:
+            - link "2026-07-05 wo bewerben?" [ref=e70] [cursor=pointer]:
+              - /url: /2026-07-05-wo-bewerben
+          - listitem [ref=e71]:
+            - link "Purpose" [ref=e72] [cursor=pointer]:
+              - /url: /purpose
+  - generic [ref=e73]:
+    - article [ref=e74]:
+      - generic [ref=e75]:
+        - paragraph [ref=e76]: Hey, I am Moritz! 😃🙋🏻‍♂️
+        - paragraph [ref=e77]: This is my digital garden. You are very welcome to look around, follow whatever path seems interesting, or just hang out for a while. Sit back, have a tea, and listen to some music while you read!
+        - heading "Learning Japanese" [level=2] [ref=e78]:
+          - text: Learning Japanese
+          - link [ref=e79] [cursor=pointer]:
+            - /url: "#learning-japanese"
+        - paragraph [ref=e83]:
+          - text: I learn languages in a
+          - link "“thematic” immersion" [ref=e84] [cursor=pointer]:
+            - /url: ./zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density
+          - text: approach, centered around topics. That way, it’s easier to acquire vocabulary, since you are more likely to encounter the same or similar words, if you stay in a thematic bubble.
+          - link "japanese-media.base" [ref=e85] [cursor=pointer]:
+            - /url: ./languages/japanese/japanese-media.base
+        - generic [ref=e90]:
+          - generic [ref=e91]: Showing 6 of 6 entries
+          - generic [ref=e92]:
+            - link "What Japanese Girls Find Attractive What Japanese Girls Find Attractive" [ref=e93] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/youtube/what-japanese-girls-find-attractive
+              - img "What Japanese Girls Find Attractive" [ref=e95]
+              - generic "What Japanese Girls Find Attractive" [ref=e97]
+            - link "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young 20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young" [ref=e98] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/youtube/20代でやっておいた方がいいこと-／-things-you-should-do-while-you’re-still-young
+              - img "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young" [ref=e100]
+              - generic "20代でやっておいた方がいいこと ／ Things You Should Do While You’re Still Young" [ref=e102]
+            - link "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice) やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)" [ref=e103] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/youtube/やる気が出ない時、どうすればいい？／-feeling-unmotivated？-watch-this-(japanese-radio-for-listening-practice)
+              - img "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)" [ref=e105]
+              - generic "やる気が出ない時、どうすればいい？／ Feeling Unmotivated？ Watch This (Japanese Radio for Listening practice)" [ref=e107]
+            - link "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた 【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた" [ref=e108] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/youtube/【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた
+              - img "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた" [ref=e110]
+              - generic "【日本移住】日本に来て良かったこと！ドイツハーフキッズに聞いてみた" [ref=e112]
+            - link "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい" [ref=e113] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/youtube/ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい
+              - img "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい" [ref=e115]
+              - generic "ドイツ語嫌いなドイツハーフ娘にドイツ語で話しかけてみたら⋯日本人母とは日本語でしか話せないらしい" [ref=e117]
+            - link "GTO 1 GTO 1" [ref=e118] [cursor=pointer]:
+              - /url: ./languages/japanese/japanese-media-notes/series/gto-1
+              - img "GTO 1" [ref=e120]
+              - generic "GTO 1" [ref=e122]
+        - paragraph
+        - heading "Zettelkasten" [level=2] [ref=e123]:
+          - text: Zettelkasten
+          - link [ref=e124] [cursor=pointer]:
+            - /url: "#zettelkasten"
+        - paragraph [ref=e128]:
+          - text: My
+          - link "Zettelkasten" [ref=e129] [cursor=pointer]:
+            - /url: ./zettelkasten/
+          - text: ", with main focus areas on"
+          - link "Language Learning Theory" [ref=e130] [cursor=pointer]:
+            - /url: ./zettelkasten/language-learning-theory
+          - text: and
+          - link "Sustainability" [ref=e131] [cursor=pointer]:
+            - /url: ./zettelkasten/zettel/sustainable-constitution/what-is-sustainability/sustainability
+        - paragraph [ref=e132]:
+          - text: I got the whole idea for this “Digital Garden” from
+          - link "Jacky Zhao" [ref=e133] [cursor=pointer]:
+            - /url: https://jzhao.xyz/posts/networked-thought
+          - text: . Saying “inspired by” would be an understatement. Make sure to check out his Garden!
+        - paragraph [ref=e136]:
+          - text: The
+          - link "purpose" [ref=e137] [cursor=pointer]:
+            - /url: ./purpose
+          - text: behind this place. 🔖
+          - link "🍕" [ref=e138] [cursor=pointer]:
+            - /url: ./recipes/
+          - link "ㄓㄨˋ ㄧㄣ🇹🇼" [ref=e139] [cursor=pointer]:
+            - /url: ./languages/chinese/zhuyin
+        - paragraph [ref=e140]:
+          - text: This is a collection of
+          - link "Drawings" [ref=e141] [cursor=pointer]:
+            - /url: ./personal/drawings
+          - text: . Here is some
+          - link "pixel art" [ref=e142] [cursor=pointer]:
+            - /url: ./personal/pixel-art
+          - text: I made.
+    - separator [ref=e143]
+    - group [ref=e145]:
+      - generic "Properties 2" [ref=e146] [cursor=pointer]:
+        - generic [ref=e147]: Properties
+        - generic [ref=e148]: "2"
+      - table [ref=e149]:
+        - rowgroup [ref=e150]:
+          - row [ref=e151]:
+            - cell "next" [ref=e152]
+            - cell [ref=e153]:
+              - link "Thematic Immersion Optimizes Re-Encounter Density" [ref=e156] [cursor=pointer]:
+                - /url: ./zettelkasten/zettel/immersion-and-language-acquisition/immersion/best-method,-learning-with-stories-(optimal-immersion-loop)/thematic-immersion-optimizes-re-encounter-density
+          - row [ref=e157]:
+            - cell "previous" [ref=e158]
+            - cell "—" [ref=e159]
+  - generic [ref=e160]:
+    - button "Global Graph" [ref=e164]
+    - generic [ref=e165]:
+      - button [expanded] [ref=e166] [cursor=pointer]:
+        - heading "Inhaltsverzeichnis" [level=3] [ref=e167]
+      - list [ref=e170]:
+        - listitem [ref=e171]:
+          - link "Learning Japanese" [ref=e172] [cursor=pointer]:
+            - /url: "#learning-japanese"
+        - listitem [ref=e173]:
+          - link "Zettelkasten" [ref=e174] [cursor=pointer]:
+            - /url: "#zettelkasten"
+        - listitem [ref=e175]
+  - contentinfo [ref=e176]:
+    - paragraph [ref=e177]:
+      - text: Erstellt mit
+      - link "Quartz v5.0.0" [ref=e178] [cursor=pointer]:
+        - /url: https://quartz.jzhao.xyz/
+      - text: © 2026
+    - list [ref=e179]:
+      - listitem [ref=e180]:
+        - link "Zettelkasten" [ref=e181] [cursor=pointer]:
+          - /url: /

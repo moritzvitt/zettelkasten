@@ -1,0 +1,31 @@
+[     342ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     342ms] [LOG] [Explorer] Found 1 explorers @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     342ms] [LOG] [Explorer] Starting tree build... @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     343ms] [LOG] [Explorer] Fetching content index... @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     343ms] [LOG] [Explorer] Fetched data keys: [2026-07-05-wo-bewerben, purpose, zettelkasten/language-learning-theory, zettelkasten/index, zettelkasten/zettel/communication-and-information/body-language] @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     344ms] [LOG] [Explorer] Entry count: 231 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     344ms] [LOG] [Explorer] Trie root children: 10 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     349ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     349ms] [LOG] [Explorer] Trie result: success @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     349ms] [LOG] [Explorer] Rendering 9 children @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[     350ms] [LOG] [Explorer] Render complete, final list length: 10 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2619ms] [LOG] [Explorer] Nav event received, generation: 1 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2619ms] [LOG] [Explorer] Found 1 explorers @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2619ms] [LOG] [Explorer] Starting tree build... @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2619ms] [LOG] [Explorer] Fetching content index... @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2624ms] [LOG] [Explorer] Fetched data keys: [2026-07-05-wo-bewerben, purpose, zettelkasten/language-learning-theory, zettelkasten/index, zettelkasten/zettel/communication-and-information/body-language] @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2624ms] [LOG] [Explorer] Entry count: 231 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2624ms] [LOG] [Explorer] Trie root children: 10 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2660ms] [LOG] [Explorer] Render generation is current, rendering tree @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2660ms] [LOG] [Explorer] Trie result: success @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2660ms] [LOG] [Explorer] Rendering 9 children @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[    2661ms] [LOG] [Explorer] Render complete, final list length: 10 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[   77222ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/purpose:0
+[   77237ms] [LOG] [Explorer] Nav event received, generation: 2 @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[   77237ms] [LOG] [Explorer] Found 0 explorers @ http://127.0.0.1:4173/static/scripts/script-3-36dd954e.js:0
+[   77243ms] TypeError: Cannot read properties of null (reading 'querySelectorAll')
+    at HTMLDocument.v (http://127.0.0.1:4173/static/resource-after-5eb75950.js:1:3956)
+    at yu (http://127.0.0.1:4173/static/scripts/script-13-7ca62114.js:1:14128)
+    at Zu (http://127.0.0.1:4173/static/scripts/script-13-7ca62114.js:1:15523)
+    at async $ (http://127.0.0.1:4173/static/scripts/script-13-7ca62114.js:1:15603)
+[   77272ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://127.0.0.1:4173/favicon.ico:0

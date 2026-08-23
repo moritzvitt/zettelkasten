@@ -26,6 +26,21 @@ body {
   font-synthesis-weight: none;
 }
 
+.page-title {
+  margin: 0;
+}
+
+.page-title > a {
+  display: block;
+  width: min(100%, 15rem);
+  aspect-ratio: 113.16244 / 42.090168;
+  overflow: hidden;
+  background: url("static/page-title-logo.svg") center / contain no-repeat;
+  color: transparent;
+  font-size: 0;
+  line-height: 0;
+}
+
 :root[standard-font="on"] body {
   font-weight: 400;
   font-synthesis-weight: auto;

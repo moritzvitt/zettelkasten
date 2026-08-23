@@ -156,7 +156,7 @@ plugins:
     options:
       title: Explorer
       folderClickBehavior: link
-      folderDefaultState: collapsed
+      folderDefaultState: open
       useSavedState: true
       filterFn: |
         (node) => {
