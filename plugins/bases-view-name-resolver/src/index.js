@@ -671,6 +671,7 @@ export function configureObsidianBasesPage(root, _slug, componentData) {
     const options = fileData.basesOptions ?? {}
     fileData.basesOptions = {
       ...options,
+      defaultViewType: options.defaultViewType ?? fileData.basesData.views[0]?.type,
       customViews: {
         ...(options.customViews ?? {}),
         cards: ObsidianCardsView,

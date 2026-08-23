@@ -643,7 +643,17 @@ export function alignHeadingIdsWithToc(root: Root, toc: unknown) {
         const text = hastText(child).trim()
         const index = remaining.findIndex((entry) => String(entry.text).trim() === text)
         if (index >= 0) {
-          child.properties.id = String(remaining[index].slug)
+          const previousId = child.properties.id
+          const nextId = String(remaining[index].slug)
+          if (typeof previousId === "string" && previousId && previousId !== nextId) {
+            child.children.unshift({
+              type: "element",
+              tagName: "span",
+              properties: { id: previousId, className: ["block-reference-anchor"] },
+              children: [],
+            })
+          }
+          child.properties.id = nextId
           remaining.splice(index, 1)
         }
       }

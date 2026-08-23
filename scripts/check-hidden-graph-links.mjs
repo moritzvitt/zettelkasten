@@ -2,7 +2,8 @@ import { readFile, readdir } from "node:fs/promises"
 import path from "node:path"
 import YAML from "yaml"
 
-const vaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
+const vaultRoot =
+  "/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes"
 const digitalGardenRoot =
   process.env.ZETTEL_SOURCE_ROOT ||
   process.env.DIGITAL_GARDEN_ROOT ||

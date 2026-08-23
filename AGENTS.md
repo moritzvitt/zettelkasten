@@ -17,7 +17,7 @@ Standardpfade:
 
 ```txt
 Repository: /Users/moritzvitt/src/zettelkasten-website
-Vault:      /Users/moritzvitt/Notes/Obsidian Notes
+Vault:      /Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes
 ```
 
 Vor Quartz-bezogenen Änderungen sind mindestens die einschlägigen Notizen unter `Vault/Quartz/` zu lesen. Bei allgemeinen Vault-Arbeiten beginnt die Orientierung mit:

@@ -53,6 +53,26 @@ test("aligns heading ids with matching table-of-contents entries", () => {
   alignHeadingIdsWithToc(root, [{ slug: "claim", text: "Claim" }])
 
   assert.equal(heading.properties.id, "claim")
+  assert.deepEqual(heading.children[0], {
+    type: "element",
+    tagName: "span",
+    properties: { id: "8772ee", className: ["block-reference-anchor"] },
+    children: [],
+  })
+})
+
+test("does not add a compatibility anchor when a heading id already matches the toc", () => {
+  const heading: Element = {
+    type: "element",
+    tagName: "h2",
+    properties: { id: "claim" },
+    children: [{ type: "text", value: "Claim" }],
+  }
+  const root: Root = { type: "root", children: [heading] }
+
+  alignHeadingIdsWithToc(root, [{ slug: "claim", text: "Claim" }])
+
+  assert.equal(heading.children.length, 1)
 })
 
 function makeComponentData(

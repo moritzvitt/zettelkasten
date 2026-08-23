@@ -86,7 +86,7 @@ plugins:
   - source: ./plugins/local-media-player
     enabled: true
     options:
-      mediaRoot: /Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media
+      mediaRoot: /Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes/Digital Garden/media-lib/Media
       route: /local-media
       aliasManifest: private/local-media-aliases.json
     order: 65
@@ -308,7 +308,7 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: apple-notes
+      theme: tokyo-night
       mode: both
 layout:
   groups:

@@ -31,7 +31,7 @@ Human-Notizen sind menschenlesbar, wartbar und maßgeblich. Agent-Notizen dürfe
 Der Vault liegt standardmäßig unter:
 
 ```txt
-/Users/moritzvitt/Notes/Obsidian Notes
+/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes
 ```
 
 Quartz-bezogene Wünsche und Erklärungen liegen dort hauptsächlich unter `Quartz/`; allgemeine Zusammenarbeits- und Wartungsregeln unter `workspace/`.

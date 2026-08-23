@@ -14,7 +14,8 @@ import { assetHref } from "./asset-path.mjs"
 import { renderPdfEmbed } from "./pdf-embed.mjs"
 import { learningClipsFromSources } from "../plugins/local-media-player/src/learning-clips.js"
 
-const defaultVaultRoot = "/Users/moritzvitt/Notes/Obsidian Notes"
+const defaultVaultRoot =
+  "/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes"
 const vaultRoot =
   process.env.ZETTEL_SOURCE_ROOT || process.env.DIGITAL_GARDEN_ROOT || defaultVaultRoot
 const nestedDigitalGardenRoot = path.join(vaultRoot, "Digital Garden")

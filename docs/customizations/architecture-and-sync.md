@@ -25,7 +25,7 @@ flowchart LR
 Standardquelle ist der gesamte Vault:
 
 ```txt
-/Users/moritzvitt/Notes/Obsidian Notes
+/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes
 ```
 
 Eine Markdown-Notiz wird nur veröffentlicht, wenn ihr Frontmatter ausdrücklich `publish: true` oder `dg-publish: true` enthält. `draft: true`, `publish: false` und `dg-publish: false` schließen sie aus. Die Ordner `.git`, `.obsidian`, `.trash` und `node_modules` werden nicht durchsucht.

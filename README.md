@@ -5,7 +5,7 @@ Dieses Projekt veröffentlicht ausgewählte Zettel aus dem Obsidian-Vault als Qu
 Die Quelle ist standardmäßig:
 
 ```txt
-/Users/moritzvitt/Notes/Obsidian Notes
+/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes
 ```
 
 Der Build schreibt die Website nach `public/`; dieser Ordner wird nicht committed.

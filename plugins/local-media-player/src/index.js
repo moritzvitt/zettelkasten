@@ -5,7 +5,8 @@ import { visit } from "unist-util-visit"
 
 const markerOrigin = "https://local-media.invalid"
 const defaultOptions = {
-  mediaRoot: "/Users/moritzvitt/Notes/Obsidian Notes/Digital Garden/media-lib/Media",
+  mediaRoot:
+    "/Users/moritzvitt/Library/Mobile Documents/iCloud~md~obsidian/Documents/Obsidian Notes/Digital Garden/media-lib/Media",
   route: "/local-media",
   copyMedia: false,
   aliasManifest: "private/local-media-aliases.json",

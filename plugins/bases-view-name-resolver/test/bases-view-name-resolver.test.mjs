@@ -297,4 +297,18 @@ test("injects the Obsidian cards renderer into standalone Bases options", () => 
   assert.equal(componentData.fileData.basesOptions.linkResolution, "shortest")
   assert.equal(componentData.fileData.basesOptions.customViews.cards, ObsidianCardsView)
   assert.equal(componentData.fileData.basesOptions.customViews["mx-media-lib"], ObsidianCardsView)
+  assert.equal(componentData.fileData.basesOptions.defaultViewType, "cards")
+})
+
+test("preserves an explicitly configured standalone default view type", () => {
+  const componentData = {
+    fileData: {
+      basesData: { views: [{ type: "cards" }, { type: "table" }] },
+      basesOptions: { defaultViewType: "table" },
+    },
+  }
+
+  configureObsidianBasesPage({ type: "root", children: [] }, "media.base", componentData)
+
+  assert.equal(componentData.fileData.basesOptions.defaultViewType, "table")
 })
